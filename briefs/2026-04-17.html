@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Brief | 2026-04-17</title>
+    <meta name="description" content="2026-04-13부터 2026-04-15까지의 AI Brief" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f7f0e8;
+        --panel: rgba(255, 255, 255, 0.78);
+        --line: rgba(29, 36, 42, 0.1);
+        --text: #1d242a;
+        --muted: #5f6b76;
+        --accent: #0d7a6f;
+        --warm: #d96b41;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--text);
+        font-family: "Manrope", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(217, 107, 65, 0.18), transparent 24%),
+          radial-gradient(circle at top right, rgba(13, 122, 111, 0.14), transparent 26%),
+          linear-gradient(180deg, #fbf7f2 0%, var(--bg) 46%, #f1e8de 100%);
+      }
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(29, 36, 42, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(29, 36, 42, 0.035) 1px, transparent 1px);
+        background-size: 36px 36px;
+        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), transparent 88%);
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .wrap { width: min(calc(100% - 32px), 1180px); margin: 0 auto; padding: 28px 0 64px; }
+      .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+      .home-btn, .meta-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        font-weight: 800;
+      }
+      .meta-pill { color: var(--muted); }
+      .hero {
+        margin-top: 18px;
+        border-radius: 34px;
+        padding: 34px;
+        background: linear-gradient(145deg, rgba(255,255,255,0.94), rgba(255,248,242,0.84));
+        border: 1px solid rgba(255,255,255,0.64);
+        box-shadow: 0 24px 60px rgba(29,36,42,0.12);
+      }
+      .eyebrow {
+        display: inline-flex;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.12);
+        color: var(--accent);
+        font-size: 0.8rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      h1 {
+        margin: 18px 0 12px;
+        font-size: clamp(2.5rem, 5vw, 4.7rem);
+        line-height: 0.95;
+        letter-spacing: -0.05em;
+      }
+      .accent-line {
+        display: block;
+        color: var(--warm);
+        font-family: "Instrument Serif", serif;
+        font-style: italic;
+        font-weight: 400;
+      }
+      .lead { max-width: 760px; margin: 0; color: var(--muted); line-height: 1.72; }
+      .section { margin-top: 34px; }
+      .section-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 16px; }
+      .section-head h2 { margin: 0; font-size: clamp(1.45rem, 3vw, 2.15rem); letter-spacing: -0.04em; }
+      .section-head p { margin: 8px 0 0; color: var(--muted); }
+      .count-pill {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        color: var(--muted);
+        font-size: 0.84rem;
+        font-weight: 800;
+      }
+      .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+      .card {
+        border-radius: 28px;
+        background: var(--panel);
+        border: 1px solid rgba(255,255,255,0.68);
+        box-shadow: 0 20px 42px rgba(29,36,42,0.08);
+        overflow: hidden;
+      }
+      .card-head { padding: 22px 22px 0; }
+      .card-title { margin: 0; font-size: 1.16rem; line-height: 1.45; letter-spacing: -0.03em; }
+      .card-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+      .tag {
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.74);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+      .card-body { padding: 18px 22px 22px; }
+      .detail-list { display: grid; gap: 14px; }
+      .detail-item {
+        padding: 14px 15px;
+        border-radius: 18px;
+        background: rgba(255,255,255,0.72);
+        border: 1px solid rgba(29,36,42,0.08);
+      }
+      .detail-label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--warm);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .detail-text { margin: 0; font-size: 0.96rem; line-height: 1.72; }
+      .empty {
+        padding: 22px;
+        border-radius: 24px;
+        background: rgba(255,255,255,0.74);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-weight: 800;
+      }
+      @media (max-width: 900px) {
+        .cards { grid-template-columns: 1fr; }
+        .topbar, .section-head { flex-direction: column; align-items: flex-start; }
+      }
+      @media (max-width: 640px) {
+        .wrap { width: min(calc(100% - 20px), 1180px); }
+        .hero { padding: 22px; border-radius: 28px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="topbar">
+        <a class="home-btn" href="../index.html">메인으로 이동</a>
+        <div class="meta-pill">run date 2026-04-17 / window 2026-04-13 ~ 2026-04-15</div>
+      </div>
+
+      <header class="hero">
+        <div class="eyebrow">Archive Brief</div>
+        <h1>
+          AI Brief
+          <span class="accent-line">2026-04-17</span>
+        </h1>
+        <p class="lead">
+          금요일 임시 실행 기준으로 정리한 브리프입니다. 가장 최근 정기 실행일인 2026-04-16(목)을 기준 삼아,
+          2026-04-13부터 2026-04-15까지의 기사만 포함했습니다.
+        </p>
+      </header>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Video AI</h2>
+            <p>영상 생성과 편집 워크플로에 직접 닿는 업데이트 중심</p>
+          </div>
+          <div class="count-pill">1 item</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Adobe, Firefly AI Assistant와 Firefly Video Editor 확장 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-15</span>
+                <span class="tag">출처 Adobe Newsroom</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Adobe는 Firefly 안에 창작용 에이전트인 Firefly AI Assistant를 도입하고, Firefly Video Editor에 오디오 보정, 색보정, Adobe Stock 연동을 추가했다. 동시에 Kling 3.0 계열을 포함한 30개 이상 외부 모델을 통합해 생성부터 후반 편집까지 한 흐름으로 묶는 방향을 분명히 했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드 숏폼과 광고 소재를 반복 제작하는 팀은 생성형 영상과 편집 툴 사이를 오가는 비용이 줄어들 수 있어 캠페인 턴어라운드가 더 빨라질 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://news.adobe.com/news/2026/04/adobe-new-creative-agent" target="_blank" rel="noreferrer">https://news.adobe.com/news/2026/04/adobe-new-creative-agent</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Music AI</h2>
+            <p>권리 구조와 생성 툴의 균형이 핵심 이슈였던 구간</p>
+          </div>
+          <div class="count-pill">1 item</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">캐나다 SOCAN, AI가 창작자 생계에 압박을 주고 있다고 경고</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-14</span>
+                <span class="tag">출처 Music Business Worldwide</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">캐나다 저작권 단체 SOCAN은 2025년 분배 실적을 공개하면서 디지털 수익 증가와 별개로 AI가 음악 권리와 창작자 생계에 더 큰 압박을 주고 있다고 밝혔다. 무단 학습을 막기 위한 정책 대응이 총리 레벨 논의로 올라갔다는 점도 강조됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">AI 음악을 활용하는 캠페인은 생성 품질보다 먼저 데이터 출처, 동의, 보상 구조를 검토해야 리스크를 줄일 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.musicbusinessworldwide.com/canadas-socan-paid-out-usd-366m-to-rightsholders-in-2025-warns-ai-is-placing-mounting-pressure-on-livelihoods/" target="_blank" rel="noreferrer">https://www.musicbusinessworldwide.com/canadas-socan-paid-out-usd-366m-to-rightsholders-in-2025-warns-ai-is-placing-mounting-pressure-on-livelihoods/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Design AI</h2>
+            <p>생성 기능이 보조 기능을 넘어 에이전트형 제작 환경으로 이동하던 시점</p>
+          </div>
+          <div class="count-pill">2 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Adobe, Firefly AI Assistant로 대화형 디자인 워크플로 제시</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-15</span>
+                <span class="tag">출처 Adobe Newsroom</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Adobe는 Photoshop, Illustrator, Lightroom, Express, Premiere 등 여러 앱을 하나의 대화형 인터페이스로 묶는 Firefly AI Assistant를 공개했다. 생성형 기능을 개별 툴의 부가기능이 아니라 전체 크리에이티브 워크플로를 조율하는 계층으로 올리겠다는 신호에 가깝다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브리프 작성부터 시안 수정과 파생 제작까지 한 흐름으로 이어질 수 있어, 작은 팀도 더 많은 캠페인 버전을 빠르게 돌릴 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://news.adobe.com/news/2026/04/adobe-new-creative-agent" target="_blank" rel="noreferrer">https://news.adobe.com/news/2026/04/adobe-new-creative-agent</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Canva, ‘The next era of Canva’에서 대형 AI 전환을 예고</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-13</span>
+                <span class="tag">출처 Canva Newsroom</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Canva는 공식 글에서 자사 AI 제품 사용량이 270억 회를 넘었고 최근 1년 사이 사용이 3배 증가했다고 밝히며, 대형 제품 전환을 예고했다. 이 글 자체는 티저 성격이지만 디자인 툴이 AI 중심 제작 플랫폼으로 재정의되고 있음을 수치와 함께 보여줬다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">Canva 중심 팀은 생성, 문서화, 퍼블리싱, 협업이 한곳으로 더 강하게 통합될 가능성에 대비해 워크플로 정비가 필요해질 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.canva.com/newsroom/news/canva-next-era/" target="_blank" rel="noreferrer">https://www.canva.com/newsroom/news/canva-next-era/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>AI Content/Marketing Issues</h2>
+            <p>콘텐츠 유통과 신뢰 체계를 흔드는 구조적 이슈</p>
+          </div>
+          <div class="count-pill">2 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">퍼블리셔들이 AI 봇과 제3자 스크레이퍼 증가에 직면</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-13</span>
+                <span class="tag">출처 Digiday</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Digiday는 대형 AI 기업뿐 아니라 제3자 스크레이퍼 생태계가 퍼블리셔 콘텐츠를 긁어가고 재판매하는 구조가 커지고 있다고 전했다. 데이터를 가져가는 주체와 실제 수익화 주체가 분리되면서, 콘텐츠 소유자가 누가 무엇을 가져가는지 파악하기 어려워졌다는 점이 핵심 문제로 제시됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">미디어와 브랜드 콘텐츠 팀은 SEO만이 아니라 AI 크롤링 통제, 라이선싱, 재사용 추적 체계를 함께 설계해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://digiday.com/media/in-graphic-detail-new-data-shows-publishers-face-growing-ai-bot-third-party-scraper-activity/" target="_blank" rel="noreferrer">https://digiday.com/media/in-graphic-detail-new-data-shows-publishers-face-growing-ai-bot-third-party-scraper-activity/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">브라질 법원, 인위적 스트리밍·가짜 참여 판매 사이트 차단 명령</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-13</span>
+                <span class="tag">출처 Music Business Worldwide</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">상파울루 법원은 Spotify, SoundCloud, YouTube Music 등을 상대로 인위적 재생 수와 가짜 좋아요·팔로워를 판매한 사이트 차단을 명령했다. 생성형 AI 직접 이슈는 아니지만, AI 시대에 더 빠르게 확산되는 합성 참여와 조작 지표에 대한 플랫폼·권리 단체의 집행 강화로 읽힌다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">캠페인 성과를 조회수와 참여 지표에만 의존하면 조작 리스크에 취약해져, 검증 기준을 더 엄격하게 가져갈 필요가 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.musicbusinessworldwide.com/sao-paulo-court-orders-shutdown-of-streaming-fraud-site-in-latest-operation-authentica-ruling/" target="_blank" rel="noreferrer">https://www.musicbusinessworldwide.com/sao-paulo-court-orders-shutdown-of-streaming-fraud-site-in-latest-operation-authentica-ruling/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

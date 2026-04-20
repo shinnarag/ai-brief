@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Brief | 2026-04-20</title>
+    <meta name="description" content="2026-04-16부터 2026-04-19까지의 AI Brief" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f7f0e8;
+        --panel: rgba(255, 255, 255, 0.78);
+        --line: rgba(29, 36, 42, 0.1);
+        --text: #1d242a;
+        --muted: #5f6b76;
+        --accent: #0d7a6f;
+        --warm: #d96b41;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--text);
+        font-family: "Manrope", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(217, 107, 65, 0.18), transparent 24%),
+          radial-gradient(circle at top right, rgba(13, 122, 111, 0.14), transparent 26%),
+          linear-gradient(180deg, #fbf7f2 0%, var(--bg) 46%, #f1e8de 100%);
+      }
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(29, 36, 42, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(29, 36, 42, 0.035) 1px, transparent 1px);
+        background-size: 36px 36px;
+        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), transparent 88%);
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .wrap { width: min(calc(100% - 32px), 1180px); margin: 0 auto; padding: 28px 0 64px; }
+      .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+      .home-btn, .meta-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        font-weight: 800;
+      }
+      .meta-pill { color: var(--muted); }
+      .hero {
+        margin-top: 18px;
+        border-radius: 34px;
+        padding: 34px;
+        background: linear-gradient(145deg, rgba(255,255,255,0.94), rgba(255,248,242,0.84));
+        border: 1px solid rgba(255,255,255,0.64);
+        box-shadow: 0 24px 60px rgba(29,36,42,0.12);
+      }
+      .eyebrow {
+        display: inline-flex;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.12);
+        color: var(--accent);
+        font-size: 0.8rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      h1 {
+        margin: 18px 0 12px;
+        font-size: clamp(2.5rem, 5vw, 4.7rem);
+        line-height: 0.95;
+        letter-spacing: -0.05em;
+      }
+      .accent-line {
+        display: block;
+        color: var(--warm);
+        font-family: "Instrument Serif", serif;
+        font-style: italic;
+        font-weight: 400;
+      }
+      .lead { max-width: 760px; margin: 0; color: var(--muted); line-height: 1.72; }
+      .section { margin-top: 34px; }
+      .section-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 16px; }
+      .section-head h2 { margin: 0; font-size: clamp(1.45rem, 3vw, 2.15rem); letter-spacing: -0.04em; }
+      .section-head p { margin: 8px 0 0; color: var(--muted); }
+      .count-pill {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        color: var(--muted);
+        font-size: 0.84rem;
+        font-weight: 800;
+      }
+      .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+      .card {
+        border-radius: 28px;
+        background: var(--panel);
+        border: 1px solid rgba(255,255,255,0.68);
+        box-shadow: 0 20px 42px rgba(29,36,42,0.08);
+        overflow: hidden;
+      }
+      .card-head { padding: 22px 22px 0; }
+      .card-title { margin: 0; font-size: 1.16rem; line-height: 1.45; letter-spacing: -0.03em; }
+      .card-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+      .tag {
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.74);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+      .card-body { padding: 18px 22px 22px; }
+      .detail-list { display: grid; gap: 14px; }
+      .detail-item {
+        padding: 14px 15px;
+        border-radius: 18px;
+        background: rgba(255,255,255,0.72);
+        border: 1px solid rgba(29,36,42,0.08);
+      }
+      .detail-label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--warm);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .detail-text { margin: 0; font-size: 0.96rem; line-height: 1.72; }
+      .empty {
+        padding: 22px;
+        border-radius: 24px;
+        background: rgba(255,255,255,0.74);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-weight: 800;
+      }
+      @media (max-width: 900px) {
+        .cards { grid-template-columns: 1fr; }
+        .topbar, .section-head { flex-direction: column; align-items: flex-start; }
+      }
+      @media (max-width: 640px) {
+        .wrap { width: min(calc(100% - 20px), 1180px); }
+        .hero { padding: 22px; border-radius: 28px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="topbar">
+        <a class="home-btn" href="../index.html">메인으로 이동</a>
+        <div class="meta-pill">run date 2026-04-20 / window 2026-04-16 ~ 2026-04-19</div>
+      </div>
+
+      <header class="hero">
+        <div class="eyebrow">Monday Brief</div>
+        <h1>
+          AI Brief
+          <span class="accent-line">2026-04-20</span>
+        </h1>
+        <p class="lead">
+          오늘은 월요일 실행 규칙에 맞춰 2026-04-16부터 2026-04-19까지의 기사만 포함했습니다. 공식 발표, 제품 업데이트,
+          릴리즈 노트와 신뢰 가능한 매체 보도를 우선해서 중복을 정리했습니다.
+        </p>
+      </header>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Video AI</h2>
+            <p>영상 생성 툴 업데이트와 AI 영상 활용 이슈를 함께 반영</p>
+          </div>
+          <div class="count-pill">2 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">OpenAI, Sora 서비스 종료 안내와 데이터 내보내기 일정을 공지</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-18</span>
+                <span class="tag">출처 OpenAI Help Center</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">OpenAI는 도움말 업데이트에서 Sora 웹과 앱 경험을 2026-04-26에 종료하고, Sora API는 2026-09-24에 종료한다고 안내했다. 기존 이용자에게는 종료 전 영상과 이미지를 내보내라고 권고했고, 남은 크레딧은 Codex에 사용할 수 있다고 명시했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">Sora를 테스트나 파일 보관 용도로 쓰던 팀은 지금 바로 에셋 백업과 대체 영상 생성 워크플로 전환 계획을 잡는 편이 안전하다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://help.openai.com/en/articles/20001152" target="_blank" rel="noreferrer">https://help.openai.com/en/articles/20001152</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">AI로 복원한 Val Kilmer 출연 트레일러가 AI 영상 윤리 논의를 재점화</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-16</span>
+                <span class="tag">출처 Rolling Stone Australia</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Rolling Stone Australia는 영화 `As Deep as the Grave` 예고편에서 고인이 된 Val Kilmer의 외형이 매우 사실적으로 구현됐고, 이 작업이 유족의 지원 아래 진행됐다고 보도했다. 기사 자체는 한 트레일러 사례지만, AI 영상이 배우의 초상과 연기를 어떤 방식으로 재가공하는지 보여주는 상징적인 사례다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드 영상이나 광고에서 인물 합성 기술을 쓸 때는 초상권과 유가족·권리자 동의 체계를 먼저 갖추지 않으면 역풍이 커질 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://au.rollingstone.com/movies/movie-news/val-kilmer-ai-as-deep-as-the-grave-movie-trailer-93717/" target="_blank" rel="noreferrer">https://au.rollingstone.com/movies/movie-news/val-kilmer-ai-as-deep-as-the-grave-movie-trailer-93717/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Music AI</h2>
+            <p>툴 업그레이드보다 라이선스와 보상 구조가 차별점으로 떠오른 흐름</p>
+          </div>
+          <div class="count-pill">1 item</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Splice, 원본 샘플 제작자 보상을 전제로 한 AI 음악 도구 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-16</span>
+                <span class="tag">출처 Music Business Worldwide</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Splice는 Variations, Craft, Magic Fit 세 가지 AI 기능을 공개하며, 300만 개 이상 인간 제작 샘플을 기반으로 생성된 결과에도 원본 제작자 보상이 이어진다고 설명했다. 각 사운드는 원 제작자까지 추적 가능하고, 결과물은 상업적 이용이 가능하다고 못 박았다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드 콘텐츠용 AI 음악을 만들 때도 이제는 단순 생성 품질보다 라이선스 추적성과 보상 구조가 실제 도입의 핵심 체크포인트가 될 가능성이 크다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.musicbusinessworldwide.com/splice-launches-ai-tools-that-compensate-sample-creators-when-their-sounds-are-used/" target="_blank" rel="noreferrer">https://www.musicbusinessworldwide.com/splice-launches-ai-tools-that-compensate-sample-creators-when-their-sounds-are-used/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Design AI</h2>
+            <p>이번 윈도우는 사실상 Canva 주간이라고 해도 될 만큼 제품 발표가 집중</p>
+          </div>
+          <div class="count-pill">3 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Canva AI 2.0, 대화형·에이전트형 디자인 플랫폼으로 전환</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-16</span>
+                <span class="tag">출처 Canva Newsroom</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Canva는 자사 창립 이후 가장 큰 제품 전환이라며 Canva AI 2.0을 발표했다. Canva Design Model을 바탕으로 한 이 제품은 한 번의 프롬프트로 완전한 레이어 구조의 편집 가능한 결과물을 만들고, connectors·scheduling·web research·brand intelligence·Sheets AI·Canva Code 2.0 같은 새 워크플로를 함께 묶는다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">마케터와 디자이너가 브리프만으로 멀티채널 캠페인 초안을 빠르게 만들고, 결과물을 그대로 수정 가능한 상태로 이어받을 수 있다는 점이 매우 크다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.canva.com/newsroom/news/canva-create-2026-ai/" target="_blank" rel="noreferrer">https://www.canva.com/newsroom/news/canva-create-2026-ai/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Canva, Claude Design 연동과 HTML 임포트 편집 기능 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-17</span>
+                <span class="tag">출처 Canva Newsroom</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Canva는 Anthropic의 Claude Design 안으로 Canva Design Engine과 Visual Suite를 들여와, Claude에서 만든 초안을 Canva에서 곧바로 편집 가능한 디자인으로 바꿀 수 있게 했다고 밝혔다. 여기에 AI가 만든 HTML과 아티팩트를 드래그앤드롭으로 수정하는 기능까지 더해 코드 결과물을 비디자이너도 다루기 쉬운 흐름으로 만들었다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">랜딩 페이지, 위젯, 인터랙티브 콘텐츠를 LLM에서 뽑아낸 뒤 마케팅 팀이 바로 브랜드에 맞게 고칠 수 있어 제작 병목이 줄어들 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.canva.com/newsroom/news/canva-claude-design/" target="_blank" rel="noreferrer">https://www.canva.com/newsroom/news/canva-claude-design/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Canva Create에서 Pro Design·Affinity·Claude 연동 확장 발표</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-16</span>
+                <span class="tag">출처 Canva Newsroom</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Canva는 같은 날 별도 발표를 통해 Professional Suite 확장, Cavalry 무료화, Brand System의 Affinity 내 도입, Capture One·DaVinci Resolve·Claude 연동 확대를 공개했다. 교육용 Learn Grid에는 AI 기반 활동 생성 기능도 포함돼 디자인과 문서, 학습 자산 생성 흐름을 넓혔다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">모션, 브랜딩, 프린트, 문서 작업을 분리해 쓰던 팀은 Canva/Affinity 축으로 툴 스택을 재정렬할 유인이 더 커졌다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.canva.com/newsroom/news/canva-create-2026-launches/" target="_blank" rel="noreferrer">https://www.canva.com/newsroom/news/canva-create-2026-launches/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>AI Content/Marketing Issues</h2>
+            <p>광고 측정, 가격, 퍼블리셔 운영까지 AI가 마케팅 구조를 바꾸는 움직임</p>
+          </div>
+          <div class="count-pill">4 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">OpenAI, ChatGPT 광고 전환 추적용 측정 인프라 구축 중</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-16</span>
+                <span class="tag">출처 Digiday</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Digiday는 OpenAI가 ChatGPT 광고 클릭 이후 회원가입, 구매, 예약 같은 행동을 추적하는 전환 픽셀을 준비 중이라고 보도했다. 이는 ChatGPT 광고가 단순 브랜드 테스트를 넘어 실제 퍼포먼스 예산을 받을 수 있는 구조로 빠르게 진화하고 있음을 보여준다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드는 이제 ChatGPT 광고를 단순 실험 채널이 아니라 성과 측정이 가능한 신규 퍼포먼스 채널 후보로 보기 시작해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://digiday.com/marketing/openai-builds-tool-to-track-whether-chatgpt-ads-convert/" target="_blank" rel="noreferrer">https://digiday.com/marketing/openai-builds-tool-to-track-whether-chatgpt-ads-convert/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">ChatGPT 광고 단가 하락, 초기 가격 탐색 국면 진입</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-17</span>
+                <span class="tag">출처 Digiday</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Digiday에 따르면 ChatGPT 광고의 CPM은 시범 도입 초기의 60달러 수준에서 최근 25달러대까지 내려오고 있다. 아직 실험 단계이지만, 수요·재고·구매 경로를 조정하는 초기 가격 발견 과정이 시작됐다는 해석이 가능하다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">성과 지표가 정립되기 전 저비용 실험을 해볼 수 있는 구간이지만, 아직 단가만 보고 진입하기보다는 전환 측정 설계와 함께 봐야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://digiday.com/marketing/everything-is-coming-down-chatgpt-ads-are-getting-cheaper/" target="_blank" rel="noreferrer">https://digiday.com/marketing/everything-is-coming-down-chatgpt-ads-are-getting-cheaper/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">퍼블리셔들이 AI 코딩 도구로 자체 워크플로를 만드는 ‘SaaS-pocalypse’ 확산</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-16</span>
+                <span class="tag">출처 Digiday</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Digiday는 AI 코딩 도구 덕분에 퍼블리셔들이 더 싸고 빠르게 자체 앱과 내부 워크플로를 만들 수 있게 되면서, 기존 SaaS를 계속 살지 직접 만들지 재검토하는 흐름이 커지고 있다고 전했다. 이는 콘텐츠 조직의 운영 구조 자체가 AI 영향권 안으로 들어오고 있다는 신호다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">콘텐츠·마케팅 조직은 외부 마테크 구독을 늘리는 대신, AI 지원 내재화 도구를 직접 만드는 방향으로 예산을 재배분할 가능성이 커졌다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://digiday.com/media/media-briefing-the-saas-pocalypse-is-spreading-to-publishers/" target="_blank" rel="noreferrer">https://digiday.com/media/media-briefing-the-saas-pocalypse-is-spreading-to-publishers/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">AI 앱 붐이 다시 앱스토어 출시 증가를 이끈다는 분석 등장</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-18</span>
+                <span class="tag">출처 TechCrunch</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">TechCrunch는 Appfigures 분석을 인용해 2026년 1분기 앱 출시 수가 전년 대비 60% 늘었고, 4월 들어서는 더 가파르게 증가하고 있다고 전했다. AI가 앱을 대체할 것이라는 전망과 달리, 오히려 AI 덕분에 새로운 앱 제작과 배포가 다시 늘고 있다는 해석이 나온다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드의 owned media 전략에서도 챗봇만 보는 시각보다, AI를 활용해 앱 자체를 더 빠르게 만들고 실험하는 전략이 다시 중요해질 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/" target="_blank" rel="noreferrer">https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
