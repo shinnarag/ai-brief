@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Brief | 2026-04-30</title>
+    <meta name="description" content="2026-04-28부터 2026-04-30까지의 AI Brief" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f7f0e8;
+        --panel: rgba(255, 255, 255, 0.78);
+        --line: rgba(29, 36, 42, 0.1);
+        --text: #1d242a;
+        --muted: #5f6b76;
+        --accent: #0d7a6f;
+        --warm: #d96b41;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--text);
+        font-family: "Manrope", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(217, 107, 65, 0.18), transparent 24%),
+          radial-gradient(circle at top right, rgba(13, 122, 111, 0.14), transparent 26%),
+          linear-gradient(180deg, #fbf7f2 0%, var(--bg) 46%, #f1e8de 100%);
+      }
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(29, 36, 42, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(29, 36, 42, 0.035) 1px, transparent 1px);
+        background-size: 36px 36px;
+        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), transparent 88%);
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .wrap { width: min(calc(100% - 32px), 1180px); margin: 0 auto; padding: 28px 0 64px; }
+      .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+      .home-btn, .meta-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        font-weight: 800;
+      }
+      .meta-pill { color: var(--muted); }
+      .hero {
+        margin-top: 18px;
+        border-radius: 34px;
+        padding: 34px;
+        background: linear-gradient(145deg, rgba(255,255,255,0.94), rgba(255,248,242,0.84));
+        border: 1px solid rgba(255,255,255,0.64);
+        box-shadow: 0 24px 60px rgba(29,36,42,0.12);
+      }
+      .eyebrow {
+        display: inline-flex;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.12);
+        color: var(--accent);
+        font-size: 0.8rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      h1 {
+        margin: 18px 0 12px;
+        font-size: clamp(2.5rem, 5vw, 4.7rem);
+        line-height: 0.95;
+        letter-spacing: -0.05em;
+      }
+      .accent-line {
+        display: block;
+        color: var(--warm);
+        font-family: "Instrument Serif", serif;
+        font-style: italic;
+        font-weight: 400;
+      }
+      .lead { max-width: 760px; margin: 0; color: var(--muted); line-height: 1.72; }
+      .section { margin-top: 34px; }
+      .section-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 16px; }
+      .section-head h2 { margin: 0; font-size: clamp(1.45rem, 3vw, 2.15rem); letter-spacing: -0.04em; }
+      .section-head p { margin: 8px 0 0; color: var(--muted); }
+      .count-pill {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        color: var(--muted);
+        font-size: 0.84rem;
+        font-weight: 800;
+      }
+      .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+      .card {
+        border-radius: 28px;
+        background: var(--panel);
+        border: 1px solid rgba(255,255,255,0.68);
+        box-shadow: 0 20px 42px rgba(29,36,42,0.08);
+        overflow: hidden;
+      }
+      .card-head { padding: 22px 22px 0; }
+      .card-title { margin: 0; font-size: 1.16rem; line-height: 1.45; letter-spacing: -0.03em; }
+      .card-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+      .tag {
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.74);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+      .card-body { padding: 18px 22px 22px; }
+      .detail-list { display: grid; gap: 14px; }
+      .detail-item {
+        padding: 14px 15px;
+        border-radius: 18px;
+        background: rgba(255,255,255,0.72);
+        border: 1px solid rgba(29,36,42,0.08);
+      }
+      .detail-label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--warm);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .detail-text { margin: 0; font-size: 0.96rem; line-height: 1.72; }
+      @media (max-width: 900px) {
+        .cards { grid-template-columns: 1fr; }
+        .topbar, .section-head { flex-direction: column; align-items: flex-start; }
+      }
+      @media (max-width: 640px) {
+        .wrap { width: min(calc(100% - 20px), 1180px); }
+        .hero { padding: 22px; border-radius: 28px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="topbar">
+        <a class="home-btn" href="../index.html">메인으로 이동</a>
+        <div class="meta-pill">run date 2026-04-30 / window 2026-04-28 ~ 2026-04-30</div>
+      </div>
+
+      <header class="hero">
+        <div class="eyebrow">Thursday Brief</div>
+        <h1>
+          AI Brief
+          <span class="accent-line">2026-04-30</span>
+        </h1>
+        <p class="lead">
+          오늘은 목요일 실행 규칙에 맞춰 2026-04-28부터 2026-04-30까지 공개된 항목만 포함했습니다. 영상, 음악, 디자인,
+          콘텐츠/마케팅 이슈 전반에서 공식 발표와 제품 업데이트를 우선했고, 커뮤니티 기반 워크플로 이슈는 날짜와 재현 맥락이 분명한 항목만 반영했습니다.
+        </p>
+      </header>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Video AI</h2>
+            <p>고해상도·멀티모델 영상 제작이 개별 생성기보다 워크플로 통합으로 이동</p>
+          </div>
+          <div class="count-pill">2 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">LTX Studio, Gen Space에 Kling 3.0 Pro와 Kling 2.6 Pro 추가</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-28</span>
+                <span class="tag">출처 LTX Studio</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">LTX Studio는 Gen Space에 Kling 3.0 Pro를 추가해 최대 15초 분량의 시네마틱 영상, 멀티샷 생성, 향상된 모션 일관성, 감독형 프롬프팅을 제공한다고 밝혔다. 동시에 Kling 2.6 Pro는 5~10초 생성, 통합 오디오, 자동 립싱크, 모션 컨트롤을 지원하는 빠른 옵션으로 배치됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">영상팀은 단일 모델 성능만 비교하기보다 스토리보드, 샷 커버리지, 모션 참조, 립싱크까지 한 화면에서 다루는 제작 환경을 평가해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://ltx.studio/blog/kling-3-0" target="_blank" rel="noreferrer">https://ltx.studio/blog/kling-3-0</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Alibaba HappyHorse-1.0, 동기화 오디오·영상 생성 모델로 주목</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-28</span>
+                <span class="tag">출처 DataNorth AI</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">DataNorth AI는 Alibaba의 HappyHorse-1.0이 텍스트-투-비디오와 이미지-투-비디오 부문에서 Artificial Analysis Video Arena 상위권에 올랐고, 단일 패스로 동기화된 오디오와 영상을 생성하는 모델이라고 보도했다. fal을 통한 API 접근은 텍스트-투-비디오, 이미지-투-비디오, 레퍼런스-투-비디오, 비디오 편집 엔드포인트로 제공되며 720p와 1080p 출력이 언급됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">광고·소셜 영상 파이프라인은 무음 클립 생성 후 별도 더빙을 붙이는 방식과 오디오-비디오 동시 생성 방식의 품질, 비용, 통제력을 별도로 테스트해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://datanorth.ai/news/alibaba-launches-happyhorse-video-model" target="_blank" rel="noreferrer">https://datanorth.ai/news/alibaba-launches-happyhorse-video-model</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Music AI</h2>
+            <p>AI 음악은 생성 기능보다 탐지, 권리, 배포, 영상화 워크플로가 핵심 쟁점으로 확대</p>
+          </div>
+          <div class="count-pill">4 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Apple Music, 신규 업로드 3분의 1 이상이 완전 AI 생성 음악이라고 밝혀</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-28</span>
+                <span class="tag">출처 Dataconomy</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Dataconomy는 Apple Music 임원 발언을 인용해 현재 업로드의 3분의 1 이상이 100% AI 생성 음악으로 분류된다고 전했다. 다만 실제 청취 비중은 0.5% 미만이며, Apple은 Transparency Tags와 자체 탐지 기술, 강화된 사기 패널티로 대응하고 있다고 보도했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">음악을 쓰는 브랜드와 크리에이터는 음원 소싱 단계에서 AI 생성 여부, 태깅, 사기 스트리밍 리스크를 계약 체크리스트에 포함해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://dataconomy.com/2026/04/28/one-third-of-apple-music-uploads-now-fully-ai-generated/" target="_blank" rel="noreferrer">https://dataconomy.com/2026/04/28/one-third-of-apple-music-uploads-now-fully-ai-generated/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Neural Frames, 음악 생성과 뮤직비디오 제작을 묶은 Neural Tunes 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-28</span>
+                <span class="tag">출처 BusinessWire / TMCnet</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Neural Frames는 Neural Tunes를 공개하며 텍스트 프롬프트로 AI 곡을 만든 뒤 같은 워크플로에서 음악에 맞춘 영상까지 제작할 수 있게 했다고 밝혔다. BPM, 길이, 장르, 무드, 가사 통합, 오디오 분석 기반 스토리보드, 채팅형 Autopilot 편집 기능을 함께 제공한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">음악 마케팅팀은 곡 제작, 숏폼 비주얼, 리릭 비디오를 별도 툴로 분리하지 않고 릴리즈 캠페인 산출물 단위로 묶어 제작비와 리드타임을 계산해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.tmcnet.com/usubmit/-neural-frames-debuts-neural-tunes-ai-music-generation-/2026/04/28/10372404.htm" target="_blank" rel="noreferrer">https://www.tmcnet.com/usubmit/-neural-frames-debuts-neural-tunes-ai-music-generation-/2026/04/28/10372404.htm</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Tamber, Adobe Ventures 등으로부터 500만 달러 투자 유치</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-28</span>
+                <span class="tag">출처 Music Business Worldwide</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Music Business Worldwide는 음악 기술 스타트업 Tamber가 5월 제품 출시를 앞두고 Adobe Ventures, Rackhouse Venture Capital, M13 등에서 500만 달러를 조달했다고 보도했다. Tamber는 합성 사운드가 아니라 전 세계에서 녹음한 실제 오디오 라이브러리를 기반으로, 사용자의 텍스트나 음성 지시에 맞춰 사운드를 찾고 조작하는 창작 보조 레이어를 표방한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">프로 음악 제작 도구는 완전 자동 작곡보다 저작권·출처 설명이 쉬운 샘플 탐색, 사운드 디자인, DAW 연동 보조 기능에서 먼저 상업적 신뢰를 얻을 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.musicbusinessworldwide.com/tech-startup-tamber-raises-5m-to-launch-ai-music-tool-backed-by-adobe-ventures-rackhouse-ventures-and-more/" target="_blank" rel="noreferrer">https://www.musicbusinessworldwide.com/tech-startup-tamber-raises-5m-to-launch-ai-music-tool-backed-by-adobe-ventures-rackhouse-ventures-and-more/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Spotify 이용자, 의심 AI 아티스트 4,700개를 거르는 비공식 차단 도구 제작</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-28</span>
+                <span class="tag">출처 TechRadar / Yahoo Tech</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">TechRadar의 Yahoo Tech 재게시 보도에 따르면 한 Spotify 이용자가 AI 생성으로 의심되는 아티스트 4,700여 개를 라벨링하고 필터링하는 브라우저 도구를 만들었다. 보도는 Spotify가 지난 1년간 AI 트랙 2,500만 개 이상을 제거했다고 밝혔지만, 이용자 선택형 AI 음악 필터는 아직 공식 제공하지 않는다고 전했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">스트리밍 서비스와 음악 유통사는 AI 차단을 내부 단속으로만 처리하기보다 이용자가 직접 조정할 수 있는 표시·필터 옵션을 검토해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://tech.yahoo.com/streaming/articles/choice-frustrated-spotify-fan-makes-152514050.html" target="_blank" rel="noreferrer">https://tech.yahoo.com/streaming/articles/choice-frustrated-spotify-fan-makes-152514050.html</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Design AI</h2>
+            <p>디자인 AI는 이미지 생성 품질을 넘어 에이전트 협업, 통합 제작 스택, 광고 포맷 정확도로 확장</p>
+          </div>
+          <div class="count-pill">4 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Figma, FigJam을 코딩 에이전트용 화이트보드로 확장</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-28</span>
+                <span class="tag">출처 Figma Blog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Figma는 FigJam에서 AI 에이전트가 보드를 읽고 쓸 수 있는 MCP 스킬과 아키텍처·ERD 다이어그램 생성 워크플로를 공개했다. 코딩 에이전트가 코드베이스와 문서를 읽어 계획, 의사결정, 테스트 전략을 시각 보드로 만들고, 팀 피드백을 다시 구현 컨텍스트로 가져오는 흐름을 제시했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">디자인·엔지니어링 조직은 에이전트 산출물을 PR 텍스트로만 검토하지 말고 구조도와 의사결정 맥락을 공유 보드에 남기는 운영 방식을 도입할 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.figma.com/blog/figjam-your-coding-agents-whiteboard/" target="_blank" rel="noreferrer">https://www.figma.com/blog/figjam-your-coding-agents-whiteboard/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Freepik, Magnific으로 리브랜딩하며 통합 AI 크리에이티브 스택 전면화</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-28</span>
+                <span class="tag">출처 The Next Web</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">The Next Web는 Freepik이 Magnific으로 리브랜딩하며 스톡 자산, AI 업스케일링, 이미지·영상 생성, 3D·가상 장면, 협업 작업공간, AI 어시스턴트를 하나의 플랫폼으로 통합한다고 보도했다. 기사에 따르면 Magnific은 Google Veo 3.1, ByteDance Seedance 2.0 같은 외부 모델을 선택해 조합하는 모델-애그노스틱 전략을 내세운다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드 디자인팀은 단일 생성 모델보다 자산 라이브러리, 업스케일, 영상, 협업, 권한 관리를 한 계정 체계에서 처리하는 통합 플랫폼의 운영 효율을 비교해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://thenextweb.com/news/freepik-rebrands-as-magnific" target="_blank" rel="noreferrer">https://thenextweb.com/news/freepik-rebrands-as-magnific</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">GPT Image 2, 다중 광고 배너 비율 생성에서 극단 비율 오류 사례 공유</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-29</span>
+                <span class="tag">출처 n8n Community</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">n8n 커뮤니티의 한 사용자는 GPT Image 2로 300x250, 728x90, 160x600 등 여러 IAB 배너 규격을 한 캔버스에 생성하려 할 때 모델이 픽셀 좌표와 비율 지시를 자주 무시한다고 보고했다. 와이어프레임 참조 이미지는 일부 개선을 보였지만 6:1 이상 또는 1:4 이하의 극단 비율에서는 여전히 15~70% 수준의 편차가 발생했다고 설명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">광고 배너 자동화는 생성 모델만으로 최종 규격을 맞추기보다 레이아웃 엔진, 캔버스 후처리, 규격별 별도 생성 검증을 함께 설계해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://community.n8n.io/t/gpt-image-2-how-to-generate-multiple-ad-banners-with-exact-proportions-on-one-canvas/292740" target="_blank" rel="noreferrer">https://community.n8n.io/t/gpt-image-2-how-to-generate-multiple-ad-banners-with-exact-proportions-on-one-canvas/292740</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Figma, 업무용 에이전트 도구 설계 원칙을 Google Cloud AI 사례로 정리</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-29</span>
+                <span class="tag">출처 Figma Blog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Figma는 Google Cloud AI의 Gemini Enterprise 디자인 리더와 함께 업무용 에이전트 경험을 설계할 때 복잡한 멀티에이전트 워크플로를 단순하고 신뢰 가능하게 보이게 만드는 접근을 소개했다. 핵심은 사용자가 AI를 관리하는 느낌보다 목표 달성에 집중하도록 하고, 고위험 업무에서는 맥락, 통제, 검증을 UI 안에 녹이는 것이다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">B2B AI 제품 디자이너는 에이전트의 자율성을 강조하기보다 승인 지점, 상태 설명, 책임 경계를 명확히 보여주는 인터랙션을 우선 설계해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.figma.com/blog/how-to-design-agentic-tools-for-work/" target="_blank" rel="noreferrer">https://www.figma.com/blog/how-to-design-agentic-tools-for-work/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>AI Content/Marketing Issues</h2>
+            <p>AI 광고, 딥페이크 악용, 검색 가시성, 퍼블리셔 트래픽이 마케팅 운영 리스크로 수렴</p>
+          </div>
+          <div class="count-pill">5 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Snap, 브랜드 AI 에이전트와 대화하는 AI Sponsored Snaps 출시</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-28</span>
+                <span class="tag">출처 Snap Newsroom</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Snap은 Snapchat Chat 탭 안에서 사용자가 브랜드의 AI 에이전트와 직접 대화할 수 있는 AI Sponsored Snaps를 공개했다. Experian이 초기 파트너로 참여하며, Snap은 Q1 2026에 9,500억 건 이상의 채팅이 오갔고 My AI와 대화한 이용자가 5억 명을 넘었다는 수치를 근거로 대화형 광고 포맷을 설명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드는 대화형 광고를 집행할 때 답변 범위, 고지 문구, 개인정보 처리, 금융·의료 등 민감 카테고리의 오답 책임을 캠페인 설계에 포함해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://newsroom.snap.com/ai-sponsored-snaps" target="_blank" rel="noreferrer">https://newsroom.snap.com/ai-sponsored-snaps</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Copyleaks, TikTok에서 유명인 AI 사칭 광고 클러스터 확인</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-29</span>
+                <span class="tag">출처 Copyleaks</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Copyleaks는 Taylor Swift, Kim Kardashian, Rihanna 등 유명인의 얼굴과 목소리를 AI로 조작해 사기성 또는 악성 서비스 홍보에 쓰는 TikTok 광고 클러스터를 발견했다고 밝혔다. 이 광고들은 비디오와 오디오 딥페이크를 함께 사용하고, 필터를 씌워 생성 흔적을 가리는 방식으로 신뢰를 유도한다고 설명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">광고 플랫폼과 브랜드 세이프티 팀은 이미지 딥페이크뿐 아니라 음성, 랜딩페이지, 서비스 유형을 함께 보는 사칭 광고 탐지 기준을 마련해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://copyleaks.com/blog/tiktok-ads-impersonate-celebrities" target="_blank" rel="noreferrer">https://copyleaks.com/blog/tiktok-ads-impersonate-celebrities</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">SquirrelPR, AI 검색 영향으로 나이지리아 디지털 미디어 트래픽 26.2% 감소 보고</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-29</span>
+                <span class="tag">출처 Businessday NG</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Businessday NG는 SquirrelPR의 RANKED 2026 보고서를 인용해 나이지리아 디지털 미디어 전체 방문이 2025년에 전년 대비 26.2% 줄어 7억 6,900만 방문으로 감소했다고 보도했다. 보고서는 이용자가 퍼블리셔 사이트를 방문하기보다 AI 검색과 직접 답변 시스템에서 정보를 소비하는 행동 변화를 핵심 원인으로 지목했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">퍼블리셔와 브랜드 콘텐츠팀은 페이지뷰 중심 목표만 유지하기보다 AI 답변 내 인용, 브랜드 언급, 직접 방문 전환을 함께 측정해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://businessday.ng/news/article/squirrelpr-unveils-ranked-2026-report-as-ai-reshapes-media-influence-in-nigeria/" target="_blank" rel="noreferrer">https://businessday.ng/news/article/squirrelpr-unveils-ranked-2026-report-as-ai-reshapes-media-influence-in-nigeria/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Search Engine Journal, 브랜드가 AI 크롤러를 막고 다시 노출 비용을 내는 역설 지적</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-30</span>
+                <span class="tag">출처 Search Engine Journal</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Search Engine Journal은 기업이 리드 수집, IP 보호, 크롤러 차단을 이유로 핵심 콘텐츠를 숨기면서 정작 같은 아이디어를 외부 플랫폼과 광고비로 다시 노출시키는 'Protection Paradox'를 분석했다. 글은 AI 검색 환경에서 콘텐츠가 구조화되고 접근 가능하지 않으면 브랜드의 원천 자료보다 파트너, 집계 사이트, 경쟁사의 해석이 더 잘 인용될 수 있다고 설명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">마케팅, 법무, IT는 크롤러 차단과 게이팅 정책을 별도 최적화하지 말고 AI 검색 가시성, 원천 인용, 리드 품질을 함께 보는 거버넌스를 만들어야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.searchenginejournal.com/how-brands-block-ai-crawlers-then-pay-to-get-seen-the-protection-paradox/572267/" target="_blank" rel="noreferrer">https://www.searchenginejournal.com/how-brands-block-ai-crawlers-then-pay-to-get-seen-the-protection-paradox/572267/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Notified, AI 검색 인용을 겨냥한 AI Press Release Optimizer 출시</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-04-29</span>
+                <span class="tag">출처 GlobeNewswire / New York Daily Ledger</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Notified는 Content OS 안에 AI Press Release Optimizer를 출시해 보도자료의 구조, 명확성, 권위성, 인용 가능성을 개선하도록 돕는다고 밝혔다. 이 도구는 언론 보도뿐 아니라 LLM과 AI 답변 엔진에서 보도자료가 더 잘 이해되고 인용되도록 하는 것을 목표로 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">PR팀은 보도자료를 기자용 문서로만 보지 말고 AI 답변 엔진이 인용하기 쉬운 구조화된 원천 자료로 설계해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.newyorkdailyledger.com/article/908932370-notified-launches-ai-press-release-optimizer-to-strengthen-corporate-narratives-and-increase-ai-citations" target="_blank" rel="noreferrer">https://www.newyorkdailyledger.com/article/908932370-notified-launches-ai-press-release-optimizer-to-strengthen-corporate-narratives-and-increase-ai-citations</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
