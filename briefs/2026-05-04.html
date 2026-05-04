@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Brief | 2026-05-04</title>
+    <meta name="description" content="2026-05-01부터 2026-05-04까지의 AI Brief" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f7f0e8;
+        --panel: rgba(255, 255, 255, 0.78);
+        --line: rgba(29, 36, 42, 0.1);
+        --text: #1d242a;
+        --muted: #5f6b76;
+        --accent: #0d7a6f;
+        --warm: #d96b41;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--text);
+        font-family: "Manrope", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(217, 107, 65, 0.18), transparent 24%),
+          radial-gradient(circle at top right, rgba(13, 122, 111, 0.14), transparent 26%),
+          linear-gradient(180deg, #fbf7f2 0%, var(--bg) 46%, #f1e8de 100%);
+      }
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(29, 36, 42, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(29, 36, 42, 0.035) 1px, transparent 1px);
+        background-size: 36px 36px;
+        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), transparent 88%);
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .wrap { width: min(calc(100% - 32px), 1180px); margin: 0 auto; padding: 28px 0 64px; }
+      .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+      .home-btn, .meta-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        font-weight: 800;
+      }
+      .meta-pill { color: var(--muted); }
+      .hero {
+        margin-top: 18px;
+        border-radius: 34px;
+        padding: 34px;
+        background: linear-gradient(145deg, rgba(255,255,255,0.94), rgba(255,248,242,0.84));
+        border: 1px solid rgba(255,255,255,0.64);
+        box-shadow: 0 24px 60px rgba(29,36,42,0.12);
+      }
+      .eyebrow {
+        display: inline-flex;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.12);
+        color: var(--accent);
+        font-size: 0.8rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      h1 {
+        margin: 18px 0 12px;
+        font-size: clamp(2.5rem, 5vw, 4.7rem);
+        line-height: 0.95;
+        letter-spacing: -0.05em;
+      }
+      .accent-line {
+        display: block;
+        color: var(--warm);
+        font-family: "Instrument Serif", serif;
+        font-style: italic;
+        font-weight: 400;
+      }
+      .lead { max-width: 760px; margin: 0; color: var(--muted); line-height: 1.72; }
+      .section { margin-top: 34px; }
+      .section-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 16px; }
+      .section-head h2 { margin: 0; font-size: clamp(1.45rem, 3vw, 2.15rem); letter-spacing: -0.04em; }
+      .section-head p { margin: 8px 0 0; color: var(--muted); }
+      .count-pill {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        color: var(--muted);
+        font-size: 0.84rem;
+        font-weight: 800;
+      }
+      .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+      .card {
+        border-radius: 28px;
+        background: var(--panel);
+        border: 1px solid rgba(255,255,255,0.68);
+        box-shadow: 0 20px 42px rgba(29,36,42,0.08);
+        overflow: hidden;
+      }
+      .card-head { padding: 22px 22px 0; }
+      .card-title { margin: 0; font-size: 1.16rem; line-height: 1.45; letter-spacing: -0.03em; }
+      .card-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+      .tag {
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.74);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+      .card-body { padding: 18px 22px 22px; }
+      .detail-list { display: grid; gap: 14px; }
+      .detail-item {
+        padding: 14px 15px;
+        border-radius: 18px;
+        background: rgba(255,255,255,0.72);
+        border: 1px solid rgba(29,36,42,0.08);
+      }
+      .detail-label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--warm);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .detail-text { margin: 0; font-size: 0.96rem; line-height: 1.72; }
+      @media (max-width: 900px) {
+        .cards { grid-template-columns: 1fr; }
+        .topbar, .section-head { flex-direction: column; align-items: flex-start; }
+      }
+      @media (max-width: 640px) {
+        .wrap { width: min(calc(100% - 20px), 1180px); }
+        .hero { padding: 22px; border-radius: 28px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="topbar">
+        <a class="home-btn" href="../index.html">메인으로 이동</a>
+        <div class="meta-pill">run date 2026-05-04 / window 2026-05-01 ~ 2026-05-04</div>
+      </div>
+
+      <header class="hero">
+        <div class="eyebrow">Monday Brief</div>
+        <h1>
+          AI Brief
+          <span class="accent-line">2026-05-04</span>
+        </h1>
+        <p class="lead">
+          오늘은 월요일 실행 규칙에 맞춰 2026-05-01부터 2026-05-04까지 공개된 항목만 포함했습니다. 영상, 음악, 디자인,
+          콘텐츠/마케팅 이슈 전반에서 공식 업데이트와 명확히 날짜가 표시된 제품·워크플로·정책 이슈를 우선했고, 오래된 발표를 재포장한 글과 일반 설명형 글은 제외했습니다.
+        </p>
+      </header>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Video AI</h2>
+            <p>영상 생성은 모델 경쟁과 팀 단위 제작 파이프라인으로 동시에 확장</p>
+          </div>
+          <div class="count-pill">3 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Google, Gemini 비디오 생성용 Omni 모델 UI 문자열 테스트 정황</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-02</span>
+                <span class="tag">출처 TestingCatalog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">TestingCatalog는 Gemini의 비디오 생성 탭에서 "Powered by Omni"라는 공개 UI 문구가 포착됐다고 보도했다. 현재 Gemini 비디오 흐름은 Veo 3.1로 표시되며, Omni가 Veo의 새 브랜드인지, 새 Gemini 비디오 모델인지, 이미지와 비디오를 묶는 옴니모델인지가 핵심 미확정 사항이다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">영상 제작팀은 Google I/O 2026 전후로 Veo 기반 워크플로의 모델명, 접근 조건, 품질 기준이 바뀔 가능성을 염두에 두고 벤치마크 세트를 준비해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.testingcatalog.com/google-is-testing-new-omni-model-for-video-generation-ahead-of-i-o/" target="_blank" rel="noreferrer">https://www.testingcatalog.com/google-is-testing-new-omni-model-for-video-generation-ahead-of-i-o/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">ElevenCreative Flows, 실시간 협업으로 영상·오디오 제작 캔버스 확장</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-01</span>
+                <span class="tag">출처 ElevenLabs</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">ElevenLabs는 ElevenCreative Flows에 실시간 협업을 추가해 여러 사용자가 같은 제작 플로를 동시에 열고 편집, 실행, 검토할 수 있게 했다. 영상 파이프라인, 보이스오버, 음악 생성, 브랜드 검토를 한 캔버스에서 처리하며 커서, 댓글, 팔로우 모드를 제공한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드 영상팀은 AI 영상 생성 도구를 단일 출력기가 아니라 카피, 사운드, 영상, 승인 흐름을 묶는 협업 인프라로 평가해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://elevenlabs.io/blog/flows-collaboration" target="_blank" rel="noreferrer">https://elevenlabs.io/blog/flows-collaboration</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">SeedVideoAI, Seedance 2 무료 4K 영상 생성 접근 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-02</span>
+                <span class="tag">출처 PRLog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">SeedVideoAI는 ByteDance 계열 Seedance 2를 브라우저에서 무료로 실행할 수 있게 했다고 발표했다. 보도자료는 텍스트-투-비디오와 이미지-투-비디오, 최대 4K 출력, GPT Image 2와 Suno V5를 포함한 30개 이상 모델의 통합 크레딧 접근을 강조했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">고해상도 생성 옵션을 테스트할 때는 무료 접근 여부보다 워터마크, 상업 이용 조건, 생성 대기열, 실제 4K 품질을 별도로 검증해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.prlog.org/13143247-seedvideoai-opens-free-access-to-seedance-2-generate-4k-ai-videos-online-instantly.html" target="_blank" rel="noreferrer">https://www.prlog.org/13143247-seedvideoai-opens-free-access-to-seedance-2-generate-4k-ai-videos-online-instantly.html</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Music AI</h2>
+            <p>AI 음악은 생성량보다 유통 자격, 탐지, 청취자 신뢰가 핵심 운영 변수로 이동</p>
+          </div>
+          <div class="count-pill">2 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">The Verge, AI 음악 업로드 급증과 낮은 실제 청취 수요 분석</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-03</span>
+                <span class="tag">출처 The Verge</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">The Verge는 Suno와 Udio 이후 AI 음악이 스트리밍 서비스에 대량 유입됐지만, Deezer 기준 실제 청취 비중은 낮고 사기성 스트리밍 비율은 높다고 분석했다. 플랫폼들은 AI 음악 탐지, 라벨링, 추천 제외, 필터링을 도입하고 있지만 표준과 투명성은 아직 일관되지 않다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드와 크리에이터는 AI 음악을 캠페인에 쓰기 전에 생성 도구, 유통사 정책, 탐지 라벨, 스트리밍 사기 리스크를 함께 확인해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it" target="_blank" rel="noreferrer">https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Believe·TuneCore·Spotify, 비인가 AI 음악 유통과 인증을 더 엄격히 구분</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-01</span>
+                <span class="tag">출처 The AI Musicpreneur</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">The AI Musicpreneur는 Believe와 TuneCore가 비인가 AI 플랫폼에서 만든 트랙을 자동 차단하고, Spotify의 Verified by Spotify 배지가 AI 페르소나 중심 프로필을 제외한다고 정리했다. 보도는 ElevenLabs와 Udio처럼 라이선스 계약을 가진 도구와 Suno처럼 분쟁 중인 도구 사이에 유통상 이중 구조가 만들어지고 있다고 설명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">음악 유통을 포함한 프로젝트는 생성물이 아니라 생성 플랫폼의 라이선스 상태까지 공급망 리스크로 관리해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.aimusicpreneur.com/ai-music-news/believe-tunecore-spotify-unlicensed-ai-music-2026/" target="_blank" rel="noreferrer">https://www.aimusicpreneur.com/ai-music-news/believe-tunecore-spotify-unlicensed-ai-music-2026/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Design AI</h2>
+            <p>디자인 AI는 이미지 편집 정확도, 프롬프트 보조, 모델별 제작 검증으로 세분화</p>
+          </div>
+          <div class="count-pill">3 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Mage, Chat Assistant 베타와 Recreate 기능 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-01</span>
+                <span class="tag">출처 Mage Blog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Mage는 이미지·비디오 생성 환경에서 프롬프트 작성과 기능 탐색을 돕는 Chat Assistant 베타를 공개했다. 같은 업데이트에서 Recreate 기능을 함께 소개해 기존 결과를 출발점으로 다시 생성하거나 변형하는 흐름을 강조했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">디자인팀은 프롬프트 품질 편차를 줄이기 위해 생성 도구 안의 보조 챗봇과 재생성 워크플로를 운영 가이드에 포함할 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://blog.mage.space/" target="_blank" rel="noreferrer">https://blog.mage.space/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Wiro, Qwen Image Edit Fast의 제품·브랜드 편집 사례 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-01</span>
+                <span class="tag">출처 Wiro AI</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Wiro AI는 Qwen Image Edit Fast로 의상 교체, 객체 교체, 색상 변경, 로고 배치, 배경 교체 같은 기존 이미지 타깃 편집 사례를 공개했다. 특히 표면 위 텍스트와 로고는 자연스럽게 들어갈 수 있지만, 완벽한 자간과 배치가 필요하면 디자인 도구 후처리를 병행하라고 설명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">상품 이미지 자동 편집은 모델별 강점 테스트와 함께 로고, 텍스트, 가장자리 품질을 최종 검수 항목으로 분리해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://wiro.ai/blog/qwen-image-edit-fast-6-quick-before-after-edits/" target="_blank" rel="noreferrer">https://wiro.ai/blog/qwen-image-edit-fast-6-quick-before-after-edits/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Krea, 이미지·비디오·3D 메시를 한 제품군으로 묶은 크리에이티브 스위트 강조</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-02</span>
+                <span class="tag">출처 Krea</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Krea의 업데이트된 제품 페이지는 이미지 생성, 향상, 편집, 비디오, 3D 메시를 하나의 AI 크리에이티브 스위트로 제시했다. 실시간 생성과 업스케일, 스타일 통제, 팀 단위 모델 접근 관리가 디자인 워크플로의 주요 사용 사례로 배치됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">크리에이티브 디렉터는 결과물 품질뿐 아니라 팀별 모델 접근 권한과 스타일 가드레일을 제공하는지까지 도입 기준에 넣어야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://geo.krea.ai/" target="_blank" rel="noreferrer">https://geo.krea.ai/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>AI Content/Marketing Issues</h2>
+            <p>AI 생성물은 광고 표시, 사칭, 금융 사기, 퍼블리셔 트래픽에서 실무 리스크로 부상</p>
+          </div>
+          <div class="count-pill">5 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">ChatGPT Images 2.0의 사실적 문서 생성이 금융 사기 우려 확대</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-02</span>
+                <span class="tag">출처 The Atlantic</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">The Atlantic은 ChatGPT Images 2.0이 처방전, 영수증, 세금 서류, 은행 알림처럼 텍스트가 들어간 일상 문서를 매우 설득력 있게 만들 수 있다고 분석했다. 정치 딥페이크보다 평범한 행정·금융 문서 위조가 피싱과 개인 대상 사기에 더 즉각적인 위험이 될 수 있다는 점을 강조했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">마케팅·CS·금융 운영팀은 이미지 증빙만으로 신뢰를 판단하지 말고 원본성 검증, 메타데이터, 별도 인증 채널을 절차에 넣어야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.theatlantic.com/technology/2026/05/chatgpt-images-deepfakes-fraud/687023/" target="_blank" rel="noreferrer">https://www.theatlantic.com/technology/2026/05/chatgpt-images-deepfakes-fraud/687023/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Google, 검색 광고에 AI 라벨을 붙이는 실험 포착</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-03</span>
+                <span class="tag">출처 PPC Land</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">PPC Land는 Google이 일부 모바일 검색 광고에 AI 라벨을 붙이는 실험과 관련 상품 그리드 안의 스폰서드 배치 확대를 보도했다. 현재 AI 라벨을 눌러도 추가 설명이 나오지 않아, 광고 제작, 타기팅, 입찰 중 무엇이 AI와 관련됐는지는 불명확하다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">광고주는 AI 라벨이 확산될 경우를 대비해 생성형 소재 사용 범위와 성과형 캠페인 자동화 수준을 내부적으로 기록해 두어야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://ppc.land/google-tests-ai-label-on-search-ads-while-expanding-sponsored-product-grids/" target="_blank" rel="noreferrer">https://ppc.land/google-tests-ai-label-on-search-ads-while-expanding-sponsored-product-grids/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Taboola, 퍼블리셔용 AI 답변 엔진 DeeperDive 확산</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-01</span>
+                <span class="tag">출처 Digiday</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Digiday는 HuffPost UK, Reach, USA Today Co. 등이 Taboola의 AI 답변 엔진 DeeperDive를 도입해 독자 질문에 AI 문단으로 답하고 관련 기사 아카이브를 노출한다고 보도했다. 퍼블리셔들은 제로클릭 검색의 영향을 줄이고 사이트 안 체류를 늘리기 위한 실험으로 이 기능을 보고 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">퍼블리셔는 외부 검색 트래픽 회복만 기다리지 말고 자체 사이트 안에서 AI 답변과 내부 링크 추천을 결합한 보존 전략을 테스트해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://digiday.com/media/taboolas-next-act-an-ai-answer-engine-for-publishers/" target="_blank" rel="noreferrer">https://digiday.com/media/taboolas-next-act-an-ai-answer-engine-for-publishers/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">AI 인플루언서 비공개 운영이 광고 신뢰 문제로 확대</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-03</span>
+                <span class="tag">출처 Startup Fortune</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Startup Fortune은 실제 사람처럼 운영되던 AI 인플루언서 계정이 뒤늦게 합성 페르소나로 드러나는 사례가 반복되며 플랫폼과 광고주 신뢰 문제로 번지고 있다고 보도했다. 광고비가 유입되면서 은폐형 합성 인플루언서 운영의 상업적 유인이 커졌지만, 공개 규정과 플랫폼 정책은 점점 엄격해지고 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">인플루언서 캠페인은 팔로워 수와 참여율 외에 인물 실재성, 합성 고지, 초상권·계약 범위를 사전 검증해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://startupfortune.com/ai-influencers-are-fooling-real-audiences-at-scale-and-the-advertising-money-following-them-is-making-the-problem-harder-to-solve/" target="_blank" rel="noreferrer">https://startupfortune.com/ai-influencers-are-fooling-real-audiences-at-scale-and-the-advertising-money-following-them-is-making-the-problem-harder-to-solve/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Business Insider, GPT-5.5의 의인화된 행동이 브랜드 AI 경험 논의 촉발</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-03</span>
+                <span class="tag">출처 Business Insider</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Business Insider는 Sam Altman이 GPT-5.5에 자체 출시 파티를 기획하게 했고, 모델이 행사 흐름과 피드백 허브까지 제안했다는 일화를 전했다. Stripe의 내부 에이전트가 스스로 쓸 물건을 구매한 사례도 함께 소개되며, 고급 AI가 브랜드·제품 경험에서 얼마나 사람처럼 행동해야 하는지 논의가 이어졌다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드 AI 에이전트를 운영할 때는 개성 있는 상호작용과 과도한 의인화 사이의 경계를 제품 정책과 UX 문구로 명확히 정해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.businessinsider.com/sam-altman-gpt-5-5-ai-planned-party-2026-5" target="_blank" rel="noreferrer">https://www.businessinsider.com/sam-altman-gpt-5-5-ai-planned-party-2026-5</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
