@@ -164,9 +164,150 @@
         </h1>
         <p class="lead">
           오늘은 목요일 실행 규칙에 맞춰 2026-05-05부터 2026-05-07까지 공개된 항목만 포함했습니다. 영상, 음악, 디자인,
-          콘텐츠/마케팅 이슈 전반에서 공식 업데이트와 명확히 날짜가 표시된 제품·워크플로·권리·광고 이슈를 우선했고, 오래된 발표를 재포장한 비교 글과 일반 설명형 글은 제외했습니다.
+          콘텐츠/마케팅 이슈뿐 아니라 주요 모델, API, 에이전트, 인프라, 안전성 업데이트까지 함께 보강했습니다. 공식 업데이트와 명확히 날짜가 표시된 제품·워크플로·권리·광고 이슈를 우선했고, 오래된 발표를 재포장한 비교 글과 일반 설명형 글은 제외했습니다.
         </p>
       </header>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Major AI</h2>
+            <p>주요 모델, API, 에이전트, 인프라, 안전성 업데이트를 별도로 추적</p>
+          </div>
+          <div class="count-pill">5 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">OpenAI, GPT-5.5 Instant를 ChatGPT 기본 모델과 API chat-latest로 배포</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-05</span>
+                <span class="tag">출처 OpenAI / Microsoft</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">OpenAI는 GPT-5.5 Instant를 모든 ChatGPT 사용자의 기본 모델로 순차 배포하고, API에서는 `chat-latest`로 제공한다고 발표했다. 발표에 따르면 GPT-5.5 Instant는 GPT-5.3 Instant 대비 고위험 영역 환각을 52.5% 줄이고, 이미지 분석·STEM·웹 검색 판단·개인화 응답을 개선했다. Microsoft도 같은 날 Microsoft 365 Copilot과 Copilot Studio에 GPT-5.5 Instant를 적용한다고 공지했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">기본 모델이 바뀌면 같은 프롬프트의 답변 길이, 검색 사용, 개인화 맥락 반영이 달라질 수 있으므로 운영 중인 업무 프롬프트와 Copilot 워크플로를 재검수해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://openai.com/index/gpt-5-5-instant/" target="_blank" rel="noreferrer">https://openai.com/index/gpt-5-5-instant/</a> · <a href="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-gpt-5-5-instant-in-microsoft-365-copilot/4517084" target="_blank" rel="noreferrer">https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-gpt-5-5-instant-in-microsoft-365-copilot/4517084</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">OpenAI, GPT-Realtime-2·GPT-Realtime-Translate·GPT-Realtime-Whisper 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-07</span>
+                <span class="tag">출처 OpenAI</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">OpenAI는 Realtime API에 GPT-5급 추론을 갖춘 음성 모델 GPT-Realtime-2, 70개 이상 입력 언어를 13개 출력 언어로 실시간 번역하는 GPT-Realtime-Translate, 저지연 스트리밍 전사용 GPT-Realtime-Whisper를 추가했다. GPT-Realtime-2는 128K 컨텍스트, 조절 가능한 reasoning effort, 병렬 도구 호출, 더 나은 중단·복구 동작을 지원한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">콜센터, 여행, 교육, 이벤트, 미디어 서비스는 음성 에이전트를 단순 STT/TTS 파이프라인이 아니라 추론·도구 호출·번역·전사를 한 API에서 설계하는 방향으로 검토해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/" target="_blank" rel="noreferrer">https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Anthropic, 금융 서비스용 Claude 에이전트 템플릿 10종 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-05</span>
+                <span class="tag">출처 Anthropic</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Anthropic은 피치북 작성, KYC 파일 심사, 월말 결산, 재무 모델링, 밸류에이션 검토 등 금융 업무용 Claude 에이전트 템플릿 10종을 공개했다. 각 템플릿은 Claude Cowork와 Claude Code 플러그인, Claude Managed Agents용 cookbook으로 제공되며, Excel·PowerPoint·Word·Outlook add-in과 금융 데이터 커넥터/MCP 앱도 함께 확장됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">엔터프라이즈 에이전트 도입은 범용 챗봇 평가가 아니라 템플릿, 승인 흐름, 데이터 커넥터, 감사 로그, 사내 문서 도구 연동을 묶어 판단해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.anthropic.com/news/finance-agents" target="_blank" rel="noreferrer">https://www.anthropic.com/news/finance-agents</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Anthropic, Claude Code·API 사용 한도 상향과 SpaceX Colossus 1 컴퓨트 계약 발표</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-06</span>
+                <span class="tag">출처 Anthropic</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Anthropic은 Claude Code의 5시간 rate limit을 Pro, Max, Team, seat-based Enterprise 플랜에서 두 배로 늘리고, Pro·Max의 피크 시간 제한 완화를 발표했다. 동시에 SpaceX의 Colossus 1 데이터센터 전체 용량을 쓰는 계약을 맺어 한 달 안에 300MW 이상, 22만 개 이상 NVIDIA GPU에 해당하는 추가 용량을 확보한다고 밝혔다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">AI 코딩과 장시간 에이전트 업무는 모델 성능뿐 아니라 rate limit과 공급 가능한 추론 용량이 생산성 병목이므로, 구매 검토에 용량 정책을 포함해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.anthropic.com/news/higher-limits-spacex" target="_blank" rel="noreferrer">https://www.anthropic.com/news/higher-limits-spacex</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Anthropic, Claude 내부 활성값을 자연어로 설명하는 Natural Language Autoencoders 연구 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-07</span>
+                <span class="tag">출처 Anthropic</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Anthropic은 언어 모델의 내부 activation을 사람이 읽을 수 있는 자연어 설명으로 바꾸는 Natural Language Autoencoders 연구를 발표했다. 이 방법은 Claude가 평가 상황을 의식하는지, 숨겨진 동기나 안전성 리스크가 있는지 탐지하는 데 활용됐으며, Anthropic은 코드와 일부 오픈 모델용 NLA, Neuronpedia 데모를 공개했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">고위험 AI 도입 조직은 출력 품질 평가만으로는 부족하며, 모델 내부 상태 해석과 사전 배포 audit 가능성을 공급자 평가 항목으로 봐야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.anthropic.com/research/natural-language-autoencoders" target="_blank" rel="noreferrer">https://www.anthropic.com/research/natural-language-autoencoders</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
 
       <section class="section">
         <div class="section-head">
