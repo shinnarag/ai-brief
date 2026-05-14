@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Brief | 2026-05-14</title>
+    <meta name="description" content="2026-05-12부터 2026-05-14까지의 AI Brief" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f7f0e8;
+        --panel: rgba(255, 255, 255, 0.78);
+        --line: rgba(29, 36, 42, 0.1);
+        --text: #1d242a;
+        --muted: #5f6b76;
+        --accent: #0d7a6f;
+        --warm: #d96b41;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--text);
+        font-family: "Manrope", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(217, 107, 65, 0.18), transparent 24%),
+          radial-gradient(circle at top right, rgba(13, 122, 111, 0.14), transparent 26%),
+          linear-gradient(180deg, #fbf7f2 0%, var(--bg) 46%, #f1e8de 100%);
+      }
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(29, 36, 42, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(29, 36, 42, 0.035) 1px, transparent 1px);
+        background-size: 36px 36px;
+        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), transparent 88%);
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .wrap { width: min(calc(100% - 32px), 1180px); margin: 0 auto; padding: 28px 0 64px; }
+      .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+      .home-btn, .meta-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        font-weight: 800;
+      }
+      .meta-pill { color: var(--muted); }
+      .hero {
+        margin-top: 18px;
+        border-radius: 34px;
+        padding: 34px;
+        background: linear-gradient(145deg, rgba(255,255,255,0.94), rgba(255,248,242,0.84));
+        border: 1px solid rgba(255,255,255,0.64);
+        box-shadow: 0 24px 60px rgba(29,36,42,0.12);
+      }
+      .eyebrow {
+        display: inline-flex;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.12);
+        color: var(--accent);
+        font-size: 0.8rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      h1 {
+        margin: 18px 0 12px;
+        font-size: clamp(2.5rem, 5vw, 4.7rem);
+        line-height: 0.95;
+        letter-spacing: -0.05em;
+      }
+      .accent-line {
+        display: block;
+        color: var(--warm);
+        font-family: "Instrument Serif", serif;
+        font-style: italic;
+        font-weight: 400;
+      }
+      .lead { max-width: 760px; margin: 0; color: var(--muted); line-height: 1.72; }
+      .section { margin-top: 34px; }
+      .section-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 16px; }
+      .section-head h2 { margin: 0; font-size: clamp(1.45rem, 3vw, 2.15rem); letter-spacing: -0.04em; }
+      .section-head p { margin: 8px 0 0; color: var(--muted); }
+      .count-pill {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        color: var(--muted);
+        font-size: 0.84rem;
+        font-weight: 800;
+      }
+      .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+      .card {
+        border-radius: 28px;
+        background: var(--panel);
+        border: 1px solid rgba(255,255,255,0.68);
+        box-shadow: 0 20px 42px rgba(29,36,42,0.08);
+        overflow: hidden;
+      }
+      .card-head { padding: 22px 22px 0; }
+      .card-title { margin: 0; font-size: 1.16rem; line-height: 1.45; letter-spacing: -0.03em; }
+      .card-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+      .tag {
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.74);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+      .card-body { padding: 18px 22px 22px; }
+      .detail-list { display: grid; gap: 14px; }
+      .detail-item {
+        padding: 14px 15px;
+        border-radius: 18px;
+        background: rgba(255,255,255,0.72);
+        border: 1px solid rgba(29,36,42,0.08);
+      }
+      .detail-label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--warm);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .detail-text { margin: 0; font-size: 0.96rem; line-height: 1.72; }
+      @media (max-width: 900px) {
+        .cards { grid-template-columns: 1fr; }
+        .topbar, .section-head { flex-direction: column; align-items: flex-start; }
+      }
+      @media (max-width: 640px) {
+        .wrap { width: min(calc(100% - 20px), 1180px); }
+        .hero { padding: 22px; border-radius: 28px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="topbar">
+        <a class="home-btn" href="../index.html">메인으로 이동</a>
+        <div class="meta-pill">run date 2026-05-14 / window 2026-05-12 ~ 2026-05-14</div>
+      </div>
+
+      <header class="hero">
+        <div class="eyebrow">Thursday Brief</div>
+        <h1>
+          AI Brief
+          <span class="accent-line">2026-05-14</span>
+        </h1>
+        <p class="lead">
+          목요일 실행 규칙에 맞춰 2026-05-12부터 2026-05-14까지 발행된 항목만 포함했습니다. 영상 생성·광고 영상 자동화,
+          음악 AI 탐지와 권리 운영, 디자인/이미지 모델과 코드 기반 디자인 워크플로, AI 광고·마케팅 자동화 이슈를 보강 검색했습니다.
+        </p>
+      </header>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Video AI</h2>
+            <p>영상 AI는 단일 클립 생성을 넘어 대화형 완성본 제작과 멀티모달 모델 통합으로 이동</p>
+          </div>
+          <div class="count-pill">2 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Runway, 대화 한 번으로 완성 영상까지 만드는 Runway Agent 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-13</span>
+                <span class="tag">출처 Runway</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Runway는 아이디어를 입력하면 콘셉트, 스토리 비트, 비주얼 방향, 멀티신 구성, 보이스오버, 대사, 음악까지 조립해 게시 가능한 영상으로 만드는 Runway Agent를 공개했다. 브랜드 캠페인, 소셜 콘텐츠, 제품 영상, 영화 프리비즈를 목표 사용처로 제시했고, 생성 후 타임라인 편집기에서 최종 조정을 할 수 있게 했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">영상 AI 도입 기준은 모델 품질뿐 아니라 브리프 해석, 장면 구성, 오디오 포함, 편집 반환까지 한 플로우로 처리되는지로 바뀌고 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://runwayml.com/news/introducing-runway-agent" target="_blank" rel="noreferrer">https://runwayml.com/news/introducing-runway-agent</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">OpenArt AI, Kling 3.0·Kling 3.0 Omni 기반 영상 기능 확장 보도</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-12</span>
+                <span class="tag">출처 FeedsFlare</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">FeedsFlare는 OpenArt AI가 Kling 3.0과 Kling 3.0 Omni를 도입해 네이티브 오디오, 요소 일관성, 더 긴 내러티브 시퀀스를 지원하는 멀티모달 영상 기능을 확장했다고 보도했다. OpenArt가 이미지 중심 생성 플랫폼에서 영상과 교육 리소스, 모델 통합을 결합한 창작 허브로 넓어지는 흐름도 함께 짚었다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">Kling 계열 모델을 쓰는 팀은 원본 모델 성능과 함께 OpenArt 같은 래퍼 플랫폼이 제공하는 워크플로, 학습 자료, 오디오 지원 범위를 같이 비교해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://feedsflare.com/openart-ai-with-new-kling-3-0-launch/" target="_blank" rel="noreferrer">https://feedsflare.com/openart-ai-with-new-kling-3-0-launch/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Music AI</h2>
+            <p>음악 AI는 생성 기능보다 탐지, 배급, 로열티 정산 레이어의 운영 리스크가 더 크게 부각</p>
+          </div>
+          <div class="count-pill">1 item</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Chartlex, Spotify·Apple Music·Deezer·YouTube의 AI 음악 탐지 스택 분석</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-12</span>
+                <span class="tag">출처 Chartlex</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Chartlex는 2026년 AI 음악 탐지가 단일 알고리즘이 아니라 배급사 사전 검사, DSP 신호 분석, 외부 벤더, 권리자 감사, 로열티 정산으로 이어지는 다층 스택이라고 정리했다. 글은 Suno, Udio, Boomy류의 완전 생성 오디오가 업로드 전 단계에서 걸릴 가능성이 커졌고, Apple Music의 투명성 태그와 Deezer의 탐지·라벨링 흐름이 업계 기준을 압박한다고 설명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">콘텐츠팀은 AI 음악 사용권을 확인하는 데서 멈추지 말고 배급사와 스트리밍 플랫폼의 탐지·라벨·수익화 정책까지 릴리스 전에 확인해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.chartlex.com/blog/business/ai-music-detection-stack-2026" target="_blank" rel="noreferrer">https://www.chartlex.com/blog/business/ai-music-detection-stack-2026</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Design AI</h2>
+            <p>디자인 AI는 이미지 모델 소유, 코드 기반 프로덕션 디자인, 레거시 이미지 API 종료가 동시에 진행</p>
+          </div>
+          <div class="count-pill">3 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Krea 2, Krea의 첫 자체 이미지 파운데이션 모델로 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-12</span>
+                <span class="tag">출처 Blockchain.News / Krea</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Krea는 외부 모델 래퍼에서 한 단계 더 나아가 자체 구축한 이미지 파운데이션 모델 Krea 2를 공개했고, 보도는 미적 다양성과 스타일 제어, 조기 접근 제공을 핵심으로 정리했다. Krea 2는 정확한 프롬프트 재현보다 무드보드와 스타일 방향 제어를 앞세워 디자이너와 브랜드의 시각 실험을 지원하는 쪽에 무게를 둔다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드 비주얼 제작에서는 범용 이미지 생성 품질보다 반복 가능한 스타일 제어와 레퍼런스 기반 무드 관리가 더 중요한 평가 항목이 된다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://blockchain.news/ainews/krea-2-debuts-foundation-model-with-style-control" target="_blank" rel="noreferrer">https://blockchain.news/ainews/krea-2-debuts-foundation-model-with-style-control</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Dessn, 프로덕션 코드베이스에서 디자인 반복하는 AI 디자인 툴로 600만 달러 유치</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-12</span>
+                <span class="tag">출처 TechCrunch</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">TechCrunch는 Dessn이 600만 달러 투자를 유치했으며, 기존 코드베이스를 클라우드에서 실행해 디자이너가 실제 프로덕션 환경에 가까운 상태로 디자인을 반복할 수 있게 한다고 보도했다. Dessn은 프롬프트 기반 디자인 생성뿐 아니라 코드 실행 인프라를 추상화해 개발자 세팅 없이도 제품 UI를 실험하는 것을 목표로 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">AI 디자인 툴을 평가할 때는 예쁜 목업 생성보다 실제 코드와 데이터 조건에서 깨지지 않는지, 핸드오프 비용을 줄이는지 확인해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/" target="_blank" rel="noreferrer">https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">DALL-E 2·DALL-E 3 API 종료일 도래, GPT Image 계열로 전환 필요</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-12</span>
+                <span class="tag">출처 Creative AI News / OpenAI</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Creative AI News는 2026년 5월 12일 DALL-E 2와 DALL-E 3 API 종료에 맞춰 GPT Image 1 계열로 이전해야 한다고 정리했다. OpenAI 공식 문서도 해당 날짜에 DALL-E 모델 지원이 중단되고 GPT Image 모델을 대체 경로로 안내하고 있어, 이미지 생성·편집 앱의 응답 처리와 비용 구조 점검이 필요하다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">DALL-E 엔드포인트에 묶인 제품은 모델명 교체뿐 아니라 이미지 응답 포맷, 편집 입력 제한, 토큰 기반 과금 차이를 회귀 테스트해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.creativeainews.com/articles/dalle-3-shutdown-may-12-gpt-image-migration-guide/" target="_blank" rel="noreferrer">https://www.creativeainews.com/articles/dalle-3-shutdown-may-12-gpt-image-migration-guide/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>AI Content/Marketing Issues</h2>
+            <p>AI 마케팅은 광고 제작, 크리에이터 탐색, 캠페인 운영을 에이전트와 개인화 신호에 연결</p>
+          </div>
+          <div class="count-pill">3 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">TikTok World 26, Symphony에 Seedance 2.0·Reference to Video·Ads MCP Server 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-13</span>
+                <span class="tag">출처 TikTok Newsroom</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">TikTok은 TikTok World 26에서 광고주용 AI 기능을 대거 공개하며 ByteDance의 차세대 영상 모델 Dreamina Seedance 2.0을 Symphony에 통합한다고 밝혔다. Creator AI Search, Reference to Video, Smart+ Auto Selection, TikTok Ads MCP Server와 Ads Skills도 함께 발표해 크리에이터 발굴부터 캠페인 생성·분석·예산 최적화까지 에이전트형 운영을 넓혔다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">틱톡 캠페인은 이제 크리에이티브 제작 툴만 보는 것이 아니라 AI가 어떤 데이터와 권한으로 캠페인 실행까지 자동화하는지 검토해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://newsroom.tiktok.com/tiktok-world-26-turning-discovery-into-business-growth-with-ai-powered-innovations-vertical-experiences-and-high-impact-brand-solutions?lang=en" target="_blank" rel="noreferrer">https://newsroom.tiktok.com/tiktok-world-26-turning-discovery-into-business-growth-with-ai-powered-innovations-vertical-experiences-and-high-impact-brand-solutions?lang=en</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Amazon Upfront 2026, Dynamic TV Creative로 Prime Video 광고 개인화 확대</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-12</span>
+                <span class="tag">출처 Amazon Ads</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Amazon Ads는 Upfront 2026 발표에서 Prime Video 인터랙티브 영상 광고를 쇼핑 행동과 시청 신호에 따라 자동 개인화하는 Dynamic TV Creative를 강조했다. 한 개의 기본 크리에이티브에서 상품 이미지, CTA, 헤드라인, 가격·혜택 정보를 구매 여정 단계에 맞춰 바꾸는 방식이며, select 미국 광고주에게 제공 후 Q3에 확대될 예정이다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">CTV 광고 운영자는 AI 개인화가 새 카피를 생성하는지, 기존 소재를 조합하는지, 어떤 쇼핑 신호를 쓰는지 명확히 구분해 브랜드 승인 체계를 설계해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://advertising.amazon.com/en-us/library/news/amazon-upfront-2026-recap-announcements/" target="_blank" rel="noreferrer">https://advertising.amazon.com/en-us/library/news/amazon-upfront-2026-recap-announcements/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Skai, agent-native marketing OS와 Celeste AI 확장 발표</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-13</span>
+                <span class="tag">출처 Skai</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Skai는 ShopAble 2026에서 Skai Studio를 중심으로 한 agent-native marketing OS, Celeste AI 기능 확장, agentic marketing 시대를 위한 전략 자문 서비스를 공개했다. Amazon Ads, Walmart Connect, Criteo, Google, Microsoft, Meta, TikTok 등 300개 이상의 퍼블리셔·리테일 미디어 네트워크와 연동되는 운영 체계를 전면에 내세웠다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">대형 광고 운영팀은 에이전트형 마케팅 OS를 도입할 때 채널 범위, 권한 통제, 추천 실행 로그, 기존 운영자 역할 변화를 함께 점검해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://skai.io/press-releases/skai-unveils-the-industrys-first-agent-native-operating-system-for-marketing/" target="_blank" rel="noreferrer">https://skai.io/press-releases/skai-unveils-the-industrys-first-agent-native-operating-system-for-marketing/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
