@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Brief | 2026-05-21</title>
+    <meta name="description" content="2026-05-19부터 2026-05-21까지의 AI Brief" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f7f0e8;
+        --panel: rgba(255, 255, 255, 0.78);
+        --line: rgba(29, 36, 42, 0.1);
+        --text: #1d242a;
+        --muted: #5f6b76;
+        --accent: #0d7a6f;
+        --warm: #d96b41;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--text);
+        font-family: "Manrope", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(217, 107, 65, 0.18), transparent 24%),
+          radial-gradient(circle at top right, rgba(13, 122, 111, 0.14), transparent 26%),
+          linear-gradient(180deg, #fbf7f2 0%, var(--bg) 46%, #f1e8de 100%);
+      }
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(29, 36, 42, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(29, 36, 42, 0.035) 1px, transparent 1px);
+        background-size: 36px 36px;
+        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), transparent 88%);
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .wrap { width: min(calc(100% - 32px), 1180px); margin: 0 auto; padding: 28px 0 64px; }
+      .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+      .home-btn, .meta-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        font-weight: 800;
+      }
+      .meta-pill { color: var(--muted); }
+      .hero {
+        margin-top: 18px;
+        border-radius: 34px;
+        padding: 34px;
+        background: linear-gradient(145deg, rgba(255,255,255,0.94), rgba(255,248,242,0.84));
+        border: 1px solid rgba(255,255,255,0.64);
+        box-shadow: 0 24px 60px rgba(29,36,42,0.12);
+      }
+      .eyebrow {
+        display: inline-flex;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.12);
+        color: var(--accent);
+        font-size: 0.8rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      h1 {
+        margin: 18px 0 12px;
+        font-size: clamp(2.5rem, 5vw, 4.7rem);
+        line-height: 0.95;
+        letter-spacing: -0.05em;
+      }
+      .accent-line {
+        display: block;
+        color: var(--warm);
+        font-family: "Instrument Serif", serif;
+        font-style: italic;
+        font-weight: 400;
+      }
+      .lead { max-width: 760px; margin: 0; color: var(--muted); line-height: 1.72; }
+      .section { margin-top: 34px; }
+      .section-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 16px; }
+      .section-head h2 { margin: 0; font-size: clamp(1.45rem, 3vw, 2.15rem); letter-spacing: -0.04em; }
+      .section-head p { margin: 8px 0 0; color: var(--muted); }
+      .count-pill {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        color: var(--muted);
+        font-size: 0.84rem;
+        font-weight: 800;
+      }
+      .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+      .card {
+        border-radius: 28px;
+        background: var(--panel);
+        border: 1px solid rgba(255,255,255,0.68);
+        box-shadow: 0 20px 42px rgba(29,36,42,0.08);
+        overflow: hidden;
+      }
+      .card-head { padding: 22px 22px 0; }
+      .card-title { margin: 0; font-size: 1.16rem; line-height: 1.45; letter-spacing: -0.03em; }
+      .card-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+      .tag {
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.74);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+      .card-body { padding: 18px 22px 22px; }
+      .detail-list { display: grid; gap: 14px; }
+      .detail-item {
+        padding: 14px 15px;
+        border-radius: 18px;
+        background: rgba(255,255,255,0.72);
+        border: 1px solid rgba(29,36,42,0.08);
+      }
+      .detail-label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--warm);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .detail-text { margin: 0; font-size: 0.96rem; line-height: 1.72; }
+      @media (max-width: 900px) {
+        .cards { grid-template-columns: 1fr; }
+        .topbar, .section-head { flex-direction: column; align-items: flex-start; }
+      }
+      @media (max-width: 640px) {
+        .wrap { width: min(calc(100% - 20px), 1180px); }
+        .hero { padding: 22px; border-radius: 28px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="topbar">
+        <a class="home-btn" href="../index.html">메인으로 이동</a>
+        <div class="meta-pill">run date 2026-05-21 / window 2026-05-19 ~ 2026-05-21</div>
+      </div>
+
+      <header class="hero">
+        <div class="eyebrow">Thursday Brief</div>
+        <h1>
+          AI Brief
+          <span class="accent-line">2026-05-21</span>
+        </h1>
+        <p class="lead">
+          목요일 실행 규칙에 따라 2026-05-19부터 2026-05-21까지 발행된 항목만 포함했습니다. Google I/O와 Google Marketing Live의
+          Gemini Omni, Flow, Flow Music, Google Pics, Search·Ads 에이전트 업데이트를 중심으로 확인했고, Adobe Firefly·Photoshop,
+          Splice·ElevenLabs, Suno 소송, Saregama·Spotify의 AI 음악 권리·신뢰 이슈를 보강 검색했습니다.
+        </p>
+      </header>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Video AI</h2>
+            <p>영상 AI는 생성 모델 단품보다 대화형 편집, 에이전트형 제작, 크레딧 운영 이슈가 더 중요해짐</p>
+          </div>
+          <div class="count-pill">4 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Google, Gemini Omni Flash로 대화형 영상 생성·편집을 Flow와 Gemini에 투입</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-19</span>
+                <span class="tag">출처 Google Blog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Google은 Gemini Omni Flash를 공개하며 이미지, 오디오, 영상, 텍스트 입력을 결합해 고품질 영상을 만들고 자연어로 후속 편집할 수 있다고 설명했다. 초기 출시는 Gemini 앱, Google Flow, YouTube Shorts를 대상으로 하며, 모든 Omni 생성 영상에는 SynthID 워터마크와 검증 기능을 적용한다고 밝혔다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">영상 제작팀은 프롬프트 생성보다 원본 영상 기반 대화형 리터치, 장면 일관성, 합성 표시 검증까지 포함한 검수 절차를 설계해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://blog.google/intl/es-419/actualizaciones-de-producto/informacion/gemini-omni/" target="_blank" rel="noreferrer">https://blog.google/intl/es-419/actualizaciones-de-producto/informacion/gemini-omni/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Google Flow, Flow Agent·맞춤 Tools·모바일 앱으로 에이전트형 제작 스튜디오 확장</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-19</span>
+                <span class="tag">출처 Google Blog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Google은 Flow를 140개 이상 국가에서 운영되는 AI 크리에이티브 스튜디오로 소개하며, Flow Agent가 아이디어, 생성, 편집, 변형 생성, 배치 편집, 자산 정리를 돕는다고 밝혔다. Google Flow Tools는 자연어로 이미지 편집기, 영상 리사이저, 커스텀 셰이더 같은 제작 도구를 만들 수 있게 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">영상 AI 도입 평가는 모델 품질뿐 아니라 자산명, 컬렉션, 배치 편집, 팀별 커스텀 도구까지 이어지는 운영 기능을 함께 봐야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-updates/" target="_blank" rel="noreferrer">https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-updates/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Vmake, ICML 채택 BridgeRemoval 알고리즘을 AI 영상 객체 제거 기능에 통합</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-21</span>
+                <span class="tag">출처 PR Newswire / Tirto</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Vmake는 ICML 2026 채택 논문 기반 BridgeRemoval 알고리즘을 자사 영상 객체 제거 기능에 통합했다고 발표했다. 보도자료는 이 통합이 영상 워터마크·객체 제거의 품질과 속도를 높여 연구 성과를 실제 편집 제품에 연결하는 사례라고 설명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">마케팅 영상 후반작업에는 생성뿐 아니라 객체 제거와 배경 복원 품질이 중요하므로, 저작권·워터마크 제거 오남용 기준까지 내부 정책에 포함해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://tirto.id/vmake-integrates-icml-accepted-bridgeremoval-algorithm-for-advanced-ai-video-object-removal-hwvW" target="_blank" rel="noreferrer">https://tirto.id/vmake-integrates-icml-accepted-bridgeremoval-algorithm-for-advanced-ai-video-object-removal-hwvW</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Adobe Firefly 커뮤니티, Text to Video 모델은 모두 프리미엄 크레딧 기능이라고 재확인</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-20</span>
+                <span class="tag">출처 Adobe Community</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Adobe Firefly 사용자가 무료 서버로 영상 생성을 했는데 크레딧이 모두 소진됐다고 문의하자, Adobe 커뮤니티 매니저는 Text to Video의 모든 모델이 프리미엄 기능이라 크레딧이 필요하다고 답했다. 답변은 일부 플랜에 제한적 무제한 생성 프로모션이 있었지만, 모델과 플랜별 포함 여부를 확인해야 한다고 안내했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">팀 단위 Firefly 사용자는 영상 모델별 크레딧 차감, 프로모션 종료일, 환불·기록 확인 경로를 제작 예산표에 명시해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://community.adobe.com/questions-404/my-credits-were-all-used-but-i-was-always-using-free-for-video-generations-1624223" target="_blank" rel="noreferrer">https://community.adobe.com/questions-404/my-credits-were-all-used-but-i-was-always-using-free-for-video-generations-1624223</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Music AI</h2>
+            <p>음악 AI는 생성 품질보다 라이선스, 정산 제외, 인증, 워크플로 통합이 실무 리스크로 부상</p>
+          </div>
+          <div class="count-pill">5 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Splice, ElevenLabs와 AI 음악 제작 도구 개발 파트너십 체결</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-19</span>
+                <span class="tag">출처 Music Business Worldwide</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Splice는 ElevenLabs의 파운데이션 음악 모델을 활용해 올해 말 공개할 AI 기반 창작 도구를 개발한다고 밝혔다. 양사는 아티스트 존중과 공정 보상을 기반으로 한 음악 AI 도구를 강조했고, Splice는 기존 300만 개 이상의 라이선스 샘플 카탈로그와 생성 기능을 결합하는 방향을 이어가고 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">프로덕션 팀은 Suno식 완성곡 생성뿐 아니라 라이선스 샘플, 스템, DAW 안 워크플로에 들어오는 AI 기능을 별도 사용 정책으로 관리해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.musicbusinessworldwide.com/splice-partners-with-elevenlabs-to-power-ai-music-creation-tools/" target="_blank" rel="noreferrer">https://www.musicbusinessworldwide.com/splice-partners-with-elevenlabs-to-power-ai-music-creation-tools/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Google Flow Music, 섹션별 편집·커버 변환·Omni 기반 뮤직비디오 제작 추가</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-19</span>
+                <span class="tag">출처 Google Blog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Google은 Flow Music에서 노래의 특정 구간을 선택해 가사 재작성·번역, 비트 스타일 변경, 특정 파트 확장을 할 수 있다고 밝혔다. 또한 기존 곡의 멜로디와 구조를 유지한 커버 버전 생성, Gemini Omni를 통한 대화형 뮤직비디오 연출 기능을 Google AI 구독자에게 제공한다고 설명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">AI 음악 도구는 한 번에 완성곡을 뽑는 단계에서 섹션 단위 수정과 영상 패키징까지 확장되고 있어, 권리 검토도 오디오와 영상 산출물을 함께 묶어야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-updates/" target="_blank" rel="noreferrer">https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-updates/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Saregama, DSP에 AI 생성 음악의 로열티 풀 가치를 0으로 보라고 촉구</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-20</span>
+                <span class="tag">출처 Music Business Worldwide</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Saregama의 Vikram Mehra는 스트리밍 플랫폼이 순수 AI 생성 음악에 로열티 풀 가치를 부여하지 말아야 한다고 말했다. 동시에 AI 기업과의 카탈로그 라이선싱에는 열려 있다고 밝혀, 업계가 무허가 생성물 정산 제외와 라이선스 수익화를 동시에 추진하는 긴장을 보여줬다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">AI 음악 배포자는 생성 도구 사용 여부, 학습·출력 라이선스, 사람의 창작 기여도를 정산 자료와 함께 보관해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.musicbusinessworldwide.com/saregama-md-calls-for-dsps-to-assign-no-value-to-ai-generated-music/" target="_blank" rel="noreferrer">https://www.musicbusinessworldwide.com/saregama-md-calls-for-dsps-to-assign-no-value-to-ai-generated-music/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Suno, The American Dollar 측 Poseidon Wave Media로부터 추가 저작권 소송 피소</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-19</span>
+                <span class="tag">출처 Music Business Worldwide</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Poseidon Wave Media는 Suno가 The American Dollar의 카탈로그를 학습에 사용했고 라이선싱 수익을 크게 훼손했다며 뉴욕 남부지방법원에 소송을 제기했다. MBW는 소송 대상이 236개 녹음물과 작곡, 164개 미국 저작권 등록을 포함한다고 보도했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">상업 캠페인 음악에 Suno 결과물을 쓰는 팀은 생성물 자체의 유사성뿐 아니라 모델 학습 데이터 관련 소송 리스크를 계약 조항에 반영해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.musicbusinessworldwide.com/suno-sued-by-poseidon-wave-media-an-entity-behind-indie-duo-the-american-dollar-claiming-it-nearly-eliminated-their-licensing-revenue/" target="_blank" rel="noreferrer">https://www.musicbusinessworldwide.com/suno-sued-by-poseidon-wave-media-an-entity-behind-indie-duo-the-american-dollar-claiming-it-nearly-eliminated-their-licensing-revenue/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Spotify, AI 사칭 대응 위해 Verified by Spotify 배지를 팟캐스트로 확대</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-20</span>
+                <span class="tag">출처 Music Business Worldwide</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Spotify는 음악 아티스트 프로필에 도입한 인증 배지를 팟캐스트 쇼로 확대했다. 보도는 AI 생성 팟캐스트가 신규 피드의 3분의 1 이상을 차지한다는 데이터와 함께, AI 페르소나 아티스트가 검증 대상에서 제외되는 흐름을 짚었다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드 오디오와 팟캐스트 운영자는 공식 계정 인증, 합성 음성 고지, AI 페르소나 금지 기준을 배급 전 체크리스트로 가져가야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.musicbusinessworldwide.com/spotify-extends-verified-by-spotify-badges-to-podcasts-further-cracking-down-on-ai-impersonators/" target="_blank" rel="noreferrer">https://www.musicbusinessworldwide.com/spotify-extends-verified-by-spotify-badges-to-podcasts-further-cracking-down-on-ai-impersonators/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Design AI</h2>
+            <p>디자인 AI는 이미지 생성에서 객체·텍스트 편집, 로컬 처리, 조직 도입 방식까지 확장</p>
+          </div>
+          <div class="count-pill">4 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Google, Nano Banana 기반 이미지 생성·편집 앱 Google Pics 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-19</span>
+                <span class="tag">출처 Google Blog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Google Workspace는 최신 Nano Banana 모델 기반의 Google Pics를 발표하며, 이미지 생성과 기존 사진 편집을 더 정밀하게 제어할 수 있다고 설명했다. 객체 분할, 이미지 안 텍스트 수정·번역, Slides·Drive 연동, 실시간 공동 편집 캔버스가 주요 기능으로 제시됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">디자인팀은 포스터·소셜 이미지 제작에서 이미지 전체 재생성보다 객체 단위 수정과 텍스트 유지 품질을 핵심 평가 기준으로 삼아야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://blog.google/products-and-platforms/products/workspace/workspace-updates/" target="_blank" rel="noreferrer">https://blog.google/products-and-platforms/products/workspace/workspace-updates/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Photoshop 27.7, 온디바이스 Remove 모델과 Firefly Boards 연동 추가</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-20</span>
+                <span class="tag">출처 Adobe Community</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Adobe는 Photoshop 27.7에서 Remove 도구에 온디바이스 AI 모델 선택지를 추가해 객체 제거를 클라우드 없이 처리할 수 있게 했다고 밝혔다. 또한 Photoshop과 Firefly Boards의 직접 연동으로 생성·비교·무드보드 흐름을 더 쉽게 이어갈 수 있다고 설명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">보안 민감 이미지나 미공개 제품 사진을 다루는 팀은 로컬 AI 처리 옵션을 우선 검토하고, Firefly Boards 연동은 레퍼런스 승인 흐름과 연결해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://community.adobe.com/announcements-710/photoshop-27-7-is-live-faster-performance-smarter-ai-and-cleaner-workflows-1623899" target="_blank" rel="noreferrer">https://community.adobe.com/announcements-710/photoshop-27-7-is-live-faster-performance-smarter-ai-and-cleaner-workflows-1623899</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Google AI Ultra, 월 100달러 플랜과 Pics·Flow·Omni 접근권을 I/O에서 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-19</span>
+                <span class="tag">출처 Google Blog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Google은 I/O에서 월 100달러 Google AI Ultra 플랜을 발표하며 고급 크리에이터와 개발자를 대상으로 더 높은 사용 한도와 신기능 접근을 제공한다고 밝혔다. 같은 구독 업데이트에서 Google Pics, Gmail·Docs·Keep 음성 기능, Flow·Omni 계열 창작 기능이 Pro·Ultra 구독자에게 순차 제공된다고 안내했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">디자인·콘텐츠 조직은 생성 AI 예산을 모델별 토큰이 아니라 구독 계층, 사용량 한도, 팀 권한, 기능 출시 지역 단위로 산정해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/" target="_blank" rel="noreferrer">https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Canva, 5,300명 전사 AI Discovery Week로 AI-native 디자인 조직 전환 사례 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-19</span>
+                <span class="tag">출처 Canva Newsroom</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Canva는 두 번째 AI Discovery Week에서 5,300명 전 직원이 일상 업무를 내려놓고 AI를 학습·실험·빌드하는 시간을 가졌다고 공개했다. 글은 내부 AI Discovery Week 웹사이트를 People 팀이 AI로 직접 만드는 등, AI 리터러시를 넘어 업무 방식 자체를 AI-native로 바꾸는 실험을 강조했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">디자인 AI 도입은 툴 라이선스 구매만으로 끝나지 않으며, 팀별 실험 시간과 실제 내부 산출물 제작 경험을 병행해야 생산성 변화가 드러난다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.canva.com/newsroom/news/ai-discovery-week-2026/" target="_blank" rel="noreferrer">https://www.canva.com/newsroom/news/ai-discovery-week-2026/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>AI Content/Marketing Issues</h2>
+            <p>AI 마케팅은 검색 경험 재편, 광고 소재 자동화, 합성 콘텐츠 검증, 에이전트 운영으로 빠르게 이동</p>
+          </div>
+          <div class="count-pill">5 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Google Search, AI Mode 기본 모델을 Gemini 3.5 Flash로 올리고 정보 에이전트 도입</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-19</span>
+                <span class="tag">출처 Google Blog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Google은 AI Mode가 월간 10억 명을 넘겼다고 밝히며, Gemini 3.5 Flash를 전 세계 AI Mode 기본 모델로 적용한다고 발표했다. 새 검색창은 텍스트, 이미지, 파일, 영상, Chrome 탭 입력을 받으며, 정보 에이전트는 웹·뉴스·소셜·실시간 데이터를 지속 모니터링해 업데이트를 보낸다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">SEO와 콘텐츠팀은 키워드 순위만이 아니라 AI Mode 답변, 후속 대화 링크, 에이전트가 참조할 최신 데이터 구조를 별도 지표로 관리해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://blog.google/products-and-platforms/products/search/search-io-2026/" target="_blank" rel="noreferrer">https://blog.google/products-and-platforms/products/search/search-io-2026/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Google, SynthID·C2PA·AI Content Detection API로 합성 콘텐츠 검증 도구 확대</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-19</span>
+                <span class="tag">출처 Google Blog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Google은 SynthID가 1,000억 개 이상의 이미지·영상과 6만 년 분량의 오디오에 적용됐다고 밝히며, 생성·편집 출처 확인 도구를 확대한다고 발표했다. Google Cloud의 Gemini Enterprise Agent Platform에는 조직이 AI 생성 미디어를 식별할 수 있는 AI Content Detection API도 추가된다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드 안전팀은 광고 소재와 인플루언서 콘텐츠에 워터마크·C2PA·탐지 API 확인을 포함한 출처 검증 프로세스를 마련해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/" target="_blank" rel="noreferrer">https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Google Ads, AI Mode용 Conversational Discovery·Highlighted Answers 광고 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-20</span>
+                <span class="tag">출처 Google Blog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Google은 Gemini 기반 Search 광고 형식으로 Conversational Discovery와 Highlighted Answers를 테스트한다고 밝혔다. 광고 안에는 Gemini가 제품 정보를 평가·종합한 독립 설명이 함께 표시되고, Sponsored 라벨은 계속 유지된다고 설명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">검색 광고 운영자는 광고 문안만 제출하는 방식에서 벗어나 AI가 설명할 제품 속성, 근거 데이터, 금지 표현을 사전에 정리해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://blog.google/products/ads-commerce/google-marketing-live-search-ads/" target="_blank" rel="noreferrer">https://blog.google/products/ads-commerce/google-marketing-live-search-ads/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Google Ads Asset Studio, 브리프·브랜드 가이드 기반 텍스트·이미지·영상 소재 생성 예고</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-20</span>
+                <span class="tag">출처 Google Blog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Google은 Asset Studio가 마케팅 브리프, 브랜드 가이드라인, 웹사이트, 목표를 이해해 여러 테마와 형식의 광고 자산을 생성하도록 업데이트된다고 밝혔다. Gemini Omni 통합으로 영상 자산 제작도 한 곳에서 가능해지고, 1-Click A/B Testing으로 목표 기반 성과 비교를 지원할 예정이다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">마케팅 조직은 AI 생성 소재의 승인권한, 브랜드 가이드 입력 품질, A/B 테스트 결과 보존 방식을 캠페인 운영 표준에 넣어야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://blog.google/products/ads-commerce/asset-studio-updates/" target="_blank" rel="noreferrer">https://blog.google/products/ads-commerce/asset-studio-updates/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Google Ask Advisor, Ads·Analytics·Marketing Platform을 잇는 마케팅 에이전트 베타 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-20</span>
+                <span class="tag">출처 Google Blog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Google은 Ask Advisor가 Google Ads, Google Analytics, Google Marketing Platform, 곧 Merchant Center까지 연결해 캠페인 추천과 실행을 돕는 통합 AI 협업자가 된다고 발표했다. 예를 들어 헤어케어 제품의 신규 고객을 찾으라고 요청하면 Merchant Center 제품 정보를 가져와 Google Ads 캠페인 설정을 돕는 흐름을 제시했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">광고 자동화 권한은 데이터 읽기, 캠페인 생성, 예산 변경, 보고서 생성처럼 작업별로 분리해 승인 로그를 남겨야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://blog.google/products/ads-commerce/ask-advisor/" target="_blank" rel="noreferrer">https://blog.google/products/ads-commerce/ask-advisor/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
