@@ -164,12 +164,129 @@
           <span class="accent-line">2026-06-01</span>
         </h1>
         <p class="lead">
-          월요일 실행 규칙에 따라 2026-05-29부터 2026-06-01까지 발행된 항목만 포함했습니다. Kling, Runway, Sora, Veo, Pika, Luma,
-          Synthesia, HeyGen, CapCut AI, 4K·업스케일링, GPT Image, ChatGPT image generation, OpenAI image, Midjourney, Adobe Firefly,
-          Canva, Figma, OpenArt, Krea, Ideogram, Freepik, Recraft, Suno, Udio, ElevenLabs Music, Stable Audio, Deezer, AI 광고·AI 인플루언서,
-          합성 인재·저작권·고지·브랜드 세이프티·검색 가시성·마케팅 자동화 이슈를 보강 검색했고, 날짜가 맞지 않거나 기존 브리프와 중복되는 항목은 제외했습니다.
+          월요일 실행 규칙에 따라 2026-05-29부터 2026-06-01까지 발행된 항목만 포함했습니다. OpenAI, Anthropic/Claude, Google/Gemini,
+          Meta AI, xAI/Grok, Mistral, Cohere, Perplexity, Microsoft Copilot, Amazon Bedrock, Vertex AI, DeepSeek, Qwen, Kimi, GLM, ERNIE의
+          모델·API·코딩 에이전트·런타임·접근성 업데이트를 먼저 확인한 뒤, Kling, Runway, Sora, Veo, Pika, Luma, Synthesia, HeyGen,
+          CapCut AI, 4K·업스케일링, GPT Image, ChatGPT image generation, OpenAI image, Midjourney, Adobe Firefly, Canva, Figma, OpenArt,
+          Krea, Ideogram, Freepik, Recraft, Suno, Udio, ElevenLabs Music, Stable Audio, Deezer, AI 광고·AI 인플루언서, 합성 인재·저작권·고지·
+          브랜드 세이프티·검색 가시성·마케팅 자동화 이슈를 보강 검색했습니다. 날짜가 맞지 않거나 기존 브리프와 중복되는 항목은 제외했습니다.
         </p>
       </header>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Major AI</h2>
+            <p>핵심 모델, API, 에이전트 런타임, 코딩 에이전트 배포 변화는 개발·운영 의사결정에 직접 영향</p>
+          </div>
+          <div class="count-pill">4 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">OpenAI, Codex Windows Computer Use와 Enterprise GitHub 앱 템플릿 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-29</span>
+                <span class="tag">출처 OpenAI Help Center</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">OpenAI는 Codex 앱에서 Windows Computer Use와 원격 제어를 지원해 Codex가 Windows 애플리케이션을 보고 클릭하고 입력할 수 있게 됐다고 공지했다. Enterprise/Edu 릴리스 노트에는 이 기능이 기업 고객에게 기본 비활성화 상태로 제공되며, GitHub Enterprise Server 저장소용 ChatGPT 앱 템플릿으로 Codex Web, Code Review, Security Review 연결을 구성할 수 있다는 내용도 포함됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">Windows 중심 개발 조직은 Codex를 로컬 UI 테스트와 디버깅까지 확장할 수 있지만, Enterprise 환경에서는 조기 접근 승인, 권한 정책, 원격 제어 감사 범위를 먼저 정해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes" target="_blank" rel="noreferrer">https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Anthropic, Claude Managed Agents 기능을 Claude Platform on AWS로 확장</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-29</span>
+                <span class="tag">출처 Claude Platform Docs</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Claude Platform 릴리스 노트는 Claude Managed Agents의 webhooks, multiagent orchestration, self-hosted sandboxes가 Claude Platform on AWS에서 사용 가능해졌다고 밝혔다. 함께 새 IAM actions와 AnthropicSelfHostedEnvironmentAccess 관리형 정책이 추가되어 AWS 계정 안에서 더 세밀하게 에이전트 실행 권한을 관리할 수 있게 됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">AWS에 민감 데이터와 실행 환경을 둔 팀은 Claude Managed Agents 도입 시 네트워크·IAM·샌드박스 경계를 기존 클라우드 거버넌스에 맞춰 설계할 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://platform.claude.com/docs/en/release-notes/overview" target="_blank" rel="noreferrer">https://platform.claude.com/docs/en/release-notes/overview</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">xAI, Grok Build 0.1 코딩 모델을 API 공개 베타로 출시</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-29</span>
+                <span class="tag">출처 xAI</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">xAI는 agentic coding, 웹 개발, 디버깅, MCP 지원에 맞춰 학습한 grok-build-0.1을 xAI API 공개 베타로 제공한다고 밝혔다. 이 모델은 Grok Build CLI와 같은 모델이며 100 tokens/sec 이상 속도, 입력 100만 토큰당 1달러와 출력 100만 토큰당 2달러 가격을 제시했고 OpenRouter와 Vercel AI Gateway에서도 제공된다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">코딩 에이전트 비용을 민감하게 보는 팀은 Claude Code·Codex만 비교하지 말고 Grok Build를 Cursor, OpenCode, Vercel AI Gateway 기반 하네스에서 속도·정확도·도구 호출 안정성으로 벤치마크할 필요가 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://x.ai/news/grok-build-0-1" target="_blank" rel="noreferrer">https://x.ai/news/grok-build-0-1</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Microsoft 365 Copilot, May 2026 업데이트에서 GPT-5.5 Instant와 Learning Agent 강조</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-29</span>
+                <span class="tag">출처 Microsoft Community Hub</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Microsoft는 2026년 5월 Microsoft 365 Copilot 업데이트에서 GPT-5.5 Instant가 Microsoft 365 Copilot과 Copilot Studio에 적용됐다고 안내했다. 같은 업데이트는 Work IQ와 AI Skills Navigator preview를 활용하는 Learning Agent처럼 조직 내 Copilot 활용 역량을 높이는 기능도 함께 다뤘다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">Microsoft 365를 표준 업무 환경으로 쓰는 기업은 Copilot 응답 품질 변화를 별도 모델 교체가 아니라 테넌트 전체 업무 자동화 품질 변화로 보고 테스트 케이스를 다시 점검해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--may-2026/4522010" target="_blank" rel="noreferrer">https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--may-2026/4522010</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
 
       <section class="section">
         <div class="section-head">
