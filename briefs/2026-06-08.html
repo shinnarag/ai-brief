@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Brief | 2026-06-08</title>
+    <meta name="description" content="2026-06-05부터 2026-06-08까지의 AI Brief" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f7f0e8;
+        --panel: rgba(255, 255, 255, 0.78);
+        --line: rgba(29, 36, 42, 0.1);
+        --text: #1d242a;
+        --muted: #5f6b76;
+        --accent: #0d7a6f;
+        --warm: #d96b41;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--text);
+        font-family: "Manrope", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(217, 107, 65, 0.18), transparent 24%),
+          radial-gradient(circle at top right, rgba(13, 122, 111, 0.14), transparent 26%),
+          linear-gradient(180deg, #fbf7f2 0%, var(--bg) 46%, #f1e8de 100%);
+      }
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(29, 36, 42, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(29, 36, 42, 0.035) 1px, transparent 1px);
+        background-size: 36px 36px;
+        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), transparent 88%);
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .wrap { width: min(calc(100% - 32px), 1180px); margin: 0 auto; padding: 28px 0 64px; }
+      .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+      .home-btn, .meta-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        font-weight: 800;
+      }
+      .meta-pill { color: var(--muted); }
+      .hero {
+        margin-top: 18px;
+        border-radius: 34px;
+        padding: 34px;
+        background: linear-gradient(145deg, rgba(255,255,255,0.94), rgba(255,248,242,0.84));
+        border: 1px solid rgba(255,255,255,0.64);
+        box-shadow: 0 24px 60px rgba(29,36,42,0.12);
+      }
+      .eyebrow {
+        display: inline-flex;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.12);
+        color: var(--accent);
+        font-size: 0.8rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      h1 {
+        margin: 18px 0 12px;
+        font-size: clamp(2.5rem, 5vw, 4.7rem);
+        line-height: 0.95;
+        letter-spacing: -0.05em;
+      }
+      .accent-line {
+        display: block;
+        color: var(--warm);
+        font-family: "Instrument Serif", serif;
+        font-style: italic;
+        font-weight: 400;
+      }
+      .lead { max-width: 760px; margin: 0; color: var(--muted); line-height: 1.72; }
+      .section { margin-top: 34px; }
+      .section-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 16px; }
+      .section-head h2 { margin: 0; font-size: clamp(1.45rem, 3vw, 2.15rem); letter-spacing: -0.04em; }
+      .section-head p { margin: 8px 0 0; color: var(--muted); }
+      .count-pill {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        color: var(--muted);
+        font-size: 0.84rem;
+        font-weight: 800;
+      }
+      .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+      .card {
+        border-radius: 28px;
+        background: var(--panel);
+        border: 1px solid rgba(255,255,255,0.68);
+        box-shadow: 0 20px 42px rgba(29,36,42,0.08);
+        overflow: hidden;
+      }
+      .card-head { padding: 22px 22px 0; }
+      .card-title { margin: 0; font-size: 1.16rem; line-height: 1.45; letter-spacing: -0.03em; }
+      .card-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+      .tag {
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.74);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+      .card-body { padding: 18px 22px 22px; }
+      .detail-list { display: grid; gap: 14px; }
+      .detail-item {
+        padding: 14px 15px;
+        border-radius: 18px;
+        background: rgba(255,255,255,0.72);
+        border: 1px solid rgba(29,36,42,0.08);
+      }
+      .detail-label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--warm);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .detail-text { margin: 0; font-size: 0.96rem; line-height: 1.72; }
+      .empty-card { grid-column: 1 / -1; }
+      @media (max-width: 900px) {
+        .cards { grid-template-columns: 1fr; }
+        .topbar, .section-head { flex-direction: column; align-items: flex-start; }
+      }
+      @media (max-width: 640px) {
+        .wrap { width: min(calc(100% - 20px), 1180px); }
+        .hero { padding: 22px; border-radius: 28px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="topbar">
+        <a class="home-btn" href="../index.html">메인으로 이동</a>
+        <div class="meta-pill">run date 2026-06-08 / window 2026-06-05 ~ 2026-06-08</div>
+      </div>
+
+      <header class="hero">
+        <div class="eyebrow">Monday Brief</div>
+        <h1>
+          AI Brief
+          <span class="accent-line">2026-06-08</span>
+        </h1>
+        <p class="lead">
+          월요일 실행 규칙에 따라 2026-06-05부터 2026-06-08까지 발행되었거나 같은 기간에 시행된 항목만 포함했습니다. Major AI를 먼저 확인해 OpenAI,
+          Anthropic/Claude, Google/Gemini/DeepMind, Meta AI, xAI/Grok, Mistral, Cohere, Perplexity, Microsoft Copilot, Amazon Bedrock,
+          AI Studio/Vertex AI, DeepSeek, Qwen/Alibaba, Moonshot/Kimi, Zhipu/GLM, Baidu/ERNIE 관련 모델·API·가격·접근·컨텍스트·에이전트
+          런타임·코딩 에이전트·안전성·플랫폼 배포 업데이트를 우선 선별했습니다. 이후 Kling, Runway, Sora, Veo, Pika, Luma, Synthesia,
+          HeyGen, CapCut AI, GPT Image, ChatGPT image generation, OpenAI image, Midjourney, Adobe Firefly, Canva, Figma, OpenArt, Krea,
+          Ideogram, Freepik, Recraft, Suno, Udio, ElevenLabs Music, Stable Audio, Deezer, AI 광고·합성 인플루언서·저작권·고지·검색 가시성·브랜드
+          세이프티·마케팅 자동화 이슈를 보강 검색했고, 날짜가 맞지 않거나 업데이트성보다 evergreen 성격이 강한 항목은 제외했습니다.
+        </p>
+      </header>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Major AI</h2>
+            <p>메모리, 에이전트 런타임, API 스키마, 장문 컨텍스트, 안전성 정책이 제품 운영과 개발 의사결정에 직접 연결</p>
+          </div>
+          <div class="count-pill">7 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">OpenAI, ChatGPT 메모리를 더 최신 상태로 유지하는 Dreaming 기반 업데이트 보도</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 Startup Fortune</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Startup Fortune은 OpenAI가 2026-06-04 공개한 ChatGPT 메모리 개선을 2026-06-05에 보도하며, 과거 대화에서 유용한 맥락을 더 능동적으로 종합하고 오래된 기억은 덜 쓰이게 하는 구조라고 설명했다. 보도에 따르면 미국 Plus와 Pro 사용자부터 시작하고, Free와 Go 및 추가 지역으로 순차 확대될 예정이다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">개인화 품질은 모델 성능만큼 중요한 락인 요소가 되므로, 업무용 ChatGPT 도입팀은 메모리 검토·삭제·Temporary Chat 정책을 사내 보안 가이드에 포함해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://startupfortune.com/openai-makes-chatgpt-memory-more-useful-across-conversations/" target="_blank" rel="noreferrer">https://startupfortune.com/openai-makes-chatgpt-memory-more-useful-across-conversations/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Anthropic, 자기개선형 AI가 나타나면 공동 감속 체계가 필요하다고 경고</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 TechStartups / Reuters</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">TechStartups는 Reuters를 인용해 Anthropic이 고도 시스템이 스스로를 빠르게 개선하기 시작할 경우 주요 AI 연구소가 검증 가능한 공동 감속 또는 일시 정지 체계를 합의해야 한다고 밝혔다고 보도했다. 같은 보도는 5월 Anthropic 코드베이스에 병합된 코드의 80% 이상이 Claude가 작성했다는 수치를 함께 다뤘다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">장기 에이전트와 코딩 자동화가 핵심 개발 공정에 들어간 조직은 생산성 수치와 별개로 변경 승인, 감사 로그, 모델별 중단 기준을 운영 정책으로 만들어야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://techstartups.com/2026/06/05/top-tech-news-today-june-5-2026/" target="_blank" rel="noreferrer">https://techstartups.com/2026/06/05/top-tech-news-today-june-5-2026/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Gemini Interactions API, 2026-06-08 레거시 outputs 스키마 제거 시행</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-08</span>
+                <span class="tag">출처 ByteIota / Google Gemini API Docs</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Gemini Interactions API의 기존 `outputs` 배열은 2026-06-08부터 제거되고, 응답 구조는 typed `steps` 배열 중심으로 고정된다. 발표 자체는 이전에 나왔지만 제거 시행일이 이번 윈도우에 해당하며, 새 구조는 도구 호출·검색·중간 사고 단계가 섞이는 agentic interaction을 담기 위한 기반으로 설명됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">Gemini Interactions API를 쓰는 제품은 2026-06-08 이후 구 스키마 opt-out이 없어지므로 SDK 버전, REST 헤더, 스트리밍 이벤트 파서를 즉시 점검해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://byteiota.com/gemini-interactions-api-migrate-before-june-8/" target="_blank" rel="noreferrer">https://byteiota.com/gemini-interactions-api-migrate-before-june-8/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Alibaba, Qwen3.7-Plus 1M 토큰 컨텍스트와 낮은 단가 보도</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 TechStartups / VentureBeat</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">TechStartups는 VentureBeat를 인용해 Alibaba가 100만 토큰 컨텍스트 창을 갖춘 독점 멀티모달 모델 Qwen3.7-Plus를 출시했다고 전했다. 보도에 따르면 가격은 100만 토큰당 2달러 수준으로, 텍스트 전용 Qwen3.7-Max보다 낮은 단가를 내세운다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">장문 문서·대형 코드베이스·고객지원 로그 분석은 컨텍스트 창과 단가가 동시에 중요하므로, 중국계 모델 사용 가능성이 있는 팀은 보안·데이터 거버넌스 조건과 함께 Qwen 계열을 벤치마크 후보에 넣을 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://techstartups.com/2026/06/05/top-tech-news-today-june-5-2026/" target="_blank" rel="noreferrer">https://techstartups.com/2026/06/05/top-tech-news-today-june-5-2026/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">OpenAI·Anthropic·Microsoft·Meta·Google DeepMind 관계자, AI 생물보안 규칙 강화 촉구</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 TechStartups / The Verge</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">TechStartups는 The Verge를 인용해 OpenAI, Anthropic, Microsoft, Meta, Google DeepMind 및 바이오테크 관계자들이 미국 의회에 AI 보조 생물학 위협 대응을 강화하라고 촉구했다고 전했다. 요청 사항에는 합성 DNA·RNA 주문에 대한 의무 스크리닝과 더 강한 기록 관리가 포함됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">바이오·헬스케어·연구용 AI 제품은 모델 성능보다 먼저 위험 작업 차단, 주문 스크리닝 연동, audit trail을 조달·규제 대응 요구사항으로 준비해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://techstartups.com/2026/06/05/top-tech-news-today-june-5-2026/" target="_blank" rel="noreferrer">https://techstartups.com/2026/06/05/top-tech-news-today-june-5-2026/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Gemini CLI v0.45.0, ContextManager 단순화와 A2A usage metadata 노출</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 Gemini CLI Release Notes</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Gemini CLI 0.45.0은 ContextManager 구조를 단순화해 견고성을 높이고 Agent-to-Agent 프로토콜에서 중요한 사용량 metadata를 노출하는 업데이트로 추적됐다. 코딩 에이전트가 여러 도구와 에이전트 사이를 오갈 때 컨텍스트 관리와 사용량 추적은 실패 재현과 비용 통제에 직접 영향을 준다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">Gemini CLI를 내부 개발 자동화에 쓰는 팀은 새 버전에서 usage metadata를 수집해 작업별 비용·토큰·실패율을 대시보드화할 수 있는지 확인해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://geminicli.com/docs/changelogs/" target="_blank" rel="noreferrer">https://geminicli.com/docs/changelogs/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Claude Code v2.1.168, 코딩 에이전트 CLI 안정성 보강 릴리스</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-06</span>
+                <span class="tag">출처 Claude Code Changelog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Claude Code v2.1.168은 버그 수정과 신뢰성 개선 중심의 포인트 릴리스로 추적됐다. 기능 발표보다 작아 보이지만, 장시간 에이전트 세션과 로컬 코드베이스 변경을 맡기는 워크플로에서는 CLI 안정성이 실제 채택률을 좌우한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">Claude Code를 CI 보조, PR 작성, 로컬 리팩터링에 쓰는 팀은 릴리스 노트 기준으로 재현 가능한 실패 사례가 줄었는지 샌드박스 프로젝트에서 먼저 검증해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://code.claude.com/docs/en/changelog" target="_blank" rel="noreferrer">https://code.claude.com/docs/en/changelog</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Video AI</h2>
+            <p>영상 AI는 순수 모델 성능뿐 아니라 기업 거버넌스, 이미지-투-비디오 비용, 상업 영상 제작 생태계로 확장</p>
+          </div>
+          <div class="count-pill">3 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Synthesia, synthetic media 거버넌스를 3Cs에서 3Rs로 확장</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 Synthesia</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Synthesia는 기존 consent, control, collaboration 중심의 3Cs 프레임워크를 유지하면서도 ISO 42001 기반의 Review, Report, React 프레임워크를 도입한다고 밝혔다. 회사는 자체 모델뿐 아니라 서드파티 비디오·이미지 생성 모델이 함께 쓰이는 멀티모델 환경에서 법무·구매·보안팀이 평가하기 쉬운 감사지향 구조가 필요하다고 설명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">AI 아바타와 기업 교육 영상을 쓰는 조직은 단순 결과물 품질이 아니라 동의 증빙, 생성 정책, incident response, 모델 공급망을 벤더 평가표에 넣어야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.synthesia.io/post/how-synthesia-is-updating-its-responsible-ai-playbook" target="_blank" rel="noreferrer">https://www.synthesia.io/post/how-synthesia-is-updating-its-responsible-ai-playbook</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Grok Imagine 1.5 API preview, 단일 이미지에서 오디오 포함 영상 생성 워크플로로 보도</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 Digital Applied</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Digital Applied는 xAI의 Grok Imagine 1.5 API preview를 브랜드 제작 관점에서 분석하며, 한 장의 스틸 이미지를 자연어 모션 프롬프트로 480p 또는 720p 영상으로 확장하고 오디오 생성이 초당 가격에 포함된다고 설명했다. 보도는 Artificial Analysis image-to-video arena 1위, API preview 상태, Runway·Kling·Veo 대비 비용 비교를 함께 제시했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">마케팅팀은 보유한 제품 사진을 짧은 sound-on 소재로 전환하는 비용을 다시 계산할 수 있지만, preview 모델인 만큼 워터마킹·권리·브랜드 세이프티 검수를 반드시 붙여야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.digitalapplied.com/blog/grok-imagine-1-5-image-to-video-brand-ad-production-2026" target="_blank" rel="noreferrer">https://www.digitalapplied.com/blog/grok-imagine-1-5-image-to-video-brand-ad-production-2026</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">첫 AI-generated commercial video awards 수상작 발표</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 National Law Review / EINPresswire</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Generated Group은 AI 생성 상업 광고 영상만을 대상으로 한 Generated Awards 첫 수상작을 발표했다. 보도자료는 Runway Creative와 J의 "The Watch" 등 상업 영상 제작자, 브랜드, 개발자가 함께 참여한 생태계를 조명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">AI 영상은 실험 데모를 넘어 광고상과 포트폴리오 언어로 들어오고 있으므로, 에이전시는 제작비 절감보다 credit, disclosure, 클라이언트 승인 체계를 먼저 정해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://natlawreview.com/press-releases/generated-awards-announces-winners-first-ever-ai-commercial-video-awards" target="_blank" rel="noreferrer">https://natlawreview.com/press-releases/generated-awards-announces-winners-first-ever-ai-commercial-video-awards</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Music AI</h2>
+            <p>음악 AI는 대규모 투자와 훈련 데이터 투명성 문제가 동시에 부각</p>
+          </div>
+          <div class="count-pill">2 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Suno, 4억 달러 이상 Series D로 기업가치 54억 달러 도달</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 Music Business Worldwide</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Music Business Worldwide는 Suno가 4억 달러 이상을 조달해 post-money 기준 54억 달러 가치에 도달했다고 정리했다. Bond Capital, IVP, Forerunner, Union Square Ventures, Alkeon, Quiet 등이 참여했고, AI 음악이 소비자 구독형 창작 인프라로 계속 투자받고 있음을 보여준다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">Suno의 자금력은 제품 지속 가능성에는 긍정적이지만, 브랜드·영상 제작에 쓸 때는 레이블 라이선스, indemnity, 산출물 권리 보증을 별도 계약으로 확인해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.musicbusinessworldwide.com/from-sunos-5-4b-valuation-to-bill-ackmans-exit-from-universal-music-its-mbws-weekly-round-up/" target="_blank" rel="noreferrer">https://www.musicbusinessworldwide.com/from-sunos-5-4b-valuation-to-bill-ackmans-exit-from-universal-music-its-mbws-weekly-round-up/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Gemini Lyria 생성곡에서 stock music watermark 문구가 나왔다는 테스트 보도</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 tech-ish</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">tech-ish는 Gemini의 Lyria 기반 음악 생성 테스트 중 "Purchase your track today" 같은 stock music preview watermark 문구가 5개 생성물에서 들렸다고 보도했다. 기사는 이것이 훈련 데이터의 무허가성을 단정하지는 않지만, Google이 책임 있는 음악 AI 대안으로 포지셔닝한 Lyria의 데이터 정제와 라이선스 설명에 의문을 제기한다고 분석했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">AI 음악 산출물을 광고나 제품 영상에 넣기 전에는 watermark·유사성·라이선스 검수를 사람이 들어야 하고, 모델 제공사의 데이터 출처 설명만으로 clearance를 대체해서는 안 된다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://tech-ish.com/2026/06/05/gemini-lyria-music-purchase-track-watermark/" target="_blank" rel="noreferrer">https://tech-ish.com/2026/06/05/gemini-lyria-music-purchase-track-watermark/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Design AI</h2>
+            <p>디자인 AI는 빠른 이미지 반복, Firefly 기반 캠페인 변형, DAM 내 생성 워크플로가 실무 표면으로 이동</p>
+          </div>
+          <div class="count-pill">3 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Runware, Krea 2 Turbo를 빠른 이미지 생성·편집 모델로 추가</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 Runware Changelog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Runware는 2026-06-05 changelog에서 Krea 2 Turbo를 Krea 2 계열의 빠른 이미지 생성 변형으로 추가했다고 밝혔다. 약 2초 수준의 이미지 생성, style references, moodboards, LoRAs, text-to-image와 image-to-image 워크플로를 지원해 초기 콘셉트 반복에 적합하다고 설명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">크리에이티브팀은 최종 산출물 전 단계에서 Krea 2 Turbo 같은 저지연 모델로 탐색 폭을 넓히고, 최종본은 고품질 모델이나 수동 보정으로 분리하는 2단계 파이프라인을 설계할 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://runware.ai/docs/changelog" target="_blank" rel="noreferrer">https://runware.ai/docs/changelog</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Adobe Journey Optimizer AI Assistant, Firefly 기반 텍스트·이미지 변형 제안 문서 업데이트</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 Adobe Experience League</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Adobe는 Journey Optimizer의 AI Assistant 문서를 2026-06-05 업데이트하며 Microsoft Azure OpenAI와 Adobe Firefly 기반으로 텍스트와 이미지 content variation 제안을 제공한다고 안내했다. 이 기능은 이메일, push, web, SMS 채널에서 다국어 생성과 실험 설계를 지원하는 흐름으로 설명됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">캠페인 디자인팀은 이미지 생성 자체보다 실험군 생성·성과 측정·권한 관리가 연결된 마케팅 운영형 AI로 Firefly 활용 범위를 확장할 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" target="_blank" rel="noreferrer">https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Adobe AEM Assets, Express와 Firefly 생성 자산을 DAM 워크플로에 연결</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 Adobe Experience League</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Adobe Experience Manager Assets as a Cloud Service 문서는 2026-06-05 업데이트에서 Adobe Express 통합과 Firefly 기반 실시간 asset generation을 소개했다. 검색 결과가 없을 때 Firefly로 새 자산을 생성하고 AEM repository에 저장하는 흐름은 생성형 디자인을 DAM 운영 표면에 붙이는 방향을 보여준다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드 자산 관리팀은 AI 생성물을 별도 실험 폴더에 두는 대신 저장소, 태깅, 승인, 재사용 권한까지 포함한 DAM 정책 안에서 관리해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" target="_blank" rel="noreferrer">https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>AI Content/Marketing Issues</h2>
+            <p>AI 생성 콘텐츠는 광고 제작, 음악 권리, 플랫폼 고지, 브랜드 안전성의 운영 문제로 이동</p>
+          </div>
+          <div class="count-pill">2 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Adobe Firefly 참여형 캠페인, 생성형 AI를 브랜드 공동창작 장치로 활용</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 The Drum</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">The Drum은 Adobe의 "The Unfinished Film" 캠페인이 Creative Innovation 부문 Bronze를 받았다고 보도했다. Adobe는 완성된 AI 데모를 보여주는 대신 미완성 서사를 공개하고, 제작자들이 Firefly를 사용해 각자 완성하도록 유도해 4,450만 interactions를 만들었다고 소개했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브랜드 캠페인에서 생성형 AI는 제작 자동화보다 참여형 포맷이 될 수 있지만, UGC 이용 약관, 생성물 표시, 크리에이터 보상 기준을 먼저 설계해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.thedrum.com/awards-case-study/inside-adobe-s-social-experiment-that-made-creators-the-storytellers" target="_blank" rel="noreferrer">https://www.thedrum.com/awards-case-study/inside-adobe-s-social-experiment-that-made-creators-the-storytellers</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Pitchfork, AI-enhanced rap video의 미학과 윤리 문제를 조명</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-05</span>
+                <span class="tag">출처 Pitchfork</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Pitchfork는 AI cartoon과 AI-enhanced rap video가 힙합 영상 미학에 들어오면서 생기는 시각적 과장, 풍자, 고정관념 재생산 문제를 다뤘다. 생성 영상이 음악 프로모션과 팬 문화에 들어오는 속도는 빠르지만, 누가 어떤 장면을 만들었고 어떤 데이터와 스타일을 차용했는지는 여전히 흐리다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">뮤직비디오·소셜 콘텐츠 제작자는 AI 스타일을 단순 비용 절감 수단으로 쓰기보다 인종·성별·지역 고정관념, credit, 원작자 동의 여부를 사전 검수해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://pitchfork.com/thepitch/on-ai-in-hip-hop/" target="_blank" rel="noreferrer">https://pitchfork.com/thepitch/on-ai-in-hip-hop/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
