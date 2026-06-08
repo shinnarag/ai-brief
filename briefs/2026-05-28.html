@@ -147,6 +147,32 @@
         .wrap { width: min(calc(100% - 20px), 1180px); }
         .hero { padding: 22px; border-radius: 28px; }
       }
+      html { scroll-behavior: smooth; }
+      .section-nav {
+        position: sticky;
+        top: 10px;
+        z-index: 5;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 22px;
+        padding: 10px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.82);
+        border: 1px solid var(--line);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 12px 30px rgba(29,36,42,0.08);
+      }
+      .section-nav a {
+        padding: 8px 13px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.08);
+        color: var(--accent);
+        font-size: 0.82rem;
+        font-weight: 800;
+      }
+      .section-nav a:hover { background: var(--accent); color: #fff; text-decoration: none; }
+      .section { scroll-margin-top: 84px; }
     </style>
   </head>
   <body>
@@ -164,13 +190,58 @@
         </h1>
         <p class="lead">
           목요일 실행 규칙에 따라 2026-05-26부터 2026-05-28까지 발행된 항목만 포함했습니다. Kling, Runway, Sora, Veo, Pika, Luma,
-          Synthesia, HeyGen, CapCut AI, 4K·업스케일링, GPT Image, ChatGPT image generation, OpenAI image, Midjourney, Adobe Firefly,
+          Synthesia, HeyGen, CapCut AI, 4K·업스케일링, OpenAI, Anthropic, Claude, Gemini, GPT Image, ChatGPT image generation, OpenAI image, Midjourney, Adobe Firefly,
           Canva, Figma, OpenArt, Krea, Ideogram, Freepik, Recraft, Suno, Udio, ElevenLabs Music, Stable Audio, Deezer, AI 광고·AI 검색,
           합성 인재·저작권·고지·브랜드 세이프티·마케팅 자동화 이슈를 보강 검색했고, 날짜가 맞지 않거나 공식 날짜가 확인되지 않는 항목은 제외했습니다.
         </p>
       </header>
 
-      <section class="section">
+      <nav class="section-nav" aria-label="섹션 바로가기">
+        <a href="#major-ai">Major AI</a>
+        <a href="#video-ai">Video</a>
+        <a href="#music-ai">Music</a>
+        <a href="#design-ai">Design</a>
+        <a href="#ai-content-marketing-issues">Content/Marketing</a>
+      </nav>
+
+      <section class="section" id="major-ai">
+        <div class="section-head">
+          <div>
+            <h2>Major AI</h2>
+            <p>핵심 모델과 에이전트 플랫폼 업데이트는 제품 선택, 비용, 개발 워크플로에 직접 영향을 줌</p>
+          </div>
+          <div class="count-pill">1 item</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Anthropic, Claude Opus 4.8 공개와 함께 Claude Code 동적 워크플로·effort control 추가</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-05-28</span>
+                <span class="tag">출처 Anthropic</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Anthropic은 Claude Opus 4.8을 공개하며 Opus 4.7 대비 코딩, 에이전트 작업, 추론, 전문 지식 업무에서 개선됐고 정가는 동일하다고 밝혔다. 함께 공개된 업데이트에는 Claude Code의 dynamic workflows, claude.ai와 Cowork의 effort control, Messages API의 messages 배열 내 system entries 지원, Opus 4.8 fast mode 가격 인하가 포함됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">개발·자동화팀은 Claude를 단순 챗봇이 아니라 장시간 코드베이스 작업과 멀티스텝 에이전트 실행 후보로 다시 평가해야 한다. 특히 effort 설정, fast mode 비용, prompt cache를 깨지 않는 중간 지시 업데이트가 실제 운영비와 작업 안정성에 영향을 준다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.anthropic.com/news/claude-opus-4-8" target="_blank" rel="noreferrer">https://www.anthropic.com/news/claude-opus-4-8</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="video-ai">
         <div class="section-head">
           <div>
             <h2>Video AI</h2>
@@ -233,7 +304,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="music-ai">
         <div class="section-head">
           <div>
             <h2>Music AI</h2>
@@ -322,7 +393,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="design-ai">
         <div class="section-head">
           <div>
             <h2>Design AI</h2>
@@ -411,7 +482,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="ai-content-marketing-issues">
         <div class="section-head">
           <div>
             <h2>AI Content/Marketing Issues</h2>

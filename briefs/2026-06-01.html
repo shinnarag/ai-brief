@@ -148,6 +148,32 @@
         .wrap { width: min(calc(100% - 20px), 1180px); }
         .hero { padding: 22px; border-radius: 28px; }
       }
+      html { scroll-behavior: smooth; }
+      .section-nav {
+        position: sticky;
+        top: 10px;
+        z-index: 5;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 22px;
+        padding: 10px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.82);
+        border: 1px solid var(--line);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 12px 30px rgba(29,36,42,0.08);
+      }
+      .section-nav a {
+        padding: 8px 13px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.08);
+        color: var(--accent);
+        font-size: 0.82rem;
+        font-weight: 800;
+      }
+      .section-nav a:hover { background: var(--accent); color: #fff; text-decoration: none; }
+      .section { scroll-margin-top: 84px; }
     </style>
   </head>
   <body>
@@ -173,7 +199,15 @@
         </p>
       </header>
 
-      <section class="section">
+      <nav class="section-nav" aria-label="섹션 바로가기">
+        <a href="#major-ai">Major AI</a>
+        <a href="#video-ai">Video</a>
+        <a href="#music-ai">Music</a>
+        <a href="#design-ai">Design</a>
+        <a href="#ai-content-marketing-issues">Content/Marketing</a>
+      </nav>
+
+      <section class="section" id="major-ai">
         <div class="section-head">
           <div>
             <h2>Major AI</h2>
@@ -288,7 +322,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="video-ai">
         <div class="section-head">
           <div>
             <h2>Video AI</h2>
@@ -351,7 +385,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="music-ai">
         <div class="section-head">
           <div>
             <h2>Music AI</h2>
@@ -373,7 +407,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="design-ai">
         <div class="section-head">
           <div>
             <h2>Design AI</h2>
@@ -436,7 +470,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="ai-content-marketing-issues">
         <div class="section-head">
           <div>
             <h2>AI Content/Marketing Issues</h2>
