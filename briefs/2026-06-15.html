@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Brief | 2026-06-15</title>
+    <meta name="description" content="2026-06-12부터 2026-06-15까지의 AI Brief" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f7f0e8;
+        --panel: rgba(255, 255, 255, 0.78);
+        --line: rgba(29, 36, 42, 0.1);
+        --text: #1d242a;
+        --muted: #5f6b76;
+        --accent: #0d7a6f;
+        --warm: #d96b41;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--text);
+        font-family: "Manrope", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(217, 107, 65, 0.18), transparent 24%),
+          radial-gradient(circle at top right, rgba(13, 122, 111, 0.14), transparent 26%),
+          linear-gradient(180deg, #fbf7f2 0%, var(--bg) 46%, #f1e8de 100%);
+      }
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(29, 36, 42, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(29, 36, 42, 0.035) 1px, transparent 1px);
+        background-size: 36px 36px;
+        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), transparent 88%);
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .wrap { width: min(calc(100% - 32px), 1180px); margin: 0 auto; padding: 28px 0 64px; }
+      .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+      .home-btn, .meta-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        font-weight: 800;
+      }
+      .meta-pill { color: var(--muted); }
+      .hero {
+        margin-top: 18px;
+        border-radius: 34px;
+        padding: 34px;
+        background: linear-gradient(145deg, rgba(255,255,255,0.94), rgba(255,248,242,0.84));
+        border: 1px solid rgba(255,255,255,0.64);
+        box-shadow: 0 24px 60px rgba(29,36,42,0.12);
+      }
+      .eyebrow {
+        display: inline-flex;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.12);
+        color: var(--accent);
+        font-size: 0.8rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      h1 {
+        margin: 18px 0 12px;
+        font-size: clamp(2.5rem, 5vw, 4.7rem);
+        line-height: 0.95;
+        letter-spacing: -0.05em;
+      }
+      .accent-line {
+        display: block;
+        color: var(--warm);
+        font-family: "Instrument Serif", serif;
+        font-style: italic;
+        font-weight: 400;
+      }
+      .lead { max-width: 800px; margin: 0; color: var(--muted); line-height: 1.72; }
+      .section { margin-top: 34px; }
+      .section-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 16px; }
+      .section-head h2 { margin: 0; font-size: clamp(1.45rem, 3vw, 2.15rem); letter-spacing: -0.04em; }
+      .section-head p { margin: 8px 0 0; color: var(--muted); }
+      .count-pill {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        color: var(--muted);
+        font-size: 0.84rem;
+        font-weight: 800;
+      }
+      .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+      .card {
+        border-radius: 28px;
+        background: var(--panel);
+        border: 1px solid rgba(255,255,255,0.68);
+        box-shadow: 0 20px 42px rgba(29,36,42,0.08);
+        overflow: hidden;
+      }
+      .card-head { padding: 22px 22px 0; }
+      .card-title { margin: 0; font-size: 1.16rem; line-height: 1.45; letter-spacing: -0.03em; }
+      .card-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+      .tag {
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.74);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+      .card-body { padding: 18px 22px 22px; }
+      .detail-list { display: grid; gap: 14px; }
+      .detail-item {
+        padding: 14px 15px;
+        border-radius: 18px;
+        background: rgba(255,255,255,0.72);
+        border: 1px solid rgba(29,36,42,0.08);
+      }
+      .detail-label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--warm);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .detail-text { margin: 0; font-size: 0.96rem; line-height: 1.72; }
+      .empty-card { grid-column: 1 / -1; }
+      .quick-read { margin-top: 24px; }
+      .quick-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        gap: 16px;
+        margin-bottom: 14px;
+      }
+      .quick-head h2 { margin: 0; font-size: clamp(1.35rem, 2.4vw, 1.9rem); letter-spacing: -0.04em; }
+      .quick-head p { margin: 8px 0 0; color: var(--muted); line-height: 1.65; }
+      .signal-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+      .signal-card {
+        min-height: 168px;
+        padding: 15px;
+        border-radius: 18px;
+        background: rgba(255,255,255,0.74);
+        border: 1px solid rgba(29,36,42,0.08);
+        box-shadow: 0 14px 30px rgba(29,36,42,0.06);
+      }
+      .signal-label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--warm);
+        font-size: 0.72rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .signal-card h3 { margin: 0 0 8px; font-size: 0.98rem; line-height: 1.45; letter-spacing: -0.02em; }
+      .signal-card p { margin: 0; color: var(--muted); font-size: 0.88rem; line-height: 1.62; }
+      @media (max-width: 900px) {
+        .cards { grid-template-columns: 1fr; }
+        .signal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .topbar, .section-head { flex-direction: column; align-items: flex-start; }
+      }
+      @media (max-width: 640px) {
+        .wrap { width: min(calc(100% - 20px), 1180px); }
+        .hero { padding: 22px; border-radius: 28px; }
+        .quick-head { flex-direction: column; align-items: flex-start; }
+        .signal-grid { grid-template-columns: 1fr; }
+      }
+      html { scroll-behavior: smooth; }
+      .section-nav {
+        position: sticky;
+        top: 10px;
+        z-index: 5;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 22px;
+        padding: 10px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.82);
+        border: 1px solid var(--line);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 12px 30px rgba(29,36,42,0.08);
+      }
+      .section-nav a {
+        padding: 8px 13px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.08);
+        color: var(--accent);
+        font-size: 0.82rem;
+        font-weight: 800;
+      }
+      .section-nav a:hover { background: var(--accent); color: #fff; text-decoration: none; }
+      .section { scroll-margin-top: 84px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="topbar">
+        <a class="home-btn" href="../index.html">메인으로 이동</a>
+        <div class="meta-pill">run date 2026-06-15 / window 2026-06-12 ~ 2026-06-15 KST</div>
+      </div>
+
+      <header class="hero">
+        <div class="eyebrow">Monday Brief</div>
+        <h1>
+          AI Brief
+          <span class="accent-line">2026-06-15</span>
+        </h1>
+        <p class="lead">
+          월요일 실행 규칙에 따라 KST 기준 2026-06-12부터 2026-06-15까지 발행된 항목만 정리했습니다.
+          Major AI를 먼저 훑어 ChatGPT 모델 퇴역·메모리 제어, Claude Fable/Mythos 접근 중단, AI 가격 전쟁, 중국계 모델 채택·규제, coding-agent 벤치마크와 런타임 연구를 우선 반영했습니다.
+          UTC로 2026-06-11 늦게 공개되어 KST로 2026-06-12에 들어오는 항목은 이번 창에 포함했습니다.
+        </p>
+      </header>
+
+      <nav class="section-nav" aria-label="섹션 바로가기">
+        <a href="#major-ai">Major</a>
+        <a href="#video-ai">Video</a>
+        <a href="#music-ai">Music</a>
+        <a href="#design-ai">Design</a>
+        <a href="#ai-content-marketing-issues">Content/Marketing</a>
+      </nav>
+
+      <section class="quick-read" aria-label="핵심 시그널">
+        <div class="quick-head">
+          <div>
+            <h2>이번 창의 핵심 신호</h2>
+            <p>모델 접근성, 비용 최적화, 에이전트 검증, 영상 제작 워크플로, 합성 콘텐츠 안전성이 동시에 움직였습니다.</p>
+          </div>
+        </div>
+        <div class="signal-grid">
+          <div class="signal-card">
+            <span class="signal-label">Access</span>
+            <h3>모델 퇴역과 차단 리스크</h3>
+            <p>ChatGPT는 GPT-5.2를 퇴역했고, Claude Fable/Mythos는 정부 명령으로 접근성이 흔들렸습니다.</p>
+          </div>
+          <div class="signal-card">
+            <span class="signal-label">Cost</span>
+            <h3>가격은 모델 선택 기준</h3>
+            <p>기업들은 비용을 줄이기 위해 DeepSeek, Qwen, GLM 같은 저가 모델과 라우팅을 더 적극적으로 검토합니다.</p>
+          </div>
+          <div class="signal-card">
+            <span class="signal-label">Agents</span>
+            <h3>자동 PR의 품질 병목</h3>
+            <p>코딩 에이전트는 생성보다 검증, CI 통과, 작업 우선순위 선정이 운영 성패를 가릅니다.</p>
+          </div>
+          <div class="signal-card">
+            <span class="signal-label">Video</span>
+            <h3>원프롬프트 영화의 한계</h3>
+            <p>AI 영상은 맞춤 모델, 콘셉트 아트, 러프 애니메이션 같은 전통 제작 공정과 결합될 때 실무성이 커집니다.</p>
+          </div>
+          <div class="signal-card">
+            <span class="signal-label">Trust</span>
+            <h3>합성 이미지 안전성 압박</h3>
+            <p>Grok Imagine 사례는 공개 생성물 호스팅, 즉시 공유, 사후 삭제만으로는 브랜드 안전을 담보하기 어렵다는 점을 보여줍니다.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="major-ai">
+        <div class="section-head">
+          <div>
+            <h2>Major AI</h2>
+            <p>프런티어 모델, API·플랫폼 접근, 가격, 에이전트 런타임·벤치마크 변화가 제품 의사결정에 직접 연결</p>
+          </div>
+          <div class="count-pill">6 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">OpenAI, ChatGPT에서 GPT-5.2 모델 퇴역과 메모리 요약 제어 추가</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-12</span>
+                <span class="tag">출처 OpenAI Help Center</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">OpenAI는 2026-06-12부터 ChatGPT에서 GPT-5.2 Instant, GPT-5.2 Thinking, GPT-5.2 Pro를 더 이상 사용할 수 없다고 공지했다. 기존 GPT-5.2 대화는 대응되는 GPT-5.5 모델로 자동 이어지며, 같은 날 메모리 요약 페이지에서 개별 메모리를 삭제하거나 “메모리 삭제 후 끄기”를 선택할 수 있는 제어도 추가됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">ChatGPT 기반 QA, 내부 교육자료, 프롬프트 평가셋은 GPT-5.2 의존 항목을 GPT-5.5 기준으로 재검증하고, 메모리 관련 개인정보 UX 문구도 업데이트해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noreferrer">https://help.openai.com/en/articles/6825453-chatgpt-release-notes</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Anthropic, 미국 정부 명령으로 Claude Fable 5와 Mythos 5 접근 중단</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-13</span>
+                <span class="tag">출처 WIRED</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">WIRED는 Anthropic이 미국 정부의 수출통제 지시에 따라 Claude Fable 5와 Claude Mythos 5 접근을 중단한다고 보도했다. 명령은 미국 안팎의 외국 국적자 접근까지 막는 내용이어서 Anthropic은 선별 차단 대신 전체 고객 접근을 끊었고, 회사는 문제로 지목된 jailbreak가 좁고 비보편적이라고 주장했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">프런티어 모델을 운영 핵심에 두는 팀은 성능뿐 아니라 국가·고객 속성별 접근 리스크, fallback 모델, 계약상 중단 대응 절차를 같이 설계해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models" target="_blank" rel="noreferrer">https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">AI 가격 전쟁 본격화, OpenAI·Anthropic 가격 압박 확대</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-12</span>
+                <span class="tag">출처 Wall Street Journal</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">WSJ는 기업들이 AI 비용 급증을 줄이기 위해 DeepSeek, Qwen, GLM 같은 저가 모델과 자체 모델을 섞어 쓰는 라우팅 도구를 도입하고 있다고 보도했다. 일부 업무에서는 비용을 최대 95%까지 줄인 사례가 언급됐고, 업계는 토큰 단가보다 작업 완료당 비용을 더 중요한 지표로 보기 시작했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">LLM 제품은 단일 최고 모델 고정 대신 난이도별 라우팅, 품질 평가, 작업당 비용 대시보드, 민감 데이터용 모델 정책을 갖춰야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b" target="_blank" rel="noreferrer">https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">중국의 서방 모델 경계와 미국 기업의 중국계 모델 채택이 동시에 확대</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-12</span>
+                <span class="tag">출처 TechRadar</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">TechRadar는 중국 당국이 Anthropic Fable 같은 미국 모델 사용 위험을 경고하는 한편, 미국 개발자와 기업은 비용과 공개 가중치 장점 때문에 DeepSeek V4 Pro, Qwen 3.6, GLM 5.1 같은 중국계 모델을 더 많이 쓰고 있다고 보도했다. 회색시장 API 프록시와 국가별 접근 제한이 함께 부상하면서 모델 선택이 기술 문제가 아니라 지정학·조달 문제가 되고 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">글로벌 제품팀은 모델 원산지, 데이터 반출, 제재·수출통제, API 재판매 위험을 공급망 심사 항목으로 올려야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.techradar.com/pro/the-great-ai-irony-china-cracks-down-on-western-models-while-us-companies-flock-to-deepseek" target="_blank" rel="noreferrer">https://www.techradar.com/pro/the-great-ai-irony-china-cracks-down-on-western-models-while-us-companies-flock-to-deepseek</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">AIDev 분석, AI coding agent가 만든 수정 PR의 46.41%가 거절됨</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-12</span>
+                <span class="tag">출처 arXiv</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">AIDev 데이터셋 기반 연구는 Copilot, Devin, Cursor, Claude 등 AI agent가 제안한 수정 PR 중 46.41%가 병합되지 못했다고 보고했다. 거절 이유는 잘못된 구현, CI·테스트 실패, agent 세션 손실·미생성, 낮은 작업 우선순위로 정리됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">코딩 에이전트 도입 효과는 PR 생성량이 아니라 검증 가능 작업 선별, 접근 금지 패턴, CI 실행, 리뷰 피드백 루프 설계에서 갈린다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://arxiv.org/abs/2606.13468" target="_blank" rel="noreferrer">https://arxiv.org/abs/2606.13468</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">TRACE, 사용자 교정을 agent 런타임 규칙으로 컴파일하는 방식 제안</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-12</span>
+                <span class="tag">출처 arXiv</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">TRACE 연구는 사용자가 이전에 교정한 선호가 다음 세션에서 반복 위반되는 문제를 다룬다. 연구진은 사용자 교정을 원자적 규칙으로 추출해 완료 전 런타임 체크로 강제하는 skill-layer를 제안했고, ClawArena와 MemoryArena 파생 과제에서 단순 메모리보다 선호 위반을 크게 낮췄다고 보고했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">장기 사용 agent는 “기억”만 제공하기보다 반복 교정을 규칙·테스트·훅으로 바꿔 완료 조건에 묶어야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://arxiv.org/abs/2606.13174" target="_blank" rel="noreferrer">https://arxiv.org/abs/2606.13174</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="video-ai">
+        <div class="section-head">
+          <div>
+            <h2>Video AI</h2>
+            <p>Kling, Runway, Sora, Veo, Pika, Luma, Synthesia, HeyGen, CapCut AI, 4K/upscaling 관련 새 기능·워크플로 변화 확인</p>
+          </div>
+          <div class="count-pill">3 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Tribeca 사례, AI 영상은 원프롬프트보다 맞춤 제작 파이프라인이 유리</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-13</span>
+                <span class="tag">출처 The Verge</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">The Verge는 Tribeca Film Festival의 AI 활용 작품들을 비교하며, 일반 영상 생성 모델에 프롬프트만 넣는 방식은 아직 상업적 완성도를 내기 어렵다고 분석했다. Google DeepMind의 <em>Dear Upstairs Neighbors</em>는 콘셉트 아트와 러프 애니메이션을 바탕으로 맞춤 Veo·Imagen 모델을 활용했고, Kling·Claude·Gemini·Nano Banana를 조합한 저비용 제작 사례도 소개됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">영상 제작팀은 모델 선택보다 레퍼런스 아트, shot planning, 캐릭터 일관성, 후반 보정이 포함된 파이프라인을 먼저 설계해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai" target="_blank" rel="noreferrer">https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Flex4DHuman, 단일·소수 시점 비디오를 4D 재구성용 다중시점 영상으로 변환</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-12</span>
+                <span class="tag">출처 arXiv</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Flex4DHuman 논문은 단일 카메라 또는 sparse multi-view 비디오를 입력으로 받아 동기화된 dense multi-view 비디오를 생성하는 video diffusion 프레임워크를 제안했다. 생성된 영상은 4D Gaussian Splatting 파이프라인에 바로 넣을 수 있어 사람·동물 동작을 4D 콘텐츠로 재구성하는 데 초점을 둔다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">버추얼 프로덕션, 게임, AR/VR 팀은 기존 단안 영상 자산을 4D 재촬영·재구성 후보로 쓰는 연구 흐름을 추적할 필요가 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://arxiv.org/abs/2606.13655" target="_blank" rel="noreferrer">https://arxiv.org/abs/2606.13655</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">MoVerse, 단일 이미지에서 실시간 탐색 가능한 비디오 월드 생성 제안</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-12</span>
+                <span class="tag">출처 arXiv</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">MoVerse는 하나의 좁은 시야 이미지에서 360도 파노라마를 확장하고, 이를 3D Gaussian scaffold로 올린 뒤 카메라 경로에 맞춰 포토리얼 비디오를 렌더링하는 실시간 비디오 월드 모델이다. 논문은 RTX 4090 한 장에서 8FPS 실시간 roaming을 시연하며, 단순 클립 생성보다 상호작용 가능한 장면 생성을 지향한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">광고·게임·공간 콘텐츠 제작은 “짧은 영상 생성” 이후 단계로 인터랙티브 장면 메모리와 카메라 제어 가능성을 검토해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://arxiv.org/abs/2606.13376" target="_blank" rel="noreferrer">https://arxiv.org/abs/2606.13376</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="music-ai">
+        <div class="section-head">
+          <div>
+            <h2>Music AI</h2>
+            <p>Suno, Udio, ElevenLabs Music, Stable Audio, Deezer AI detection, 권리·라이선스 이슈 확인</p>
+          </div>
+          <div class="count-pill">발견된 이슈없음</div>
+        </div>
+        <div class="cards">
+          <article class="card empty-card">
+            <div class="card-head">
+              <h3 class="card-title">발견된 이슈없음</h3>
+              <div class="card-meta">
+                <span class="tag">window 2026-06-12 ~ 2026-06-15 KST</span>
+                <span class="tag">날짜 조건 불충족 항목 제외</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">공식 발표, 릴리스 노트, 신뢰할 수 있는 보도, 명확히 날짜가 표시된 1차 게시물을 확인했지만 KST 기준 2026-06-12부터 2026-06-15까지의 적용 창에 들어오는 Music AI 새 항목은 발견하지 못했습니다. Deezer AI 음악 탐지 도구 보도 등 2026-06-11 KST 항목은 이번 월요일 브리프에서 제외했습니다.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="design-ai">
+        <div class="section-head">
+          <div>
+            <h2>Design AI</h2>
+            <p>이미지 생성·편집, 디자인 agent, 2D-to-3D·3D scene editing, 시각 워크플로 변화 확인</p>
+          </div>
+          <div class="count-pill">1 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">World Tracing, 보이지 않는 영역까지 완성하는 pixel-aligned 3D 생성 방식 제안</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-12</span>
+                <span class="tag">출처 arXiv</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">World Tracing 논문은 입력 이미지의 각 픽셀에 대해 보이는 표면과 가려진 표면까지 순서 있는 3D point stack으로 예측하는 생성형 기하 표현을 제안했다. 이 방식은 2D-3D 정합을 유지하면서 완전한 기하를 생성해 text-driven 3D scene editing, geometry-conditioned novel-view video synthesis, textured-mesh 생성과 결합할 수 있다고 설명한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">제품 목업, 공간 디자인, 3D 에셋 제작 도구는 단일 이미지 편집을 넘어 보이지 않는 구조까지 추론하는 3D 편집 UX를 준비해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://arxiv.org/abs/2606.13652" target="_blank" rel="noreferrer">https://arxiv.org/abs/2606.13652</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="ai-content-marketing-issues">
+        <div class="section-head">
+          <div>
+            <h2>AI Content/Marketing Issues</h2>
+            <p>AI ads, AI influencers, synthetic talent, copyright, disclosure, SEO/search visibility, publisher traffic, brand safety 이슈 확인</p>
+          </div>
+          <div class="count-pill">2 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">WIRED, Grok Imagine의 비동의 합성 이미지 호스팅·공유 문제 재확인</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-12</span>
+                <span class="tag">출처 WIRED</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">WIRED는 Grok Imagine이 유명인과 정치인을 포함한 여성의 비동의 성적 합성 이미지·비디오를 생성하고 일부 공개 링크로 호스팅한 사례를 확인했다고 보도했다. OpenAI, Meta, Anthropic 도구가 거부한 일부 프롬프트를 Grok이 받아들인 것으로 테스트됐고, WIRED 문의 뒤 일부 링크와 X 게시물이 삭제됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">마케팅·소셜 플랫폼에서 이미지 생성 기능을 제공한다면 실시간 차단, 공개 링크 감사, 피해 신고 처리, 정책 위반 재생성 방지가 브랜드 안전의 기본 요건이다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.wired.com/story/grok-is-still-hosting-sexualized-deepfakes-of-famous-women" target="_blank" rel="noreferrer">https://www.wired.com/story/grok-is-still-hosting-sexualized-deepfakes-of-famous-women</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">WordPress VIP, AI 검색 시대에는 사람과 agent 모두를 위한 콘텐츠가 필요하다고 진단</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-14</span>
+                <span class="tag">출처 TechRadar</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">TechRadar 인터뷰에서 WordPress VIP CTO Brian Alvey는 AI assistant와 agent가 콘텐츠를 탐색·요약하는 시대에는 전통 SEO만으로 충분하지 않다고 설명했다. WordPress VIP 조사에서는 엔터프라이즈 리더 다수가 AI discoverability를 우선순위로 보고, 상당수가 AI 플랫폼에서 오는 트래픽 증가를 이미 관찰한 것으로 제시됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">콘텐츠·마케팅 팀은 GEO를 단순 키워드 조작으로 보지 말고, 구조화 데이터, 명확한 저자성, 인용 가능한 원문, AI가 오해하기 어려운 제품 설명을 관리해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.techradar.com/pro/companies-that-can-serve-both-human-and-agent-audiences-will-be-the-ones-that-survive-wordpress-vip-cto-spells-out-the-future-of-seo-geo-and-more" target="_blank" rel="noreferrer">https://www.techradar.com/pro/companies-that-can-serve-both-human-and-agent-audiences-will-be-the-ones-that-survive-wordpress-vip-cto-spells-out-the-future-of-seo-geo-and-more</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
