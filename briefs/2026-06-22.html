@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Brief | 2026-06-22</title>
+    <meta name="description" content="2026-06-19부터 2026-06-22까지의 AI Brief" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f7f0e8;
+        --panel: rgba(255, 255, 255, 0.78);
+        --line: rgba(29, 36, 42, 0.1);
+        --text: #1d242a;
+        --muted: #5f6b76;
+        --accent: #0d7a6f;
+        --warm: #d96b41;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--text);
+        font-family: "Manrope", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(217, 107, 65, 0.18), transparent 24%),
+          radial-gradient(circle at top right, rgba(13, 122, 111, 0.14), transparent 26%),
+          linear-gradient(180deg, #fbf7f2 0%, var(--bg) 46%, #f1e8de 100%);
+      }
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(29, 36, 42, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(29, 36, 42, 0.035) 1px, transparent 1px);
+        background-size: 36px 36px;
+        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), transparent 88%);
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .wrap { width: min(calc(100% - 32px), 1180px); margin: 0 auto; padding: 28px 0 64px; }
+      .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+      .home-btn, .meta-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        font-weight: 800;
+      }
+      .meta-pill { color: var(--muted); }
+      .hero {
+        margin-top: 18px;
+        border-radius: 34px;
+        padding: 34px;
+        background: linear-gradient(145deg, rgba(255,255,255,0.94), rgba(255,248,242,0.84));
+        border: 1px solid rgba(255,255,255,0.64);
+        box-shadow: 0 24px 60px rgba(29,36,42,0.12);
+      }
+      .eyebrow {
+        display: inline-flex;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.12);
+        color: var(--accent);
+        font-size: 0.8rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      h1 {
+        margin: 18px 0 12px;
+        font-size: clamp(2.5rem, 5vw, 4.7rem);
+        line-height: 0.95;
+        letter-spacing: -0.05em;
+      }
+      .accent-line {
+        display: block;
+        color: var(--warm);
+        font-family: "Instrument Serif", serif;
+        font-style: italic;
+        font-weight: 400;
+      }
+      .lead { max-width: 800px; margin: 0; color: var(--muted); line-height: 1.72; }
+      .section { margin-top: 34px; }
+      .section-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 16px; }
+      .section-head h2 { margin: 0; font-size: clamp(1.45rem, 3vw, 2.15rem); letter-spacing: -0.04em; }
+      .section-head p { margin: 8px 0 0; color: var(--muted); }
+      .count-pill {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        color: var(--muted);
+        font-size: 0.84rem;
+        font-weight: 800;
+      }
+      .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+      .card {
+        border-radius: 28px;
+        background: var(--panel);
+        border: 1px solid rgba(255,255,255,0.68);
+        box-shadow: 0 20px 42px rgba(29,36,42,0.08);
+        overflow: hidden;
+      }
+      .card-head { padding: 22px 22px 0; }
+      .card-title { margin: 0; font-size: 1.16rem; line-height: 1.45; letter-spacing: -0.03em; }
+      .card-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+      .tag {
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.74);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+      .card-body { padding: 18px 22px 22px; }
+      .detail-list { display: grid; gap: 14px; }
+      .detail-item {
+        padding: 14px 15px;
+        border-radius: 18px;
+        background: rgba(255,255,255,0.72);
+        border: 1px solid rgba(29,36,42,0.08);
+      }
+      .detail-label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--warm);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .detail-text { margin: 0; font-size: 0.96rem; line-height: 1.72; }
+      .empty-card { grid-column: 1 / -1; }
+      @media (max-width: 900px) {
+        .cards { grid-template-columns: 1fr; }
+        .topbar, .section-head { flex-direction: column; align-items: flex-start; }
+      }
+      @media (max-width: 640px) {
+        .wrap { width: min(calc(100% - 20px), 1180px); }
+        .hero { padding: 22px; border-radius: 28px; }
+      }
+      html { scroll-behavior: smooth; }
+      .section-nav {
+        position: sticky;
+        top: 10px;
+        z-index: 5;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 22px;
+        padding: 10px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.82);
+        border: 1px solid var(--line);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 12px 30px rgba(29,36,42,0.08);
+      }
+      .section-nav a {
+        padding: 8px 13px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.08);
+        color: var(--accent);
+        font-size: 0.82rem;
+        font-weight: 800;
+      }
+      .section-nav a:hover { background: var(--accent); color: #fff; text-decoration: none; }
+      .section { scroll-margin-top: 84px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="topbar">
+        <a class="home-btn" href="../index.html">메인으로 이동</a>
+        <div class="meta-pill">run date 2026-06-22 / window 2026-06-19 ~ 2026-06-22 KST</div>
+      </div>
+
+      <header class="hero">
+        <div class="eyebrow">Monday Brief</div>
+        <h1>
+          AI Brief
+          <span class="accent-line">2026-06-22</span>
+        </h1>
+        <p class="lead">
+          월요일 실행 규칙에 따라 KST 기준 2026-06-19부터 2026-06-22까지 발행된 항목만 정리했습니다.
+          Major AI를 먼저 훑었고, Anthropic Fable/Mythos 접근 제한 여파, Z.ai GLM-5.2의 open-weight coding model 관심, xAI Grok Gov 배포 정황을 우선 반영했습니다.
+          OpenAI, Anthropic, Gemini API, Vertex AI, Bedrock 등 주요 공식 release note에서 이 창 안의 별도 신규 모델·API 항목은 확인되지 않았고, Video AI와 Design AI는 날짜 요건을 충족하는 신규 제품 이슈가 없어 비워 두었습니다.
+        </p>
+      </header>
+
+      <nav class="section-nav" aria-label="섹션 바로가기">
+        <a href="#major-ai">Major</a>
+        <a href="#video-ai">Video</a>
+        <a href="#music-ai">Music</a>
+        <a href="#design-ai">Design</a>
+        <a href="#ai-content-marketing-issues">Content/Marketing</a>
+      </nav>
+
+      <section class="section" id="major-ai">
+        <div class="section-head">
+          <div>
+            <h2>Major AI</h2>
+            <p>프런티어 모델 제공사, agent 런타임, coding agent, API, 플랫폼 배포, 보안·접근 정책 업데이트가 제품 의사결정에 직접 연결</p>
+          </div>
+          <div class="count-pill">4 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Anthropic Fable 5·Mythos 5 접근 제한 여파가 직원·고객 혼란으로 확산</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-22</span>
+                <span class="tag">출처 Times of India</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Times of India는 미국 정부의 지시에 따라 Anthropic이 Fable 5와 Mythos 5 접근을 급히 중단한 뒤 약 3,000명의 직원과 고객 대응 조직이 설명 부족으로 혼란을 겪고 있다고 보도했다. 기사에 따르면 지시는 90분 미만의 짧은 통보로 전달됐고, Anthropic은 고객에게 모델 중단을 알리면서도 명확한 사유를 설명하기 어려운 상황이었다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">핵심 워크플로를 단일 frontier model에 묶은 제품은 export control, 정부 명령, 지역·국적 기반 접근 제한을 장애 시나리오에 넣고 대체 모델·계약 조항을 준비해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://timesofindia.indiatimes.com/technology/tech-news/3000-anthropic-employees-have-a-question-after-us-government-banned-companys-most-powerful-ai-models-yet-are-we-being-/articleshow/131885587.cms" target="_blank" rel="noreferrer">https://timesofindia.indiatimes.com/technology/tech-news/3000-anthropic-employees-have-a-question-after-us-government-banned-companys-most-powerful-ai-models-yet-are-we-being-/articleshow/131885587.cms</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Z.ai GLM-5.2, 1M context open-weight coding model로 실리콘밸리 관심 확대</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-22</span>
+                <span class="tag">출처 Business Insider</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Business Insider는 Z.ai의 GLM-5.2가 긴 coding task와 agentic workflow를 겨냥한 open-source 모델로 주목받고 있다고 보도했다. 기사에 따르면 GLM-5.2는 1M token context window를 내세우며 Claude Opus와 GPT 계열의 장기 코딩 작업 영역을 겨냥하고, 개발자·투자자 커뮤니티에서 성능 논의가 빠르게 번지고 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">coding agent를 운영하는 팀은 closed model만 기준으로 비용·성능을 비교하지 말고, self-hosted open-weight 후보의 latency, tool use, license, 보안 검토를 벤치마크에 포함할 필요가 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6" target="_blank" rel="noreferrer">https://www.businessinsider.com/what-is-glm-5-2-chinese-ai-coding-model-2026-6</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">xAI Grok Gov Model, Project Maven 등 미국 국방 워크플로 사용 정황 공개</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-19</span>
+                <span class="tag">출처 Times of India</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Times of India는 미 국방 AI 책임자의 법원 제출 선언을 인용해 xAI의 Grok Gov Model이 Maven Smart Systems에서 targeting, intelligence, readiness, recruitment 등 국방 업무에 쓰이고 있다고 전했다. 기사에는 Grok가 기밀망 mission-critical operation을 지원할 수 있는 소수의 frontier model 중 하나라는 주장과, Colossus 2 데이터센터 전력 문제가 모델 개발 역량과 연결된다는 설명이 포함됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">xAI·Grok를 제품에 넣는 기업은 모델 성능뿐 아니라 국방 사용, 데이터센터 환경 분쟁, 정부 의존도에 따른 brand safety와 공급망 리스크를 검토해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://timesofindia.indiatimes.com/technology/tech-news/days-after-doj-sided-with-elon-musks-ai-company-xai-in-datacenter-pollution-case-pentagons-ai-chief-declares-in-court-that-dow-replaced-anthropic-claude-with-grok-ai-to-/articleshow/131859205.cms" target="_blank" rel="noreferrer">https://timesofindia.indiatimes.com/technology/tech-news/days-after-doj-sided-with-elon-musks-ai-company-xai-in-datacenter-pollution-case-pentagons-ai-chief-declares-in-court-that-dow-replaced-anthropic-claude-with-grok-ai-to-/articleshow/131859205.cms</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">SK Telecom, Anthropic Mythos 접근 제한 논란의 한국 측 핵심 사례로 지목</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-19</span>
+                <span class="tag">출처 Tom's Hardware</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Tom's Hardware는 SK Telecom이 Anthropic Mythos·Fable 5 export control 논란의 중심 사례로 거론됐다고 보도했다. 기사에 따르면 SK Telecom은 Project Glasswing을 통해 Mythos 접근 권한을 받았지만, 미국 정부의 외국 국적자 접근 제한과 Anthropic의 전체 모델 비활성화로 고급 cybersecurity model 접근이 막힌 상태다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">한국 및 글로벌 고객은 frontier model 계약에서 지역 사무소 개설이나 파트너십 발표와 별개로, 실제 모델 access control과 제재·수출통제 리스크를 별도 체크해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls" target="_blank" rel="noreferrer">https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="video-ai">
+        <div class="section-head">
+          <div>
+            <h2>Video AI</h2>
+            <p>Kling, Runway, Sora, Veo, Pika, Luma, Synthesia, HeyGen, CapCut AI, 4K/upscaling 관련 새 기능·워크플로 변화 확인</p>
+          </div>
+          <div class="count-pill">0 items</div>
+        </div>
+        <div class="cards">
+          <article class="card empty-card">
+            <div class="card-head">
+              <h3 class="card-title">발견된 이슈없음</h3>
+            </div>
+            <div class="card-body">
+              <p class="detail-text">2026-06-19부터 2026-06-22까지의 정확한 발행일 창 안에서 공식 발표·release note·신뢰 가능한 보도로 확인되는 신규 Video AI 제품 업데이트는 찾지 못했습니다.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="music-ai">
+        <div class="section-head">
+          <div>
+            <h2>Music AI</h2>
+            <p>Suno, Udio, ElevenLabs Music, Stable Audio, Deezer AI detection, 권리·라이선스 이슈 확인</p>
+          </div>
+          <div class="count-pill">1 item</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">SZA·Kenneth Blume 등, AI 음악 학습 데이터셋 포함 사실에 공개 반발</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-22</span>
+                <span class="tag">출처 Pitchfork</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Pitchfork는 The Atlantic의 AI music dataset 검색 도구 공개 이후 SZA, Kenneth Blume 등 음악가들이 자신의 곡이 AI 학습 데이터셋에 포함된 사실에 반발했다고 보도했다. 해당 도구는 주요·인디 아티스트 음악을 포함한 2,100만 곡 이상의 데이터셋을 검색할 수 있게 하며, 일부 아티스트는 미공개곡 또는 동의 없는 사용 가능성을 문제 삼았다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">AI 음악 서비스를 쓰는 브랜드와 제작사는 생성 결과만 검수할 것이 아니라, 공급사 학습 데이터·라이선스 진술·권리자 이의 제기 대응 절차를 계약 단계에서 확인해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://pitchfork.com/news/sza-kenneth-blume-decry-use-of-their-songs-in-ai-training-data-sets/" target="_blank" rel="noreferrer">https://pitchfork.com/news/sza-kenneth-blume-decry-use-of-their-songs-in-ai-training-data-sets/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="design-ai">
+        <div class="section-head">
+          <div>
+            <h2>Design AI</h2>
+            <p>GPT Image, ChatGPT image generation, Midjourney, Adobe Firefly, Canva, Figma, OpenArt, Krea, Ideogram, Freepik, Recraft 관련 이미지·디자인 agent 변화 확인</p>
+          </div>
+          <div class="count-pill">0 items</div>
+        </div>
+        <div class="cards">
+          <article class="card empty-card">
+            <div class="card-head">
+              <h3 class="card-title">발견된 이슈없음</h3>
+            </div>
+            <div class="card-body">
+              <p class="detail-text">2026-06-19부터 2026-06-22까지의 정확한 발행일 창 안에서 공식 발표·release note·신뢰 가능한 보도로 확인되는 신규 Design AI 제품 업데이트는 찾지 못했습니다.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="ai-content-marketing-issues">
+        <div class="section-head">
+          <div>
+            <h2>AI Content/Marketing Issues</h2>
+            <p>AI ads, AI influencers, synthetic talent, copyright, disclosure, SEO/search visibility, publisher traffic, brand safety 이슈 확인</p>
+          </div>
+          <div class="count-pill">2 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">브랜드의 AI-generated influencer 광고 사용, 표시 의무 공백으로 투명성 논란 확대</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-21</span>
+                <span class="tag">출처 The Guardian</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">The Guardian은 브랜드들이 실제 고객 경험처럼 보이는 AI-generated influencer 콘텐츠를 소셜 광고와 UGC형 홍보에 사용하고 있으며, 일부 제작자는 NDA 때문에 AI 사용 사실을 말하지 못한다고 보도했다. UK 광고 규칙에는 AI 생성 광고임을 별도로 표시하도록 강제하는 조항이 아직 없고, EU AI Act의 표시 의무와 대비되며 소비자 기만 우려가 커지고 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">마케팅 팀은 법적 의무가 명확하지 않은 지역에서도 AI 모델·synthetic talent·가상 후기 사용 여부를 자율 표시하고, UGC처럼 보이는 소재에는 별도 승인 절차를 둬야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.theguardian.com/technology/2026/jun/21/brands-using-ai-generated-influencers-to-promote-products-on-social-media" target="_blank" rel="noreferrer">https://www.theguardian.com/technology/2026/jun/21/brands-using-ai-generated-influencers-to-promote-products-on-social-media</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Google Zero 논의, AI Overviews가 퍼블리셔 트래픽을 잠식하는 구조적 리스크로 부상</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-20</span>
+                <span class="tag">출처 Tom's Guide</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Tom's Guide는 Google AI Overviews와 AI-powered search가 사용자의 클릭을 줄이면서 퍼블리셔가 우려하는 "Google Zero" 시나리오를 설명했다. 기사에서는 zero-click search 비율 증가, AI Overview의 부정확성, 원문을 만든 웹사이트에 트래픽·광고 수익이 돌아가지 않는 문제가 함께 제기됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">콘텐츠·SEO 조직은 검색 순위만 보지 말고 AI answer citation, 직접 방문·뉴스레터 전환, 원문 브랜딩, structured data 기반 발견성을 동시에 KPI로 관리해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.tomsguide.com/ai/what-is-google-zero-and-why-your-favorite-websites-are-panicking-about-ai" target="_blank" rel="noreferrer">https://www.tomsguide.com/ai/what-is-google-zero-and-why-your-favorite-websites-are-panicking-about-ai</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
