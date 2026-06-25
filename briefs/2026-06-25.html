@@ -190,9 +190,9 @@
           <span class="accent-line">2026-06-25</span>
         </h1>
         <p class="lead">
-          목요일 실행 규칙에 따라 KST 기준 2026-06-23부터 2026-06-25까지 발행된 항목만 정리했습니다.
-          Major AI를 먼저 훑었고, Gemini 3.5 Pro 지연, Claude 전면 장애, OpenAI GPT-5.5-Cyber 접근 논쟁, Anthropic Mythos 보안 테스트, GLM-5.2와 Sakana Fugu의 agentic model 경쟁, GitHub Copilot 사용량·과금 변화를 우선 반영했습니다.
-          Video AI와 Design AI는 공식 발표·release note·신뢰 가능한 보도 기준으로 날짜 요건을 충족하는 신규 제품 이슈를 찾지 못했습니다.
+          목요일 실행 규칙에 따라 KST 기준 2026-06-23부터 2026-06-25까지 발행·시행·공개 예고된 항목만 다시 정리했습니다.
+          이번 판은 소송·비판성 보도를 배제하고, OpenAI GPT-5.5 Instant 품질 업데이트, Gemini API Computer Use, GitHub Copilot CLI·BYOK·모델 선택 변화, Gemini 3.5 Pro 로드맵, Figma Config 2026 업데이트처럼 실제 제품·모델·API·워크플로 변화만 우선 반영했습니다.
+          Video AI, Music AI, AI Content/Marketing Issues는 이 창 안에서 P0~P2 제품 업데이트로 확인되는 항목이 없어 비워 두었습니다.
         </p>
       </header>
 
@@ -208,11 +208,141 @@
         <div class="section-head">
           <div>
             <h2>Major AI</h2>
-            <p>프런티어 모델 제공사, agent 런타임, coding agent, API, 플랫폼 배포, 보안·접근 정책 업데이트가 제품 의사결정에 직접 연결</p>
+            <p>모델 품질, agent runtime, coding agent, API, 플랫폼 접근·라우팅 변화가 제품 의사결정에 직접 연결</p>
           </div>
           <div class="count-pill">7 items</div>
         </div>
         <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">OpenAI, GPT-5.5 Instant를 의사결정·리서치·쇼핑 맥락에 맞게 업데이트</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-24</span>
+                <span class="tag">출처 OpenAI Help Center</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">OpenAI는 ChatGPT에서 가장 많이 쓰이는 GPT-5.5 Instant를 업데이트해 의사결정, 조언, 계획, 리서치, 쇼핑 질문에서 목표 파악과 다중 턴 맥락 유지가 좋아졌다고 밝혔다. 복수 제약 조건을 더 잘 따르고, 사용자가 조건을 추가하거나 반박할 때 같은 답을 반복하기보다 더 유연하게 조정하도록 개선했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">ChatGPT 기반 고객 상담, 리서치, 상품 추천 흐름은 Instant 계열에서도 재평가할 가치가 있으며, 추천 품질과 제약 조건 준수 테스트를 새로 돌려야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noreferrer">https://help.openai.com/en/articles/6825453-chatgpt-release-notes</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Gemini API, Gemini 3.5 Flash에 Computer Use public preview 추가</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-24</span>
+                <span class="tag">출처 Google AI for Developers</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Google은 Gemini API release notes에서 Gemini 3.5 Flash용 Computer Use tool public preview를 공개했다. 이 기능은 intent 기반 단순화된 action, browser·mobile·desktop 환경 지원, configurable safety policy, 고급 prompt injection detection을 포함한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">브라우저·데스크톱 조작형 agent를 만드는 팀은 Gemini 3.5 Flash를 후보에 넣고, 안전 정책과 prompt injection 방어를 포함한 자동화 테스트를 설계할 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://ai.google.dev/gemini-api/docs/changelog" target="_blank" rel="noreferrer">https://ai.google.dev/gemini-api/docs/changelog</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">GitHub Copilot CLI, tabbed terminal interface와 MCP·skills 설정 UI로 GA</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-23</span>
+                <span class="tag">출처 GitHub Changelog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">GitHub는 Microsoft Build 2026에서 preview했던 Copilot CLI의 새 terminal interface를 일반 제공한다고 밝혔다. 새 UI는 issue, pull request, gist를 tab으로 탐색하고 prompt에 바로 참조를 넣을 수 있으며, `/mcp add`, `/mcp search`, `/skills`, `/plugin`, `/settings`로 도구·skill·plugin 설정을 터미널 안에서 처리한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">GitHub 중심 개발팀은 IDE 밖에서도 issue triage, PR 조사, MCP 서버 연결, 반복 skill 토글을 CLI 기반 agent workflow로 표준화할 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available/" target="_blank" rel="noreferrer">https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">GitHub Copilot app, OpenAI·Anthropic·Ollama 등 BYOK 모델 provider 지원</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-23</span>
+                <span class="tag">출처 GitHub Changelog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">GitHub는 Copilot app에 bring your own key 지원을 추가해 OpenAI, Azure OpenAI, Microsoft Foundry, Anthropic, LM Studio, Ollama, OpenAI-compatible endpoint를 agent session에 연결할 수 있게 했다. provider endpoint와 API key를 등록하면 Copilot-hosted model과 함께 model picker에 표시되고, key는 local OS keychain에 저장된다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">기업은 Copilot app을 쓰면서도 자체 cloud tenant, region, quota, data-handling 조건을 유지하는 model routing 전략을 설계할 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok/" target="_blank" rel="noreferrer">https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">GitHub Copilot Free·Student, auto model selection을 기본이자 유일한 선택 경험으로 전환</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-24</span>
+                <span class="tag">출처 GitHub Changelog</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">GitHub는 Copilot Free와 Student plan에서 auto model selection을 기본이자 유일한 model selection 경험으로 바꾼다고 밝혔다. Auto는 plan restriction 안에서 여러 model family를 동적으로 고르며, Microsoft-released model의 `(Preview)` label도 제거된다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">교육·무료 사용자 대상 Copilot 교육 자료는 특정 모델 선택법보다 auto routing의 동작과 plan별 제한을 설명하는 방향으로 바꿔야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans/" target="_blank" rel="noreferrer">https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans/</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
           <article class="card">
             <div class="card-head">
               <h3 class="card-title">Google, Gemini 3.5 Pro 출시를 7월로 미루며 agent·long-horizon 조정</h3>
@@ -241,33 +371,7 @@
 
           <article class="card">
             <div class="card-head">
-              <h3 class="card-title">Claude, Chat·Claude Code·API 전반 major outage로 신뢰성 리스크 노출</h3>
-              <div class="card-meta">
-                <span class="tag">발행일 2026-06-23</span>
-                <span class="tag">출처 TechRadar</span>
-              </div>
-            </div>
-            <div class="card-body">
-              <div class="detail-list">
-                <div class="detail-item">
-                  <span class="detail-label">요약</span>
-                  <p class="detail-text">TechRadar는 2026-06-23 Claude 장애가 Claude Chat, Claude Code, Claude Cowork, API를 포함한 주요 플랫폼 전반에 영향을 줬다고 정리했다. Anthropic status page는 여러 모델의 elevated error rate와 major outage를 표시했고, 수천 명의 사용자가 장시간 응답 지연이나 모델 비가용 메시지를 보고했다.</p>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">실무적 시사점</span>
-                  <p class="detail-text">Claude 기반 production workflow와 coding agent는 provider status webhook, fallback model routing, queue 재시도 정책을 장애 대응 기준선으로 갖춰야 한다.</p>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">직접 링크</span>
-                  <p class="detail-text"><a href="https://www.techradar.com/news/live/claude-down-june-23-2026" target="_blank" rel="noreferrer">https://www.techradar.com/news/live/claude-down-june-23-2026</a></p>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-head">
-              <h3 class="card-title">OpenAI GPT-5.5-Cyber, Anthropic 규제 형평성 논쟁 속 고성능 사이버 모델로 부상</h3>
+              <h3 class="card-title">Z.ai GLM-5.2, agentic coding 성능으로 open-source frontier 선택지를 확대</h3>
               <div class="card-meta">
                 <span class="tag">발행일 2026-06-23</span>
                 <span class="tag">출처 Axios</span>
@@ -277,119 +381,15 @@
               <div class="detail-list">
                 <div class="detail-item">
                   <span class="detail-label">요약</span>
-                  <p class="detail-text">Axios는 OpenAI가 GPT-5.5-Cyber 업데이트를 내놓은 뒤 Anthropic의 Fable 5·Mythos 5가 받은 export control과 대비되는 규제 형평성 논쟁이 커졌다고 보도했다. 기사에 따르면 GPT-5.5-Cyber는 OpenAI 내부 CyberGym benchmark에서 Mythos 5보다 높은 점수를 냈고, 접근은 Trusted Access for Cyber Program의 최고 등급 방어자에게 제한된다.</p>
+                  <p class="detail-text">Axios는 Z.ai의 GLM-5.2가 agentic capability와 coding 성능으로 미국 기술권의 관심을 끌며 중국 open-source model 경쟁을 다시 부각했다고 보도했다. 보도는 GLM-5.2가 비용·접근성 측면에서 글로벌 기업의 대안 후보가 되고 있으며, frontier model 접근 제한이 오히려 open-weight 채택을 자극할 수 있다고 봤다.</p>
                 </div>
                 <div class="detail-item">
                   <span class="detail-label">실무적 시사점</span>
-                  <p class="detail-text">사이버 보안용 frontier model 도입은 성능표만 볼 것이 아니라 접근 심사, 국적·지역 제한, red-team 사용 범위, 정부 정책 변동성을 함께 평가해야 한다.</p>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">직접 링크</span>
-                  <p class="detail-text"><a href="https://www.axios.com/2026/06/23/white-house-openai-anthropic-safety-security" target="_blank" rel="noreferrer">https://www.axios.com/2026/06/23/white-house-openai-anthropic-safety-security</a></p>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-head">
-              <h3 class="card-title">Anthropic Mythos, Project Glasswing 테스트에서 미 정부 시스템 취약점 탐지</h3>
-              <div class="card-meta">
-                <span class="tag">발행일 2026-06-24</span>
-                <span class="tag">출처 Associated Press</span>
-              </div>
-            </div>
-            <div class="card-body">
-              <div class="detail-list">
-                <div class="detail-item">
-                  <span class="detail-label">요약</span>
-                  <p class="detail-text">AP는 Anthropic의 Mythos model이 미국 정보기관과의 보안 테스트에서 고도로 민감한 정부 시스템의 취약점을 몇 시간 안에 식별했다는 미 당국자 발언을 전했다. 보도는 해당 테스트가 Project Glasswing과 연결돼 있으며, Fable 5·Mythos 5의 외국 국적자 접근 제한과 Anthropic의 전체 고객 비활성화 조치가 이어진 배경도 함께 설명했다.</p>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">실무적 시사점</span>
-                  <p class="detail-text">보안 agent를 핵심 운영에 넣는 조직은 모델 능력뿐 아니라 정부 테스트, 수출통제, 고객 자격 변경이 서비스 연속성에 미치는 영향을 vendor risk에 반영해야 한다.</p>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">직접 링크</span>
-                  <p class="detail-text"><a href="https://apnews.com/article/3e8762c0527c4d8ed657cbe48c84a718" target="_blank" rel="noreferrer">https://apnews.com/article/3e8762c0527c4d8ed657cbe48c84a718</a></p>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-head">
-              <h3 class="card-title">Z.ai GLM-5.2, 중국 open-source frontier 추격과 비용 논의를 재점화</h3>
-              <div class="card-meta">
-                <span class="tag">발행일 2026-06-23</span>
-                <span class="tag">출처 Axios</span>
-              </div>
-            </div>
-            <div class="card-body">
-              <div class="detail-list">
-                <div class="detail-item">
-                  <span class="detail-label">요약</span>
-                  <p class="detail-text">Axios는 Z.ai의 GLM-5.2가 agentic capability와 coding 성능으로 미국 기술권의 관심을 끌며 중국 AI 추격 논쟁을 다시 키웠다고 보도했다. 기사에서는 중국 open-source model이 글로벌 기업에 비용·접근성 측면에서 매력적이라는 점과, 미국 frontier model 접근 제한이 방어자에게도 역효과를 낼 수 있다는 우려를 함께 다뤘다.</p>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">실무적 시사점</span>
-                  <p class="detail-text">agentic coding이나 보안 분석용 모델을 고르는 팀은 closed frontier model 대비 open-weight 후보의 비용, 라이선스, 데이터 통제, 지정학 리스크를 같은 표에서 비교해야 한다.</p>
+                  <p class="detail-text">agentic coding이나 보안 분석용 모델을 고르는 팀은 closed frontier model 대비 open-weight 후보의 비용, 라이선스, 배포 통제, 지정학 리스크를 같은 표에서 비교해야 한다.</p>
                 </div>
                 <div class="detail-item">
                   <span class="detail-label">직접 링크</span>
                   <p class="detail-text"><a href="https://www.axios.com/2026/06/23/china-us-ai-race-glm-anthropic" target="_blank" rel="noreferrer">https://www.axios.com/2026/06/23/china-us-ai-race-glm-anthropic</a></p>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-head">
-              <h3 class="card-title">Sakana AI Fugu·Fugu Ultra, 단일 모델 대신 orchestrator 기반 frontier 대안으로 등장</h3>
-              <div class="card-meta">
-                <span class="tag">발행일 2026-06-23</span>
-                <span class="tag">출처 The Economic Times</span>
-              </div>
-            </div>
-            <div class="card-body">
-              <div class="detail-list">
-                <div class="detail-item">
-                  <span class="detail-label">요약</span>
-                  <p class="detail-text">The Economic Times는 Sakana AI가 Fugu와 Fugu Ultra를 공개하며 단일 초대형 모델이 아니라 여러 specialist model을 조율하는 trained orchestration layer를 내세웠다고 보도했다. 기사에 따르면 이 시스템은 하나의 API처럼 동작하되 reasoning, execution, verification, synthesis 역할을 나눠 long multi-step workflow의 일관성을 높이려는 접근이며, Fable/Mythos 접근 제한 이후 모델 가용성 리스크에 대한 대안으로 주목받고 있다.</p>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">실무적 시사점</span>
-                  <p class="detail-text">멀티모델 orchestration은 provider 중단 리스크를 줄일 수 있지만, 실제 하위 모델 구성·비용·지역 제한을 확인하지 않으면 단일 모델 의존을 다른 형태로 반복할 수 있다.</p>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">직접 링크</span>
-                  <p class="detail-text"><a href="https://economictimes.indiatimes.com/magazines/panache/ten-days-after-fable-5-shutdown-sakana-ai-makes-its-move/articleshow/131912544.cms" target="_blank" rel="noreferrer">https://economictimes.indiatimes.com/magazines/panache/ten-days-after-fable-5-shutdown-sakana-ai-makes-its-move/articleshow/131912544.cms</a></p>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-head">
-              <h3 class="card-title">GitHub Copilot, 사용량 과금 전환 뒤 최고 사용량과 용량 리스크를 동시에 노출</h3>
-              <div class="card-meta">
-                <span class="tag">발행일 2026-06-24</span>
-                <span class="tag">출처 Business Insider</span>
-              </div>
-            </div>
-            <div class="card-body">
-              <div class="detail-list">
-                <div class="detail-item">
-                  <span class="detail-label">요약</span>
-                  <p class="detail-text">Business Insider는 GitHub가 6월 사용량 급증으로 내부적으로 "best month ever"를 기록했으며, 배경에는 Copilot의 2026-06-01 사용량 기반 과금 전환이 있다고 보도했다. 동시에 AI coding demand가 Cursor, OpenAI Codex, Claude Code와의 경쟁을 키우고 GitHub의 잦은 대형 장애와 capacity pressure를 드러냈다고 설명했다.</p>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">실무적 시사점</span>
-                  <p class="detail-text">coding agent 도입 조직은 seat 기반 예산이 아니라 request·agent 작업량 기반 비용 추적과 GitHub/Copilot 장애 시 대체 개발 경로를 함께 설계해야 한다.</p>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">직접 링크</span>
-                  <p class="detail-text"><a href="https://www.businessinsider.com/github-best-month-ever-internal-meeting-2026-6" target="_blank" rel="noreferrer">https://www.businessinsider.com/github-best-month-ever-internal-meeting-2026-6</a></p>
                 </div>
               </div>
             </div>
@@ -421,34 +421,17 @@
         <div class="section-head">
           <div>
             <h2>Music AI</h2>
-            <p>Suno, Udio, ElevenLabs Music, Stable Audio, Deezer AI detection, 권리·라이선스 이슈 확인</p>
+            <p>Suno, Udio, ElevenLabs Music, Stable Audio, Deezer의 제품·기능·상업 사용 조건 변화 확인</p>
           </div>
-          <div class="count-pill">1 item</div>
+          <div class="count-pill">0 items</div>
         </div>
         <div class="cards">
-          <article class="card">
+          <article class="card empty-card">
             <div class="card-head">
-              <h3 class="card-title">노르웨이 아티스트·TONO, Suno·Udio 학습 데이터 무단 사용 의혹에 법적 대응 검토</h3>
-              <div class="card-meta">
-                <span class="tag">발행일 2026-06-24</span>
-                <span class="tag">출처 VG</span>
-              </div>
+              <h3 class="card-title">발견된 이슈없음</h3>
             </div>
             <div class="card-body">
-              <div class="detail-list">
-                <div class="detail-item">
-                  <span class="detail-label">요약</span>
-                  <p class="detail-text">VG는 The Atlantic의 AI Watchdog 조사 이후 Bjorn Eidsvag, Aurora, Karpe, Kygo, Maria Mena 등 노르웨이 아티스트의 곡이 Suno·Udio 같은 AI 음악 생성기 학습 데이터에 포함됐다는 반발을 보도했다. 노르웨이 저작권 단체 TONO는 유럽에서는 미국식 fair use 주장이 통하지 않는다는 취지로 설명하며, GEMA의 Suno 소송 결과와 국제적 대응 가능성을 주시하고 있다고 밝혔다.</p>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">실무적 시사점</span>
-                  <p class="detail-text">AI 음악을 광고·영상·브랜드 콘텐츠에 쓰는 팀은 결과물 라이선스만이 아니라 학습 데이터 보증, territory별 저작권 위험, 권리자 이의 제기 시 indemnity 조항을 확인해야 한다.</p>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">직접 링크</span>
-                  <p class="detail-text"><a href="https://www.vg.no/rampelys/i/zO6A34/bjoern-eidsvaag-om-ai-praksis-rent-tyveri" target="_blank" rel="noreferrer">https://www.vg.no/rampelys/i/zO6A34/bjoern-eidsvaag-om-ai-praksis-rent-tyveri</a></p>
-                </div>
-              </div>
+              <p class="detail-text">2026-06-23부터 2026-06-25까지의 정확한 창 안에서 공식 발표·release note·신뢰 가능한 보도로 확인되는 신규 Music AI 제품·기능·상업 사용 조건 업데이트는 찾지 못했습니다. 단순 권리 반발·소송성 보도는 이번 재작성 기준에서 제외했습니다.</p>
             </div>
           </article>
         </div>
@@ -460,15 +443,58 @@
             <h2>Design AI</h2>
             <p>GPT Image, ChatGPT image generation, Midjourney, Adobe Firefly, Canva, Figma, OpenArt, Krea, Ideogram, Freepik, Recraft 관련 이미지·디자인 agent 변화 확인</p>
           </div>
-          <div class="count-pill">0 items</div>
+          <div class="count-pill">2 items</div>
         </div>
         <div class="cards">
-          <article class="card empty-card">
+          <article class="card">
             <div class="card-head">
-              <h3 class="card-title">발견된 이슈없음</h3>
+              <h3 class="card-title">Figma Config 2026, AI motion graphics·shader·Weave workflow를 디자인 캔버스에 통합</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-24</span>
+                <span class="tag">출처 The Verge</span>
+              </div>
             </div>
             <div class="card-body">
-              <p class="detail-text">2026-06-23부터 2026-06-25까지의 정확한 발행일 창 안에서 공식 발표·release note·신뢰 가능한 보도로 확인되는 신규 Design AI 제품 업데이트는 찾지 못했습니다.</p>
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">The Verge는 Figma가 Config 2026에서 AI motion graphics, shader effects, Code Layers, Figma Weave workflows, agent skills, generative plugins를 발표했다고 보도했다. 사용자는 prompt로 animation과 3D transition을 만들고 timeline에서 수정할 수 있으며, WebGPU 기반 shader 효과와 20개 이상의 Weave 도구를 canvas 안에서 쓸 수 있다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">디자인팀은 Figma를 정적 UI 제작 툴이 아니라 motion, visual treatment, code-backed design, 반복 작업 자동화를 한 캔버스에서 처리하는 production hub로 다시 평가해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements" target="_blank" rel="noreferrer">https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Gemini API, Gemini 3.1 Flash Image·Gemini 3 Pro Image preview 모델을 2026-06-25 종료</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-25</span>
+                <span class="tag">출처 Google AI for Developers</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Google Gemini API release notes는 `gemini-3.1-flash-image-preview`와 `gemini-3-pro-image-preview` 모델이 2026-06-25에 shut down된다고 안내했다. 같은 changelog는 GA 모델인 `gemini-3.1-flash-image`와 `gemini-3-pro-image`를 사용하고, video-to-image generation은 `gemini-3.1-flash-image`에서만 지원된다고 설명한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">이미지 생성·썸네일·포스터 자동화를 Gemini preview endpoint에 묶어 둔 팀은 즉시 GA 모델 ID로 교체하고, video-to-image 기능 의존 여부를 별도 회귀 테스트해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://ai.google.dev/gemini-api/docs/changelog" target="_blank" rel="noreferrer">https://ai.google.dev/gemini-api/docs/changelog</a></p>
+                </div>
+              </div>
             </div>
           </article>
         </div>
@@ -478,34 +504,17 @@
         <div class="section-head">
           <div>
             <h2>AI Content/Marketing Issues</h2>
-            <p>AI ads, AI influencers, synthetic talent, copyright, disclosure, SEO/search visibility, publisher traffic, brand safety 이슈 확인</p>
+            <p>AI 광고 도구, 캠페인 자동화, synthetic talent 제품, GEO/SEO 도구, disclosure·brand safety 기능 변화 확인</p>
           </div>
-          <div class="count-pill">1 item</div>
+          <div class="count-pill">0 items</div>
         </div>
         <div class="cards">
-          <article class="card">
+          <article class="card empty-card">
             <div class="card-head">
-              <h3 class="card-title">People Inc. CEO, Google의 search·AI 단일 crawler 관행을 시장지배력 남용으로 비판</h3>
-              <div class="card-meta">
-                <span class="tag">발행일 2026-06-23</span>
-                <span class="tag">출처 Axios</span>
-              </div>
+              <h3 class="card-title">발견된 이슈없음</h3>
             </div>
             <div class="card-body">
-              <div class="detail-list">
-                <div class="detail-item">
-                  <span class="detail-label">요약</span>
-                  <p class="detail-text">Axios는 People Inc. CEO Neil Vogel이 Cannes Lions에서 Google이 search indexing과 AI 수집에 같은 crawler를 쓰는 점을 강하게 비판했다고 보도했다. 퍼블리셔는 AI 학습·응답용 scraping을 막고 싶어도 검색 트래픽과 광고·제휴 매출을 잃을 수 있어 선택지가 제한되며, People Inc.는 Meta, OpenAI, Microsoft와 AI 콘텐츠 라이선스 계약을 맺고 있다고 설명했다.</p>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">실무적 시사점</span>
-                  <p class="detail-text">콘텐츠·마케팅 조직은 SEO 트래픽, AI crawler 허용 정책, 콘텐츠 라이선스, direct audience 확보를 하나의 수익 방어 전략으로 묶어 관리해야 한다.</p>
-                </div>
-                <div class="detail-item">
-                  <span class="detail-label">직접 링크</span>
-                  <p class="detail-text"><a href="https://www.axios.com/2026/06/23/people-inc-google-ai-search-crawler" target="_blank" rel="noreferrer">https://www.axios.com/2026/06/23/people-inc-google-ai-search-crawler</a></p>
-                </div>
-              </div>
+              <p class="detail-text">2026-06-23부터 2026-06-25까지의 정확한 창 안에서 AI 광고 도구, 캠페인 자동화, GEO/SEO 도구, synthetic talent 제품, disclosure·brand safety 기능의 신규 제품 업데이트는 확인하지 못했습니다. 일반적인 publisher traffic 비판이나 crawler 논쟁은 이번 재작성 기준에서 제외했습니다.</p>
             </div>
           </article>
         </div>
