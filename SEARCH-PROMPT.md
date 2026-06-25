@@ -8,7 +8,7 @@
 
 ## 0. 한 줄 작업 정의
 
-> "오늘 날짜 기준 윈도우(아래 규칙) 안에 **발행되었거나 시행된** AI 업데이트만 모아,
+> "오늘 날짜 기준 윈도우(아래 규칙) 안에 **발행·시행·공개 예고된** AI 제품/모델 업데이트만 우선 모아,
 > 5개 섹션 카드 구조(`briefs/`의 기존 HTML)와 동일한 형식으로 한국어 브리프를 만든다."
 
 ---
@@ -25,8 +25,28 @@
 판정 기준:
 - **발행일(published)** 또는 **시행일(effective/적용 시작일)** 중 하나라도 윈도우 안에 들면 포함.
   - 예: 발표는 이전이지만 "제거/마이그레이션 시행일"이 윈도우 안이면 포함(2026-06-08 Gemini 스키마 제거 사례).
+- 명확히 날짜가 찍힌 **공개 예정/roadmap/출시 예고**도 포함할 수 있다. 단, 출처가 공식 문서·공식 포스트·신뢰 가능한 취재 보도여야 한다.
 - 윈도우 밖이거나, 업데이트성보다 **evergreen(시점 무관 일반 정보)** 성격이 강하면 제외.
 - 같은 사안의 중복 보도는 1개 카드로 합치고, 가장 1차에 가까운/정보량 많은 출처를 우선.
+
+---
+
+## 1-1. 편집 우선순위 (정보성 업데이트 우선)
+
+브리프의 목적은 "AI 업계에서 지금 무엇을 써볼 수 있고, 무엇을 준비해야 하는가"를 알려주는 것입니다.
+따라서 아래 순서로 후보를 고르고, 하위 후보가 상위 후보를 밀어내지 않게 합니다.
+
+1. **P0: 제품·모델·API 업데이트**
+   - 새 모델/버전, benchmark/system card, API/SDK/CLI/runtime, agent/coding-agent, 가격·rate limit·context window, access/beta/region 변화, cloud platform 배포.
+2. **P1: 가까운 출시 계획·roadmap**
+   - 공식 preview, waitlist, staged rollout, 공개된 출시 예정일, 신뢰 가능한 보도로 확인된 upcoming model/product 계획.
+3. **P2: creator workflow 변화**
+   - Video/Music/Design 툴의 새 기능, 4K/upscaling, 편집·협업·캠페인 생성 워크플로, 상업 사용 조건, 엔터프라이즈 접근 변화.
+4. **P3: 정책·권리·비판·소송**
+   - 새 판결, 공식 정책 변경, 서비스 접근 제한, 라이선스 조건 변경처럼 실무 사용 여부를 직접 바꾸는 경우만 포함.
+   - 단순 반발, 일반 비판, 진행 중 소송 보도, publisher traffic 논쟁, AI 윤리/위험 논평은 제품 업데이트 후보가 부족해도 빈칸 채우기용으로 넣지 않는다.
+
+섹션에 P0~P2 후보가 없으면 `발견된 이슈없음`이 낫습니다. 낮은 우선순위의 비판성 기사로 억지로 채우지 않습니다.
 
 ---
 
@@ -46,7 +66,8 @@
 - **검색 대상:** Kling, Runway, Sora, Veo, Pika, Luma, Synthesia, HeyGen, CapCut AI.
 
 ### 2-3. Music AI
-- **무엇을 찾나:** 음악 생성 모델·제품, 투자/시장, 훈련 데이터·라이선스·권리 투명성 이슈.
+- **무엇을 찾나:** 음악 생성 모델·제품, 새 기능, 배포/상업 사용 조건, 투자/시장, 가까운 출시 계획.
+- **권리/소송 이슈:** 라이선스 조건, 플랫폼 정책, 이용 가능성, 보상 구조가 새로 바뀌는 경우만 포함. 단순 반발·진행 중 소송 보도는 후순위.
 - **검색 대상:** Suno, Udio, ElevenLabs Music, Stable Audio, Deezer (+ 레이블/스트리밍 권리 이슈).
 
 ### 2-4. Design AI (이미지·디자인)
@@ -55,8 +76,9 @@
   OpenArt, Krea, Ideogram, Freepik, Recraft.
 
 ### 2-5. AI Content / Marketing Issues
-- **무엇을 찾나:** AI 광고 제작, 합성 인플루언서, 저작권, 고지(disclosure), 검색 가시성(answer engine), 브랜드 세이프티, 마케팅 자동화.
-- **검색 대상:** 위 이슈를 다루는 업계 매체·캠페인 사례·규제/소송 동향.
+- **무엇을 찾나:** AI 광고 제작 툴, 캠페인 자동화, 합성 talent 제작/관리 제품, SEO/GEO 도구, disclosure·brand safety를 바꾸는 플랫폼 기능·정책 업데이트.
+- **비판/소송/논쟁:** 새 규칙·정책·계약·제품 제한으로 마케팅 운영이 바뀌는 경우만 포함. 일반적인 publisher traffic 우려나 브랜드 비판 기사는 제외.
+- **검색 대상:** 공식 제품 업데이트, ad-tech/martech release note, 캠페인 사례, 플랫폼 정책 변경, 신뢰 가능한 업계 보도.
 
 > 섹션이 비면 그대로 비워도 됩니다. 단, **Major AI는 가급적 채우는 것**을 목표로 합니다.
 > 항목이 적은 날은 섹션 자체를 생략할 수 있습니다(과거 브리프에 Major AI 없는 날 있음).
@@ -110,12 +132,14 @@
      Perplexity, Microsoft Copilot, Amazon Bedrock, AI Studio/Vertex AI, DeepSeek, Qwen/Alibaba,
      Moonshot/Kimi, Zhipu/GLM, Baidu/ERNIE — 모델·API·가격·접근·컨텍스트·에이전트·코딩에이전트·안전성·플랫폼 배포.
   2) Video AI: Kling, Runway, Sora, Veo, Pika, Luma, Synthesia, HeyGen, CapCut AI.
-  3) Music AI: Suno, Udio, ElevenLabs Music, Stable Audio, Deezer + 음악 권리/라이선스 이슈.
+  3) Music AI: Suno, Udio, ElevenLabs Music, Stable Audio, Deezer + 음악 생성 제품/기능/출시 계획. 권리/라이선스는 사용 조건이 새로 바뀔 때만.
   4) Design AI: GPT Image, Midjourney, Adobe Firefly, Canva, Figma, OpenArt, Krea, Ideogram, Freepik, Recraft.
-  5) AI Content/Marketing Issues: AI 광고·합성 인플루언서·저작권·고지·검색 가시성·브랜드 세이프티·마케팅 자동화.
+  5) AI Content/Marketing Issues: AI 광고 도구·캠페인 자동화·합성 인플루언서 제품·GEO/SEO 도구·platform policy 업데이트.
 
 [각 항목마다 반드시 회수] 제목 후보 / 발행(시행)일 / 출처명(+원출처) / URL / 본문 핵심 사실 3~4개.
 공식 changelog·release notes·API docs를 1차 보도보다 우선. 같은 사안 중복은 1개로 병합.
+후보 우선순위는 제품·모델·API 업데이트(P0) > 가까운 출시 계획(P1) > creator workflow 변화(P2) > 정책·권리·비판·소송(P3).
+P3는 새 판결/정책/계약/접근 제한처럼 사용 여부를 직접 바꾸는 경우만 포함하고, 낮은 우선순위 기사로 빈 섹션을 채우지 마세요.
 
 [출력] 섹션별로 후보 목록을 위 필드와 함께 정리해 주세요. (HTML은 이후 단계에서 작성)
 ```
