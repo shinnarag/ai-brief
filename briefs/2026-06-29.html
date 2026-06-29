@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Brief | 2026-06-29</title>
+    <meta name="description" content="2026-06-26부터 2026-06-29까지의 AI Brief" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f7f0e8;
+        --panel: rgba(255, 255, 255, 0.78);
+        --line: rgba(29, 36, 42, 0.1);
+        --text: #1d242a;
+        --muted: #5f6b76;
+        --accent: #0d7a6f;
+        --warm: #d96b41;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--text);
+        font-family: "Manrope", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(217, 107, 65, 0.18), transparent 24%),
+          radial-gradient(circle at top right, rgba(13, 122, 111, 0.14), transparent 26%),
+          linear-gradient(180deg, #fbf7f2 0%, var(--bg) 46%, #f1e8de 100%);
+      }
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(29, 36, 42, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(29, 36, 42, 0.035) 1px, transparent 1px);
+        background-size: 36px 36px;
+        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), transparent 88%);
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .wrap { width: min(calc(100% - 32px), 1180px); margin: 0 auto; padding: 28px 0 64px; }
+      .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+      .home-btn, .meta-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        font-weight: 800;
+      }
+      .meta-pill { color: var(--muted); }
+      .hero {
+        margin-top: 18px;
+        border-radius: 34px;
+        padding: 34px;
+        background: linear-gradient(145deg, rgba(255,255,255,0.94), rgba(255,248,242,0.84));
+        border: 1px solid rgba(255,255,255,0.64);
+        box-shadow: 0 24px 60px rgba(29,36,42,0.12);
+      }
+      .eyebrow {
+        display: inline-flex;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.12);
+        color: var(--accent);
+        font-size: 0.8rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      h1 {
+        margin: 18px 0 12px;
+        font-size: clamp(2.5rem, 5vw, 4.7rem);
+        line-height: 0.95;
+        letter-spacing: -0.05em;
+      }
+      .accent-line {
+        display: block;
+        color: var(--warm);
+        font-family: "Instrument Serif", serif;
+        font-style: italic;
+        font-weight: 400;
+      }
+      .lead { max-width: 840px; margin: 0; color: var(--muted); line-height: 1.72; }
+      .section { margin-top: 34px; }
+      .section-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 16px; }
+      .section-head h2 { margin: 0; font-size: clamp(1.45rem, 3vw, 2.15rem); letter-spacing: -0.04em; }
+      .section-head p { margin: 8px 0 0; color: var(--muted); }
+      .count-pill {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,0.78);
+        color: var(--muted);
+        font-size: 0.84rem;
+        font-weight: 800;
+      }
+      .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+      .card {
+        border-radius: 28px;
+        background: var(--panel);
+        border: 1px solid rgba(255,255,255,0.68);
+        box-shadow: 0 20px 42px rgba(29,36,42,0.08);
+        overflow: hidden;
+      }
+      .card-head { padding: 22px 22px 0; }
+      .card-title { margin: 0; font-size: 1.16rem; line-height: 1.45; letter-spacing: -0.03em; }
+      .card-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+      .tag {
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.74);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+      .card-body { padding: 18px 22px 22px; }
+      .detail-list { display: grid; gap: 14px; }
+      .detail-item {
+        padding: 14px 15px;
+        border-radius: 18px;
+        background: rgba(255,255,255,0.72);
+        border: 1px solid rgba(29,36,42,0.08);
+      }
+      .detail-label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--warm);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .detail-text { margin: 0; font-size: 0.96rem; line-height: 1.72; }
+      .empty-card { grid-column: 1 / -1; }
+      @media (max-width: 900px) {
+        .cards { grid-template-columns: 1fr; }
+        .topbar, .section-head { flex-direction: column; align-items: flex-start; }
+      }
+      @media (max-width: 640px) {
+        .wrap { width: min(calc(100% - 20px), 1180px); }
+        .hero { padding: 22px; border-radius: 28px; }
+      }
+      html { scroll-behavior: smooth; }
+      .section-nav {
+        position: sticky;
+        top: 10px;
+        z-index: 5;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 22px;
+        padding: 10px 12px;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.82);
+        border: 1px solid var(--line);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 12px 30px rgba(29,36,42,0.08);
+      }
+      .section-nav a {
+        padding: 8px 13px;
+        border-radius: 999px;
+        background: rgba(13,122,111,0.08);
+        color: var(--accent);
+        font-size: 0.82rem;
+        font-weight: 800;
+      }
+      .section-nav a:hover { background: var(--accent); color: #fff; text-decoration: none; }
+      .section { scroll-margin-top: 84px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="topbar">
+        <a class="home-btn" href="../index.html">메인으로 이동</a>
+        <div class="meta-pill">run date 2026-06-29 / window 2026-06-26 ~ 2026-06-29 KST</div>
+      </div>
+
+      <header class="hero">
+        <div class="eyebrow">Monday Brief</div>
+        <h1>
+          AI Brief
+          <span class="accent-line">2026-06-29</span>
+        </h1>
+        <p class="lead">
+          월요일 실행 규칙에 따라 KST 기준 2026-06-26부터 2026-06-29까지 발행·시행·공개 예고된 항목만 반영했습니다.
+          Video AI를 먼저 확인했지만 Seedance 2.0 4K, Seedance 2.5, Kling, Runway, Veo, Midjourney Video, Luma, Pika, Hailuo/MiniMax, PixVerse, Vidu, CapCut에서 이번 창에 들어오는 새 모델·해상도·가격·접근 업데이트는 확인되지 않았습니다.
+          이번 브리프의 핵심은 GPT-5.6과 Mythos 5/Fable 5의 제한적 접근, Grok 4.5 private beta, AWS AI GPU 예약 가격 인상, Suno Spark 참여 조건입니다.
+        </p>
+      </header>
+
+      <nav class="section-nav" aria-label="섹션 바로가기">
+        <a href="#major-ai">Major</a>
+        <a href="#video-ai">Video</a>
+        <a href="#music-ai">Music</a>
+        <a href="#design-ai">Design</a>
+        <a href="#ai-content-marketing-issues">Content/Marketing</a>
+      </nav>
+
+      <section class="section" id="major-ai">
+        <div class="section-head">
+          <div>
+            <h2>Major AI</h2>
+            <p>모델 공개 방식, 접근 제한, private beta, AI compute 가격 변화가 제품·개발 로드맵에 직접 연결</p>
+          </div>
+          <div class="count-pill">5 items</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">OpenAI, GPT-5.6 Sol·Terra·Luna를 정부 요청에 따라 제한 preview로 시작</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-26</span>
+                <span class="tag">출처 Business Insider</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">OpenAI는 GPT-5.6 시리즈인 Sol, Terra, Luna를 공개했지만 초기 접근은 미국 정부와 공유된 소수 trusted partner preview로 제한했다. Sol은 차세대 frontier 모델, Terra는 효율적인 everyday work 모델, Luna는 빠르고 저렴한 high-volume 모델로 포지셔닝되며, 더 넓은 공개는 향후 몇 주 안으로 예고됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">GPT-5.6 기반 기능 출시를 준비하는 팀은 당장 API 일반 접근을 전제로 잡지 말고, Sol/Terra/Luna별 비용·latency·agent 성능 테스트 계획을 preview 가용성 이후로 분리해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.businessinsider.com/openai-gpt-5-6-limited-preview-us-government-ai-security-2026-6" target="_blank" rel="noreferrer">https://www.businessinsider.com/openai-gpt-5-6-limited-preview-us-government-ai-security-2026-6</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Anthropic Mythos 5, 승인된 사이버 방어·인프라 조직에 한해 제한 복구</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-26</span>
+                <span class="tag">출처 The Verge</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">미 상무부의 2026-06-26 서한 이후 Anthropic의 Mythos 5가 일부 승인된 미국 cyber defender와 infrastructure provider 대상으로 다시 열렸다. 기존 2026-06-12 export-control directive는 유지되지만, 승인 조직과 해당 조직 내 비미국 국적 구성원도 예외적으로 접근할 수 있는 제한 preview가 허용됐다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">보안 제품팀과 critical infrastructure 사업자는 Mythos 5를 즉시 일반 모델 후보로 보기보다, 정부 승인·조직 요건·사용 프로토콜을 충족할 때만 가능한 특수 옵션으로 다뤄야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations" target="_blank" rel="noreferrer">https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Anthropic Fable 5, 정부 승인 협의가 진전되며 복귀 가능성 부상</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-27</span>
+                <span class="tag">출처 Axios</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Axios는 미국 정부가 Anthropic의 Fable 5 접근 복구를 허용하는 방향에 가까워졌다고 보도했다. Fable 5는 공개형 Mythos-class 모델로, 출시 직후 유료 Claude 플랜 일부에서 추가 요금 없이 제공됐으나 정부 보안 우려로 15일간 오프라인 상태였다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">Claude 기반 coding·reasoning 워크플로를 Fable 5에 맞춰 설계했던 팀은 복귀 시점이 확정될 때까지 Opus·GPT·Gemini 대체 경로를 유지하되, 재개 즉시 회귀 벤치마크를 돌릴 준비를 해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon" target="_blank" rel="noreferrer">https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">xAI Grok 4.5, SpaceX와 Tesla 내부 private beta 진입</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-28</span>
+                <span class="tag">출처 The Economic Times</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Elon Musk는 Grok 4.5가 SpaceX와 Tesla에서 private beta에 들어갔고, 내부 평가에서 Anthropic Opus급 또는 그 이상에 가까운 성능을 보인다고 밝혔다. 아직 일반 사용자나 API 접근은 공개되지 않았지만, xAI의 다음 major model rollout이 가까워졌다는 roadmap 신호다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">Grok API나 X/Tesla 생태계 연동을 검토하는 제품팀은 4.5 공개 시점에 맞춰 reasoning·tool use·real-time retrieval 비교 벤치마크를 준비해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://m.economictimes.com/tech/technology/elon-musk-says-grok-4-5-is-now-in-private-beta-claims-performance-near-or-above-anthropics-opus/articleshow/132051646.cms" target="_blank" rel="noreferrer">https://m.economictimes.com/tech/technology/elon-musk-says-grok-4-5-is-now-in-private-beta-claims-performance-near-or-above-anthropics-opus/articleshow/132051646.cms</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">AWS, EC2 Capacity Blocks for ML 예약 가격을 7월부터 약 20% 인상</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-26</span>
+                <span class="tag">출처 Business Insider</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">AWS는 대규모 AI 학습·fine-tuning용 GPU를 사전 예약하는 EC2 Capacity Blocks for ML의 시간당 가격을 2026년 7월부터 약 20% 올린다. 이 구매 옵션은 1월에도 약 15% 인상된 바 있으며, AWS는 수급 상황에 따른 주기적 가격 조정이라고 설명했다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">모델 학습·튜닝 예산을 AWS Capacity Blocks로 잡은 팀은 7월 이후 run cost를 다시 계산하고, reserved capacity, spot, Bedrock/managed fine-tuning, 타 cloud GPU 옵션을 함께 비교해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.businessinsider.com/amazon-raises-ai-cloud-prices-memory-chip-costs-soar-2026-6" target="_blank" rel="noreferrer">https://www.businessinsider.com/amazon-raises-ai-cloud-prices-memory-chip-costs-soar-2026-6</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="video-ai">
+        <div class="section-head">
+          <div>
+            <h2>Video AI</h2>
+            <p>Seedance, Kling, Runway, Veo, Sora, Midjourney Video, Luma, Pika, Hailuo/MiniMax, PixVerse, Vidu, LTX, CapCut, Synthesia, HeyGen 확인</p>
+          </div>
+          <div class="count-pill">0 items</div>
+        </div>
+        <div class="cards">
+          <article class="card empty-card">
+            <div class="card-head">
+              <h3 class="card-title">발견된 이슈없음</h3>
+            </div>
+            <div class="card-body">
+              <p class="detail-text">2026-06-26부터 2026-06-29까지의 정확한 창 안에서 새 영상 모델, 4K/HD/upscaling, longer generation, audio sync, API, pricing, region rollout, beta/waitlist, creator workflow 변경으로 확인되는 P0-P3 항목은 찾지 못했습니다. 2026-06-25까지 확인된 Higgsfield Seedance 2.0 4K와 이전 Hailuo 02류 항목은 이번 창 밖이라 제외했습니다.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="music-ai">
+        <div class="section-head">
+          <div>
+            <h2>Music AI</h2>
+            <p>Suno, Udio, ElevenLabs Music, Stable Audio, Lyria, Deezer detection/tagging, 음악 라이선스·상업 사용 조건 변화 확인</p>
+          </div>
+          <div class="count-pill">1 item</div>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <h3 class="card-title">Suno, independent artist용 Spark incubator를 열며 remix·파생작 라이선스 조건 제시</h3>
+              <div class="card-meta">
+                <span class="tag">발행일 2026-06-28</span>
+                <span class="tag">출처 The Verge</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="detail-list">
+                <div class="detail-item">
+                  <span class="detail-label">요약</span>
+                  <p class="detail-text">Suno는 unsigned singer, songwriter, producer를 대상으로 Spark incubator program을 시작해 grants, mentorship, marketing support를 제공한다. 참여자는 자신의 곡을 Suno에서 remix 가능하게 하고, Suno가 작품을 사용·remix·파생작 생성에 활용할 수 있는 넓은 라이선스와 일부 독점성, 비방 금지성 조항에 동의해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">실무적 시사점</span>
+                  <p class="detail-text">아티스트와 레이블은 Spark를 단순 지원 프로그램이 아니라 catalog 사용권과 프로모션 의무가 결합된 계약으로 보고, 배포·리믹스·파생작 수익화 범위를 법무 검토해야 한다.</p>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">직접 링크</span>
+                  <p class="detail-text"><a href="https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine" target="_blank" rel="noreferrer">https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="design-ai">
+        <div class="section-head">
+          <div>
+            <h2>Design AI</h2>
+            <p>GPT Image, Midjourney, Adobe Firefly, Photoshop, Canva, Figma, OpenArt, Krea, Ideogram, Freepik, Recraft, Flux 확인</p>
+          </div>
+          <div class="count-pill">0 items</div>
+        </div>
+        <div class="cards">
+          <article class="card empty-card">
+            <div class="card-head">
+              <h3 class="card-title">발견된 이슈없음</h3>
+            </div>
+            <div class="card-body">
+              <p class="detail-text">2026-06-26부터 2026-06-29까지의 정확한 창 안에서 이미지 모델 버전, text rendering, reference/character consistency, inpainting/outpainting, design agent, API, pricing, access 변화로 확인되는 P0-P3 항목은 찾지 못했습니다. Figma Config 2026과 Adobe/Topaz 보도는 2026-06-25 발행이라 이번 창에서 제외했습니다.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="ai-content-marketing-issues">
+        <div class="section-head">
+          <div>
+            <h2>AI Content/Marketing Issues</h2>
+            <p>AI ad generation, campaign automation, synthetic talent, GEO/AEO, disclosure/watermark, brand-safety 제품 변화 확인</p>
+          </div>
+          <div class="count-pill">0 items</div>
+        </div>
+        <div class="cards">
+          <article class="card empty-card">
+            <div class="card-head">
+              <h3 class="card-title">발견된 이슈없음</h3>
+            </div>
+            <div class="card-body">
+              <p class="detail-text">2026-06-26부터 2026-06-29까지의 정확한 창 안에서 Google Ads, Meta Ads, TikTok, Amazon Ads, Adobe, Canva, Figma Buzz, HubSpot, Salesforce, Braze, Jasper, Writer, Typeface, Omneky, Profound, Evertune 관련 실제 제품·기능·가격·정책 변화는 확인하지 못했습니다. Disney AI 광고 도구 보도는 2026-06-17 발행으로 날짜 기준에서 제외했습니다.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
