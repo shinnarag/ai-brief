@@ -176,17 +176,19 @@ Video AI에 중요한 P0/P2 항목이 있으면 반드시 포함한다. Major AI
 
 ## 8. 산출물
 
-1. `briefs/YYYY-MM-DD.html`을 기존 최신 브리프의 디자인 언어에 맞춰 생성 또는 갱신한다.
-2. 상단에 `메인으로 이동` 버튼을 둔다.
-3. `index.html`의 Latest Brief 카드와 archive grid 맨 위 카드를 갱신한다.
-4. 기존 archive entry를 덮어쓰거나 삭제하지 않는다.
-5. 작업 후 검증한다:
+1. `briefs/YYYY-MM-DD.html`을 기존 최신 브리프의 콘텐츠 구조에 맞춰 생성 또는 갱신한다.
+2. 새 브리프는 `<body class="brief-page">`를 사용하고, `../assets/platform.css`와 `../assets/platform.js`를 연결한다. 새 인라인 디자인을 만들지 않는다.
+3. 상단에 `메인으로 이동` 링크와 기존 `run date / window` 메타데이터를 유지한다. 플랫폼 스크립트가 화면용 한국어 문구와 읽기 도구를 제공한다.
+4. `index.html`의 최신 브리프 요약, 주제별 핵심 업데이트, archive grid 맨 위 카드를 함께 갱신한다. 최신 브리프의 실제 항목과 활성 분야 수를 정확히 반영한다.
+5. 기존 archive entry를 덮어쓰거나 삭제하지 않는다.
+6. 아카이브 카드 갱신 후 `node scripts/sync-archive-metadata.mjs`를 실행해 실제 이슈가 있는 분야와 건수를 동기화한다.
+7. 작업 후 검증한다:
    - `git diff --check`
    - HTML parser
    - 섹션 5개 존재 여부
    - count-pill과 실제 카드 수 일치 여부
    - 링크가 해당 제품/업데이트를 가리키는지 확인
-6. 이번 실행에서 바꾼 파일만 commit하고 `origin/main`에 push한다.
+8. 이번 실행에서 바꾼 파일만 commit하고 `origin/main`에 push한다.
 
 ---
 

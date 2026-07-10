@@ -3,345 +3,145 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI Brief Archive</title>
-    <meta name="description" content="AI Brief 아카이브 홈. 월요일과 목요일 브리프를 모아보는 메인 페이지." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
-    <style>
-      :root {
-        --bg: #f7f0e8;
-        --panel: rgba(255, 255, 255, 0.78);
-        --panel-strong: rgba(255, 255, 255, 0.92);
-        --line: rgba(29, 36, 42, 0.1);
-        --text: #1d242a;
-        --muted: #5f6b76;
-        --accent: #0d7a6f;
-        --accent-soft: rgba(13, 122, 111, 0.12);
-        --warm: #d96b41;
-        --shadow: 0 26px 70px rgba(29, 36, 42, 0.12);
-      }
-
-      * { box-sizing: border-box; }
-      body {
-        margin: 0;
-        color: var(--text);
-        font-family: "Manrope", sans-serif;
-        background:
-          radial-gradient(circle at top left, rgba(217, 107, 65, 0.18), transparent 24%),
-          radial-gradient(circle at top right, rgba(13, 122, 111, 0.14), transparent 26%),
-          linear-gradient(180deg, #fbf7f2 0%, var(--bg) 46%, #f1e8de 100%);
-      }
-      body::before {
-        content: "";
-        position: fixed;
-        inset: 0;
-        pointer-events: none;
-        background-image:
-          linear-gradient(rgba(29, 36, 42, 0.035) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(29, 36, 42, 0.035) 1px, transparent 1px);
-        background-size: 36px 36px;
-        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), transparent 88%);
-      }
-      a { color: inherit; text-decoration: none; }
-      .wrap {
-        width: min(calc(100% - 32px), 1180px);
-        margin: 0 auto;
-        padding: 28px 0 64px;
-        position: relative;
-      }
-      .topbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 16px;
-        padding: 12px 0 26px;
-      }
-      .brand {
-        display: inline-flex;
-        align-items: center;
-        gap: 12px;
-        padding: 10px 16px;
-        border-radius: 999px;
-        background: rgba(255, 255, 255, 0.78);
-        border: 1px solid var(--line);
-        font-weight: 800;
-      }
-      .brand-mark {
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        background: linear-gradient(135deg, var(--accent), var(--warm));
-      }
-      .meta-pill {
-        padding: 10px 14px;
-        border-radius: 999px;
-        border: 1px solid var(--line);
-        background: rgba(255, 255, 255, 0.72);
-        color: var(--muted);
-        font-size: 0.86rem;
-        font-weight: 700;
-      }
-      .hero {
-        position: relative;
-        overflow: hidden;
-        border-radius: 36px;
-        padding: 34px;
-        background: linear-gradient(145deg, rgba(255,255,255,0.94), rgba(255,248,242,0.82));
-        border: 1px solid rgba(255,255,255,0.6);
-        box-shadow: var(--shadow);
-      }
-      .hero::after {
-        content: "";
-        position: absolute;
-        right: -70px;
-        top: -70px;
-        width: 240px;
-        height: 240px;
-        border-radius: 50%;
-        background: radial-gradient(circle, rgba(13,122,111,0.18), transparent 68%);
-      }
-      .eyebrow {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        padding: 10px 14px;
-        border-radius: 999px;
-        background: var(--accent-soft);
-        color: var(--accent);
-        font-size: 0.8rem;
-        font-weight: 800;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-      }
-      h1 {
-        margin: 18px 0 12px;
-        max-width: 840px;
-        font-size: clamp(2.8rem, 5vw, 5rem);
-        line-height: 0.94;
-        letter-spacing: -0.05em;
-      }
-      .accent-line {
-        display: block;
-        color: var(--warm);
-        font-family: "Instrument Serif", serif;
-        font-style: italic;
-        font-weight: 400;
-        letter-spacing: -0.02em;
-      }
-      .lead {
-        max-width: 760px;
-        margin: 0;
-        color: var(--muted);
-        font-size: 1.02rem;
-        line-height: 1.75;
-      }
-      .hero-grid {
-        display: grid;
-        grid-template-columns: 1.35fr 0.85fr;
-        gap: 18px;
-        margin-top: 28px;
-      }
-      .hero-card,
-      .archive-card {
-        border-radius: 26px;
-        background: var(--panel);
-        border: 1px solid rgba(255,255,255,0.7);
-        box-shadow: 0 20px 44px rgba(29, 36, 42, 0.08);
-        backdrop-filter: blur(10px);
-      }
-      .hero-card {
-        padding: 22px;
-      }
-      .tiny-label {
-        display: block;
-        margin-bottom: 10px;
-        color: var(--warm);
-        font-size: 0.78rem;
-        font-weight: 800;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-      }
-      .feature-title,
-      .archive-title {
-        margin: 0 0 10px;
-        font-size: 1.34rem;
-        line-height: 1.4;
-        letter-spacing: -0.03em;
-      }
-      .feature-text,
-      .archive-text {
-        margin: 0;
-        color: var(--muted);
-        line-height: 1.72;
-        font-size: 0.95rem;
-      }
-      .button-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 18px;
-      }
-      .button,
-      .ghost {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 46px;
-        padding: 0 18px;
-        border-radius: 999px;
-        font-weight: 800;
-      }
-      .button {
-        background: linear-gradient(135deg, var(--accent), #127d8f);
-        color: #fff;
-        box-shadow: 0 18px 32px rgba(13, 122, 111, 0.24);
-      }
-      .ghost {
-        border: 1px solid var(--line);
-        background: rgba(255,255,255,0.7);
-        color: var(--text);
-      }
-      .section {
-        margin-top: 34px;
-      }
-      .section-head {
-        display: flex;
-        justify-content: space-between;
-        align-items: end;
-        gap: 16px;
-        margin-bottom: 18px;
-      }
-      .section-head h2 {
-        margin: 0;
-        font-size: clamp(1.5rem, 3vw, 2.2rem);
-        letter-spacing: -0.04em;
-      }
-      .section-head p {
-        margin: 8px 0 0;
-        color: var(--muted);
-      }
-      .archive-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 18px;
-      }
-      .archive-card {
-        padding: 22px;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-      }
-      .archive-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 28px 56px rgba(29, 36, 42, 0.12);
-      }
-      .card-top {
-        display: flex;
-        justify-content: space-between;
-        align-items: start;
-        gap: 14px;
-      }
-      .date-chip {
-        flex-shrink: 0;
-        padding: 9px 12px;
-        border-radius: 999px;
-        border: 1px solid var(--line);
-        background: rgba(255,255,255,0.72);
-        color: var(--muted);
-        font-size: 0.8rem;
-        font-weight: 800;
-      }
-      .archive-meta {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 16px;
-      }
-      .archive-meta span {
-        padding: 8px 11px;
-        border-radius: 999px;
-        background: rgba(13,122,111,0.08);
-        color: var(--accent);
-        font-size: 0.8rem;
-        font-weight: 800;
-      }
-      .footer-note {
-        margin-top: 30px;
-        padding: 18px 20px;
-        border-radius: 22px;
-        background: rgba(255,255,255,0.72);
-        border: 1px solid var(--line);
-        color: var(--muted);
-        line-height: 1.7;
-      }
-      @media (max-width: 900px) {
-        .hero-grid,
-        .archive-grid {
-          grid-template-columns: 1fr;
-        }
-        .topbar,
-        .section-head,
-        .card-top {
-          flex-direction: column;
-          align-items: flex-start;
-        }
-      }
-      @media (max-width: 640px) {
-        .wrap { width: min(calc(100% - 20px), 1180px); }
-        .hero { padding: 22px; border-radius: 28px; }
-      }
-    </style>
+    <title>AI Brief | 사내 AI 제품 인텔리전스</title>
+    <meta name="description" content="누구나 최신 AI 제품·시장·정책 변화와 실무 영향을 빠르게 파악할 수 있도록 핵심 정보만 정리합니다." />
+    <meta name="theme-color" content="#f5f6f3" />
+    <link rel="stylesheet" href="assets/platform.css" />
+    <script src="assets/platform.js" defer></script>
   </head>
-  <body>
-    <div class="wrap">
-      <div class="topbar">
-        <span class="brand"><span class="brand-mark"></span>AI Brief</span>
-        <span class="meta-pill">월 · 목 발행</span>
+  <body class="home-page">
+    <header class="app-header">
+      <div class="app-header__inner">
+        <a class="app-brand" href="index.html" aria-label="AI Brief 홈">
+          <span class="app-brand__mark">AI</span>
+          <span class="app-brand__text">
+            <strong>AI Brief</strong>
+            <small>Intelligence Desk</small>
+          </span>
+        </a>
+        <nav class="app-nav" aria-label="주요 메뉴">
+          <a href="#latest">최신 브리프</a>
+          <a href="#signals">핵심 업데이트</a>
+          <a href="#archive">아카이브</a>
+        </nav>
+        <div class="header-actions">
+          <span class="update-status">매주 월·목 업데이트</span>
+          <a class="header-mobile-link" href="#archive">찾기</a>
+          <a class="header-cta" href="briefs/2026-07-09.html">최신 브리프 읽기</a>
+        </div>
       </div>
-
-      <header class="hero">
-        <div class="eyebrow">Main Home</div>
+    </header>
+    <main class="wrap" id="main-content">
+      <header class="hero" id="latest">
+        <div class="eyebrow">Latest AI Brief · 2026.07.09</div>
         <h1>
-          Signal Overviews
-          <span class="accent-line">AI Briefs</span>
+          복잡한 AI 변화,
+          <span class="accent-line">핵심만 한눈에.</span>
         </h1>
         <p class="lead">
-          주요 모델·API·에이전트 업데이트와 비디오, 음악, 디자인 AI, AI 콘텐츠/마케팅 이슈를 정해진 날짜 윈도우 기준으로 정리한 브리프 허브입니다.
-          월요일에는 금요일부터 월요일까지, 목요일에는 화요일부터 목요일까지의 이슈를 모아 기록하고, 각 카드에서 해당 날짜의 상세 브리프로 바로 이동할 수 있습니다.
+          새 모델과 도구, 시장과 정책 변화를 신뢰할 수 있는 출처와 실무 관점으로 정리합니다.
+          누구나 AI 변화가 업무에 미치는 영향을 빠르게 파악할 수 있습니다.
         </p>
-        <div class="hero-grid">
-          <div class="hero-card">
-            <span class="tiny-label">Latest Brief</span>
-            <h2 class="feature-title">2026-07-09 브리프</h2>
+        <div class="latest-snapshot">
+          <div class="latest-snapshot__copy">
+            <span class="tiny-label">최신 브리프 · 수집 범위 07.07–07.09 KST</span>
+            <h2 class="feature-title">모델·에이전트부터 생성형 미디어까지, 이번 브리프 핵심 변화</h2>
             <p class="feature-text">
-              목요일 실행 기준으로 2026-07-07부터 2026-07-09까지 검색했습니다. GPT-5.6 공개 전환, Grok 4.5 출시,
-              Claude Fable 5 프로모션 연장과 Claude Code 중국권 사용 리스크, Meta Muse Image와 Muse Video 로드맵을 반영했습니다.
+              GPT-5.6 공개 전환과 Grok 4.5의 비용 포지셔닝, Claude Fable 5 테스트 일정과 Claude Code 사용 리스크를 확인했습니다.
+              Meta Muse Image 배포와 Muse Video 로드맵이 만드는 이미지·영상 제작 흐름도 함께 다룹니다.
             </p>
-            <div class="button-row">
-              <a class="button" href="briefs/2026-07-09.html">오늘 브리프 보기</a>
-              <a class="ghost" href="briefs/2026-07-06.html">이전 브리프 보기</a>
-            </div>
           </div>
-          <div class="hero-card">
-            <span class="tiny-label">Archive Rules</span>
-            <h2 class="feature-title">브리프는 매번 별도 페이지로 보관</h2>
-            <p class="feature-text">
-              홈은 아카이브 목록만 담당하고, 각 브리프는 독립된 HTML로 유지합니다. 그래서 지난 브리프를 덮어쓰지 않고,
-              시간 순서대로 비교하거나 재확인하기 쉽습니다.
-            </p>
+          <div class="latest-snapshot__actions">
+            <div class="latest-meta" aria-label="최신 브리프 요약">
+              <span><strong>7</strong>개 항목</span>
+              <span><strong>4</strong>개 분야 업데이트</span>
+              <span><strong>3일</strong> 수집</span>
+            </div>
+            <div class="button-row">
+              <a class="button" href="briefs/2026-07-09.html">최신 브리프 읽기 <span aria-hidden="true">→</span></a>
+              <a class="ghost" href="briefs/2026-07-06.html">이전 브리프 비교</a>
+            </div>
           </div>
         </div>
       </header>
 
-      <section class="section">
+      <section class="insight-section" id="signals" aria-labelledby="signals-title">
+        <div class="insight-section__head">
+          <div>
+            <span class="section-kicker">Brief at a glance</span>
+            <h2 id="signals-title">이번 브리프 핵심 업데이트</h2>
+            <p>관심 분야를 중심으로 중요한 변화와 확인할 내용을 빠르게 살펴보세요.</p>
+          </div>
+        </div>
+        <div class="insight-grid">
+          <article class="insight-card">
+            <span class="insight-card__tag">주요 모델·플랫폼</span>
+            <h3>모델 선택과 비용 기준이 달라집니다</h3>
+            <p>새 모델 공개, 가격, 접근 조건과 도입 시 고려할 변화를 모았습니다.</p>
+            <ul class="signal-list">
+              <li><a href="briefs/2026-07-09.html#major-ai-item-1"><span class="signal-index">01</span><span>GPT-5.6 모델 라우팅과 비용 기준 재정비</span><span class="signal-arrow">→</span></a></li>
+              <li><a href="briefs/2026-07-09.html#major-ai-item-2"><span class="signal-index">02</span><span>Grok 4.5를 반복 coding-agent 비용 벤치마크에 추가</span><span class="signal-arrow">→</span></a></li>
+              <li><a href="briefs/2026-07-09.html#major-ai-item-3"><span class="signal-index">03</span><span>Claude Fable 5 프로모션 종료 전 활용성 확인</span><span class="signal-arrow">→</span></a></li>
+            </ul>
+            <a class="insight-link" href="briefs/2026-07-09.html#major-ai">주요 모델 업데이트 보기 <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="insight-card insight-card--media">
+            <span class="insight-card__tag">이미지·영상 생성</span>
+            <h3>생성형 미디어가 플랫폼 안으로 들어옵니다</h3>
+            <p>이미지 모델의 배포 범위와 영상 모델 로드맵, 활용 방식과 제약을 확인하세요.</p>
+            <ul class="signal-list">
+              <li><a href="briefs/2026-07-09.html#video-ai-item-1"><span class="signal-index">01</span><span>Muse Video의 권한·품질·광고 연동 가능성 추적</span><span class="signal-arrow">→</span></a></li>
+              <li><a href="briefs/2026-07-09.html#design-ai-item-1"><span class="signal-index">02</span><span>Muse Image로 소셜 비주얼·UGC 변형 테스트</span><span class="signal-arrow">→</span></a></li>
+            </ul>
+            <a class="insight-link" href="briefs/2026-07-09.html">전체 브리프에서 확인 <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="insight-card insight-card--policy">
+            <span class="insight-card__tag">접근·정책·리스크</span>
+            <h3>사용 가능 여부와 운영 기준도 바뀝니다</h3>
+            <p>서비스 도입 전에 확인해야 할 지역 제한, 보안과 브랜드 안전 이슈입니다.</p>
+            <ul class="signal-list">
+              <li><a href="briefs/2026-07-09.html#major-ai-item-4"><span class="signal-index">01</span><span>Claude Code 중국권 telemetry·접근 정책 점검</span><span class="signal-arrow">→</span></a></li>
+              <li><a href="briefs/2026-07-09.html#ai-content-marketing-issues-item-1"><span class="signal-index">02</span><span>공개 이미지 재사용과 brand-safety 검수 절차 확인</span><span class="signal-arrow">→</span></a></li>
+            </ul>
+            <a class="insight-link" href="briefs/2026-07-09.html">전체 브리프에서 확인 <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section archive-section" id="archive" aria-labelledby="archive-title">
         <div class="section-head">
           <div>
-            <h2>Archived Briefs</h2>
-            <p>누적된 브리프를 날짜별로 열람할 수 있습니다.</p>
+            <span class="section-kicker">Archive</span>
+            <h2 id="archive-title">지난 브리프 찾기</h2>
+            <p>제품·모델·업무 키워드로 검색하거나 분야별로 좁혀보세요.</p>
           </div>
-          <div class="meta-pill">25 briefs</div>
+          <div class="meta-pill">25개 브리프</div>
+        </div>
+
+        <div class="archive-toolbar" aria-label="아카이브 검색 및 필터">
+          <label class="search-field">
+            <span class="sr-only">지난 브리프 검색</span>
+            <input id="archive-search" type="search" placeholder="제품·모델·업무 변화 검색" autocomplete="off" />
+            <span class="search-hint" aria-hidden="true">⌘ K</span>
+          </label>
+          <div class="filter-group" role="group" aria-label="브리프 분야">
+            <button class="filter-button" type="button" data-archive-filter="all" aria-pressed="true">전체</button>
+            <button class="filter-button" type="button" data-archive-filter="major" aria-pressed="false">주요 모델·플랫폼</button>
+            <button class="filter-button" type="button" data-archive-filter="video" aria-pressed="false">영상 생성</button>
+            <button class="filter-button" type="button" data-archive-filter="music" aria-pressed="false">음악 생성</button>
+            <button class="filter-button" type="button" data-archive-filter="design" aria-pressed="false">디자인·이미지</button>
+            <button class="filter-button" type="button" data-archive-filter="marketing" aria-pressed="false">콘텐츠·마케팅</button>
+          </div>
+          <span class="result-count" id="archive-result-count" aria-live="polite">전체 25개</span>
         </div>
 
         <div class="archive-grid">
+          <div class="empty-state" id="archive-empty" hidden>
+            <strong>조건에 맞는 브리프가 없습니다.</strong>
+            검색어를 바꾸거나 다른 분야를 선택해 주세요.
+          </div>
           <a class="archive-card" href="briefs/2026-07-09.html">
             <div class="card-top">
               <div>
@@ -355,11 +155,10 @@
               Claude Code 중국권 사용 리스크, Meta Muse Image 배포와 Muse Video 로드맵을 정리했습니다.
             </p>
             <div class="archive-meta">
-              <span>Major AI</span>
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>주요 모델·플랫폼 4</span>
+              <span>영상 생성 1</span>
+              <span>디자인·이미지 1</span>
+              <span>콘텐츠·마케팅 1</span>
             </div>
           </a>
 
@@ -375,11 +174,8 @@
               Claude Science public beta, Anthropic의 중국계 기업 Claude 우회 접근 차단 강화, Kling의 28억 달러 투자·분사 계획, Gemini Omni의 모바일 영상 생성 워크플로와 구독별 접근 범위를 정리했습니다.
             </p>
             <div class="archive-meta">
-              <span>Major AI</span>
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>주요 모델·플랫폼 2</span>
+              <span>영상 생성 2</span>
             </div>
           </a>
 
@@ -395,11 +191,8 @@
               Claude Sonnet 5 기본 모델 전환, Anthropic Fable 5 접근 복구와 7월 7일까지의 프로모션 한도, OpenAI Codex Micro 7월 15일 공개 예고, Meta의 AI compute/model access 사업 준비, Tidal의 AI 음악 수익화·라벨 정책을 정리했습니다.
             </p>
             <div class="archive-meta">
-              <span>Major AI</span>
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>주요 모델·플랫폼 4</span>
+              <span>음악 생성 1</span>
             </div>
           </a>
 
@@ -415,11 +208,8 @@
               GPT-5.6 Sol·Terra·Luna 제한 preview, Anthropic Mythos 5 승인 접근과 Fable 5 복귀 전망, Grok 4.5 private beta, AWS AI GPU 예약 가격 인상, Suno Spark incubator의 remix·파생작 라이선스 조건을 정리했습니다.
             </p>
             <div class="archive-meta">
-              <span>Major AI</span>
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>주요 모델·플랫폼 5</span>
+              <span>음악 생성 1</span>
             </div>
           </a>
 
@@ -435,11 +225,10 @@
               Higgsfield의 Seedance 2.0 native 4K·4K 공개를 Video AI에 추가하고, ByteDance Seed2.1, GPT-5.5 Instant, Gemini Computer Use, Copilot CLI·BYOK, Gemini 3.5 Pro 로드맵, Figma Config 2026을 제품 업데이트 중심으로 정리했습니다.
             </p>
             <div class="archive-meta">
-              <span>Major AI</span>
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>주요 모델·플랫폼 7</span>
+              <span>영상 생성 1</span>
+              <span>디자인·이미지 2</span>
+              <span>콘텐츠·마케팅 1</span>
             </div>
           </a>
 
@@ -455,11 +244,9 @@
               Anthropic Fable/Mythos 접근 제한 여파, Z.ai GLM-5.2 open-weight coding model 관심, xAI Grok Gov 배포 정황, AI 음악 학습 데이터셋 반발, AI influencer 표시와 Google Zero 이슈를 담은 월요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Major AI</span>
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>주요 모델·플랫폼 4</span>
+              <span>음악 생성 1</span>
+              <span>콘텐츠·마케팅 2</span>
             </div>
           </a>
 
@@ -475,11 +262,11 @@
               ChatGPT scheduled tasks와 Pulse 종료, GitHub Copilot app GA·auto mode·agent finder, Gemini API TTS streaming, Copilot Cowork GA, Gemini Home Speaker, Pixel Gemini Omni·Lyria 3, GEO·SearchLeak 이슈를 담은 목요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Major AI</span>
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>주요 모델·플랫폼 6</span>
+              <span>영상 생성 1</span>
+              <span>음악 생성 1</span>
+              <span>디자인·이미지 1</span>
+              <span>콘텐츠·마케팅 2</span>
             </div>
           </a>
 
@@ -495,11 +282,10 @@
               ChatGPT GPT-5.2 퇴역과 메모리 제어, Claude Fable/Mythos 접근 중단, AI 가격 전쟁, 중국계 모델 채택·규제, agentic PR·TRACE 연구, AI 영상 제작 워크플로와 Grok 합성 이미지 이슈를 담은 월요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Major AI</span>
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>주요 모델·플랫폼 6</span>
+              <span>영상 생성 3</span>
+              <span>디자인·이미지 1</span>
+              <span>콘텐츠·마케팅 2</span>
             </div>
           </a>
 
@@ -515,11 +301,8 @@
               Claude Fable 5와 Mythos 5, OpenAI Responses API 이미지 검색, ChatGPT 결제 파트너십, Siri/Gemini 배포, agent skill·보안·벤치마크 연구와 ARM 이미지 생성 연구를 담은 목요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Major AI</span>
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>주요 모델·플랫폼 7</span>
+              <span>디자인·이미지 1</span>
             </div>
           </a>
 
@@ -535,11 +318,11 @@
               ChatGPT memory와 Anthropic self-improvement 경고, Copilot 모델 퇴역과 기업 플러그인, Bedrock 콘솔, Gemini API, Qwen 1M 컨텍스트, Synthesia 3Rs, Suno·AFM 권리 이슈를 담은 월요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Major AI</span>
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>주요 모델·플랫폼 7</span>
+              <span>영상 생성 3</span>
+              <span>음악 생성 4</span>
+              <span>디자인·이미지 3</span>
+              <span>콘텐츠·마케팅 3</span>
             </div>
           </a>
 
@@ -555,11 +338,11 @@
               OpenAI API moderation·과금 변화, Claude advisor·refusal 과금, GitHub Copilot 컨텍스트·Agent tasks API·SDK·MAI-Code, Meta Muse Spark API 지연과 Suno·Udio 음악 AI 권리 이슈를 담은 목요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Major AI</span>
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>주요 모델·플랫폼 7</span>
+              <span>영상 생성 2</span>
+              <span>음악 생성 3</span>
+              <span>디자인·이미지 1</span>
+              <span>콘텐츠·마케팅 2</span>
             </div>
           </a>
 
@@ -575,11 +358,10 @@
               Codex Windows Computer Use, Claude Platform on AWS, Grok Build API, Microsoft 365 Copilot 업데이트, Text-to-Video Arena 리더보드와 AI 마케팅 이슈를 담은 월요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Major AI</span>
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>주요 모델·플랫폼 4</span>
+              <span>영상 생성 2</span>
+              <span>디자인·이미지 2</span>
+              <span>콘텐츠·마케팅 3</span>
             </div>
           </a>
 
@@ -595,11 +377,11 @@
               Claude Opus 4.8과 Claude Code 동적 워크플로, Runway Project Luxo와 MCP, ElevenLabs Music v2와 Suno 소송 확대, Figma AI 디자인 워크플로, Google AI Mode 광고 이슈를 담은 목요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Major AI</span>
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>주요 모델·플랫폼 1</span>
+              <span>영상 생성 2</span>
+              <span>음악 생성 3</span>
+              <span>디자인·이미지 3</span>
+              <span>콘텐츠·마케팅 3</span>
             </div>
           </a>
 
@@ -615,10 +397,10 @@
               Reallusion·Seedance와 Synthesia의 영상 AI 제작 흐름, TikTok·UMG와 Spotify·UMG의 AI 음악 권리 모델, Figma Make와 Gemini 창작 앱 연동, Google AI Mode 광고·검색 가시성 이슈를 담은 월요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>영상 생성 2</span>
+              <span>음악 생성 3</span>
+              <span>디자인·이미지 3</span>
+              <span>콘텐츠·마케팅 4</span>
             </div>
           </a>
 
@@ -634,10 +416,10 @@
               Gemini Omni와 Google Flow 영상 제작, Splice·ElevenLabs와 Suno 음악 권리 이슈, Google Pics·Photoshop AI 디자인 흐름, Google Search·Ads 에이전트와 합성 콘텐츠 검증을 담은 목요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>영상 생성 4</span>
+              <span>음악 생성 5</span>
+              <span>디자인·이미지 4</span>
+              <span>콘텐츠·마케팅 5</span>
             </div>
           </a>
 
@@ -653,10 +435,10 @@
               NVIDIA SANA-WM, Higgsfield Supercomputer, Canva·HeyGen 아바타 영상, Figma AI 크레딧과 MCP 워크플로, Suno·Deezer 음악 권리 이슈, Google Ads·AI 검색 정책을 담은 월요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>영상 생성 3</span>
+              <span>음악 생성 5</span>
+              <span>디자인·이미지 4</span>
+              <span>콘텐츠·마케팅 5</span>
             </div>
           </a>
 
@@ -672,10 +454,10 @@
               Runway Agent, OpenArt의 Kling 3.0 통합 보도, AI 음악 탐지 스택, Krea 2·Dessn 디자인 AI, TikTok·Amazon·Skai의 AI 마케팅 자동화를 담은 목요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>영상 생성 2</span>
+              <span>음악 생성 1</span>
+              <span>디자인·이미지 3</span>
+              <span>콘텐츠·마케팅 3</span>
             </div>
           </a>
 
@@ -691,10 +473,10 @@
               Kling 3.0 기반 영상 생성, HeyGen 승인 워크플로, Unchained Music의 AI 음악 배포 정책, Firefly·Figma Make 이슈와 AI 광고 자동화를 담은 월요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>영상 생성 2</span>
+              <span>음악 생성 1</span>
+              <span>디자인·이미지 3</span>
+              <span>콘텐츠·마케팅 3</span>
             </div>
           </a>
 
@@ -710,11 +492,11 @@
               GPT-5.5 Instant, GPT-Realtime-2, Claude 금융 에이전트 템플릿, QuickFrame AI 3.0, Google Flow Music, ChatGPT 광고와 AI 검색 가시성을 담은 목요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Major AI</span>
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>주요 모델·플랫폼 5</span>
+              <span>영상 생성 2</span>
+              <span>음악 생성 3</span>
+              <span>디자인·이미지 3</span>
+              <span>콘텐츠·마케팅 4</span>
             </div>
           </a>
 
@@ -730,10 +512,10 @@
               Gemini Omni 테스트 정황, ElevenCreative 협업, AI 음악 유통 단속, Qwen 이미지 편집, AI 광고 라벨과 퍼블리셔 답변 엔진을 담은 월요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>영상 생성 3</span>
+              <span>음악 생성 2</span>
+              <span>디자인·이미지 3</span>
+              <span>콘텐츠·마케팅 5</span>
             </div>
           </a>
 
@@ -749,10 +531,10 @@
               Kling 영상 워크플로, Apple Music·Spotify의 AI 음악 이슈, Figma와 Magnific의 디자인 AI 흐름, Snap AI 광고와 AI 검색 가시성을 담은 목요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>영상 생성 2</span>
+              <span>음악 생성 4</span>
+              <span>디자인·이미지 4</span>
+              <span>콘텐츠·마케팅 5</span>
             </div>
           </a>
 
@@ -768,10 +550,10 @@
               Starti의 광고 영상 생성 루프, Deezer의 AI 음악 탐지 수익화, Braze의 디자인·마케팅 에이전트, Anthropic의 에이전트 커머스를 담은 월요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>영상 생성 1</span>
+              <span>음악 생성 1</span>
+              <span>디자인·이미지 1</span>
+              <span>콘텐츠·마케팅 4</span>
             </div>
           </a>
 
@@ -787,10 +569,10 @@
               Synthesia와 Avalon의 AI 영상 자동화, AI 음악 권리·스트리밍 무결성, ChatGPT Images 2.0, Google Ads Advisor를 담은 목요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>영상 생성 2</span>
+              <span>음악 생성 3</span>
+              <span>디자인·이미지 2</span>
+              <span>콘텐츠·마케팅 2</span>
             </div>
           </a>
 
@@ -806,10 +588,10 @@
               Canva AI 2.0와 Claude Design 연동, Splice의 보상형 AI 음악 툴, ChatGPT 광고 측정 및 가격 하락 흐름까지 담은 월요일 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>영상 생성 2</span>
+              <span>음악 생성 1</span>
+              <span>디자인·이미지 3</span>
+              <span>콘텐츠·마케팅 4</span>
             </div>
           </a>
 
@@ -825,14 +607,14 @@
               Adobe Firefly, SOCAN의 AI 저작권 경고, Canva 사전 발표, 퍼블리셔 스크래핑 이슈 등을 담은 초기 브리프입니다.
             </p>
             <div class="archive-meta">
-              <span>Video AI</span>
-              <span>Music AI</span>
-              <span>Design AI</span>
-              <span>AI Content/Marketing Issues</span>
+              <span>영상 생성 1</span>
+              <span>음악 생성 1</span>
+              <span>디자인·이미지 2</span>
+              <span>콘텐츠·마케팅 2</span>
             </div>
           </a>
         </div>
       </section>
-    </div>
+    </main>
   </body>
 </html>
