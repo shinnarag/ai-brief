@@ -14,7 +14,6 @@
 
 | 제품·이슈 | 현재 상태 | 다음 확인 날짜·트리거 | 다음 확인 질문 | 현재 근거 | 마지막 확인 |
 | --- | --- | --- | --- | --- | --- |
-| OpenAI GPT-5.6 Sol·Terra·Luna | 순차 배포 보도 | OpenAI 공식 model/API/pricing 문서 갱신 | 실제 제공 모델명, ChatGPT·Codex·API 접근 범위와 가격이 공식 확인됐는가? | [The Economic Times](https://economictimes.indiatimes.com/news/international/business/openai-gpt-5-6-rollout-begins-july-9-new-features-models-and-everything-else-to-know/articleshow/132257449.cms) | 2026-07-09 |
 | Meta Muse Video | 출시 예정·로드맵 | Meta 공식 preview·waitlist·제품 문서 공개 | 출시 시점, 지역·플랜, 해상도·길이, 광고 도구 연동이 공식 확인됐는가? | [The Verge](https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram) | 2026-07-09 |
 | Claude Code 중국권 사용 리스크 | 제한·보안 보도 | Anthropic·관련 기관의 공식 보안·지역 정책 공지 | 영향 버전, telemetry 범위, 수정 버전과 공식 지역 접근 조건이 확인됐는가? | [The Wall Street Journal](https://www.wsj.com/tech/ai/china-says-it-has-found-security-vulnerabilities-in-anthropics-claude-code-5ecf05dc) | 2026-07-09 |
 
@@ -22,4 +21,5 @@
 
 완료된 항목은 `제품·이슈 / 최종 상태 / 확인일 / 근거`를 한 줄로 남긴다.
 
+- OpenAI GPT-5.6 Sol·Terra·Luna / 2026-07-09에 ChatGPT·Codex·API 일반 제공과 plan별 접근, API 가격이 공식 확인되어 추적 완료 / 2026-07-13 / [OpenAI](https://openai.com/index/gpt-5-6/)
 - Anthropic Claude Fable 5 프로모션 / 2026-07-13 KST에 연장 프로모션 종료 시점 경과, 종료 후 플랜별 추가 과금 조건의 새 공식 공지는 확인되지 않음 / 2026-07-13 / [The Times of India](https://timesofindia.indiatimes.com/technology/tech-news/anthropic-extends-claude-fable-5-free-offer-till-july-12-eligibility-and-other-details-explained/articleshow/132255396.cms)
