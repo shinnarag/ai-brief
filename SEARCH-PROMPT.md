@@ -79,6 +79,9 @@ AI Brief는 특정 팀을 위한 뉴스레터가 아니라 **누구나 최신 AI
 - **Agents / MCP / Apps**: agent runtime, MCP server, connector, app, skill, tool use, computer use, workflow integration, IDE·workspace 연동
 - **Voice / Copy**: realtime voice, TTS, dubbing, speech-to-speech, translation, voice cloning/licensing, brand voice, copy generation
 - **SNS 공식 채널**: Instagram, Threads, X, TikTok, YouTube, Discord/community의 공식 계정에서 날짜 범위 안의 출시·롤아웃·데모·접근 공지
+- **국내 Threads 발견 채널**: 국내 제품 사용자, 개발자, 연구자, 제작자, 업계 실무자의 한국어 게시물에서 다섯 분야의 새 변화·사용 조건·현장 징후를 찾는다. 공개 검색 색인이 불완전하므로 로그인된 브라우저 세션을 사용할 수 있으면 `최신` 결과와 직접 게시물을 함께 확인하되, 개인화된 추천 피드만으로 조사를 끝내지 않는다.
+
+국내 Threads에서 찾은 내용은 후보 발견과 보조 근거로만 취급한다. 게시물의 직접 URL·원 계정·정확한 게시 시각을 확인해 KST로 판정하고, 제품명·기능명·주장의 원 발표를 공식 문서나 아래 출처 기준으로 역추적한다. 묶음글·재게시·후기 게시일을 원 사건 날짜로 대신 사용하지 않는다.
 
 ### 2-4. 보조 근거와 반대 확인
 
@@ -268,6 +271,9 @@ AI Brief는 특정 팀을 위한 뉴스레터가 아니라 **누구나 최신 AI
 - supporting source는 새 일정, 데모, 접근 맥락을 추가할 때만 최대 2개까지 사용한다.
 - HTML의 `직접 링크`는 카드의 핵심 주장을 가장 직접적으로 뒷받침하는 원문 1개를 연결한다.
 - SNS는 원 게시 계정, 게시일, 직접 URL이 모두 확인될 때만 사용한다.
+- 국내 Threads의 업계 계정·전문가·사용자 게시물은 후보 발견 또는 supporting source다. 해당 제품·발표의 공식 주체가 올린 게시물일 때만 primary source가 될 수 있다.
+- Threads 게시물은 표시된 상대 날짜만 기록하지 말고 가능한 경우 정확한 시각을 열어 KST로 변환한다. 원 발표가 따로 있으면 게시물 날짜가 아니라 원 발표·시행·공개 날짜로 윈도우를 판정한다.
+- 개인화 추천 피드, 인기순 결과, 하나의 국내 요약 계정만으로 sweep 완료를 판단하지 않는다. 분야별 한국어 검색어와 제품·기능명을 교차해 최신 결과를 확인한다.
 - 리포스트, 캡처만 남은 게시물, 출처 없는 leak, 단순 prompt 공유·반응·조회수는 제외한다.
 - SNS 데모는 품질·workflow의 보조 근거일 뿐 가격·지역·플랜·상업 사용 조건의 근거가 될 수 없다.
 - 공급사 자체 비용·속도·성과 수치를 독립적으로 확인하지 못하면 `공급사 자체 주장`이라고 명시한다.
@@ -490,6 +496,7 @@ Git 규칙:
 - KST 실행일과 실제 날짜 윈도우
 - 추가된 제품·모델 업데이트와 상태
 - 제외한 주요 후보와 이유가 있으면 1~3개
+- 국내 Threads에서 발견한 유효 후보, 워치 또는 주요 제외가 있으면 그 판정
 - 워치리스트 추가·완료·변경 없음 항목
 - sync 1차/2차 결과와 validation 결과
 - 변경·stage된 파일과 기존 dirty file
