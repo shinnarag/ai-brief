@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T14:58:22",
+  "generated_at": "2026-07-14T14:59:48",
   "platform": "AI Pulse",
   "count": 1,
   "domains": {
@@ -44,11 +44,11 @@
       9
     ],
     [
-      "Microsoft",
+      "ByteDance",
       8
     ],
     [
-      "ByteDance",
+      "Microsoft",
       8
     ],
     [
@@ -104,11 +104,11 @@
       2
     ],
     [
-      "Figma",
+      "Canva",
       2
     ],
     [
-      "Canva",
+      "Figma",
       2
     ],
     [
@@ -148,8 +148,8 @@
         "Apple",
         "Firefly",
         "NVIDIA",
-        "Microsoft",
         "ByteDance",
+        "Microsoft",
         "Copilot",
         "DeepMind",
         "ChatGPT",
