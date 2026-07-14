@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T14:39:04",
+  "generated_at": "2026-07-14T14:47:33",
   "platform": "AI Pulse",
   "count": 27,
   "domains": {
@@ -72,11 +72,11 @@
       12
     ],
     [
-      "Grok",
+      "Meta",
       12
     ],
     [
-      "Meta",
+      "Grok",
       12
     ],
     [
@@ -156,11 +156,11 @@
       2
     ],
     [
-      "Cohere",
+      "Amazon",
       2
     ],
     [
-      "Amazon",
+      "Cohere",
       2
     ]
   ],
@@ -223,8 +223,8 @@
       ],
       "companies": [
         "Salesforce",
-        "Google",
         "Oracle",
+        "Google",
         "GitHub"
       ],
       "has_rumor": false,
@@ -296,8 +296,8 @@
       ],
       "companies": [
         "Anthropic",
-        "OpenAI",
         "Claude",
+        "OpenAI",
         "Meta",
         "Runway",
         "Kling"
@@ -323,14 +323,14 @@
       "companies": [
         "Anthropic",
         "Midjourney",
-        "OpenAI",
         "Runway",
+        "OpenAI",
         "Kling",
-        "Grok",
-        "Pika",
         "Luma",
-        "AWS",
-        "xAI"
+        "Pika",
+        "Grok",
+        "xAI",
+        "AWS"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -351,17 +351,17 @@
         "policy"
       ],
       "companies": [
-        "OpenAI",
         "Gemini",
+        "OpenAI",
         "Copilot",
         "GitHub",
         "Midjourney",
-        "ByteDance",
         "Anthropic",
+        "ByteDance",
         "Runway",
         "Kling",
-        "Pika",
-        "Luma"
+        "Luma",
+        "Pika"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -385,8 +385,8 @@
         "Anthropic",
         "Grok",
         "xAI",
-        "OpenAI",
-        "Gemini"
+        "Gemini",
+        "OpenAI"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -436,8 +436,8 @@
       "companies": [
         "Anthropic",
         "ChatGPT",
-        "OpenAI",
-        "Claude"
+        "Claude",
+        "OpenAI"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -485,8 +485,8 @@
       ],
       "companies": [
         "Copilot",
-        "GitHub",
         "Gemini",
+        "GitHub",
         "Anthropic",
         "ChatGPT",
         "OpenAI"
@@ -517,13 +517,13 @@
         "Perplexity",
         "Microsoft",
         "Mistral",
-        "Google",
-        "Cohere",
-        "Amazon",
-        "Gemini",
         "Claude",
-        "Grok",
+        "Gemini",
+        "Amazon",
+        "Cohere",
+        "Google",
         "Meta",
+        "Grok",
         "xAI"
       ],
       "has_rumor": false,
@@ -555,12 +555,12 @@
         "Perplexity",
         "DeepSeek",
         "Mistral",
-        "GitHub",
-        "Google",
-        "Cohere",
-        "Amazon",
         "Gemini",
-        "Sora"
+        "Amazon",
+        "GitHub",
+        "Cohere",
+        "Google",
+        "Meta"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -583,20 +583,20 @@
       "companies": [
         "Claude",
         "Anthropic",
-        "OpenAI",
         "Runway",
+        "OpenAI",
         "Midjourney",
         "ElevenLabs",
-        "ChatGPT",
         "Firefly",
+        "ChatGPT",
         "Gemini",
-        "Canva",
         "Adobe",
+        "Canva",
         "Kling",
         "Figma",
         "Sora",
-        "Pika",
-        "Luma"
+        "Luma",
+        "Pika"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -621,13 +621,13 @@
         "ByteDance",
         "Firefly",
         "Runway",
-        "Canva",
         "Adobe",
+        "Canva",
         "Kling",
         "Figma",
         "Sora",
-        "Pika",
-        "Luma"
+        "Luma",
+        "Pika"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -768,8 +768,8 @@
         "policy"
       ],
       "companies": [
-        "Google",
-        "Gemini"
+        "Gemini",
+        "Google"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -791,8 +791,8 @@
       ],
       "companies": [
         "Kling",
-        "Apple",
-        "Adobe"
+        "Adobe",
+        "Apple"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -857,8 +857,8 @@
       ],
       "companies": [
         "Canva",
-        "OpenAI",
         "Claude",
+        "OpenAI",
         "Sora"
       ],
       "has_rumor": false,
@@ -881,8 +881,8 @@
       ],
       "companies": [
         "Firefly",
-        "Canva",
-        "Adobe"
+        "Adobe",
+        "Canva"
       ],
       "has_rumor": false,
       "source": "legacy",
