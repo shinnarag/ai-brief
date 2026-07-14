@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T15:12:08",
+  "generated_at": "2026-07-14T15:32:57",
   "platform": "AI Pulse",
   "count": 1,
   "domains": {
@@ -11,108 +11,64 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "marketing": 5,
-    "models": 8,
-    "policy": 4,
+    "marketing": 4,
+    "models": 6,
     "agents": 5,
     "infra": 3,
-    "creative": 5
+    "policy": 5,
+    "creative": 2
   },
   "companies": [
     [
-      "OpenAI",
-      54
-    ],
-    [
       "Claude",
-      31
+      39
     ],
     [
       "Anthropic",
-      25
+      36
+    ],
+    [
+      "OpenAI",
+      26
     ],
     [
       "Apple",
-      20
+      17
     ],
     [
       "Firefly",
-      11
-    ],
-    [
-      "NVIDIA",
-      9
+      10
     ],
     [
       "ByteDance",
-      8
-    ],
-    [
-      "Microsoft",
-      8
-    ],
-    [
-      "Copilot",
-      8
-    ],
-    [
-      "DeepMind",
-      7
-    ],
-    [
-      "ChatGPT",
-      6
-    ],
-    [
-      "Hugging Face",
-      5
+      9
     ],
     [
       "Adobe",
-      5
-    ],
-    [
-      "Meta",
-      5
-    ],
-    [
-      "DeepSeek",
-      4
-    ],
-    [
-      "GitHub",
-      4
+      7
     ],
     [
       "Grok",
-      4
+      7
     ],
     [
-      "Runway",
+      "Hugging Face",
+      6
+    ],
+    [
+      "GitHub",
+      6
+    ],
+    [
+      "NVIDIA",
       3
     ],
     [
-      "Kling",
+      "Meta",
       3
     ],
     [
-      "Sora",
-      3
-    ],
-    [
-      "Google",
-      2
-    ],
-    [
-      "Figma",
-      2
-    ],
-    [
-      "Canva",
-      2
-    ],
-    [
-      "Pika",
+      "ChatGPT",
       2
     ],
     [
@@ -125,13 +81,13 @@
       "date": "2026-07-14",
       "title": "AI Daily Brief — 2026-07-14 (최근 24h)",
       "url": "brief/2026-07-14.html",
-      "excerpt": "24h 단독 메가론칭은 제한적. 아래는 24h 우선 + 실무 임팩트가 큰 48~72h 이슈를 포함.",
+      "excerpt": "24h 축은 Anthropic의 인도 루피 가격·가치 연구, ByteDance UniVR 오픈 가중, 한국 ‘AI for Everyone’ 입찰, Apple–OpenAI 소송 후속 보도.",
       "top5": [
         "Anthropic, 인도 Claude 루피(₹) 현지 가격 도입",
+        "Anthropic, Claude 가치 표현이 모델·언어별로 다르다는 연구 공개 (7/13)",
         "ByteDance UniVR-34B-Planning 오픈 가중 공개",
-        "OpenAI GPT-5.6 패밀리(Sol / Terra / Luna) 롤아웃",
-        "Apple, OpenAI 상대 영업비밀 소송 후속",
-        "Anthropic, Claude 가치 표현이 모델·언어별로 다르다는 연구"
+        "한국 정부, ‘AI for Everyone’ 전 국민 무료 AI 에이전트 사업 제안 접수 개시",
+        "Apple v. OpenAI 영업비밀 소송 — 소장 세부 후속 (7/13 TechCrunch)"
       ],
       "domains": [
         "agents",
@@ -142,22 +98,20 @@
         "policy"
       ],
       "companies": [
-        "OpenAI",
         "Claude",
         "Anthropic",
+        "OpenAI",
         "Apple",
         "Firefly",
-        "NVIDIA",
         "ByteDance",
-        "Microsoft",
-        "Copilot",
-        "DeepMind",
-        "ChatGPT",
-        "Hugging Face",
         "Adobe",
+        "Grok",
+        "Hugging Face",
+        "GitHub",
+        "NVIDIA",
         "Meta",
-        "DeepSeek",
-        "GitHub"
+        "ChatGPT",
+        "xAI"
       ],
       "has_rumor": true,
       "source": "md",
