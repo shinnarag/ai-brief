@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T14:35:04",
+  "generated_at": "2026-07-14T14:39:04",
   "platform": "AI Pulse",
   "count": 27,
   "domains": {
@@ -72,11 +72,11 @@
       12
     ],
     [
-      "Meta",
+      "Grok",
       12
     ],
     [
-      "Grok",
+      "Meta",
       12
     ],
     [
@@ -156,11 +156,11 @@
       2
     ],
     [
-      "Amazon",
+      "Cohere",
       2
     ],
     [
-      "Cohere",
+      "Amazon",
       2
     ]
   ],
@@ -223,8 +223,8 @@
       ],
       "companies": [
         "Salesforce",
-        "Oracle",
         "Google",
+        "Oracle",
         "GitHub"
       ],
       "has_rumor": false,
@@ -323,14 +323,14 @@
       "companies": [
         "Anthropic",
         "Midjourney",
-        "Runway",
         "OpenAI",
+        "Runway",
         "Kling",
-        "Pika",
         "Grok",
+        "Pika",
         "Luma",
-        "xAI",
-        "AWS"
+        "AWS",
+        "xAI"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -351,8 +351,8 @@
         "policy"
       ],
       "companies": [
-        "Gemini",
         "OpenAI",
+        "Gemini",
         "Copilot",
         "GitHub",
         "Midjourney",
@@ -385,8 +385,8 @@
         "Anthropic",
         "Grok",
         "xAI",
-        "Gemini",
-        "OpenAI"
+        "OpenAI",
+        "Gemini"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -485,8 +485,8 @@
       ],
       "companies": [
         "Copilot",
-        "Gemini",
         "GitHub",
+        "Gemini",
         "Anthropic",
         "ChatGPT",
         "OpenAI"
@@ -517,13 +517,13 @@
         "Perplexity",
         "Microsoft",
         "Mistral",
-        "Amazon",
-        "Gemini",
         "Google",
         "Cohere",
+        "Amazon",
+        "Gemini",
         "Claude",
-        "Meta",
         "Grok",
+        "Meta",
         "xAI"
       ],
       "has_rumor": false,
@@ -555,12 +555,12 @@
         "Perplexity",
         "DeepSeek",
         "Mistral",
-        "Amazon",
-        "Gemini",
         "GitHub",
         "Google",
         "Cohere",
-        "Meta"
+        "Amazon",
+        "Gemini",
+        "Sora"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -583,17 +583,17 @@
       "companies": [
         "Claude",
         "Anthropic",
-        "Runway",
         "OpenAI",
-        "ElevenLabs",
+        "Runway",
         "Midjourney",
-        "Firefly",
+        "ElevenLabs",
         "ChatGPT",
+        "Firefly",
         "Gemini",
-        "Adobe",
-        "Figma",
         "Canva",
+        "Adobe",
         "Kling",
+        "Figma",
         "Sora",
         "Pika",
         "Luma"
@@ -621,10 +621,10 @@
         "ByteDance",
         "Firefly",
         "Runway",
-        "Adobe",
-        "Figma",
         "Canva",
+        "Adobe",
         "Kling",
+        "Figma",
         "Sora",
         "Pika",
         "Luma"
@@ -675,8 +675,8 @@
       "companies": [
         "NVIDIA",
         "Canva",
-        "Figma",
-        "Apple"
+        "Apple",
+        "Figma"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -768,8 +768,8 @@
         "policy"
       ],
       "companies": [
-        "Gemini",
-        "Google"
+        "Google",
+        "Gemini"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -791,8 +791,8 @@
       ],
       "companies": [
         "Kling",
-        "Adobe",
-        "Apple"
+        "Apple",
+        "Adobe"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -813,8 +813,8 @@
         "policy"
       ],
       "companies": [
-        "Figma",
-        "Canva"
+        "Canva",
+        "Figma"
       ],
       "has_rumor": false,
       "source": "legacy",
@@ -881,8 +881,8 @@
       ],
       "companies": [
         "Firefly",
-        "Adobe",
-        "Canva"
+        "Canva",
+        "Adobe"
       ],
       "has_rumor": false,
       "source": "legacy",
