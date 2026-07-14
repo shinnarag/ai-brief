@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-14T14:47:33",
+  "generated_at": "2026-07-14T14:52:16",
   "platform": "AI Pulse",
-  "count": 27,
+  "count": 1,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,108 +11,60 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "agents": 27,
-    "creative": 27,
-    "infra": 27,
-    "marketing": 27,
-    "models": 27,
-    "policy": 27
+    "agents": 1,
+    "creative": 1,
+    "infra": 1,
+    "marketing": 1,
+    "models": 1,
+    "policy": 1
   },
   "companies": [
     [
       "OpenAI",
-      74
+      49
     ],
     [
       "Claude",
-      55
+      29
     ],
     [
       "Anthropic",
-      50
-    ],
-    [
-      "Copilot",
-      25
+      24
     ],
     [
       "Apple",
-      25
-    ],
-    [
-      "Gemini",
       20
     ],
     [
       "Firefly",
-      19
-    ],
-    [
-      "GitHub",
-      15
-    ],
-    [
-      "Kling",
-      15
-    ],
-    [
-      "Google",
-      14
-    ],
-    [
-      "Adobe",
-      13
-    ],
-    [
-      "Microsoft",
-      12
-    ],
-    [
-      "ChatGPT",
-      12
-    ],
-    [
-      "Meta",
-      12
-    ],
-    [
-      "Grok",
-      12
-    ],
-    [
-      "NVIDIA",
       11
     ],
     [
+      "NVIDIA",
+      9
+    ],
+    [
       "ByteDance",
-      10
-    ],
-    [
-      "Runway",
-      10
-    ],
-    [
-      "Canva",
-      10
+      8
     ],
     [
       "DeepMind",
       7
     ],
     [
-      "xAI",
+      "Copilot",
       7
     ],
     [
-      "Figma",
+      "Microsoft",
       6
     ],
     [
-      "Sora",
-      6
+      "Adobe",
+      5
     ],
     [
-      "Pika",
+      "Meta",
       5
     ],
     [
@@ -120,48 +72,52 @@
       4
     ],
     [
-      "Midjourney",
+      "Grok",
       4
     ],
     [
-      "Luma",
-      4
+      "ChatGPT",
+      3
+    ],
+    [
+      "GitHub",
+      3
     ],
     [
       "DeepSeek",
-      3
-    ],
-    [
-      "AWS",
-      3
-    ],
-    [
-      "ElevenLabs",
-      3
-    ],
-    [
-      "Salesforce",
       2
     ],
     [
-      "Oracle",
+      "Google",
       2
     ],
     [
-      "Perplexity",
+      "Runway",
       2
     ],
     [
-      "Mistral",
+      "Kling",
       2
     ],
     [
-      "Amazon",
+      "Sora",
       2
     ],
     [
-      "Cohere",
-      2
+      "Figma",
+      1
+    ],
+    [
+      "Canva",
+      1
+    ],
+    [
+      "Pika",
+      1
+    ],
+    [
+      "xAI",
+      1
     ]
   ],
   "briefs": [
@@ -206,687 +162,6 @@
       "has_rumor": true,
       "source": "md",
       "stub": false
-    },
-    {
-      "date": "2026-07-13",
-      "title": "AI Brief | 2026-07-13 · AI Pulse",
-      "url": "brief/2026-07-13.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Salesforce",
-        "Oracle",
-        "Google",
-        "GitHub"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-07-09",
-      "title": "AI Brief | 2026-07-09 · AI Pulse",
-      "url": "brief/2026-07-09.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Claude",
-        "Meta",
-        "OpenAI",
-        "Grok",
-        "Anthropic"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-07-06",
-      "title": "AI Brief | 2026-07-06 · AI Pulse",
-      "url": "brief/2026-07-06.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Anthropic",
-        "Claude",
-        "Gemini",
-        "Kling"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-07-02",
-      "title": "AI Brief | 2026-07-02 · AI Pulse",
-      "url": "brief/2026-07-02.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Anthropic",
-        "Claude",
-        "OpenAI",
-        "Meta",
-        "Runway",
-        "Kling"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-06-29",
-      "title": "AI Brief | 2026-06-29 · AI Pulse",
-      "url": "brief/2026-06-29.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Anthropic",
-        "Midjourney",
-        "Runway",
-        "OpenAI",
-        "Kling",
-        "Luma",
-        "Pika",
-        "Grok",
-        "xAI",
-        "AWS"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-06-25",
-      "title": "AI Brief | 2026-06-25 · AI Pulse",
-      "url": "brief/2026-06-25.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Gemini",
-        "OpenAI",
-        "Copilot",
-        "GitHub",
-        "Midjourney",
-        "Anthropic",
-        "ByteDance",
-        "Runway",
-        "Kling",
-        "Luma",
-        "Pika"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-06-22",
-      "title": "AI Brief | 2026-06-22 · AI Pulse",
-      "url": "brief/2026-06-22.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Anthropic",
-        "Grok",
-        "xAI",
-        "Gemini",
-        "OpenAI"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-06-18",
-      "title": "AI Brief | 2026-06-18 · AI Pulse",
-      "url": "brief/2026-06-18.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Copilot",
-        "Microsoft",
-        "Gemini",
-        "ChatGPT",
-        "GitHub",
-        "Google",
-        "OpenAI"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-06-15",
-      "title": "AI Brief | 2026-06-15 · AI Pulse",
-      "url": "brief/2026-06-15.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Anthropic",
-        "ChatGPT",
-        "Claude",
-        "OpenAI"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-06-11",
-      "title": "AI Brief | 2026-06-11 · AI Pulse",
-      "url": "brief/2026-06-11.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Claude",
-        "OpenAI",
-        "ChatGPT",
-        "Gemini",
-        "Apple",
-        "Anthropic"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-06-08",
-      "title": "AI Brief | 2026-06-08 · AI Pulse",
-      "url": "brief/2026-06-08.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Copilot",
-        "Gemini",
-        "GitHub",
-        "Anthropic",
-        "ChatGPT",
-        "OpenAI"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-06-05",
-      "title": "AI Brief | 2026-06-05 · AI Pulse",
-      "url": "brief/2026-06-05.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Copilot",
-        "GitHub",
-        "Anthropic",
-        "OpenAI",
-        "Perplexity",
-        "Microsoft",
-        "Mistral",
-        "Claude",
-        "Gemini",
-        "Amazon",
-        "Cohere",
-        "Google",
-        "Meta",
-        "Grok",
-        "xAI"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-06-01",
-      "title": "AI Brief | 2026-06-01 · AI Pulse",
-      "url": "brief/2026-06-01.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Claude",
-        "Anthropic",
-        "Microsoft",
-        "Copilot",
-        "OpenAI",
-        "Grok",
-        "xAI",
-        "Perplexity",
-        "DeepSeek",
-        "Mistral",
-        "Gemini",
-        "Amazon",
-        "GitHub",
-        "Cohere",
-        "Google",
-        "Meta"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-05-28",
-      "title": "AI Brief | 2026-05-28 · AI Pulse",
-      "url": "brief/2026-05-28.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Claude",
-        "Anthropic",
-        "Runway",
-        "OpenAI",
-        "Midjourney",
-        "ElevenLabs",
-        "Firefly",
-        "ChatGPT",
-        "Gemini",
-        "Adobe",
-        "Canva",
-        "Kling",
-        "Figma",
-        "Sora",
-        "Luma",
-        "Pika"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-05-26",
-      "title": "AI Brief | 2026-05-26 · AI Pulse",
-      "url": "brief/2026-05-26.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Midjourney",
-        "ByteDance",
-        "Firefly",
-        "Runway",
-        "Adobe",
-        "Canva",
-        "Kling",
-        "Figma",
-        "Sora",
-        "Luma",
-        "Pika"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-05-21",
-      "title": "AI Brief | 2026-05-21 · AI Pulse",
-      "url": "brief/2026-05-21.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Google",
-        "Gemini",
-        "ElevenLabs",
-        "Firefly",
-        "Adobe"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-05-18",
-      "title": "AI Brief | 2026-05-18 · AI Pulse",
-      "url": "brief/2026-05-18.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "NVIDIA",
-        "Canva",
-        "Apple",
-        "Figma"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-05-14",
-      "title": "AI Brief | 2026-05-14 · AI Pulse",
-      "url": "brief/2026-05-14.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Runway",
-        "Kling",
-        "Apple"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-05-11",
-      "title": "AI Brief | 2026-05-11 · AI Pulse",
-      "url": "brief/2026-05-11.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Kling",
-        "Firefly",
-        "Adobe",
-        "Figma"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-05-07",
-      "title": "AI Brief | 2026-05-07 · AI Pulse",
-      "url": "brief/2026-05-07.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Anthropic",
-        "Claude",
-        "OpenAI",
-        "ChatGPT"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-05-04",
-      "title": "AI Brief | 2026-05-04 · AI Pulse",
-      "url": "brief/2026-05-04.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Gemini",
-        "Google"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-04-30",
-      "title": "AI Brief | 2026-04-30 · AI Pulse",
-      "url": "brief/2026-04-30.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Kling",
-        "Adobe",
-        "Apple"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-04-27",
-      "title": "AI Brief | 2026-04-27 · AI Pulse",
-      "url": "brief/2026-04-27.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Canva",
-        "Figma"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-04-23",
-      "title": "AI Brief | 2026-04-23 · AI Pulse",
-      "url": "brief/2026-04-23.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "AWS"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-04-20",
-      "title": "AI Brief | 2026-04-20 · AI Pulse",
-      "url": "brief/2026-04-20.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Canva",
-        "Claude",
-        "OpenAI",
-        "Sora"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
-    },
-    {
-      "date": "2026-04-17",
-      "title": "AI Brief | 2026-04-17 · AI Pulse",
-      "url": "brief/2026-04-17.html",
-      "excerpt": "",
-      "top5": [],
-      "domains": [
-        "models",
-        "agents",
-        "creative",
-        "marketing",
-        "infra",
-        "policy"
-      ],
-      "companies": [
-        "Firefly",
-        "Adobe",
-        "Canva"
-      ],
-      "has_rumor": false,
-      "source": "legacy",
-      "stub": true
     }
   ]
 }
