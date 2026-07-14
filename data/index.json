@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T14:52:16",
+  "generated_at": "2026-07-14T14:58:22",
   "platform": "AI Pulse",
   "count": 1,
   "domains": {
@@ -11,25 +11,25 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "agents": 1,
-    "creative": 1,
-    "infra": 1,
-    "marketing": 1,
-    "models": 1,
-    "policy": 1
+    "marketing": 5,
+    "models": 8,
+    "policy": 4,
+    "agents": 5,
+    "infra": 3,
+    "creative": 5
   },
   "companies": [
     [
       "OpenAI",
-      49
+      54
     ],
     [
       "Claude",
-      29
+      31
     ],
     [
       "Anthropic",
-      24
+      25
     ],
     [
       "Apple",
@@ -44,7 +44,15 @@
       9
     ],
     [
+      "Microsoft",
+      8
+    ],
+    [
       "ByteDance",
+      8
+    ],
+    [
+      "Copilot",
       8
     ],
     [
@@ -52,12 +60,12 @@
       7
     ],
     [
-      "Copilot",
-      7
+      "ChatGPT",
+      6
     ],
     [
-      "Microsoft",
-      6
+      "Hugging Face",
+      5
     ],
     [
       "Adobe",
@@ -68,7 +76,11 @@
       5
     ],
     [
-      "Hugging Face",
+      "DeepSeek",
+      4
+    ],
+    [
+      "GitHub",
       4
     ],
     [
@@ -76,48 +88,36 @@
       4
     ],
     [
-      "ChatGPT",
+      "Runway",
       3
     ],
     [
-      "GitHub",
+      "Kling",
       3
     ],
     [
-      "DeepSeek",
-      2
+      "Sora",
+      3
     ],
     [
       "Google",
       2
     ],
     [
-      "Runway",
-      2
-    ],
-    [
-      "Kling",
-      2
-    ],
-    [
-      "Sora",
-      2
-    ],
-    [
       "Figma",
-      1
+      2
     ],
     [
       "Canva",
-      1
+      2
     ],
     [
       "Pika",
-      1
+      2
     ],
     [
       "xAI",
-      1
+      2
     ]
   ],
   "briefs": [
@@ -148,15 +148,15 @@
         "Apple",
         "Firefly",
         "NVIDIA",
-        "ByteDance",
-        "DeepMind",
-        "Copilot",
         "Microsoft",
+        "ByteDance",
+        "Copilot",
+        "DeepMind",
+        "ChatGPT",
+        "Hugging Face",
         "Adobe",
         "Meta",
-        "Hugging Face",
-        "Grok",
-        "ChatGPT",
+        "DeepSeek",
         "GitHub"
       ],
       "has_rumor": true,
