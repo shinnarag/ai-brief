@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-14T14:11:24",
+  "generated_at": "2026-07-14T14:15:47",
   "platform": "AI Pulse",
-  "count": 1,
+  "count": 27,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -15,7 +15,7 @@
     "creative": 1,
     "infra": 1,
     "marketing": 1,
-    "models": 1,
+    "models": 27,
     "policy": 1
   },
   "companies": [
@@ -126,6 +126,370 @@
       "has_rumor": true,
       "source": "md",
       "stub": false
+    },
+    {
+      "date": "2026-07-13",
+      "title": "AI Brief | 2026-07-13 · AI Pulse",
+      "url": "brief/2026-07-13.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-07-09",
+      "title": "AI Brief | 2026-07-09 · AI Pulse",
+      "url": "brief/2026-07-09.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-07-06",
+      "title": "AI Brief | 2026-07-06 · AI Pulse",
+      "url": "brief/2026-07-06.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-07-02",
+      "title": "AI Brief | 2026-07-02 · AI Pulse",
+      "url": "brief/2026-07-02.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-06-29",
+      "title": "AI Brief | 2026-06-29 · AI Pulse",
+      "url": "brief/2026-06-29.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-06-25",
+      "title": "AI Brief | 2026-06-25 · AI Pulse",
+      "url": "brief/2026-06-25.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-06-22",
+      "title": "AI Brief | 2026-06-22 · AI Pulse",
+      "url": "brief/2026-06-22.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-06-18",
+      "title": "AI Brief | 2026-06-18 · AI Pulse",
+      "url": "brief/2026-06-18.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-06-15",
+      "title": "AI Brief | 2026-06-15 · AI Pulse",
+      "url": "brief/2026-06-15.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-06-11",
+      "title": "AI Brief | 2026-06-11 · AI Pulse",
+      "url": "brief/2026-06-11.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-06-08",
+      "title": "AI Brief | 2026-06-08 · AI Pulse",
+      "url": "brief/2026-06-08.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-06-05",
+      "title": "AI Brief | 2026-06-05 · AI Pulse",
+      "url": "brief/2026-06-05.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-06-01",
+      "title": "AI Brief | 2026-06-01 · AI Pulse",
+      "url": "brief/2026-06-01.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-05-28",
+      "title": "AI Brief | 2026-05-28 · AI Pulse",
+      "url": "brief/2026-05-28.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-05-26",
+      "title": "AI Brief | 2026-05-26 · AI Pulse",
+      "url": "brief/2026-05-26.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-05-21",
+      "title": "AI Brief | 2026-05-21 · AI Pulse",
+      "url": "brief/2026-05-21.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-05-18",
+      "title": "AI Brief | 2026-05-18 · AI Pulse",
+      "url": "brief/2026-05-18.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-05-14",
+      "title": "AI Brief | 2026-05-14 · AI Pulse",
+      "url": "brief/2026-05-14.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-05-11",
+      "title": "AI Brief | 2026-05-11 · AI Pulse",
+      "url": "brief/2026-05-11.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-05-07",
+      "title": "AI Brief | 2026-05-07 · AI Pulse",
+      "url": "brief/2026-05-07.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-05-04",
+      "title": "AI Brief | 2026-05-04 · AI Pulse",
+      "url": "brief/2026-05-04.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-04-30",
+      "title": "AI Brief | 2026-04-30 · AI Pulse",
+      "url": "brief/2026-04-30.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-04-27",
+      "title": "AI Brief | 2026-04-27 · AI Pulse",
+      "url": "brief/2026-04-27.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-04-23",
+      "title": "AI Brief | 2026-04-23 · AI Pulse",
+      "url": "brief/2026-04-23.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-04-20",
+      "title": "AI Brief | 2026-04-20 · AI Pulse",
+      "url": "brief/2026-04-20.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
+    },
+    {
+      "date": "2026-04-17",
+      "title": "AI Brief | 2026-04-17 · AI Pulse",
+      "url": "brief/2026-04-17.html",
+      "excerpt": "",
+      "top5": [],
+      "domains": [
+        "models"
+      ],
+      "companies": [],
+      "has_rumor": false,
+      "source": "legacy",
+      "stub": true
     }
   ]
 }
