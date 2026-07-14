@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T14:15:47",
+  "generated_at": "2026-07-14T14:17:56",
   "platform": "AI Pulse",
   "count": 27,
   "domains": {
@@ -11,76 +11,156 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "agents": 1,
-    "creative": 1,
-    "infra": 1,
-    "marketing": 1,
+    "agents": 27,
+    "creative": 27,
+    "infra": 27,
+    "marketing": 27,
     "models": 27,
-    "policy": 1
+    "policy": 27
   },
   "companies": [
     [
-      "Anthropic",
-      1
+      "OpenAI",
+      72
     ],
     [
       "Claude",
-      1
+      57
     ],
     [
-      "ByteDance",
-      1
-    ],
-    [
-      "OpenAI",
-      1
+      "Anthropic",
+      49
     ],
     [
       "Apple",
-      1
-    ],
-    [
-      "ChatGPT",
-      1
-    ],
-    [
-      "xAI",
-      1
-    ],
-    [
-      "Grok",
-      1
-    ],
-    [
-      "Microsoft",
-      1
+      25
     ],
     [
       "Copilot",
-      1
+      23
     ],
     [
-      "DeepSeek",
-      1
-    ],
-    [
-      "Adobe",
-      1
+      "Gemini",
+      20
     ],
     [
       "Firefly",
-      1
+      18
     ],
     [
-      "Runway",
-      1
+      "Google",
+      16
     ],
     [
       "Kling",
-      1
+      16
+    ],
+    [
+      "Adobe",
+      15
+    ],
+    [
+      "GitHub",
+      14
+    ],
+    [
+      "ChatGPT",
+      13
+    ],
+    [
+      "NVIDIA",
+      13
+    ],
+    [
+      "Microsoft",
+      12
+    ],
+    [
+      "Grok",
+      12
+    ],
+    [
+      "Meta",
+      12
+    ],
+    [
+      "Runway",
+      11
+    ],
+    [
+      "Canva",
+      11
+    ],
+    [
+      "ByteDance",
+      10
+    ],
+    [
+      "xAI",
+      8
+    ],
+    [
+      "Figma",
+      7
     ],
     [
       "Sora",
+      7
+    ],
+    [
+      "DeepMind",
+      6
+    ],
+    [
+      "Pika",
+      6
+    ],
+    [
+      "DeepSeek",
+      5
+    ],
+    [
+      "Midjourney",
+      4
+    ],
+    [
+      "Luma",
+      4
+    ],
+    [
+      "AWS",
+      3
+    ],
+    [
+      "ElevenLabs",
+      3
+    ],
+    [
+      "Salesforce",
+      2
+    ],
+    [
+      "Oracle",
+      2
+    ],
+    [
+      "Perplexity",
+      2
+    ],
+    [
+      "Mistral",
+      2
+    ],
+    [
+      "Amazon",
+      2
+    ],
+    [
+      "Cohere",
+      2
+    ],
+    [
+      "Hugging Face",
       1
     ]
   ],
@@ -106,22 +186,22 @@
         "policy"
       ],
       "companies": [
-        "Anthropic",
-        "Claude",
-        "ByteDance",
         "OpenAI",
+        "Claude",
+        "Anthropic",
         "Apple",
-        "ChatGPT",
-        "xAI",
-        "Grok",
-        "Microsoft",
-        "Copilot",
-        "DeepSeek",
-        "Adobe",
+        "NVIDIA",
         "Firefly",
-        "Runway",
-        "Kling",
-        "Sora"
+        "ByteDance",
+        "Adobe",
+        "Microsoft",
+        "DeepMind",
+        "Copilot",
+        "Meta",
+        "DeepSeek",
+        "ChatGPT",
+        "Google",
+        "Grok"
       ],
       "has_rumor": true,
       "source": "md",
@@ -134,9 +214,19 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Salesforce",
+        "Oracle",
+        "Google",
+        "GitHub"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -148,9 +238,20 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Claude",
+        "Meta",
+        "OpenAI",
+        "Grok",
+        "Anthropic"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -162,9 +263,19 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Anthropic",
+        "Claude",
+        "Gemini",
+        "Kling"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -176,9 +287,21 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Anthropic",
+        "Claude",
+        "OpenAI",
+        "Meta",
+        "Runway",
+        "Kling"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -190,9 +313,25 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Anthropic",
+        "Midjourney",
+        "Runway",
+        "OpenAI",
+        "Kling",
+        "Grok",
+        "Pika",
+        "Luma",
+        "xAI",
+        "AWS"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -204,9 +343,26 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Gemini",
+        "OpenAI",
+        "Copilot",
+        "GitHub",
+        "Midjourney",
+        "ByteDance",
+        "Anthropic",
+        "Runway",
+        "Kling",
+        "Pika",
+        "Luma"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -218,9 +374,20 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Anthropic",
+        "Grok",
+        "xAI",
+        "Gemini",
+        "OpenAI"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -232,9 +399,22 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Copilot",
+        "Microsoft",
+        "Gemini",
+        "ChatGPT",
+        "Google",
+        "GitHub",
+        "OpenAI"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -246,9 +426,19 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Anthropic",
+        "ChatGPT",
+        "Claude",
+        "OpenAI"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -260,9 +450,21 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Claude",
+        "OpenAI",
+        "ChatGPT",
+        "Gemini",
+        "Apple",
+        "Anthropic"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -274,9 +476,21 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Copilot",
+        "Gemini",
+        "GitHub",
+        "Anthropic",
+        "ChatGPT",
+        "OpenAI"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -288,9 +502,30 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Copilot",
+        "GitHub",
+        "Anthropic",
+        "OpenAI",
+        "Perplexity",
+        "Microsoft",
+        "Mistral",
+        "Google",
+        "Gemini",
+        "Claude",
+        "Amazon",
+        "Cohere",
+        "Grok",
+        "Meta",
+        "xAI"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -302,9 +537,31 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Claude",
+        "Microsoft",
+        "Anthropic",
+        "Copilot",
+        "OpenAI",
+        "Grok",
+        "xAI",
+        "Perplexity",
+        "DeepSeek",
+        "Mistral",
+        "Google",
+        "Gemini",
+        "Amazon",
+        "GitHub",
+        "Cohere",
+        "Sora"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -316,9 +573,31 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Claude",
+        "Anthropic",
+        "Runway",
+        "OpenAI",
+        "ElevenLabs",
+        "Midjourney",
+        "ChatGPT",
+        "Firefly",
+        "Gemini",
+        "Figma",
+        "Canva",
+        "Adobe",
+        "Kling",
+        "Sora",
+        "Pika",
+        "Luma"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -330,9 +609,26 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Midjourney",
+        "ByteDance",
+        "Firefly",
+        "Runway",
+        "Figma",
+        "Canva",
+        "Adobe",
+        "Kling",
+        "Sora",
+        "Pika",
+        "Luma"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -344,9 +640,20 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Google",
+        "Gemini",
+        "ElevenLabs",
+        "Firefly",
+        "Adobe"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -358,9 +665,19 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "NVIDIA",
+        "Canva",
+        "Apple",
+        "Figma"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -372,9 +689,18 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Runway",
+        "Kling",
+        "Apple"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -386,9 +712,19 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Kling",
+        "Firefly",
+        "Figma",
+        "Adobe"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -400,9 +736,19 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Anthropic",
+        "Claude",
+        "OpenAI",
+        "ChatGPT"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -414,9 +760,17 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Google",
+        "Gemini"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -428,9 +782,18 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Kling",
+        "Apple",
+        "Adobe"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -442,9 +805,17 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Figma",
+        "Canva"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -456,9 +827,16 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "AWS"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -470,9 +848,19 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Canva",
+        "Claude",
+        "OpenAI",
+        "Sora"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
@@ -484,9 +872,18 @@
       "excerpt": "",
       "top5": [],
       "domains": [
-        "models"
+        "models",
+        "agents",
+        "creative",
+        "marketing",
+        "infra",
+        "policy"
       ],
-      "companies": [],
+      "companies": [
+        "Firefly",
+        "Canva",
+        "Adobe"
+      ],
       "has_rumor": false,
       "source": "legacy",
       "stub": true
