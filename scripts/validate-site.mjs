@@ -113,9 +113,11 @@ function shiftDate(value, amount) {
 
 function expectedWindow(runDate) {
   const day = dateAtNoonUtc(runDate).getUTCDay();
+  // Legacy Mon/Thu editorial windows
   if (day === 1) return { start: shiftDate(runDate, -3), end: runDate, days: 4 };
   if (day === 4) return { start: shiftDate(runDate, -2), end: runDate, days: 3 };
-  return null;
+  // Daily automation: previous calendar day → run date (KST date string)
+  return { start: shiftDate(runDate, -1), end: runDate, days: 2 };
 }
 
 function validateTagBalance(relativePath, html) {
