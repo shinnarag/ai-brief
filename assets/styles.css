@@ -652,6 +652,14 @@ img { max-width: 100%; }
 .brief-intro #brief-title {
   line-height: 1.3;
   letter-spacing: -0.03em;
+  margin-bottom: 8px;
+}
+.brief-intro .brief-theme-blurb {
+  margin: 0 0 14px;
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--text-2);
+  letter-spacing: -0.015em;
 }
 .brief-intro .brief-note {
   margin-top: 12px;
