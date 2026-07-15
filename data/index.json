@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T09:03:09",
+  "generated_at": "2026-07-15T10:02:54",
   "platform": "AI Pulse",
   "count": 2,
   "domains": {
@@ -11,21 +11,21 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "policy": 13,
-    "models": 14,
+    "policy": 12,
+    "models": 13,
     "infra": 5,
-    "agents": 9,
+    "agents": 8,
     "creative": 3,
-    "marketing": 8
+    "marketing": 7
   },
   "companies": [
     [
-      "OpenAI",
-      48
-    ],
-    [
       "Anthropic",
       45
+    ],
+    [
+      "OpenAI",
+      44
     ],
     [
       "Claude",
@@ -33,15 +33,15 @@
     ],
     [
       "Apple",
-      33
+      27
     ],
     [
       "NVIDIA",
-      15
+      17
     ],
     [
       "IBM",
-      15
+      11
     ],
     [
       "Firefly",
@@ -123,9 +123,9 @@
       ],
       "companies": [
         "OpenAI",
-        "Apple",
-        "IBM",
         "NVIDIA",
+        "IBM",
+        "Apple",
         "Anthropic",
         "Microsoft",
         "DeepSeek",
