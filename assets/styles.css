@@ -472,6 +472,8 @@ img { max-width: 100%; }
 }
 .archive-card h3 {
   margin: 0; font-size: 16px; font-weight: 600; letter-spacing: -0.015em;
+  line-height: 1.35;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
 }
 .archive-card p {
   margin: 0; font-size: 13px; color: var(--text-2); flex: 1;
@@ -635,10 +637,21 @@ img { max-width: 100%; }
   background: var(--fill); padding: 0.1em 0.35em; border-radius: 5px;
 }
 /* Card-news brief layout */
+.brief-intro .brief-edition {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--blue);
+  letter-spacing: -0.01em;
+}
 .brief-intro .brief-kicker {
   margin: 0 0 6px;
   font-size: 13px;
   color: var(--text-3);
+}
+.brief-intro #brief-title {
+  line-height: 1.3;
+  letter-spacing: -0.03em;
 }
 .brief-intro .brief-note {
   margin-top: 12px;

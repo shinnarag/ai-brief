@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T10:09:10",
+  "generated_at": "2026-07-15T10:13:09",
   "platform": "AI Pulse",
   "count": 2,
   "domains": {
@@ -110,6 +110,8 @@
     {
       "date": "2026-07-15",
       "title": "AI Daily Brief — 2026-07-15 (최근 24h)",
+      "theme": "전력이 문을 닫자, 스피커가 말을 걸기 시작했다",
+      "edition_title": "전력이 문을 닫자, 스피커가 말을 걸기 시작했다",
       "url": "brief/2026-07-15.html",
       "excerpt": "24h 축은 AI 인프라의 물리적·정치적 병목(NY 데이터센터 모라토리엄, 전력·규제), OpenAI 첫 하드웨어(스피커) 보도, IBM 실적 경고로 드러난 AI 캡엑스 쏠림, 그리고 미 백악관 AI 사이버 공조다.",
       "top5": [
@@ -148,6 +150,8 @@
     {
       "date": "2026-07-14",
       "title": "AI Daily Brief — 2026-07-14 (최근 24h)",
+      "theme": "가격은 루피, 인재는 소송, 비전은 오픈소스",
+      "edition_title": "가격은 루피, 인재는 소송, 비전은 오픈소스",
       "url": "brief/2026-07-14.html",
       "excerpt": "24h 축은 Anthropic의 인도 루피 가격·가치 연구, ByteDance UniVR 오픈 가중, 한국 ‘AI for Everyone’ 입찰, Apple–OpenAI 소송 후속 보도.",
       "top5": [
