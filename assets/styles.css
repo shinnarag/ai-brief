@@ -532,16 +532,30 @@ img { max-width: 100%; }
 
 /* Brief page */
 .brief-nav {
-  display: flex; justify-content: space-between; gap: 10px;
-  margin-bottom: 16px; flex-wrap: wrap;
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  margin-bottom: 16px;
 }
-.brief-nav a {
-  color: var(--text-2); font-size: 13px;
-  padding: 8px 14px; border-radius: 980px;
+.brief-nav-arrow {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px;
+  color: var(--text-2); font-size: 16px; line-height: 1;
+  border-radius: 980px;
   background: var(--bg-elevated); box-shadow: var(--shadow);
   text-decoration: none;
+  transition: 0.15s ease;
 }
-.brief-nav a:hover { color: var(--text); text-decoration: none; }
+a.brief-nav-arrow:hover {
+  color: var(--text);
+  background: var(--bg);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+.brief-nav-arrow.is-disabled {
+  opacity: 0.28;
+  box-shadow: none;
+  background: transparent;
+  cursor: default;
+}
 .brief-layout {
   display: grid;
   grid-template-columns: 200px minmax(0, 1fr);
