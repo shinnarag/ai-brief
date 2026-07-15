@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T10:02:54",
+  "generated_at": "2026-07-15T10:09:10",
   "platform": "AI Pulse",
   "count": 2,
   "domains": {
@@ -84,11 +84,11 @@
       4
     ],
     [
-      "ChatGPT",
+      "Copilot",
       4
     ],
     [
-      "Copilot",
+      "ChatGPT",
       4
     ],
     [
@@ -100,6 +100,12 @@
       2
     ]
   ],
+  "company_heat": {
+    "days": 7,
+    "start": "2026-07-09",
+    "end": "2026-07-15",
+    "brief_count": 2
+  },
   "briefs": [
     {
       "date": "2026-07-15",
