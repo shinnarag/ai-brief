@@ -125,9 +125,39 @@ img { max-width: 100%; }
 .brand-mark {
   width: 30px; height: 30px; border-radius: 9px;
   background: linear-gradient(145deg, #1d1d1f, #434344);
-  color: #fff; font-size: 10px; font-weight: 700;
-  display: grid; place-items: center; letter-spacing: 0.02em;
+  color: #fff;
+  display: grid; place-items: center;
+  flex-shrink: 0;
 }
+.brand-mark .icon-svg { display: block; }
+
+/* Custom section / domain marks (hand-crafted stroke icons, not emoji) */
+.sec-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: var(--fill);
+  color: var(--text-2);
+  vertical-align: middle;
+}
+.sec-icon .icon-svg { display: block; }
+.sec-icon--top { background: rgba(255, 159, 10, 0.14); color: #c93400; }
+.sec-icon--models { background: rgba(0, 113, 227, 0.12); color: #0071e3; }
+.sec-icon--creative { background: rgba(175, 82, 222, 0.12); color: #8944ab; }
+.sec-icon--marketing { background: rgba(255, 45, 85, 0.1); color: #d70015; }
+.sec-icon--tech { background: rgba(48, 209, 88, 0.14); color: #1f8f3a; }
+.sec-icon--sns { background: rgba(255, 55, 95, 0.1); color: #e3004f; }
+.sec-icon--action { background: rgba(100, 210, 255, 0.18); color: #0071a4; }
+.sec-icon--links { background: rgba(142, 142, 147, 0.16); color: #636366; }
+.sec-icon--note { background: rgba(255, 214, 10, 0.18); color: #9a7400; }
+.sec-icon--agents { background: rgba(94, 92, 230, 0.12); color: #5e5ce6; }
+.sec-icon--infra { background: rgba(48, 209, 88, 0.14); color: #248a3d; }
+.sec-icon--policy { background: rgba(255, 69, 58, 0.1); color: #d70015; }
+.sec-icon--default { background: var(--fill); color: var(--text-2); }
 .brand-text strong { display: block; font-size: 14px; font-weight: 600; line-height: 1.15; }
 .brand-text span { display: block; font-size: 11px; color: var(--text-3); margin-top: 1px; }
 .nav { display: flex; align-items: center; gap: 2px; flex-wrap: wrap; }
@@ -288,6 +318,17 @@ img { max-width: 100%; }
 .domain-card[data-domain="marketing"] { border-top-color: #ff2d55; }
 .domain-card[data-domain="infra"] { border-top-color: #30d158; }
 .domain-card[data-domain="policy"] { border-top-color: #ff9f0a; }
+.domain-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.domain-card-top .sec-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+}
 .domain-card .kicker {
   font-size: 11px; font-weight: 600; color: var(--text-3);
   text-transform: uppercase; letter-spacing: 0.04em;
@@ -644,9 +685,17 @@ a.brief-nav-arrow:hover {
 }
 .toc-panel ul { list-style: none; margin: 0; padding: 0; }
 .toc-panel a {
-  display: block; color: var(--text-2); font-size: 12px;
-  padding: 7px 8px; border-radius: 8px; text-decoration: none; line-height: 1.3;
+  display: flex; align-items: center; gap: 8px;
+  color: var(--text-2); font-size: 12px;
+  padding: 6px 8px; border-radius: 8px; text-decoration: none; line-height: 1.3;
   transition: background 0.15s ease, color 0.15s ease;
+}
+.toc-panel a .sec-icon {
+  width: 24px; height: 24px; border-radius: 7px;
+}
+.toc-panel a .toc-label {
+  min-width: 0;
+  flex: 1;
 }
 .toc-panel a:hover { background: var(--fill); color: var(--text); text-decoration: none; }
 .toc-panel a.is-active {
@@ -681,8 +730,9 @@ a.brief-nav-arrow:hover {
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
-  max-width: 11em;
-  padding: 7px 12px;
+  gap: 6px;
+  max-width: 12em;
+  padding: 6px 12px 6px 6px;
   border-radius: 980px;
   background: var(--bg-elevated);
   box-shadow: var(--shadow);
@@ -694,9 +744,20 @@ a.brief-nav-arrow:hover {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.toc-mini a .sec-icon {
+  width: 22px; height: 22px; border-radius: 7px;
+}
+.toc-mini a .toc-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .toc-mini a:hover { color: var(--text); text-decoration: none; }
 .toc-mini a.is-active {
   background: var(--text);
+  color: #fff;
+}
+.toc-mini a.is-active .sec-icon {
+  background: rgba(255, 255, 255, 0.18);
   color: #fff;
 }
 @media (max-width: 900px) {
@@ -820,11 +881,22 @@ a.brief-nav-arrow:hover {
   scroll-margin-top: calc(var(--header) + 20px);
 }
 .news-section-title {
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
   margin: 0 0 16px !important;
   padding: 0 0 12px !important;
   border-bottom: 1px solid var(--line) !important;
   font-size: 18px !important;
   font-weight: 600 !important;
+}
+.news-section-title .sec-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+}
+.news-section-title .sec-title-text {
+  min-width: 0;
 }
 .news-grid {
   display: grid;

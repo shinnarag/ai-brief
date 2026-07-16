@@ -84,8 +84,8 @@
       });
     }
 
-    // Mobile sticky mini TOC (chips)
-    if (!$(".toc-mini") && window.matchMedia("(max-width: 900px)").matches) {
+    // Sticky mini TOC (chips) — uses custom icons from sidebar TOC
+    if (!$(".toc-mini")) {
       const mini = document.createElement("nav");
       mini.className = "toc-mini";
       mini.setAttribute("aria-label", "섹션 점프");
@@ -94,26 +94,14 @@
       links.forEach((a) => {
         const chip = document.createElement("a");
         chip.href = a.getAttribute("href") || "#";
-        // strip emoji-heavy prefixes lightly for compact chips
-        chip.textContent = (a.textContent || "").replace(/^\S+\s+/, "").trim() || a.textContent;
-        chip.title = a.textContent || "";
-        inner.appendChild(chip);
-      });
-      mini.appendChild(inner);
-      const main = $("main.main");
-      if (main) main.insertBefore(mini, main.firstChild);
-    } else if (!$(".toc-mini")) {
-      // Desktop: still build mini for resize into mobile; hide via CSS
-      const mini = document.createElement("nav");
-      mini.className = "toc-mini";
-      mini.setAttribute("aria-label", "섹션 점프");
-      const inner = document.createElement("div");
-      inner.className = "toc-mini-inner";
-      links.forEach((a) => {
-        const chip = document.createElement("a");
-        chip.href = a.getAttribute("href") || "#";
-        chip.textContent = (a.textContent || "").replace(/^\S+\s+/, "").trim() || a.textContent;
-        chip.title = a.textContent || "";
+        const icon = a.querySelector(".sec-icon");
+        if (icon) chip.appendChild(icon.cloneNode(true));
+        const lab = document.createElement("span");
+        lab.className = "toc-label";
+        const srcLabel = a.querySelector(".toc-label");
+        lab.textContent = (srcLabel?.textContent || a.textContent || "").trim();
+        chip.appendChild(lab);
+        chip.title = lab.textContent || "";
         inner.appendChild(chip);
       });
       mini.appendChild(inner);

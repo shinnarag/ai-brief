@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T18:38:08",
+  "generated_at": "2026-07-16T18:49:23",
   "platform": "AI Pulse",
   "count": 3,
   "domains": {
@@ -151,8 +151,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,
