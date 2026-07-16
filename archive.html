@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#f5f5f7" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
-  <link rel="stylesheet" href="assets/styles.css?v=20260716c" />
+  <link rel="stylesheet" href="assets/styles.css?v=20260716d" />
 </head>
 <body class="page-archive">
   <div class="read-progress" aria-hidden="true"><i></i></div>
@@ -50,12 +50,44 @@
           <p id="search-hits-meta">카드 제목·요약에서 일치한 항목</p>
         </div>
       </div>
+      <div class="hit-controls" role="toolbar" aria-label="검색 결과 정렬·필터">
+        <div class="hit-control-group">
+          <span class="hit-control-label">정렬</span>
+          <div class="hit-sorts" id="hit-sorts">
+            <button type="button" class="chip chip-sm active" data-sort="relevance">관련도</button>
+            <button type="button" class="chip chip-sm" data-sort="newest">최신순</button>
+            <button type="button" class="chip chip-sm" data-sort="oldest">오래된순</button>
+            <button type="button" class="chip chip-sm" data-sort="title">제목순</button>
+          </div>
+        </div>
+        <div class="hit-control-group">
+          <span class="hit-control-label">섹션</span>
+          <div class="hit-sections" id="hit-sections">
+            <button type="button" class="chip chip-sm active" data-section="all">전체</button>
+            <button type="button" class="chip chip-sm" data-section="top">Top 5</button>
+            <button type="button" class="chip chip-sm" data-section="models">모델</button>
+            <button type="button" class="chip chip-sm" data-section="creative">콘텐츠</button>
+            <button type="button" class="chip chip-sm" data-section="marketing">마케팅</button>
+            <button type="button" class="chip chip-sm" data-section="tech">테크·규제</button>
+            <button type="button" class="chip chip-sm" data-section="sns">SNS</button>
+            <button type="button" class="chip chip-sm" data-section="action">실무 액션</button>
+          </div>
+        </div>
+      </div>
       <div id="search-hits-list" class="search-hits-list"></div>
     </section>
     <div class="section-head archive-editions-head">
       <div>
         <h2>에디션</h2>
-        <p>날짜별 브리프</p>
+        <p id="editions-meta">날짜별 브리프</p>
+      </div>
+      <div class="hit-control-group editions-sort" role="group" aria-label="에디션 정렬">
+        <span class="hit-control-label">정렬</span>
+        <div class="hit-sorts" id="edition-sorts">
+          <button type="button" class="chip chip-sm active" data-edition-sort="newest">최신순</button>
+          <button type="button" class="chip chip-sm" data-edition-sort="oldest">오래된순</button>
+          <button type="button" class="chip chip-sm" data-edition-sort="title">제목순</button>
+        </div>
       </div>
     </div>
     <div class="archive-grid">
@@ -85,6 +117,6 @@
     AI Pulse · 매일 자동 수집 · 모델·에이전트·크리에이티브·마케팅·인프라·규제의 흐름을 한곳에서
   </footer>
   <button type="button" class="back-to-top" aria-label="맨 위로" title="맨 위로">↑</button>
-  <script src="assets/app.js?v=20260716c"></script>
+  <script src="assets/app.js?v=20260716d"></script>
 </body>
 </html>

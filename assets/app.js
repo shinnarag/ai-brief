@@ -223,11 +223,27 @@
     const hitsWrap = $("#search-hits");
     const hitsList = $("#search-hits-list");
     const hitsMeta = $("#search-hits-meta");
+    const editionsMeta = $("#editions-meta");
+    const grid = $(".archive-grid");
     if (!cards.length && !hitsList) return;
 
     let activeFilter = "all";
+    let hitSort = "relevance";
+    let hitSection = "all";
+    let editionSort = "newest";
     let searchIndex = null;
     let indexPromise = null;
+    let lastHitItems = [];
+
+    const SECTION_MATCH = {
+      top: (s) => /top\s*5|꼭\s*볼/i.test(s),
+      models: (s) => /모델|플랫폼/.test(s),
+      creative: (s) => /콘텐츠|크리에이티브|제작/.test(s),
+      marketing: (s) => /마케팅|비즈니스/.test(s),
+      tech: (s) => /테크|인프라|규제|보안/.test(s),
+      sns: (s) => /sns|루머|바이럴|트렌드/i.test(s),
+      action: (s) => /액션|실무/.test(s),
+    };
 
     function loadIndex() {
       if (searchIndex) return Promise.resolve(searchIndex);
@@ -245,15 +261,72 @@
       return indexPromise;
     }
 
-    function editionVisible(card, q, matchF) {
-      const hay = (card.getAttribute("data-search") || card.textContent || "").toLowerCase();
-      const domains = (card.getAttribute("data-domains") || "").toLowerCase();
-      const matchQ = !q || hay.includes(q);
-      const matchDomain =
-        activeFilter === "all" ||
-        domains.split(/\s+/).includes(activeFilter) ||
-        hay.includes(activeFilter);
-      return matchQ && matchDomain && matchF !== false;
+    function matchSection(sectionLabel, key) {
+      if (!key || key === "all") return true;
+      const fn = SECTION_MATCH[key];
+      return fn ? fn(sectionLabel || "") : true;
+    }
+
+    function countOccurrences(hay, needle) {
+      if (!needle) return 0;
+      let n = 0;
+      let i = 0;
+      while (i < hay.length) {
+        const at = hay.indexOf(needle, i);
+        if (at < 0) break;
+        n += 1;
+        i = at + needle.length;
+      }
+      return n;
+    }
+
+    function relevanceScore(it, q) {
+      const title = (it.title || "").toLowerCase();
+      const text = (it.text || "").toLowerCase();
+      const snip = (it.snippet || "").toLowerCase();
+      let score = 0;
+      if (title.includes(q)) score += 100;
+      if (title.startsWith(q)) score += 40;
+      score += countOccurrences(title, q) * 25;
+      score += countOccurrences(snip, q) * 8;
+      score += countOccurrences(text, q) * 3;
+      return score;
+    }
+
+    function sortHits(list, q) {
+      const arr = list.slice();
+      if (hitSort === "newest") {
+        arr.sort((a, b) => (b.date || "").localeCompare(a.date || "") || (a.n || 0) - (b.n || 0));
+      } else if (hitSort === "oldest") {
+        arr.sort((a, b) => (a.date || "").localeCompare(b.date || "") || (a.n || 0) - (b.n || 0));
+      } else if (hitSort === "title") {
+        arr.sort((a, b) =>
+          (a.title || "").localeCompare(b.title || "", "ko") ||
+          (b.date || "").localeCompare(a.date || "")
+        );
+      } else {
+        // relevance
+        arr.sort((a, b) => {
+          const sa = relevanceScore(a, q);
+          const sb = relevanceScore(b, q);
+          if (sb !== sa) return sb - sa;
+          return (b.date || "").localeCompare(a.date || "");
+        });
+      }
+      return arr;
+    }
+
+    function filterHits(items, q) {
+      return items.filter((it) => {
+        const blob = ((it.title || "") + " " + (it.text || "") + " " + (it.snippet || "")).toLowerCase();
+        if (!blob.includes(q)) return false;
+        if (activeFilter !== "all") {
+          const doms = (it.domains || []).map((d) => String(d).toLowerCase());
+          if (!doms.includes(activeFilter)) return false;
+        }
+        if (!matchSection(it.section || "", hitSection)) return false;
+        return true;
+      });
     }
 
     function renderHits(q, items) {
@@ -261,26 +334,15 @@
       if (!q) {
         hitsWrap.classList.add("hidden");
         hitsList.innerHTML = "";
+        lastHitItems = [];
         return 0;
       }
-      const filtered = items.filter((it) => {
-        const blob = ((it.title || "") + " " + (it.text || "") + " " + (it.snippet || "")).toLowerCase();
-        if (!blob.includes(q)) return false;
-        if (activeFilter === "all") return true;
-        const doms = (it.domains || []).map((d) => String(d).toLowerCase());
-        return doms.includes(activeFilter);
-      });
+      const filtered = filterHits(items, q);
+      lastHitItems = filtered;
+      const sorted = sortHits(filtered, q);
 
-      // Prefer title matches first, then body
-      filtered.sort((a, b) => {
-        const at = (a.title || "").toLowerCase().includes(q) ? 0 : 1;
-        const bt = (b.title || "").toLowerCase().includes(q) ? 0 : 1;
-        if (at !== bt) return at - bt;
-        return (b.date || "").localeCompare(a.date || "");
-      });
-
-      const max = 40;
-      const slice = filtered.slice(0, max);
+      const max = 60;
+      const slice = sorted.slice(0, max);
       hitsList.innerHTML = slice
         .map((it) => {
           const href = it.href || `${it.briefUrl}#${it.cardId || it.sectionId || ""}`;
@@ -290,6 +352,7 @@
             `<div class="search-hit-meta">` +
             `<span>${escapeHtml(it.date || "")}</span>` +
             `<span>${escapeHtml(it.section || "")}</span>` +
+            (it.briefTitle ? `<span>${escapeHtml(it.briefTitle)}</span>` : "") +
             `</div>` +
             `<h3>${highlight(it.title || "(제목 없음)", q)}</h3>` +
             `<p>${highlight(snip, q)}</p>` +
@@ -299,17 +362,41 @@
         })
         .join("");
 
+      const sortLabel = {
+        relevance: "관련도",
+        newest: "최신순",
+        oldest: "오래된순",
+        title: "제목순",
+      }[hitSort] || "관련도";
+
       if (hitsMeta) {
-        hitsMeta.textContent =
-          filtered.length === 0
-            ? "일치하는 본문 카드 없음"
-            : filtered.length > max
-              ? `${filtered.length}건 중 상위 ${max}건 표시`
-              : `${filtered.length}건의 본문 카드`;
+        if (filtered.length === 0) {
+          hitsMeta.textContent = "일치하는 본문 카드 없음 · 필터를 바꿔 보세요";
+        } else if (filtered.length > max) {
+          hitsMeta.textContent = `${filtered.length}건 · ${sortLabel} · 상위 ${max}건 표시`;
+        } else {
+          hitsMeta.textContent = `${filtered.length}건 · ${sortLabel}`;
+        }
       }
-      hitsWrap.classList.toggle("hidden", slice.length === 0 && !q);
-      if (q && slice.length === 0) hitsWrap.classList.remove("hidden");
+      hitsWrap.classList.remove("hidden");
       return filtered.length;
+    }
+
+    function sortEditionCards() {
+      if (!grid || !cards.length) return;
+      const visible = cards.filter((c) => !c.classList.contains("hidden"));
+      const hidden = cards.filter((c) => c.classList.contains("hidden"));
+      const sorted = visible.slice().sort((a, b) => {
+        const da = a.getAttribute("data-date") || "";
+        const db = b.getAttribute("data-date") || "";
+        const ta = (a.querySelector("h3")?.textContent || "").trim();
+        const tb = (b.querySelector("h3")?.textContent || "").trim();
+        if (editionSort === "oldest") return da.localeCompare(db);
+        if (editionSort === "title") return ta.localeCompare(tb, "ko") || db.localeCompare(da);
+        return db.localeCompare(da); // newest
+      });
+      sorted.forEach((c) => grid.appendChild(c));
+      hidden.forEach((c) => grid.appendChild(c));
     }
 
     function apply() {
@@ -333,11 +420,19 @@
           card.classList.toggle("hidden", !show);
           if (show) editionVisibleCount += 1;
         }
+        sortEditionCards();
+        if (editionsMeta) {
+          editionsMeta.textContent =
+            editionVisibleCount === cards.length
+              ? `날짜별 브리프 · ${editionVisibleCount}건`
+              : `표시 ${editionVisibleCount}건`;
+        }
       };
 
       if (!q) {
         if (hitsWrap) hitsWrap.classList.add("hidden");
         if (hitsList) hitsList.innerHTML = "";
+        lastHitItems = [];
         paintEditions(null);
         if (empty) empty.classList.toggle("hidden", editionVisibleCount > 0);
         return;
@@ -346,16 +441,7 @@
       loadIndex().then((data) => {
         const items = data.items || [];
         const hitCount = renderHits(q, items);
-        const hitDates = new Set(
-          items
-            .filter((it) => {
-              const blob = ((it.title || "") + " " + (it.text || "")).toLowerCase();
-              if (!blob.includes(q)) return false;
-              if (activeFilter === "all") return true;
-              return (it.domains || []).map((d) => String(d).toLowerCase()).includes(activeFilter);
-            })
-            .map((it) => it.date)
-        );
+        const hitDates = new Set(filterHits(items, q).map((it) => it.date));
         editionVisibleCount = 0;
         paintEditions(hitDates);
         if (empty) empty.classList.toggle("hidden", editionVisibleCount > 0 || hitCount > 0);
@@ -364,7 +450,6 @@
 
     if (input) {
       input.addEventListener("input", apply);
-      // Prefetch index when focusing search
       input.addEventListener("focus", () => loadIndex(), { once: true });
     }
     chips.forEach((chip) => {
@@ -372,6 +457,41 @@
         activeFilter = chip.getAttribute("data-filter") || "all";
         chips.forEach((c) => c.classList.toggle("active", c === chip));
         apply();
+      });
+    });
+
+    // Hit sort chips
+    $$("#hit-sorts [data-sort]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        hitSort = btn.getAttribute("data-sort") || "relevance";
+        $$("#hit-sorts [data-sort]").forEach((b) =>
+          b.classList.toggle("active", b === btn)
+        );
+        const q = (input?.value || "").toLowerCase().trim();
+        if (q && searchIndex) renderHits(q, searchIndex.items || []);
+        else apply();
+      });
+    });
+
+    // Hit section filter chips
+    $$("#hit-sections [data-section]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        hitSection = btn.getAttribute("data-section") || "all";
+        $$("#hit-sections [data-section]").forEach((b) =>
+          b.classList.toggle("active", b === btn)
+        );
+        apply();
+      });
+    });
+
+    // Edition sort
+    $$("#edition-sorts [data-edition-sort]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        editionSort = btn.getAttribute("data-edition-sort") || "newest";
+        $$("#edition-sorts [data-edition-sort]").forEach((b) =>
+          b.classList.toggle("active", b === btn)
+        );
+        sortEditionCards();
       });
     });
 
@@ -383,13 +503,29 @@
       }
     });
 
-    // Deep-link query from URL ?q=
+    // Deep-link: ?q= & sort= & section=
     if (input) {
       const params = new URLSearchParams(location.search);
       const q0 = params.get("q");
+      const sort0 = params.get("sort");
+      const sec0 = params.get("section");
+      if (sort0 && ["relevance", "newest", "oldest", "title"].includes(sort0)) {
+        hitSort = sort0;
+        $$("#hit-sorts [data-sort]").forEach((b) =>
+          b.classList.toggle("active", b.getAttribute("data-sort") === hitSort)
+        );
+      }
+      if (sec0 && (sec0 === "all" || SECTION_MATCH[sec0])) {
+        hitSection = sec0;
+        $$("#hit-sections [data-section]").forEach((b) =>
+          b.classList.toggle("active", b.getAttribute("data-section") === hitSection)
+        );
+      }
       if (q0) {
         input.value = q0;
         loadIndex().then(apply);
+      } else {
+        apply();
       }
     }
   }

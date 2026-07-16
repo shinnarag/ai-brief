@@ -493,9 +493,24 @@ img { max-width: 100%; }
   font: inherit; font-size: 12px; font-weight: 500;
   padding: 8px 12px; border-radius: 980px;
   cursor: pointer; box-shadow: var(--shadow);
+  transition: background 0.12s ease, color 0.12s ease;
 }
-.chip:hover, .chip.active {
+.chip:hover { color: var(--text); }
+.chip.active {
   background: var(--text); color: #fff;
+}
+.chip-sm {
+  font-size: 11px;
+  padding: 6px 10px;
+  box-shadow: none;
+  background: var(--fill);
+  color: var(--text-2);
+}
+.chip-sm:hover { background: var(--fill-2); color: var(--text); }
+.chip-sm.active {
+  background: var(--blue-soft);
+  color: var(--blue);
+  font-weight: 600;
 }
 .archive-grid {
   display: grid;
@@ -991,9 +1006,48 @@ a.brief-nav-arrow:hover {
 .archive-editions-head {
   margin-top: 8px;
   margin-bottom: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
 }
 .search-hits {
   margin: 8px 0 28px;
+}
+.hit-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 0 14px;
+  padding: 12px 14px;
+  background: var(--bg-elevated);
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow);
+}
+.hit-control-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.hit-control-label {
+  flex: 0 0 auto;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  min-width: 2.5em;
+}
+.hit-sorts,
+.hit-sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.editions-sort .hit-control-label {
+  margin-right: 2px;
 }
 .search-hits-list {
   display: flex;
