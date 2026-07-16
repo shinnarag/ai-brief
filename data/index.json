@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T09:03:58",
+  "generated_at": "2026-07-16T10:12:31",
   "platform": "AI Pulse",
   "count": 3,
   "domains": {
@@ -11,21 +11,21 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "models": 16,
+    "models": 17,
     "policy": 15,
     "marketing": 10,
     "infra": 6,
     "creative": 6,
-    "agents": 9
+    "agents": 10
   },
   "companies": [
     [
       "Anthropic",
-      59
+      58
     ],
     [
       "Apple",
-      54
+      53
     ],
     [
       "OpenAI",
@@ -37,11 +37,11 @@
     ],
     [
       "NVIDIA",
-      27
+      32
     ],
     [
       "Google",
-      19
+      18
     ],
     [
       "IBM",
@@ -92,11 +92,11 @@
       6
     ],
     [
-      "Copilot",
+      "ChatGPT",
       4
     ],
     [
-      "ChatGPT",
+      "Copilot",
       4
     ],
     [
@@ -146,13 +146,13 @@
       "companies": [
         "Apple",
         "Google",
-        "Anthropic",
         "NVIDIA",
+        "Anthropic",
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,
