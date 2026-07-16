@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15T10:57:24",
+  "generated_at": "2026-07-16T09:03:58",
   "platform": "AI Pulse",
-  "count": 2,
+  "count": 3,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,33 +11,37 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "policy": 12,
-    "models": 13,
-    "infra": 5,
-    "agents": 8,
-    "creative": 3,
-    "marketing": 7
+    "models": 16,
+    "policy": 15,
+    "marketing": 10,
+    "infra": 6,
+    "creative": 6,
+    "agents": 9
   },
   "companies": [
     [
       "Anthropic",
-      46
-    ],
-    [
-      "OpenAI",
-      46
-    ],
-    [
-      "Claude",
-      39
+      59
     ],
     [
       "Apple",
-      28
+      54
+    ],
+    [
+      "OpenAI",
+      51
+    ],
+    [
+      "Claude",
+      43
     ],
     [
       "NVIDIA",
-      17
+      27
+    ],
+    [
+      "Google",
+      19
     ],
     [
       "IBM",
@@ -52,15 +56,19 @@
       10
     ],
     [
+      "DeepSeek",
+      9
+    ],
+    [
+      "Gemini",
+      9
+    ],
+    [
       "Meta",
       9
     ],
     [
       "Microsoft",
-      7
-    ],
-    [
-      "DeepSeek",
       7
     ],
     [
@@ -72,6 +80,10 @@
       7
     ],
     [
+      "DeepMind",
+      6
+    ],
+    [
       "Hugging Face",
       6
     ],
@@ -80,16 +92,16 @@
       6
     ],
     [
-      "DeepMind",
-      4
-    ],
-    [
       "Copilot",
       4
     ],
     [
       "ChatGPT",
       4
+    ],
+    [
+      "Sora",
+      2
     ],
     [
       "Salesforce",
@@ -102,11 +114,51 @@
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-07-09",
-    "end": "2026-07-15",
-    "brief_count": 2
+    "start": "2026-07-10",
+    "end": "2026-07-16",
+    "brief_count": 3
   },
   "briefs": [
+    {
+      "date": "2026-07-16",
+      "title": "AI Daily Brief — 2026-07-16 (최근 24h)",
+      "theme": "끄지 못하는 검색, 먼저 열리는 상장 창구",
+      "theme_blurb": "Common Sense가 Google 검색 AI를 아동 ‘허용 불가’로 깐 날, Anthropic은 10월 IPO를 겨냥한 투자자 미팅에 들어갔다. 기본 도구의 리스크는 잠그지 못하고, 프론티어 랩의 자본 창구는 먼저 열리는 대비.",
+      "edition_title": "끄지 못하는 검색, 먼저 열리는 상장 창구",
+      "edition_blurb": "Common Sense가 Google 검색 AI를 아동 ‘허용 불가’로 깐 날, Anthropic은 10월 IPO를 겨냥한 투자자 미팅에 들어갔다. 기본 도구의 리스크는 잠그지 못하고, 프론티어 랩의 자본 창구는 먼저 열리는 대비.",
+      "url": "brief/2026-07-16.html",
+      "excerpt": "24h 축은 기본 검색에 박힌 AI의 아동 안전 리스크(끄기 불가), Anthropic IPO 선행 레이스, Apple의 중국 승인·서버 칩 M&A, PJM 용량 경매로 수치화된 DC 전력 비용, 기후테크 엑싯이 AI 전력 수요에 쏠린 자본 흐름이다.",
+      "top5": [
+        "Google 검색 AI, 아동·청소년에 ‘허용 불가’ 위험 — Common Sense 평가",
+        "Anthropic, IPO 앞두고 투자자 미팅 스케줄 — 이르면 10월 상장 관측",
+        "Apple Intelligence, 중국 CAC 등록 완료 — Qwen·Baidu로 현지 롤아웃 길 열림",
+        "PJM 용량 경매, 데이터센터 수요로 향후 3년 약 $63억 비용 가산",
+        "Apple, AI 서버 칩 역량 위해 반도체 스타트업 M&A 물색"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "Apple",
+        "Google",
+        "Anthropic",
+        "NVIDIA",
+        "Gemini",
+        "OpenAI",
+        "Claude",
+        "DeepMind",
+        "DeepSeek",
+        "Sora"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-07-15",
       "title": "AI Daily Brief — 2026-07-15 (최근 24h)",
