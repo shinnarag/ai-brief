@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T11:01:01",
+  "generated_at": "2026-07-16T18:31:33",
   "platform": "AI Pulse",
   "count": 3,
   "domains": {
@@ -92,11 +92,11 @@
       6
     ],
     [
-      "Copilot",
+      "ChatGPT",
       4
     ],
     [
-      "ChatGPT",
+      "Copilot",
       4
     ],
     [
@@ -151,8 +151,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,
