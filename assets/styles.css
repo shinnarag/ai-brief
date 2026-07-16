@@ -133,9 +133,8 @@ img { max-width: 100%; }
 
 /* Custom section / domain marks (hand-crafted stroke icons, not emoji) */
 .sec-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-grid;
+  place-items: center;
   flex-shrink: 0;
   width: 28px;
   height: 28px;
@@ -143,8 +142,23 @@ img { max-width: 100%; }
   background: var(--fill);
   color: var(--text-2);
   vertical-align: middle;
+  line-height: 0;
+  overflow: hidden;
 }
-.sec-icon .icon-svg { display: block; }
+.sec-icon .icon-svg {
+  display: block;
+  width: 62%;
+  height: 62%;
+  margin: 0;
+  flex-shrink: 0;
+  /* Optical center in the badge */
+  transform: translateZ(0);
+}
+.sec-icon .icon-svg--top {
+  /* Filled star reads slightly large; keep ring+star balanced */
+  width: 68%;
+  height: 68%;
+}
 .sec-icon--top { background: rgba(255, 159, 10, 0.14); color: #c93400; }
 .sec-icon--models { background: rgba(0, 113, 227, 0.12); color: #0071e3; }
 .sec-icon--creative { background: rgba(175, 82, 222, 0.12); color: #8944ab; }
