@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T11:47:08",
+  "generated_at": "2026-07-20T12:21:13",
   "platform": "AI Pulse",
   "count": 4,
   "domains": {
@@ -11,10 +11,10 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "models": 21,
-    "infra": 8,
     "agents": 14,
+    "infra": 9,
     "policy": 16,
+    "models": 22,
     "creative": 8,
     "marketing": 11
   },
@@ -96,11 +96,11 @@
       4
     ],
     [
-      "Copilot",
+      "ChatGPT",
       4
     ],
     [
-      "ChatGPT",
+      "Copilot",
       4
     ],
     [
@@ -127,7 +127,7 @@
       "edition_title": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
       "edition_blurb": "Moonshot이 2.8조 파라미터 Kimi K3를 7/27 오픈웨이트로 예고하며 월가·코딩 커뮤니티를 흔든 주말, Nvidia는 Noetra와 27,500개 Rubin으로 일본 ‘국가 AI 인프라’를 공식화했다. 오픈 프론티어와 소버린 공장이 같은 72시간에 겹친 장면.",
       "url": "brief/2026-07-20.html",
-      "excerpt": "주말 축은 중국 오픈 3T급 모델(Kimi K3), 일본 국가 AI 팩토리(Nvidia·Noetra), Databricks $188B 프라이빗 라운드, Netflix AI 후반 $587M 현금 인수 확정, SF의 앱스토어 딥페이크 앱 퇴출 명령이다.",
+      "excerpt": "주말 축은 중국 오픈 3T급 모델(Kimi K3), 일본 국가 AI 팩토리(Nvidia·Noetra), Databricks $188B 프라이빗 라운드, Netflix AI 후반 $587M 현금 인수 확정, SF의 앱스토어 딥페이크 앱 퇴출 명령이다. 크리에이티브 축 보강: Decart Lucy 2.5(7/16 라이브 비디오 편집, 당일·주말 수집 누락분 백필).",
       "top5": [
         "Moonshot, Kimi K3 공개 — 2.8T 오픈 3T급, 7/27 가중치 배포",
         "Nvidia·Noetra, 일본 ‘세계 최초 국가 AI 인프라’ — Vera Rubin 27,500 GPU",
