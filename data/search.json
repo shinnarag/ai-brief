@@ -1,7 +1,196 @@
 {
-  "generated_at": "2026-07-16T19:00:07",
-  "count": 49,
+  "generated_at": "2026-07-20T11:47:08",
+  "count": 58,
   "items": [
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "Top 5 (꼭 볼 것)",
+      "sectionId": "top-5-꼭-볼-것",
+      "cardId": "c-top-5-꼭-볼-것-01",
+      "title": "Moonshot, Kimi K3 공개 — 2.8T 오픈 3T급, 7/27 가중치 배포",
+      "snippet": "베이징 Moonshot AI가 플래그십 Kimi K3(2.8조 파라미터, MoE·네이티브 비전·100만 토큰 컨텍스트)를 발표. 자사 평가상 최고 클로즈드(Claude Fable 5, GPT 5.6 Sol)에는 뒤지지만 다른 공개·비교 모델 대비 프론티어급이라고 주장.",
+      "text": "Moonshot, Kimi K3 공개 — 2.8T 오픈 3T급, 7/27 가중치 배포 베이징 Moonshot AI가 플래그십 Kimi K3(2.8조 파라미터, MoE·네이티브 비전·100만 토큰 컨텍스트)를 발표. 자사 평가상 최고 클로즈드(Claude Fable 5, GPT 5.6 Sol)에는 뒤지지만 다른 공개·비교 모델 대비 프론티어급이라고 주장. 7월 27일 전체 가중치 오픈 예정. 현 시점에는 kimi.com·Kimi Work·Kimi Code·API(kimi-k3)로 서비스. API 가격: 캐시 히트 입력 $0.30/MTok, 미스 $3, 출력 $15. 기본 thinking effort=max. 아키텍처: Kimi Delta Attention·Attention Residuals, Stable LatentMoE(896 expert 중 16 활성). K2 대비 스케일링 효율 약 2.5× 주장. 커널 최적화·MiniTriton 컴파일러·칩 설계 48h 자율 런 등 long-horizon 코딩 데모. WAIC 상하이·시진핑 연설과 시기가 겹침. 금요일 Nasdaq 약 1% 하락·엔비디아 등 칩주 매도, 홍콩 Zhipu·MiniMax 주가 급락(약 −27%·−16%) 보도. Arena 등 독립 벤치에서 프론트엔드·웹 엔지니어링 1위권 평가 확산. 코딩·에이전트 팀은 7/27 웨이트 이후 셀프호스트·증류·컴플라이언스 리스크를 동시에 점검해야 한다. 미국 쪽 담론은 ‘오픈웨이트 규제 FUD’ vs ‘가드레일 경쟁력’으로 빠르게 분기됐다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-top-5-꼭-볼-것-01"
+    },
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "Top 5 (꼭 볼 것)",
+      "sectionId": "top-5-꼭-볼-것",
+      "cardId": "c-top-5-꼭-볼-것-02",
+      "title": "Nvidia·Noetra, 일본 ‘세계 최초 국가 AI 인프라’ — Vera Rubin 27,500 GPU",
+      "snippet": "7/16 도쿄 발표(전일 브리프는 예고 단계): Nvidia가 Noetra와 Vera Rubin AI 팩토리 구축 — Vera CPU 13,750 + Rubin GPU 27,500, DSX·Spectrum-X, 데이터센터 용량 140MW. METI 지원 FRONTia(물리 AI용…",
+      "text": "Nvidia·Noetra, 일본 ‘세계 최초 국가 AI 인프라’ — Vera Rubin 27,500 GPU 7/16 도쿄 발표(전일 브리프는 예고 단계): Nvidia가 Noetra와 Vera Rubin AI 팩토리 구축 — Vera CPU 13,750 + Rubin GPU 27,500, DSX·Spectrum-X, 데이터센터 용량 140MW. METI 지원 FRONTia(물리 AI용 멀티모달 파운데이션) 컴퓨트 기반. Noetra는 Sony·SoftBank·NEC·Honda 등 약 44사 컨소시엄(1월 설립, 정부 지원 최대 약 1조 엔/5년). 건설 2027-04, 가동 2028-06 전후 일정 관측. 사전학습 가중치는 국내 개발·기업에 광범위 공개 방침. 로봇·제조 축: Fanuc·Yaskawa·Kawasaki·Fujitsu·Hitachi 등이 Cosmos 기반 물리 AI에 합류. Cosmos 3 Edge(Jetson Thor 온디바이스) 공개. Toyota는 Drive·제조 시뮬레이션·도로 인지로 Nvidia 스택 확대. 일본 AI 로봇 전략: 2040년 글로벌 AI 로봇 시장 30%+·약 $1,330억 목표, 공공·민간 물리 AI 투자 약 $650억 프레임. Huang: “일본이 현대 제조를 발명했다. 이제 지능 산업 시대를 다시 발명할 기회.” 소버린 내러티브와 미국 실리콘 의존이 공존. 로봇·팩토리·엣지 스택 벤더는 Cosmos·Isaac GR00T·Nemotron 로드맵과 Noetra 모델 공개 일정을 맞출 시점이다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-top-5-꼭-볼-것-02"
+    },
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "Top 5 (꼭 볼 것)",
+      "sectionId": "top-5-꼭-볼-것",
+      "cardId": "c-top-5-꼭-볼-것-03",
+      "title": "Databricks, Coatue 주도 라운드로 밸류 $1,880억 — 2월 대비 약 +40%",
+      "snippet": "Coatue Management가 주도하는 약 $30억 규모 투자로 Databricks 밸류에이션 $1,880억($188B). 2월(또는 12월 보도에 따라 직전) $1,340억 대비 약 40% 상승. 연내 2번째 조달권, 여름 중 클로징 목표.",
+      "text": "Databricks, Coatue 주도 라운드로 밸류 $1,880억 — 2월 대비 약 +40% Coatue Management가 주도하는 약 $30억 규모 투자로 Databricks 밸류에이션 $1,880억($188B). 2월(또는 12월 보도에 따라 직전) $1,340억 대비 약 40% 상승. 연내 2번째 조달권, 여름 중 클로징 목표. 자금 용도: 인수·제품 강화. AI 어시스턴트·Genie·Unity AI Gateway(AI 지출 모니터링·관리) 등. Databricks SQL ARR $15억, YoY 100%+ 성장. 직전 달 Panther Labs 보안 인수. CEO Ali Ghodsi: 에이전트 공격에는 에이전트 방어(“fight fire with fire”). IPO는 반복 연기 후 “내년 가능” 톤 유지, 2026 상장 비선호 발언과 병행. Snowflake·BigQuery·Fabric과 경쟁하는 ‘데이터+AI 플랫폼’이 프라이빗 시장에서 프론티어 랩 밸류에 근접. 엔터프라이즈 조달·CFO는 AI 게이트웨이·보안 에이전트 예산을 플랫폼 계약에 묶을 명분이 커졌다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-top-5-꼭-볼-것-03"
+    },
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "Top 5 (꼭 볼 것)",
+      "sectionId": "top-5-꼭-볼-것",
+      "cardId": "c-top-5-꼭-볼-것-04",
+      "title": "Netflix, Ben Affleck 공동창업 InterPositive 현금 $5.87억 인수 확정",
+      "snippet": "SEC 공시: Netflix가 InterPositive를 현금 $587M에 인수. 3월 발표 때는 금액 미공개, Bloomberg 등 “최대 $6억” 관측이 사실상 확정된 후속.",
+      "text": "Netflix, Ben Affleck 공동창업 InterPositive 현금 $5.87억 인수 확정 SEC 공시: Netflix가 InterPositive를 현금 $587M에 인수. 3월 발표 때는 금액 미공개, Bloomberg 등 “최대 $6억” 관측이 사실상 확정된 후속. InterPositive는 후반(포스트)에서 누락 샷·배경 교체·조명 보정 등 실사 제작 공백을 메우는 AI 툴. Affleck은 “인간 창작의 힘을 보호” 프레임으로 합류, 시니어 어드바이저, 팀 전원 Netflix 합류. 최근 실적: Netflix 타이틀 중 약 300편이 생성 AI를 이미 사용. 스트리머가 ‘모델 회사’가 아니라 제작 파이프라인 인프라에 수억 달러를 쓰는 신호. 스튜디오·광고·숏폼 팀은 ‘창작 보호’ 수사와 후반 자동화 CAPEX가 동시에 커지는 시장. 툴 벤더는 넷플릭스 내부 스택 통합 이후 외부 판매 여지를 재평가해야 한다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-top-5-꼭-볼-것-04"
+    },
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "Top 5 (꼭 볼 것)",
+      "sectionId": "top-5-꼭-볼-것",
+      "cardId": "c-top-5-꼭-볼-것-05",
+      "title": "SF 시 검사, Apple·Google에 AI ‘nudify’ 앱 13종 퇴출 중단 명령",
+      "snippet": "샌프란시스코 시 검사 David Chiu가 Apple·Google에 중지·중단 서한: 얼굴 스왑 형태지만 비동의 누드 딥페이크를 만드는 13개 앱(App Store 8·Play 5) 제거, 개발사 거래 단절, 가해 방조 중단 요구. 28일 내 회신.",
+      "text": "SF 시 검사, Apple·Google에 AI ‘nudify’ 앱 13종 퇴출 중단 명령 샌프란시스코 시 검사 David Chiu가 Apple·Google에 중지·중단 서한: 얼굴 스왑 형태지만 비동의 누드 딥페이크를 만드는 13개 앱(App Store 8·Play 5) 제거, 개발사 거래 단절, 가해 방조 중단 요구. 28일 내 회신. 캘리포니아 법은 비동의 딥페이크 포르노 고의 조력·방조를 범죄화하고 피해자 민사 소송을 허용. 시는 양사가 결제 수수료로 수백만 달러를 벌었을 수 있다고 주장. Tech Transparency Project가 1·4월에 반복 경고. Apple: 해당 3개 앱 제거·개발자 계정 종료 진행, 나머지 4개는 정책 위반 시정 또는 퇴출. Google: 서한에 적힌 Play 5개 전부 정지, 유사 앱 수백 건 정지·‘nudify’ 검색어 제한 주장. Cornell·Georgetown 프리프린트: 페이스스왑 앱 155개 테스트 중 70%가 누드 스왑 가능(이중용도). TTP 추정 누적 다운로드 약 4.8억, 매출 약 $1.2억 규모 문제 앱 군집. 앱스토어·결제·모더레이션 팀은 ‘포르노 금지’ 문구만으로는 부족하다. dual-use 생성 기능을 사전 스크리닝·결제 차단 백로그에 올려야 한다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-top-5-꼭-볼-것-05"
+    },
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-01",
+      "title": "Current AI, ‘AI의 월드와이드웹’ — 다국어 오프라인·오픈 챗 스택 가속",
+      "snippet": "공익 비영리 Current AI(설립 2025-02, CEO Ayah Bdeir·전 Mozilla AI)가 인도 Bhashini와 Suno Sutra 포켓 디바이스: 인도어 22개 언어, 오프라인 AI. 오픈소스 개발자 확장용.",
+      "text": "Current AI, ‘AI의 월드와이드웹’ — 다국어 오프라인·오픈 챗 스택 가속 공익 비영리 Current AI(설립 2025-02, CEO Ayah Bdeir·전 Mozilla AI)가 인도 Bhashini와 Suno Sutra 포켓 디바이스: 인도어 22개 언어, 오프라인 AI. 오픈소스 개발자 확장용. 약정 자금 약 $4억(프랑스 정부 $1억 시드 + Ford·MacArthur·DeepMind·Salesforce 등). 투자자 아닌 펀더 구조. 지난달 그랜트 $320만을 케냐·레바논·브라질 아마존 4개 조직에 배분(50+ 아프리카 언어 헬스·농업 데이터, 아랍 문화 DB, 원주민 오프라인 툴, AI 감사 도구). 제네바 AI for Good에서 Hugging Face·Mozilla·MIT Media Lab 등 10개 기관이 7주 만에 조립한 오픈소스 챗 Alpha Chat 공개. Sakana AI와 일본어·글로벌 사우스용 공유 오픈 스택 협력. Big Tech 다국어는 ‘시장 확장’, Current는 커뮤니티 동의·데이터 주권·로컬 저장을 전제로 한다. 공공·NGO·로컬라이제이션 팀은 상용 API 대안 스택을 파일럿할 창이 열렸다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-모델-플랫폼-01"
+    },
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-01",
+      "title": "Christopher Nolan, AI를 ‘유리 트로이 목마’로 규정 — 청년 ‘AI slop’ 회의론 환영",
+      "snippet": "《Odyssey》 흥행 중인 Nolan이 인터뷰에서 AI를 “그리스인이 안에 있다는 걸 모두가 아는 트로이 목마”, “유리로 된 투명 목마”로 비유. 기술 자체보다 증여자 동기에 대한 회의가 최선 활용의 조건이라고 주장.",
+      "text": "Christopher Nolan, AI를 ‘유리 트로이 목마’로 규정 — 청년 ‘AI slop’ 회의론 환영 《Odyssey》 흥행 중인 Nolan이 인터뷰에서 AI를 “그리스인이 안에 있다는 걸 모두가 아는 트로이 목마”, “유리로 된 투명 목마”로 비유. 기술 자체보다 증여자 동기에 대한 회의가 최선 활용의 조건이라고 주장. 젊은 세대가 AI 영상을 즉시 ‘AI slop’으로 분류·거부하는 반응을 “매우 건강한 회의”로 평가. DGA 회장으로서 2023 파업·계약의 생성 AI 보호 흐름과 궤를 같이한다. 본인은 techno-skeptic: 필름이 디지털보다 눈의 세계를 더 잘 재현한다고 보며, 신기술이 유효한 기존 시스템을 폐기시키는 판매 방식을 경계. 할리우드·브랜드 크리에이티브는 ‘효율 툴’ 메시지와 ‘slop 낙인’이 동시에 커지는 국면. 인간 감독·실사 신뢰 프리미엄이 마케팅 카피에 다시 들어올 수 있다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-콘텐츠-제작-크리에이티브-01"
+    },
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-01",
+      "title": "Kimi 출시 여파 담론 — ‘풀 AI 공산주의’ vs 가드레일 경쟁력 (월가·정책 서클)",
+      "snippet": "TechCrunch 주말 정리: K3 발표 후 David Sacks는 미국이 데이터센터 금지·주 규제·프론티어 사전승인으로 “AI 레이스에서 진다”고 비판. Travis Kalanick은 중국의 미국 모델 증류를 문제 삼음(미국 모델이 Kimi 위에 올려진 사례도 공존).",
+      "text": "Kimi 출시 여파 담론 — ‘풀 AI 공산주의’ vs 가드레일 경쟁력 (월가·정책 서클) TechCrunch 주말 정리: K3 발표 후 David Sacks는 미국이 데이터센터 금지·주 규제·프론티어 사전승인으로 “AI 레이스에서 진다”고 비판. Travis Kalanick은 중국의 미국 모델 증류를 문제 삼음(미국 모델이 Kimi 위에 올려진 사례도 공존). OpenAI Dean Ball: K3 성능은 증류로 치부하기 어렵다며, 오픈웨이트 지배 세계의 귀결을 국가 디지털 인프라 형태의 “full AI communism”으로 규정. 중국 오픈웨이트에 연방 소프트로 FUD를 만들 수 있다고 제안. Transformer 등 반박: K3에 위험한 사이버 역량이 있다고 보기 어렵고, 역량이 생기면 중국도 유사 제한 유인이 생긴다. IPO를 앞둔 미국 랩과 관세·안보 서사가 담론을 증폭. GTM·정책·엔터프라이즈 리스크 팀은 ‘벤치 점수’만이 아니라 오픈웨이트 사용 정책·수출통제·브랜드 정치를 구매 기준에 명시할 때다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-마케팅-비즈니스-01"
+    },
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "SNS 트렌드 · 루머 · 바이럴",
+      "sectionId": "sns-트렌드-루머-바이럴",
+      "cardId": "c-sns-트렌드-루머-바이럴-01",
+      "title": "Kimi K3 수요 폭주 — 신규 구독 일시 중단, ‘가드레일 거부’ 바이럴",
+      "snippet": "출시 약 48시간 만에 컴퓨트 한도로 신규 컨슈머 구독 중단(기존 구독자 우선). 용량 증설 후 순차 재개 방침. “오픈 3T” 관심과 API·에이전트 트래픽이 GPU 재고를 먼저 소진한 형태.",
+      "text": "Kimi K3 수요 폭주 — 신규 구독 일시 중단, ‘가드레일 거부’ 바이럴 출시 약 48시간 만에 컴퓨트 한도로 신규 컨슈머 구독 중단(기존 구독자 우선). 용량 증설 후 순차 재개 방침. “오픈 3T” 관심과 API·에이전트 트래픽이 GPU 재고를 먼저 소진한 형태. X 등에서 Codex·Fable이 사이버 가드레일로 보안 이슈 수정을 거부한 리포트에 K3가 제한 없이 처리했다는 경험담이 확산(“will end badly for OpenAI & Anthropic” 프레임). 벤치 논쟁과 별개로 실무 거절률이 바이럴 축. 오픈웨이트 7/27 전에도 호스팅 병목이 노출. 셀프호스트·추론 파트너·캐시 히트(공식 API 코딩 워크로드 90%+ 주장) 전략이 동시에 주목받는다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-sns-트렌드-루머-바이럴-01"
+    },
     {
       "date": "2026-07-16",
       "displayDate": "2026년 7월 16일(목)",

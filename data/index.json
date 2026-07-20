@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-16T19:00:07",
+  "generated_at": "2026-07-20T11:47:08",
   "platform": "AI Pulse",
-  "count": 3,
+  "count": 4,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,37 +11,37 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "models": 17,
-    "policy": 15,
-    "marketing": 10,
-    "infra": 6,
-    "creative": 6,
-    "agents": 10
+    "models": 21,
+    "infra": 8,
+    "agents": 14,
+    "policy": 16,
+    "creative": 8,
+    "marketing": 11
   },
   "companies": [
     [
-      "Anthropic",
-      58
-    ],
-    [
       "Apple",
-      53
+      63
     ],
     [
-      "OpenAI",
-      51
-    ],
-    [
-      "Claude",
-      43
+      "Anthropic",
+      60
     ],
     [
       "NVIDIA",
-      32
+      57
+    ],
+    [
+      "OpenAI",
+      55
+    ],
+    [
+      "Claude",
+      45
     ],
     [
       "Google",
-      18
+      28
     ],
     [
       "IBM",
@@ -68,6 +68,14 @@
       9
     ],
     [
+      "Hugging Face",
+      8
+    ],
+    [
+      "DeepMind",
+      8
+    ],
+    [
       "Microsoft",
       7
     ],
@@ -80,16 +88,12 @@
       7
     ],
     [
-      "DeepMind",
-      6
-    ],
-    [
-      "Hugging Face",
-      6
-    ],
-    [
       "GitHub",
       6
+    ],
+    [
+      "Salesforce",
+      4
     ],
     [
       "Copilot",
@@ -104,21 +108,56 @@
       2
     ],
     [
-      "Salesforce",
-      2
-    ],
-    [
       "xAI",
       2
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-07-10",
-    "end": "2026-07-16",
-    "brief_count": 3
+    "start": "2026-07-14",
+    "end": "2026-07-20",
+    "brief_count": 4
   },
   "briefs": [
+    {
+      "date": "2026-07-20",
+      "title": "AI Daily Brief — 2026-07-20 (주말+월요일)",
+      "theme": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "theme_blurb": "Moonshot이 2.8조 파라미터 Kimi K3를 7/27 오픈웨이트로 예고하며 월가·코딩 커뮤니티를 흔든 주말, Nvidia는 Noetra와 27,500개 Rubin으로 일본 ‘국가 AI 인프라’를 공식화했다. 오픈 프론티어와 소버린 공장이 같은 72시간에 겹친 장면.",
+      "edition_title": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "edition_blurb": "Moonshot이 2.8조 파라미터 Kimi K3를 7/27 오픈웨이트로 예고하며 월가·코딩 커뮤니티를 흔든 주말, Nvidia는 Noetra와 27,500개 Rubin으로 일본 ‘국가 AI 인프라’를 공식화했다. 오픈 프론티어와 소버린 공장이 같은 72시간에 겹친 장면.",
+      "url": "brief/2026-07-20.html",
+      "excerpt": "주말 축은 중국 오픈 3T급 모델(Kimi K3), 일본 국가 AI 팩토리(Nvidia·Noetra), Databricks $188B 프라이빗 라운드, Netflix AI 후반 $587M 현금 인수 확정, SF의 앱스토어 딥페이크 앱 퇴출 명령이다.",
+      "top5": [
+        "Moonshot, Kimi K3 공개 — 2.8T 오픈 3T급, 7/27 가중치 배포",
+        "Nvidia·Noetra, 일본 ‘세계 최초 국가 AI 인프라’ — Vera Rubin 27,500 GPU",
+        "Databricks, Coatue 주도 라운드로 밸류 $1,880억 — 2월 대비 약 +40%",
+        "Netflix, Ben Affleck 공동창업 InterPositive 현금 $5.87억 인수 확정",
+        "SF 시 검사, Apple·Google에 AI ‘nudify’ 앱 13종 퇴출 중단 명령"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "NVIDIA",
+        "Google",
+        "Apple",
+        "OpenAI",
+        "Hugging Face",
+        "Salesforce",
+        "Anthropic",
+        "DeepMind",
+        "Claude"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-07-16",
       "title": "AI Daily Brief — 2026-07-16 (최근 24h)",
