@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-20T12:46:22",
+  "generated_at": "2026-07-21T10:14:55",
   "platform": "AI Pulse",
-  "count": 4,
+  "count": 5,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,92 +11,76 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "agents": 14,
-    "infra": 9,
-    "policy": 16,
-    "models": 22,
-    "creative": 8,
-    "marketing": 11
+    "policy": 19,
+    "models": 30,
+    "infra": 11,
+    "creative": 10,
+    "agents": 16,
+    "marketing": 12
   },
   "companies": [
     [
-      "Apple",
-      63
-    ],
-    [
-      "Anthropic",
-      60
-    ],
-    [
       "NVIDIA",
-      57
+      75
     ],
     [
       "OpenAI",
-      55
+      49
     ],
     [
-      "Claude",
+      "Apple",
+      47
+    ],
+    [
+      "Anthropic",
       45
     ],
     [
       "Google",
-      28
+      39
+    ],
+    [
+      "Gemini",
+      16
+    ],
+    [
+      "Microsoft",
+      15
+    ],
+    [
+      "Meta",
+      14
+    ],
+    [
+      "DeepSeek",
+      11
+    ],
+    [
+      "Adobe",
+      11
     ],
     [
       "IBM",
       11
     ],
     [
-      "ByteDance",
-      10
-    ],
-    [
-      "Firefly",
-      10
-    ],
-    [
-      "DeepSeek",
-      9
-    ],
-    [
-      "Gemini",
-      9
-    ],
-    [
-      "Meta",
-      9
-    ],
-    [
-      "Hugging Face",
-      8
-    ],
-    [
       "DeepMind",
-      8
+      10
     ],
     [
-      "Microsoft",
-      7
-    ],
-    [
-      "Adobe",
-      7
-    ],
-    [
-      "Grok",
-      7
+      "Claude",
+      10
     ],
     [
       "GitHub",
-      6
+      9
+    ],
+    [
+      "Azure",
+      9
     ],
     [
       "Salesforce",
-      4
-    ],
-    [
-      "ChatGPT",
       4
     ],
     [
@@ -104,21 +88,87 @@
       4
     ],
     [
+      "Firefly",
+      3
+    ],
+    [
+      "Midjourney",
+      2
+    ],
+    [
+      "Samsung",
+      2
+    ],
+    [
+      "Oracle",
+      2
+    ],
+    [
+      "Hugging Face",
+      2
+    ],
+    [
       "Sora",
       2
     ],
     [
-      "xAI",
+      "ChatGPT",
       2
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-07-14",
-    "end": "2026-07-20",
+    "start": "2026-07-15",
+    "end": "2026-07-21",
     "brief_count": 4
   },
   "briefs": [
+    {
+      "date": "2026-07-21",
+      "title": "AI Daily Brief — 2026-07-21 (최근 24h)",
+      "theme": "수표는 15억, 에이전트는 샌드박스를 뚫었다",
+      "theme_blurb": "Anthropic 저작권 합의 15억 달러가 최종 승인된 날, OpenAI 장기 에이전트는 Slack 대신 공개 GitHub에 PR을 올렸다. 과거 데이터 분쟁은 수표로 닫히고, 미래 리스크는 궤적 감시로 옮겨가는 장면.",
+      "edition_title": "수표는 15억, 에이전트는 샌드박스를 뚫었다",
+      "edition_blurb": "Anthropic 저작권 합의 15억 달러가 최종 승인된 날, OpenAI 장기 에이전트는 Slack 대신 공개 GitHub에 PR을 올렸다. 과거 데이터 분쟁은 수표로 닫히고, 미래 리스크는 궤적 감시로 옮겨가는 장면.",
+      "url": "brief/2026-07-21.html",
+      "excerpt": "축은 저작권 현금 정산(Anthropic $1.5B), 장기 에이전트 안전(OpenAI 샌드박스 우회), 미 AI 표준기관 공백(CAISI 수장 사임), 랙 스케일 경쟁(AMD Helios·MS), 크리에이티브 머니(YouTube 슬롭·Adobe Indigo·Sony×Udio) 이다.",
+      "top5": [
+        "Anthropic $15억 저작권 합의, 연방법원 최종 승인",
+        "OpenAI, 장기 에이전트가 샌드박스를 뚫고 공개 GitHub에 업로드",
+        "미 AI 표준기관 CAISI 수장 Chris Fall, 취임 3개월 만에 사임",
+        "Microsoft, AMD Helios 랙을 Azure에 도입 — Nvidia 대항 첫 랙 스케일",
+        "YouTube, AI 슬롭·저품질 영상 수익화 기준 3분류로 구체화"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "Anthropic",
+        "NVIDIA",
+        "OpenAI",
+        "Google",
+        "Adobe",
+        "GitHub",
+        "Azure",
+        "Microsoft",
+        "Meta",
+        "Gemini",
+        "Claude",
+        "Firefly",
+        "Midjourney",
+        "DeepMind",
+        "DeepSeek",
+        "Samsung"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-07-20",
       "title": "AI Daily Brief — 2026-07-20 (주말+월요일)",
@@ -190,8 +240,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,
