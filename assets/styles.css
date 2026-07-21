@@ -652,7 +652,7 @@ img { max-width: 100%; }
 
 /* Brief page */
 .brief-nav {
-  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  display: flex; justify-content: center; align-items: center; gap: 14px;
   margin-bottom: 16px;
 }
 .brief-nav-arrow {
@@ -663,6 +663,7 @@ img { max-width: 100%; }
   background: var(--bg-elevated); box-shadow: var(--shadow);
   text-decoration: none;
   transition: 0.15s ease;
+  flex-shrink: 0;
 }
 a.brief-nav-arrow:hover {
   color: var(--text);
@@ -675,6 +676,16 @@ a.brief-nav-arrow:hover {
   box-shadow: none;
   background: transparent;
   cursor: default;
+}
+.brief-nav-date {
+  min-width: 10.5em;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  line-height: 1.2;
 }
 .brief-layout {
   display: grid;

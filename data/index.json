@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T10:14:55",
+  "generated_at": "2026-07-21T12:53:52",
   "platform": "AI Pulse",
   "count": 5,
   "domains": {
@@ -149,8 +149,8 @@
       ],
       "companies": [
         "Anthropic",
-        "NVIDIA",
         "OpenAI",
+        "NVIDIA",
         "Google",
         "Adobe",
         "GitHub",
@@ -161,8 +161,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Samsung"
       ],
       "has_rumor": false,
@@ -240,8 +240,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,
