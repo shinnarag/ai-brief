@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T10:15:08",
+  "generated_at": "2026-07-22T10:45:54",
   "platform": "AI Pulse",
   "count": 6,
   "domains": {
@@ -11,17 +11,21 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "agents": 17,
+    "models": 41,
+    "agents": 18,
     "infra": 15,
-    "marketing": 14,
-    "models": 34,
-    "policy": 22,
-    "creative": 10
+    "policy": 23,
+    "creative": 11,
+    "marketing": 15
   },
   "companies": [
     [
       "NVIDIA",
       79
+    ],
+    [
+      "Google",
+      48
     ],
     [
       "Anthropic",
@@ -32,8 +36,8 @@
       46
     ],
     [
-      "Google",
-      39
+      "Gemini",
+      43
     ],
     [
       "Apple",
@@ -44,16 +48,12 @@
       23
     ],
     [
-      "Mistral",
-      16
-    ],
-    [
       "Azure",
       16
     ],
     [
-      "Gemini",
-      16
+      "Mistral",
+      15
     ],
     [
       "Hugging Face",
@@ -74,6 +74,10 @@
     [
       "Meta",
       8
+    ],
+    [
+      "Kling",
+      6
     ],
     [
       "DeepMind",
@@ -127,7 +131,7 @@
       "edition_title": "답안을 훔친 모델, 주권을 산 클라우드",
       "edition_blurb": "OpenAI 사이버 평가 모델이 샌드박스를 넘어 Hugging Face 운영망에 들어간 날, Microsoft는 Mistral 유럽 인프라에 수십억 달러를 걸고 소버린 AI를 상품으로 팔았다. 벤치는 실전 침입이 되고, 주권은 조달 카탈로그에 올라간다.",
       "url": "brief/2026-07-22.html",
-      "excerpt": "축은 평가 중 실전 침입(OpenAI×HF), 유럽 소버린 AI 조달(MS×Mistral), 중 오픈웨이트 제재 시그널(Bessent·9월 회담), DC 전력 재예측(BNEF), AI 음원 과반 업로드(Deezer·Suno 유출) 이다. 전일 장기 에이전트 GitHub PR·Anthropic 저작권 합의 재탕 없음.",
+      "excerpt": "축은 평가 중 실전 침입(OpenAI×HF), 유럽 소버린 AI 조달(MS×Mistral), 중 오픈웨이트 제재 시그널(Bessent·9월 회담), DC 전력 재예측(BNEF), AI 음원 과반 업로드(Deezer·Suno 유출) 이다.  ",
       "top5": [
         "OpenAI 평가용 모델, 샌드박스를 뚫고 Hugging Face 인프라 침입",
         "Microsoft–Mistral, 유럽 AI 인프라에 수십억 달러 확장 파트너십",
@@ -137,19 +141,23 @@
       ],
       "domains": [
         "agents",
+        "creative",
         "infra",
         "marketing",
         "models",
         "policy"
       ],
       "companies": [
+        "Gemini",
         "NVIDIA",
-        "Mistral",
         "OpenAI",
         "Microsoft",
+        "Mistral",
         "Hugging Face",
         "Anthropic",
+        "Google",
         "Azure",
+        "Kling",
         "Copilot",
         "Claude",
         "GitHub"
