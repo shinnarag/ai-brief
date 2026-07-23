@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-22T10:45:54",
+  "generated_at": "2026-07-23T10:13:47",
   "platform": "AI Pulse",
-  "count": 6,
+  "count": 7,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,48 +11,60 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "models": 41,
-    "agents": 18,
-    "infra": 15,
-    "policy": 23,
-    "creative": 11,
-    "marketing": 15
+    "policy": 25,
+    "infra": 21,
+    "models": 51,
+    "agents": 20,
+    "creative": 13,
+    "marketing": 19
   },
   "companies": [
     [
-      "NVIDIA",
-      79
+      "OpenAI",
+      87
     ],
     [
-      "Google",
-      48
+      "NVIDIA",
+      77
     ],
     [
       "Anthropic",
-      47
-    ],
-    [
-      "OpenAI",
-      46
+      60
     ],
     [
       "Gemini",
-      43
+      46
     ],
     [
-      "Apple",
-      37
+      "Google",
+      46
     ],
     [
       "Microsoft",
       23
     ],
     [
-      "Azure",
+      "Kling",
+      18
+    ],
+    [
+      "DeepSeek",
       16
     ],
     [
       "Mistral",
+      16
+    ],
+    [
+      "Meta",
+      16
+    ],
+    [
+      "Azure",
+      16
+    ],
+    [
+      "Claude",
       15
     ],
     [
@@ -60,7 +72,7 @@
       13
     ],
     [
-      "Claude",
+      "Apple",
       12
     ],
     [
@@ -72,11 +84,11 @@
       10
     ],
     [
-      "Meta",
+      "Runway",
       8
     ],
     [
-      "Kling",
+      "Salesforce",
       6
     ],
     [
@@ -84,12 +96,12 @@
       6
     ],
     [
-      "DeepSeek",
-      4
-    ],
-    [
       "Firefly",
       3
+    ],
+    [
+      "xAI",
+      2
     ],
     [
       "Copilot",
@@ -106,23 +118,59 @@
     [
       "Oracle",
       2
-    ],
-    [
-      "Salesforce",
-      2
-    ],
-    [
-      "Sora",
-      2
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-07-16",
-    "end": "2026-07-22",
+    "start": "2026-07-17",
+    "end": "2026-07-23",
     "brief_count": 4
   },
   "briefs": [
+    {
+      "date": "2026-07-23",
+      "title": "AI Daily Brief — 2026-07-23 (최근 24h)",
+      "theme": "증류를 고발한 날, 3.2GW를 심었다",
+      "theme_blurb": "백악관이 Moonshot Kimi K3를 Anthropic Fable 증류·GB300 우회로 지목한 같은 날, OpenAI는 조지아 캠퍼스와 2030년까지 7,500억 달러 인프라·Presence 에이전트를 동시에 내놓았다. 벤치는 절도 의심, 전력은 자가 부담 서약으로 간다.",
+      "edition_title": "증류를 고발한 날, 3.2GW를 심었다",
+      "edition_blurb": "백악관이 Moonshot Kimi K3를 Anthropic Fable 증류·GB300 우회로 지목한 같은 날, OpenAI는 조지아 캠퍼스와 2030년까지 7,500억 달러 인프라·Presence 에이전트를 동시에 내놓았다. 벤치는 절도 의심, 전력은 자가 부담 서약으로 간다.",
+      "url": "brief/2026-07-23.html",
+      "excerpt": "축은 백악관→Moonshot 구체 고발(Fable 증류·태국 GB300), OpenAI Camellia·$750B 인프라, Alphabet 클라우드 82%·capex $195–205B, AMD×Anthropic 2GW MI450, Presence 엔터프라이즈 에이전트 이다.  ",
+      "top5": [
+        "백악관, Moonshot Kimi K3를 Anthropic Fable 증류·태국 GB300 접근으로 지목",
+        "OpenAI Project Camellia — 조지아 3.2GW 캠퍼스, 2030년 인프라 $750B로 상향",
+        "Alphabet Q2: 클라우드 +82%·$24.8B, 2026 capex $195–205B — Gemini 9.5억 MAU",
+        "AMD–Anthropic, MI450 최대 2GW·AMD 최대 $50억 투자 파트너십",
+        "OpenAI Presence — 보이스·챗 엔터프라이즈 에이전트 플랫폼 한정 GA"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "DeepSeek",
+        "NVIDIA",
+        "Gemini",
+        "Kling",
+        "Runway",
+        "Meta",
+        "Claude",
+        "Salesforce",
+        "DeepMind",
+        "xAI",
+        "Mistral"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-07-22",
       "title": "AI Daily Brief — 2026-07-22 (최근 24h)",
@@ -192,8 +240,8 @@
       ],
       "companies": [
         "Anthropic",
-        "NVIDIA",
         "OpenAI",
+        "NVIDIA",
         "Google",
         "Adobe",
         "GitHub",
@@ -204,8 +252,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Samsung"
       ],
       "has_rumor": false,
@@ -283,8 +331,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,
