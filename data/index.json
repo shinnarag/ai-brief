@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23T10:13:47",
+  "generated_at": "2026-07-24T10:14:25",
   "platform": "AI Pulse",
-  "count": 7,
+  "count": 8,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,61 +11,69 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "policy": 25,
-    "infra": 21,
-    "models": 51,
-    "agents": 20,
-    "creative": 13,
-    "marketing": 19
+    "marketing": 23,
+    "policy": 26,
+    "infra": 25,
+    "models": 65,
+    "agents": 24,
+    "creative": 17
   },
   "companies": [
     [
       "OpenAI",
-      87
+      116
     ],
     [
       "NVIDIA",
-      77
+      113
     ],
     [
       "Anthropic",
-      60
+      64
     ],
     [
       "Gemini",
-      46
+      54
     ],
     [
       "Google",
-      46
+      50
     ],
     [
       "Microsoft",
-      23
-    ],
-    [
-      "Kling",
-      18
+      31
     ],
     [
       "DeepSeek",
-      16
+      29
+    ],
+    [
+      "Kling",
+      25
+    ],
+    [
+      "Claude",
+      23
+    ],
+    [
+      "Runway",
+      22
+    ],
+    [
+      "Meta",
+      22
+    ],
+    [
+      "Azure",
+      20
     ],
     [
       "Mistral",
       16
     ],
     [
-      "Meta",
-      16
-    ],
-    [
-      "Azure",
-      16
-    ],
-    [
-      "Claude",
-      15
+      "ChatGPT",
+      13
     ],
     [
       "Hugging Face",
@@ -84,8 +92,8 @@
       10
     ],
     [
-      "Runway",
-      8
+      "Copilot",
+      6
     ],
     [
       "Salesforce",
@@ -96,15 +104,31 @@
       6
     ],
     [
+      "Cloudflare",
+      5
+    ],
+    [
+      "Luma",
+      5
+    ],
+    [
+      "Oracle",
+      4
+    ],
+    [
+      "Amazon",
+      4
+    ],
+    [
+      "xAI",
+      4
+    ],
+    [
       "Firefly",
       3
     ],
     [
-      "xAI",
-      2
-    ],
-    [
-      "Copilot",
+      "ElevenLabs",
       2
     ],
     [
@@ -114,19 +138,61 @@
     [
       "Samsung",
       2
-    ],
-    [
-      "Oracle",
-      2
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-07-17",
-    "end": "2026-07-23",
-    "brief_count": 4
+    "start": "2026-07-18",
+    "end": "2026-07-24",
+    "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-07-24",
+      "title": "AI Daily Brief — 2026-07-24 (최근 24h)",
+      "theme": "요금 서약이 찍히고, 추론 랙이 출항한다",
+      "theme_blurb": "트럼프가 Ratepayer Pledge를 주지사·유틸·약 200개 주체로 확장한 날, AMD는 Helios 출하·추론 60% 시대를 선언하고 Intel DCAI는 59% 성장으로 받쳤다. 가정 전기요금은 정치가 막고, 칩은 학습에서 서빙으로 기운다.",
+      "edition_title": "요금 서약이 찍히고, 추론 랙이 출항한다",
+      "edition_blurb": "트럼프가 Ratepayer Pledge를 주지사·유틸·약 200개 주체로 확장한 날, AMD는 Helios 출하·추론 60% 시대를 선언하고 Intel DCAI는 59% 성장으로 받쳤다. 가정 전기요금은 정치가 막고, 칩은 학습에서 서빙으로 기운다.",
+      "url": "brief/2026-07-24.html",
+      "excerpt": "축은 Ratepayer Pledge 실행 확장(약 200 주체·가정 전력 80%), AMD Advancing AI Helios·오픈소스 방어·추론 60%, Intel Q2 DCAI +59%, ChatGPT Voice 데스크톱, 에이전트 웹 트래픽·ServiceNow AI ACV $10억 이다.  ",
+      "top5": [
+        "트럼프, Ratepayer Protection Pledge 실행 확장 — 약 200 주체·가정 전력 80% 커버 주장",
+        "AMD Lisa Su, Advancing AI 키노트 — Helios 연내 출하·추론 60%·오픈소스 방어",
+        "Intel Q2: 매출 $161억(+25%)·DCAI $63억(+59%) — 15년 만 최고 성장률 주장",
+        "OpenAI, ChatGPT Voice를 데스크톱·Codex에 확장 — GPT-Live로 멀티 에이전트 음성 지시",
+        "에이전트 트래픽이 웹을 넘다 — Cloudflare 봇 57.5%·행동 에이전트 YoY +7,851%"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "NVIDIA",
+        "OpenAI",
+        "Runway",
+        "DeepSeek",
+        "ChatGPT",
+        "Microsoft",
+        "Claude",
+        "Gemini",
+        "Kling",
+        "Meta",
+        "Cloudflare",
+        "Luma",
+        "Anthropic",
+        "Copilot",
+        "Amazon",
+        "Google"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-07-23",
       "title": "AI Daily Brief — 2026-07-23 (최근 24h)",
@@ -252,8 +318,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Samsung"
       ],
       "has_rumor": false,
@@ -331,8 +397,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,
