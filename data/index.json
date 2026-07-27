@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24T10:14:25",
+  "generated_at": "2026-07-27T10:16:48",
   "platform": "AI Pulse",
-  "count": 8,
+  "count": 9,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,53 +11,53 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "marketing": 23,
-    "policy": 26,
-    "infra": 25,
-    "models": 65,
-    "agents": 24,
-    "creative": 17
+    "infra": 27,
+    "models": 78,
+    "policy": 29,
+    "agents": 27,
+    "creative": 21,
+    "marketing": 25
   },
   "companies": [
     [
       "OpenAI",
-      116
+      120
     ],
     [
       "NVIDIA",
-      113
+      88
     ],
     [
       "Anthropic",
-      64
+      77
     ],
     [
       "Gemini",
-      54
+      71
     ],
     [
       "Google",
-      50
-    ],
-    [
-      "Microsoft",
-      31
-    ],
-    [
-      "DeepSeek",
-      29
-    ],
-    [
-      "Kling",
-      25
+      42
     ],
     [
       "Claude",
-      23
+      39
+    ],
+    [
+      "DeepSeek",
+      35
+    ],
+    [
+      "Kling",
+      34
+    ],
+    [
+      "Microsoft",
+      33
     ],
     [
       "Runway",
-      22
+      29
     ],
     [
       "Meta",
@@ -72,44 +72,40 @@
       16
     ],
     [
+      "GitHub",
+      15
+    ],
+    [
       "ChatGPT",
       13
     ],
     [
       "Hugging Face",
-      13
-    ],
-    [
-      "Apple",
-      12
+      11
     ],
     [
       "Adobe",
       11
     ],
     [
-      "GitHub",
+      "Copilot",
       10
     ],
     [
-      "Copilot",
-      6
-    ],
-    [
-      "Salesforce",
-      6
-    ],
-    [
-      "DeepMind",
-      6
+      "Luma",
+      8
     ],
     [
       "Cloudflare",
       5
     ],
     [
-      "Luma",
-      5
+      "ElevenLabs",
+      4
+    ],
+    [
+      "Midjourney",
+      4
     ],
     [
       "Oracle",
@@ -124,29 +120,82 @@
       4
     ],
     [
+      "Salesforce",
+      4
+    ],
+    [
+      "DeepMind",
+      4
+    ],
+    [
       "Firefly",
       3
     ],
     [
-      "ElevenLabs",
-      2
-    ],
-    [
-      "Midjourney",
+      "Zapier",
       2
     ],
     [
       "Samsung",
       2
+    ],
+    [
+      "Apple",
+      2
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-07-18",
-    "end": "2026-07-24",
+    "start": "2026-07-21",
+    "end": "2026-07-27",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-07-27",
+      "title": "AI Daily Brief — 2026-07-27 (주말 포함 ~72h)",
+      "theme": "반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다",
+      "theme_blurb": "Anthropic이 Opus 5로 Fable급에 가까운 성능을 Opus 가격에 실은 주말, 의회는 HF 침입 여파로 AI Kill Switch 법안을 올렸고 Moonshot K3 가중치 1.4TB 창이 열렸다. 능력은 값싸게 풀리고, 차단 권한은 법으로 간다.",
+      "edition_title": "반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다",
+      "edition_blurb": "Anthropic이 Opus 5로 Fable급에 가까운 성능을 Opus 가격에 실은 주말, 의회는 HF 침입 여파로 AI Kill Switch 법안을 올렸고 Moonshot K3 가중치 1.4TB 창이 열렸다. 능력은 값싸게 풀리고, 차단 권한은 법으로 간다.",
+      "url": "brief/2026-07-27.html",
+      "excerpt": "축은 Claude Opus 5 (Fable급·$5/$25·effort 토글), Kimi K3 오픈웨이트 D-day (~1.4TB), AI Kill Switch Act (초당파), 중 모델 원가 압박(기업 실사용), DC·송전 주민 반발(조지아·멜버른) 이다.  ",
+      "top5": [
+        "Anthropic, Claude Opus 5 출시 — Fable급에 가깝고 가격은 Opus 그대로",
+        "Moonshot Kimi K3 오픈웨이트 D-day — 2.8T·약 1.4TB, ‘무료’의 인프라 청구서",
+        "초당파 AI Kill Switch Act — DHS가 프론티어 모델 스로틀·중단 명령 가능",
+        "Fortune: 중 AI가 능력·가격 양면에서 미 랩을 압박 — 기업이 이미 꽂고 있다",
+        "조지아 송전 1,000마일·주민 수용 — DC 붐이 집을 밀어낸다"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "Claude",
+        "Gemini",
+        "Anthropic",
+        "Kling",
+        "OpenAI",
+        "Runway",
+        "DeepSeek",
+        "GitHub",
+        "Copilot",
+        "Luma",
+        "ElevenLabs",
+        "Midjourney",
+        "Microsoft",
+        "Google",
+        "Zapier"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-07-24",
       "title": "AI Daily Brief — 2026-07-24 (최근 24h)",
@@ -318,8 +367,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Samsung"
       ],
       "has_rumor": false,
@@ -397,8 +446,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,
