@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T12:46:01",
+  "generated_at": "2026-07-28T14:20:31",
   "platform": "AI Pulse",
   "count": 10,
   "domains": {
@@ -181,8 +181,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Meta",
         "Luma",
+        "Meta",
         "IBM"
       ],
       "has_rumor": false,
@@ -224,8 +224,8 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "Microsoft",
         "Google",
         "Zapier"
@@ -265,16 +265,16 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Claude",
         "Gemini",
+        "Claude",
         "Kling",
         "Meta",
         "Cloudflare",
         "Luma",
         "Anthropic",
         "Copilot",
-        "Amazon",
-        "Google"
+        "Google",
+        "Amazon"
       ],
       "has_rumor": false,
       "source": "md",
@@ -405,8 +405,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Samsung"
       ],
       "has_rumor": false,
@@ -484,8 +484,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,
