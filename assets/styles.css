@@ -425,14 +425,18 @@ img { max-width: 100%; }
 }
 .domain-card .meta strong { color: var(--text); font-weight: 600; }
 
-/* Signal / theme chips */
+/* Interest heat map (company + domain) — no Top5 here; Top5 lives on feature-card */
 .signal-board {
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
+  grid-template-columns: 1.35fr 1fr;
   gap: 12px;
 }
+.signal-board--heat {
+  grid-template-columns: 1.2fr 1fr;
+}
 @media (max-width: 860px) {
-  .signal-board { grid-template-columns: 1fr; }
+  .signal-board,
+  .signal-board--heat { grid-template-columns: 1fr; }
 }
 .panel {
   background: var(--bg-elevated);
@@ -451,28 +455,6 @@ img { max-width: 100%; }
   color: var(--text-3);
   line-height: 1.4;
 }
-.theme-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
-.theme-list li {
-  display: flex; gap: 12px; align-items: flex-start;
-  padding: 12px 0;
-  border-bottom: 1px solid var(--line);
-}
-.theme-list li:last-child { border-bottom: none; padding-bottom: 0; }
-.theme-list li:first-child { padding-top: 0; }
-.theme-rank {
-  flex: 0 0 auto;
-  width: 24px; height: 24px; border-radius: 7px;
-  background: var(--bg); color: var(--text-2);
-  font-size: 12px; font-weight: 600;
-  display: grid; place-items: center;
-}
-.theme-list .body { flex: 1; min-width: 0; }
-.theme-list .body strong {
-  display: block; font-size: 14px; font-weight: 600; margin-bottom: 2px;
-}
-.theme-list .body span {
-  display: block; font-size: 12px; color: var(--text-3); line-height: 1.35;
-}
 .heat-bars { display: grid; gap: 12px; }
 .heat-row { display: grid; gap: 6px; }
 .heat-row .label {
@@ -480,6 +462,11 @@ img { max-width: 100%; }
   font-size: 13px; color: var(--text-2);
 }
 .heat-row .label b { color: var(--text); font-weight: 600; }
+.heat-empty {
+  margin: 0;
+  color: var(--text-3);
+  font-size: 13px;
+}
 .bar {
   height: 8px; border-radius: 980px; background: var(--fill);
   overflow: hidden;
@@ -487,6 +474,9 @@ img { max-width: 100%; }
 .bar > i {
   display: block; height: 100%; border-radius: 980px;
   background: linear-gradient(90deg, #64d2ff, #0071e3);
+}
+.bar--domain > i {
+  background: linear-gradient(90deg, #bf5af2, #5e5ce6);
 }
 
 /* Latest feature */
