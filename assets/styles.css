@@ -31,11 +31,16 @@
   --header: 56px;
   /* Sticky stack height used by scroll-spy / TOC offsets */
   --sticky-top: var(--header);
+  /* Brief shell: TOC sits left of logo; content column matches header bar width */
+  --toc-w: 200px;
+  --layout-gap: 24px;
+  --shell-max: calc(var(--toc-w) + var(--layout-gap) + var(--max));
 }
-/* Brief pages: floating header adds a little top padding */
+/* Brief pages: solid white chrome (no scroll-through gap) */
 html:has(body.page-brief),
 .page-brief {
-  --sticky-top: 72px;
+  --sticky-top: var(--header);
+  --bg: #ffffff;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -124,12 +129,16 @@ img { max-width: 100%; }
   justify-content: space-between;
   gap: 16px;
 }
-/* Brief pages: floating rounded header bar with date nav in the center */
+/* Brief pages: solid full-bleed header (blocks content scrolling above the bar)
+   Logo/date/nav align with the article column; TOC sits to the left of the logo. */
+.page-brief {
+  background: #ffffff;
+}
 .page-brief .site-header {
-  height: auto;
-  padding: 12px 16px 0;
-  background: transparent;
-  border-bottom: none;
+  height: var(--header);
+  padding: 0;
+  background: #ffffff;
+  border-bottom: 1px solid var(--line);
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
@@ -138,14 +147,16 @@ img { max-width: 100%; }
   grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   align-items: center;
   gap: 12px;
-  height: 56px;
-  padding: 0 16px 0 14px;
-  background: rgba(255, 255, 255, 0.86);
-  backdrop-filter: saturate(180%) blur(20px);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  border-radius: 18px;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.03);
+  max-width: var(--shell-max);
+  height: 100%;
+  /* Left inset = TOC + gap so brand lines up with article (logo = content start) */
+  padding: 0 22px 0 calc(22px + var(--toc-w) + var(--layout-gap));
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 .page-brief .header-inner > .brand {
   justify-self: start;
@@ -158,14 +169,24 @@ img { max-width: 100%; }
   justify-self: end;
   flex-wrap: nowrap;
 }
+.page-brief .main {
+  max-width: var(--shell-max);
+  padding-top: 28px;
+}
+@media (max-width: 900px) {
+  .page-brief .header-inner {
+    padding: 0 16px;
+    max-width: var(--max);
+  }
+  .page-brief .main {
+    max-width: var(--max);
+  }
+}
 @media (max-width: 720px) {
-  .page-brief .site-header { padding: 10px 10px 0; }
   .page-brief .header-inner {
     grid-template-columns: auto 1fr auto;
-    height: 52px;
-    padding: 0 10px 0 10px;
     gap: 8px;
-    border-radius: 16px;
+    padding: 0 12px;
   }
   .page-brief .brand-text { display: none; }
   .page-brief .nav a { padding: 6px 8px; font-size: 11px; }
@@ -703,15 +724,15 @@ img { max-width: 100%; }
   margin: 0; font-size: 13px; color: var(--text-2); line-height: 1.4;
 }
 
-/* Brief page — date control lives inside the floating site header */
+/* Brief page — date control inside solid site header */
 .brief-nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4px;
+  gap: 2px;
   margin: 0;
-  padding: 3px;
-  background: rgba(0, 0, 0, 0.04);
+  padding: 2px;
+  background: var(--fill);
   border-radius: 980px;
   flex-shrink: 0;
 }
@@ -737,7 +758,7 @@ img { max-width: 100%; }
 }
 a.brief-nav-arrow:hover {
   color: var(--text);
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.05);
   text-decoration: none;
 }
 .brief-nav-arrow.is-disabled {
@@ -758,10 +779,9 @@ a.brief-nav-arrow:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
   min-width: 0;
   max-width: min(46vw, 220px);
-  padding: 6px 12px;
+  padding: 6px 14px;
   border-radius: 980px;
   background: #fff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
@@ -787,21 +807,10 @@ a.brief-nav-arrow:hover {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.brief-nav-caret {
-  flex-shrink: 0;
-  font-size: 9px;
-  line-height: 1;
-  color: var(--text-3);
-  transition: transform 0.15s ease;
-}
 .brief-nav.is-picker-open .brief-nav-date {
   background: var(--blue-soft);
   color: var(--blue);
   box-shadow: none;
-}
-.brief-nav.is-picker-open .brief-nav-caret {
-  color: var(--blue);
-  transform: rotate(180deg);
 }
 .brief-date-picker {
   position: absolute;
@@ -879,8 +888,10 @@ a.brief-nav-arrow:hover {
 }
 .brief-layout {
   display: grid;
-  grid-template-columns: 200px minmax(0, 1fr);
-  gap: 20px; align-items: start;
+  /* TOC left of logo/content; article column width matches header bar content */
+  grid-template-columns: var(--toc-w) minmax(0, 1fr);
+  gap: var(--layout-gap);
+  align-items: start;
 }
 @media (max-width: 900px) {
   .brief-layout { grid-template-columns: 1fr; }
@@ -892,6 +903,7 @@ a.brief-nav-arrow:hover {
   border-radius: var(--radius-m);
   padding: 16px 14px;
   box-shadow: var(--shadow);
+  border: 1px solid var(--line);
 }
 .toc-panel > h2 {
   margin: 0 0 10px; padding: 0 6px;
