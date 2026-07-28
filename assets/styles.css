@@ -732,7 +732,8 @@ img { max-width: 100%; }
   gap: 2px;
   margin: 0;
   padding: 2px;
-  background: var(--fill);
+  /* Match header bar color (no gray capsule) */
+  background: transparent;
   border-radius: 980px;
   flex-shrink: 0;
 }
@@ -783,8 +784,9 @@ a.brief-nav-arrow:hover {
   max-width: min(46vw, 220px);
   padding: 6px 14px;
   border-radius: 980px;
-  background: #fff;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  /* Same as header bar so the control doesn’t read as a gray pill */
+  background: transparent;
+  box-shadow: none;
   font-family: inherit;
   font-size: 13px;
   font-weight: 600;
@@ -792,11 +794,11 @@ a.brief-nav-arrow:hover {
   letter-spacing: -0.01em;
   white-space: nowrap;
   line-height: 1.2;
-  transition: background 0.15s ease, box-shadow 0.15s ease, color 0.15s ease;
+  transition: background 0.15s ease, color 0.15s ease;
 }
 .brief-nav-date:hover {
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background: var(--fill);
+  box-shadow: none;
   text-decoration: none;
 }
 .brief-nav-date:focus-visible {
