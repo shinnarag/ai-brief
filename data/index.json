@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27T10:16:48",
+  "generated_at": "2026-07-28T10:13:51",
   "platform": "AI Pulse",
-  "count": 9,
+  "count": 10,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,104 +11,96 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "infra": 27,
-    "models": 78,
-    "policy": 29,
-    "agents": 27,
-    "creative": 21,
-    "marketing": 25
+    "infra": 32,
+    "policy": 31,
+    "creative": 25,
+    "models": 83,
+    "marketing": 29,
+    "agents": 31
   },
   "companies": [
     [
       "OpenAI",
-      120
+      134
     ],
     [
       "NVIDIA",
-      88
+      128
     ],
     [
       "Anthropic",
-      77
+      83
     ],
     [
       "Gemini",
-      71
-    ],
-    [
-      "Google",
-      42
+      70
     ],
     [
       "Claude",
-      39
-    ],
-    [
-      "DeepSeek",
-      35
+      52
     ],
     [
       "Kling",
-      34
+      51
     ],
     [
-      "Microsoft",
+      "Google",
+      38
+    ],
+    [
+      "DeepSeek",
       33
     ],
     [
       "Runway",
-      29
+      32
+    ],
+    [
+      "Microsoft",
+      27
+    ],
+    [
+      "ChatGPT",
+      24
     ],
     [
       "Meta",
-      22
-    ],
-    [
-      "Azure",
-      20
+      16
     ],
     [
       "Mistral",
       16
     ],
     [
-      "GitHub",
+      "Hugging Face",
       15
     ],
     [
-      "ChatGPT",
-      13
-    ],
-    [
-      "Hugging Face",
-      11
-    ],
-    [
-      "Adobe",
-      11
-    ],
-    [
       "Copilot",
-      10
+      12
+    ],
+    [
+      "Azure",
+      11
     ],
     [
       "Luma",
-      8
+      10
+    ],
+    [
+      "GitHub",
+      7
     ],
     [
       "Cloudflare",
       5
     ],
     [
+      "Apple",
+      4
+    ],
+    [
       "ElevenLabs",
-      4
-    ],
-    [
-      "Midjourney",
-      4
-    ],
-    [
-      "Oracle",
       4
     ],
     [
@@ -124,33 +116,79 @@
       4
     ],
     [
-      "DeepMind",
-      4
+      "IBM",
+      2
     ],
     [
-      "Firefly",
-      3
+      "Midjourney",
+      2
     ],
     [
       "Zapier",
       2
     ],
     [
-      "Samsung",
+      "Oracle",
       2
     ],
     [
-      "Apple",
+      "DeepMind",
       2
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-07-21",
-    "end": "2026-07-27",
+    "start": "2026-07-22",
+    "end": "2026-07-28",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-07-28",
+      "title": "AI Daily Brief — 2026-07-28 (최근 24h)",
+      "theme": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
+      "theme_blurb": "K3 2.8T 가중치가 HF에 실제로 올라온 날 Nvidia는 SSI에 수십억·Vera Rubin을 꽂고 오픈 시큐어 연합을 띄웠다. Anthropic은 오픈웨이트 금지 반대·칩·증류·안전평가 3축으로 선을 그었다.",
+      "edition_title": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
+      "edition_blurb": "K3 2.8T 가중치가 HF에 실제로 올라온 날 Nvidia는 SSI에 수십억·Vera Rubin을 꽂고 오픈 시큐어 연합을 띄웠다. Anthropic은 오픈웨이트 금지 반대·칩·증류·안전평가 3축으로 선을 그었다.",
+      "url": "brief/2026-07-28.html",
+      "excerpt": "축은 K3 오픈웨이트 실배포(HF 카드·벤치·MXFP4), Nvidia↔SSI(Vera Rubin·~$5B 보도), Anthropic 오픈웨이트 성명, OpenAI task crossover 연구, Open Secure AI Alliance, Cognizant–Claude 엔터 확장 이다.  ",
+      "top5": [
+        "Kimi K3 오픈웨이트 실배포 — 2.8T·104B 활성·MXFP4, HF 모델 카드 라이브",
+        "Nvidia, Ilya Sutskever SSI에 장기 파트너십 — Vera Rubin·컴퓨트 10배, 투자 약 $50억 보도",
+        "Anthropic, 오픈웨이트 공식 입장 — “금지 주장 안 함”, 칩·증류·안전평가 3축",
+        "OpenAI, Work at the Frontier — 업무 메시지 16.8%·직종 특화 43.5%가 ‘타 직종 과제’",
+        "Nvidia Open Secure AI Alliance — 오픈 툴로 AI 사이버 방어, MS·SpaceX·HF 등 수십 사"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "NVIDIA",
+        "OpenAI",
+        "Anthropic",
+        "Claude",
+        "Kling",
+        "ChatGPT",
+        "Google",
+        "Gemini",
+        "Hugging Face",
+        "Apple",
+        "Runway",
+        "Microsoft",
+        "Copilot",
+        "Meta",
+        "Luma",
+        "IBM"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-07-27",
       "title": "AI Daily Brief — 2026-07-27 (주말 포함 ~72h)",
@@ -189,8 +227,8 @@
         "ElevenLabs",
         "Midjourney",
         "Microsoft",
-        "Google",
-        "Zapier"
+        "Zapier",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -235,8 +273,8 @@
         "Luma",
         "Anthropic",
         "Copilot",
-        "Amazon",
-        "Google"
+        "Google",
+        "Amazon"
       ],
       "has_rumor": false,
       "source": "md",
@@ -355,8 +393,8 @@
       ],
       "companies": [
         "Anthropic",
-        "OpenAI",
         "NVIDIA",
+        "OpenAI",
         "Google",
         "Adobe",
         "GitHub",
@@ -367,8 +405,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Samsung"
       ],
       "has_rumor": false,
@@ -446,8 +484,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,
