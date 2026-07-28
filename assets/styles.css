@@ -29,14 +29,22 @@
   --mono: "SF Mono", ui-monospace, Menlo, monospace;
   --max: 1120px;
   --header: 56px;
+  --brief-nav: 52px;
+  /* Sticky stack height used by scroll-spy / TOC offsets */
+  --sticky-top: var(--header);
+}
+/* Brief pages: header + sticky date bar (set on html for scroll-padding, body for descendants) */
+html:has(body.page-brief),
+.page-brief {
+  --sticky-top: calc(var(--header) + var(--brief-nav));
 }
 
 *, *::before, *::after { box-sizing: border-box; }
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
-  /* Keep section titles below sticky site header when jumping via TOC anchors */
-  scroll-padding-top: calc(var(--header) + 20px);
+  /* Keep section titles below sticky chrome when jumping via TOC anchors */
+  scroll-padding-top: calc(var(--sticky-top) + 20px);
 }
 body {
   margin: 0;
@@ -650,10 +658,26 @@ img { max-width: 100%; }
   margin: 0; font-size: 13px; color: var(--text-2); line-height: 1.4;
 }
 
-/* Brief page */
+/* Brief page — sticky date bar under site header */
 .brief-nav {
-  display: flex; justify-content: center; align-items: center; gap: 14px;
-  margin-bottom: 16px;
+  position: sticky;
+  top: var(--header);
+  z-index: 95;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  min-height: var(--brief-nav);
+  margin: -36px -22px 16px;
+  padding: 8px 22px;
+  background: rgba(245, 245, 247, 0.88);
+  backdrop-filter: saturate(180%) blur(16px);
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
+  border-bottom: 1px solid var(--line);
+}
+.brief-nav--legacy {
+  justify-content: flex-start;
+  font-size: 13px;
 }
 .brief-nav-arrow {
   display: inline-flex; align-items: center; justify-content: center;
@@ -677,15 +701,124 @@ a.brief-nav-arrow:hover {
   background: transparent;
   cursor: default;
 }
+.brief-nav-date-wrap {
+  position: relative;
+  min-width: 0;
+}
 .brief-nav-date {
-  min-width: 10.5em;
-  text-align: center;
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 11em;
+  max-width: min(70vw, 280px);
+  padding: 8px 14px;
+  border-radius: 980px;
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow);
+  font-family: inherit;
   font-size: 14px;
   font-weight: 600;
   color: var(--text);
   letter-spacing: -0.01em;
   white-space: nowrap;
   line-height: 1.2;
+  transition: background 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+.brief-nav-date:hover {
+  background: #fff;
+  box-shadow: var(--shadow-lg);
+  text-decoration: none;
+}
+.brief-nav-date:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+.brief-nav-date-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.brief-nav-caret {
+  flex-shrink: 0;
+  font-size: 10px;
+  line-height: 1;
+  color: var(--text-3);
+  transition: transform 0.15s ease;
+}
+.brief-nav.is-picker-open .brief-nav-date {
+  background: var(--blue-soft);
+  color: var(--blue);
+  box-shadow: none;
+}
+.brief-nav.is-picker-open .brief-nav-caret {
+  color: var(--blue);
+  transform: rotate(180deg);
+}
+.brief-date-picker {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(360px, calc(100vw - 32px));
+  max-height: min(360px, 50vh);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 6px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow-lg);
+  z-index: 110;
+  -webkit-overflow-scrolling: touch;
+}
+.brief-date-picker[hidden] {
+  display: none !important;
+}
+.brief-date-option {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: var(--text);
+  text-decoration: none;
+  transition: background 0.12s ease;
+}
+.brief-date-option:hover {
+  background: var(--fill);
+  text-decoration: none;
+  color: var(--text);
+}
+.brief-date-option.is-current {
+  background: var(--blue-soft);
+  color: var(--blue);
+}
+.brief-date-option.is-current:hover {
+  background: var(--blue-soft);
+  color: var(--blue);
+}
+.brief-date-option-date {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.brief-date-option-title {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-2);
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.brief-date-option.is-current .brief-date-option-title {
+  color: var(--blue);
+  opacity: 0.88;
 }
 .brief-layout {
   display: grid;
@@ -697,7 +830,7 @@ a.brief-nav-arrow:hover {
   .toc-panel { position: static !important; display: none; }
 }
 .toc-panel {
-  position: sticky; top: calc(var(--header) + 14px);
+  position: sticky; top: calc(var(--sticky-top) + 14px);
   background: var(--bg-elevated);
   border-radius: var(--radius-m);
   padding: 16px 14px;
@@ -729,13 +862,13 @@ a.brief-nav-arrow:hover {
   font-weight: 600;
 }
 
-/* Mobile / compact section jump chips */
+/* Mobile / compact section jump chips (below sticky date bar on brief pages) */
 .toc-mini {
   display: none;
   position: sticky;
-  top: var(--header);
+  top: var(--sticky-top);
   z-index: 90;
-  margin: -12px -22px 18px;
+  margin: -4px -22px 18px;
   padding: 10px 0;
   background: rgba(245, 245, 247, 0.88);
   backdrop-filter: saturate(180%) blur(16px);
@@ -899,11 +1032,11 @@ a.brief-nav-arrow:hover {
   color: var(--text-2);
   line-height: 1.45;
 }
-/* TOC #hash targets: offset sticky header so the section topic stays visible */
+/* TOC #hash targets: offset sticky chrome so the section topic stays visible */
 .news-section,
 .content-card[id],
 #brief-title {
-  scroll-margin-top: calc(var(--header) + 20px);
+  scroll-margin-top: calc(var(--sticky-top) + 20px);
 }
 .news-section-title {
   display: flex !important;

@@ -56,6 +56,58 @@
     }
   }
 
+  /* ---------- sticky offset (header + brief date bar) ---------- */
+  function stickyTopPx() {
+    const cs = getComputedStyle(document.documentElement);
+    const header = parseFloat(cs.getPropertyValue("--header")) || 56;
+    if (!document.body.classList.contains("page-brief")) return header;
+    const briefNav = parseFloat(cs.getPropertyValue("--brief-nav")) || 52;
+    return header + briefNav;
+  }
+
+  /* ---------- brief date picker (jump to any edition) ---------- */
+  function initBriefDateNav() {
+    const nav = $(".brief-nav:not(.brief-nav--legacy)");
+    if (!nav) return;
+    const btn = $(".brief-nav-date", nav);
+    const picker = $(".brief-date-picker", nav);
+    if (!btn || !picker) return;
+
+    function close() {
+      picker.hidden = true;
+      btn.setAttribute("aria-expanded", "false");
+      nav.classList.remove("is-picker-open");
+    }
+    function open() {
+      picker.hidden = false;
+      btn.setAttribute("aria-expanded", "true");
+      nav.classList.add("is-picker-open");
+      const cur = $(".brief-date-option.is-current", picker);
+      if (cur) {
+        // Keep current date visible in the list
+        window.requestAnimationFrame(() => {
+          cur.scrollIntoView({ block: "nearest" });
+        });
+      }
+    }
+    function toggle() {
+      if (picker.hidden) open();
+      else close();
+    }
+
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      toggle();
+    });
+    document.addEventListener("click", (e) => {
+      if (!nav.contains(e.target)) close();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") close();
+    });
+  }
+
   /* ---------- brief TOC scroll-spy + mobile mini nav ---------- */
   function initTocSpy() {
     const tocRoot = $(".toc-panel nav");
@@ -85,6 +137,7 @@
     }
 
     // Sticky mini TOC (chips) — uses custom icons from sidebar TOC
+    // Place after brief-nav so date bar stays on top of the sticky stack
     if (!$(".toc-mini")) {
       const mini = document.createElement("nav");
       mini.className = "toc-mini";
@@ -106,7 +159,14 @@
       });
       mini.appendChild(inner);
       const main = $("main.main");
-      if (main) main.insertBefore(mini, main.firstChild);
+      const briefNav = $(".brief-nav");
+      if (main) {
+        if (briefNav && briefNav.parentNode === main) {
+          briefNav.insertAdjacentElement("afterend", mini);
+        } else {
+          main.insertBefore(mini, main.firstChild);
+        }
+      }
     }
 
     // Smooth offset scroll for TOC / mini clicks
@@ -142,12 +202,9 @@
               bestId = id;
             }
           });
-          // Prefer the topmost section near the header when several intersect
+          // Prefer the topmost section near the sticky chrome when several intersect
           if (best < 0.08) {
-            const headerH =
-              parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--header")) ||
-              56;
-            const y = window.scrollY + headerH + 28;
+            const y = window.scrollY + stickyTopPx() + 28;
             let current = sections[0].id;
             for (const sec of sections) {
               if (sec.offsetTop <= y) current = sec.id;
@@ -166,9 +223,7 @@
       sections.forEach((s) => obs.observe(s));
     } else {
       const onScroll = () => {
-        const headerH =
-          parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--header")) || 56;
-        const y = window.scrollY + headerH + 28;
+        const y = window.scrollY + stickyTopPx() + 28;
         let current = sections[0].id;
         for (const sec of sections) {
           if (sec.offsetTop <= y) current = sec.id;
@@ -520,6 +575,7 @@
 
   /* ---------- boot ---------- */
   initReadingChrome();
+  initBriefDateNav();
   initTocSpy();
   initArchive();
 })();
