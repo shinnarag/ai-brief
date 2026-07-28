@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T12:16:10",
+  "generated_at": "2026-07-28T12:25:36",
   "platform": "AI Pulse",
   "count": 10,
   "domains": {
@@ -224,8 +224,8 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "Microsoft",
         "Google",
         "Zapier"
@@ -265,8 +265,8 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Gemini",
         "Claude",
+        "Gemini",
         "Kling",
         "Meta",
         "Cloudflare",

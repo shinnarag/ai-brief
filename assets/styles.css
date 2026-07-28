@@ -31,10 +31,9 @@
   --header: 56px;
   /* Sticky stack height used by scroll-spy / TOC offsets */
   --sticky-top: var(--header);
-  /* Brief shell: TOC sits left of logo; content column matches header bar width */
+  /* Brief TOC: floats left of the centered column; does not affect centering */
   --toc-w: 200px;
   --layout-gap: 24px;
-  --shell-max: calc(var(--toc-w) + var(--layout-gap) + var(--max));
 }
 /* Brief pages: solid white chrome (no scroll-through gap) */
 html:has(body.page-brief),
@@ -129,8 +128,7 @@ img { max-width: 100%; }
   justify-content: space-between;
   gap: 16px;
 }
-/* Brief pages: solid full-bleed header (blocks content scrolling above the bar)
-   Logo/date/nav align with the article column; TOC sits to the left of the logo. */
+/* Brief pages: same centered --max column as home; TOC is independent (left of column) */
 .page-brief {
   background: #ffffff;
 }
@@ -147,10 +145,10 @@ img { max-width: 100%; }
   grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   align-items: center;
   gap: 12px;
-  max-width: var(--shell-max);
+  /* Same max-width + horizontal padding as home header / main */
+  max-width: var(--max);
   height: 100%;
-  /* Left inset = TOC + gap so brand lines up with article (logo = content start) */
-  padding: 0 22px 0 calc(22px + var(--toc-w) + var(--layout-gap));
+  padding: 0 22px;
   background: transparent;
   border: none;
   border-radius: 0;
@@ -170,17 +168,10 @@ img { max-width: 100%; }
   flex-wrap: nowrap;
 }
 .page-brief .main {
-  max-width: var(--shell-max);
+  max-width: var(--max);
+  margin: 0 auto;
   padding-top: 28px;
-}
-@media (max-width: 900px) {
-  .page-brief .header-inner {
-    padding: 0 16px;
-    max-width: var(--max);
-  }
-  .page-brief .main {
-    max-width: var(--max);
-  }
+  overflow: visible;
 }
 @media (max-width: 720px) {
   .page-brief .header-inner {
@@ -889,23 +880,35 @@ a.brief-nav-arrow:hover {
   }
 }
 .brief-layout {
-  display: grid;
-  /* TOC left of logo/content; article column width matches header bar content */
-  grid-template-columns: var(--toc-w) minmax(0, 1fr);
-  gap: var(--layout-gap);
-  align-items: start;
+  /* Article only in document flow — matches home centering.
+     TOC is taken out of flow and parked left of the column. */
+  display: block;
+  position: relative;
 }
-@media (max-width: 900px) {
-  .brief-layout { grid-template-columns: 1fr; }
-  .toc-panel { position: static !important; display: none; }
+.brief-layout > .brief-article {
+  min-width: 0;
+  width: 100%;
 }
 .toc-panel {
-  position: sticky; top: calc(var(--sticky-top) + 14px);
+  /* Parked left of the centered --max column; does not shift center alignment */
+  position: fixed;
+  top: calc(var(--sticky-top) + 14px);
+  left: max(12px, calc(50% - (var(--max) / 2) - var(--toc-w) - var(--layout-gap)));
+  width: var(--toc-w);
+  max-height: calc(100vh - var(--sticky-top) - 28px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  z-index: 40;
   background: var(--bg-elevated);
   border-radius: var(--radius-m);
   padding: 16px 14px;
   box-shadow: var(--shadow);
   border: 1px solid var(--line);
+  scrollbar-width: thin;
+}
+/* Need room for TOC + gap + centered column; otherwise hide desktop TOC */
+@media (max-width: 1400px) {
+  .toc-panel { display: none; }
 }
 .toc-panel > h2 {
   margin: 0 0 10px; padding: 0 6px;
