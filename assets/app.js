@@ -56,13 +56,12 @@
     }
   }
 
-  /* ---------- sticky offset (header + brief date bar) ---------- */
+  /* ---------- sticky offset (floating header on brief pages) ---------- */
   function stickyTopPx() {
     const cs = getComputedStyle(document.documentElement);
-    const header = parseFloat(cs.getPropertyValue("--header")) || 56;
-    if (!document.body.classList.contains("page-brief")) return header;
-    const briefNav = parseFloat(cs.getPropertyValue("--brief-nav")) || 52;
-    return header + briefNav;
+    const sticky = parseFloat(cs.getPropertyValue("--sticky-top"));
+    if (!Number.isNaN(sticky) && sticky > 0) return sticky;
+    return parseFloat(cs.getPropertyValue("--header")) || 56;
   }
 
   /* ---------- brief date picker (jump to any edition) ---------- */
@@ -137,7 +136,6 @@
     }
 
     // Sticky mini TOC (chips) — uses custom icons from sidebar TOC
-    // Place after brief-nav so date bar stays on top of the sticky stack
     if (!$(".toc-mini")) {
       const mini = document.createElement("nav");
       mini.className = "toc-mini";
@@ -159,14 +157,7 @@
       });
       mini.appendChild(inner);
       const main = $("main.main");
-      const briefNav = $(".brief-nav");
-      if (main) {
-        if (briefNav && briefNav.parentNode === main) {
-          briefNav.insertAdjacentElement("afterend", mini);
-        } else {
-          main.insertBefore(mini, main.firstChild);
-        }
-      }
+      if (main) main.insertBefore(mini, main.firstChild);
     }
 
     // Smooth offset scroll for TOC / mini clicks
