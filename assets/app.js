@@ -122,10 +122,17 @@
       if (id) byId.set(id, a);
     });
 
-    // Click-nav lock: keep the chosen TOC item highlighted while smooth-scroll
-    // settles (short/empty sections used to lose the race to IntersectionObserver).
+    // Must match scrollTo offset exactly. Previous bug: spy used +12 while
+    // scroll used +16, so the clicked section sat just below the line and the
+    // item ABOVE stayed highlighted.
+    function tocOffset() {
+      return stickyTopPx() + 20;
+    }
+
+    // Click-nav lock: keep the chosen TOC item highlighted while smooth-scroll settles.
     let lockedId = null;
     let lockTimer = 0;
+    let unlockOnScrollEnd = null;
 
     function setActive(id) {
       if (!id) return;
@@ -145,12 +152,16 @@
       return el.getBoundingClientRect().top + window.pageYOffset;
     }
 
-    /** Active = last section whose top is at/above the sticky header line. */
+    /**
+     * Active = last section whose top has crossed under the sticky header.
+     * Slop keeps a section active when it is pinned just under the bar.
+     */
     function activeFromScroll() {
-      const line = window.pageYOffset + stickyTopPx() + 12;
+      const line = window.pageYOffset + tocOffset();
+      const slop = 8;
       let current = sections[0].id;
       for (const sec of sections) {
-        if (sectionDocTop(sec) <= line + 1) current = sec.id;
+        if (sectionDocTop(sec) <= line + slop) current = sec.id;
         else break;
       }
       return current;
@@ -164,14 +175,34 @@
       setActive(activeFromScroll());
     }
 
+    function clearLock() {
+      lockedId = null;
+      window.clearTimeout(lockTimer);
+      lockTimer = 0;
+      if (unlockOnScrollEnd) {
+        window.removeEventListener("scrollend", unlockOnScrollEnd);
+        unlockOnScrollEnd = null;
+      }
+    }
+
     function lockActive(id, ms) {
+      clearLock();
       lockedId = id;
       setActive(id);
-      window.clearTimeout(lockTimer);
+      // Prefer scrollend (when available); fallback timer for Safari etc.
+      unlockOnScrollEnd = () => {
+        clearLock();
+        setActive(activeFromScroll());
+      };
+      if ("onscrollend" in window) {
+        window.addEventListener("scrollend", unlockOnScrollEnd, { once: true });
+      }
       lockTimer = window.setTimeout(() => {
-        lockedId = null;
-        updateActiveFromScroll();
-      }, ms || 900);
+        if (lockedId === id) {
+          clearLock();
+          setActive(activeFromScroll());
+        }
+      }, ms || 1200);
     }
 
     // Sticky mini TOC (chips) — uses custom icons from sidebar TOC
@@ -199,12 +230,14 @@
       if (main) main.insertBefore(mini, main.firstChild);
     }
 
-    // Scroll so section top sits just under the sticky header (not viewport center)
+    // Scroll so section top sits just under the sticky header (same offset as spy)
     function scrollToId(id) {
       const el = document.getElementById(id);
       if (!el) return;
-      lockActive(id, 1000);
-      const top = Math.max(0, sectionDocTop(el) - stickyTopPx() - 16);
+      // Activate immediately so UI never shows the neighbor first
+      setActive(id);
+      lockActive(id, 1400);
+      const top = Math.max(0, Math.round(sectionDocTop(el) - tocOffset()));
       window.scrollTo({ top, behavior: "smooth" });
       history.replaceState(null, "", "#" + encodeURIComponent(id));
     }
@@ -218,7 +251,7 @@
       scrollToId(id);
     });
 
-    // Top-aligned scroll spy (no center-band IntersectionObserver)
+    // Top-aligned scroll spy (offset must match scrollToId)
     window.addEventListener("scroll", updateActiveFromScroll, { passive: true });
     window.addEventListener("resize", updateActiveFromScroll, { passive: true });
     updateActiveFromScroll();
@@ -234,14 +267,15 @@
       const el = document.getElementById(id);
       if (!el) return;
       el.classList.add("is-target-flash");
-      if (el.classList.contains("news-section")) {
-        lockActive(id, 1200);
-      } else {
+      let sectionId = id;
+      if (!el.classList.contains("news-section")) {
         const sec = el.closest(".news-section");
-        if (sec && sec.id) lockActive(sec.id, 1200);
+        if (sec && sec.id) sectionId = sec.id;
       }
-      // Align hash target under sticky header
-      const top = Math.max(0, sectionDocTop(el) - stickyTopPx() - 16);
+      if (byId.has(sectionId) || el.classList.contains("news-section")) {
+        lockActive(sectionId, 1400);
+      }
+      const top = Math.max(0, Math.round(sectionDocTop(el) - tocOffset()));
       window.scrollTo({ top, behavior: "auto" });
       window.setTimeout(() => el.classList.remove("is-target-flash"), 2200);
     }
