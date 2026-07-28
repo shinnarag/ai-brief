@@ -122,7 +122,13 @@
       if (id) byId.set(id, a);
     });
 
+    // Click-nav lock: keep the chosen TOC item highlighted while smooth-scroll
+    // settles (short/empty sections used to lose the race to IntersectionObserver).
+    let lockedId = null;
+    let lockTimer = 0;
+
     function setActive(id) {
+      if (!id) return;
       links.forEach((a) => {
         const on = a === byId.get(id);
         a.classList.toggle("is-active", on);
@@ -133,6 +139,39 @@
         const href = decodeURIComponent((a.getAttribute("href") || "").slice(1));
         a.classList.toggle("is-active", href === id);
       });
+    }
+
+    function sectionDocTop(el) {
+      return el.getBoundingClientRect().top + window.pageYOffset;
+    }
+
+    /** Active = last section whose top is at/above the sticky header line. */
+    function activeFromScroll() {
+      const line = window.pageYOffset + stickyTopPx() + 12;
+      let current = sections[0].id;
+      for (const sec of sections) {
+        if (sectionDocTop(sec) <= line + 1) current = sec.id;
+        else break;
+      }
+      return current;
+    }
+
+    function updateActiveFromScroll() {
+      if (lockedId) {
+        setActive(lockedId);
+        return;
+      }
+      setActive(activeFromScroll());
+    }
+
+    function lockActive(id, ms) {
+      lockedId = id;
+      setActive(id);
+      window.clearTimeout(lockTimer);
+      lockTimer = window.setTimeout(() => {
+        lockedId = null;
+        updateActiveFromScroll();
+      }, ms || 900);
     }
 
     // Sticky mini TOC (chips) — uses custom icons from sidebar TOC
@@ -160,12 +199,13 @@
       if (main) main.insertBefore(mini, main.firstChild);
     }
 
-    // Smooth offset scroll for TOC / mini clicks
+    // Scroll so section top sits just under the sticky header (not viewport center)
     function scrollToId(id) {
       const el = document.getElementById(id);
       if (!el) return;
-      el.scrollIntoView({ behavior: "smooth", block: "start" });
-      setActive(id);
+      lockActive(id, 1000);
+      const top = Math.max(0, sectionDocTop(el) - stickyTopPx() - 16);
+      window.scrollTo({ top, behavior: "smooth" });
       history.replaceState(null, "", "#" + encodeURIComponent(id));
     }
 
@@ -178,52 +218,10 @@
       scrollToId(id);
     });
 
-    if ("IntersectionObserver" in window) {
-      const ratios = new Map();
-      const obs = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((en) => {
-            ratios.set(en.target.id, en.isIntersecting ? en.intersectionRatio : 0);
-          });
-          let bestId = "";
-          let best = 0;
-          ratios.forEach((r, id) => {
-            if (r > best) {
-              best = r;
-              bestId = id;
-            }
-          });
-          // Prefer the topmost section near the sticky chrome when several intersect
-          if (best < 0.08) {
-            const y = window.scrollY + stickyTopPx() + 28;
-            let current = sections[0].id;
-            for (const sec of sections) {
-              if (sec.offsetTop <= y) current = sec.id;
-            }
-            setActive(current);
-          } else if (bestId) {
-            setActive(bestId);
-          }
-        },
-        {
-          root: null,
-          rootMargin: "-20% 0px -55% 0px",
-          threshold: [0, 0.1, 0.25, 0.5, 0.75, 1],
-        }
-      );
-      sections.forEach((s) => obs.observe(s));
-    } else {
-      const onScroll = () => {
-        const y = window.scrollY + stickyTopPx() + 28;
-        let current = sections[0].id;
-        for (const sec of sections) {
-          if (sec.offsetTop <= y) current = sec.id;
-        }
-        setActive(current);
-      };
-      window.addEventListener("scroll", onScroll, { passive: true });
-      onScroll();
-    }
+    // Top-aligned scroll spy (no center-band IntersectionObserver)
+    window.addEventListener("scroll", updateActiveFromScroll, { passive: true });
+    window.addEventListener("resize", updateActiveFromScroll, { passive: true });
+    updateActiveFromScroll();
 
     // Deep-link highlight for card / section
     function flashTarget() {
@@ -236,11 +234,15 @@
       const el = document.getElementById(id);
       if (!el) return;
       el.classList.add("is-target-flash");
-      if (el.classList.contains("news-section")) setActive(id);
-      else {
+      if (el.classList.contains("news-section")) {
+        lockActive(id, 1200);
+      } else {
         const sec = el.closest(".news-section");
-        if (sec && sec.id) setActive(sec.id);
+        if (sec && sec.id) lockActive(sec.id, 1200);
       }
+      // Align hash target under sticky header
+      const top = Math.max(0, sectionDocTop(el) - stickyTopPx() - 16);
+      window.scrollTo({ top, behavior: "auto" });
       window.setTimeout(() => el.classList.remove("is-target-flash"), 2200);
     }
     window.addEventListener("hashchange", flashTarget);
