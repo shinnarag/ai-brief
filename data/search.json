@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T14:20:31",
-  "count": 155,
+  "generated_at": "2026-07-28T19:00:18",
+  "count": 156,
   "items": [
     {
       "date": "2026-07-28",
@@ -178,9 +178,9 @@
       "section": "콘텐츠 제작 · 크리에이티브",
       "sectionId": "콘텐츠-제작-크리에이티브",
       "cardId": "c-콘텐츠-제작-크리에이티브-01",
-      "title": "Kling MCP 튜토리얼 — 뷰티 클리닉 광고 풀 파이프라인",
-      "snippet": "7/27 @Kling_ai: Kling MCP로 컨셉·비주얼·최종 컷까지 프로 뷰티 클리닉 프로모 제작 튜토리얼 공식 게시. 단순 쇼트 데모가 아니라 마케팅 워크플로 교육 콘텐츠로 포지션.",
-      "text": "Kling MCP 튜토리얼 — 뷰티 클리닉 광고 풀 파이프라인 7/27 @Kling_ai: Kling MCP로 컨셉·비주얼·최종 컷까지 프로 뷰티 클리닉 프로모 제작 튜토리얼 공식 게시. 단순 쇼트 데모가 아니라 마케팅 워크플로 교육 콘텐츠로 포지션. 광고·숏폼 팀은 MCP 연동으로 브리프→샷리스트→렌더 루프를 에이전트화하는 PoC 레퍼런스.",
+      "title": "Midjourney V8.2 — aesthetics·품질·personalization 중심 이미지 모델 공식 론칭",
+      "snippet": "공식 업데이트(2026-07-24, updates.midjourney.com): V8.2 image model을 론칭했다고 발표. 초점은 aesthetics·image quality·personalization. 주말(7/25–26) 창에 공지됐으나 7/27 수집이 “메이저 런칭…",
+      "text": "Midjourney V8.2 — aesthetics·품질·personalization 중심 이미지 모델 공식 론칭 공식 업데이트(2026-07-24, updates.midjourney.com): V8.2 image model을 론칭했다고 발표. 초점은 aesthetics·image quality·personalization. 주말(7/25–26) 창에 공지됐으나 7/27 수집이 “메이저 런칭 미확인”으로 잘못 표기 → 7/28 백필. 방향성: 이미지가 더 creative / bold / sophisticated / edgy / fresh 하게 나오도록, 저품질이 랜덤하게 나오던 상황을 대폭 줄이는 쪽. 개인화 프로필의 taste understanding 개선을 명시. 채널: Midjourney 공식 Updates/Announcement. 메인스트림 테크 언론 헤드라인보다 공식 블로그만으로 먼저 뜨는 유형 — 필수 스윕에서 updates.midjourney.com을 직접 열지 않으면 누락하기 쉽다. 크리에이티브·브랜드 팀은 기본 모델 전환 여부·--preview 잔존 여부·개인화 프로필 재캘리브레이션을 워크플로 체크리스트에 올릴 후보.",
       "domains": [
         "agents",
         "creative",
@@ -199,6 +199,27 @@
       "section": "콘텐츠 제작 · 크리에이티브",
       "sectionId": "콘텐츠-제작-크리에이티브",
       "cardId": "c-콘텐츠-제작-크리에이티브-02",
+      "title": "Kling MCP 튜토리얼 — 뷰티 클리닉 광고 풀 파이프라인",
+      "snippet": "7/27 @Kling_ai: Kling MCP로 컨셉·비주얼·최종 컷까지 프로 뷰티 클리닉 프로모 제작 튜토리얼 공식 게시. 단순 쇼트 데모가 아니라 마케팅 워크플로 교육 콘텐츠로 포지션.",
+      "text": "Kling MCP 튜토리얼 — 뷰티 클리닉 광고 풀 파이프라인 7/27 @Kling_ai: Kling MCP로 컨셉·비주얼·최종 컷까지 프로 뷰티 클리닉 프로모 제작 튜토리얼 공식 게시. 단순 쇼트 데모가 아니라 마케팅 워크플로 교육 콘텐츠로 포지션. 광고·숏폼 팀은 MCP 연동으로 브리프→샷리스트→렌더 루프를 에이전트화하는 PoC 레퍼런스.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-28.html#c-콘텐츠-제작-크리에이티브-02"
+    },
+    {
+      "date": "2026-07-28",
+      "displayDate": "2026년 7월 28일(화)",
+      "briefTitle": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
+      "briefUrl": "brief/2026-07-28.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-03",
       "title": "Kling, ‘bounce house’ 시네마틱 쇼트 — 기억·선택 내러티브 데모",
       "snippet": "7/27 공식: 어린 시절 소망을 기억하는 바운스 하우스 트랩 설정 세로 영상. 제품 스펙 공지보다 스토리텔링·품질 레퍼런스 시그널(전일 1080p 쇼트와 별개 클립).",
       "text": "Kling, ‘bounce house’ 시네마틱 쇼트 — 기억·선택 내러티브 데모 7/27 공식: 어린 시절 소망을 기억하는 바운스 하우스 트랩 설정 세로 영상. 제품 스펙 공지보다 스토리텔링·품질 레퍼런스 시그널(전일 1080p 쇼트와 별개 클립).",
@@ -210,7 +231,7 @@
         "models",
         "policy"
       ],
-      "href": "brief/2026-07-28.html#c-콘텐츠-제작-크리에이티브-02"
+      "href": "brief/2026-07-28.html#c-콘텐츠-제작-크리에이티브-03"
     },
     {
       "date": "2026-07-28",
