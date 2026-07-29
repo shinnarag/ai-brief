@@ -1009,6 +1009,95 @@ a.brief-nav-arrow:hover {
 }
 .content-card--intro { box-shadow: var(--shadow), inset 3px 0 0 #8e8e93; }
 .content-card--top { box-shadow: var(--shadow), inset 3px 0 0 #ff9f0a; }
+
+/* Top 5 index — teaser list guiding into category cards */
+.top-index-lead {
+  margin: 0 0 14px;
+  font-size: 13px;
+  color: var(--text-3);
+  line-height: 1.4;
+}
+.top-index {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+.top-index-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 14px 16px;
+  background: var(--bg);
+  border-radius: var(--radius-m);
+  border: 1px solid var(--line);
+}
+.top-index-num {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: rgba(255, 159, 10, 0.16);
+  color: #c93400;
+  font-size: 12px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+  letter-spacing: -0.02em;
+}
+.top-index-body { flex: 1; min-width: 0; }
+.top-index-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.top-index-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: -0.015em;
+  line-height: 1.35;
+}
+.top-index-title:hover {
+  color: var(--blue);
+  text-decoration: none;
+}
+.top-index-cat {
+  flex: 0 0 auto;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--blue);
+  background: var(--blue-soft);
+  padding: 4px 10px;
+  border-radius: 980px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.top-index-cat:hover {
+  background: rgba(0, 102, 204, 0.14);
+  text-decoration: none;
+}
+.top-index-blurb {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: var(--text-2);
+  line-height: 1.4;
+}
+.top-index-go {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-3);
+  text-decoration: none;
+}
+.top-index-go:hover {
+  color: var(--blue);
+  text-decoration: none;
+}
 .content-card--model { box-shadow: var(--shadow), inset 3px 0 0 #0071e3; }
 .content-card--creative { box-shadow: var(--shadow), inset 3px 0 0 #af52de; }
 .content-card--marketing { box-shadow: var(--shadow), inset 3px 0 0 #ff2d55; }

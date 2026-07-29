@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T10:13:12",
+  "generated_at": "2026-07-29T11:34:42",
   "platform": "AI Pulse",
   "count": 11,
   "domains": {
@@ -11,17 +11,17 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "models": 93,
-    "agents": 35,
-    "infra": 33,
+    "models": 94,
+    "agents": 36,
+    "infra": 35,
+    "policy": 33,
     "creative": 29,
-    "marketing": 30,
-    "policy": 32
+    "marketing": 30
   },
   "companies": [
     [
       "OpenAI",
-      165
+      168
     ],
     [
       "NVIDIA",
@@ -33,7 +33,7 @@
     ],
     [
       "Claude",
-      57
+      58
     ],
     [
       "Kling",
@@ -53,7 +53,7 @@
     ],
     [
       "Microsoft",
-      30
+      31
     ],
     [
       "Google",
@@ -152,13 +152,7 @@
       "edition_blurb": "Microsoft는 사이버 전용 모델로 Mythos를 제치고 Perception 에이전트 스택을 띄웠고, Anthropic Mythos는 HAWK·AES를 연구 수준으로 깎았다. 같은 주 OpenAI는 HF 침입 후속·Codex Security CLI를 공개하며 공방 레이스가 동시에 달렸다.",
       "url": "brief/2026-07-29.html",
       "excerpt": "축은 Microsoft MAI-Cyber-1-Flash + Project Perception, Anthropic Mythos 암호 약점 발견, OpenAI HF 침입 7/28 후속(Artifactory 제로데이), Codex Security CLI 오픈소스, 프론티어 속도 조절(pacing) 스탠스 이다.  ",
-      "top5": [
-        "Microsoft, MAI-Cyber-1-Flash + Project Perception — CyberGym 96%·비용 반값 에이전트 방어 스택",
-        "Anthropic, Claude Mythos로 HAWK·AES 암호 약점 발견 — 60시간·~$10만, CryptanalysisBench 공개",
-        "OpenAI HF 침입 — 7/28 업데이트: Artifactory 제로데이·예정 릴리즈 모델 무관",
-        "OpenAI, Codex Security CLI 오픈소스 — 레포 스캔·수정 검증·CI 보안 체크",
-        "OpenAI·Anthropic, 프론티어 ‘속도 조절(pacing)’ 스탠스 — 정부 주도 도구·메커니즘 지지"
-      ],
+      "top5": [],
       "domains": [
         "agents",
         "creative",
@@ -225,8 +219,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Meta",
-        "Luma"
+        "Luma",
+        "Meta"
       ],
       "has_rumor": false,
       "source": "md",
@@ -316,8 +310,8 @@
         "Luma",
         "Anthropic",
         "Copilot",
-        "Google",
-        "Amazon"
+        "Amazon",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -436,8 +430,8 @@
       ],
       "companies": [
         "Anthropic",
-        "OpenAI",
         "NVIDIA",
+        "OpenAI",
         "Google",
         "Adobe",
         "GitHub",
