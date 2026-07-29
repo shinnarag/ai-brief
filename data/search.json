@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-29T11:51:12",
-  "count": 214,
+  "generated_at": "2026-07-29T11:51:49",
+  "count": 209,
   "items": [
     {
       "date": "2026-07-29",
@@ -316,111 +316,6 @@
         "policy"
       ],
       "href": "brief/2026-07-29.html#c-sns-트렌드-루머-바이럴-02"
-    },
-    {
-      "date": "2026-07-29",
-      "displayDate": "2026년 7월 29일(수)",
-      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
-      "briefUrl": "brief/2026-07-29.html",
-      "section": "내부 참고 (삭제 예정)",
-      "sectionId": "내부-참고-삭제-예정",
-      "cardId": "c-내부-참고-삭제-예정-01",
-      "title": "채용 매니저 48% “신입보다 AI 투자”",
-      "snippet": ": Higher Ed Dive 7/28 — 미 채용 매니저 1,000명 설문, 55%가 신입 예산을 AI로 일부 이전. 전문은 페이월 구간 다수 · Higher Ed Dive",
-      "text": "채용 매니저 48% “신입보다 AI 투자” : Higher Ed Dive 7/28 — 미 채용 매니저 1,000명 설문, 55%가 신입 예산을 AI로 일부 이전. 전문은 페이월 구간 다수 · Higher Ed Dive",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-07-29.html#c-내부-참고-삭제-예정-01"
-    },
-    {
-      "date": "2026-07-29",
-      "displayDate": "2026년 7월 29일(수)",
-      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
-      "briefUrl": "brief/2026-07-29.html",
-      "section": "내부 참고 (삭제 예정)",
-      "sectionId": "내부-참고-삭제-예정",
-      "cardId": "c-내부-참고-삭제-예정-02",
-      "title": "Midjourney",
-      "snippet": ": V8.2 기본 모델(7/24) 이후 updates 허브 창 내 추가 Announcement 없음. Co-Star 인수는 7/23로 윈도우 밖.",
-      "text": "Midjourney : V8.2 기본 모델(7/24) 이후 updates 허브 창 내 추가 Announcement 없음. Co-Star 인수는 7/23로 윈도우 밖.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-07-29.html#c-내부-참고-삭제-예정-02"
-    },
-    {
-      "date": "2026-07-29",
-      "displayDate": "2026년 7월 29일(수)",
-      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
-      "briefUrl": "brief/2026-07-29.html",
-      "section": "내부 참고 (삭제 예정)",
-      "sectionId": "내부-참고-삭제-예정",
-      "cardId": "c-내부-참고-삭제-예정-03",
-      "title": "Higgsfield / Decart Lucy / ElevenLabs / Suno",
-      "snippet": ": 창 내 신규 메이저 제품·가격 공지 미확인(전일 트라이얼·상태 유지 메모와 별개 신규 없음).",
-      "text": "Higgsfield / Decart Lucy / ElevenLabs / Suno : 창 내 신규 메이저 제품·가격 공지 미확인(전일 트라이얼·상태 유지 메모와 별개 신규 없음).",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-07-29.html#c-내부-참고-삭제-예정-03"
-    },
-    {
-      "date": "2026-07-29",
-      "displayDate": "2026년 7월 29일(수)",
-      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
-      "briefUrl": "brief/2026-07-29.html",
-      "section": "내부 참고 (삭제 예정)",
-      "sectionId": "내부-참고-삭제-예정",
-      "cardId": "c-내부-참고-삭제-예정-04",
-      "title": "fal.ai changelog",
-      "snippet": ": 7월 초 serverless 재시도 등 이후 창 내 신규 featured 모델 미확인(봇 챌린지로 전문 재확인 제한).",
-      "text": "fal.ai changelog : 7월 초 serverless 재시도 등 이후 창 내 신규 featured 모델 미확인(봇 챌린지로 전문 재확인 제한).",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-07-29.html#c-내부-참고-삭제-예정-04"
-    },
-    {
-      "date": "2026-07-29",
-      "displayDate": "2026년 7월 29일(수)",
-      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
-      "briefUrl": "brief/2026-07-29.html",
-      "section": "내부 참고 (삭제 예정)",
-      "sectionId": "내부-참고-삭제-예정",
-      "cardId": "c-내부-참고-삭제-예정-05",
-      "title": "Microsoft MAI-Image-2.5-Pro / MAI-Voice-2-Flash",
-      "snippet": ": MAI-Cyber 관련 스토리 링크에 노출 — 별도 창 내 신규 런칭 보도로 확정하지 않음, 관찰 후보.",
-      "text": "Microsoft MAI-Image-2.5-Pro / MAI-Voice-2-Flash : MAI-Cyber 관련 스토리 링크에 노출 — 별도 창 내 신규 런칭 보도로 확정하지 않음, 관찰 후보.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-07-29.html#c-내부-참고-삭제-예정-05"
     },
     {
       "date": "2026-07-28",

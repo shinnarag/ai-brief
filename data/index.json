@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T11:51:12",
+  "generated_at": "2026-07-29T11:51:49",
   "platform": "AI Pulse",
   "count": 11,
   "domains": {
@@ -179,8 +179,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "Gemini",
-        "NVIDIA"
+        "NVIDIA",
+        "Gemini"
       ],
       "has_rumor": false,
       "source": "md",
@@ -270,8 +270,8 @@
         "Midjourney",
         "ElevenLabs",
         "Microsoft",
-        "Google",
-        "Zapier"
+        "Zapier",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -436,8 +436,8 @@
       ],
       "companies": [
         "Anthropic",
-        "OpenAI",
         "NVIDIA",
+        "OpenAI",
         "Google",
         "Adobe",
         "GitHub",
@@ -448,8 +448,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Samsung"
       ],
       "has_rumor": false,
@@ -527,8 +527,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,
