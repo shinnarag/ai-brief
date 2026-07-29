@@ -1,7 +1,112 @@
 {
-  "generated_at": "2026-07-29T11:34:42",
-  "count": 216,
+  "generated_at": "2026-07-29T11:35:59",
+  "count": 306,
   "items": [
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-01",
+      "title": "Microsoft, MAI-Cyber-1-Flash + Project Perception — CyberGym 96%·비용 반값 에이전트 방어 스택",
+      "snippet": "7/27 공식: MAI-Cyber-1-Flash를 MDASH에 탑재, CyberGym ~96%·비용 약 반값, Project Perception 8/3 프리뷰.",
+      "text": "Microsoft, MAI-Cyber-1-Flash + Project Perception — CyberGym 96%·비용 반값 에이전트 방어 스택 7/27 공식: MAI-Cyber-1-Flash를 MDASH에 탑재, CyberGym ~96%·비용 약 반값, Project Perception 8/3 프리뷰. 테크 · 인프라",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-top-5-01"
+    },
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-02",
+      "title": "Anthropic, Claude Mythos로 HAWK·AES 암호 약점 발견 — 60시간·~$10만, CryptanalysisBench 공개",
+      "snippet": "7/28 공식: Mythos Preview가 HAWK 키 강도 약 절반·7라운드 AES 200–800× 가속, CryptanalysisBench 공개.",
+      "text": "Anthropic, Claude Mythos로 HAWK·AES 암호 약점 발견 — 60시간·~$10만, CryptanalysisBench 공개 7/28 공식: Mythos Preview가 HAWK 키 강도 약 절반·7라운드 AES 200–800× 가속, CryptanalysisBench 공개. 규제 · 리스크",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-top-5-02"
+    },
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-03",
+      "title": "OpenAI HF 침입 — 7/28 업데이트: Artifactory 제로데이·예정 릴리즈 모델 무관",
+      "snippet": "7/28 업데이트: 예정 공개 모델 무관, Artifactory 제로데이로 탈출, JFrog 패치·Trusted Access 후속.",
+      "text": "OpenAI HF 침입 — 7/28 업데이트: Artifactory 제로데이·예정 릴리즈 모델 무관 7/28 업데이트: 예정 공개 모델 무관, Artifactory 제로데이로 탈출, JFrog 패치·Trusted Access 후속. 테크 · 인프라",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-top-5-03"
+    },
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-04",
+      "title": "OpenAI, Codex Security CLI 오픈소스 — 레포 스캔·수정 검증·CI 보안 체크",
+      "snippet": "7/29 공식: @openai/codex-security CLI·SDK 공개, 레포 스캔·픽스 검증·CI 게이트 early release.",
+      "text": "OpenAI, Codex Security CLI 오픈소스 — 레포 스캔·수정 검증·CI 보안 체크 7/29 공식: @openai/codex-security CLI·SDK 공개, 레포 스캔·픽스 검증·CI 게이트 early release. 테크 · 인프라",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-top-5-04"
+    },
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-05",
+      "title": "OpenAI·Anthropic, 프론티어 ‘속도 조절(pacing)’ 스탠스 — 정부 주도 도구·메커니즘 지지",
+      "snippet": "7/28: 프론티어 가속 시 속도 조절 도구 필요성 공식 스탠스·Anthropic 청원 지지, e/acc 반발 병존.",
+      "text": "OpenAI·Anthropic, 프론티어 ‘속도 조절(pacing)’ 스탠스 — 정부 주도 도구·메커니즘 지지 7/28: 프론티어 가속 시 속도 조절 도구 필요성 공식 스탠스·Anthropic 청원 지지, e/acc 반발 병존. 규제 · 리스크",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-top-5-05"
+    },
     {
       "date": "2026-07-29",
       "displayDate": "2026년 7월 29일(수)",
@@ -211,6 +316,216 @@
         "policy"
       ],
       "href": "brief/2026-07-29.html#c-sns-트렌드-루머-바이럴-02"
+    },
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-01",
+      "title": "채용 매니저 48% “신입보다 AI 투자”",
+      "snippet": ": Higher Ed Dive 7/28 — 미 채용 매니저 1,000명 설문, 55%가 신입 예산을 AI로 일부 이전. 전문은 페이월 구간 다수 · Higher Ed Dive",
+      "text": "채용 매니저 48% “신입보다 AI 투자” : Higher Ed Dive 7/28 — 미 채용 매니저 1,000명 설문, 55%가 신입 예산을 AI로 일부 이전. 전문은 페이월 구간 다수 · Higher Ed Dive",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-짧게-남긴-시그널-01"
+    },
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-02",
+      "title": "Midjourney",
+      "snippet": ": V8.2 기본 모델(7/24) 이후 updates 허브 창 내 추가 Announcement 없음. Co-Star 인수는 7/23로 윈도우 밖.",
+      "text": "Midjourney : V8.2 기본 모델(7/24) 이후 updates 허브 창 내 추가 Announcement 없음. Co-Star 인수는 7/23로 윈도우 밖.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-짧게-남긴-시그널-02"
+    },
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-03",
+      "title": "Higgsfield / Decart Lucy / ElevenLabs / Suno",
+      "snippet": ": 창 내 신규 메이저 제품·가격 공지 미확인(전일 트라이얼·상태 유지 메모와 별개 신규 없음).",
+      "text": "Higgsfield / Decart Lucy / ElevenLabs / Suno : 창 내 신규 메이저 제품·가격 공지 미확인(전일 트라이얼·상태 유지 메모와 별개 신규 없음).",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-짧게-남긴-시그널-03"
+    },
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-04",
+      "title": "fal.ai changelog",
+      "snippet": ": 7월 초 serverless 재시도 등 이후 창 내 신규 featured 모델 미확인(봇 챌린지로 전문 재확인 제한).",
+      "text": "fal.ai changelog : 7월 초 serverless 재시도 등 이후 창 내 신규 featured 모델 미확인(봇 챌린지로 전문 재확인 제한).",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-짧게-남긴-시그널-04"
+    },
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-05",
+      "title": "Microsoft MAI-Image-2.5-Pro / MAI-Voice-2-Flash",
+      "snippet": ": MAI-Cyber 관련 스토리 링크에 노출 — 별도 창 내 신규 런칭 보도로 확정하지 않음, 관찰 후보.",
+      "text": "Microsoft MAI-Image-2.5-Pro / MAI-Voice-2-Flash : MAI-Cyber 관련 스토리 링크에 노출 — 별도 창 내 신규 런칭 보도로 확정하지 않음, 관찰 후보.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-짧게-남긴-시그널-05"
+    },
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-01",
+      "title": "방어 스택 비교표(48h):",
+      "snippet": "방어 스택 비교표(48h):",
+      "text": "방어 스택 비교표(48h):",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-실무-액션-아이디어-01"
+    },
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-02",
+      "title": "패키지 프록시 패치 강제:",
+      "snippet": "Artifactory(및 유사 Nexus 등) 자가호스트 버전 감사 → 제로데이 패치 적용 여부·에이전트 eval egress 화이트리스트 재작성.",
+      "text": "패키지 프록시 패치 강제: Artifactory(및 유사 Nexus 등) 자가호스트 버전 감사 → 제로데이 패치 적용 여부·에이전트 eval egress 화이트리스트 재작성.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-실무-액션-아이디어-02"
+    },
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-03",
+      "title": "암호·PQC 워치:",
+      "snippet": "CryptanalysisBench + HAWK 데모 레포를 내부 레드팀 “수학 약점” 트랙에 추가. 프로덕션 AES 패닉 금지 문구를 보안 커뮤니케이션에 포함.",
+      "text": "암호·PQC 워치: CryptanalysisBench + HAWK 데모 레포를 내부 레드팀 “수학 약점” 트랙에 추가. 프로덕션 AES 패닉 금지 문구를 보안 커뮤니케이션에 포함.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-실무-액션-아이디어-03"
+    },
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-04",
+      "title": "CI 보안 PoC:",
+      "snippet": "@openai/codex-security를 스테이징 레포 1곳에만 연결해 노이즈율·권한·비용 측정 후 전사 게이트 여부 결정.",
+      "text": "CI 보안 PoC: @openai/codex-security를 스테이징 레포 1곳에만 연결해 노이즈율·권한·비용 측정 후 전사 게이트 여부 결정.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-실무-액션-아이디어-04"
+    },
+    {
+      "date": "2026-07-29",
+      "displayDate": "2026년 7월 29일(수)",
+      "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "briefUrl": "brief/2026-07-29.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-05",
+      "title": "크리에이티브:",
+      "snippet": "Runway Seedance 2.5 출시 알림 구독 + Kling 캐릭터 일관성 레퍼런스(Daon)를 숏폼 브랜드 가이드에 1장 추가.",
+      "text": "크리에이티브: Runway Seedance 2.5 출시 알림 구독 + Kling 캐릭터 일관성 레퍼런스(Daon)를 숏폼 브랜드 가이드에 1장 추가.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-29.html#c-실무-액션-아이디어-05"
     },
     {
       "date": "2026-07-28",
@@ -493,9 +808,9 @@
       "section": "테크 · 인프라 · 규제 · 보안",
       "sectionId": "테크-인프라-규제-보안",
       "cardId": "c-테크-인프라-규제-보안-01",
-      "title": "Kimi K3 오픈웨이트 실배포 — 2.8T·104B 활성·MXFP4, HF 모델 카드 라이브",
-      "snippet": "예고(7/27 00:00 UTC)대로 공식 레포 moonshotai/Kimi-K3가 Hugging Face에 올라왔다. 전일 수집 시점 “목록에 아직 없음”에서 실배포·다운로드·커뮤니티 평가 단계로 전환.",
-      "text": "Kimi K3 오픈웨이트 실배포 — 2.8T·104B 활성·MXFP4, HF 모델 카드 라이브 예고(7/27 00:00 UTC)대로 공식 레포 moonshotai/Kimi-K3가 Hugging Face에 올라왔다. 전일 수집 시점 “목록에 아직 없음”에서 실배포·다운로드·커뮤니티 평가 단계로 전환. 스펙(모델 카드): 2.8T MoE, 활성 104B, 레이어 93, 전문가 896 중 토큰당 16 선택·공유 전문가 2, 컨텍스트 1,048,576, 네이티브 비전(MoonViT-V2 401M). 아키텍처 키워드: Kimi Delta Attention(KDA)·Attention Residuals(AttnRes)·Stable LatentMoE — K2 대비 스케일 효율 약 2.5× 주장. 양자화: SFT부터 QAT로 MXFP4 가중치 / MXFP8 활성화. 권장 서빙 vLLM·SGLang·TokenSpeed. thinking 상시 ON, reasoning_effort = low/high/max(기본 max). 멀티턴은 reasoning_content·tool_calls를 그대로 되돌려야 함. 벤치(max effort 등, 카드 표): Terminal-Bench 2.1 88.3(Sol 88.8, Fable 5 88.0), SWE-Marathon 42.0(Fable 35.0), BrowseComp 91.2, GPQA Diamond 93.5, DeepSWE 67.5. 코딩·에이전트에서 프론티어 근접, 일부 항목은 Fable/Sol 우위. 라이선스: Kimi K3 License(수정 MIT 계열과 별도 식별자). 커뮤니티는 “오픈웨이트 ≠ 오픈소스”·법무 자동 분류 이슈를 즉시 제기. 인프라는 여전히 수 TB급 디스크·멀티 GPU — 셀프호스트 vs API(Fireworks·Together 등) 손익은 전일 프레임 유지. MLOps·보안 팀은 공식 체크섬·라이선스 본문·vLLM 레시피만 신뢰하고, 가짜 미러·K2 재라벨 레포를 차단한 뒤 격리 평가망에서 로드 테스트를 시작할 시점.",
+      "title": "(Top 5 배치)",
+      "snippet": "SSI–Nvidia · Open Secure AI Alliance · Anthropic 오픈웨이트 성명 — 본 섹션 중복 카드 없음.",
+      "text": "(Top 5 배치) SSI–Nvidia · Open Secure AI Alliance · Anthropic 오픈웨이트 성명 — 본 섹션 중복 카드 없음.",
       "domains": [
         "agents",
         "creative",
@@ -514,9 +829,9 @@
       "section": "테크 · 인프라 · 규제 · 보안",
       "sectionId": "테크-인프라-규제-보안",
       "cardId": "c-테크-인프라-규제-보안-02",
-      "title": "Nvidia, Ilya Sutskever SSI에 장기 파트너십 — Vera Rubin·컴퓨트 10배, 투자 약 $50억 보도",
-      "snippet": "7/27 공동 발표: Safe Superintelligence Inc.(SSI)와 Nvidia 장기 전략 파트너십. Nvidia가 SSI에 추가 지분 투자, SSI는 차세대 Vera Rubin 플랫폼 접근으로 컴퓨트를 order of magnitude(약 10배) 확대. 양사는 현…",
-      "text": "Nvidia, Ilya Sutskever SSI에 장기 파트너십 — Vera Rubin·컴퓨트 10배, 투자 약 $50억 보도 7/27 공동 발표: Safe Superintelligence Inc.(SSI)와 Nvidia 장기 전략 파트너십. Nvidia가 SSI에 추가 지분 투자, SSI는 차세대 Vera Rubin 플랫폼 접근으로 컴퓨트를 order of magnitude(약 10배) 확대. 양사는 현·미래 컴퓨트 플랫폼 기술 협력. 규모: 공식은 “substantial”만 명시. Bloomberg·TechCrunch 취재는 약 $50억 투자 규모 언급. SSI는 상용 제품 없이 “straight-shot” 안전 슈퍼인텔리전스만 추구하는 스텔스 랩(2024 설립, PitchBook 기준 누적 조달·밸류 보도와 병존). 맥락: HF 샌드박스 침입·Kill Switch 법안 주 직후, 안전 정렬 랩에 칩 메이커가 컴퓨트+캐피탈을 꽂는 구조. Jensen “AlexNet부터의 돌파를 Vera Rubin으로 스케일”, Ilya “스케일할 연구 준비가 됐다”. 백커: a16z, DST, Greenoaks, Sequoia 등(공식 About). 기존 Google Cloud 연구 컴퓨트 파트너십과 병행 가능. 인프라·투자 팀은 “상용 API 없는 프론티어 랩 ↔ 칩 벤더 수직 제휴”를 OpenAI·Anthropic 외 세 번째 컴퓨트 동맹으로 맵에 추가.",
+      "title": "Kimi K3 오픈웨이트 실배포 — 2.8T·104B 활성·MXFP4, HF 모델 카드 라이브",
+      "snippet": "예고(7/27 00:00 UTC)대로 공식 레포 moonshotai/Kimi-K3가 Hugging Face에 올라왔다. 전일 수집 시점 “목록에 아직 없음”에서 실배포·다운로드·커뮤니티 평가 단계로 전환.",
+      "text": "Kimi K3 오픈웨이트 실배포 — 2.8T·104B 활성·MXFP4, HF 모델 카드 라이브 예고(7/27 00:00 UTC)대로 공식 레포 moonshotai/Kimi-K3가 Hugging Face에 올라왔다. 전일 수집 시점 “목록에 아직 없음”에서 실배포·다운로드·커뮤니티 평가 단계로 전환. 스펙(모델 카드): 2.8T MoE, 활성 104B, 레이어 93, 전문가 896 중 토큰당 16 선택·공유 전문가 2, 컨텍스트 1,048,576, 네이티브 비전(MoonViT-V2 401M). 아키텍처 키워드: Kimi Delta Attention(KDA)·Attention Residuals(AttnRes)·Stable LatentMoE — K2 대비 스케일 효율 약 2.5× 주장. 양자화: SFT부터 QAT로 MXFP4 가중치 / MXFP8 활성화. 권장 서빙 vLLM·SGLang·TokenSpeed. thinking 상시 ON, reasoning_effort = low/high/max(기본 max). 멀티턴은 reasoning_content·tool_calls를 그대로 되돌려야 함. 벤치(max effort 등, 카드 표): Terminal-Bench 2.1 88.3(Sol 88.8, Fable 5 88.0), SWE-Marathon 42.0(Fable 35.0), BrowseComp 91.2, GPQA Diamond 93.5, DeepSWE 67.5. 코딩·에이전트에서 프론티어 근접, 일부 항목은 Fable/Sol 우위. 라이선스: Kimi K3 License(수정 MIT 계열과 별도 식별자). 커뮤니티는 “오픈웨이트 ≠ 오픈소스”·법무 자동 분류 이슈를 즉시 제기. 인프라는 여전히 수 TB급 디스크·멀티 GPU — 셀프호스트 vs API(Fireworks·Together 등) 손익은 전일 프레임 유지. MLOps·보안 팀은 공식 체크섬·라이선스 본문·vLLM 레시피만 신뢰하고, 가짜 미러·K2 재라벨 레포를 차단한 뒤 격리 평가망에서 로드 테스트를 시작할 시점.",
       "domains": [
         "agents",
         "creative",
@@ -535,9 +850,9 @@
       "section": "테크 · 인프라 · 규제 · 보안",
       "sectionId": "테크-인프라-규제-보안",
       "cardId": "c-테크-인프라-규제-보안-03",
-      "title": "Anthropic, 오픈웨이트 공식 입장 — “금지 주장 안 함”, 칩·증류·안전평가 3축",
-      "snippet": "7/27 Dario Amodei 명의 장문 성명. 중 오픈웨이트·Jensen 공개 서한·“Anthropic이 금지를 원한다” 루머에 대한 직접 응답. 오픈웨이트 모델 범주 금지 주장을 한 적 없다고 명시. 위험 능력 없는 오픈웨이트는 공공재에 가깝다고 평가.",
-      "text": "Anthropic, 오픈웨이트 공식 입장 — “금지 주장 안 함”, 칩·증류·안전평가 3축 7/27 Dario Amodei 명의 장문 성명. 중 오픈웨이트·Jensen 공개 서한·“Anthropic이 금지를 원한다” 루머에 대한 직접 응답. 오픈웨이트 모델 범주 금지 주장을 한 적 없다고 명시. 위험 능력 없는 오픈웨이트는 공공재에 가깝다고 평가. 위협 두 축: (1) 권위주의 정부가 미보다 강한 모델을 군사·감시용으로 확보, (2) 사이버·생물·정렬 실패 오용. 후자는 오픈웨이트가 가드레일·모니터링·회수가 어렵다는 점에서 폐쇄 대비 리스크가 클 수 있다고 인정 — 다만 미 기업 사용 금지로는 해결 안 됨. 지지 정책 3가지: 대중국 고성능 칩·장비 수출 통제·밀수 단속, 산업 규모 증류 작전 억제, 오픈·폐쇄 모두 충분한 능력 모델의 의무 안전 테스트. 서한의 접근성·경쟁 논지는 상당 부분 동의, “오픈이 방어에 유리”는 실증 전제라고 반박. 타이밍: K3 가중치 D-day·Open Secure AI Alliance·Jensen/Musk/Sama/Google 오픈웨이트 연대 직후. X 성명 게시 조회 약 99만(수집 시점). 정책·조달 팀은 “오픈웨이트 전면 금지가 아닌 칩·증류·프리릴리즈 테스트” 프레임으로 내부 리스크 메모를 재작성할 후보.",
+      "title": "Nvidia, Ilya Sutskever SSI에 장기 파트너십 — Vera Rubin·컴퓨트 10배, 투자 약 $50억 보도",
+      "snippet": "7/27 공동 발표: Safe Superintelligence Inc.(SSI)와 Nvidia 장기 전략 파트너십. Nvidia가 SSI에 추가 지분 투자, SSI는 차세대 Vera Rubin 플랫폼 접근으로 컴퓨트를 order of magnitude(약 10배) 확대. 양사는 현…",
+      "text": "Nvidia, Ilya Sutskever SSI에 장기 파트너십 — Vera Rubin·컴퓨트 10배, 투자 약 $50억 보도 7/27 공동 발표: Safe Superintelligence Inc.(SSI)와 Nvidia 장기 전략 파트너십. Nvidia가 SSI에 추가 지분 투자, SSI는 차세대 Vera Rubin 플랫폼 접근으로 컴퓨트를 order of magnitude(약 10배) 확대. 양사는 현·미래 컴퓨트 플랫폼 기술 협력. 규모: 공식은 “substantial”만 명시. Bloomberg·TechCrunch 취재는 약 $50억 투자 규모 언급. SSI는 상용 제품 없이 “straight-shot” 안전 슈퍼인텔리전스만 추구하는 스텔스 랩(2024 설립, PitchBook 기준 누적 조달·밸류 보도와 병존). 맥락: HF 샌드박스 침입·Kill Switch 법안 주 직후, 안전 정렬 랩에 칩 메이커가 컴퓨트+캐피탈을 꽂는 구조. Jensen “AlexNet부터의 돌파를 Vera Rubin으로 스케일”, Ilya “스케일할 연구 준비가 됐다”. 백커: a16z, DST, Greenoaks, Sequoia 등(공식 About). 기존 Google Cloud 연구 컴퓨트 파트너십과 병행 가능. 인프라·투자 팀은 “상용 API 없는 프론티어 랩 ↔ 칩 벤더 수직 제휴”를 OpenAI·Anthropic 외 세 번째 컴퓨트 동맹으로 맵에 추가.",
       "domains": [
         "agents",
         "creative",
@@ -556,6 +871,27 @@
       "section": "테크 · 인프라 · 규제 · 보안",
       "sectionId": "테크-인프라-규제-보안",
       "cardId": "c-테크-인프라-규제-보안-04",
+      "title": "Anthropic, 오픈웨이트 공식 입장 — “금지 주장 안 함”, 칩·증류·안전평가 3축",
+      "snippet": "7/27 Dario Amodei 명의 장문 성명. 중 오픈웨이트·Jensen 공개 서한·“Anthropic이 금지를 원한다” 루머에 대한 직접 응답. 오픈웨이트 모델 범주 금지 주장을 한 적 없다고 명시. 위험 능력 없는 오픈웨이트는 공공재에 가깝다고 평가.",
+      "text": "Anthropic, 오픈웨이트 공식 입장 — “금지 주장 안 함”, 칩·증류·안전평가 3축 7/27 Dario Amodei 명의 장문 성명. 중 오픈웨이트·Jensen 공개 서한·“Anthropic이 금지를 원한다” 루머에 대한 직접 응답. 오픈웨이트 모델 범주 금지 주장을 한 적 없다고 명시. 위험 능력 없는 오픈웨이트는 공공재에 가깝다고 평가. 위협 두 축: (1) 권위주의 정부가 미보다 강한 모델을 군사·감시용으로 확보, (2) 사이버·생물·정렬 실패 오용. 후자는 오픈웨이트가 가드레일·모니터링·회수가 어렵다는 점에서 폐쇄 대비 리스크가 클 수 있다고 인정 — 다만 미 기업 사용 금지로는 해결 안 됨. 지지 정책 3가지: 대중국 고성능 칩·장비 수출 통제·밀수 단속, 산업 규모 증류 작전 억제, 오픈·폐쇄 모두 충분한 능력 모델의 의무 안전 테스트. 서한의 접근성·경쟁 논지는 상당 부분 동의, “오픈이 방어에 유리”는 실증 전제라고 반박. 타이밍: K3 가중치 D-day·Open Secure AI Alliance·Jensen/Musk/Sama/Google 오픈웨이트 연대 직후. X 성명 게시 조회 약 99만(수집 시점). 정책·조달 팀은 “오픈웨이트 전면 금지가 아닌 칩·증류·프리릴리즈 테스트” 프레임으로 내부 리스크 메모를 재작성할 후보.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-28.html#c-테크-인프라-규제-보안-04"
+    },
+    {
+      "date": "2026-07-28",
+      "displayDate": "2026년 7월 28일(화)",
+      "briefTitle": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
+      "briefUrl": "brief/2026-07-28.html",
+      "section": "테크 · 인프라 · 규제 · 보안",
+      "sectionId": "테크-인프라-규제-보안",
+      "cardId": "c-테크-인프라-규제-보안-05",
       "title": "Nvidia Open Secure AI Alliance — 오픈 툴로 AI 사이버 방어, MS·SpaceX·HF 등 수십 사",
       "snippet": "7/27 Nvidia: 오픈소스 기법으로 소프트웨어·에이전트 취약점 식별·패치·공개를 공동 추진하는 Open Secure AI Alliance 출범. 창립 멤버 약 27~40사 규모 보도(Microsoft, Dell, SpaceX, Linux Foundation/OpenSSF 축,…",
       "text": "Nvidia Open Secure AI Alliance — 오픈 툴로 AI 사이버 방어, MS·SpaceX·HF 등 수십 사 7/27 Nvidia: 오픈소스 기법으로 소프트웨어·에이전트 취약점 식별·패치·공개를 공동 추진하는 Open Secure AI Alliance 출범. 창립 멤버 약 27~40사 규모 보도(Microsoft, Dell, SpaceX, Linux Foundation/OpenSSF 축, CrowdStrike, IBM, Palantir, Hugging Face 등 나열 매체 다수). 포지션: “업계가 함께 오픈으로 지킨다” — 모델·툴링·연구 공유로 방어자 커뮤니티 확대. Linux Foundation Akrites·OpenSSF 작업 위에 쌓는다고 명시(보도·블로그 요약). 맥락: 7/22 OpenAI 평가 모델의 HF 침입 공개 직후 주. Jensen 오픈웨이트 지지 서한·K3 드롭과 같은 날 축. Meta는 서한 서명했으나 연합 명단 미포함 지적(Yahoo 등). 보안·플랫폼 팀은 OSAA 산출물(스캐너·에이전트 하드닝 가이드)을 Glasswing·사내 레드팀 체크리스트 옆에 추적 항목으로 올릴 후보.",
@@ -567,7 +903,7 @@
         "models",
         "policy"
       ],
-      "href": "brief/2026-07-28.html#c-테크-인프라-규제-보안-04"
+      "href": "brief/2026-07-28.html#c-테크-인프라-규제-보안-05"
     },
     {
       "date": "2026-07-28",
@@ -610,6 +946,216 @@
         "policy"
       ],
       "href": "brief/2026-07-28.html#c-sns-트렌드-루머-바이럴-02"
+    },
+    {
+      "date": "2026-07-28",
+      "displayDate": "2026년 7월 28일(화)",
+      "briefTitle": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
+      "briefUrl": "brief/2026-07-28.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-01",
+      "title": "Higgsfield 1-day unlimited 트라이얼",
+      "snippet": "Higgsfield 1-day unlimited 트라이얼",
+      "text": "Higgsfield 1-day unlimited 트라이얼",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-28.html#c-짧게-남긴-시그널-01"
+    },
+    {
+      "date": "2026-07-28",
+      "displayDate": "2026년 7월 28일(화)",
+      "briefTitle": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
+      "briefUrl": "brief/2026-07-28.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-02",
+      "title": "Decart Lucy 2.5",
+      "snippet": ": changelog·블로그는 7월 라이브 상태 유지, 창 내 신규 메이저 발표 없음.",
+      "text": "Decart Lucy 2.5 : changelog·블로그는 7월 라이브 상태 유지, 창 내 신규 메이저 발표 없음.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-28.html#c-짧게-남긴-시그널-02"
+    },
+    {
+      "date": "2026-07-28",
+      "displayDate": "2026년 7월 28일(화)",
+      "briefTitle": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
+      "briefUrl": "brief/2026-07-28.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-03",
+      "title": "Runway / Luma",
+      "snippet": ": 창 내 신규 제품 공지 미확인(전일 Agent Workflows·캐릭터 시트는 제외).",
+      "text": "Runway / Luma : 창 내 신규 제품 공지 미확인(전일 Agent Workflows·캐릭터 시트는 제외).",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-28.html#c-짧게-남긴-시그널-03"
+    },
+    {
+      "date": "2026-07-28",
+      "displayDate": "2026년 7월 28일(화)",
+      "briefTitle": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
+      "briefUrl": "brief/2026-07-28.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-04",
+      "title": "Claude Platform notes",
+      "snippet": ": 7/24 Opus 5 이후 7/27–28 추가 API diff 미확인. · Claude release notes",
+      "text": "Claude Platform notes : 7/24 Opus 5 이후 7/27–28 추가 API diff 미확인. · Claude release notes",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-28.html#c-짧게-남긴-시그널-04"
+    },
+    {
+      "date": "2026-07-28",
+      "displayDate": "2026년 7월 28일(화)",
+      "briefTitle": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
+      "briefUrl": "brief/2026-07-28.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-05",
+      "title": "nvidia/Cosmos3-Edge",
+      "snippet": "등 HF 트렌딩 신규 카드 노출 — 상세 스펙 미확인, 관찰 후보.",
+      "text": "nvidia/Cosmos3-Edge 등 HF 트렌딩 신규 카드 노출 — 상세 스펙 미확인, 관찰 후보.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-28.html#c-짧게-남긴-시그널-05"
+    },
+    {
+      "date": "2026-07-28",
+      "displayDate": "2026년 7월 28일(화)",
+      "briefTitle": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
+      "briefUrl": "brief/2026-07-28.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-01",
+      "title": "오픈웨이트 정책 메모 갱신:",
+      "snippet": "Anthropic 3축(칩·증류·능력 기반 테스트) vs Jensen 서한 vs 사내 중 모델 사용 허용 범위를 한 장으로 정렬.",
+      "text": "오픈웨이트 정책 메모 갱신: Anthropic 3축(칩·증류·능력 기반 테스트) vs Jensen 서한 vs 사내 중 모델 사용 허용 범위를 한 장으로 정렬.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-28.html#c-실무-액션-아이디어-01"
+    },
+    {
+      "date": "2026-07-28",
+      "displayDate": "2026년 7월 28일(화)",
+      "briefTitle": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
+      "briefUrl": "brief/2026-07-28.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-02",
+      "title": "task crossover 진단:",
+      "snippet": "CX·HR·마케팅 로그에서 “타 직종 과제” 상위 프롬프트를 뽑아 교육 모듈·품질 리뷰 게이트에 연결.",
+      "text": "task crossover 진단: CX·HR·마케팅 로그에서 “타 직종 과제” 상위 프롬프트를 뽑아 교육 모듈·품질 리뷰 게이트에 연결.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-28.html#c-실무-액션-아이디어-02"
+    },
+    {
+      "date": "2026-07-28",
+      "displayDate": "2026년 7월 28일(화)",
+      "briefTitle": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
+      "briefUrl": "brief/2026-07-28.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-03",
+      "title": "엔터 에이전트 구매 경로 표:",
+      "snippet": "Presence(FDE)·Cognizant Frontier Certified·자사 구축 3열로 납기·거버넌스·단가 비교.",
+      "text": "엔터 에이전트 구매 경로 표: Presence(FDE)·Cognizant Frontier Certified·자사 구축 3열로 납기·거버넌스·단가 비교.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-28.html#c-실무-액션-아이디어-03"
+    },
+    {
+      "date": "2026-07-28",
+      "displayDate": "2026년 7월 28일(화)",
+      "briefTitle": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
+      "briefUrl": "brief/2026-07-28.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-04",
+      "title": "보이스 거버넌스:",
+      "snippet": "GPT-Live Business/Enterprise 롤아웃에 맞춰 녹음 보관·PII·통화 스크립트 정책을 48h 내 초안.",
+      "text": "보이스 거버넌스: GPT-Live Business/Enterprise 롤아웃에 맞춰 녹음 보관·PII·통화 스크립트 정책을 48h 내 초안.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-28.html#c-실무-액션-아이디어-04"
+    },
+    {
+      "date": "2026-07-28",
+      "displayDate": "2026년 7월 28일(화)",
+      "briefTitle": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
+      "briefUrl": "brief/2026-07-28.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-05",
+      "title": "보안 워치:",
+      "snippet": "OSAA 초기 산출물·Glasswing 패치 노트 구독. SSI–Nvidia는 직접 제품 없음 — 컴퓨트 희소성·안전 랩 내러티브만 추적.",
+      "text": "보안 워치: OSAA 초기 산출물·Glasswing 패치 노트 구독. SSI–Nvidia는 직접 제품 없음 — 컴퓨트 희소성·안전 랩 내러티브만 추적.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-28.html#c-실무-액션-아이디어-05"
     },
     {
       "date": "2026-07-27",
@@ -1030,6 +1576,258 @@
         "policy"
       ],
       "href": "brief/2026-07-27.html#c-sns-트렌드-루머-바이럴-02"
+    },
+    {
+      "date": "2026-07-27",
+      "displayDate": "2026년 7월 27일(월)",
+      "briefTitle": "반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다",
+      "briefUrl": "brief/2026-07-27.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-01",
+      "title": "PBS",
+      "snippet": ": closed vs open-source vs open-weight 해설 기사(7/25) — K3 드롭 주말 교육 콘텐츠. · PBS",
+      "text": "PBS : closed vs open-source vs open-weight 해설 기사(7/25) — K3 드롭 주말 교육 콘텐츠. · PBS",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-27.html#c-짧게-남긴-시그널-01"
+    },
+    {
+      "date": "2026-07-27",
+      "displayDate": "2026년 7월 27일(월)",
+      "briefTitle": "반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다",
+      "briefUrl": "brief/2026-07-27.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-02",
+      "title": "fal / Replicate",
+      "snippet": ": 주말 창 내 신규 플래그십 모델 페이지 헤드라인 미확인. Kling 3 Pro fal 라우트는 기존 스택 유지 보도.",
+      "text": "fal / Replicate : 주말 창 내 신규 플래그십 모델 페이지 헤드라인 미확인. Kling 3 Pro fal 라우트는 기존 스택 유지 보도.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-27.html#c-짧게-남긴-시그널-02"
+    },
+    {
+      "date": "2026-07-27",
+      "displayDate": "2026년 7월 27일(월)",
+      "briefTitle": "반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다",
+      "briefUrl": "brief/2026-07-27.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-03",
+      "title": "ElevenLabs / Suno",
+      "snippet": ": 주말 창 내 메이저 신규 런칭 헤드라인 없음(이전 주 음악 모델 전쟁은 범위 밖). ※ Midjourney는 7/24 V8.2 공식 론칭이 있었으나 본 수집에서 누락 → 7/28 브리프에 백필.",
+      "text": "ElevenLabs / Suno : 주말 창 내 메이저 신규 런칭 헤드라인 없음(이전 주 음악 모델 전쟁은 범위 밖). ※ Midjourney는 7/24 V8.2 공식 론칭이 있었으나 본 수집에서 누락 → 7/28 브리프에 백필.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-27.html#c-짧게-남긴-시그널-03"
+    },
+    {
+      "date": "2026-07-27",
+      "displayDate": "2026년 7월 27일(월)",
+      "briefTitle": "반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다",
+      "briefUrl": "brief/2026-07-27.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-04",
+      "title": "화이트하우스 프론티어 프레임",
+      "snippet": ": 8/1 전 발표 예고 — ExploitGym 이후 무게 증가(세컨더리 소스). 발표 시 후속 카드.",
+      "text": "화이트하우스 프론티어 프레임 : 8/1 전 발표 예고 — ExploitGym 이후 무게 증가(세컨더리 소스). 발표 시 후속 카드.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-27.html#c-짧게-남긴-시그널-04"
+    },
+    {
+      "date": "2026-07-27",
+      "displayDate": "2026년 7월 27일(월)",
+      "briefTitle": "반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다",
+      "briefUrl": "brief/2026-07-27.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-05",
+      "title": "Luma 캐릭터 시트 Skill",
+      "snippet": ": 7/24 피드 — 전일 브리프 Luma 쇼케이스와 동일 이벤트 계열, 재탕 생략.",
+      "text": "Luma 캐릭터 시트 Skill : 7/24 피드 — 전일 브리프 Luma 쇼케이스와 동일 이벤트 계열, 재탕 생략.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-27.html#c-짧게-남긴-시그널-05"
+    },
+    {
+      "date": "2026-07-27",
+      "displayDate": "2026년 7월 27일(월)",
+      "briefTitle": "반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다",
+      "briefUrl": "brief/2026-07-27.html",
+      "section": "짧게 남긴 시그널",
+      "sectionId": "짧게-남긴-시그널",
+      "cardId": "c-짧게-남긴-시그널-06",
+      "title": "BuildFast 7/26 라운드업",
+      "snippet": ": ExploitGym·Opus·K3 16스토리 2차 정리(1차 소스는 위 공식·Fortune). · 링크",
+      "text": "BuildFast 7/26 라운드업 : ExploitGym·Opus·K3 16스토리 2차 정리(1차 소스는 위 공식·Fortune). · 링크",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-27.html#c-짧게-남긴-시그널-06"
+    },
+    {
+      "date": "2026-07-27",
+      "displayDate": "2026년 7월 27일(월)",
+      "briefTitle": "반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다",
+      "briefUrl": "brief/2026-07-27.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-01",
+      "title": "모델 라우터 주간 갱신:",
+      "snippet": "기본 코딩/지식 업무에 claude-opus-5 + effort 정책을 올리고, 고위험 장시간 자율은 Fable/Mythos 유지. Sol 대비 Frontier-Bench 말고 사내 10태스크로 7일 A/B.",
+      "text": "모델 라우터 주간 갱신: 기본 코딩/지식 업무에 claude-opus-5 + effort 정책을 올리고, 고위험 장시간 자율은 Fable/Mythos 유지. Sol 대비 Frontier-Bench 말고 사내 10태스크로 7일 A/B.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-27.html#c-실무-액션-아이디어-01"
+    },
+    {
+      "date": "2026-07-27",
+      "displayDate": "2026년 7월 27일(월)",
+      "briefTitle": "반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다",
+      "briefUrl": "brief/2026-07-27.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-02",
+      "title": "K3 가중치 수신 런북:",
+      "snippet": "공식 HF 체크섬·라이선스만 신뢰. 가짜 레포 차단. 온프렘 평가망은 인터넷 차단·패키지 프록시 고정(평가 샌드박스 교훈 적용).",
+      "text": "K3 가중치 수신 런북: 공식 HF 체크섬·라이선스만 신뢰. 가짜 레포 차단. 온프렘 평가망은 인터넷 차단·패키지 프록시 고정(평가 샌드박스 교훈 적용).",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-27.html#c-실무-액션-아이디어-02"
+    },
+    {
+      "date": "2026-07-27",
+      "displayDate": "2026년 7월 27일(월)",
+      "briefTitle": "반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다",
+      "briefUrl": "brief/2026-07-27.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-03",
+      "title": "에이전트 권한 최소 세트:",
+      "snippet": "외부 네트워크·시크릿·프로덕션 DB를 기본 deny. 벤치/레드팀 시에도 “목표 치팅” 경로를 로그 알림.",
+      "text": "에이전트 권한 최소 세트: 외부 네트워크·시크릿·프로덕션 DB를 기본 deny. 벤치/레드팀 시에도 “목표 치팅” 경로를 로그 알림.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-27.html#c-실무-액션-아이디어-03"
+    },
+    {
+      "date": "2026-07-27",
+      "displayDate": "2026년 7월 27일(월)",
+      "briefTitle": "반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다",
+      "briefUrl": "brief/2026-07-27.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-04",
+      "title": "Kill Switch 사전 대응:",
+      "snippet": "모델 버전 킬 스위치·트래픽 스로틀·포렌식 보존 SLA를 벤더 계약에 초안 삽입(법 통과 전 협상 레버리지).",
+      "text": "Kill Switch 사전 대응: 모델 버전 킬 스위치·트래픽 스로틀·포렌식 보존 SLA를 벤더 계약에 초안 삽입(법 통과 전 협상 레버리지).",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-27.html#c-실무-액션-아이디어-04"
+    },
+    {
+      "date": "2026-07-27",
+      "displayDate": "2026년 7월 27일(월)",
+      "briefTitle": "반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다",
+      "briefUrl": "brief/2026-07-27.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-05",
+      "title": "원가 스택 표:",
+      "snippet": "워크로드별 미 클로즈드 / 중 오픈·API / 셀프호스트 3열 단가·데이터 거버넌스·감사 가능 여부를 한 장으로.",
+      "text": "원가 스택 표: 워크로드별 미 클로즈드 / 중 오픈·API / 셀프호스트 3열 단가·데이터 거버넌스·감사 가능 여부를 한 장으로.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-27.html#c-실무-액션-아이디어-05"
+    },
+    {
+      "date": "2026-07-27",
+      "displayDate": "2026년 7월 27일(월)",
+      "briefTitle": "반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다",
+      "briefUrl": "brief/2026-07-27.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-06",
+      "title": "크리에이티브:",
+      "snippet": "Runway Agent Workflows로 기존 Media Router 정책 위 노드 파이프라인 1개를 자연어 재생성 테스트.",
+      "text": "크리에이티브: Runway Agent Workflows로 기존 Media Router 정책 위 노드 파이프라인 1개를 자연어 재생성 테스트.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-27.html#c-실무-액션-아이디어-06"
     },
     {
       "date": "2026-07-24",
@@ -1620,6 +2418,174 @@
       "href": "brief/2026-07-24.html#c-짧게-남긴-시그널-06"
     },
     {
+      "date": "2026-07-24",
+      "displayDate": "2026년 7월 24일(금)",
+      "briefTitle": "요금 서약이 찍히고, 추론 랙이 출항한다",
+      "briefUrl": "brief/2026-07-24.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-01",
+      "title": "M365 OpenAI 서브프로세서:",
+      "snippet": "7/24 기본 ON 전 옵트아웃·그룹 스코프·Fed/PCI 제외 여부를 관리자 런북에 체크.",
+      "text": "M365 OpenAI 서브프로세서: 7/24 기본 ON 전 옵트아웃·그룹 스코프·Fed/PCI 제외 여부를 관리자 런북에 체크.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-24.html#c-실무-액션-아이디어-01"
+    },
+    {
+      "date": "2026-07-24",
+      "displayDate": "2026년 7월 24일(금)",
+      "briefTitle": "요금 서약이 찍히고, 추론 랙이 출항한다",
+      "briefUrl": "brief/2026-07-24.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-02",
+      "title": "DeepSeek 별칭 폐기:",
+      "snippet": "UTC 15:59 전 v4-pro/v4-flash 핀 교체 스크립트·카나리.",
+      "text": "DeepSeek 별칭 폐기: UTC 15:59 전 v4-pro/v4-flash 핀 교체 스크립트·카나리.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-24.html#c-실무-액션-아이디어-02"
+    },
+    {
+      "date": "2026-07-24",
+      "displayDate": "2026년 7월 24일(금)",
+      "briefTitle": "요금 서약이 찍히고, 추론 랙이 출항한다",
+      "briefUrl": "brief/2026-07-24.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-03",
+      "title": "Helios·Xeon 추론 랙:",
+      "snippet": "Nvidia-only 용량 계획 옆에 AMD Helios H2·Intel DCAI 경로 병행 시나리오.",
+      "text": "Helios·Xeon 추론 랙: Nvidia-only 용량 계획 옆에 AMD Helios H2·Intel DCAI 경로 병행 시나리오.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-24.html#c-실무-액션-아이디어-03"
+    },
+    {
+      "date": "2026-07-24",
+      "displayDate": "2026년 7월 24일(금)",
+      "briefTitle": "요금 서약이 찍히고, 추론 랙이 출항한다",
+      "briefUrl": "brief/2026-07-24.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-04",
+      "title": "에이전트 웹 트래픽:",
+      "snippet": "분석·봇 필터·API를 human/agent 이중 세그먼트로. 에이전트 CLI·서명 요구 검토.",
+      "text": "에이전트 웹 트래픽: 분석·봇 필터·API를 human/agent 이중 세그먼트로. 에이전트 CLI·서명 요구 검토.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-24.html#c-실무-액션-아이디어-04"
+    },
+    {
+      "date": "2026-07-24",
+      "displayDate": "2026년 7월 24일(금)",
+      "briefTitle": "요금 서약이 찍히고, 추론 랙이 출항한다",
+      "briefUrl": "brief/2026-07-24.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-05",
+      "title": "Runway Media Router PoC:",
+      "snippet": "비용/품질/지연 정책 3종으로 동일 프롬프트 라우팅 A/B.",
+      "text": "Runway Media Router PoC: 비용/품질/지연 정책 3종으로 동일 프롬프트 라우팅 A/B.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-24.html#c-실무-액션-아이디어-05"
+    },
+    {
+      "date": "2026-07-24",
+      "displayDate": "2026년 7월 24일(금)",
+      "briefTitle": "요금 서약이 찍히고, 추론 랙이 출항한다",
+      "briefUrl": "brief/2026-07-24.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-06",
+      "title": "Presence vs ServiceNow:",
+      "snippet": "거버넌스 Control Tower·보안 번들을 동일 평가표에. AI ACV $10억  conf 체크.",
+      "text": "Presence vs ServiceNow: 거버넌스 Control Tower·보안 번들을 동일 평가표에. AI ACV $10억 conf 체크.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-24.html#c-실무-액션-아이디어-06"
+    },
+    {
+      "date": "2026-07-24",
+      "displayDate": "2026년 7월 24일(금)",
+      "briefTitle": "요금 서약이 찍히고, 추론 랙이 출항한다",
+      "briefUrl": "brief/2026-07-24.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-07",
+      "title": "Ratepayer 계약 언어:",
+      "snippet": "서명 유틸/주 + 강제 주법 이중 축을 DC 전력 RFP 표준 조항화.",
+      "text": "Ratepayer 계약 언어: 서명 유틸/주 + 강제 주법 이중 축을 DC 전력 RFP 표준 조항화.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-24.html#c-실무-액션-아이디어-07"
+    },
+    {
+      "date": "2026-07-24",
+      "displayDate": "2026년 7월 24일(금)",
+      "briefTitle": "요금 서약이 찍히고, 추론 랙이 출항한다",
+      "briefUrl": "brief/2026-07-24.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-08",
+      "title": "Voice+Codex 벤치:",
+      "snippet": "핫키 음성 지시로 멀티 태스크 완료 시간·오류율을 Claude Code와 비교.",
+      "text": "Voice+Codex 벤치: 핫키 음성 지시로 멀티 태스크 완료 시간·오류율을 Claude Code와 비교.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-24.html#c-실무-액션-아이디어-08"
+    },
+    {
       "date": "2026-07-23",
       "displayDate": "2026년 7월 23일(목)",
       "briefTitle": "증류를 고발한 날, 3.2GW를 심었다",
@@ -2103,6 +3069,174 @@
       "href": "brief/2026-07-23.html#c-짧게-남긴-시그널-04"
     },
     {
+      "date": "2026-07-23",
+      "displayDate": "2026년 7월 23일(목)",
+      "briefTitle": "증류를 고발한 날, 3.2GW를 심었다",
+      "briefUrl": "brief/2026-07-23.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-01",
+      "title": "중 오픈웨이트 리스크 메모 갱신:",
+      "snippet": "K3/Fable 증류·GB300 태국 주장을 원산지 표에 한 줄 추가. 7/27 가중치 전 법무·조달 포지션 문서화(사용 금지/조건부/개인 실험만).",
+      "text": "중 오픈웨이트 리스크 메모 갱신: K3/Fable 증류·GB300 태국 주장을 원산지 표에 한 줄 추가. 7/27 가중치 전 법무·조달 포지션 문서화(사용 금지/조건부/개인 실험만).",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-23.html#c-실무-액션-아이디어-01"
+    },
+    {
+      "date": "2026-07-23",
+      "displayDate": "2026년 7월 23일(목)",
+      "briefTitle": "증류를 고발한 날, 3.2GW를 심었다",
+      "briefUrl": "brief/2026-07-23.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-02",
+      "title": "API 폐기 D-day:",
+      "snippet": "DeepSeek 레거시 별칭(7/24)·OpenAI Codex 스냅샷(7/23) 핀 일괄 교체 스크립트·스테이징 회귀.",
+      "text": "API 폐기 D-day: DeepSeek 레거시 별칭(7/24)·OpenAI Codex 스냅샷(7/23) 핀 일괄 교체 스크립트·스테이징 회귀.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-23.html#c-실무-액션-아이디어-02"
+    },
+    {
+      "date": "2026-07-23",
+      "displayDate": "2026년 7월 23일(목)",
+      "briefTitle": "증류를 고발한 날, 3.2GW를 심었다",
+      "briefUrl": "brief/2026-07-23.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-03",
+      "title": "Presence vs 기존 CX:",
+      "snippet": "셀프서브 불가·FDE 경로를 전제로, Salesforce/ServiceNow 슬롯 옆에 “가드레일+시뮬레이션+승인 루프” 평가표 추가.",
+      "text": "Presence vs 기존 CX: 셀프서브 불가·FDE 경로를 전제로, Salesforce/ServiceNow 슬롯 옆에 “가드레일+시뮬레이션+승인 루프” 평가표 추가.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-23.html#c-실무-액션-아이디어-03"
+    },
+    {
+      "date": "2026-07-23",
+      "displayDate": "2026년 7월 23일(목)",
+      "briefTitle": "증류를 고발한 날, 3.2GW를 심었다",
+      "briefUrl": "brief/2026-07-23.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-04",
+      "title": "DC 요금 조항:",
+      "snippet": "Camellia식 전액 부담·피크 커테일·수자원을 RFP 표준 언어로. Ratepayer Pledge 서명 유틸/주인지 확인.",
+      "text": "DC 요금 조항: Camellia식 전액 부담·피크 커테일·수자원을 RFP 표준 언어로. Ratepayer Pledge 서명 유틸/주인지 확인.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-23.html#c-실무-액션-아이디어-04"
+    },
+    {
+      "date": "2026-07-23",
+      "displayDate": "2026년 7월 23일(목)",
+      "briefTitle": "증류를 고발한 날, 3.2GW를 심었다",
+      "briefUrl": "brief/2026-07-23.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-05",
+      "title": "클라우드 용량 브릿지:",
+      "snippet": "Alphabet 제3자 용량 발언에 맞춰 네오클라우드·스팟 GPU 견적을 본계약 백업으로 유지.",
+      "text": "클라우드 용량 브릿지: Alphabet 제3자 용량 발언에 맞춰 네오클라우드·스팟 GPU 견적을 본계약 백업으로 유지.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-23.html#c-실무-액션-아이디어-05"
+    },
+    {
+      "date": "2026-07-23",
+      "displayDate": "2026년 7월 23일(목)",
+      "briefTitle": "증류를 고발한 날, 3.2GW를 심었다",
+      "briefUrl": "brief/2026-07-23.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-06",
+      "title": "AMD MI450 로드맵:",
+      "snippet": "Claude 용량 2027 H1 시나리오를 Nvidia 단일 경로 옆에 병행 시나리오로 보드에 올림.",
+      "text": "AMD MI450 로드맵: Claude 용량 2027 H1 시나리오를 Nvidia 단일 경로 옆에 병행 시나리오로 보드에 올림.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-23.html#c-실무-액션-아이디어-06"
+    },
+    {
+      "date": "2026-07-23",
+      "displayDate": "2026년 7월 23일(목)",
+      "briefTitle": "증류를 고발한 날, 3.2GW를 심었다",
+      "briefUrl": "brief/2026-07-23.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-07",
+      "title": "Kling MCP 실험:",
+      "snippet": "에이전트 오케스트레이터에 영상 노드 1개 PoC — 캐릭터 일관성·배치 생성 지연 측정.",
+      "text": "Kling MCP 실험: 에이전트 오케스트레이터에 영상 노드 1개 PoC — 캐릭터 일관성·배치 생성 지연 측정.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-23.html#c-실무-액션-아이디어-07"
+    },
+    {
+      "date": "2026-07-23",
+      "displayDate": "2026년 7월 23일(목)",
+      "briefTitle": "증류를 고발한 날, 3.2GW를 심었다",
+      "briefUrl": "brief/2026-07-23.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-08",
+      "title": "코딩 툴 벤치:",
+      "snippet": "Antigravity 240만 WAU·모델 선택 제한(중 오픈웨이트 제외)을 개발자 생산성 RFP 항목에 반영.",
+      "text": "코딩 툴 벤치: Antigravity 240만 WAU·모델 선택 제한(중 오픈웨이트 제외)을 개발자 생산성 RFP 항목에 반영.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-23.html#c-실무-액션-아이디어-08"
+    },
+    {
       "date": "2026-07-22",
       "displayDate": "2026년 7월 22일(수)",
       "briefTitle": "답안을 훔친 모델, 주권을 산 클라우드",
@@ -2523,6 +3657,195 @@
       "href": "brief/2026-07-22.html#c-짧게-남긴-시그널-03"
     },
     {
+      "date": "2026-07-22",
+      "displayDate": "2026년 7월 22일(수)",
+      "briefTitle": "답안을 훔친 모델, 주권을 산 클라우드",
+      "briefUrl": "brief/2026-07-22.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-01",
+      "title": "평가 샌드박스 재설계:",
+      "snippet": "사이버/레드팀 벤치도 패키지 프록시·자격증명·외부 DNS를 기본 차단. 제로데이 책임 공개 프로세스와 벤치 정답 격리(오프라인 채점)를 표준화.",
+      "text": "평가 샌드박스 재설계: 사이버/레드팀 벤치도 패키지 프록시·자격증명·외부 DNS를 기본 차단. 제로데이 책임 공개 프로세스와 벤치 정답 격리(오프라인 채점)를 표준화.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-22.html#c-실무-액션-아이디어-01"
+    },
+    {
+      "date": "2026-07-22",
+      "displayDate": "2026년 7월 22일(수)",
+      "briefTitle": "답안을 훔친 모델, 주권을 산 클라우드",
+      "briefUrl": "brief/2026-07-22.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-02",
+      "title": "IR용 온프레 모델:",
+      "snippet": "호스티드 가드레일 락아웃 대비 GLM급 오픈웨이트+에이전트 로그 분석 파이프라인을 사고 대응 키트에 사전 탑재.",
+      "text": "IR용 온프레 모델: 호스티드 가드레일 락아웃 대비 GLM급 오픈웨이트+에이전트 로그 분석 파이프라인을 사고 대응 키트에 사전 탑재.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-22.html#c-실무-액션-아이디어-02"
+    },
+    {
+      "date": "2026-07-22",
+      "displayDate": "2026년 7월 22일(수)",
+      "briefTitle": "답안을 훔친 모델, 주권을 산 클라우드",
+      "briefUrl": "brief/2026-07-22.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-03",
+      "title": "소버린 RFP 슬롯:",
+      "snippet": "Azure+Mistral EU 용량·Foundry Local 에어갭을 기존 OpenAI/Anthropic 슬롯 옆 견적 라인으로 추가. 지분 없는 인프라 계약의 용량 보장 조항 확인.",
+      "text": "소버린 RFP 슬롯: Azure+Mistral EU 용량·Foundry Local 에어갭을 기존 OpenAI/Anthropic 슬롯 옆 견적 라인으로 추가. 지분 없는 인프라 계약의 용량 보장 조항 확인.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-22.html#c-실무-액션-아이디어-03"
+    },
+    {
+      "date": "2026-07-22",
+      "displayDate": "2026년 7월 22일(수)",
+      "briefTitle": "답안을 훔친 모델, 주권을 산 클라우드",
+      "briefUrl": "brief/2026-07-22.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-04",
+      "title": "중 오픈웨이트 감사표:",
+      "snippet": "사용 모델별 원산지·증류 의심 지표·대체 경로를 문서화. 9월 미·중 회담·제재 시그널 주시.",
+      "text": "중 오픈웨이트 감사표: 사용 모델별 원산지·증류 의심 지표·대체 경로를 문서화. 9월 미·중 회담·제재 시그널 주시.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-22.html#c-실무-액션-아이디어-04"
+    },
+    {
+      "date": "2026-07-22",
+      "displayDate": "2026년 7월 22일(수)",
+      "briefTitle": "답안을 훔친 모델, 주권을 산 클라우드",
+      "briefUrl": "brief/2026-07-22.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-05",
+      "title": "DC 사이트 전력 KPI:",
+      "snippet": "PJM/ERCOT 요금·접속 큐를 토큰당 원가와 동일 가중으로 사이트 선정. BNEF 상향 폭을 보드 리스크 슬라이드에 반영.",
+      "text": "DC 사이트 전력 KPI: PJM/ERCOT 요금·접속 큐를 토큰당 원가와 동일 가중으로 사이트 선정. BNEF 상향 폭을 보드 리스크 슬라이드에 반영.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-22.html#c-실무-액션-아이디어-05"
+    },
+    {
+      "date": "2026-07-22",
+      "displayDate": "2026년 7월 22일(수)",
+      "briefTitle": "답안을 훔친 모델, 주권을 산 클라우드",
+      "briefUrl": "brief/2026-07-22.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-06",
+      "title": "AI 음원 운영:",
+      "snippet": "Deezer식 6개월 미재생 삭제·사기 스트림 제외를 자사 UGC/광고 음원 정책에 벤치마크. Suno 이용 시 자격증명·결제 재점검.",
+      "text": "AI 음원 운영: Deezer식 6개월 미재생 삭제·사기 스트림 제외를 자사 UGC/광고 음원 정책에 벤치마크. Suno 이용 시 자격증명·결제 재점검.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-22.html#c-실무-액션-아이디어-06"
+    },
+    {
+      "date": "2026-07-22",
+      "displayDate": "2026년 7월 22일(수)",
+      "briefTitle": "답안을 훔친 모델, 주권을 산 클라우드",
+      "briefUrl": "brief/2026-07-22.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-07",
+      "title": "Gemini 워커 재벤치:",
+      "snippet": "3.6 Flash vs 기존 3.5 Flash 토큰·지연·품질 A/B. Flash-Lite를 서브에이전트 기본값으로 시험. deprecated 샘플링 파라미터 제거.",
+      "text": "Gemini 워커 재벤치: 3.6 Flash vs 기존 3.5 Flash 토큰·지연·품질 A/B. Flash-Lite를 서브에이전트 기본값으로 시험. deprecated 샘플링 파라미터 제거.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-22.html#c-실무-액션-아이디어-07"
+    },
+    {
+      "date": "2026-07-22",
+      "displayDate": "2026년 7월 22일(수)",
+      "briefTitle": "답안을 훔친 모델, 주권을 산 클라우드",
+      "briefUrl": "brief/2026-07-22.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-08",
+      "title": "크리에이티브 체험 창 활용:",
+      "snippet": "Higgsfield Unlimited 기간에 Seedance/Kling 등 모델 매트릭스 벤치. 전환 전 해지·요금 경로 확인.",
+      "text": "크리에이티브 체험 창 활용: Higgsfield Unlimited 기간에 Seedance/Kling 등 모델 매트릭스 벤치. 전환 전 해지·요금 경로 확인.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-22.html#c-실무-액션-아이디어-08"
+    },
+    {
+      "date": "2026-07-22",
+      "displayDate": "2026년 7월 22일(수)",
+      "briefTitle": "답안을 훔친 모델, 주권을 산 클라우드",
+      "briefUrl": "brief/2026-07-22.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-09",
+      "title": "개봉작→AI 데모 포맷:",
+      "snippet": "HOPE식 “한 줄 해석 + AI 게임/숏폼 데모”를 캠페인 레퍼런스로 문서화. IP·초상권 고지 템플릿 병행.",
+      "text": "개봉작→AI 데모 포맷: HOPE식 “한 줄 해석 + AI 게임/숏폼 데모”를 캠페인 레퍼런스로 문서화. IP·초상권 고지 템플릿 병행.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-22.html#c-실무-액션-아이디어-09"
+    },
+    {
       "date": "2026-07-21",
       "displayDate": "2026년 7월 21일(화)",
       "briefTitle": "수표는 15억, 에이전트는 샌드박스를 뚫었다",
@@ -2880,6 +4203,132 @@
       "href": "brief/2026-07-21.html#c-테크-인프라-규제-보안-04"
     },
     {
+      "date": "2026-07-21",
+      "displayDate": "2026년 7월 21일(화)",
+      "briefTitle": "수표는 15억, 에이전트는 샌드박스를 뚫었다",
+      "briefUrl": "brief/2026-07-21.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-01",
+      "title": "학습 데이터 경로 감사:",
+      "snippet": "Anthropic 합의 논리에 맞춰 사내/벤더 코퍼스를 ‘구매·라이선스 vs 미러/스크랩’으로 분류하고, 해적 미러 잔존 여부를 법무·데이터 팀이 분기 점검한다.",
+      "text": "학습 데이터 경로 감사: Anthropic 합의 논리에 맞춰 사내/벤더 코퍼스를 ‘구매·라이선스 vs 미러/스크랩’으로 분류하고, 해적 미러 잔존 여부를 법무·데이터 팀이 분기 점검한다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-21.html#c-실무-액션-아이디어-01"
+    },
+    {
+      "date": "2026-07-21",
+      "displayDate": "2026년 7월 21일(화)",
+      "briefTitle": "수표는 15억, 에이전트는 샌드박스를 뚫었다",
+      "briefUrl": "brief/2026-07-21.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-02",
+      "title": "장기 에이전트 런북:",
+      "snippet": "액션 allowlist + 궤적 모니터(목표 이탈 시 pause) + 공개 네트워크/git 권한 분리. OpenAI 사례를 테이블탑 시나리오로 1회 리허설.",
+      "text": "장기 에이전트 런북: 액션 allowlist + 궤적 모니터(목표 이탈 시 pause) + 공개 네트워크/git 권한 분리. OpenAI 사례를 테이블탑 시나리오로 1회 리허설.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-21.html#c-실무-액션-아이디어-02"
+    },
+    {
+      "date": "2026-07-21",
+      "displayDate": "2026년 7월 21일(화)",
+      "briefTitle": "수표는 15억, 에이전트는 샌드박스를 뚫었다",
+      "briefUrl": "brief/2026-07-21.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-03",
+      "title": "MCP 7/28 마이그레이션:",
+      "snippet": "세션 sticky 제거, Mcp-Method 헤더, Tasks 확장 이전, 폐기 예정 Roots/Sampling 사용처 목록화.",
+      "text": "MCP 7/28 마이그레이션: 세션 sticky 제거, Mcp-Method 헤더, Tasks 확장 이전, 폐기 예정 Roots/Sampling 사용처 목록화.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-21.html#c-실무-액션-아이디어-03"
+    },
+    {
+      "date": "2026-07-21",
+      "displayDate": "2026년 7월 21일(화)",
+      "briefTitle": "수표는 15억, 에이전트는 샌드박스를 뚫었다",
+      "briefUrl": "brief/2026-07-21.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-04",
+      "title": "YPP 슬롭 체크리스트:",
+      "snippet": "채널별 템플릿 반복도·AI 페르소나 금융/헬스 여부·불쾌 연출 유형을 콘텐츠 캘린더 게이트에 추가.",
+      "text": "YPP 슬롭 체크리스트: 채널별 템플릿 반복도·AI 페르소나 금융/헬스 여부·불쾌 연출 유형을 콘텐츠 캘린더 게이트에 추가.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-21.html#c-실무-액션-아이디어-04"
+    },
+    {
+      "date": "2026-07-21",
+      "displayDate": "2026년 7월 21일(화)",
+      "briefTitle": "수표는 15억, 에이전트는 샌드박스를 뚫었다",
+      "briefUrl": "brief/2026-07-21.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-05",
+      "title": "추론 랙 멀티벤더:",
+      "snippet": "Azure Helios·기존 Nvidia 슬롯 TCO(토큰당·메모리)를 동일 워크로드로 비교 견적. ROCm 이식 PoC 2주.",
+      "text": "추론 랙 멀티벤더: Azure Helios·기존 Nvidia 슬롯 TCO(토큰당·메모리)를 동일 워크로드로 비교 견적. ROCm 이식 PoC 2주.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-21.html#c-실무-액션-아이디어-05"
+    },
+    {
+      "date": "2026-07-21",
+      "displayDate": "2026년 7월 21일(화)",
+      "briefTitle": "수표는 15억, 에이전트는 샌드박스를 뚫었다",
+      "briefUrl": "brief/2026-07-21.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-06",
+      "title": "모바일 생성 편집 파일럿:",
+      "snippet": "Indigo AI Playground(초대 시) 또는 동급 버튼형 편집으로 촬영→공유 30분 워크플로 A/B. C2PA/SynthID 표기 확인.",
+      "text": "모바일 생성 편집 파일럿: Indigo AI Playground(초대 시) 또는 동급 버튼형 편집으로 촬영→공유 30분 워크플로 A/B. C2PA/SynthID 표기 확인.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-21.html#c-실무-액션-아이디어-06"
+    },
+    {
       "date": "2026-07-20",
       "displayDate": "2026년 7월 20일(월)",
       "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
@@ -3193,6 +4642,132 @@
         "policy"
       ],
       "href": "brief/2026-07-20.html#c-sns-트렌드-루머-바이럴-01"
+    },
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-01",
+      "title": "K3 평가 창 고정:",
+      "snippet": "7/27 웨이트 공개 전후로 동일 코딩·에이전트 스위트를 Fable/GPT/K3에 돌려 latency·거절률·보안 정책 차이를 표로 남긴다. 가격은 $3/$15 + 캐시 히트를 단위 원가로 환산.",
+      "text": "K3 평가 창 고정: 7/27 웨이트 공개 전후로 동일 코딩·에이전트 스위트를 Fable/GPT/K3에 돌려 latency·거절률·보안 정책 차이를 표로 남긴다. 가격은 $3/$15 + 캐시 히트를 단위 원가로 환산.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-실무-액션-아이디어-01"
+    },
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-02",
+      "title": "일본 물리 AI 파트너 맵:",
+      "snippet": "Noetra·Cosmos 3 Edge·Isaac GR00T 로드맵에 자사 로봇·물류 POC가 올라갈 자리가 있는지 분기 단위로 점검한다(2028 팩토리 가동 전 파일럿 창).",
+      "text": "일본 물리 AI 파트너 맵: Noetra·Cosmos 3 Edge·Isaac GR00T 로드맵에 자사 로봇·물류 POC가 올라갈 자리가 있는지 분기 단위로 점검한다(2028 팩토리 가동 전 파일럿 창).",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-실무-액션-아이디어-02"
+    },
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-03",
+      "title": "AI 지출 게이트웨이:",
+      "snippet": "Databricks Unity AI Gateway·유사 툴로 팀별 토큰·툴콜 예산을 묶을지, Snowflake/Fabric 대비 TCO를 다시 잰다. $188B 밸류는 할인·락인 협상 레버리지 신호다.",
+      "text": "AI 지출 게이트웨이: Databricks Unity AI Gateway·유사 툴로 팀별 토큰·툴콜 예산을 묶을지, Snowflake/Fabric 대비 TCO를 다시 잰다. $188B 밸류는 할인·락인 협상 레버리지 신호다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-실무-액션-아이디어-03"
+    },
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-04",
+      "title": "앱스토어 dual-use 감사:",
+      "snippet": "자사·광고 파트너 앱의 얼굴 스왑·이미지 편집이 NCII로 전용 가능한지 결제·정책 관점에서 재심사. SF 28일 회신 창을 모더레이션 SLA 벤치마크로 쓴다.",
+      "text": "앱스토어 dual-use 감사: 자사·광고 파트너 앱의 얼굴 스왑·이미지 편집이 NCII로 전용 가능한지 결제·정책 관점에서 재심사. SF 28일 회신 창을 모더레이션 SLA 벤치마크로 쓴다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-실무-액션-아이디어-04"
+    },
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-05",
+      "title": "후반 AI 벤더 재입찰:",
+      "snippet": "Netflix $587M 수준이 후반 자동화 시장 앵커. 누락 샷·배경·조명 보정 툴의 라이선스·노조·크레딧 조항을 계약 템플릿에 반영한다.",
+      "text": "후반 AI 벤더 재입찰: Netflix $587M 수준이 후반 자동화 시장 앵커. 누락 샷·배경·조명 보정 툴의 라이선스·노조·크레딧 조항을 계약 템플릿에 반영한다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-실무-액션-아이디어-05"
+    },
+    {
+      "date": "2026-07-20",
+      "displayDate": "2026년 7월 20일(월)",
+      "briefTitle": "중국은 웨이트를 풀고, 일본은 공장을 세웠다",
+      "briefUrl": "brief/2026-07-20.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-06",
+      "title": "Live AI 편집 파일럿:",
+      "snippet": "Live AI 편집 파일럿:",
+      "text": "Live AI 편집 파일럿:",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-20.html#c-실무-액션-아이디어-06"
     },
     {
       "date": "2026-07-16",
@@ -3529,6 +5104,111 @@
         "policy"
       ],
       "href": "brief/2026-07-16.html#c-sns-트렌드-루머-바이럴-01"
+    },
+    {
+      "date": "2026-07-16",
+      "displayDate": "2026년 7월 16일(목)",
+      "briefTitle": "끄지 못하는 검색, 먼저 열리는 상장 창구",
+      "briefUrl": "brief/2026-07-16.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-01",
+      "title": "검색 AI 옵트아웃 감사:",
+      "snippet": "학교·가족·법인 Google 계정에서 AI Overview/Mode 비활성 가능 여부를 확인하고, 불가면 Chromebook 정책·대체 검색·과제 제출 규칙을 문서화한다.",
+      "text": "검색 AI 옵트아웃 감사: 학교·가족·법인 Google 계정에서 AI Overview/Mode 비활성 가능 여부를 확인하고, 불가면 Chromebook 정책·대체 검색·과제 제출 규칙을 문서화한다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-16.html#c-실무-액션-아이디어-01"
+    },
+    {
+      "date": "2026-07-16",
+      "displayDate": "2026년 7월 16일(목)",
+      "briefTitle": "끄지 못하는 검색, 먼저 열리는 상장 창구",
+      "briefUrl": "brief/2026-07-16.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-02",
+      "title": "벤더 상장 시나리오:",
+      "snippet": "Anthropic 10월 IPO 관측을 전제로 Claude 의존 워크로드의 가격·약관·데이터 처리 변경 조항을 재읽는다.",
+      "text": "벤더 상장 시나리오: Anthropic 10월 IPO 관측을 전제로 Claude 의존 워크로드의 가격·약관·데이터 처리 변경 조항을 재읽는다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-16.html#c-실무-액션-아이디어-02"
+    },
+    {
+      "date": "2026-07-16",
+      "displayDate": "2026년 7월 16일(목)",
+      "briefTitle": "끄지 못하는 검색, 먼저 열리는 상장 창구",
+      "briefUrl": "brief/2026-07-16.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-03",
+      "title": "중국 Apple 스택 분기:",
+      "snippet": "중국향 앱이 Apple Intelligence API를 쓸 경우 Qwen/Baidu 응답·검열·이미지 정책을 별도 QA 세트로 둔다.",
+      "text": "중국 Apple 스택 분기: 중국향 앱이 Apple Intelligence API를 쓸 경우 Qwen/Baidu 응답·검열·이미지 정책을 별도 QA 세트로 둔다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-16.html#c-실무-액션-아이디어-03"
+    },
+    {
+      "date": "2026-07-16",
+      "displayDate": "2026년 7월 16일(목)",
+      "briefTitle": "끄지 못하는 검색, 먼저 열리는 상장 창구",
+      "briefUrl": "brief/2026-07-16.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-04",
+      "title": "PJM·요금 리스크 슬라이드:",
+      "snippet": "DC/클라우드 용량 계획 자료에 ‘용량 경매 → ratepayer 전가 $6.3B/3년’ 한 장을 넣어 재무·IR과 공유한다.",
+      "text": "PJM·요금 리스크 슬라이드: DC/클라우드 용량 계획 자료에 ‘용량 경매 → ratepayer 전가 $6.3B/3년’ 한 장을 넣어 재무·IR과 공유한다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-16.html#c-실무-액션-아이디어-04"
+    },
+    {
+      "date": "2026-07-16",
+      "displayDate": "2026년 7월 16일(목)",
+      "briefTitle": "끄지 못하는 검색, 먼저 열리는 상장 창구",
+      "briefUrl": "brief/2026-07-16.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-05",
+      "title": "멀티모달 red-team:",
+      "snippet": "채팅 금칙어 테스트에 더해 미세 변조 이미지·문서 스캔 입력을 넣고, 툴 실행 전 휴먼 승인 여부를 확인한다.",
+      "text": "멀티모달 red-team: 채팅 금칙어 테스트에 더해 미세 변조 이미지·문서 스캔 입력을 넣고, 툴 실행 전 휴먼 승인 여부를 확인한다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-16.html#c-실무-액션-아이디어-05"
     },
     {
       "date": "2026-07-15",
@@ -4012,6 +5692,111 @@
         "policy"
       ],
       "href": "brief/2026-07-15.html#c-sns-트렌드-루머-바이럴-01"
+    },
+    {
+      "date": "2026-07-15",
+      "displayDate": "2026년 7월 15일(수)",
+      "briefTitle": "전력이 문을 닫자, 스피커가 말을 걸기 시작했다",
+      "briefUrl": "brief/2026-07-15.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-01",
+      "title": "DC 사이트 리스크 체크리스트:",
+      "snippet": "NY 50MW·모라토리엄·판매세 감면 폐지 가능성을 RFP에 반영하고, 대기 중인 주 의회 법안(20MW) 일정을 캘린더에 넣는다.",
+      "text": "DC 사이트 리스크 체크리스트: NY 50MW·모라토리엄·판매세 감면 폐지 가능성을 RFP에 반영하고, 대기 중인 주 의회 법안(20MW) 일정을 캘린더에 넣는다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-15.html#c-실무-액션-아이디어-01"
+    },
+    {
+      "date": "2026-07-15",
+      "displayDate": "2026년 7월 15일(수)",
+      "briefTitle": "전력이 문을 닫자, 스피커가 말을 걸기 시작했다",
+      "briefUrl": "brief/2026-07-15.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-02",
+      "title": "AI 보안 공조 채널 설계:",
+      "snippet": "모델 벤더 취약점 통지 → SOC/필수서비스 사업자 공유 SLA를 초안화하고, 오픈소스 모델 사용 시 중복 스캔 정책을 명시한다.",
+      "text": "AI 보안 공조 채널 설계: 모델 벤더 취약점 통지 → SOC/필수서비스 사업자 공유 SLA를 초안화하고, 오픈소스 모델 사용 시 중복 스캔 정책을 명시한다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-15.html#c-실무-액션-아이디어-02"
+    },
+    {
+      "date": "2026-07-15",
+      "displayDate": "2026년 7월 15일(수)",
+      "briefTitle": "전력이 문을 닫자, 스피커가 말을 걸기 시작했다",
+      "briefUrl": "brief/2026-07-15.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-03",
+      "title": "캡엑스 vs 소프트웨어 예산 워게임:",
+      "snippet": "IBM 가이던스 톤을 참고해 분기 말 ‘서버/메모리 선구매’가 SaaS·SI 딜을 밀 가능성을 영업·재무 시나리오에 추가한다.",
+      "text": "캡엑스 vs 소프트웨어 예산 워게임: IBM 가이던스 톤을 참고해 분기 말 ‘서버/메모리 선구매’가 SaaS·SI 딜을 밀 가능성을 영업·재무 시나리오에 추가한다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-15.html#c-실무-액션-아이디어-03"
+    },
+    {
+      "date": "2026-07-15",
+      "displayDate": "2026년 7월 15일(수)",
+      "briefTitle": "전력이 문을 닫자, 스피커가 말을 걸기 시작했다",
+      "briefUrl": "brief/2026-07-15.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-04",
+      "title": "토큰 거버넌스 스냅샷:",
+      "snippet": "팀별 API 사용량·모델 라우팅·캐시율을 뽑아 CFO 리포트 한 장으로 만들고, 한도 알림을 켜 둔다(tokenmaxxing 선제 대응).",
+      "text": "토큰 거버넌스 스냅샷: 팀별 API 사용량·모델 라우팅·캐시율을 뽑아 CFO 리포트 한 장으로 만들고, 한도 알림을 켜 둔다(tokenmaxxing 선제 대응).",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-15.html#c-실무-액션-아이디어-04"
+    },
+    {
+      "date": "2026-07-15",
+      "displayDate": "2026년 7월 15일(수)",
+      "briefTitle": "전력이 문을 닫자, 스피커가 말을 걸기 시작했다",
+      "briefUrl": "brief/2026-07-15.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-05",
+      "title": "온디바이스 PoC:",
+      "snippet": "PrismML 공개 Qwen 압축본을 iPhone/Mac에서 스모크 테스트해 지연·배터리·사실 회상 품질을 클라우드 대비 표로 남긴다.",
+      "text": "온디바이스 PoC: PrismML 공개 Qwen 압축본을 iPhone/Mac에서 스모크 테스트해 지연·배터리·사실 회상 품질을 클라우드 대비 표로 남긴다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-15.html#c-실무-액션-아이디어-05"
     },
     {
       "date": "2026-07-14",
@@ -4537,6 +6322,111 @@
         "policy"
       ],
       "href": "brief/2026-07-14.html#c-sns-트렌드-루머-바이럴-03"
+    },
+    {
+      "date": "2026-07-14",
+      "displayDate": "2026년 7월 14일(화)",
+      "briefTitle": "가격은 루피, 인재는 소송, 비전은 오픈소스",
+      "briefUrl": "brief/2026-07-14.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-01",
+      "title": "인도 결제 FAQ 업데이트:",
+      "snippet": "Claude 루피 가격·GST·UPI 미지원을 세일즈/온보딩 문서에 반영하고, 카드·앱스토어 결제 경로를 스크린샷으로 안내한다.",
+      "text": "인도 결제 FAQ 업데이트: Claude 루피 가격·GST·UPI 미지원을 세일즈/온보딩 문서에 반영하고, 카드·앱스토어 결제 경로를 스크린샷으로 안내한다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-14.html#c-실무-액션-아이디어-01"
+    },
+    {
+      "date": "2026-07-14",
+      "displayDate": "2026년 7월 14일(화)",
+      "briefTitle": "가격은 루피, 인재는 소송, 비전은 오픈소스",
+      "briefUrl": "brief/2026-07-14.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-02",
+      "title": "다국어 프롬프트 분리 PoC:",
+      "snippet": "동일 정책을 한국어·영어·힌디어 등으로 돌린 뒤 Deference/Caution·거절률을 표로 비교한다 (Anthropic 4축 체크리스트 활용).",
+      "text": "다국어 프롬프트 분리 PoC: 동일 정책을 한국어·영어·힌디어 등으로 돌린 뒤 Deference/Caution·거절률을 표로 비교한다 (Anthropic 4축 체크리스트 활용).",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-14.html#c-실무-액션-아이디어-02"
+    },
+    {
+      "date": "2026-07-14",
+      "displayDate": "2026년 7월 14일(화)",
+      "briefTitle": "가격은 루피, 인재는 소송, 비전은 오픈소스",
+      "briefUrl": "brief/2026-07-14.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-03",
+      "title": "Fable 5 만료 캘린더:",
+      "snippet": "7/19 PT 전 주간 한도·Code 버전·기본 모델 폴백을 팀에 공지하고, 크레딧 과금 한도를 미리 설정한다.",
+      "text": "Fable 5 만료 캘린더: 7/19 PT 전 주간 한도·Code 버전·기본 모델 폴백을 팀에 공지하고, 크레딧 과금 한도를 미리 설정한다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-14.html#c-실무-액션-아이디어-03"
+    },
+    {
+      "date": "2026-07-14",
+      "displayDate": "2026년 7월 14일(화)",
+      "briefTitle": "가격은 루피, 인재는 소송, 비전은 오픈소스",
+      "briefUrl": "brief/2026-07-14.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-04",
+      "title": "UniVR Planning 스모크 테스트:",
+      "snippet": "사내 GPU 1대에 Planning 체크포인트를 올려 로봇/화면 조작 3스텝 태스크 1개만 재현해 본다.",
+      "text": "UniVR Planning 스모크 테스트: 사내 GPU 1대에 Planning 체크포인트를 올려 로봇/화면 조작 3스텝 태스크 1개만 재현해 본다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-14.html#c-실무-액션-아이디어-04"
+    },
+    {
+      "date": "2026-07-14",
+      "displayDate": "2026년 7월 14일(화)",
+      "briefTitle": "가격은 루피, 인재는 소송, 비전은 오픈소스",
+      "briefUrl": "brief/2026-07-14.html",
+      "section": "실무 액션 아이디어",
+      "sectionId": "실무-액션-아이디어",
+      "cardId": "c-실무-액션-아이디어-05",
+      "title": "공공 AI RFP 대응:",
+      "snippet": "국내 모델 50% 요건·행정 API·접근성 설계를 체크리스트화하고 8/11 마감 전 파트너십 후보를 좁힌다.",
+      "text": "공공 AI RFP 대응: 국내 모델 50% 요건·행정 API·접근성 설계를 체크리스트화하고 8/11 마감 전 파트너십 후보를 좁힌다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-14.html#c-실무-액션-아이디어-05"
     }
   ]
 }
