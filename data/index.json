@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T11:35:59",
+  "generated_at": "2026-07-29T11:38:39",
   "platform": "AI Pulse",
   "count": 11,
   "domains": {
@@ -267,11 +267,11 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "Microsoft",
-        "Zapier",
-        "Google"
+        "Google",
+        "Zapier"
       ],
       "has_rumor": false,
       "source": "md",
