@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T11:52:18",
+  "generated_at": "2026-07-29T12:33:47",
   "count": 209,
   "items": [
     {
@@ -112,12 +112,12 @@
       "displayDate": "2026년 7월 29일(수)",
       "briefTitle": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
       "briefUrl": "brief/2026-07-29.html",
-      "section": "콘텐츠 제작 · 크리에이티브",
-      "sectionId": "콘텐츠-제작-크리에이티브",
-      "cardId": "c-콘텐츠-제작-크리에이티브-01",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-01",
       "title": "Runway, Seedance 2.5 곧 탑재 예고",
       "snippet": "7/28 @runwayml: “Seedance 2.5 is coming soon to Runway” + 시네마틱 데모 영상. 정식 GA 일정·가격·해상도 스펙은 미공개 — 플랫폼 내 모델 추가 예고 단계.",
-      "text": "Runway, Seedance 2.5 곧 탑재 예고 7/28 @runwayml: “Seedance 2.5 is coming soon to Runway” + 시네마틱 데모 영상. 정식 GA 일정·가격·해상도 스펙은 미공개 — 플랫폼 내 모델 추가 예고 단계. 크리에이티브 팀은 기존 Seedance/Gen-4.5 워크플로 옆에 2.5 A/B 슬롯을 예약하고, 캐릭터 일관성·모션 품질 체크리스트를 미리 고정할 후보.",
+      "text": "Runway, Seedance 2.5 곧 탑재 예고 7/28 @runwayml: “Seedance 2.5 is coming soon to Runway” + 시네마틱 데모 영상. 정식 GA 일정·가격·해상도 스펙은 미공개 — 플랫폼 내 모델 추가 예고 단계. 기존 Seedance/Gen-4.5 옆에 2.5 슬롯을 예약하고, 캐릭터 일관성·모션 품질 체크리스트를 미리 고정할 후보.",
       "domains": [
         "agents",
         "creative",
@@ -126,7 +126,7 @@
         "models",
         "policy"
       ],
-      "href": "brief/2026-07-29.html#c-콘텐츠-제작-크리에이티브-01"
+      "href": "brief/2026-07-29.html#c-모델-플랫폼-01"
     },
     {
       "date": "2026-07-29",
@@ -135,7 +135,7 @@
       "briefUrl": "brief/2026-07-29.html",
       "section": "콘텐츠 제작 · 크리에이티브",
       "sectionId": "콘텐츠-제작-크리에이티브",
-      "cardId": "c-콘텐츠-제작-크리에이티브-02",
+      "cardId": "c-콘텐츠-제작-크리에이티브-01",
       "title": "Kling, Creator Off Script — Daon 고양이 IP·4K 일관성 사례",
       "snippet": "7/28 공식: 한국 크리에이터 Daon_box 에피소드. 연초 이후 AI 고양이 스토리 조회 2,000만+. Kling으로 캐릭터 일관성·네이티브 4K·장면 간 디테일 유지 강조.",
       "text": "Kling, Creator Off Script — Daon 고양이 IP·4K 일관성 사례 7/28 공식: 한국 크리에이터 Daon_box 에피소드. 연초 이후 AI 고양이 스토리 조회 2,000만+. Kling으로 캐릭터 일관성·네이티브 4K·장면 간 디테일 유지 강조. 전일 MCP 튜토리얼·bounce house와 별개 — IP 유지형 숏폼 레퍼런스 시그널.",
@@ -147,7 +147,7 @@
         "models",
         "policy"
       ],
-      "href": "brief/2026-07-29.html#c-콘텐츠-제작-크리에이티브-02"
+      "href": "brief/2026-07-29.html#c-콘텐츠-제작-크리에이티브-01"
     },
     {
       "date": "2026-07-29",

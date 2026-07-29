@@ -1071,17 +1071,29 @@ a.brief-nav-arrow:hover {
   flex: 0 0 auto;
   font-size: 12px;
   font-weight: 600;
-  color: var(--blue);
-  background: var(--blue-soft);
   padding: 5px 11px;
   border-radius: 980px;
   text-decoration: none;
   white-space: nowrap;
+  /* default = models blue; overridden per section icon color */
+  color: #0071e3;
+  background: rgba(0, 113, 227, 0.12);
 }
-.top-index-cat:hover {
-  background: rgba(0, 102, 204, 0.14);
-  text-decoration: none;
-}
+.top-index-cat:hover { text-decoration: none; filter: brightness(0.96); }
+/* Match .sec-icon--* colors */
+.top-index-cat--top { color: #c93400; background: rgba(255, 159, 10, 0.14); }
+.top-index-cat--models { color: #0071e3; background: rgba(0, 113, 227, 0.12); }
+.top-index-cat--creative { color: #8944ab; background: rgba(175, 82, 222, 0.12); }
+.top-index-cat--marketing { color: #d70015; background: rgba(255, 45, 85, 0.1); }
+.top-index-cat--tech { color: #1f8f3a; background: rgba(48, 209, 88, 0.14); }
+.top-index-cat--sns { color: #e3004f; background: rgba(255, 55, 95, 0.1); }
+.top-index-cat--action { color: #0071a4; background: rgba(100, 210, 255, 0.18); }
+.top-index-cat--links { color: #636366; background: rgba(142, 142, 147, 0.16); }
+.top-index-cat--note { color: #9a7400; background: rgba(255, 214, 10, 0.18); }
+.top-index-cat--agents { color: #5e5ce6; background: rgba(94, 92, 230, 0.12); }
+.top-index-cat--infra { color: #248a3d; background: rgba(48, 209, 88, 0.14); }
+.top-index-cat--policy { color: #d70015; background: rgba(255, 69, 58, 0.1); }
+.top-index-cat--default { color: var(--text-2); background: var(--fill); }
 .top-index-blurb {
   margin: 8px 0 0;
   font-size: 14px;
