@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-28T19:00:18",
+  "generated_at": "2026-07-29T10:13:12",
   "platform": "AI Pulse",
-  "count": 10,
+  "count": 11,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,88 +11,84 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "infra": 32,
-    "models": 84,
-    "creative": 25,
-    "marketing": 29,
-    "policy": 31,
-    "agents": 31
+    "models": 93,
+    "agents": 35,
+    "infra": 33,
+    "creative": 29,
+    "marketing": 30,
+    "policy": 32
   },
   "companies": [
     [
       "OpenAI",
-      134
+      165
     ],
     [
       "NVIDIA",
-      128
+      112
     ],
     [
       "Anthropic",
-      83
-    ],
-    [
-      "Gemini",
-      70
+      96
     ],
     [
       "Claude",
-      52
+      57
     ],
     [
       "Kling",
-      51
+      55
     ],
     [
-      "Google",
-      38
+      "Gemini",
+      45
+    ],
+    [
+      "Runway",
+      40
     ],
     [
       "DeepSeek",
       33
     ],
     [
-      "Runway",
-      32
+      "Microsoft",
+      30
     ],
     [
-      "Microsoft",
-      27
+      "Google",
+      29
     ],
     [
       "ChatGPT",
-      24
+      26
+    ],
+    [
+      "Midjourney",
+      16
     ],
     [
       "Meta",
       16
     ],
     [
-      "Mistral",
-      16
-    ],
-    [
-      "Hugging Face",
-      15
-    ],
-    [
-      "Midjourney",
-      12
+      "GitHub",
+      11
     ],
     [
       "Copilot",
-      12
-    ],
-    [
-      "Azure",
-      11
+      10
     ],
     [
       "Luma",
       10
     ],
     [
-      "GitHub",
+      "ElevenLabs",
+      7
+    ],
+    [
+      "Azure",
       7
     ],
     [
@@ -100,11 +96,11 @@
       5
     ],
     [
-      "Apple",
+      "Hugging Face",
       4
     ],
     [
-      "ElevenLabs",
+      "Apple",
       4
     ],
     [
@@ -134,15 +130,62 @@
     [
       "DeepMind",
       2
+    ],
+    [
+      "Mistral",
+      1
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-07-22",
-    "end": "2026-07-28",
+    "start": "2026-07-23",
+    "end": "2026-07-29",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-07-29",
+      "title": "AI Daily Brief — 2026-07-29 (최근 24h)",
+      "theme": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "theme_blurb": "Microsoft는 사이버 전용 모델로 Mythos를 제치고 Perception 에이전트 스택을 띄웠고, Anthropic Mythos는 HAWK·AES를 연구 수준으로 깎았다. 같은 주 OpenAI는 HF 침입 후속·Codex Security CLI를 공개하며 공방 레이스가 동시에 달렸다.",
+      "edition_title": "방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다",
+      "edition_blurb": "Microsoft는 사이버 전용 모델로 Mythos를 제치고 Perception 에이전트 스택을 띄웠고, Anthropic Mythos는 HAWK·AES를 연구 수준으로 깎았다. 같은 주 OpenAI는 HF 침입 후속·Codex Security CLI를 공개하며 공방 레이스가 동시에 달렸다.",
+      "url": "brief/2026-07-29.html",
+      "excerpt": "축은 Microsoft MAI-Cyber-1-Flash + Project Perception, Anthropic Mythos 암호 약점 발견, OpenAI HF 침입 7/28 후속(Artifactory 제로데이), Codex Security CLI 오픈소스, 프론티어 속도 조절(pacing) 스탠스 이다.  ",
+      "top5": [
+        "Microsoft, MAI-Cyber-1-Flash + Project Perception — CyberGym 96%·비용 반값 에이전트 방어 스택",
+        "Anthropic, Claude Mythos로 HAWK·AES 암호 약점 발견 — 60시간·~$10만, CryptanalysisBench 공개",
+        "OpenAI HF 침입 — 7/28 업데이트: Artifactory 제로데이·예정 릴리즈 모델 무관",
+        "OpenAI, Codex Security CLI 오픈소스 — 레포 스캔·수정 검증·CI 보안 체크",
+        "OpenAI·Anthropic, 프론티어 ‘속도 조절(pacing)’ 스탠스 — 정부 주도 도구·메커니즘 지지"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "OpenAI",
+        "Anthropic",
+        "Microsoft",
+        "Kling",
+        "Runway",
+        "Claude",
+        "GitHub",
+        "Midjourney",
+        "ElevenLabs",
+        "Azure",
+        "ChatGPT",
+        "NVIDIA",
+        "Gemini"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-07-28",
       "title": "AI Daily Brief — 2026-07-28 (최근 24h)",
@@ -227,8 +270,8 @@
         "ElevenLabs",
         "Midjourney",
         "Microsoft",
-        "Zapier",
-        "Google"
+        "Google",
+        "Zapier"
       ],
       "has_rumor": false,
       "source": "md",
@@ -405,8 +448,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Samsung"
       ],
       "has_rumor": false,
@@ -484,8 +527,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,
