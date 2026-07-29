@@ -1304,11 +1304,14 @@ a.brief-nav-arrow:hover {
   box-shadow: var(--shadow);
   background: #fff;
 }
-.news-card.rel-official { border-top: 3px solid #0071e3; }
-.news-card.rel-press { border-top: 3px solid #34c759; }
-.news-card.rel-community { border-top: 3px solid #af52de; }
-.news-card.rel-rumor { border-top: 3px solid #ff2d55; }
-.news-card.rel-viral { border-top: 3px solid #ff9f0a; }
+/* Reliability still tagged in HTML (rel-*) for search/filters; no top color bar */
+.news-card.rel-official,
+.news-card.rel-press,
+.news-card.rel-community,
+.news-card.rel-rumor,
+.news-card.rel-viral {
+  border-top: none;
+}
 .news-card-top {
   display: flex;
   align-items: center;
