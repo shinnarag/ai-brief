@@ -1288,29 +1288,32 @@ a.brief-nav-arrow:hover {
   gap: 14px;
 }
 .news-card {
-  background: var(--bg);
+  background: #fff;
   border-radius: 16px;
   padding: 18px 18px 16px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   min-height: 0;
-  border: 1px solid var(--line);
-  box-shadow: none;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  /* Neutral full box outline — no colored top accent */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
 }
 .news-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
   box-shadow: var(--shadow);
+  border-color: rgba(0, 0, 0, 0.14);
   background: #fff;
 }
-/* Reliability still tagged in HTML (rel-*) for search/filters; no top color bar */
+/* Reliability classes kept for semantics only — same neutral box as above */
 .news-card.rel-official,
 .news-card.rel-press,
 .news-card.rel-community,
 .news-card.rel-rumor,
 .news-card.rel-viral {
-  border-top: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top-color: rgba(0, 0, 0, 0.1);
 }
 .news-card-top {
   display: flex;
