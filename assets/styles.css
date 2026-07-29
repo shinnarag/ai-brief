@@ -289,11 +289,15 @@ img { max-width: 100%; }
 }
 .hero-panel .lead {
   margin: 0;
-  max-width: 40em;
+  max-width: 36em;
   font-size: 19px;
   color: var(--text-2);
   letter-spacing: -0.016em;
-  line-height: 1.4;
+  line-height: 1.45;
+}
+.hero-panel .lead br {
+  display: block;
+  content: "";
 }
 .hero-actions {
   display: flex; flex-wrap: wrap; gap: 10px;
