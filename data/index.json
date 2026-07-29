@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T11:41:14",
+  "generated_at": "2026-07-29T11:50:21",
   "platform": "AI Pulse",
   "count": 11,
   "domains": {
@@ -316,8 +316,8 @@
         "Luma",
         "Anthropic",
         "Copilot",
-        "Amazon",
-        "Google"
+        "Google",
+        "Amazon"
       ],
       "has_rumor": false,
       "source": "md",
