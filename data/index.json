@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-29T12:44:41",
+  "generated_at": "2026-07-30T10:13:42",
   "platform": "AI Pulse",
-  "count": 11,
+  "count": 12,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,69 +11,73 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "infra": 36,
-    "agents": 34,
-    "policy": 33,
-    "models": 92,
-    "creative": 27,
-    "marketing": 30
+    "marketing": 33,
+    "models": 98,
+    "creative": 28,
+    "agents": 37,
+    "infra": 37,
+    "policy": 33
   },
   "companies": [
     [
       "OpenAI",
-      168
+      166
     ],
     [
       "NVIDIA",
-      112
+      108
     ],
     [
       "Anthropic",
-      101
+      87
     ],
     [
       "Claude",
-      59
-    ],
-    [
-      "Kling",
-      53
+      61
     ],
     [
       "Gemini",
-      45
+      58
     ],
     [
-      "Runway",
-      38
+      "ChatGPT",
+      43
     ],
     [
-      "DeepSeek",
-      33
+      "Kling",
+      42
     ],
     [
       "Microsoft",
       32
     ],
     [
-      "Google",
-      29
+      "Runway",
+      30
     ],
     [
-      "ChatGPT",
-      26
+      "Google",
+      19
+    ],
+    [
+      "DeepSeek",
+      19
     ],
     [
       "Midjourney",
-      16
+      17
     ],
     [
-      "Meta",
-      16
+      "DeepMind",
+      13
     ],
     [
       "GitHub",
       11
+    ],
+    [
+      "Meta",
+      10
     ],
     [
       "Copilot",
@@ -85,11 +89,19 @@
     ],
     [
       "ElevenLabs",
+      8
+    ],
+    [
+      "Oracle",
       7
     ],
     [
       "Azure",
       7
+    ],
+    [
+      "Amazon",
+      6
     ],
     [
       "Cloudflare",
@@ -104,18 +116,6 @@
       4
     ],
     [
-      "Amazon",
-      4
-    ],
-    [
-      "xAI",
-      4
-    ],
-    [
-      "Salesforce",
-      4
-    ],
-    [
       "IBM",
       2
     ],
@@ -124,25 +124,60 @@
       2
     ],
     [
-      "Oracle",
+      "xAI",
       2
-    ],
-    [
-      "DeepMind",
-      2
-    ],
-    [
-      "Mistral",
-      1
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-07-23",
-    "end": "2026-07-29",
+    "start": "2026-07-24",
+    "end": "2026-07-30",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-07-30",
+      "title": "AI Daily Brief — 2026-07-30 (최근 24h)",
+      "theme": "연구실엔 무료 좌석, 벤치엔 하네스, 인재는 떠나고 있다",
+      "theme_blurb": "OpenAI는 학계에 GPT-5.6 프론티어를 10만 좌석으로 풀고, ARC-AGI-3에서는 API 설정 두 개로 점수를 세 배 올렸다. 같은 창에 DeepMind는 AlphaFold 팀을 해체·재배치했고 노벨급 인재는 Anthropic으로 옮긴다.",
+      "edition_title": "연구실엔 무료 좌석, 벤치엔 하네스, 인재는 떠나고 있다",
+      "edition_blurb": "OpenAI는 학계에 GPT-5.6 프론티어를 10만 좌석으로 풀고, ARC-AGI-3에서는 API 설정 두 개로 점수를 세 배 올렸다. 같은 창에 DeepMind는 AlphaFold 팀을 해체·재배치했고 노벨급 인재는 Anthropic으로 옮긴다.",
+      "url": "brief/2026-07-30.html",
+      "excerpt": "축은 ChatGPT for Academic Researchers, GPT-5.6 효율 스택(자기 최적화), ARC-AGI-3 retained reasoning + compaction, DeepMind AlphaFold 팀 해체, Gemini macOS 음성 생성·편집 이다.  ",
+      "top5": [
+        "OpenAI, ChatGPT for Academic Researchers — 10만 연구자 프론티어 무료 좌석",
+        "OpenAI, GPT-5.6 Sol이 자기 서빙 스택을 깎다 — 커널 20%·추측 디코딩 15%+",
+        "ARC-AGI-3 — retained reasoning + compaction으로 점수 약 3배·토큰 6분의 1",
+        "DeepMind, AlphaFold 팀 해체 — 원저자 다수 재배치·약 1/4 퇴사, 핵심은 Anthropic",
+        "Gemini on macOS — Fn 길게 눌러 전 앱 커서에 음성 작성·화면 컨텍스트 편집"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "companies": [
+        "OpenAI",
+        "Gemini",
+        "ChatGPT",
+        "DeepMind",
+        "Anthropic",
+        "NVIDIA",
+        "Claude",
+        "Google",
+        "Oracle",
+        "Amazon",
+        "Meta",
+        "Midjourney",
+        "ElevenLabs",
+        "Kling"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-07-29",
       "title": "AI Daily Brief — 2026-07-29 (최근 24h)",
@@ -179,8 +214,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "Gemini",
-        "NVIDIA"
+        "NVIDIA",
+        "Gemini"
       ],
       "has_rumor": false,
       "source": "md",
@@ -267,8 +302,8 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "Microsoft",
         "Google",
         "Zapier"
@@ -316,8 +351,8 @@
         "Luma",
         "Anthropic",
         "Copilot",
-        "Google",
-        "Amazon"
+        "Amazon",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -436,8 +471,8 @@
       ],
       "companies": [
         "Anthropic",
-        "OpenAI",
         "NVIDIA",
+        "OpenAI",
         "Google",
         "Adobe",
         "GitHub",
