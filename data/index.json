@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T11:16:02",
+  "generated_at": "2026-07-30T12:07:58",
   "platform": "AI Pulse",
   "count": 12,
   "domains": {
@@ -13,9 +13,9 @@
   "domain_counts": {
     "marketing": 33,
     "models": 98,
+    "agents": 39,
     "policy": 34,
-    "creative": 28,
-    "agents": 38,
+    "creative": 29,
     "infra": 37
   },
   "companies": [
@@ -37,7 +37,7 @@
     ],
     [
       "Gemini",
-      58
+      53
     ],
     [
       "Kling",
@@ -68,11 +68,15 @@
       17
     ],
     [
+      "GitHub",
+      17
+    ],
+    [
       "DeepMind",
       13
     ],
     [
-      "GitHub",
+      "Hugging Face",
       11
     ],
     [
@@ -108,10 +112,6 @@
       5
     ],
     [
-      "Hugging Face",
-      4
-    ],
-    [
       "Apple",
       4
     ],
@@ -143,13 +143,13 @@
       "edition_title": "연구실엔 무료 좌석, 벤치엔 하네스, 인재는 떠나고 있다",
       "edition_blurb": "OpenAI는 학계에 GPT-5.6 프론티어를 10만 좌석으로 풀고, ARC-AGI-3에서는 API 설정 두 개로 점수를 세 배 올렸다. 같은 창에 DeepMind는 AlphaFold 팀을 해체·재배치했고 노벨급 인재는 Anthropic으로 옮긴다.",
       "url": "brief/2026-07-30.html",
-      "excerpt": "축은 ChatGPT for Academic Researchers, GPT-5.6 효율 스택(자기 최적화), ARC-AGI-3 retained reasoning + compaction, DeepMind AlphaFold 팀 해체, Gemini macOS 음성 생성·편집 이다.  ",
+      "excerpt": "축은 SKT A.X K2 오픈웨이트, ChatGPT for Academic Researchers, GPT-5.6 효율 스택, ARC-AGI-3 retained reasoning + compaction, DeepMind AlphaFold 팀 해체 이다.  ",
       "top5": [
         "OpenAI, ChatGPT for Academic Researchers — 10만 연구자 프론티어 무료 좌석",
         "OpenAI, GPT-5.6 Sol이 자기 서빙 스택을 깎다 — 커널 20%·추측 디코딩 15%+",
         "ARC-AGI-3 — retained reasoning + compaction으로 점수 약 3배·토큰 6분의 1",
         "DeepMind, AlphaFold 팀 해체 — 원저자 다수 재배치·약 1/4 퇴사, 핵심은 Anthropic",
-        "Gemini on macOS — Fn 길게 눌러 전 앱 커서에 음성 작성·화면 컨텍스트 편집"
+        "SKT A.X K2 — 688B MoE 오픈웨이트·독파모 2차 공개"
       ],
       "domains": [
         "agents",
@@ -167,13 +167,14 @@
         "Anthropic",
         "NVIDIA",
         "Claude",
+        "Hugging Face",
         "Google",
+        "GitHub",
         "Oracle",
         "Kling",
-        "Amazon",
         "Runway",
+        "Amazon",
         "Meta",
-        "Midjourney",
         "ElevenLabs"
       ],
       "has_rumor": false,
@@ -216,8 +217,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "NVIDIA",
-        "Gemini"
+        "Gemini",
+        "NVIDIA"
       ],
       "has_rumor": false,
       "source": "md",
@@ -262,8 +263,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Meta",
-        "Luma"
+        "Luma",
+        "Meta"
       ],
       "has_rumor": false,
       "source": "md",
@@ -304,11 +305,11 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "Microsoft",
-        "Zapier",
-        "Google"
+        "Google",
+        "Zapier"
       ],
       "has_rumor": false,
       "source": "md",
@@ -345,16 +346,16 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Claude",
         "Gemini",
+        "Claude",
         "Kling",
         "Meta",
         "Cloudflare",
         "Luma",
         "Anthropic",
         "Copilot",
-        "Amazon",
-        "Google"
+        "Google",
+        "Amazon"
       ],
       "has_rumor": false,
       "source": "md",

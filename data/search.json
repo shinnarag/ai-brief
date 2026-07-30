@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T11:16:02",
-  "count": 218,
+  "generated_at": "2026-07-30T12:07:58",
+  "count": 220,
   "items": [
     {
       "date": "2026-07-30",
@@ -94,9 +94,9 @@
       "section": "Top 5",
       "sectionId": "top-5",
       "cardId": "c-top-5-05",
-      "title": "Gemini on macOS — Fn 길게 눌러 전 앱 커서에 음성 작성·화면 컨텍스트 편집",
-      "snippet": "7/29 앱 릴리즈 노트: 영어 전 사용자, 추론 켜면 선택 텍스트 재작성·로컬 파일 추출·이미지 생성까지.",
-      "text": "Gemini on macOS — Fn 길게 눌러 전 앱 커서에 음성 작성·화면 컨텍스트 편집 7/29 앱 릴리즈 노트: 영어 전 사용자, 추론 켜면 선택 텍스트 재작성·로컬 파일 추출·이미지 생성까지. 모델 · 플랫폼",
+      "title": "SKT A.X K2 — 688B MoE 오픈웨이트·독파모 2차 공개",
+      "snippet": "7/29 Hugging Face Apache 2.0: 총 688B / 활성 33B, 256K 컨텍스트, Think/Non-Think 통합. VL·ALM·Raon-Speech 파생 포함.",
+      "text": "SKT A.X K2 — 688B MoE 오픈웨이트·독파모 2차 공개 7/29 Hugging Face Apache 2.0: 총 688B / 활성 33B, 256K 컨텍스트, Think/Non-Think 통합. VL·ALM·Raon-Speech 파생 포함. 모델 · 플랫폼",
       "domains": [
         "agents",
         "creative",
@@ -115,9 +115,9 @@
       "section": "모델 · 플랫폼",
       "sectionId": "모델-플랫폼",
       "cardId": "c-모델-플랫폼-01",
-      "title": "ARC-AGI-3 — retained reasoning + compaction으로 점수 약 3배·출력 토큰 6분의 1",
-      "snippet": "(사실) 7/29 OpenAI 연구: GPT-5.6 Sol이 ARC-AGI-3(지시 없이 낯선 2D 퍼즐 게임을 학습하는 벤치)에서 초반 저점수(솔 7.8%, 5.5는 0.4%)로 의문이 생겼고, 공식 하네스 설정이 원인으로 드러남.",
-      "text": "ARC-AGI-3 — retained reasoning + compaction으로 점수 약 3배·출력 토큰 6분의 1 (사실) 7/29 OpenAI 연구: GPT-5.6 Sol이 ARC-AGI-3(지시 없이 낯선 2D 퍼즐 게임을 학습하는 벤치)에서 초반 저점수(솔 7.8%, 5.5는 0.4%)로 의문이 생겼고, 공식 하네스 설정이 원인으로 드러남. (원인) 매 액션 후 private reasoning 폐기 → 매 턴 게임을 처음부터 재해석. 컨텍스트 175k 문자 초과 시 롤링 truncation으로 과거 액션까지 소실. 모델 지능 한계가 아니라 기억 단절 하네스. (수치) Responses API + retained reasoning + compaction으로 공개 세트 점수 13.3% → 38.3%(RHAE, 인간 평균 추정 ~48%). 출력 토큰 약 6배 감소. 한 게임 예시에서 공식 하네스는 1레벨 이상 못 깨고, 개선 하네스는 6레벨 전부 클리어. (권고) 실서비스와 맞추려면 Chat Completions 대신 Responses API, reasoning 유지, compaction 사용. “벤치는 모델만이 아니라 API 설정·하네스·프롬프트 묶음” 메시지가 핵심. (영향) 에이전트 평가·리더보드 비교 시 reasoning drop 여부를 스펙에 명시해야 하고, 제품 팀은 장기 에이전트 루프의 컨텍스트 정책(append-only·compaction)을 기본값으로 재검토할 시점.",
+      "title": "SKT, A.X K2 오픈웨이트 공개 — 688B MoE·독파모 2차·Apache 2.0",
+      "snippet": "(사실) 7/29 SK텔레콤이 독자 파운데이션 모델 에이닷엑스 케이투(A.X K2) 를 Hugging Face에 공개. Apache 2.0 오픈웨이트, A.X K1 후속. 정부 독자 파운데이션 모델(독파모) 프로젝트 2차 라인.",
+      "text": "SKT, A.X K2 오픈웨이트 공개 — 688B MoE·독파모 2차·Apache 2.0 (사실) 7/29 SK텔레콤이 독자 파운데이션 모델 에이닷엑스 케이투(A.X K2) 를 Hugging Face에 공개. Apache 2.0 오픈웨이트, A.X K1 후속. 정부 독자 파운데이션 모델(독파모) 프로젝트 2차 라인. (스펙) 총 매개변수 688B(국내 공개 기준 최대급), 활성 33B/토큰. MoE: routed expert 256 + shared 1, 토큰당 8 expert 활성(K1 192→256, 활성 33B 유지). 컨텍스트 256K(네이티브 128K + YaRN). 사전학습 약 8.2T 토큰. 네이티브 FP8 학습·체크포인트. Think-Fusion으로 Think / Non-Think 단일 모델 제어. (아키텍처) Sparse Gated Attention(SGA)·Gated Norm 등으로 장문 추론·저정밀 서빙 안정화 주장. Transformers axk2 네이티브 지원(소스 설치 단계), vLLM은 SKT fork 경로. full FP8 로드 대략 650GiB+ GPU 메모리(엔터프라이즈/멀티 GPU 전제). (라인업) 메인 688B 외 A.X K2 VL Light-Preview(~21B, 비전·문서), A.X K2 ALM(~22B, 오디오), A.X K2 Raon-Speech(크래프톤 컨소시엄 SpeechLM) 등 파생. (성능 주장) K1 대비 14개 벤치 평균 +32.2%p. AA-LCR 26→66, Apex 1→45.8, KoBALT 51→73, AIME26 97.1 등. 수학·한국어·장문에서 비교 오픈 모델 상위 주장; 코딩은 솔라 오픈2 등과 강점 분리. 벤치 조건 통일 비교는 별도 검증 필요. (적용) 에이닷 비즈·SK하이닉스 사내·KG스틸 현장·국방·바이오 파일럿 등 “일상·산업 AX” 메시지. 후속 조 단위 스케일 언급. (영향) 국내 온프렘·주권 AI·B2B 파일럿 팀은 HF 가중치·테크 리포트·vLLM 경로를 48h 내 체크리스트에 넣고, 솔라 오픈2·해외 오픈 모델과 한국어·장문·에이전트·서빙 비용 축으로 A/B 후보.",
       "domains": [
         "agents",
         "creative",
@@ -136,6 +136,27 @@
       "section": "모델 · 플랫폼",
       "sectionId": "모델-플랫폼",
       "cardId": "c-모델-플랫폼-02",
+      "title": "ARC-AGI-3 — retained reasoning + compaction으로 점수 약 3배·출력 토큰 6분의 1",
+      "snippet": "(사실) 7/29 OpenAI 연구: GPT-5.6 Sol이 ARC-AGI-3(지시 없이 낯선 2D 퍼즐 게임을 학습하는 벤치)에서 초반 저점수(솔 7.8%, 5.5는 0.4%)로 의문이 생겼고, 공식 하네스 설정이 원인으로 드러남.",
+      "text": "ARC-AGI-3 — retained reasoning + compaction으로 점수 약 3배·출력 토큰 6분의 1 (사실) 7/29 OpenAI 연구: GPT-5.6 Sol이 ARC-AGI-3(지시 없이 낯선 2D 퍼즐 게임을 학습하는 벤치)에서 초반 저점수(솔 7.8%, 5.5는 0.4%)로 의문이 생겼고, 공식 하네스 설정이 원인으로 드러남. (원인) 매 액션 후 private reasoning 폐기 → 매 턴 게임을 처음부터 재해석. 컨텍스트 175k 문자 초과 시 롤링 truncation으로 과거 액션까지 소실. 모델 지능 한계가 아니라 기억 단절 하네스. (수치) Responses API + retained reasoning + compaction으로 공개 세트 점수 13.3% → 38.3%(RHAE, 인간 평균 추정 ~48%). 출력 토큰 약 6배 감소. 한 게임 예시에서 공식 하네스는 1레벨 이상 못 깨고, 개선 하네스는 6레벨 전부 클리어. (권고) 실서비스와 맞추려면 Chat Completions 대신 Responses API, reasoning 유지, compaction 사용. “벤치는 모델만이 아니라 API 설정·하네스·프롬프트 묶음” 메시지가 핵심. (영향) 에이전트 평가·리더보드 비교 시 reasoning drop 여부를 스펙에 명시해야 하고, 제품 팀은 장기 에이전트 루프의 컨텍스트 정책(append-only·compaction)을 기본값으로 재검토할 시점.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-30.html#c-모델-플랫폼-02"
+    },
+    {
+      "date": "2026-07-30",
+      "displayDate": "2026년 7월 30일(목)",
+      "briefTitle": "연구실엔 무료 좌석, 벤치엔 하네스, 인재는 떠나고 있다",
+      "briefUrl": "brief/2026-07-30.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-03",
       "title": "Gemini on macOS — Fn 길게 눌러 데스크톱 어디서나 음성으로 작성·편집",
       "snippet": "(사실) 7/29 Gemini 앱 릴리즈 노트 2026.07.29: macOS용 Gemini에서 Fn 키 길게 누르면 활성 창에 말해, 다듬어진 텍스트가 커서 위치에 바로 삽입.",
       "text": "Gemini on macOS — Fn 길게 눌러 데스크톱 어디서나 음성으로 작성·편집 (사실) 7/29 Gemini 앱 릴리즈 노트 2026.07.29: macOS용 Gemini에서 Fn 키 길게 누르면 활성 창에 말해, 다듬어진 텍스트가 커서 위치에 바로 삽입. (범위) 오늘부터 macOS Gemini 앱 전 사용자·영어. gemini.google/mac에서 다운로드. 4월 네이티브 Mac 앱(Option+Space) 이후 음성 1st 입력 레이어 추가. (디테일) 앱 설정에서 Gemini 추론을 켜면 화면 컨텍스트 기반으로 선택 텍스트 재작성·형식 변경, 로컬 파일 선택 후 정보 추출, 원하는 위치에 이미지 생성 등 확장. 횡설수설·말 고침도 이해한다고 명시. (맥락) 웹/모바일 Live·Voice와 달리 OS 전역 커서 삽입 — 문서·IDE·메일을 떠나지 않는 워크플로. ChatGPT 데스크톱 보이스·Work 축과 데스크톱 점유 경쟁. (영향) Mac 지식근로·크리에이터 파일럿은 Fn 단축키 온보딩, 민감 화면 공유 정책, 영어 외 롤아웃 일정을 체크리스트에 추가하면 된다.",
@@ -147,7 +168,7 @@
         "models",
         "policy"
       ],
-      "href": "brief/2026-07-30.html#c-모델-플랫폼-02"
+      "href": "brief/2026-07-30.html#c-모델-플랫폼-03"
     },
     {
       "date": "2026-07-30",
@@ -337,6 +358,27 @@
         "policy"
       ],
       "href": "brief/2026-07-30.html#c-sns-트렌드-루머-바이럴-03"
+    },
+    {
+      "date": "2026-07-30",
+      "displayDate": "2026년 7월 30일(목)",
+      "briefTitle": "연구실엔 무료 좌석, 벤치엔 하네스, 인재는 떠나고 있다",
+      "briefUrl": "brief/2026-07-30.html",
+      "section": "SNS 트렌드 · 루머 · 바이럴",
+      "sectionId": "sns-트렌드-루머-바이럴",
+      "cardId": "c-sns-트렌드-루머-바이럴-04",
+      "title": "A.X K2 오픈웨이트 — “688B 주권 모델” 프레임",
+      "snippet": "7/29 HF 공개 직후 “Korea sovereign MoE / Apache 2.0 / 수학·한국어 벤치” 요약 카드가 개발·통신 타임라인에 공유. 스펙·벤치는 모델 카드.",
+      "text": "A.X K2 오픈웨이트 — “688B 주권 모델” 프레임 7/29 HF 공개 직후 “Korea sovereign MoE / Apache 2.0 / 수학·한국어 벤치” 요약 카드가 개발·통신 타임라인에 공유. 스펙·벤치는 모델 카드.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-30.html#c-sns-트렌드-루머-바이럴-04"
     },
     {
       "date": "2026-07-29",
