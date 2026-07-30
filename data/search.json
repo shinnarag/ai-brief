@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T11:05:14",
-  "count": 216,
+  "generated_at": "2026-07-30T11:16:02",
+  "count": 218,
   "items": [
     {
       "date": "2026-07-30",
@@ -18,7 +18,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-07-30.html#c-top-5-01"
     },
@@ -38,7 +39,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-07-30.html#c-top-5-02"
     },
@@ -58,7 +60,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-07-30.html#c-top-5-03"
     },
@@ -78,7 +81,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-07-30.html#c-top-5-04"
     },
@@ -98,7 +102,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-07-30.html#c-top-5-05"
     },
@@ -118,7 +123,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-07-30.html#c-모델-플랫폼-01"
     },
@@ -138,7 +144,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-07-30.html#c-모델-플랫폼-02"
     },
@@ -150,6 +157,27 @@
       "section": "콘텐츠 제작 · 크리에이티브",
       "sectionId": "콘텐츠-제작-크리에이티브",
       "cardId": "c-콘텐츠-제작-크리에이티브-01",
+      "title": "MiniMax Hailuo AI, 새 영상 모델 H3 — 네이티브 2K·15초·옴니 레퍼런스",
+      "snippet": "(사실) 7/29 전후 MiniMax의 Hailuo AI 계열이 새 비디오 모델 H3(커뮤니티·CPP 표기 #MiniMaxH3)를 얼리 액세스·크리에이터 채널로 공개. Hailuo 2.3 계열 이후 영상 스택의 다음 카드로 읽힌다.",
+      "text": "MiniMax Hailuo AI, 새 영상 모델 H3 — 네이티브 2K·15초·옴니 레퍼런스 (사실) 7/29 전후 MiniMax의 Hailuo AI 계열이 새 비디오 모델 H3(커뮤니티·CPP 표기 #MiniMaxH3)를 얼리 액세스·크리에이터 채널로 공개. Hailuo 2.3 계열 이후 영상 스택의 다음 카드로 읽힌다. (스펙·크리에이터 공유) 클립 길이 약 15초, 네이티브 해상도 2560×1440(2K), 옴니(Omni) 레퍼런스 — 이미지·비디오·오디오를 묶어 최대 12개 레퍼런스 입력 주장. T2V뿐 아니라 멀티모달 컨디셔닝·네이티브 오디오 연동 데모가 동시에 올라옴. (디테일) 초기 테스터: 시네마틱·광고 톤 쇼트, 캐릭터 레퍼런스 유지, 탭 댄스 등 음성 동기·타임코드 지정 연기 등. 코스트 비교 스레드(JP)에서는 H3 2K = 150 크레딧 대 Seedance 15초 4K 1500 / 1080p 750 등 “개인 제작 코스파” 프레임이 붙음(플랫폼 크레딧 표·요금은 공식 페이지 재확인 필요). (맥락) Seedance 2.5 예고(전일)·Kling·Runway 등과 같은 창의 2K·장초·오디오 일체 경쟁. 공식 minimax.io 뉴스룸 장문 블로그보다 제품·CPP 채널 선배포 패턴. GA·API·전 사용자 오픈 일정은 후속 확인. (영향) 숏폼·광고·뮤비 프리비즈 팀은 H3 2K/15s·옴니 레퍼런스 워크플로를 파일럿 큐에 넣고, Seedance/Kling 대비 캐릭터 유지·오디오 싱크·크레딧 단가 3축으로 A/B 할 후보.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-30.html#c-콘텐츠-제작-크리에이티브-01"
+    },
+    {
+      "date": "2026-07-30",
+      "displayDate": "2026년 7월 30일(목)",
+      "briefTitle": "연구실엔 무료 좌석, 벤치엔 하네스, 인재는 떠나고 있다",
+      "briefUrl": "brief/2026-07-30.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-02",
       "title": "에이전트 코딩 × 과학 소프트웨어 — Codex·Claude Code 필드 리포트 (유전체 등)",
       "snippet": "(사실) 7/28 OpenAI 퍼블리케이션: 생명과학 중심 8개 에이전트 보조 과학 컴퓨팅 프로젝트 필드 리포트(PDF). 5건 Codex 단독, 3건 Codex+Claude Code.",
       "text": "에이전트 코딩 × 과학 소프트웨어 — Codex·Claude Code 필드 리포트 (유전체 등) (사실) 7/28 OpenAI 퍼블리케이션: 생명과학 중심 8개 에이전트 보조 과학 컴퓨팅 프로젝트 필드 리포트(PDF). 5건 Codex 단독, 3건 Codex+Claude Code. (범위) cyvcf2 등 유전체 파서 라이브러리 빌드/패키징 현대화부터 대규모 언어 마이그레이션·GPU 네이티브 재설계까지. 기여자: 에이전트가 구현 속도를 크게 올리나, 과학적 타당성 검증·장기 유지보수 소유권이 병목. (디테일) 역할 이동: 연구자는 구현 → 검증·오케스트레이션(목표 정의, 정답 기준, 출시 판단). 에이전트는 자신 있어도 오류를 포함하므로 외부 레퍼런스·통계 패리티·시뮬레이션 정답이 필요. “라스트 마일” 엣지 케이스가 가장 오래 걸림. (맥락) 유지비 하락이 유사 리라이트 난립·사용자 분열을 부를 수 있어 stewardship·업스트림 병합을 조기 설계해야 한다고 경고. MHCflurry·cyvcf2는 원 프로젝트 반영, rustar-aligner는 커뮤니티 신규 관리. (영향) 연구소·바이오인포 팀은 “에이전트 PR + 인간 검증 게이트 + 유지 책임자” 3종을 기본 템플릿으로 가져갈 후보. 크리에이티브·툴링 관점에서도 “생성 속도 ≠ 제품 품질” 프레임이 동일.",
@@ -158,9 +186,10 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
-      "href": "brief/2026-07-30.html#c-콘텐츠-제작-크리에이티브-01"
+      "href": "brief/2026-07-30.html#c-콘텐츠-제작-크리에이티브-02"
     },
     {
       "date": "2026-07-30",
@@ -178,7 +207,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-07-30.html#c-마케팅-비즈니스-01"
     },
@@ -198,7 +228,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-07-30.html#c-마케팅-비즈니스-02"
     },
@@ -218,7 +249,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-07-30.html#c-테크-인프라-규제-보안-01"
     },
@@ -238,7 +270,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-07-30.html#c-테크-인프라-규제-보안-02"
     },
@@ -258,7 +291,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-07-30.html#c-sns-트렌드-루머-바이럴-01"
     },
@@ -278,9 +312,31 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-07-30.html#c-sns-트렌드-루머-바이럴-02"
+    },
+    {
+      "date": "2026-07-30",
+      "displayDate": "2026년 7월 30일(목)",
+      "briefTitle": "연구실엔 무료 좌석, 벤치엔 하네스, 인재는 떠나고 있다",
+      "briefUrl": "brief/2026-07-30.html",
+      "section": "SNS 트렌드 · 루머 · 바이럴",
+      "sectionId": "sns-트렌드-루머-바이럴",
+      "cardId": "c-sns-트렌드-루머-바이럴-03",
+      "title": "#MiniMaxH3 — Hailuo 새 영상 모델 크리에이터 데모 확산",
+      "snippet": "7/29 오후부터 CPP·크리에이터 채널에 H3 2K·15s 클립·옴니 레퍼런스 테스트가 연쇄 업로드. 제품 스펙는 콘텐츠 카드, 여기선 태그·얼리 액세스 바이럴만.",
+      "text": "#MiniMaxH3 — Hailuo 새 영상 모델 크리에이터 데모 확산 7/29 오후부터 CPP·크리에이터 채널에 H3 2K·15s 클립·옴니 레퍼런스 테스트가 연쇄 업로드. 제품 스펙는 콘텐츠 카드, 여기선 태그·얼리 액세스 바이럴만.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-07-30.html#c-sns-트렌드-루머-바이럴-03"
     },
     {
       "date": "2026-07-29",

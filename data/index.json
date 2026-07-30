@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T11:05:14",
+  "generated_at": "2026-07-30T11:16:02",
   "platform": "AI Pulse",
   "count": 12,
   "domains": {
@@ -13,10 +13,10 @@
   "domain_counts": {
     "marketing": 33,
     "models": 98,
+    "policy": 34,
     "creative": 28,
-    "agents": 37,
-    "infra": 37,
-    "policy": 33
+    "agents": 38,
+    "infra": 37
   },
   "companies": [
     [
@@ -40,20 +40,20 @@
       58
     ],
     [
+      "Kling",
+      45
+    ],
+    [
       "ChatGPT",
       43
     ],
     [
-      "Kling",
-      42
+      "Runway",
+      32
     ],
     [
       "Microsoft",
       32
-    ],
-    [
-      "Runway",
-      30
     ],
     [
       "Google",
@@ -156,7 +156,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "companies": [
         "OpenAI",
@@ -168,11 +169,12 @@
         "Claude",
         "Google",
         "Oracle",
+        "Kling",
         "Amazon",
+        "Runway",
         "Meta",
-        "ElevenLabs",
         "Midjourney",
-        "Kling"
+        "ElevenLabs"
       ],
       "has_rumor": false,
       "source": "md",
@@ -214,8 +216,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "Gemini",
-        "NVIDIA"
+        "NVIDIA",
+        "Gemini"
       ],
       "has_rumor": false,
       "source": "md",
@@ -302,8 +304,8 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "Microsoft",
         "Zapier",
         "Google"
@@ -343,16 +345,16 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Gemini",
         "Claude",
+        "Gemini",
         "Kling",
         "Meta",
         "Cloudflare",
         "Luma",
         "Anthropic",
         "Copilot",
-        "Google",
-        "Amazon"
+        "Amazon",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -483,8 +485,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Samsung"
       ],
       "has_rumor": false,
@@ -562,8 +564,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,
