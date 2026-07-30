@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T10:57:11",
+  "generated_at": "2026-07-30T11:05:14",
   "platform": "AI Pulse",
   "count": 12,
   "domains": {
@@ -21,7 +21,7 @@
   "companies": [
     [
       "OpenAI",
-      166
+      172
     ],
     [
       "NVIDIA",
@@ -170,8 +170,8 @@
         "Oracle",
         "Amazon",
         "Meta",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "Kling"
       ],
       "has_rumor": false,
@@ -214,8 +214,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "NVIDIA",
-        "Gemini"
+        "Gemini",
+        "NVIDIA"
       ],
       "has_rumor": false,
       "source": "md",
@@ -302,8 +302,8 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "Microsoft",
         "Zapier",
         "Google"
@@ -343,16 +343,16 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Claude",
         "Gemini",
+        "Claude",
         "Kling",
         "Meta",
         "Cloudflare",
         "Luma",
         "Anthropic",
         "Copilot",
-        "Amazon",
-        "Google"
+        "Google",
+        "Amazon"
       ],
       "has_rumor": false,
       "source": "md",
@@ -471,8 +471,8 @@
       ],
       "companies": [
         "Anthropic",
-        "OpenAI",
         "NVIDIA",
+        "OpenAI",
         "Google",
         "Adobe",
         "GitHub",
@@ -483,8 +483,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Samsung"
       ],
       "has_rumor": false,
@@ -562,8 +562,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,
