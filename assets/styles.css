@@ -1321,8 +1321,8 @@ a.brief-nav-arrow:hover {
 }
 .news-card-top {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
   gap: 8px;
 }
 .news-num {
@@ -1402,6 +1402,14 @@ a.brief-nav-arrow:hover {
   color: var(--text-3);
   font-weight: 500;
   background: transparent;
+}
+/* Body card linked from Top 5 index — not a second copy of the story */
+.news-chip-top5 {
+  color: #c93400;
+  background: rgba(255, 159, 10, 0.16);
+  border-color: rgba(255, 159, 10, 0.35);
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 .news-empty {
   margin: 0;

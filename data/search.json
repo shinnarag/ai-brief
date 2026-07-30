@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T10:13:42",
-  "count": 227,
+  "generated_at": "2026-07-30T10:57:11",
+  "count": 216,
   "items": [
     {
       "date": "2026-07-30",
@@ -147,26 +147,6 @@
       "displayDate": "2026년 7월 30일(목)",
       "briefTitle": "연구실엔 무료 좌석, 벤치엔 하네스, 인재는 떠나고 있다",
       "briefUrl": "brief/2026-07-30.html",
-      "section": "모델 · 플랫폼",
-      "sectionId": "모델-플랫폼",
-      "cardId": "c-모델-플랫폼-03",
-      "title": "Gemini on macOS — Fn 길게 눌러 전 앱 커서에 음성 작성·화면 컨텍스트 편집",
-      "snippet": "7/29 앱 릴리즈 노트: 영어 전 사용자, 추론 켜면 선택 텍스트 재작성·로컬 파일 추출·이미지 생성까지.",
-      "text": "Gemini on macOS — Fn 길게 눌러 전 앱 커서에 음성 작성·화면 컨텍스트 편집 7/29 앱 릴리즈 노트: 영어 전 사용자, 추론 켜면 선택 텍스트 재작성·로컬 파일 추출·이미지 생성까지.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models"
-      ],
-      "href": "brief/2026-07-30.html#c-모델-플랫폼-03"
-    },
-    {
-      "date": "2026-07-30",
-      "displayDate": "2026년 7월 30일(목)",
-      "briefTitle": "연구실엔 무료 좌석, 벤치엔 하네스, 인재는 떠나고 있다",
-      "briefUrl": "brief/2026-07-30.html",
       "section": "콘텐츠 제작 · 크리에이티브",
       "sectionId": "콘텐츠-제작-크리에이티브",
       "cardId": "c-콘텐츠-제작-크리에이티브-01",
@@ -227,26 +207,6 @@
       "displayDate": "2026년 7월 30일(목)",
       "briefTitle": "연구실엔 무료 좌석, 벤치엔 하네스, 인재는 떠나고 있다",
       "briefUrl": "brief/2026-07-30.html",
-      "section": "마케팅 · 비즈니스",
-      "sectionId": "마케팅-비즈니스",
-      "cardId": "c-마케팅-비즈니스-03",
-      "title": "OpenAI, ChatGPT for Academic Researchers — 10만 연구자 프론티어 무료 좌석",
-      "snippet": "7/29: 학계 연구진에 GPT-5.6 계열 등 프론티어를 12개월 무료 워크스페이스로 제공, 여름 1만 → 2027년까지 10만 확장.",
-      "text": "OpenAI, ChatGPT for Academic Researchers — 10만 연구자 프론티어 무료 좌석 7/29: 학계 연구진에 GPT-5.6 계열 등 프론티어를 12개월 무료 워크스페이스로 제공, 여름 1만 → 2027년까지 10만 확장.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models"
-      ],
-      "href": "brief/2026-07-30.html#c-마케팅-비즈니스-03"
-    },
-    {
-      "date": "2026-07-30",
-      "displayDate": "2026년 7월 30일(목)",
-      "briefTitle": "연구실엔 무료 좌석, 벤치엔 하네스, 인재는 떠나고 있다",
-      "briefUrl": "brief/2026-07-30.html",
       "section": "테크 · 인프라 · 규제 · 보안",
       "sectionId": "테크-인프라-규제-보안",
       "cardId": "c-테크-인프라-규제-보안-01",
@@ -281,46 +241,6 @@
         "models"
       ],
       "href": "brief/2026-07-30.html#c-테크-인프라-규제-보안-02"
-    },
-    {
-      "date": "2026-07-30",
-      "displayDate": "2026년 7월 30일(목)",
-      "briefTitle": "연구실엔 무료 좌석, 벤치엔 하네스, 인재는 떠나고 있다",
-      "briefUrl": "brief/2026-07-30.html",
-      "section": "테크 · 인프라 · 규제 · 보안",
-      "sectionId": "테크-인프라-규제-보안",
-      "cardId": "c-테크-인프라-규제-보안-03",
-      "title": "OpenAI, GPT-5.6 Sol이 자기 서빙 스택을 깎다 — 커널 20%·추측 디코딩 15%+",
-      "snippet": "7/29 엔지니어링: Sol+Codex로 프로덕션 커널·스펙큘러티브 디코딩·로드밸런싱을 자율 개선, 지능·비용 곡선 양쪽 주장.",
-      "text": "OpenAI, GPT-5.6 Sol이 자기 서빙 스택을 깎다 — 커널 20%·추측 디코딩 15%+ 7/29 엔지니어링: Sol+Codex로 프로덕션 커널·스펙큘러티브 디코딩·로드밸런싱을 자율 개선, 지능·비용 곡선 양쪽 주장.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models"
-      ],
-      "href": "brief/2026-07-30.html#c-테크-인프라-규제-보안-03"
-    },
-    {
-      "date": "2026-07-30",
-      "displayDate": "2026년 7월 30일(목)",
-      "briefTitle": "연구실엔 무료 좌석, 벤치엔 하네스, 인재는 떠나고 있다",
-      "briefUrl": "brief/2026-07-30.html",
-      "section": "테크 · 인프라 · 규제 · 보안",
-      "sectionId": "테크-인프라-규제-보안",
-      "cardId": "c-테크-인프라-규제-보안-04",
-      "title": "DeepMind, AlphaFold 팀 해체 — 원저자 다수 재배치·약 1/4 퇴사, 핵심은 Anthropic",
-      "snippet": "7/29 FT: 그랜드 챌린지 전담 전략에서 Gemini 에이전트·과학 가속으로 전환, Jumper 등 노벨급 인재 이탈.",
-      "text": "DeepMind, AlphaFold 팀 해체 — 원저자 다수 재배치·약 1/4 퇴사, 핵심은 Anthropic 7/29 FT: 그랜드 챌린지 전담 전략에서 Gemini 에이전트·과학 가속으로 전환, Jumper 등 노벨급 인재 이탈.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models"
-      ],
-      "href": "brief/2026-07-30.html#c-테크-인프라-규제-보안-04"
     },
     {
       "date": "2026-07-30",
@@ -1021,27 +941,6 @@
       "section": "테크 · 인프라 · 규제 · 보안",
       "sectionId": "테크-인프라-규제-보안",
       "cardId": "c-테크-인프라-규제-보안-04",
-      "title": "Anthropic, 오픈웨이트 공식 입장 — “금지 주장 안 함”, 칩·증류·안전평가 3축",
-      "snippet": "7/27 Dario Amodei 명의 장문 성명. 중 오픈웨이트·Jensen 공개 서한·“Anthropic이 금지를 원한다” 루머에 대한 직접 응답. 오픈웨이트 모델 범주 금지 주장을 한 적 없다고 명시. 위험 능력 없는 오픈웨이트는 공공재에 가깝다고 평가.",
-      "text": "Anthropic, 오픈웨이트 공식 입장 — “금지 주장 안 함”, 칩·증류·안전평가 3축 7/27 Dario Amodei 명의 장문 성명. 중 오픈웨이트·Jensen 공개 서한·“Anthropic이 금지를 원한다” 루머에 대한 직접 응답. 오픈웨이트 모델 범주 금지 주장을 한 적 없다고 명시. 위험 능력 없는 오픈웨이트는 공공재에 가깝다고 평가. 위협 두 축: (1) 권위주의 정부가 미보다 강한 모델을 군사·감시용으로 확보, (2) 사이버·생물·정렬 실패 오용. 후자는 오픈웨이트가 가드레일·모니터링·회수가 어렵다는 점에서 폐쇄 대비 리스크가 클 수 있다고 인정 — 다만 미 기업 사용 금지로는 해결 안 됨. 지지 정책 3가지: 대중국 고성능 칩·장비 수출 통제·밀수 단속, 산업 규모 증류 작전 억제, 오픈·폐쇄 모두 충분한 능력 모델의 의무 안전 테스트. 서한의 접근성·경쟁 논지는 상당 부분 동의, “오픈이 방어에 유리”는 실증 전제라고 반박. 타이밍: K3 가중치 D-day·Open Secure AI Alliance·Jensen/Musk/Sama/Google 오픈웨이트 연대 직후. X 성명 게시 조회 약 99만(수집 시점). 정책·조달 팀은 “오픈웨이트 전면 금지가 아닌 칩·증류·프리릴리즈 테스트” 프레임으로 내부 리스크 메모를 재작성할 후보.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-07-28.html#c-테크-인프라-규제-보안-04"
-    },
-    {
-      "date": "2026-07-28",
-      "displayDate": "2026년 7월 28일(화)",
-      "briefTitle": "가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로",
-      "briefUrl": "brief/2026-07-28.html",
-      "section": "테크 · 인프라 · 규제 · 보안",
-      "sectionId": "테크-인프라-규제-보안",
-      "cardId": "c-테크-인프라-규제-보안-05",
       "title": "Nvidia Open Secure AI Alliance — 오픈 툴로 AI 사이버 방어, MS·SpaceX·HF 등 수십 사",
       "snippet": "7/27 Nvidia: 오픈소스 기법으로 소프트웨어·에이전트 취약점 식별·패치·공개를 공동 추진하는 Open Secure AI Alliance 출범. 창립 멤버 약 27~40사 규모 보도(Microsoft, Dell, SpaceX, Linux Foundation/OpenSSF 축,…",
       "text": "Nvidia Open Secure AI Alliance — 오픈 툴로 AI 사이버 방어, MS·SpaceX·HF 등 수십 사 7/27 Nvidia: 오픈소스 기법으로 소프트웨어·에이전트 취약점 식별·패치·공개를 공동 추진하는 Open Secure AI Alliance 출범. 창립 멤버 약 27~40사 규모 보도(Microsoft, Dell, SpaceX, Linux Foundation/OpenSSF 축, CrowdStrike, IBM, Palantir, Hugging Face 등 나열 매체 다수). 포지션: “업계가 함께 오픈으로 지킨다” — 모델·툴링·연구 공유로 방어자 커뮤니티 확대. Linux Foundation Akrites·OpenSSF 작업 위에 쌓는다고 명시(보도·블로그 요약). 맥락: 7/22 OpenAI 평가 모델의 HF 침입 공개 직후 주. Jensen 오픈웨이트 지지 서한·K3 드롭과 같은 날 축. Meta는 서한 서명했으나 연합 명단 미포함 지적(Yahoo 등). 보안·플랫폼 팀은 OSAA 산출물(스캐너·에이전트 하드닝 가이드)을 Glasswing·사내 레드팀 체크리스트 옆에 추적 항목으로 올릴 후보.",
@@ -1053,7 +952,7 @@
         "models",
         "policy"
       ],
-      "href": "brief/2026-07-28.html#c-테크-인프라-규제-보안-05"
+      "href": "brief/2026-07-28.html#c-테크-인프라-규제-보안-04"
     },
     {
       "date": "2026-07-28",
@@ -1711,27 +1610,6 @@
       "displayDate": "2026년 7월 24일(금)",
       "briefTitle": "요금 서약이 찍히고, 추론 랙이 출항한다",
       "briefUrl": "brief/2026-07-24.html",
-      "section": "모델 · 플랫폼",
-      "sectionId": "모델-플랫폼",
-      "cardId": "c-모델-플랫폼-05",
-      "title": "OpenAI, ChatGPT Voice를 데스크톱·Codex에 확장 — GPT-Live로 멀티 에이전트 음성 지시",
-      "snippet": "7/23: 모바일에 먼저 풀린 GPT-Live 기반 보이스를 macOS·Windows ChatGPT 데스크톱으로 확대. Plus·Pro·Business·Edu·Enterprise 롤아웃. 핫키로 다른 앱 작업 중 호출 가능.",
-      "text": "OpenAI, ChatGPT Voice를 데스크톱·Codex에 확장 — GPT-Live로 멀티 에이전트 음성 지시 7/23: 모바일에 먼저 풀린 GPT-Live 기반 보이스를 macOS·Windows ChatGPT 데스크톱으로 확대. Plus·Pro·Business·Edu·Enterprise 롤아웃. 핫키로 다른 앱 작업 중 호출 가능. 범위: Chat·Work·Codex에서 음성으로 아이디어 정리·문서 생성·캘린더/메일 확인·복수 작업 스트림을 백그라운드 에이전트에 위임. “커피 내리는 동안 출장 준비” 식 데모. Codex 주간 사용자 주장은 채널에 따라 500만→1,000만 언급. 포지션: 보이스를 모델 경쟁 축으로. 향후 가정용 스피커·하드웨어(Bloomberg 등 보도 맥락)와 동일 GPT-Live 스택 시사. Presence(전일)와 별개 — 개인·개발자 데스크톱 생산성 레이어. 개발·PM 팀은 Claude Code 대비 음성+Codex 워크플로 벤치를 추가하고, 엔터프라이즈는 화면/에이전트 권한·감사 로그 정책을 데스크톱 롤아웃 전에 고정.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-07-24.html#c-모델-플랫폼-05"
-    },
-    {
-      "date": "2026-07-24",
-      "displayDate": "2026년 7월 24일(금)",
-      "briefTitle": "요금 서약이 찍히고, 추론 랙이 출항한다",
-      "briefUrl": "brief/2026-07-24.html",
       "section": "콘텐츠 제작 · 크리에이티브",
       "sectionId": "콘텐츠-제작-크리에이티브",
       "cardId": "c-콘텐츠-제작-크리에이티브-01",
@@ -2260,27 +2138,6 @@
       "section": "마케팅 · 비즈니스",
       "sectionId": "마케팅-비즈니스",
       "cardId": "c-마케팅-비즈니스-04",
-      "title": "Alphabet Q2: 클라우드 +82%·$24.8B, 2026 capex $195–205B — Gemini 9.5억 MAU",
-      "snippet": "7/22 실적: 매출 $1,198억(+24%, 컨센서스 상회). Google Cloud $248억(+82%), 백로그 $5,140억. 검색 광고 $633억(+17%, 소폭 미달), YouTube 광고 약 $110.6억(+13%). Q2 capex $449억(전년비 약 2배), 인프…",
-      "text": "Alphabet Q2: 클라우드 +82%·$24.8B, 2026 capex $195–205B — Gemini 9.5억 MAU 7/22 실적: 매출 $1,198억(+24%, 컨센서스 상회). Google Cloud $248억(+82%), 백로그 $5,140억. 검색 광고 $633억(+17%, 소폭 미달), YouTube 광고 약 $110.6억(+13%). Q2 capex $449억(전년비 약 2배), 인프라 중 서버 ~60%·DC/네트워킹 ~40%. 가이던스: 2026년 capex $1,950–2,050억(직전 $1,800–1,900억에서 재상향). CFO Anat Ashkenazi: 공급 제약 지속, 수요 대응 가속. Q3부터 제3자 용량 확대(브릿지) — 단기 마진 압박 가능. CoreWeave·Nebius 등 확장 거래 후 주가 반응. AI 지표: Gemini 앱 월간 활성 약 9.5억, API 분당 220억 토큰(직전 분기 160억). 코딩 툴 Antigravity 주간 활성 240만+(무료·AI Pro $19.99·Ultra $99.99 티어; 모델 선택에 Google·Anthropic·OpenAI 오픈 일부, 중 오픈웨이트 미포함 언급). 로드맵: Pichai — Gemini 4에 컴퓨트 집중(“매우 야심찬”), 거의 매월 신모델 출시 의지. 3.5 Pro는 테스트 중(전일 Flash 계열 GA와 별개). 지분 평가이익 등 other income이 순이익을 크게 끌어올린 회계 이슈도 병행 보도. 클라우드·에이전트 팀은 토큰 단가 경쟁(Flash 계열)과 공급 제약→외부 용량 이중 축을 견적에 반영. Antigravity WAU를 코딩 툴 RFP 벤치마크로 병기.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-07-23.html#c-마케팅-비즈니스-04"
-    },
-    {
-      "date": "2026-07-23",
-      "displayDate": "2026년 7월 23일(목)",
-      "briefTitle": "증류를 고발한 날, 3.2GW를 심었다",
-      "briefUrl": "brief/2026-07-23.html",
-      "section": "마케팅 · 비즈니스",
-      "sectionId": "마케팅-비즈니스",
-      "cardId": "c-마케팅-비즈니스-05",
       "title": "AMD–Anthropic, MI450 최대 2GW·AMD 최대 $50억 투자 파트너십",
       "snippet": "7/22(AMD Advancing AI 기간·WSJ 선보도 후 확인 보도): Anthropic이 2027 상반기부터 AMD Instinct MI450 가속기를 최대 2GW 규모로 배치. Helios 랙 스케일(MI455X·EPYC Venice·Pensando·ROCm)로 Claud…",
       "text": "AMD–Anthropic, MI450 최대 2GW·AMD 최대 $50억 투자 파트너십 7/22(AMD Advancing AI 기간·WSJ 선보도 후 확인 보도): Anthropic이 2027 상반기부터 AMD Instinct MI450 가속기를 최대 2GW 규모로 배치. Helios 랙 스케일(MI455X·EPYC Venice·Pensando·ROCm)로 Claude 학습·추론 지원. 자본: AMD가 Anthropic에 시간 경과에 따라 최대 $50억 투자 계획. 엔지니어링 협업 — Anthropic 모델로 AMD 칩·컴퓨트 성능 개선. WSJ는 미래 DC 리스 금융 지원 논의도 언급. KeyBanc 등은 2GW 전량 시 AMD 매출 약 $272억 규모 추정치 제시(보도 인용). 포지션: AMD가 OpenAI·Meta에 이은 프론티어 랩 3호 고객 스토리 강화. Nvidia 의존 다변화 축. Advancing AI 2026(SF, 7/22–23) 타이밍과 맞물림. 조달·인프라 팀은 Claude 용량 RFP에 MI450/Helios 일정(2027 H1) 을 넣고, 지분 연계 계약의 용량 보장·락인을 체크리스트화.",
@@ -2292,7 +2149,7 @@
         "models",
         "policy"
       ],
-      "href": "brief/2026-07-23.html#c-마케팅-비즈니스-05"
+      "href": "brief/2026-07-23.html#c-마케팅-비즈니스-04"
     },
     {
       "date": "2026-07-23",
@@ -2356,27 +2213,6 @@
         "policy"
       ],
       "href": "brief/2026-07-23.html#c-테크-인프라-규제-보안-03"
-    },
-    {
-      "date": "2026-07-23",
-      "displayDate": "2026년 7월 23일(목)",
-      "briefTitle": "증류를 고발한 날, 3.2GW를 심었다",
-      "briefUrl": "brief/2026-07-23.html",
-      "section": "테크 · 인프라 · 규제 · 보안",
-      "sectionId": "테크-인프라-규제-보안",
-      "cardId": "c-테크-인프라-규제-보안-04",
-      "title": "OpenAI Presence — 보이스·챗 엔터프라이즈 에이전트 플랫폼 한정 GA",
-      "snippet": "OpenAI(7/22): Presence 공개. 사내 시스템 연결, 공유 컨텍스트·정책·권한·가드레일·승인 액션·평가를 묶어 보이스/챗 에이전트를 일관 배포. 대상: CS, 아웃바운드 세일즈, IT·HR 등 고위험 내부 워크플로.",
-      "text": "OpenAI Presence — 보이스·챗 엔터프라이즈 에이전트 플랫폼 한정 GA OpenAI(7/22): Presence 공개. 사내 시스템 연결, 공유 컨텍스트·정책·권한·가드레일·승인 액션·평가를 묶어 보이스/챗 에이전트를 일관 배포. 대상: CS, 아웃바운드 세일즈, IT·HR 등 고위험 내부 워크플로. 자사 실적 주장: 영어 전화 지원의 약 75%를 인간 개입 없이 처리, Codex 기반 개선 루프로 10일 내 핸드오프 15%p 감소. 배포 후 Codex가 약점 제안 → 직원이 승인 후 반영. 초기 고객: BBVA(멕시코 뱅킹 보이스), SoftBank(일본어 고객 대화), IAG(악천후 등 피크 지원). 셀프서브 없음 — Forward Deployed Engineer·선별 SI 경유 한정 GA. Deployment Company($40억 커밋·Tomoro 인수 맥락) 서비스 모델과 정렬. 경쟁: Salesforce·ServiceNow·Zendesk 및 API 위 에이전트 스타트업과 동일 바이어 층. HF 침입 사고 다음 날 ‘신뢰·가드레일’ 포지셔닝이 두드러짐(동일 사건 재카드 없음). CX·에이전트 팀은 모델 API 견적과 별도로 배포·거버넌스 레이어 슬롯을 RFP에 추가하고, 에스컬레이션·시뮬레이션·승인 루프 SLA를 계약 조항으로 고정.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-07-23.html#c-테크-인프라-규제-보안-04"
     },
     {
       "date": "2026-07-22",
@@ -4567,27 +4403,6 @@
       "displayDate": "2026년 7월 14일(화)",
       "briefTitle": "가격은 루피, 인재는 소송, 비전은 오픈소스",
       "briefUrl": "brief/2026-07-14.html",
-      "section": "마케팅 · 비즈니스",
-      "sectionId": "마케팅-비즈니스",
-      "cardId": "c-마케팅-비즈니스-04",
-      "title": "Anthropic, 인도 Claude 루피(₹) 현지 가격 도입",
-      "snippet": "Anthropic이 인도에서 Claude Pro·Max·Team 구독을 루피로 결제할 수 있게 바꿨다. 기존처럼 달러 국제 카드 환전 없이 현지 통화로 표시된다.",
-      "text": "Anthropic, 인도 Claude 루피(₹) 현지 가격 도입 Anthropic이 인도에서 Claude Pro·Max·Team 구독을 루피로 결제할 수 있게 바꿨다. 기존처럼 달러 국제 카드 환전 없이 현지 통화로 표시된다. 인도는 글로벌 Claude 사용의 약 6%를 차지하는 2위 시장으로 보도되며, 벵갈루루 오피스·Infosys·TCS 파트너십과도 맞물린 현지화 조치다. Economic Times 기준 Pro 연간 플랜은 월 약 ₹1,999(연 ₹24,000 수준), 월간 결제는 약 ₹2,399. Max 5x·20x는 대략 월 ₹12,000 / ₹24,000대. Team Standard는 연간 계약 시 좌석당 월 약 ₹2,300~2,399, Premium은 약 ₹12,000대(월간 결제는 더 비쌈). GST 포함 표기 보도가 다수다. UPI는 아직 미지원이라 카드·앱스토어 결제가 중심이다. OpenAI가 앞서 인도에 UPI를 연 것과 대비된다. 인도 타깃 SaaS·에이전트 온보딩 시 결제 수단·세금 문구를 FAQ에 미리 넣지 않으면 이탈이 날 수 있다.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-07-14.html#c-마케팅-비즈니스-04"
-    },
-    {
-      "date": "2026-07-14",
-      "displayDate": "2026년 7월 14일(화)",
-      "briefTitle": "가격은 루피, 인재는 소송, 비전은 오픈소스",
-      "briefUrl": "brief/2026-07-14.html",
       "section": "테크 · 인프라 · 규제 · 보안",
       "sectionId": "테크-인프라-규제-보안",
       "cardId": "c-테크-인프라-규제-보안-01",
@@ -4645,48 +4460,6 @@
         "policy"
       ],
       "href": "brief/2026-07-14.html#c-테크-인프라-규제-보안-03"
-    },
-    {
-      "date": "2026-07-14",
-      "displayDate": "2026년 7월 14일(화)",
-      "briefTitle": "가격은 루피, 인재는 소송, 비전은 오픈소스",
-      "briefUrl": "brief/2026-07-14.html",
-      "section": "테크 · 인프라 · 규제 · 보안",
-      "sectionId": "테크-인프라-규제-보안",
-      "cardId": "c-테크-인프라-규제-보안-04",
-      "title": "한국 정부, ‘AI for Everyone’ 전 국민 무료 AI 에이전트 사업 제안 접수 개시",
-      "snippet": "과기정통부가 모든 국민이 무료로 쓸 수 있는 AI 챗봇·공공서비스 어시스턴트를 목표로 한 사업 제안을 7/13부터 받기 시작했다. 마감은 8/11.",
-      "text": "한국 정부, ‘AI for Everyone’ 전 국민 무료 AI 에이전트 사업 제안 접수 개시 과기정통부가 모든 국민이 무료로 쓸 수 있는 AI 챗봇·공공서비스 어시스턴트를 목표로 한 사업 제안을 7/13부터 받기 시작했다. 마감은 8/11. 민간 2~3곳을 선정해 연내 초기 서비스 출시가 목표다. 시스템 중 최소 50%는 정부가 정한 기준을 충족하는 국내 파운데이션 모델을 써야 한다. 일반 챗봇에 더해, 개인에게 맞는 혜택·행정 프로그램을 찾아 알리고 신청을 돕는 공공 에이전트 기능이 포함된다. 선정 기업에 Nvidia B200 GPU 합계 512장을 제공하고, 2027년부터 전국 운영 비용 예산 지원을 계획한다. 디지털 취약층 AI 경험률 31.9% vs 일반 59.4% 격차를 줄이려는 ‘AI 기본사회’ 정책 축이다. 국내 LLM·에이전트 벤더는 RFP 요건·국산 모델 비중을 지금 점검할 시점이다.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-07-14.html#c-테크-인프라-규제-보안-04"
-    },
-    {
-      "date": "2026-07-14",
-      "displayDate": "2026년 7월 14일(화)",
-      "briefTitle": "가격은 루피, 인재는 소송, 비전은 오픈소스",
-      "briefUrl": "brief/2026-07-14.html",
-      "section": "테크 · 인프라 · 규제 · 보안",
-      "sectionId": "테크-인프라-규제-보안",
-      "cardId": "c-테크-인프라-규제-보안-05",
-      "title": "Apple v. OpenAI 영업비밀 소송 — 소장 세부 후속 (7/13 TechCrunch)",
-      "snippet": "7/10 제기된 소송에 대해 7/13 TechCrunch가 41페이지 소장 속 구체 주장을 정리했다. 단순 헤드라인 재탕이 아니라 증거·메시지 인용 수준의 후속이다.",
-      "text": "Apple v. OpenAI 영업비밀 소송 — 소장 세부 후속 (7/13 TechCrunch) 7/10 제기된 소송에 대해 7/13 TechCrunch가 41페이지 소장 속 구체 주장을 정리했다. 단순 헤드라인 재탕이 아니라 증거·메시지 인용 수준의 후속이다. 전 Apple 인력(예: Chang Liu)이 인증 버그로 사내 스토리지에 접근했다는 메시지(“LOL, I found out I can access the network storage”) 등이 인용된다. OpenAI 하드웨어 책임자 Tang Yew Tan이 면접에 Apple 부품·CAD·프로토타입을 가져오라고 지시했다는 주장, 퇴사 시 “dreaded walkout” 회피 코칭 문서 유포 주장도 포함된다. OpenAI에 재직 중인 전 Apple 인력은 400명 이상으로 소장에 언급된다. io(Jony Ive 계열, OpenAI 인수)의 금속 마감 노하우 유용 주장도 있다. Apple은 2월 OpenAI에 문제를 제기했으나 응답이 없었다고 한다. OpenAI는 “타사 영업비밀에 관심 없다”는 취지로 반박했다. 하드웨어 AI 채용·NDA·퇴사 프로세스·공급망 질문을 설계하는 법무·보안·HR 팀에 직접 참고 사례가 된다.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-07-14.html#c-테크-인프라-규제-보안-05"
     },
     {
       "date": "2026-07-14",
