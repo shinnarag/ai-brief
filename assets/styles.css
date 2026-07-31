@@ -276,7 +276,7 @@ img { max-width: 100%; }
   display: grid;
   grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.95fr);
   gap: clamp(18px, 3vw, 32px);
-  align-items: stretch;
+  align-items: center;
 }
 .hero-panel--split .hero-panel-main {
   min-width: 0;
@@ -286,12 +286,20 @@ img { max-width: 100%; }
 }
 .hero-biscuit-slot {
   min-width: 0;
+  width: 100%;
+  /* Fixed footprint so rotating copy never resizes the hero */
+  height: 300px;
+  flex: 0 0 300px;
   display: flex;
   align-items: stretch;
 }
 @media (max-width: 860px) {
   .hero-panel--split {
     grid-template-columns: 1fr;
+  }
+  .hero-biscuit-slot {
+    height: 292px;
+    flex-basis: 292px;
   }
 }
 .eyebrow {
@@ -1669,6 +1677,8 @@ a.brief-nav-arrow:hover {
 .biscuit-ticker {
   width: 100%;
   height: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
   background: linear-gradient(165deg, #fffdf8 0%, #fff 55%);
   border: 1px solid rgba(180, 83, 9, 0.14);
   border-radius: 18px;
@@ -1681,12 +1691,14 @@ a.brief-nav-arrow:hover {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 12px 14px 0;
+  height: 36px;
+  padding: 0 14px;
   font-size: 12px;
   font-weight: 700;
   color: #9a6700;
   letter-spacing: -0.01em;
   flex-shrink: 0;
+  box-sizing: border-box;
 }
 .biscuit-ticker-dot {
   width: 7px;
@@ -1695,6 +1707,7 @@ a.brief-nav-arrow:hover {
   background: #e5a000;
   box-shadow: 0 0 0 3px rgba(229, 160, 0, 0.18);
   animation: biscuit-pulse 1.8s ease-in-out infinite;
+  flex-shrink: 0;
 }
 @keyframes biscuit-pulse {
   0%, 100% { opacity: 1; transform: scale(1); }
@@ -1712,13 +1725,13 @@ a.brief-nav-arrow:hover {
   text-decoration: underline;
 }
 .biscuit-ticker-card {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0;
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
   width: 100%;
   margin: 0;
-  padding: 10px 14px 8px;
+  padding: 8px 14px 4px;
   border: none;
   background: transparent;
   text-align: left;
@@ -1727,6 +1740,7 @@ a.brief-nav-arrow:hover {
   transform: translateX(28px);
   transition: opacity 0.45s cubic-bezier(0.22, 1, 0.36, 1),
     transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  box-sizing: border-box;
 }
 .biscuit-ticker-card.is-in {
   opacity: 1;
@@ -1737,7 +1751,8 @@ a.brief-nav-arrow:hover {
   transform: translateX(24px);
 }
 .biscuit-ticker-art {
-  height: 108px;
+  height: 100px;
+  flex: 0 0 100px;
   border-radius: 14px;
   overflow: hidden;
   background: var(--fill);
@@ -1754,7 +1769,9 @@ a.brief-nav-arrow:hover {
   justify-content: flex-start;
   gap: 2px;
   min-width: 0;
+  min-height: 0;
   padding: 0 2px;
+  flex: 1 1 auto;
 }
 .biscuit-ticker-term {
   font-size: 18px;
@@ -1762,28 +1779,44 @@ a.brief-nav-arrow:hover {
   letter-spacing: -0.03em;
   color: var(--text);
   line-height: 1.2;
+  height: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .biscuit-ticker-en {
   font-size: 11px;
   font-weight: 600;
   color: var(--text-3);
+  line-height: 1.2;
+  height: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+/* Always reserve 2 lines so short/long blurbs don't resize the box */
 .biscuit-ticker-text {
   margin: 8px 0 0;
   font-size: 13.5px;
   color: var(--text-2);
   line-height: 1.45;
+  height: calc(13.5px * 1.45 * 2);
+  min-height: calc(13.5px * 1.45 * 2);
+  max-height: calc(13.5px * 1.45 * 2);
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 .biscuit-ticker-dots {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 6px;
-  padding: 4px 12px 14px;
-  margin-top: auto;
+  height: 32px;
+  flex-shrink: 0;
+  padding: 0 12px;
+  box-sizing: border-box;
 }
 .biscuit-ticker-dotbtn {
   width: 6px;
