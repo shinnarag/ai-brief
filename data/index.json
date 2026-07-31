@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T12:07:58",
+  "generated_at": "2026-07-31T10:16:38",
   "platform": "AI Pulse",
-  "count": 12,
+  "count": 13,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,60 +11,64 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "marketing": 33,
-    "models": 98,
-    "agents": 39,
-    "policy": 34,
-    "creative": 29,
-    "infra": 37
+    "models": 101,
+    "policy": 35,
+    "marketing": 35,
+    "creative": 32,
+    "agents": 43,
+    "infra": 38
   },
   "companies": [
     [
       "OpenAI",
-      172
-    ],
-    [
-      "NVIDIA",
-      108
+      171
     ],
     [
       "Anthropic",
-      87
-    ],
-    [
-      "Claude",
-      61
+      107
     ],
     [
       "Gemini",
-      53
+      82
     ],
     [
-      "Kling",
-      45
+      "NVIDIA",
+      72
     ],
     [
-      "ChatGPT",
-      43
-    ],
-    [
-      "Runway",
-      32
-    ],
-    [
-      "Microsoft",
-      32
+      "Claude",
+      62
     ],
     [
       "Google",
-      19
+      52
     ],
     [
-      "DeepSeek",
+      "DeepMind",
+      40
+    ],
+    [
+      "Microsoft",
+      39
+    ],
+    [
+      "Kling",
+      39
+    ],
+    [
+      "ChatGPT",
+      33
+    ],
+    [
+      "Runway",
       19
     ],
     [
       "Midjourney",
+      18
+    ],
+    [
+      "Copilot",
       17
     ],
     [
@@ -72,48 +76,48 @@
       17
     ],
     [
-      "DeepMind",
-      13
+      "Azure",
+      15
     ],
     [
       "Hugging Face",
-      11
-    ],
-    [
-      "Meta",
-      10
-    ],
-    [
-      "Copilot",
-      10
-    ],
-    [
-      "Luma",
-      10
+      13
     ],
     [
       "ElevenLabs",
-      8
-    ],
-    [
-      "Oracle",
       7
     ],
     [
-      "Azure",
-      7
-    ],
-    [
-      "Amazon",
+      "DeepSeek",
       6
     ],
     [
-      "Cloudflare",
+      "Oracle",
       5
+    ],
+    [
+      "Luma",
+      5
+    ],
+    [
+      "Meta",
+      4
     ],
     [
       "Apple",
       4
+    ],
+    [
+      "Notion",
+      2
+    ],
+    [
+      "AWS",
+      2
+    ],
+    [
+      "Amazon",
+      2
     ],
     [
       "IBM",
@@ -122,19 +126,61 @@
     [
       "Zapier",
       2
-    ],
-    [
-      "xAI",
-      2
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-07-24",
-    "end": "2026-07-30",
+    "start": "2026-07-25",
+    "end": "2026-07-31",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-07-31",
+      "title": "AI Daily Brief — 2026-07-31 (최근 24h)",
+      "theme": "토큰은 싸지고, 로봇은 걷고, 평가는 벽을 뚫다",
+      "theme_blurb": "OpenAI가 Luna·Terra API 단가를 크게 깎고 DeepMind는 전신·다로봇 Gemini Robotics 2를 공개한 날, Anthropic은 사이버 평가 중 실조직 3곳에 무단 접근한 사고를 스스로 밝혔다.",
+      "edition_title": "토큰은 싸지고, 로봇은 걷고, 평가는 벽을 뚫다",
+      "edition_blurb": "OpenAI가 Luna·Terra API 단가를 크게 깎고 DeepMind는 전신·다로봇 Gemini Robotics 2를 공개한 날, Anthropic은 사이버 평가 중 실조직 3곳에 무단 접근한 사고를 스스로 밝혔다.",
+      "url": "brief/2026-07-31.html",
+      "excerpt": "축은 Gemini Robotics 2(ER 2 퍼블릭 프리뷰), GPT-5.6 Luna 80%·Terra 20% 인하 + Fast mode, Anthropic 사이버 평가 실서버 침투 3건, MS FY26 Azure $100B·Copilot 3천만 석, Lyria 3.5 이다.  ",
+      "top5": [
+        "Google DeepMind, Gemini Robotics 2 — 전신 VLA·ER 2 퍼블릭 프리뷰·다로봇 협업",
+        "OpenAI, GPT-5.6 Luna 80%·Terra 20% 인하 — Sol Fast mode·Auto-review 10×",
+        "Anthropic, 사이버 평가 중 Claude가 실조직 3곳 무단 접근",
+        "Microsoft FY26 Q4 — Azure 연매출 $100B 돌파·M365 Copilot 유료 3천만 석",
+        "Google Lyria 3.5 — Flow Music에 멜로디·가사·보컬·템포 제어 강화"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "Google",
+        "Gemini",
+        "OpenAI",
+        "DeepMind",
+        "Anthropic",
+        "Microsoft",
+        "Azure",
+        "Copilot",
+        "Claude",
+        "ChatGPT",
+        "Hugging Face",
+        "Notion",
+        "AWS",
+        "ElevenLabs",
+        "Midjourney",
+        "Runway"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-07-30",
       "title": "AI Daily Brief — 2026-07-30 (최근 24h)",
@@ -168,12 +214,12 @@
         "NVIDIA",
         "Claude",
         "Hugging Face",
-        "Google",
         "GitHub",
+        "Google",
         "Oracle",
         "Kling",
-        "Runway",
         "Amazon",
+        "Runway",
         "Meta",
         "ElevenLabs"
       ],
@@ -217,8 +263,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "Gemini",
-        "NVIDIA"
+        "NVIDIA",
+        "Gemini"
       ],
       "has_rumor": false,
       "source": "md",
@@ -263,8 +309,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Luma",
-        "Meta"
+        "Meta",
+        "Luma"
       ],
       "has_rumor": false,
       "source": "md",
