@@ -271,6 +271,29 @@ img { max-width: 100%; }
   box-shadow: var(--shadow);
   margin-bottom: 28px;
 }
+/* Home: copy left + today's biscuit flying in from the right */
+.hero-panel--split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.95fr);
+  gap: clamp(18px, 3vw, 32px);
+  align-items: stretch;
+}
+.hero-panel--split .hero-panel-main {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-biscuit-slot {
+  min-width: 0;
+  display: flex;
+  align-items: stretch;
+}
+@media (max-width: 860px) {
+  .hero-panel--split {
+    grid-template-columns: 1fr;
+  }
+}
 .eyebrow {
   display: inline-flex; align-items: center; gap: 8px;
   font-size: 12px; font-weight: 600; color: var(--blue);
@@ -1631,26 +1654,39 @@ a.brief-nav-arrow:hover {
   color: var(--amber);
 }
 
-/* —— Home: today's biscuit ticker (notice / fade) —— */
-.biscuit-home-ticker-wrap {
-  margin-bottom: 4px;
+/* —— Home hero: today's biscuit (flies in from the right) —— */
+.hero-biscuit-slot {
+  opacity: 0;
+  transform: translateX(48px);
+  transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
 }
+.hero-biscuit-slot.is-arrived {
+  opacity: 1;
+  transform: translateX(0);
+}
+.biscuit-ticker--hero,
 .biscuit-ticker {
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  box-shadow: var(--shadow);
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(165deg, #fffdf8 0%, #fff 55%);
+  border: 1px solid rgba(180, 83, 9, 0.14);
+  border-radius: 18px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .biscuit-ticker-label {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 14px 0;
+  padding: 12px 14px 0;
   font-size: 12px;
   font-weight: 700;
   color: #9a6700;
   letter-spacing: -0.01em;
+  flex-shrink: 0;
 }
 .biscuit-ticker-dot {
   width: 7px;
@@ -1677,50 +1713,51 @@ a.brief-nav-arrow:hover {
 }
 .biscuit-ticker-card {
   display: grid;
-  grid-template-columns: 112px 1fr;
+  grid-template-columns: 1fr;
   gap: 0;
+  flex: 1;
   width: 100%;
   margin: 0;
-  padding: 10px 12px 12px;
+  padding: 10px 14px 8px;
   border: none;
   background: transparent;
   text-align: left;
   font: inherit;
-  cursor: pointer;
   opacity: 0;
-  transform: translateY(6px);
-  transition: opacity 0.42s ease, transform 0.42s ease;
+  transform: translateX(28px);
+  transition: opacity 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .biscuit-ticker-card.is-in {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateX(0);
 }
 .biscuit-ticker-card.is-out {
   opacity: 0;
-  transform: translateY(-6px);
+  transform: translateX(24px);
 }
 .biscuit-ticker-art {
-  height: 88px;
-  border-radius: 12px;
+  height: 108px;
+  border-radius: 14px;
   overflow: hidden;
   background: var(--fill);
+  margin-bottom: 10px;
 }
 .biscuit-ticker-art svg {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
 }
 .biscuit-ticker-copy {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 2px;
   min-width: 0;
-  padding: 4px 6px 4px 12px;
+  padding: 0 2px;
 }
 .biscuit-ticker-term {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: -0.03em;
   color: var(--text);
@@ -1732,12 +1769,12 @@ a.brief-nav-arrow:hover {
   color: var(--text-3);
 }
 .biscuit-ticker-text {
-  margin: 6px 0 0;
+  margin: 8px 0 0;
   font-size: 13.5px;
   color: var(--text-2);
   line-height: 1.45;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -1745,7 +1782,8 @@ a.brief-nav-arrow:hover {
   display: flex;
   justify-content: center;
   gap: 6px;
-  padding: 0 12px 12px;
+  padding: 4px 12px 14px;
+  margin-top: auto;
 }
 .biscuit-ticker-dotbtn {
   width: 6px;
@@ -1761,16 +1799,10 @@ a.brief-nav-arrow:hover {
   width: 16px;
   background: #c47b0a;
 }
-@media (max-width: 560px) {
-  .biscuit-ticker-card {
-    grid-template-columns: 1fr;
-  }
-  .biscuit-ticker-art {
-    height: 100px;
-  }
-  .biscuit-ticker-copy {
-    padding: 8px 4px 0;
-  }
+/* Longer detail copy on dictionary cards */
+.page-biscuits .biscuit-text {
+  font-size: 13.5px;
+  line-height: 1.55;
 }
 
 /* —— Brief: text color only —— */
