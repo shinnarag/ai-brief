@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T10:16:38",
+  "generated_at": "2026-07-31T14:44:31",
   "platform": "AI Pulse",
   "count": 13,
   "domains": {
@@ -309,8 +309,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Meta",
-        "Luma"
+        "Luma",
+        "Meta"
       ],
       "has_rumor": false,
       "source": "md",
@@ -532,8 +532,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Samsung"
       ],
       "has_rumor": false,
@@ -611,8 +611,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,

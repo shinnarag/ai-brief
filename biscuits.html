@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Latest · AI Pulse</title>
-  <meta name="description" content="AI 변화의 흐름을 읽고, 실무 시그널을 잡는 인텔리전스 데스크" />
+  <title>비스킷 · AI Pulse</title>
+  <meta name="description" content="브리프에 나온 AI 용어를 한입 크기로 설명합니다." />
   <meta name="theme-color" content="#f5f5f7" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <link rel="stylesheet" href="assets/styles.css?v=20260731b" />
 </head>
-<body class="page-home">
+<body class="page-biscuits">
   <div class="read-progress" aria-hidden="true"><i></i></div>
   <header class="site-header">
     <div class="header-inner">
@@ -22,14 +22,28 @@
         </div>
       </a>
       <nav class="nav">
-        <a href="index.html" class="active">홈</a>
+        <a href="index.html" class="">홈</a>
         <a href="archive.html" class="">아카이브</a>
-        <a href="biscuits.html" class="nav-biscuit">비스킷</a>
+        <a href="biscuits.html" class="nav-biscuit active">비스킷</a>
       </nav>
     </div>
   </header>
   <main class="main">
-<p>이동 중… <a href="brief/2026-07-31.html">AI Daily Brief — 2026-07-31 (최근 24h)</a></p><meta http-equiv="refresh" content="0; url=brief/2026-07-31.html" />
+
+    <section class="biscuit-hero">
+      <h1>비스킷</h1>
+      <p class="meta-line" id="biscuit-count">—</p>
+      <div class="biscuit-search-wrap">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="biscuit-q" type="search" placeholder="검색 · 토큰, API, 에이전트…" autocomplete="off" />
+      </div>
+      <div class="biscuit-chips" id="biscuit-chips"></div>
+    </section>
+    <div class="biscuit-grid" id="biscuit-grid"></div>
+    <div class="biscuit-empty" id="biscuit-empty">검색 결과가 없어요.</div>
+    <p class="biscuit-feed-note">
+      브리프에 등장한 AI 용어를 한입 크기로 모읍니다. 새 브리프가 올라오면 언급된 단어가 여기 반영됩니다.
+    </p>
   </main>
   <footer class="footer">
     AI Pulse · 매일 자동 수집 · 모델·에이전트·크리에이티브·마케팅·인프라·규제의 흐름을 한곳에서
