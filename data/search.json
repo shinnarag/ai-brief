@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03T11:15:15",
-  "count": 249,
+  "generated_at": "2026-08-03T11:43:25",
+  "count": 250,
   "items": [
     {
       "date": "2026-08-03",
@@ -94,9 +94,9 @@
       "section": "Top 5",
       "sectionId": "top-5",
       "cardId": "c-top-5-05",
-      "title": "xAI Grok Imagine Video 1.5 — 텍스트·이미지·보이스 레퍼런스·네이티브 1080p",
-      "snippet": "7/31: T2V·멀티 레퍼런스(최대 7)·API grok-imagine-video-1.5. SuperGrok Heavy/Plus부터 롤아웃.",
-      "text": "xAI Grok Imagine Video 1.5 — 텍스트·이미지·보이스 레퍼런스·네이티브 1080p 7/31: T2V·멀티 레퍼런스(최대 7)·API grok-imagine-video-1.5. SuperGrok Heavy/Plus부터 롤아웃. 콘텐츠 · 크리에이티브",
+      "title": "DeepSeek-V4-Flash 정식 API 공베타 — 에이전트 벤치 V4-Pro-Preview 상회",
+      "snippet": "7/31: deepseek-v4-flash 공식 릴리스 공베타. HF DeepSeek-V4-Flash-0731. Terminal Bench 2.1 82.7 등. V4-Pro 정식은 soon.",
+      "text": "DeepSeek-V4-Flash 정식 API 공베타 — 에이전트 벤치 V4-Pro-Preview 상회 7/31: deepseek-v4-flash 공식 릴리스 공베타. HF DeepSeek-V4-Flash-0731. Terminal Bench 2.1 82.7 등. V4-Pro 정식은 soon. 모델 · 플랫폼",
       "domains": [
         "agents",
         "creative",
@@ -136,9 +136,9 @@
       "section": "모델 · 플랫폼",
       "sectionId": "모델-플랫폼",
       "cardId": "c-모델-플랫폼-02",
-      "title": "Thinking Machines, Inkling-Small 오픈웨이트 공개 — 276B total / 12B active",
-      "snippet": "(사실) 7/30 Thinking Machines Lab(Mira Murati): Inkling-Small 정식 가중치 공개. Inkling(975B/41B active) 대비 약 1/4 활성 파라미터로 비교 가능한 종합 성능 주장. Apache 2.0.",
-      "text": "Thinking Machines, Inkling-Small 오픈웨이트 공개 — 276B total / 12B active (사실) 7/30 Thinking Machines Lab(Mira Murati): Inkling-Small 정식 가중치 공개. Inkling(975B/41B active) 대비 약 1/4 활성 파라미터로 비교 가능한 종합 성능 주장. Apache 2.0. (범위) MoE, 텍스트·이미지·오디오 입력, 가변 thinking effort, 컨텍스트 최대 1M 토큰. Hugging Face · Tinker 파인튜닝 · Tinker Playground 채팅. NVIDIA GB300 NVL72 학습. (디테일) HLE text-only 31.6%(Inkling 29.7% 상회 주장), SWE-Bench Verified 80.2%(bash-only harness), Terminal-Bench 2.1 64.7%, AA Index v4.1 40.0. 출력 단가 예시: Inkling-Small $1.20 / 1M vs Inkling $4.05 / 1M. 지식·사실성은 Inkling이 우위, 추론·에이전틱 코딩은 Small이 상회하는 구간 존재 주장. (맥락) 7/15 Inkling 본선 후 2주 만 소형 라인. 전일(7/31) 브리프 미포함 백필. 오픈웨이트 코딩·멀티모달 스택의 가격-성능 축. (영향) 셀프호스트·Tinker 팀은 Small을 기본 후보로 두고 Inkling과 effort 스윕 A/B, 지식 의존 작업은 대형 유지 라우팅을 검토할 후보.",
+      "title": "DeepSeek-V4-Flash 정식 API 공베타 — DeepSeek-V4-Flash-0731 재포스트트레이닝 (7/31)",
+      "snippet": "(사실) 7/31 DeepSeek 공식 changelog: DeepSeek-V4-Flash API 공식 릴리스 공베타. 모델명 deepseek-v4-flash 그대로 최신. HF 체크포인트 DeepSeek-V4-Flash-0731 공개. 아키텍처·사이즈는 Preview와 동일, 재…",
+      "text": "DeepSeek-V4-Flash 정식 API 공베타 — DeepSeek-V4-Flash-0731 재포스트트레이닝 (7/31) (사실) 7/31 DeepSeek 공식 changelog: DeepSeek-V4-Flash API 공식 릴리스 공베타. 모델명 deepseek-v4-flash 그대로 최신. HF 체크포인트 DeepSeek-V4-Flash-0731 공개. 아키텍처·사이즈는 Preview와 동일, 재포스트트레이닝만. 7/31 아침 브리프·초회 8/3 수집 모두 누락 → 보정 백필. (벤치·에이전트) 공식: 에이전트 능력이 V4-Pro-Preview를 크게 상회. Terminal Bench 2.1 82.7, NL2Repo 54.2, Cybergym 76.7, DeepSWE 54.4, Toolathlon verified 70.3, Agent Last Exam 25.2, Automation Bench (Public) 25.1, DSBench-FullStack 68.7, DSBench-Hard 59.6. Code Agent 공개 벤치는 DeepSeek Harness minimal(곧 공개)·max effort·top_p=0.95·temp=1.0. (범위·미포함) 이번 업데이트는 V4-Flash API만. V4-Pro API·APP/WEB 모델은 변경 없음. V4-Pro 정식은 soon. Responses API 네이티브 + Codex 전용 어댑트(문서 설정). 7/24 deepseek-chat/deepseek-reasoner 별칭 폐기 이후 Flash 핀 유지 팀의 정식 체크포인트 전환 이벤트. (맥락) 프리뷰 → 공식 공베타(재PT). Inkling-Small(7/30)·Astra 수학(8/1)과 같은 창의 코딩·에이전트 축. (영향) Codex/에이전트 라우팅 팀은 deepseek-v4-flash 스테이징 회귀·Terminal/Cybergym 스모크, HF 0731 셀프호스트 여부를 체크리스트에 넣고, V4-Pro 정식 공지 알림을 워치.",
       "domains": [
         "agents",
         "creative",
@@ -148,6 +148,27 @@
         "policy"
       ],
       "href": "brief/2026-08-03.html#c-모델-플랫폼-02"
+    },
+    {
+      "date": "2026-08-03",
+      "displayDate": "2026년 8월 3일(월)",
+      "briefTitle": "증명은 2천 달러, 영상은 30초 원테이크, 규제는 8월 2일",
+      "briefUrl": "brief/2026-08-03.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-03",
+      "title": "Thinking Machines, Inkling-Small 오픈웨이트 공개 — 276B total / 12B active",
+      "snippet": "(사실) 7/30 Thinking Machines Lab(Mira Murati): Inkling-Small 정식 가중치 공개. Inkling(975B/41B active) 대비 약 1/4 활성 파라미터로 비교 가능한 종합 성능 주장. Apache 2.0.",
+      "text": "Thinking Machines, Inkling-Small 오픈웨이트 공개 — 276B total / 12B active (사실) 7/30 Thinking Machines Lab(Mira Murati): Inkling-Small 정식 가중치 공개. Inkling(975B/41B active) 대비 약 1/4 활성 파라미터로 비교 가능한 종합 성능 주장. Apache 2.0. (범위) MoE, 텍스트·이미지·오디오 입력, 가변 thinking effort, 컨텍스트 최대 1M 토큰. Hugging Face · Tinker 파인튜닝 · Tinker Playground 채팅. NVIDIA GB300 NVL72 학습. (디테일) HLE text-only 31.6%(Inkling 29.7% 상회 주장), SWE-Bench Verified 80.2%(bash-only harness), Terminal-Bench 2.1 64.7%, AA Index v4.1 40.0. 출력 단가 예시: Inkling-Small $1.20 / 1M vs Inkling $4.05 / 1M. 지식·사실성은 Inkling이 우위, 추론·에이전틱 코딩은 Small이 상회하는 구간 존재 주장. (맥락) 7/15 Inkling 본선 후 2주 만 소형 라인. 전일(7/31) 브리프 미포함 백필. DeepSeek Flash 정식과 같은 주 오픈웨이트·에이전트 코딩 축. (영향) 셀프호스트·Tinker 팀은 Small을 기본 후보로 두고 Inkling·DeepSeek Flash와 effort 스윕 A/B, 지식 의존 작업은 대형 유지 라우팅을 검토할 후보.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-03.html#c-모델-플랫폼-03"
     },
     {
       "date": "2026-08-03",
