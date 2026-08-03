@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T15:32:54",
+  "generated_at": "2026-08-03T10:14:48",
   "platform": "AI Pulse",
-  "count": 13,
+  "count": 14,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,92 +11,92 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "models": 101,
-    "policy": 35,
-    "marketing": 35,
-    "creative": 32,
-    "agents": 43,
-    "infra": 38
+    "models": 105,
+    "policy": 37,
+    "marketing": 37,
+    "creative": 35,
+    "infra": 39,
+    "agents": 44
   },
   "companies": [
     [
       "OpenAI",
-      171
+      197
     ],
     [
       "Anthropic",
-      107
-    ],
-    [
-      "Gemini",
-      82
+      105
     ],
     [
       "NVIDIA",
-      72
+      74
+    ],
+    [
+      "Gemini",
+      68
     ],
     [
       "Claude",
-      62
+      51
     ],
     [
       "Google",
-      52
+      51
     ],
     [
       "DeepMind",
       40
     ],
     [
-      "Microsoft",
+      "ChatGPT",
       39
+    ],
+    [
+      "Microsoft",
+      37
     ],
     [
       "Kling",
-      39
-    ],
-    [
-      "ChatGPT",
-      33
-    ],
-    [
-      "Runway",
-      19
+      31
     ],
     [
       "Midjourney",
-      18
-    ],
-    [
-      "Copilot",
-      17
+      19
     ],
     [
       "GitHub",
-      17
+      16
     ],
     [
       "Azure",
-      15
+      16
     ],
     [
       "Hugging Face",
+      14
+    ],
+    [
+      "Runway",
       13
     ],
     [
-      "ElevenLabs",
-      7
+      "Grok",
+      13
     ],
     [
-      "DeepSeek",
+      "Copilot",
+      13
+    ],
+    [
+      "xAI",
+      8
+    ],
+    [
+      "ElevenLabs",
       6
     ],
     [
       "Oracle",
-      5
-    ],
-    [
-      "Luma",
       5
     ],
     [
@@ -106,6 +106,10 @@
     [
       "Apple",
       4
+    ],
+    [
+      "Sora",
+      2
     ],
     [
       "Notion",
@@ -120,21 +124,67 @@
       2
     ],
     [
-      "IBM",
+      "Luma",
       2
     ],
     [
-      "Zapier",
+      "IBM",
       2
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-07-25",
-    "end": "2026-07-31",
+    "start": "2026-07-28",
+    "end": "2026-08-03",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-08-03",
+      "title": "AI Daily Brief — 2026-08-03 (주말 포함 ~72h)",
+      "theme": "증명은 2천 달러, 규제는 8월 2일, 육아는 레시오",
+      "theme_blurb": "OpenAI가 미공개 Astra로 10년 이상 열린 수학 문제 10건을 Lean 증명과 함께 공개한 주말, EU AI Act GPAI 집행이 8/2에 열리고, Altman의 부모용 팟캐스트 피치는 “아이와 말해라”에 13배 레시오를 당했다.",
+      "edition_title": "증명은 2천 달러, 규제는 8월 2일, 육아는 레시오",
+      "edition_blurb": "OpenAI가 미공개 Astra로 10년 이상 열린 수학 문제 10건을 Lean 증명과 함께 공개한 주말, EU AI Act GPAI 집행이 8/2에 열리고, Altman의 부모용 팟캐스트 피치는 “아이와 말해라”에 13배 레시오를 당했다.",
+      "url": "brief/2026-08-03.html",
+      "excerpt": "축은 OpenAI Astra(내부 버전) 수학·이론CS 10결과 + Lean 증명, EU AI Act GPAI Chapter V 집행 개시(8/2), WSJ “OpenAI 왕관 상실·Anthropic Claude Code”, Grok Imagine Video 1.5 레퍼런스·T2V·1080p(7/31 백필), Inkling-Small 오픈웨이트(7/30 백필) 이다.  ",
+      "top5": [
+        "OpenAI, Astra 내부 버전으로 미해결 수학·이론CS 10건 + Lean 증명",
+        "EU AI Act — GPAI 모델 제공자 집행권 8/2 개시",
+        "WSJ: OpenAI, 소비자 챗봇·사이드 프로젝트에 밀려 Anthropic에 ‘왕관’ 상실",
+        "xAI Grok Imagine Video 1.5 — 텍스트·이미지·보이스 레퍼런스·네이티브 1080p",
+        "Thinking Machines Inkling-Small — 276B/12B active 오픈웨이트"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "OpenAI",
+        "Anthropic",
+        "Grok",
+        "xAI",
+        "Claude",
+        "ChatGPT",
+        "GitHub",
+        "Midjourney",
+        "Gemini",
+        "NVIDIA",
+        "Sora",
+        "Hugging Face",
+        "ElevenLabs",
+        "Runway",
+        "Google",
+        "Azure"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-07-31",
       "title": "AI Daily Brief — 2026-07-31 (최근 24h)",
@@ -218,8 +268,8 @@
         "Google",
         "Oracle",
         "Kling",
-        "Amazon",
         "Runway",
+        "Amazon",
         "Meta",
         "ElevenLabs"
       ],
@@ -309,8 +359,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Luma",
-        "Meta"
+        "Meta",
+        "Luma"
       ],
       "has_rumor": false,
       "source": "md",
@@ -354,8 +404,8 @@
         "ElevenLabs",
         "Midjourney",
         "Microsoft",
-        "Zapier",
-        "Google"
+        "Google",
+        "Zapier"
       ],
       "has_rumor": false,
       "source": "md",
@@ -400,8 +450,8 @@
         "Luma",
         "Anthropic",
         "Copilot",
-        "Amazon",
-        "Google"
+        "Google",
+        "Amazon"
       ],
       "has_rumor": false,
       "source": "md",
@@ -520,8 +570,8 @@
       ],
       "companies": [
         "Anthropic",
-        "NVIDIA",
         "OpenAI",
+        "NVIDIA",
         "Google",
         "Adobe",
         "GitHub",
