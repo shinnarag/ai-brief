@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T10:14:48",
+  "generated_at": "2026-08-03T10:46:44",
   "platform": "AI Pulse",
   "count": 14,
   "domains": {
@@ -11,12 +11,12 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "models": 105,
+    "models": 104,
+    "creative": 36,
     "policy": 37,
     "marketing": 37,
-    "creative": 35,
-    "infra": 39,
-    "agents": 44
+    "agents": 45,
+    "infra": 39
   },
   "companies": [
     [
@@ -36,11 +36,11 @@
       68
     ],
     [
-      "Claude",
+      "Google",
       51
     ],
     [
-      "Google",
+      "Claude",
       51
     ],
     [
@@ -57,11 +57,15 @@
     ],
     [
       "Kling",
-      31
+      33
     ],
     [
       "Midjourney",
       19
+    ],
+    [
+      "Runway",
+      17
     ],
     [
       "GitHub",
@@ -76,10 +80,6 @@
       14
     ],
     [
-      "Runway",
-      13
-    ],
-    [
       "Grok",
       13
     ],
@@ -88,12 +88,16 @@
       13
     ],
     [
+      "ByteDance",
+      12
+    ],
+    [
       "xAI",
       8
     ],
     [
       "ElevenLabs",
-      6
+      5
     ],
     [
       "Oracle",
@@ -106,10 +110,6 @@
     [
       "Apple",
       4
-    ],
-    [
-      "Sora",
-      2
     ],
     [
       "Notion",
@@ -142,18 +142,18 @@
     {
       "date": "2026-08-03",
       "title": "AI Daily Brief — 2026-08-03 (주말 포함 ~72h)",
-      "theme": "증명은 2천 달러, 규제는 8월 2일, 육아는 레시오",
-      "theme_blurb": "OpenAI가 미공개 Astra로 10년 이상 열린 수학 문제 10건을 Lean 증명과 함께 공개한 주말, EU AI Act GPAI 집행이 8/2에 열리고, Altman의 부모용 팟캐스트 피치는 “아이와 말해라”에 13배 레시오를 당했다.",
-      "edition_title": "증명은 2천 달러, 규제는 8월 2일, 육아는 레시오",
-      "edition_blurb": "OpenAI가 미공개 Astra로 10년 이상 열린 수학 문제 10건을 Lean 증명과 함께 공개한 주말, EU AI Act GPAI 집행이 8/2에 열리고, Altman의 부모용 팟캐스트 피치는 “아이와 말해라”에 13배 레시오를 당했다.",
+      "theme": "증명은 2천 달러, 영상은 30초 원테이크, 규제는 8월 2일",
+      "theme_blurb": "OpenAI Astra가 미해결 수학 10건을 Lean과 함께 공개한 주말, ByteDance는 Seedance 2.5를 즉몽·드리미나에 정식 올려 30초 단일 패스 영상 스택을 열었고, EU AI Act GPAI 집행이 8/2에 시작됐다.",
+      "edition_title": "증명은 2천 달러, 영상은 30초 원테이크, 규제는 8월 2일",
+      "edition_blurb": "OpenAI Astra가 미해결 수학 10건을 Lean과 함께 공개한 주말, ByteDance는 Seedance 2.5를 즉몽·드리미나에 정식 올려 30초 단일 패스 영상 스택을 열었고, EU AI Act GPAI 집행이 8/2에 시작됐다.",
       "url": "brief/2026-08-03.html",
-      "excerpt": "축은 OpenAI Astra(내부 버전) 수학·이론CS 10결과 + Lean 증명, EU AI Act GPAI Chapter V 집행 개시(8/2), WSJ “OpenAI 왕관 상실·Anthropic Claude Code”, Grok Imagine Video 1.5 레퍼런스·T2V·1080p(7/31 백필), Inkling-Small 오픈웨이트(7/30 백필) 이다.  ",
+      "excerpt": "축은 OpenAI Astra(내부 버전) 수학·이론CS 10결과 + Lean 증명, [백필] Seedance 2.5 공식 런칭·Dreamina/Jimeng 가용(7/31), EU AI Act GPAI Chapter V 집행 개시(8/2), WSJ “OpenAI 왕관 상실·Anthropic Claude Code”, Grok Imagine Video 1.5 레퍼런스·T2V·1080p(7/31 백필) 이다.  ",
       "top5": [
         "OpenAI, Astra 내부 버전으로 미해결 수학·이론CS 10건 + Lean 증명",
+        "ByteDance Seedance 2.5 정식 런칭 — Jimeng·Dreamina 30초 단일 패스",
         "EU AI Act — GPAI 모델 제공자 집행권 8/2 개시",
         "WSJ: OpenAI, 소비자 챗봇·사이드 프로젝트에 밀려 Anthropic에 ‘왕관’ 상실",
-        "xAI Grok Imagine Video 1.5 — 텍스트·이미지·보이스 레퍼런스·네이티브 1080p",
-        "Thinking Machines Inkling-Small — 276B/12B active 오픈웨이트"
+        "xAI Grok Imagine Video 1.5 — 텍스트·이미지·보이스 레퍼런스·네이티브 1080p"
       ],
       "domains": [
         "agents",
@@ -167,17 +167,17 @@
         "OpenAI",
         "Anthropic",
         "Grok",
+        "ByteDance",
         "xAI",
         "Claude",
         "ChatGPT",
+        "Runway",
         "GitHub",
         "Midjourney",
         "Gemini",
+        "Kling",
         "NVIDIA",
-        "Sora",
         "Hugging Face",
-        "ElevenLabs",
-        "Runway",
         "Google",
         "Azure"
       ],
@@ -210,8 +210,8 @@
         "policy"
       ],
       "companies": [
-        "Gemini",
         "Google",
+        "Gemini",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -223,8 +223,8 @@
         "Hugging Face",
         "Notion",
         "AWS",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "Runway"
       ],
       "has_rumor": false,
@@ -264,14 +264,14 @@
         "NVIDIA",
         "Claude",
         "Hugging Face",
-        "GitHub",
         "Google",
+        "GitHub",
         "Oracle",
         "Kling",
-        "Runway",
         "Amazon",
+        "Runway",
         "Meta",
-        "ElevenLabs"
+        "Midjourney"
       ],
       "has_rumor": false,
       "source": "md",
@@ -401,8 +401,8 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "Microsoft",
         "Google",
         "Zapier"
@@ -570,8 +570,8 @@
       ],
       "companies": [
         "Anthropic",
-        "OpenAI",
         "NVIDIA",
+        "OpenAI",
         "Google",
         "Adobe",
         "GitHub",
