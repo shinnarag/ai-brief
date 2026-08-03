@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T10:46:44",
+  "generated_at": "2026-08-03T11:15:15",
   "platform": "AI Pulse",
   "count": 14,
   "domains": {
@@ -12,7 +12,7 @@
   },
   "domain_counts": {
     "models": 104,
-    "creative": 36,
+    "creative": 37,
     "policy": 37,
     "marketing": 37,
     "agents": 45,
@@ -41,7 +41,7 @@
     ],
     [
       "Claude",
-      51
+      50
     ],
     [
       "DeepMind",
@@ -61,7 +61,7 @@
     ],
     [
       "Midjourney",
-      19
+      27
     ],
     [
       "Runway",
@@ -168,12 +168,12 @@
         "Anthropic",
         "Grok",
         "ByteDance",
+        "Midjourney",
         "xAI",
-        "Claude",
         "ChatGPT",
+        "Claude",
         "Runway",
         "GitHub",
-        "Midjourney",
         "Gemini",
         "Kling",
         "NVIDIA",
@@ -210,8 +210,8 @@
         "policy"
       ],
       "companies": [
-        "Google",
         "Gemini",
+        "Google",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -223,8 +223,8 @@
         "Hugging Face",
         "Notion",
         "AWS",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "Runway"
       ],
       "has_rumor": false,
@@ -261,17 +261,17 @@
         "ChatGPT",
         "DeepMind",
         "Anthropic",
-        "NVIDIA",
         "Claude",
+        "NVIDIA",
         "Hugging Face",
         "Google",
         "GitHub",
         "Oracle",
         "Kling",
-        "Amazon",
         "Runway",
+        "Amazon",
         "Meta",
-        "Midjourney"
+        "ElevenLabs"
       ],
       "has_rumor": false,
       "source": "md",
@@ -313,8 +313,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "NVIDIA",
-        "Gemini"
+        "Gemini",
+        "NVIDIA"
       ],
       "has_rumor": false,
       "source": "md",
@@ -401,11 +401,11 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "Microsoft",
-        "Google",
-        "Zapier"
+        "Zapier",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -442,8 +442,8 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Claude",
         "Gemini",
+        "Claude",
         "Kling",
         "Meta",
         "Cloudflare",
@@ -570,8 +570,8 @@
       ],
       "companies": [
         "Anthropic",
-        "NVIDIA",
         "OpenAI",
+        "NVIDIA",
         "Google",
         "Adobe",
         "GitHub",

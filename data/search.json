@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03T10:46:44",
-  "count": 248,
+  "generated_at": "2026-08-03T11:15:15",
+  "count": 249,
   "items": [
     {
       "date": "2026-08-03",
@@ -159,7 +159,7 @@
       "cardId": "c-콘텐츠-제작-크리에이티브-01",
       "title": "ByteDance Seedance 2.5 정식 런칭 — Jimeng·Dreamina 제품 가용 (7/31)",
       "snippet": "(사실) 7/31 ByteDance Seed: Seedance 2.5를 “new-generation video creation model”로 공식 런칭. 6/23 FORCE 예고·7/29 Runway “coming soon” 이후 제품 표면 GA. 초회 8/3 수집에서 누락 → 보…",
-      "text": "ByteDance Seedance 2.5 정식 런칭 — Jimeng·Dreamina 제품 가용 (7/31) (사실) 7/31 ByteDance Seed: Seedance 2.5를 “new-generation video creation model”로 공식 런칭. 6/23 FORCE 예고·7/29 Runway “coming soon” 이후 제품 표면 GA. 초회 8/3 수집에서 누락 → 보정 백필. (범위·가용) 당일부터 Jimeng AI(即梦), Doubao Pro, Dreamina(국제·CapCut 계열) 에 롤아웃. Dreamina 홈·모델 페이지는 “Seedance 2.5 is now available / live”. CapCut AI Lab 챌린지 7/31–8/13. API는 BytePlus ModelArk soon. (스펙) 단일 패스 최대 30초 오디오·비디오 동시 생성 + 멀티 라운드 연장(수 분 스토리). 멀티모달 레퍼런스: Seed 블로그 기준 이미지 최대 30 · 영상 10 · 오디오 10(제품 카피 일부는 “최대 50 inputs” 표기 — 표면별 UI 확인). 타임스탬프 단위 오디오·영상 부분 편집, 그린스크린·카메라·R2V(클레이 렌더·모션 레퍼런스) 강화. 4K·다국어 생성 카피 병행. (맥락) 7/29 브리프의 Runway 예고 카드는 플랫폼 탑재 예고였고, 이번은 모델 본선 제품 오픈(예고→GA 업그레이드, 재탕 아님). Imagine Video 1.5(동일 7/31)와 함께 상용 영상 스택 경쟁 축. (영향) 숏폼·광고·뮤비 프리비즈 팀은 드리미나에서 30s 원테이크 + 멀티 레퍼런스 PoC를 큐에 넣고, Seedance 2.0·Kling·Hailuo H3·Imagine 1.5와 길이·캐릭터 유지·오디오 싱크·크레딧 단가 4축 A/B. 지역·구독·연령 게이트(일부 안내: 구독·16+)는 계정별로 확인.",
+      "text": "ByteDance Seedance 2.5 정식 런칭 — Jimeng·Dreamina 제품 가용 (7/31) (사실) 7/31 ByteDance Seed: Seedance 2.5를 “new-generation video creation model”로 공식 런칭. 6/23 FORCE 예고·7/29 Runway “coming soon” 이후 제품 표면 GA. 초회 8/3 수집에서 누락 → 보정 백필. (범위·가용) 당일부터 Jimeng AI(即梦), Doubao Pro, Dreamina(국제·CapCut 계열) 에 롤아웃. Dreamina 홈·모델 페이지는 “Seedance 2.5 is now available / live”. CapCut AI Lab 챌린지 7/31–8/13. API는 BytePlus ModelArk soon. (스펙) 단일 패스 최대 30초 오디오·비디오 동시 생성 + 멀티 라운드 연장(수 분 스토리). 멀티모달 레퍼런스: Seed 블로그 기준 이미지 최대 30 · 영상 10 · 오디오 10(제품 카피 일부는 “최대 50 inputs” 표기 — 표면별 UI 확인). 타임스탬프 단위 오디오·영상 부분 편집, 그린스크린·카메라·R2V(클레이 렌더·모션 레퍼런스) 강화. 4K·다국어 생성 카피 병행. (구독·가격 게이트) Dreamina 공식 런칭 글: Seedance 2.5는 16세 이상 구독(subscriber) 계정 대상으로 EU·아시아·중동·남미 등 출시 주 롤아웃. 동시 공개 Dola Seedream 5.0 Pro는 유료 Dreamina 구독자 대상(미국 포함). 모델 FAQ: 일일 무료 크레딧으로 2.5 체험 가능(카드 없이 시작 카피). 별도 % 할인 쿠폰 공지는 창 안 미확인 — 접근 조건은 “구독 여부·지역·연령”이 핵심. (맥락) 7/29 브리프의 Runway 예고 카드는 플랫폼 탑재 예고였고, 이번은 모델 본선 제품 오픈(예고→GA 업그레이드, 재탕 아님). Imagine Video 1.5(동일 7/31)와 함께 상용 영상 스택 경쟁 축. (영향) 숏폼·광고 팀은 구독 계정에서 30s 원테이크 + 멀티 레퍼런스 PoC를 큐에 넣고, 비구독은 일일 크레딧으로 스펙만 확인. Seedance 2.0·Kling·Hailuo H3·Imagine 1.5와 길이·캐릭터 유지·오디오 싱크·크레딧 단가 4축 A/B.",
       "domains": [
         "agents",
         "creative",
@@ -232,6 +232,27 @@
         "policy"
       ],
       "href": "brief/2026-08-03.html#c-마케팅-비즈니스-01"
+    },
+    {
+      "date": "2026-08-03",
+      "displayDate": "2026년 8월 3일(월)",
+      "briefTitle": "증명은 2천 달러, 영상은 30초 원테이크, 규제는 8월 2일",
+      "briefUrl": "brief/2026-08-03.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-02",
+      "title": "크리에이티브 플랫폼 구독·프로모 — Dreamina 게이트 · CapCut 챌린지 · Higgsfield Seedance Unlimited",
+      "snippet": "(Dreamina / CapCut) Seedance 2.5·Seedream 5.0 Pro 접근은 유료 구독·지역·16+ 가 핵심 게이트(런칭 공지). 제품 카피: 일일 무료 크레딧으로 테스트 가능 · “No credit card required” 진입. CapCut Seedance…",
+      "text": "크리에이티브 플랫폼 구독·프로모 — Dreamina 게이트 · CapCut 챌린지 · Higgsfield Seedance Unlimited (Dreamina / CapCut) Seedance 2.5·Seedream 5.0 Pro 접근은 유료 구독·지역·16+ 가 핵심 게이트(런칭 공지). 제품 카피: 일일 무료 크레딧으로 테스트 가능 · “No credit card required” 진입. CapCut Seedance 2.5 Video Challenge 7/31–8/13 (AI Lab 생성 → TikTok #ailabseedance25). 창 안 Dreamina 구독 % 할인 쿠폰 공식 공지는 미확인(과거 Mini 런칭 시 Pro 할인 패턴은 7/22 전후 종료 구간). (Higgsfield) 7/30 블로그: 14-Day Unlimited Seedance — 1주 Seedance 2.0 4K unlimited, 2주 차에 Seedance 2.5 / 2.0 Mini / 2.0 Fast 중 1개 unlimited 선택(2.5 피처드). 신규: 24h 4K Seedance 2.0 5회 무료(카드 인증). 기존 유저: 플랜 업그레이드 경로; Max/Ultra 상한·Team은 Unlimited Models Marketplace 14일 직접 구매. Plus monthly 1주 차는 4K 제외(1080p/720p). Unlimited는 웹 전용(MCP/CLI/Canvas 제외). 연간 플랜 UI ~30% OFF 상시 표기 구간 존재 — 기간 한정 쿠폰과 구분. (Midjourney) 창 안 기간 한정 쿠폰 미확인. 공식 구조 할인: 연간 선결제 약 20%(Basic $10→$8/mo 등)만 확인. (영향) 팀 벤치는 드리미나 구독 계정 1개 + Higgsfield Unlimited 2주 창(2.5 주) 로 비용을 묶고, 챌린지 마감(8/13) 전 숏폼 1편을 큐에 넣을 후보. 결제 전 지역 게이트·자동갱신·Unlimited 스코프(웹 only) 체크.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-03.html#c-마케팅-비즈니스-02"
     },
     {
       "date": "2026-08-03",
