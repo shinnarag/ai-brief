@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-03T11:43:25",
+  "generated_at": "2026-08-04T10:14:11",
   "platform": "AI Pulse",
-  "count": 14,
+  "count": 15,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,89 +11,97 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "models": 106,
-    "creative": 36,
-    "policy": 37,
-    "marketing": 37,
-    "agents": 45,
-    "infra": 39
+    "agents": 49,
+    "models": 109,
+    "creative": 37,
+    "marketing": 40,
+    "infra": 42,
+    "policy": 40
   },
   "companies": [
     [
       "OpenAI",
-      197
+      181
     ],
     [
       "Anthropic",
-      105
-    ],
-    [
-      "NVIDIA",
-      74
+      93
     ],
     [
       "Gemini",
-      68
+      65
     ],
     [
       "Google",
-      51
-    ],
-    [
-      "Claude",
-      50
+      55
     ],
     [
       "DeepSeek",
-      40
+      46
     ],
     [
       "DeepMind",
       40
     ],
     [
-      "ChatGPT",
-      39
+      "Claude",
+      35
     ],
     [
       "Microsoft",
-      37
+      35
     ],
     [
-      "Kling",
-      33
+      "ChatGPT",
+      28
     ],
     [
       "Midjourney",
-      27
+      20
     ],
     [
-      "Runway",
+      "Kling",
       17
-    ],
-    [
-      "GitHub",
-      16
     ],
     [
       "Azure",
       16
     ],
     [
-      "Hugging Face",
-      14
+      "Runway",
+      15
     ],
     [
-      "Copilot",
-      13
+      "GitHub",
+      15
     ],
     [
       "ByteDance",
+      13
+    ],
+    [
+      "NVIDIA",
+      13
+    ],
+    [
+      "Hugging Face",
       12
+    ],
+    [
+      "Copilot",
+      11
+    ],
+    [
+      "Meta",
+      10
     ],
     [
       "Grok",
       7
+    ],
+    [
+      "xAI",
+      6
     ],
     [
       "ElevenLabs",
@@ -102,18 +110,6 @@
     [
       "Oracle",
       5
-    ],
-    [
-      "xAI",
-      4
-    ],
-    [
-      "Meta",
-      4
-    ],
-    [
-      "Apple",
-      4
     ],
     [
       "Notion",
@@ -129,20 +125,60 @@
     ],
     [
       "Luma",
-      2
-    ],
-    [
-      "IBM",
-      2
+      1
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-07-28",
-    "end": "2026-08-03",
+    "start": "2026-07-29",
+    "end": "2026-08-04",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-08-04",
+      "title": "AI Daily Brief — 2026-08-04 (최근 24h)",
+      "theme": "백악관은 검토하고, 가중치는 지역을 가르고, 그리드는 감사를 건다",
+      "theme_blurb": "OpenAI·Anthropic·Google·Meta가 프론티어 모델 사전 검토 프레임을 논의하는 날, Qwen3.8-Max는 GA·오픈웨이트 예고를 띄우고 MiniMax H3 가중치는 US·EU 등 제외 라이선스로 열렸으며, 텍사스는 데이터센터 그리드 연결 전 전수 감사에 들어갔다.",
+      "edition_title": "백악관은 검토하고, 가중치는 지역을 가르고, 그리드는 감사를 건다",
+      "edition_blurb": "OpenAI·Anthropic·Google·Meta가 프론티어 모델 사전 검토 프레임을 논의하는 날, Qwen3.8-Max는 GA·오픈웨이트 예고를 띄우고 MiniMax H3 가중치는 US·EU 등 제외 라이선스로 열렸으며, 텍사스는 데이터센터 그리드 연결 전 전수 감사에 들어갔다.",
+      "url": "brief/2026-08-04.html",
+      "excerpt": "축은 백악관 자발적 AI 안전 테스트 회의(8/4), Alibaba Qwen3.8-Max GA(2.4T MoE), MiniMax H3 오픈웨이트 + ComfyUI Day-0, Horizon3 $250M / OLIX $312M 펀딩, 텍사스 DC 연결 승인 전 감사, CrowdStrike Threat Hunting Report 이다.  ",
+      "top5": [
+        "백악관, OpenAI·Anthropic·Google·Meta와 자발적 프론티어 AI 안전 검토 회의",
+        "Alibaba Qwen3.8-Max GA — 2.4T MoE, 다음 주 오픈웨이트",
+        "MiniMax H3 오픈웨이트 공개 + ComfyUI Day-0 — US·EU·UK·한국 라이선스 제외",
+        "Horizon3, AI 펜테스트 $250M Series E — 밸류 $2B+",
+        "텍사스, 데이터센터 그리드 연결 승인 전 전수 감사 지시"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "OpenAI",
+        "Anthropic",
+        "Google",
+        "Meta",
+        "DeepSeek",
+        "Midjourney",
+        "Gemini",
+        "Hugging Face",
+        "Claude",
+        "xAI",
+        "ByteDance",
+        "Runway",
+        "Kling",
+        "Luma"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-08-03",
       "title": "AI Daily Brief — 2026-08-03 (주말 포함 ~72h)",
@@ -214,8 +250,8 @@
         "policy"
       ],
       "companies": [
-        "Google",
         "Gemini",
+        "Google",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -265,15 +301,15 @@
         "ChatGPT",
         "DeepMind",
         "Anthropic",
-        "NVIDIA",
         "Claude",
+        "NVIDIA",
         "Hugging Face",
-        "Google",
         "GitHub",
+        "Google",
         "Oracle",
         "Kling",
-        "Runway",
         "Amazon",
+        "Runway",
         "Meta",
         "ElevenLabs"
       ],
@@ -317,8 +353,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "NVIDIA",
-        "Gemini"
+        "Gemini",
+        "NVIDIA"
       ],
       "has_rumor": false,
       "source": "md",
@@ -363,8 +399,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Luma",
-        "Meta"
+        "Meta",
+        "Luma"
       ],
       "has_rumor": false,
       "source": "md",
@@ -446,16 +482,16 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Claude",
         "Gemini",
+        "Claude",
         "Kling",
         "Meta",
         "Cloudflare",
         "Luma",
         "Anthropic",
         "Copilot",
-        "Google",
-        "Amazon"
+        "Amazon",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -574,8 +610,8 @@
       ],
       "companies": [
         "Anthropic",
-        "NVIDIA",
         "OpenAI",
+        "NVIDIA",
         "Google",
         "Adobe",
         "GitHub",
@@ -586,8 +622,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Samsung"
       ],
       "has_rumor": false,
@@ -665,8 +701,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,
