@@ -120,6 +120,204 @@
   <rect x="210" y="36" width="120" height="52" rx="12" fill="#0066cc"/>
   <text x="270" y="60" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">FP8</text>
   <text x="270" y="76" text-anchor="middle" fill="#cfe3ff" font-size="10" font-family="system-ui">가볍게 압축</text>
+</svg>`,
+      t2v: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#1a1a2e"/>
+  <rect x="28" y="28" width="100" height="64" rx="10" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="78" y="58" text-anchor="middle" fill="#7c3aed" font-size="12" font-weight="700" font-family="system-ui">글 프롬프트</text>
+  <text x="78" y="76" text-anchor="middle" fill="#a78bfa" font-size="10" font-family="system-ui">“비 오는 거리…”</text>
+  <path d="M138 60 H168" stroke="#a78bfa" stroke-width="3"/>
+  <polygon points="168,54 182,60 168,66" fill="#a78bfa"/>
+  <rect x="190" y="24" width="140" height="72" rx="12" fill="#7c3aed"/>
+  <text x="260" y="56" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">▶ 영상</text>
+  <text x="260" y="76" text-anchor="middle" fill="#ddd6fe" font-size="11" font-family="system-ui">Text-to-Video</text>
+</svg>`,
+      i2v: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#0f172a"/>
+  <rect x="30" y="26" width="88" height="68" rx="10" fill="#334155"/>
+  <circle cx="58" cy="50" r="12" fill="#fbbf24"/>
+  <path d="M38 82 L70 58 L90 72 L110 48 L118 82 Z" fill="#38bdf8"/>
+  <path d="M130 60 H165" stroke="#38bdf8" stroke-width="3"/>
+  <polygon points="165,54 179,60 165,66" fill="#38bdf8"/>
+  <g>
+    <rect x="188" y="30" width="48" height="36" rx="6" fill="#1e293b" stroke="#38bdf8"/>
+    <rect x="244" y="42" width="48" height="36" rx="6" fill="#1e293b" stroke="#38bdf8"/>
+    <rect x="300" y="28" width="40" height="36" rx="6" fill="#0ea5e9"/>
+  </g>
+  <text x="250" y="108" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="system-ui">한 장 → 움직임</text>
+</svg>`,
+      "native-audio": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#ecfdf5"/>
+  <rect x="40" y="30" width="120" height="60" rx="12" fill="#059669"/>
+  <text x="100" y="58" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">영상 프레임</text>
+  <text x="100" y="76" text-anchor="middle" fill="#a7f3d0" font-size="11" font-family="system-ui">+ 소리 동시</text>
+  <g fill="#047857">
+    <rect x="200" y="48" width="8" height="24" rx="2"/><rect x="214" y="40" width="8" height="40" rx="2"/>
+    <rect x="228" y="34" width="8" height="52" rx="2"/><rect x="242" y="42" width="8" height="36" rx="2"/>
+    <rect x="256" y="38" width="8" height="44" rx="2"/><rect x="270" y="46" width="8" height="28" rx="2"/>
+    <rect x="284" y="36" width="8" height="48" rx="2"/>
+  </g>
+  <text x="250" y="100" text-anchor="middle" fill="#065f46" font-size="11" font-family="system-ui">별도 TTS 패스 아님</text>
+</svg>`,
+      keyframe: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fff7ed"/>
+  <circle cx="70" cy="60" r="22" fill="#ea580c"/>
+  <text x="70" y="65" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="system-ui">시작</text>
+  <path d="M100 60 H150" stroke="#fb923c" stroke-width="3" stroke-dasharray="6 4"/>
+  <circle cx="180" cy="60" r="18" fill="#fdba74"/>
+  <text x="180" y="64" text-anchor="middle" fill="#7c2d12" font-size="10" font-family="system-ui">중간</text>
+  <path d="M205 60 H255" stroke="#fb923c" stroke-width="3" stroke-dasharray="6 4"/>
+  <circle cx="290" cy="60" r="22" fill="#c2410c"/>
+  <text x="290" y="65" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="system-ui">끝</text>
+  <text x="180" y="100" text-anchor="middle" fill="#9a3412" font-size="11" font-family="system-ui">중요 컷만 찍고 AI가 잇기</text>
+</svg>`,
+      "lip-sync": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fdf2f8"/>
+  <circle cx="100" cy="58" r="36" fill="#fce7f3" stroke="#db2777" stroke-width="2"/>
+  <ellipse cx="100" cy="70" rx="14" ry="8" fill="#be185d"/>
+  <circle cx="88" cy="52" r="3" fill="#831843"/><circle cx="112" cy="52" r="3" fill="#831843"/>
+  <path d="M150 50 Q200 30 250 50" fill="none" stroke="#db2777" stroke-width="2"/>
+  <rect x="220" y="40" width="100" height="44" rx="12" fill="#db2777"/>
+  <text x="270" y="58" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">대사 · 음성</text>
+  <text x="270" y="74" text-anchor="middle" fill="#fbcfe8" font-size="10" font-family="system-ui">입 모양 맞춤</text>
+</svg>`,
+      "draft-mode": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f8fafc"/>
+  <rect x="36" y="32" width="100" height="56" rx="10" fill="#e2e8f0"/>
+  <text x="86" y="58" text-anchor="middle" fill="#475569" font-size="12" font-weight="700" font-family="system-ui">초안</text>
+  <text x="86" y="74" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="system-ui">빠르고 저렴</text>
+  <text x="160" y="64" text-anchor="middle" fill="#0ea5e9" font-size="18">→</text>
+  <rect x="190" y="28" width="130" height="64" rx="12" fill="#0ea5e9"/>
+  <text x="255" y="56" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">풀퀄 렌더</text>
+  <text x="255" y="74" text-anchor="middle" fill="#bae6fd" font-size="10" font-family="system-ui">같은 구도·모션</text>
+</svg>`,
+      upscale: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef2ff"/>
+  <rect x="50" y="40" width="70" height="44" rx="8" fill="#818cf8"/>
+  <text x="85" y="66" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">720p</text>
+  <text x="150" y="66" text-anchor="middle" fill="#4f46e5" font-size="20">↗</text>
+  <rect x="180" y="28" width="120" height="64" rx="10" fill="#4f46e5"/>
+  <text x="240" y="58" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="system-ui">1080p</text>
+  <text x="240" y="76" text-anchor="middle" fill="#c7d2fe" font-size="11" font-family="system-ui">업스케일</text>
+</svg>`,
+      "multi-shot": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#18181b"/>
+  <rect x="24" y="28" width="90" height="52" rx="8" fill="#3f3f46"/>
+  <text x="69" y="58" text-anchor="middle" fill="#e4e4e7" font-size="11" font-family="system-ui">샷 A</text>
+  <rect x="128" y="36" width="90" height="52" rx="8" fill="#52525b"/>
+  <text x="173" y="66" text-anchor="middle" fill="#e4e4e7" font-size="11" font-family="system-ui">샷 B</text>
+  <rect x="232" y="28" width="100" height="52" rx="8" fill="#a1a1aa"/>
+  <text x="282" y="58" text-anchor="middle" fill="#18181b" font-size="11" font-weight="700" font-family="system-ui">샷 C</text>
+  <text x="180" y="102" text-anchor="middle" fill="#a1a1aa" font-size="11" font-family="system-ui">한 생성에 여러 컷</text>
+</svg>`,
+      "video-continuation": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#042f2e"/>
+  <rect x="28" y="34" width="110" height="52" rx="10" fill="#0d9488"/>
+  <text x="83" y="58" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">기존 클립</text>
+  <text x="83" y="74" text-anchor="middle" fill="#99f6e4" font-size="10" font-family="system-ui">최대 ~4초</text>
+  <path d="M150 60 H190" stroke="#2dd4bf" stroke-width="3"/>
+  <polygon points="190,54 204,60 190,66" fill="#2dd4bf"/>
+  <rect x="212" y="34" width="120" height="52" rx="10" fill="#14b8a6"/>
+  <text x="272" y="58" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">이어쓰기</text>
+  <text x="272" y="74" text-anchor="middle" fill="#ccfbf1" font-size="10" font-family="system-ui">모션·대사 연결</text>
+</svg>`,
+      "character-ip": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fff1f2"/>
+  <circle cx="90" cy="56" r="30" fill="#fb7185"/>
+  <text x="90" y="62" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="system-ui">캐릭터</text>
+  <rect x="150" y="28" width="170" height="64" rx="12" fill="#fff" stroke="#e11d48" stroke-width="2"/>
+  <text x="235" y="52" text-anchor="middle" fill="#9f1239" font-size="12" font-weight="700" font-family="system-ui">성격 · 세계관 · 일상</text>
+  <text x="235" y="72" text-anchor="middle" fill="#fb7185" font-size="11" font-family="system-ui">팬덤 = IP 자산</text>
+</svg>`,
+      "ai-influencer": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f0f9ff"/>
+  <circle cx="80" cy="55" r="28" fill="#38bdf8"/>
+  <text x="80" y="60" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">AI</text>
+  <rect x="130" y="30" width="60" height="50" rx="8" fill="#fff" stroke="#0ea5e9"/>
+  <text x="160" y="58" text-anchor="middle" fill="#0369a1" font-size="11" font-family="system-ui">SNS</text>
+  <rect x="210" y="30" width="60" height="50" rx="8" fill="#fff" stroke="#0ea5e9"/>
+  <text x="240" y="58" text-anchor="middle" fill="#0369a1" font-size="11" font-family="system-ui">광고</text>
+  <rect x="290" y="30" width="48" height="50" rx="8" fill="#0ea5e9"/>
+  <text x="314" y="58" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="system-ui">₩</text>
+  <text x="180" y="102" text-anchor="middle" fill="#0369a1" font-size="11" font-family="system-ui">가상 인물도 인플루언서 단가</text>
+</svg>`,
+      "short-drama": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#1c1917"/>
+  <rect x="120" y="12" width="120" height="96" rx="14" fill="#292524" stroke="#a8a29e" stroke-width="2"/>
+  <rect x="132" y="28" width="96" height="52" rx="6" fill="#44403c"/>
+  <text x="180" y="58" text-anchor="middle" fill="#fafaf9" font-size="12" font-weight="700" font-family="system-ui">숏드라마</text>
+  <circle cx="180" cy="92" r="6" fill="#57534e"/>
+  <text x="180" y="116" text-anchor="middle" fill="#a8a29e" font-size="10" font-family="system-ui">세로 에피소드 · AI 배우</text>
+</svg>`,
+      lora: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#faf5ff"/>
+  <rect x="40" y="32" width="100" height="56" rx="12" fill="#7c3aed"/>
+  <text x="90" y="64" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">기본 모델</text>
+  <text x="165" y="64" text-anchor="middle" fill="#7c3aed" font-size="22">+</text>
+  <rect x="190" y="32" width="130" height="56" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="255" y="58" text-anchor="middle" fill="#5b21b6" font-size="13" font-weight="700" font-family="system-ui">LoRA 어댑터</text>
+  <text x="255" y="74" text-anchor="middle" fill="#a78bfa" font-size="10" font-family="system-ui">스타일·인물 소량 학습</text>
+</svg>`,
+      "reference-image": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f1f5f9"/>
+  <rect x="36" y="28" width="80" height="64" rx="8" fill="#cbd5e1"/>
+  <text x="76" y="64" text-anchor="middle" fill="#334155" font-size="11" font-family="system-ui">참조 사진</text>
+  <path d="M128 60 H168" stroke="#64748b" stroke-width="2"/>
+  <rect x="176" y="24" width="148" height="72" rx="10" fill="#fff" stroke="#0f172a" stroke-width="2"/>
+  <text x="250" y="56" text-anchor="middle" fill="#0f172a" font-size="12" font-weight="700" font-family="system-ui">생성 결과</text>
+  <text x="250" y="74" text-anchor="middle" fill="#64748b" font-size="10" font-family="system-ui">얼굴·구도 유지</text>
+</svg>`,
+      multimodal: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eff6ff"/>
+  <circle cx="180" cy="60" r="22" fill="#2563eb"/>
+  <text x="180" y="65" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="system-ui">한 모델</text>
+  <rect x="40" y="28" width="56" height="28" rx="8" fill="#93c5fd"/><text x="68" y="46" text-anchor="middle" fill="#1e3a8a" font-size="10" font-family="system-ui">이미지</text>
+  <rect x="40" y="64" width="56" height="28" rx="8" fill="#93c5fd"/><text x="68" y="82" text-anchor="middle" fill="#1e3a8a" font-size="10" font-family="system-ui">영상</text>
+  <rect x="264" y="28" width="56" height="28" rx="8" fill="#93c5fd"/><text x="292" y="46" text-anchor="middle" fill="#1e3a8a" font-size="10" font-family="system-ui">오디오</text>
+  <rect x="264" y="64" width="56" height="28" rx="8" fill="#93c5fd"/><text x="292" y="82" text-anchor="middle" fill="#1e3a8a" font-size="10" font-family="system-ui">텍스트</text>
+</svg>`,
+      "early-access": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fffbeb"/>
+  <rect x="50" y="34" width="100" height="52" rx="12" fill="#f59e0b"/>
+  <text x="100" y="64" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">얼리 액세스</text>
+  <path d="M165 60 H210" stroke="#d97706" stroke-width="3" stroke-dasharray="4 3"/>
+  <rect x="220" y="34" width="100" height="52" rx="12" fill="#fff" stroke="#d97706" stroke-width="2"/>
+  <text x="270" y="64" text-anchor="middle" fill="#92400e" font-size="13" font-weight="700" font-family="system-ui">정식 GA</text>
+</svg>`,
+      deepfake: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fef2f2"/>
+  <circle cx="100" cy="60" r="30" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+  <text x="100" y="66" text-anchor="middle" font-size="22">😶</text>
+  <path d="M140 60 H190" stroke="#dc2626" stroke-width="2"/>
+  <rect x="200" y="36" width="120" height="48" rx="10" fill="#dc2626"/>
+  <text x="260" y="58" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">얼굴·목소리</text>
+  <text x="260" y="74" text-anchor="middle" fill="#fecaca" font-size="10" font-family="system-ui">합성 · 주의</text>
+</svg>`,
+      credits: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f0fdf4"/>
+  <circle cx="90" cy="60" r="28" fill="#16a34a"/>
+  <text x="90" y="66" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="system-ui">🪙</text>
+  <rect x="150" y="36" width="170" height="48" rx="12" fill="#fff" stroke="#16a34a" stroke-width="2"/>
+  <text x="235" y="58" text-anchor="middle" fill="#14532d" font-size="12" font-weight="700" font-family="system-ui">생성 크레딧</text>
+  <text x="235" y="74" text-anchor="middle" fill="#4ade80" font-size="10" font-family="system-ui">구독·종량 결제 단위</text>
 </svg>`
     };
 
@@ -223,18 +421,199 @@
       text: "모델 숫자를 더 작은 자릿수로 저장·계산해 메모리와 속도를 아끼는 포맷이에요.",
       detail: "FP8은 8비트 부동소수점 포맷으로, BF16·FP16보다 자릿수를 줄여 가중치·활성값을 저장·연산합니다. 같은 모델도 메모리 footprint가 줄고 처리량이 올라갈 수 있어, 대규모 학습·서빙에서 비용을 낮추려는 선택지로 쓰입니다. 정밀도가 낮아 품질 손실 위험이 있어, 스케일링·혼합 정밀(mixed precision) 기법과 함께 씁니다. 브리프에 ‘네이티브 FP8 학습’이 나오면, 처음부터 8비트 친화적으로 학습해 효율을 노렸다는 신호로 읽으면 됩니다.",
       firstSeen: "2026-07-27"
+    },
+    {
+      id: "t2v",
+      term: "T2V",
+      en: "Text-to-Video",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "글 프롬프트만으로 영상 클립을 만드는 방식이에요.",
+      detail: "Text-to-Video(T2V)는 텍스트 설명만 넣고 영상 시퀀스를 생성하는 파이프라인입니다. ‘비 오는 밤 골목, 네온, 슬로 트래킹’처럼 장면·카메라·분위기를 글로 적으면 모델이 프레임 흐름을 만듭니다. 숏폼·MV 프리비즈·광고 콘셉트 탐색에 쓰이고, 초수·해상도·오디오 포함 여부가 툴마다 다릅니다. 실무에서는 초안 T2V → 키프레임·I2V로 고정하는 식의 단계 파이프가 흔합니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "i2v",
+      term: "I2V",
+      en: "Image-to-Video",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "한 장의 정지 이미지를 출발점으로 움직임을 입히는 방식이에요.",
+      detail: "Image-to-Video(I2V)는 포스터·키아트·스타트 프레임을 넣고 카메라 움직임·피사체 모션을 생성합니다. 브랜드 비주얼 아이덴티티를 유지한 채 숏폼으로 확장할 때 T2V보다 통제가 쉽습니다. 끝 프레임·키프레임을 같이 주는 모델도 있고, 얼굴·로고 일관성은 레퍼런스·시드로 보완합니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "native-audio",
+      term: "네이티브 오디오",
+      en: "Native audio",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "영상 프레임과 같은 생성 패스에서 대사·효과음·앰비언스를 같이 뽑는 방식이에요.",
+      detail: "네이티브 오디오는 완성 영상에 TTS·사운드 디자인을 따로 얹는 후처리와 달리, 모델이 영상과 소리를 한 번에 맞춥니다. 립싱크·발소리·환경음 동기화가 장점이고, FLUX 3 Video처럼 ‘최대 N초 + 네이티브 오디오’로 스펙에 적히는 경우가 많습니다. 광고·숏드라마 파이프에서는 별도 보이스 스택 비용을 줄일 수 있지만, 브랜드 보이스 가이드·음악 저작권은 여전히 별도 점검이 필요합니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "keyframe",
+      term: "키프레임",
+      en: "Keyframe",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "시작·끝·중요 컷처럼 ‘꼭 맞출 장면’을 찍어 두고, 사이 움직임을 AI가 잇게 하는 기준 프레임이에요.",
+      detail: "키프레임은 애니메이션·편집에서 중요한 포즈·구도를 고정하는 프레임입니다. 생성 영상 툴에서는 시작 이미지 + 끝 이미지, 또는 여러 장 시퀀스를 주고 자연스러운 전환을 만들 때 씁니다. 감독·아트가 ‘이 구도는 필수’일 때 T2V 자유 생성보다 키프레임 제어가 안전합니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "lip-sync",
+      term: "립싱크",
+      en: "Lip-sync",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "대사·노래 타이밍에 맞춰 입 모양·얼굴 움직임을 맞추는 기술이에요.",
+      detail: "립싱크는 음성 파형·음소에 맞춰 캐릭터 입이 움직이도록 정렬하는 작업입니다. AI 영상·디지털 휴먼·숏드라마에서 다국어 대사 생성 시 ‘자연스러운 입 모양’이 품질 지표가 됩니다. 네이티브 오디오 모델이 립싱크를 내장하기도 하고, 후처리 전용 툴을 쓰기도 합니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "draft-mode",
+      term: "Draft 모드",
+      en: "Draft mode",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "저비용·저해상도로 빠른 초안을 뽑고, 마음에 들면 같은 구도로 풀퀄 렌더하는 모드예요.",
+      detail: "Draft(드래프트) 모드는 탐색용 프리뷰입니다. 프롬프트·구도·모션을 여러 번 돌려본 뒤, 확정본만 고해상도·긴 초수로 렌더해 크레딧을 아낍니다. FLUX 3 Video 등은 드래프트와 파이널이 같은 구성·모션을 유지한다고 명시하기도 합니다. 팀 워크플로에서는 ‘드래프트 리뷰 → 승인자 → 파이널’ 단계를 두면 비용 통제가 쉽습니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "upscale",
+      term: "업스케일",
+      en: "Upscale",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "720p처럼 낮은 해상도 결과물을 1080p·4K 등으로 키우며 디테일을 보완하는 단계예요.",
+      detail: "업스케일은 생성·촬영본의 가로·세로 픽셀을 늘리고 선명도를 복원하는 후처리입니다. 생성 모델이 HD로 뽑고 Full HD는 업스케일 경로로 제공하는 식이 흔합니다. 과하면 플라스틱 질감·아티팩트가 생길 수 있어, 최종 배포 해상도 기준으로 파이프를 맞춥니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "multi-shot",
+      term: "멀티 샷",
+      en: "Multi-shot",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "한 번의 생성 안에 여러 카메라 앵글·장면을 이어 담는 방식이에요.",
+      detail: "멀티 샷은 단일 연속 테이크가 아니라, 컷이 나뉜 시퀀스를 한 클립에서 만드는 능력입니다. 숏폼·트레일러 톤을 빠르게 잡을 때 유리하고, 샷 간 캐릭터·조명 일관성이 품질 포인트입니다. 편집 팀이 쓰려면 샷 경계를 인식해 타임라인으로 쪼개는 후속 작업이 필요할 수 있습니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "video-continuation",
+      term: "비디오 컨티뉴에이션",
+      en: "Video continuation",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "이미 있는 영상·오디오 일부를 넣고 ‘다음에 무슨 일이 이어질지’를 이어서 생성하는 기능이에요.",
+      detail: "Video continuation은 최대 수 초의 기존 클립을 시드로 삼아 모션·카메라·대사를 끊김 없이 연장합니다. 시리즈 숏폼·스토리 이어가기·리테이크 대체에 쓰고, 시접(seam)에서 점프컷이 생기지 않는지가 관건입니다. 편집 파이프의 중간 노드로 두면 ‘찍은 컷 → AI 연장 → 다시 편집’ 루프가 가능합니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "character-ip",
+      term: "캐릭터 IP",
+      en: "Character IP",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "얼굴 하나가 아니라, 성격·이야기·일상 루틴까지 갖춰 팬덤이 생기는 캐릭터 자산이에요.",
+      detail: "캐릭터 IP는 외형 디자인에 그치지 않고 세계관·말투·관계성·시리즈 서사로 ‘다시 보고 싶은 인물’을 만드는 자산입니다. AI 숏드라마·버추얼 휴먼 시대에는 제작비 절감보다 IP의 광고·굿즈·세계관 확장 가치가 논의됩니다. 브리프의 팡타오쯔 사례처럼 팔로 수·광고 제안가가 이슈가 되면, 단가표에 실인 vs 캐릭터 IP 행을 나누는 편이 좋습니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "ai-influencer",
+      term: "AI 인플루언서",
+      en: "AI / virtual influencer",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "실제 사람이 아닌 AI·가상 캐릭터가 SNS에서 팔로워를 모으고 광고를 받는 형태예요.",
+      detail: "AI·가상 인플루언서는 생성 이미지·영상으로 계정을 운영하며 브랜디드 콘텐츠·라이브 커머스에 참여합니다. 장점은 스케줄·이미지 통제와 ‘불탱’ 리스크 완화 프레이밍이고, 과제는 AI 고지·신뢰·실제 계약 단가 검증입니다. 운영사 제안가와 체결액은 다를 수 있으니 브리프 수치를 계약액으로 단정하지 않습니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "short-drama",
+      term: "숏드라마",
+      en: "Short drama",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "세로형·짧은 회차로 소비하는 드라마 포맷이에요. AI 배우·생성 영상과 자주 붙습니다.",
+      detail: "숏드라마는 모바일 세로 화면에 맞춘 수 분 내외 에피소드 시리즈입니다. 중국 시장에서 먼저 규모가 커졌고, AI 생성 배우·배경으로 제작 속도를 올리는 실험이 이어집니다. 콘텐츠 팀은 ‘에피소드 공장’ 파이프(대본→샷→생성→편집→계정 운영)와 캐릭터 IP 수익화(광고·굿즈)를 같이 봅니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "lora",
+      term: "LoRA",
+      en: "Low-Rank Adaptation",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "큰 모델을 통째로 다시 학습하지 않고, 작은 어댑터로 스타일·인물을 입히는 기법이에요.",
+      detail: "LoRA는 기반 모델 가중치는 고정한 채 저랭크 행렬만 학습해 스타일·캐릭터·브랜드 룩을 이식합니다. 파일 용량이 작고 여러 LoRA를 섞어 쓰는 워크플로가 흔합니다. 팀 공용 ‘브랜드 LoRA’를 만들어 두면 외주·내부 생성물의 톤 일관성에 도움이 됩니다. 라이선스·학습 데이터 출처는 별도 확인이 필요합니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "reference-image",
+      term: "레퍼런스 이미지",
+      en: "Reference image",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "생성 때 ‘이 얼굴·이 구도·이 스타일을 참고해’라고 넣는 기준 이미지예요.",
+      detail: "레퍼런스 이미지는 프롬프트만으로 부족한 시각 조건을 사진·일러스트로 고정합니다. I2V의 시작 프레임, 캐릭터 일관성, 제품 샷 유지에 필수입니다. 여러 장을 넣는 멀티 레퍼런스 모델도 있고, 가중치·마스크로 영향 범위를 조절하기도 합니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "multimodal",
+      term: "멀티모달",
+      en: "Multimodal",
+      tag: "model",
+      tagLabel: "모델",
+      text: "글·이미지·영상·소리처럼 여러 종류의 입출력을 하나의 모델이 다루는 구조예요.",
+      detail: "멀티모달 모델은 텍스트만이 아니라 이미지·오디오·비디오 등을 같은 표현 공간에서 이해·생성합니다. FLUX 3처럼 영상+오디오+이미지를 한 백본으로 묶는 발표가 대표적입니다. 콘텐츠 팀에선 ‘툴을 여러 개 잇는 파이프’ 대신 ‘한 모델에 섞어 넣기’ 실험이 늘고, 권한·안전 정책도 모달리티별로 달라집니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "early-access",
+      term: "얼리 액세스",
+      en: "Early access",
+      tag: "basics",
+      tagLabel: "기초",
+      text: "정식 공개 전에 신청·초대된 사용자만 먼저 써 보는 단계예요.",
+      detail: "얼리 액세스(또는 클로즈드 베타)는 품질·안전·용량을 검증하려고 접근을 제한한 기간입니다. 브리프에서는 ‘얼리 → API GA’처럼 상태 업그레이드가 뉴스입니다. 같은 베타 단계 재탕은 피하고, 누가 쓸 수 있는지·대기열·유료 여부를 카드에 적습니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "deepfake",
+      term: "딥페이크",
+      en: "Deepfake",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "실제와 구분하기 어렵게 얼굴·목소리를 합성하는 기술·결과물을 가리켜요. 악용 위험이 큽니다.",
+      detail: "딥페이크는 학습 기반 합성으로 특정 인물의 얼굴·음성을 다른 영상에 옮기거나 가짜 발언을 만드는 기술입니다. 엔터테인먼트·더빙에 쓰이기도 하지만, 사칭·비동의 합성(NCII)·선거 개입 등 리스크가 커서 워터마크·탐지·동의 절차가 함께 논의됩니다. 제작 파이프에 쓸 때는 초상권·초상 라이선스·고지 문구를 체크리스트에 넣습니다.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "credits",
+      term: "크레딧",
+      en: "Credits",
+      tag: "work",
+      tagLabel: "활용",
+      text: "생성 툴에서 한 번 렌더·한 장 뽑을 때마다 깎이는 사용량 단위예요.",
+      detail: "크레딧은 구독 플랜에 묶이거나 종량 과금되는 ‘생성 횟수·연산량’ 단위입니다. Draft는 적게, 고해상·긴 초수는 많이 소모하는 식입니다. 팀 예산 관리에서는 인원별 크레딧 캡, 프로모 종료일, 연간 할인 조건을 브리프 가격 카드와 같이 봅니다.",
+      firstSeen: "2026-08-05"
     }
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-07-31",
-    termIds: ["token", "api", "agent", "cli", "prompt"]
+    date: "2026-08-05",
+    termIds: ["short-drama", "character-ip", "native-audio", "i2v", "ai-influencer", "draft-mode"]
   };
 
   const TAGS = [
     { id: "all", label: "전체" },
     { id: "basics", label: "기초" },
     { id: "model", label: "모델" },
+    { id: "creative", label: "크리에이티브" },
     { id: "work", label: "활용" },
     { id: "risk", label: "주의" }
   ];
@@ -242,6 +621,7 @@
   const TAG_CLASS = {
     basics: "tag-basics",
     model: "tag-model",
+    creative: "tag-creative",
     work: "tag-work",
     risk: "tag-risk"
   };
@@ -264,7 +644,8 @@
   function isRecent(b, days) {
     days = days || 10;
     var d = new Date(b.firstSeen + "T00:00:00");
-    var now = new Date("2026-07-31T00:00:00");
+    var anchor = (LATEST_BRIEF && LATEST_BRIEF.date) || "2026-08-05";
+    var now = new Date(anchor + "T00:00:00");
     return (now - d) / 86400000 <= days;
   }
 
@@ -509,11 +890,12 @@
   /**
    * Home: "오늘의 AI 비스킷" — one term + meaning at a time, fade in/out (toast/notice feel)
    */
-  function initHomeTicker(ids) {
+  function initHomeTicker(ids, meta) {
     bindPopoverOnce();
     var root = document.getElementById("home-biscuit-ticker");
     if (!root) return;
 
+    meta = meta || {};
     var list = (ids || LATEST_BRIEF.termIds || [])
       .map(findBiscuit)
       .filter(Boolean);
@@ -527,13 +909,21 @@
     var idx = 0;
     var timer = null;
     var paused = false;
+    var dayLabel = meta.label || root.getAttribute("data-label") || "";
+    var titleMain = "오늘의 AI 비스킷";
+    var titleSub = dayLabel
+      ? '<span class="biscuit-ticker-day">' + dayLabel + "</span>"
+      : "";
 
     root.classList.add("biscuit-ticker-host");
     root.innerHTML =
       '<div class="biscuit-ticker biscuit-ticker--hero">' +
       '<div class="biscuit-ticker-label">' +
       '<span class="biscuit-ticker-dot" aria-hidden="true"></span>' +
-      "오늘의 AI 비스킷" +
+      '<span class="biscuit-ticker-title">' +
+      titleMain +
+      titleSub +
+      "</span>" +
       '<a class="biscuit-ticker-all" href="biscuits.html">전체</a>' +
       "</div>" +
       '<div class="biscuit-ticker-card" id="biscuit-ticker-card">' +
@@ -656,7 +1046,10 @@
     var ticker = document.getElementById("home-biscuit-ticker");
     if (ticker) {
       var ids = parseTermIds(ticker);
-      initHomeTicker(ids || undefined);
+      initHomeTicker(ids || undefined, {
+        date: ticker.getAttribute("data-date") || "",
+        label: ticker.getAttribute("data-label") || ""
+      });
     }
     var related = document.getElementById("related-biscuits");
     if (related) {

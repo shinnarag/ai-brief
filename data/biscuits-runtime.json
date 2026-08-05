@@ -1,0 +1,134 @@
+{
+  "date": "2026-08-05",
+  "label": "8월 5일 브리프",
+  "termIds": [
+    "short-drama",
+    "character-ip",
+    "native-audio",
+    "i2v",
+    "ai-influencer",
+    "draft-mode"
+  ],
+  "allMatchedIds": [
+    "video-continuation",
+    "native-audio",
+    "draft-mode",
+    "t2v",
+    "i2v",
+    "lip-sync",
+    "keyframe",
+    "multi-shot",
+    "upscale",
+    "character-ip",
+    "ai-influencer",
+    "short-drama",
+    "multimodal",
+    "early-access",
+    "credits",
+    "open-weight",
+    "prompt",
+    "agent",
+    "api"
+  ],
+  "candidates": [
+    {
+      "term": "FLUX 3",
+      "hint": "BFL 멀티모달·영상 모델",
+      "hits": 17,
+      "sample": "인프라 축을 잡는 사이, BFL이 FLUX 3 Video를 API GA로 풀었고 중국 AI 숏드라마 캐릭터가 인플루언",
+      "brief_date": "2026-08-05"
+    },
+    {
+      "term": "Midjourney",
+      "hint": "이미지 생성 서비스",
+      "hits": 4,
+      "sample": "재탕 없음. > 스윕(자동): Midjourney / DeepSeek / Gemini / Seed·Dreamina — 메",
+      "brief_date": "2026-08-05"
+    },
+    {
+      "term": "星图(광고 단가 플랫폼)",
+      "hint": "중국 인플루언서 단가 표시",
+      "hits": 4,
+      "sample": "- (단가·범위) 운영사·**巨量星图(Douyin Star Map)** 표시 견적: **1–20초 16.8만",
+      "brief_date": "2026-08-05"
+    },
+    {
+      "term": "해상도(720p/1080p/4K)",
+      "hint": "출력 화질 단위",
+      "hits": 2,
+      "sample": "클립 **최대 20초**, **HD(720p)** 생성 + **Full HD(1080p)** 업스케일 경로, **네",
+      "brief_date": "2026-08-05"
+    },
+    {
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
+      "hits": 1,
+      "sample": "· Qwen3.8-Max GA · MiniMax H3 오픈웨이트·라이선스 · Horizon3/OLIX 펀딩 · TX D",
+      "brief_date": "2026-08-05"
+    },
+    {
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 1,
+      "sample": "C 10기** 배포. 고객 예: **Higgsfield AI, Wix**. - (아키텍처) 단일 네트워크로 요청 라우팅(",
+      "brief_date": "2026-08-05"
+    },
+    {
+      "term": "Kling",
+      "hint": "영상 생성 모델",
+      "hits": 1,
+      "sample": "- (영향) 숏폼·MV·광고 팀은 Kling/Runway/Seedance와 **20s+네이티브 오디오·Draft 단",
+      "brief_date": "2026-08-05"
+    },
+    {
+      "term": "MCP",
+      "hint": "Model Context Protocol",
+      "hits": 1,
+      "sample": "1,000+**(100+ 팀)·내부 MCP 툴 **500+**. - (아키텍처) Deep Agents 기본",
+      "brief_date": "2026-08-05"
+    },
+    {
+      "term": "NCII",
+      "hint": "비동의 합성 이미지 리스크",
+      "hits": 1,
+      "sample": ". 안전: Cinder 제3자 평가(NCII·CSAM 등). - (로드맵) 다음: 이미지·영상·오디오 레퍼런스",
+      "brief_date": "2026-08-05"
+    },
+    {
+      "term": "RAG",
+      "hint": "검색 증강 생성",
+      "hits": 1,
+      "sample": "례. 다음 과제는 스킬 선택 스케일(RAG/분류 프리필터)·거버넌스·행동 개인화·멀티유저 협업 세션. - (",
+      "brief_date": "2026-08-05"
+    },
+    {
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 1,
+      "sample": ") 숏폼·MV·광고 팀은 Kling/Runway/Seedance와 **20s+네이티브 오디오·Draft 단가·API S",
+      "brief_date": "2026-08-05"
+    },
+    {
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
+      "hits": 1,
+      "sample": "O **1135** 리드, I2V는 Seedance 2.0과 동률·그 외 SOTA 상회 주장. 안전: Cinder 제3자",
+      "brief_date": "2026-08-05"
+    },
+    {
+      "term": "샌드박스",
+      "hint": "격리 실행 환경",
+      "hits": 1,
+      "sample": "UI. 파일시스템(S3 가상 FS)·샌드박스 코드 실행·요약 미들웨어. 스킬 `allowedTools` 2-pass",
+      "brief_date": "2026-08-05"
+    },
+    {
+      "term": "카메라 앵글",
+      "hint": "시점·렌즈 연출",
+      "hits": 1,
+      "sample": "4초** 이어쓰기) · **멀티 샷·카메라 앵글** 단일 생성 · 대사·SFX·앰비언스 · **다국어 립싱크**(영·중",
+      "brief_date": "2026-08-05"
+    }
+  ],
+  "catalogSize": 28
+}

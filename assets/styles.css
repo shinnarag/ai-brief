@@ -2107,8 +2107,22 @@ h1 button.inline-biscuit {
 }
 .tag-basics { color: var(--blue); background: var(--blue-soft); }
 .tag-model { color: var(--violet); background: var(--violet-soft); }
+.tag-creative { color: #c2410c; background: #ffedd5; }
 .tag-work { color: var(--teal); background: var(--teal-soft); }
 .tag-risk { color: var(--rose); background: var(--rose-soft); }
+
+.biscuit-ticker-title {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.5rem;
+}
+.biscuit-ticker-day {
+  font-size: 0.78em;
+  font-weight: 500;
+  color: var(--muted, #86868b);
+  letter-spacing: 0;
+}
 .biscuit-term {
   margin: 0;
   font-size: 17px;
