@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T10:14:11",
+  "generated_at": "2026-08-05T10:15:31",
   "platform": "AI Pulse",
-  "count": 15,
+  "count": 16,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,81 +11,85 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "agents": 49,
-    "models": 109,
-    "creative": 37,
-    "marketing": 40,
-    "infra": 42,
-    "policy": 40
+    "marketing": 43,
+    "infra": 47,
+    "policy": 41,
+    "models": 113,
+    "agents": 52,
+    "creative": 37
   },
   "companies": [
     [
       "OpenAI",
-      181
+      153
     ],
     [
       "Anthropic",
-      93
+      82
     ],
     [
       "Gemini",
-      65
+      66
     ],
     [
       "Google",
-      55
+      60
     ],
     [
       "DeepSeek",
-      46
+      49
     ],
     [
       "DeepMind",
       40
     ],
     [
+      "ChatGPT",
+      38
+    ],
+    [
       "Claude",
       35
     ],
     [
-      "Microsoft",
-      35
-    ],
-    [
-      "ChatGPT",
-      28
+      "NVIDIA",
+      25
     ],
     [
       "Midjourney",
       20
     ],
     [
-      "Kling",
-      17
-    ],
-    [
-      "Azure",
-      16
-    ],
-    [
-      "Runway",
-      15
-    ],
-    [
-      "GitHub",
+      "Microsoft",
       15
     ],
     [
       "ByteDance",
+      14
+    ],
+    [
+      "Grok",
       13
     ],
     [
-      "NVIDIA",
+      "Azure",
       13
     ],
     [
       "Hugging Face",
       12
+    ],
+    [
+      "Runway",
+      11
+    ],
+    [
+      "Kling",
+      11
+    ],
+    [
+      "xAI",
+      11
     ],
     [
       "Copilot",
@@ -96,20 +100,20 @@
       10
     ],
     [
-      "Grok",
-      7
+      "GitHub",
+      10
     ],
     [
-      "xAI",
-      6
-    ],
-    [
-      "ElevenLabs",
-      5
+      "IBM",
+      9
     ],
     [
       "Oracle",
       5
+    ],
+    [
+      "ElevenLabs",
+      2
     ],
     [
       "Notion",
@@ -130,11 +134,55 @@
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-07-29",
-    "end": "2026-08-04",
+    "start": "2026-07-30",
+    "end": "2026-08-05",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-08-05",
+      "title": "AI Daily Brief — 2026-08-05 (최근 24h)",
+      "theme": "실적은 찍혔는데, 전력과 인재가 먼저 달렸다",
+      "theme_blurb": "SpaceX 상장 후 첫 실적이 매출을 두 배로 올리며 AI 캡엑스를 시험대에 올렸고, Valar·Runware가 원자력·이동형 추론으로 전력·입지를 우회하는 사이 Anthropic은 글로벌 정책 사령탑을 영입했다.",
+      "edition_title": "실적은 찍혔는데, 전력과 인재가 먼저 달렸다",
+      "edition_blurb": "SpaceX 상장 후 첫 실적이 매출을 두 배로 올리며 AI 캡엑스를 시험대에 올렸고, Valar·Runware가 원자력·이동형 추론으로 전력·입지를 우회하는 사이 Anthropic은 글로벌 정책 사령탑을 영입했다.",
+      "url": "brief/2026-08-05.html",
+      "excerpt": "축은 SpaceX IPO 후 첫 분기 실적(매출 $78억·AI 캡엑스 충격), Valar Atomics $10억 Series B(원자력×AI), Anthropic Tino Cuéllar CGAO 영입, OpenAI 교육 플러그인 3종, Runware Sonic Inference Pod, Stripe Kai/Deep Agents 케이스, Mariana $3.1억 광산 AI 이다.  ",
+      "top5": [
+        "SpaceX, 상장 후 첫 실적 — 매출 $78억(+92%)·AI 캡엑스 충격 (후속)",
+        "Valar Atomics, Sequoia 리드 $10억 Series B — 원자력으로 AI 전력",
+        "Anthropic, Tino Cuéllar를 초대 CGAO로 영입",
+        "OpenAI, K–12·대학용 ChatGPT Work/Codex 교육 플러그인 3종",
+        "Runware, 이동형 Sonic Inference Pod — 20ft 컨테이너 추론 DC"
+      ],
+      "domains": [
+        "agents",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "OpenAI",
+        "Anthropic",
+        "NVIDIA",
+        "ChatGPT",
+        "Claude",
+        "IBM",
+        "Grok",
+        "Google",
+        "xAI",
+        "Midjourney",
+        "DeepSeek",
+        "Gemini",
+        "Runway",
+        "Kling",
+        "ByteDance"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-08-04",
       "title": "AI Daily Brief — 2026-08-04 (최근 24h)",
@@ -250,8 +298,8 @@
         "policy"
       ],
       "companies": [
-        "Gemini",
         "Google",
+        "Gemini",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -304,8 +352,8 @@
         "Claude",
         "NVIDIA",
         "Hugging Face",
-        "GitHub",
         "Google",
+        "GitHub",
         "Oracle",
         "Kling",
         "Amazon",
@@ -353,8 +401,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "Gemini",
-        "NVIDIA"
+        "NVIDIA",
+        "Gemini"
       ],
       "has_rumor": false,
       "source": "md",
@@ -444,8 +492,8 @@
         "ElevenLabs",
         "Midjourney",
         "Microsoft",
-        "Zapier",
-        "Google"
+        "Google",
+        "Zapier"
       ],
       "has_rumor": false,
       "source": "md",
@@ -482,8 +530,8 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Gemini",
         "Claude",
+        "Gemini",
         "Kling",
         "Meta",
         "Cloudflare",
@@ -622,8 +670,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Samsung"
       ],
       "has_rumor": false,
@@ -701,8 +749,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,
