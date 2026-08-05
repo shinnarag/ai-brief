@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T10:15:31",
+  "generated_at": "2026-08-05T14:44:56",
   "platform": "AI Pulse",
   "count": 16,
   "domains": {
@@ -11,21 +11,21 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "marketing": 43,
-    "infra": 47,
+    "creative": 39,
+    "marketing": 45,
+    "infra": 46,
     "policy": 41,
-    "models": 113,
-    "agents": 52,
-    "creative": 37
+    "agents": 53,
+    "models": 112
   },
   "companies": [
     [
       "OpenAI",
-      153
+      149
     ],
     [
       "Anthropic",
-      82
+      81
     ],
     [
       "Gemini",
@@ -44,16 +44,16 @@
       40
     ],
     [
-      "ChatGPT",
-      38
-    ],
-    [
       "Claude",
       35
     ],
     [
+      "ChatGPT",
+      34
+    ],
+    [
       "NVIDIA",
-      25
+      23
     ],
     [
       "Midjourney",
@@ -142,21 +142,22 @@
     {
       "date": "2026-08-05",
       "title": "AI Daily Brief — 2026-08-05 (최근 24h)",
-      "theme": "실적은 찍혔는데, 전력과 인재가 먼저 달렸다",
-      "theme_blurb": "SpaceX 상장 후 첫 실적이 매출을 두 배로 올리며 AI 캡엑스를 시험대에 올렸고, Valar·Runware가 원자력·이동형 추론으로 전력·입지를 우회하는 사이 Anthropic은 글로벌 정책 사령탑을 영입했다.",
-      "edition_title": "실적은 찍혔는데, 전력과 인재가 먼저 달렸다",
-      "edition_blurb": "SpaceX 상장 후 첫 실적이 매출을 두 배로 올리며 AI 캡엑스를 시험대에 올렸고, Valar·Runware가 원자력·이동형 추론으로 전력·입지를 우회하는 사이 Anthropic은 글로벌 정책 사령탑을 영입했다.",
+      "theme": "실적·전력 위에, 영상 GA와 캐릭터 IP가 얹혔다",
+      "theme_blurb": "SpaceX 첫 실적과 원자력·이동형 추론이 인프라 축을 잡는 사이, BFL이 FLUX 3 Video를 API GA로 풀었고 중국 AI 숏드라마 캐릭터가 인플루언서 단가로 브랜드 논쟁을 열었다.",
+      "edition_title": "실적·전력 위에, 영상 GA와 캐릭터 IP가 얹혔다",
+      "edition_blurb": "SpaceX 첫 실적과 원자력·이동형 추론이 인프라 축을 잡는 사이, BFL이 FLUX 3 Video를 API GA로 풀었고 중국 AI 숏드라마 캐릭터가 인플루언서 단가로 브랜드 논쟁을 열었다.",
       "url": "brief/2026-08-05.html",
-      "excerpt": "축은 SpaceX IPO 후 첫 분기 실적(매출 $78억·AI 캡엑스 충격), Valar Atomics $10억 Series B(원자력×AI), Anthropic Tino Cuéllar CGAO 영입, OpenAI 교육 플러그인 3종, Runware Sonic Inference Pod, Stripe Kai/Deep Agents 케이스, Mariana $3.1억 광산 AI 이다.  ",
+      "excerpt": "축은 FLUX 3 Video API GA(최대 20s·네이티브 오디오), SpaceX IPO 후 첫 분기 실적, Valar Atomics $10억 Series B, Anthropic Tino Cuéllar CGAO, OpenAI 교육 플러그인, AI 숏드라마 캐릭터 팡타오쯔(方桃子) 광고 단가 시그널, Runware Sonic Pod, Stripe Kai 이다.  ",
       "top5": [
+        "BFL, FLUX 3 Video 생성 API 일반 공개 — 최대 20초·네이티브 오디오",
         "SpaceX, 상장 후 첫 실적 — 매출 $78억(+92%)·AI 캡엑스 충격 (후속)",
         "Valar Atomics, Sequoia 리드 $10억 Series B — 원자력으로 AI 전력",
         "Anthropic, Tino Cuéllar를 초대 CGAO로 영입",
-        "OpenAI, K–12·대학용 ChatGPT Work/Codex 교육 플러그인 3종",
-        "Runware, 이동형 Sonic Inference Pod — 20ft 컨테이너 추론 DC"
+        "AI 숏드라마 캐릭터 ‘팡타오쯔’, 40만 팔로·광고 제안가 16.8만~25.8만 위안"
       ],
       "domains": [
         "agents",
+        "creative",
         "infra",
         "marketing",
         "models",
@@ -166,9 +167,9 @@
         "OpenAI",
         "Anthropic",
         "NVIDIA",
-        "ChatGPT",
         "Claude",
         "IBM",
+        "ChatGPT",
         "Grok",
         "Google",
         "xAI",
@@ -298,8 +299,8 @@
         "policy"
       ],
       "companies": [
-        "Google",
         "Gemini",
+        "Google",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -311,8 +312,8 @@
         "Hugging Face",
         "Notion",
         "AWS",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "Runway"
       ],
       "has_rumor": false,
@@ -349,17 +350,17 @@
         "ChatGPT",
         "DeepMind",
         "Anthropic",
-        "Claude",
         "NVIDIA",
+        "Claude",
         "Hugging Face",
-        "Google",
         "GitHub",
+        "Google",
         "Oracle",
         "Kling",
         "Amazon",
         "Runway",
         "Meta",
-        "ElevenLabs"
+        "Midjourney"
       ],
       "has_rumor": false,
       "source": "md",
@@ -489,11 +490,11 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "Microsoft",
-        "Google",
-        "Zapier"
+        "Zapier",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
