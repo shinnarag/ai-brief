@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T15:20:10",
+  "generated_at": "2026-08-05T17:49:43",
   "platform": "AI Pulse",
   "count": 16,
   "domains": {
@@ -11,12 +11,12 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "creative": 39,
-    "marketing": 45,
+    "creative": 40,
+    "marketing": 44,
     "infra": 46,
     "policy": 41,
-    "agents": 53,
-    "models": 112
+    "models": 113,
+    "agents": 54
   },
   "companies": [
     [
@@ -68,6 +68,10 @@
       14
     ],
     [
+      "Kling",
+      13
+    ],
+    [
       "Grok",
       13
     ],
@@ -81,10 +85,6 @@
     ],
     [
       "Runway",
-      11
-    ],
-    [
-      "Kling",
       11
     ],
     [
@@ -142,18 +142,18 @@
     {
       "date": "2026-08-05",
       "title": "AI Daily Brief — 2026-08-05 (최근 24h)",
-      "theme": "실적·전력 위에, 영상 GA와 캐릭터 IP가 얹혔다",
-      "theme_blurb": "SpaceX 첫 실적과 원자력·이동형 추론이 인프라 축을 잡는 사이, BFL이 FLUX 3 Video를 API GA로 풀었고 중국 AI 숏드라마 캐릭터가 인플루언서 단가로 브랜드 논쟁을 열었다.",
-      "edition_title": "실적·전력 위에, 영상 GA와 캐릭터 IP가 얹혔다",
-      "edition_blurb": "SpaceX 첫 실적과 원자력·이동형 추론이 인프라 축을 잡는 사이, BFL이 FLUX 3 Video를 API GA로 풀었고 중국 AI 숏드라마 캐릭터가 인플루언서 단가로 브랜드 논쟁을 열었다.",
+      "theme": "영상은 20초 GA, 30초 예고가 겹친 날",
+      "theme_blurb": "BFL FLUX 3 Video가 API로 풀린 날, 커뮤니티에 Wan 3.0(1080p 네이티브 30초) 초대 테스트 클립이 돌았고, 중국 AI 숏드라마 캐릭터는 인플루언서 단가 논쟁을 열었다.",
+      "edition_title": "영상은 20초 GA, 30초 예고가 겹친 날",
+      "edition_blurb": "BFL FLUX 3 Video가 API로 풀린 날, 커뮤니티에 Wan 3.0(1080p 네이티브 30초) 초대 테스트 클립이 돌았고, 중국 AI 숏드라마 캐릭터는 인플루언서 단가 논쟁을 열었다.",
       "url": "brief/2026-08-05.html",
-      "excerpt": "축은 FLUX 3 Video API GA(최대 20s·네이티브 오디오), SpaceX IPO 후 첫 분기 실적, Valar Atomics $10억 Series B, Anthropic Tino Cuéllar CGAO, OpenAI 교육 플러그인, AI 숏드라마 캐릭터 팡타오쯔(方桃子) 광고 단가 시그널, Runware Sonic Pod, Stripe Kai 이다.  ",
+      "excerpt": "축은 FLUX 3 Video API GA(최대 20s·네이티브 오디오), Wan 3.0 프리뷰 시그널(1080p·30s 주장, 초대 테스트), SpaceX IPO 후 첫 분기 실적, Valar Atomics $10억 Series B, Anthropic Tino Cuéllar CGAO, OpenAI 교육 플러그인, AI 숏드라마 캐릭터 팡타오쯔 광고 단가, Runware Sonic Pod, Stripe Kai 이다.  ",
       "top5": [
         "BFL, FLUX 3 Video 생성 API 일반 공개 — 최대 20초·네이티브 오디오",
         "SpaceX, 상장 후 첫 실적 — 매출 $78억(+92%)·AI 캡엑스 충격 (후속)",
         "Valar Atomics, Sequoia 리드 $10억 Series B — 원자력으로 AI 전력",
         "Anthropic, Tino Cuéllar를 초대 CGAO로 영입",
-        "AI 숏드라마 캐릭터 ‘팡타오쯔’, 40만 팔로·광고 제안가 16.8만~25.8만 위안"
+        "Wan 3.0 프리뷰 시그널 — 1080p 네이티브·최대 30초 주장 (초대 테스트)"
       ],
       "domains": [
         "agents",
@@ -174,10 +174,10 @@
         "Google",
         "xAI",
         "Midjourney",
+        "Kling",
         "DeepSeek",
         "Gemini",
         "Runway",
-        "Kling",
         "ByteDance"
       ],
       "has_rumor": false,
@@ -357,8 +357,8 @@
         "Google",
         "Oracle",
         "Kling",
-        "Amazon",
         "Runway",
+        "Amazon",
         "Meta",
         "ElevenLabs"
       ],
@@ -448,8 +448,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Luma",
-        "Meta"
+        "Meta",
+        "Luma"
       ],
       "has_rumor": false,
       "source": "md",
@@ -539,8 +539,8 @@
         "Luma",
         "Anthropic",
         "Copilot",
-        "Amazon",
-        "Google"
+        "Google",
+        "Amazon"
       ],
       "has_rumor": false,
       "source": "md",
@@ -659,8 +659,8 @@
       ],
       "companies": [
         "Anthropic",
-        "OpenAI",
         "NVIDIA",
+        "OpenAI",
         "Google",
         "Adobe",
         "GitHub",
@@ -671,8 +671,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Samsung"
       ],
       "has_rumor": false,
@@ -750,8 +750,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,

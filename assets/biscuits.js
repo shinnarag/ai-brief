@@ -606,7 +606,7 @@
 
   const LATEST_BRIEF = {
     date: "2026-08-05",
-    termIds: ["short-drama", "character-ip", "native-audio", "i2v", "ai-influencer", "draft-mode"]
+    termIds: ["short-drama", "native-audio", "character-ip", "i2v", "draft-mode", "keyframe"]
   };
 
   const TAGS = [
