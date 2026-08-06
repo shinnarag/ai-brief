@@ -226,7 +226,7 @@
             
           </div>
           <h3 class="news-title">Anthropic, Claude Opus 5 출시 — Fable급에 가깝고 가격은 Opus 그대로</h3>
-          <ul class="news-bullets"><li>7/24(금) 공식: 두 달 안 Mythos 5·Fable 5·Sonnet 5에 이은 네 번째 플래그십. “Fable 5 프론티어 지능에 가깝고 가격은 절반” 포지션. Claude Max 기본 모델, Pro에서 최강 티어. API ID claude-opus-5.</li><li>가격: 표준 $5 입력 / $25 출력 per 1M <button type="button" class="inline-biscuit" data-biscuit="token">토큰</button>(Opus 4.8과 동일, Fable 입력가의 약 절반). Fast 모드 약 2.5× 속도·$10/$50. 요청당 low / medium / high(·max) effort 토글로 비용·능력 트레이드오프.</li><li>벤치(공식): Frontier-Bench v0.1 max effort 43.3%(GPT-5.6 Sol 37.5%, Fable 5 33.7%, Opus 4.8 18.7%). CursorBench에서 Fable 피크 대비 0.5%p 안·동일 비용 대비 우위 주장. ARC-AGI 3·Zapier AutomationBench·OSWorld 2.0 등에서도 “동일 비용 대비 최고” 내러티브.</li><li>제품 디테일: 기본·최대 100만 <button type="button" class="inline-biscuit" data-biscuit="token">토큰</button> 컨텍스트, max output 128k, thinking 기본 ON. 베타 — 대화 중 도구 변경(<button type="button" class="inline-biscuit" data-biscuit="prompt">프롬프트</button> 캐시 무효화 없이), 안전 분류기 차단 시 서버사이드 자동 폴백. Bedrock·Vertex·Microsoft Foundry 동시.</li><li>안전: 행동 감사상 “최근 모델 중 가장 정렬”. 사이버·생물은 Mythos 5보다 뒤처짐 명시. 사이버 분류기는 Fable보다 덜 공격적(소스 취약점 탐색 허용, 바이너리 스캔·펜테스트·익스플로잇 생성 차단) — CVP 고객은 제한 완화 버전.</li><li>개발·에이전트 팀은 Opus 4.8 라우트를 effort 정책으로 재설계하고, Fable 대비 단가·지연 A/B를 7일 내 돌릴 후보. 엔터프라이즈는 폴백·CVP 가입 여부를 RFP에 명시.</li></ul>
+          <ul class="news-bullets"><li>7/24(금) 공식: 두 달 안 Mythos 5·Fable 5·Sonnet 5에 이은 네 번째 플래그십. “Fable 5 프론티어 지능에 가깝고 가격은 절반” 포지션. Claude Max 기본 모델, Pro에서 최강 티어. API ID claude-opus-5.</li><li>가격: 표준 $5 입력 / $25 출력 per 1M <button type="button" class="inline-biscuit" data-biscuit="token">토큰</button>(Opus 4.8과 동일, Fable 입력가의 약 절반). Fast 모드 약 2.5× 속도·$10/$50. 요청당 low / medium / high(·max) effort 토글로 비용·능력 트레이드오프.</li><li>벤치(공식): Frontier-Bench v0.1 max effort 43.3%(GPT-5.6 Sol 37.5%, Fable 5 33.7%, Opus 4.8 18.7%). CursorBench에서 Fable 피크 대비 0.5%p 안·동일 비용 대비 우위 주장. ARC-AGI 3·Zapier AutomationBench·OSWorld 2.0 등에서도 “동일 비용 대비 최고” 내러티브.</li><li>제품 디테일: 기본·최대 100만 <button type="button" class="inline-biscuit" data-biscuit="token">토큰</button> 컨텍스트, max output 128k, thinking 기본 ON. <button type="button" class="inline-biscuit" data-biscuit="early-access">베타</button> — 대화 중 도구 변경(<button type="button" class="inline-biscuit" data-biscuit="prompt">프롬프트</button> 캐시 무효화 없이), 안전 분류기 차단 시 서버사이드 자동 폴백. Bedrock·Vertex·Microsoft Foundry 동시.</li><li>안전: 행동 감사상 “최근 모델 중 가장 정렬”. 사이버·생물은 Mythos 5보다 뒤처짐 명시. 사이버 분류기는 Fable보다 덜 공격적(소스 취약점 탐색 허용, 바이너리 스캔·펜테스트·익스플로잇 생성 차단) — CVP 고객은 제한 완화 버전.</li><li>개발·에이전트 팀은 Opus 4.8 라우트를 effort 정책으로 재설계하고, Fable 대비 단가·지연 A/B를 7일 내 돌릴 후보. 엔터프라이즈는 폴백·CVP 가입 여부를 RFP에 명시.</li></ul>
           <div class="news-footer"><a class="news-chip" href="https://www.anthropic.com/news/claude-opus-5" target="_blank" rel="noreferrer">Anthropic</a><a class="news-chip" href="https://fortune.com/2026/07/24/anthropic-debuts-claude-opus-5-with-feature-that-lets-users-toggle-between-cost-and-capability/" target="_blank" rel="noreferrer">Fortune</a><a class="news-chip" href="https://platform.claude.com/docs/en/release-notes/overview" target="_blank" rel="noreferrer">원문</a><span class="news-chip news-chip-muted">공식</span></div>
         </article>
         <article class="news-card rel-press" id="c-테크-인프라-규제-보안-04" data-card-id="c-테크-인프라-규제-보안-04">
@@ -438,9 +438,17 @@
 </tr>
 </tbody>
 </table></div></section><details class="brief-scratch"><summary>내부 참고 · 짧게 남긴 시그널 <span class="brief-scratch-hint">확인·해결되면 삭제</span></summary><ul class="brief-scratch-list"><li><strong>PBS</strong> — : closed vs open-source vs open-weight 해설 기사(7/25) — K3 드롭 주말 교육 콘텐츠. · PBS · <a href="https://www.pbs.org/newshour/science/whats-the-difference-between-closed-open%e2%80%91source-and-open-weight-ai-a-researcher-explains" target="_blank" rel="noreferrer">PBS</a></li><li><strong>fal / Replicate</strong> — : 주말 창 내 신규 플래그십 모델 페이지 헤드라인 미확인. Kling 3 Pro fal 라우트는 기존 스택 유지 보도.</li><li><strong>ElevenLabs / Suno</strong> — : 주말 창 내 메이저 신규 런칭 헤드라인 없음(이전 주 음악 모델 전쟁은 범위 밖). ※ Midjourney는 7/24 V8.2 공식 론칭이 있었으나 본 수집에서 누락 → 7/28 브리프에 백필.</li><li><strong>화이트하우스 프론티어 프레임</strong> — : 8/1 전 발표 예고 — ExploitGym 이후 무게 증가(세컨더리 소스). 발표 시 후속 카드.</li><li><strong>Luma 캐릭터 시트 Skill</strong> — : 7/24 피드 — 전일 브리프 Luma 쇼케이스와 동일 이벤트 계열, 재탕 생략.</li><li><strong>BuildFast 7/26 라운드업</strong> — : ExploitGym·Opus·K3 16스토리 2차 정리(1차 소스는 위 공식·Fortune). · 링크 · <a href="https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026" target="_blank" rel="noreferrer">링크</a></li></ul></details>
-          <section class="related-biscuits-min news-section" id="related-biscuits" data-terms="agent,api,token,moe,open-weight,prompt" aria-label="관련 비스킷">
+          <section class="related-biscuits-min news-section" id="related-biscuits" data-terms="agent,api,token,moe,open-weight,early-access,prompt" aria-label="관련 비스킷">
             <h2 class="news-section-title"><span class="sec-title-text">관련 비스킷</span></h2>
-            <ul class="related-biscuits-min-list"></ul>
+            <ul class="related-biscuits-min-list">
+            <li><button type="button" data-biscuit="agent">에이전트</button></li>
+            <li><button type="button" data-biscuit="api">API</button></li>
+            <li><button type="button" data-biscuit="token">토큰</button></li>
+            <li><button type="button" data-biscuit="moe">MoE</button></li>
+            <li><button type="button" data-biscuit="open-weight">오픈웨이트</button></li>
+            <li><button type="button" data-biscuit="early-access">얼리 액세스</button></li>
+            <li><button type="button" data-biscuit="prompt">프롬프트</button></li>
+            </ul>
           </section></div>
       </article>
     </div>
@@ -451,6 +459,6 @@
   </footer>
   <button type="button" class="back-to-top" aria-label="맨 위로" title="맨 위로">↑</button>
   <script src="../assets/app.js?v=20260805b"></script>
-  <script src="../assets/biscuits.js?v=20260805b"></script>
+  <script src="../assets/biscuits.js?v=20260806a"></script>
 </body>
 </html>

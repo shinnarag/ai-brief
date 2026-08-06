@@ -77,6 +77,19 @@
   <rect x="250" y="46" width="80" height="40" rx="10" fill="#34c759"/>
   <text x="290" y="70" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">결과</text>
 </svg>`,
+      harness: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f0f4ff"/>
+  <rect x="28" y="22" width="120" height="76" rx="12" fill="#fff" stroke="#4338ca" stroke-width="2"/>
+  <text x="88" y="48" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="700" font-family="system-ui">모델</text>
+  <text x="88" y="68" text-anchor="middle" fill="#818cf8" font-size="11" font-family="system-ui">Opus · Spark…</text>
+  <path d="M158 60 H188" stroke="#4338ca" stroke-width="3"/>
+  <polygon points="188,54 202,60 188,66" fill="#4338ca"/>
+  <rect x="210" y="18" width="122" height="84" rx="14" fill="#4338ca"/>
+  <text x="271" y="48" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">하네스</text>
+  <text x="271" y="68" text-anchor="middle" fill="#c7d2fe" font-size="10" font-family="system-ui">툴 · 메모리 · 루프</text>
+  <text x="271" y="86" text-anchor="middle" fill="#a5b4fc" font-size="10" font-family="system-ui">실행 환경</text>
+</svg>`,
       prompt: `
 <svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
   <rect width="360" height="120" fill="#f5f5f7"/>
@@ -403,6 +416,16 @@
       firstSeen: "2026-07-15"
     },
     {
+      id: "harness",
+      term: "하네스",
+      en: "Harness",
+      tag: "model",
+      tagLabel: "모델",
+      text: "모델을 감싸 툴·메모리·루프를 돌리는 실행 환경(코딩 에이전트 뼈대)이에요.",
+      detail: "하네스는 모델 자체와 별개로, 에이전트가 도구를 호출하고 컨텍스트를 유지하며 여러 턴 작업을 이어 가게 만드는 런타임·스캐폴딩입니다. Claude Code, Codex, Muse Code, Prime Agent처럼 ‘같은 모델 + 다른 하네스’면 벤치 점수(ARC-AGI 등)와 실무 체감이 달라질 수 있습니다. 브리프에서 하네스 공개·오픈소스 하네스 점수는 모델 재출시가 아니라 별도 시그널로 둡니다.",
+      firstSeen: "2026-08-06"
+    },
+    {
       id: "hallucination",
       term: "할루시네이션",
       en: "Hallucination",
@@ -606,7 +629,7 @@
 
   const LATEST_BRIEF = {
     date: "2026-08-06",
-    termIds: ["ai-influencer", "open-weight", "multimodal", "agent", "credits", "api"]
+    termIds: ["ai-influencer", "harness", "open-weight", "multimodal", "agent", "early-access"]
   };
 
   const TAGS = [
@@ -864,14 +887,21 @@
   }
 
   function initRelatedMin(ids) {
-    bindPopoverOnce();
+    try {
+      bindPopoverOnce();
+    } catch (e) {
+      /* popover bind failure must not leave related strip empty */
+    }
     var root = document.getElementById("related-biscuits");
     if (!root) return;
     var list = root.querySelector(".related-biscuits-min-list");
     if (!list) return;
     var items = (ids || LATEST_BRIEF.termIds).map(findBiscuit).filter(Boolean);
     if (!items.length) {
-      root.hidden = true;
+      // Keep server-rendered buttons if catalog miss; only hide when truly empty
+      if (!list.querySelector("[data-biscuit]")) {
+        root.hidden = true;
+      }
       return;
     }
     list.innerHTML = items
@@ -885,6 +915,7 @@
         );
       })
       .join("");
+    root.hidden = false;
   }
 
   /**
@@ -1040,21 +1071,37 @@
   }
 
   function autoBoot() {
-    bindPopoverOnce();
-    var grid = document.getElementById("biscuit-grid");
-    if (grid) initBiscuitsPage();
-    var ticker = document.getElementById("home-biscuit-ticker");
-    if (ticker) {
-      var ids = parseTermIds(ticker);
-      initHomeTicker(ids || undefined, {
-        date: ticker.getAttribute("data-date") || "",
-        label: ticker.getAttribute("data-label") || ""
-      });
+    try {
+      bindPopoverOnce();
+    } catch (e) {
+      /* ignore */
     }
-    var related = document.getElementById("related-biscuits");
-    if (related) {
-      var rids = parseTermIds(related);
-      initRelatedMin(rids || undefined);
+    try {
+      var grid = document.getElementById("biscuit-grid");
+      if (grid) initBiscuitsPage();
+    } catch (e) {
+      /* ignore */
+    }
+    try {
+      var ticker = document.getElementById("home-biscuit-ticker");
+      if (ticker) {
+        var ids = parseTermIds(ticker);
+        initHomeTicker(ids || undefined, {
+          date: ticker.getAttribute("data-date") || "",
+          label: ticker.getAttribute("data-label") || ""
+        });
+      }
+    } catch (e) {
+      /* ignore */
+    }
+    try {
+      var related = document.getElementById("related-biscuits");
+      if (related) {
+        var rids = parseTermIds(related);
+        initRelatedMin(rids || undefined);
+      }
+    } catch (e) {
+      /* server-rendered list still visible */
     }
   }
 

@@ -3,16 +3,18 @@
   "label": "8월 6일 브리프",
   "termIds": [
     "ai-influencer",
+    "harness",
     "open-weight",
     "multimodal",
     "agent",
-    "credits",
-    "api"
+    "early-access"
   ],
   "allMatchedIds": [
     "ai-influencer",
     "multimodal",
+    "early-access",
     "credits",
+    "harness",
     "open-weight",
     "prompt",
     "agent",
@@ -105,5 +107,5 @@
       "brief_date": "2026-08-06"
     }
   ],
-  "catalogSize": 28
+  "catalogSize": 29
 }
