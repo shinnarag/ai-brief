@@ -1,110 +1,103 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "candidates": [
     {
-      "term": "FLUX 3",
-      "hint": "BFL 멀티모달·영상 모델",
-      "hits": 19,
-      "sample": "예고가 겹친 날 주제 설명: BFL FLUX 3 Video가 API로 풀린 날, 커뮤니티에 Wan 3.0(1080p 네",
-      "brief_date": "2026-08-05"
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
+      "hits": 22,
+      "sample": "주제 설명: Higgsfield가 Seedance 2.0 14일 무제한(2.5 연동 예고)을 깔고, Spotify·Mer",
+      "brief_date": "2026-08-06"
+    },
+    {
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 14,
+      "sample": "·규제 / SNS > 축은 **Higgsfield Seedance 14일 무제한(+2.5 예고)**, **Spotify×",
+      "brief_date": "2026-08-06"
     },
     {
       "term": "해상도(720p/1080p/4K)",
       "hint": "출력 화질 단위",
       "hits": 13,
-      "sample": "풀린 날, 커뮤니티에 Wan 3.0(1080p 네이티브 30초) 초대 테스트 클립이 돌았고, 중국 AI 숏드라마 캐릭",
-      "brief_date": "2026-08-05"
+      "sample": "일 무제한 스테이징 · 2.5 워치(4K·30s) · Spotify 리믹스 라벨 옵션 점검 · Treblo 탐지",
+      "brief_date": "2026-08-06"
     },
     {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
-      "hits": 4,
-      "sample": "재탕 없음. > 스윕(자동): Midjourney / DeepSeek / Gemini / Seed·Dreamina — 메",
-      "brief_date": "2026-08-05"
-    },
-    {
-      "term": "星图(광고 단가 플랫폼)",
-      "hint": "중국 인플루언서 단가 표시",
-      "hits": 4,
-      "sample": "- (단가·범위) 운영사·**巨量星图(Douyin Star Map)** 표시 견적: **1–20초 16.8만",
-      "brief_date": "2026-08-05"
-    },
-    {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
-      "hits": 3,
-      "sample": "· Qwen3.8-Max GA · MiniMax H3 오픈웨이트·라이선스 · Horizon3/OLIX 펀딩 · TX D",
-      "brief_date": "2026-08-05"
+      "term": "FLUX 3",
+      "hint": "BFL 멀티모달·영상 모델",
+      "hits": 2,
+      "sample": "제일** 이다. > 전일 제외: FLUX 3 Video GA · SpaceX 첫 실적 본문 · Valar $1B ·",
+      "brief_date": "2026-08-06"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
-      "hits": 2,
-      "sample": "- (영향) 숏폼·MV·광고 팀은 Kling/Runway/Seedance와 **20s+네이티브 오디오·Draft 단",
-      "brief_date": "2026-08-05"
-    },
-    {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 2,
-      "sample": "O **1135** 리드, I2V는 Seedance 2.0과 동률·그 외 SOTA 상회 주장. 안전: Cinder 제3자",
-      "brief_date": "2026-08-05"
-    },
-    {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
-      "sample": "C 10기** 배포. 고객 예: **Higgsfield AI, Wix**. - (아키텍처) 단일 네트워크로 요청 라우팅(",
-      "brief_date": "2026-08-05"
+      "sample": "3.1, Grok Imagine, Kling v3, Seedream 5 Pro 등. 사용량 기반 크레딧. -",
+      "brief_date": "2026-08-06"
     },
     {
       "term": "MCP",
       "hint": "Model Context Protocol",
       "hits": 1,
-      "sample": "1,000+**(100+ 팀)·내부 MCP 툴 **500+**. - (아키텍처) Deep Agents 기본",
-      "brief_date": "2026-08-05"
+      "sample": "determined”. 웹 전용 — MCP/CLI/Canvas/Supercomputer는 크레딧. - (Se",
+      "brief_date": "2026-08-06"
     },
     {
-      "term": "NCII",
-      "hint": "비동의 합성 이미지 리스크",
+      "term": "Midjourney",
+      "hint": "이미지 생성 서비스",
       "hits": 1,
-      "sample": ". 안전: Cinder 제3자 평가(NCII·CSAM 등). - (로드맵) 다음: 이미지·영상·오디오 레퍼런스",
-      "brief_date": "2026-08-05"
+      "sample": "런칭 전 워치 재탕. > 스윕: Midjourney updates / DeepSeek changelog / BFL 신규 글",
+      "brief_date": "2026-08-06"
     },
     {
-      "term": "RAG",
-      "hint": "검색 증강 생성",
+      "term": "Replicate",
+      "hint": "모델 호스팅 허브",
       "hits": 1,
-      "sample": "례. 다음 과제는 스킬 선택 스케일(RAG/분류 프리필터)·거버넌스·행동 개인화·멀티유저 협업 세션. - (",
-      "brief_date": "2026-08-05"
+      "sample": "트+미디어 스택을 짜는 팀은 fal/Replicate 대비 **스킬 모듈 vs 단일 허브 단가·SLA**를 얇게 비교할 후보",
+      "brief_date": "2026-08-06"
     },
     {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
+      "term": "Seedream",
+      "hint": "ByteDance 이미지 생성 모델",
       "hits": 1,
-      "sample": ") 숏폼·MV·광고 팀은 Kling/Runway/Seedance와 **20s+네이티브 오디오·Draft 단가·API S",
-      "brief_date": "2026-08-05"
+      "sample": "Imagine, Kling v3, Seedream 5 Pro 등. 사용량 기반 크레딧. - (용도) 마케팅 어시스턴",
+      "brief_date": "2026-08-06"
+    },
+    {
+      "term": "Suno",
+      "hint": "음악 생성",
+      "hits": 1,
+      "sample": "- (맥락) AI 음악 생성(Suno/Udio/Treblo) 논쟁과 별축 — **원저작권자 옵트인 + 추가",
+      "brief_date": "2026-08-06"
+    },
+    {
+      "term": "Udio",
+      "hint": "음악 생성",
+      "hits": 1,
+      "sample": "(맥락) AI 음악 생성(Suno/Udio/Treblo) 논쟁과 별축 — **원저작권자 옵트인 + 추가 매출**",
+      "brief_date": "2026-08-06"
+    },
+    {
+      "term": "Veo",
+      "hint": "Google 영상 모델",
+      "hits": 1,
+      "sample": "age 2, Nano Banana, Veo 3.1, Grok Imagine, Kling v3, Seedream 5",
+      "brief_date": "2026-08-06"
+    },
+    {
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 1,
+      "sample": "에이전트+미디어 스택을 짜는 팀은 fal/Replicate 대비 **스킬 모듈 vs 단일 허브 단가·SLA**를",
+      "brief_date": "2026-08-06"
     },
     {
       "term": "샌드박스",
       "hint": "격리 실행 환경",
       "hits": 1,
-      "sample": "UI. 파일시스템(S3 가상 FS)·샌드박스 코드 실행·요약 미들웨어. 스킬 `allowedTools` 2-pass",
-      "brief_date": "2026-08-05"
-    },
-    {
-      "term": "카메라 앵글",
-      "hint": "시점·렌즈 연출",
-      "hits": 1,
-      "sample": "4초** 이어쓰기) · **멀티 샷·카메라 앵글** 단일 생성 · 대사·SFX·앰비언스 · **다국어 립싱크**(영·중",
-      "brief_date": "2026-08-05"
-    },
-    {
-      "term": "화면비",
-      "hint": "9:16·16:9 등",
-      "hits": 1,
-      "sample": "브**, **사운드 동시 생성**, 화면비·길이 적응 등. **Alibaba/Tongyi 공식 GA·가격·공개 가",
-      "brief_date": "2026-08-05"
+      "sample": "* — 일반 상용 배포 조건 아님. 샌드박스 탈출은 아님. 실해 없음 확인. GitHub ToS 위반 아티팩트 정리",
+      "brief_date": "2026-08-06"
     }
   ]
 }
