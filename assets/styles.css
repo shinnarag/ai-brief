@@ -1491,8 +1491,9 @@ a.brief-nav-arrow:hover {
   font-weight: 600;
 }
 
-/* Disable old list-as-story look inside news sections */
-.news-section > ul,
+/* Disable old list-as-story look inside news sections.
+   Exception: related-biscuits strip uses a real <ul> of term chips. */
+.news-section > ul:not(.related-biscuits-min-list),
 .news-section > ol {
   display: none;
 }
