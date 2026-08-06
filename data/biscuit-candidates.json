@@ -4,29 +4,22 @@
     {
       "term": "Seedance",
       "hint": "ByteDance 영상 생성 모델",
-      "hits": 22,
-      "sample": "주제 설명: Higgsfield가 Seedance 2.0 14일 무제한(2.5 연동 예고)을 깔고, Spotify·Mer",
-      "brief_date": "2026-08-06"
-    },
-    {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 14,
-      "sample": "·규제 / SNS > 축은 **Higgsfield Seedance 14일 무제한(+2.5 예고)**, **Spotify×",
-      "brief_date": "2026-08-06"
-    },
-    {
-      "term": "해상도(720p/1080p/4K)",
-      "hint": "출력 화질 단위",
-      "hits": 13,
-      "sample": "일 무제한 스테이징 · 2.5 워치(4K·30s) · Spotify 리믹스 라벨 옵션 점검 · Treblo 탐지",
+      "hits": 2,
+      "sample": "* 초회 수집이 Higgsfield Seedance 14일 무제한을 Top1·에디션 주제로 올렸으나, 원문 `datePub",
       "brief_date": "2026-08-06"
     },
     {
       "term": "FLUX 3",
       "hint": "BFL 멀티모달·영상 모델",
-      "hits": 2,
+      "hits": 1,
       "sample": "제일** 이다. > 전일 제외: FLUX 3 Video GA · SpaceX 첫 실적 본문 · Valar $1B ·",
+      "brief_date": "2026-08-06"
+    },
+    {
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 1,
+      "sample": "> **보정:** 초회 수집이 Higgsfield Seedance 14일 무제한을 Top1·에디션 주제로 올렸으나, 원문",
       "brief_date": "2026-08-06"
     },
     {
@@ -34,13 +27,6 @@
       "hint": "영상 생성 모델",
       "hits": 1,
       "sample": "3.1, Grok Imagine, Kling v3, Seedream 5 Pro 등. 사용량 기반 크레딧. -",
-      "brief_date": "2026-08-06"
-    },
-    {
-      "term": "MCP",
-      "hint": "Model Context Protocol",
-      "hits": 1,
-      "sample": "determined”. 웹 전용 — MCP/CLI/Canvas/Supercomputer는 크레딧. - (Se",
       "brief_date": "2026-08-06"
     },
     {
