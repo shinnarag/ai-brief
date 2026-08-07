@@ -1,89 +1,96 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "candidates": [
     {
       "term": "Seedance",
       "hint": "ByteDance 영상 생성 모델",
+      "hits": 18,
+      "sample": "기본을 연 날, CapCut 에디터 Seedance 2.5 지역 롤아웃·한국 보도가 겹쳤다. 도넛형 스피커 $300대 가격",
+      "brief_date": "2026-08-07"
+    },
+    {
+      "term": "해상도(720p/1080p/4K)",
+      "hint": "출력 화질 단위",
       "hits": 3,
-      "sample": ":** ① 초회 Higgsfield Seedance 14일 무제한 Top1 오인 삭제(7/30 글·비활성 프로모). ② *",
-      "brief_date": "2026-08-06"
+      "sample": "품 표면) 네이티브 **최대 30초·4K** 단일 패스, 멀티모달 레퍼런스 **최대 50**, R2V(그린스크린",
+      "brief_date": "2026-08-07"
+    },
+    {
+      "term": "ElevenLabs",
+      "hint": "음성 합성",
+      "hits": 1,
+      "sample": "/Luma/Decart/Hailuo/ElevenLabs/Suno — 창 내 메이저 GA 미확인. **히트:** ChatGPT",
+      "brief_date": "2026-08-07"
     },
     {
       "term": "FLUX 3",
       "hint": "BFL 멀티모달·영상 모델",
       "hits": 1,
-      "sample": "제일** 이다. > 전일 제외: FLUX 3 Video GA · SpaceX 첫 실적 본문 · Valar $1B ·",
-      "brief_date": "2026-08-06"
+      "sample": "없음) · BFL blog(8/4 FLUX 3 Video 이후 신규 없음) · Seed 블로그(8/5 SeedReal",
+      "brief_date": "2026-08-07"
+    },
+    {
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
+      "hits": 1,
+      "sample": "gsfield/Luma/Decart/Hailuo/ElevenLabs/Suno — 창 내 메이저 GA 미확인. **히트:",
+      "brief_date": "2026-08-07"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
-      "sample": "업. > **보정:** ① 초회 Higgsfield Seedance 14일 무제한 Top1 오인 삭제(7/30 글·비활성",
-      "brief_date": "2026-08-06"
+      "sample": "· fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo/ElevenLabs/Suno — 창",
+      "brief_date": "2026-08-07"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 1,
-      "sample": "3.1, Grok Imagine, Kling v3, Seedream 5 Pro 등. 사용량 기반 크레딧. -",
-      "brief_date": "2026-08-06"
+      "sample": "신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo/ElevenLab",
+      "brief_date": "2026-08-07"
+    },
+    {
+      "term": "Luma",
+      "hint": "영상 생성",
+      "hits": 1,
+      "sample": "ay/Kling/Higgsfield/Luma/Decart/Hailuo/ElevenLabs/Suno — 창 내 메이저",
+      "brief_date": "2026-08-07"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 1,
-      "sample": "런칭 전 워치 재탕. > 스윕: Midjourney updates / DeepSeek changelog / BFL 신규 글",
-      "brief_date": "2026-08-06"
+      "sample": "트 면제 본문 재탕. > 스윕: Midjourney updates(최신 V8.2=7/24 창 밖) · DeepSeek ch",
+      "brief_date": "2026-08-07"
     },
     {
-      "term": "Replicate",
-      "hint": "모델 호스팅 허브",
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
       "hits": 1,
-      "sample": "트+미디어 스택을 짜는 팀은 fal/Replicate 대비 **스킬 모듈 vs 단일 허브 단가·SLA**를 얇게 비교할 후보",
-      "brief_date": "2026-08-06"
-    },
-    {
-      "term": "Seedream",
-      "hint": "ByteDance 이미지 생성 모델",
-      "hits": 1,
-      "sample": "Imagine, Kling v3, Seedream 5 Pro 등. 사용량 기반 크레딧. - (용도) 마케팅 어시스턴",
-      "brief_date": "2026-08-06"
+      "sample": "ime 이후 신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo/Ele",
+      "brief_date": "2026-08-07"
     },
     {
       "term": "Suno",
       "hint": "음악 생성",
       "hits": 1,
-      "sample": "- (맥락) AI 음악 생성(Suno/Udio/Treblo) 논쟁과 별축 — **원저작권자 옵트인 + 추가",
-      "brief_date": "2026-08-06"
-    },
-    {
-      "term": "Udio",
-      "hint": "음악 생성",
-      "hits": 1,
-      "sample": "(맥락) AI 음악 생성(Suno/Udio/Treblo) 논쟁과 별축 — **원저작권자 옵트인 + 추가 매출**",
-      "brief_date": "2026-08-06"
-    },
-    {
-      "term": "Veo",
-      "hint": "Google 영상 모델",
-      "hits": 1,
-      "sample": "age 2, Nano Banana, Veo 3.1, Grok Imagine, Kling v3, Seedream 5",
-      "brief_date": "2026-08-06"
+      "sample": "t/Hailuo/ElevenLabs/Suno — 창 내 메이저 GA 미확인. **히트:** ChatGPT Free",
+      "brief_date": "2026-08-07"
     },
     {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
       "hits": 1,
-      "sample": "에이전트+미디어 스택을 짜는 팀은 fal/Replicate 대비 **스킬 모듈 vs 단일 허브 단가·SLA**를",
-      "brief_date": "2026-08-06"
+      "sample": "ealtime 이후 신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hai",
+      "brief_date": "2026-08-07"
     },
     {
       "term": "샌드박스",
       "hint": "격리 실행 환경",
       "hits": 1,
-      "sample": "* — 일반 상용 배포 조건 아님. 샌드박스 탈출은 아님. 실해 없음 확인. GitHub ToS 위반 아티팩트 정리",
-      "brief_date": "2026-08-06"
+      "sample": "유사한 방식.” - (조건) 샌드박스 탈출·제로데이 고도 공격 아님(Irregular 측: 평가 환경 경계",
+      "brief_date": "2026-08-07"
     }
   ]
 }

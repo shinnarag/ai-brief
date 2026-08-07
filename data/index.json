@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-06T17:37:26",
+  "generated_at": "2026-08-07T10:15:18",
   "platform": "AI Pulse",
-  "count": 17,
+  "count": 18,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,60 +11,56 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "models": 121,
-    "creative": 44,
-    "policy": 42,
-    "agents": 59,
-    "marketing": 46,
-    "infra": 48
+    "models": 124,
+    "creative": 46,
+    "policy": 46,
+    "marketing": 48,
+    "agents": 63,
+    "infra": 49
   },
   "companies": [
     [
       "OpenAI",
-      124
+      132
     ],
     [
       "Anthropic",
-      87
+      74
     ],
     [
-      "Google",
-      75
-    ],
-    [
-      "Gemini",
-      54
+      "Meta",
+      52
     ],
     [
       "DeepSeek",
-      50
+      51
     ],
     [
       "Claude",
       47
     ],
     [
-      "DeepMind",
-      36
-    ],
-    [
-      "Meta",
-      29
-    ],
-    [
-      "ByteDance",
-      26
+      "Google",
+      38
     ],
     [
       "ChatGPT",
-      21
+      37
     ],
     [
-      "Midjourney",
-      20
+      "ByteDance",
+      28
     ],
     [
       "NVIDIA",
+      23
+    ],
+    [
+      "IBM",
+      22
+    ],
+    [
+      "Midjourney",
       20
     ],
     [
@@ -72,16 +68,12 @@
       20
     ],
     [
-      "Microsoft",
+      "Gemini",
       17
     ],
     [
       "Grok",
       16
-    ],
-    [
-      "Azure",
-      13
     ],
     [
       "Kling",
@@ -92,11 +84,7 @@
       11
     ],
     [
-      "Copilot",
-      11
-    ],
-    [
-      "IBM",
+      "DeepMind",
       10
     ],
     [
@@ -105,32 +93,90 @@
     ],
     [
       "Hugging Face",
-      5
+      8
     ],
     [
       "AWS",
+      5
+    ],
+    [
+      "Apple",
       4
     ],
     [
-      "Notion",
-      2
+      "Cloudflare",
+      3
     ],
     [
       "Luma",
-      1
+      2
+    ],
+    [
+      "Microsoft",
+      2
     ],
     [
       "ElevenLabs",
+      1
+    ],
+    [
+      "Azure",
       1
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-07-31",
-    "end": "2026-08-06",
+    "start": "2026-08-01",
+    "end": "2026-08-07",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-08-07",
+      "title": "AI Daily Brief — 2026-08-07 (최근 24h)",
+      "theme": "무료 채팅은 풀렸고, CapCut 영상 슬롯도 넓어졌다",
+      "theme_blurb": "OpenAI가 Free·Go에 무제한 텍스트와 GPT-5.6 Luna 기본을 연 날, CapCut 에디터 Seedance 2.5 지역 롤아웃·한국 보도가 겹쳤다. 도넛형 스피커 $300대 가격 보도와 Meta 세 번째 에이전트 침투 공유도 같은 창에 있다.",
+      "edition_title": "무료 채팅은 풀렸고, CapCut 영상 슬롯도 넓어졌다",
+      "edition_blurb": "OpenAI가 Free·Go에 무제한 텍스트와 GPT-5.6 Luna 기본을 연 날, CapCut 에디터 Seedance 2.5 지역 롤아웃·한국 보도가 겹쳤다. 도넛형 스피커 $300대 가격 보도와 Meta 세 번째 에이전트 침투 공유도 같은 창에 있다.",
+      "url": "brief/2026-08-07.html",
+      "excerpt": "축은 ChatGPT Free/Go 무제한 텍스트·Luna 기본, CapCut Seedance 2.5 지역 롤아웃·한국 보도, OpenAI 도넛형 스피커 $300–400 보도, Meta Muse Spark 1.1 평가 중 외부 침투, Tencent Hy3 글로벌·WorkBuddy 8/31 무료, AMD Taalas 인수, Okta Poison Claude 그레이 마켓, IBM Apptio AI Value & ROI 이다.  ",
+      "top5": [
+        "ChatGPT Free·Go — 무제한 텍스트 + GPT-5.6 Luna 기본",
+        "CapCut 영상 에디터 Seedance 2.5 — 한국 포함 지역 롤아웃 보도",
+        "OpenAI 첫 디바이스 — 도넛형 스피커 $300–400 보도",
+        "Meta Muse Spark 1.1 — 평가 중 외부 조직 침투 공개",
+        "Tencent Hy3 글로벌 — WorkBuddy 8/31까지 무료"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "OpenAI",
+        "Meta",
+        "ChatGPT",
+        "IBM",
+        "Anthropic",
+        "Claude",
+        "Hugging Face",
+        "Apple",
+        "Cloudflare",
+        "NVIDIA",
+        "AWS",
+        "ByteDance",
+        "Midjourney",
+        "ElevenLabs",
+        "DeepSeek",
+        "DeepMind"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-08-06",
       "title": "AI Daily Brief — 2026-08-06 (최근 24h)",
@@ -337,8 +383,8 @@
         "policy"
       ],
       "companies": [
-        "Google",
         "Gemini",
+        "Google",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -395,8 +441,8 @@
         "GitHub",
         "Oracle",
         "Kling",
-        "Amazon",
         "Runway",
+        "Amazon",
         "Meta",
         "Midjourney"
       ],
@@ -531,8 +577,8 @@
         "Midjourney",
         "ElevenLabs",
         "Microsoft",
-        "Zapier",
-        "Google"
+        "Google",
+        "Zapier"
       ],
       "has_rumor": false,
       "source": "md",
