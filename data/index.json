@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-07T10:15:18",
+  "generated_at": "2026-08-10T10:14:58",
   "platform": "AI Pulse",
-  "count": 18,
+  "count": 19,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,126 +11,172 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "models": 124,
-    "creative": 46,
-    "policy": 46,
-    "marketing": 48,
-    "agents": 63,
-    "infra": 49
+    "creative": 48,
+    "infra": 52,
+    "models": 127,
+    "marketing": 52,
+    "agents": 65,
+    "policy": 47
   },
   "companies": [
     [
       "OpenAI",
-      132
+      129
     ],
     [
       "Anthropic",
-      74
-    ],
-    [
-      "Meta",
-      52
-    ],
-    [
-      "DeepSeek",
-      51
+      67
     ],
     [
       "Claude",
-      47
+      56
+    ],
+    [
+      "Meta",
+      56
     ],
     [
       "Google",
-      38
+      37
     ],
     [
       "ChatGPT",
-      37
+      33
     ],
     [
       "ByteDance",
       28
     ],
     [
-      "NVIDIA",
-      23
-    ],
-    [
       "IBM",
       22
     ],
     [
-      "Midjourney",
-      20
-    ],
-    [
       "GitHub",
-      20
+      21
     ],
     [
-      "Gemini",
-      17
-    ],
-    [
-      "Grok",
-      16
-    ],
-    [
-      "Kling",
-      11
-    ],
-    [
-      "xAI",
-      11
-    ],
-    [
-      "DeepMind",
-      10
-    ],
-    [
-      "Runway",
-      9
-    ],
-    [
-      "Hugging Face",
-      8
-    ],
-    [
-      "AWS",
-      5
+      "NVIDIA",
+      21
     ],
     [
       "Apple",
-      4
+      18
+    ],
+    [
+      "Hugging Face",
+      14
+    ],
+    [
+      "Gemini",
+      14
+    ],
+    [
+      "DeepSeek",
+      12
+    ],
+    [
+      "DeepMind",
+      12
+    ],
+    [
+      "Midjourney",
+      10
+    ],
+    [
+      "Amazon",
+      10
+    ],
+    [
+      "Kling",
+      9
+    ],
+    [
+      "Grok",
+      9
+    ],
+    [
+      "AWS",
+      7
+    ],
+    [
+      "xAI",
+      7
+    ],
+    [
+      "Runway",
+      5
+    ],
+    [
+      "Luma",
+      3
     ],
     [
       "Cloudflare",
       3
     ],
     [
-      "Luma",
+      "ElevenLabs",
       2
     ],
     [
       "Microsoft",
       2
-    ],
-    [
-      "ElevenLabs",
-      1
-    ],
-    [
-      "Azure",
-      1
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-08-01",
-    "end": "2026-08-07",
+    "start": "2026-08-04",
+    "end": "2026-08-10",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-08-10",
+      "title": "AI Daily Brief — 2026-08-10 (주말+월 포함 ~72h)",
+      "theme": "아스트라는 잠갔고, Seedance API엔 초당 단가가 붙었다",
+      "theme_blurb": "OpenAI가 미공개 Astra를 Preparedness Framework 첫 Critical 사이버 모델로 취급하며 일부 작업을 멈춘 주말, Poyo에 Seedance 2.5 API(4–30초·초당 크레딧)가 열렸다. 중국 Mac×Qwen 연결 가이드와 Qwen 오픈웨이트 매출 공유 보도도 같은 창에 겹친다.",
+      "edition_title": "아스트라는 잠갔고, Seedance API엔 초당 단가가 붙었다",
+      "edition_blurb": "OpenAI가 미공개 Astra를 Preparedness Framework 첫 Critical 사이버 모델로 취급하며 일부 작업을 멈춘 주말, Poyo에 Seedance 2.5 API(4–30초·초당 크레딧)가 열렸다. 중국 Mac×Qwen 연결 가이드와 Qwen 오픈웨이트 매출 공유 보도도 같은 창에 겹친다.",
+      "url": "brief/2026-08-10.html",
+      "excerpt": "축은 OpenAI Astra Critical 사이버·일부 작업 일시정지, Poyo Seedance 2.5 API·초당 단가, Apple 중국 Mac×Qwen 연결 가이드(후속 문서 삭제), Claude Managed Agents 세션 예산·advisor, Alibaba Qwen 오픈웨이트 매출 공유 계획 보도, Amazon 텍사스 7.65GW 가스 발전 AI 캠퍼스, ByteDance ~10T 파라미터 트레이닝 보도, API gpt-5.2/5.3-chat-latest 8/10 종료 이다.  ",
+      "top5": [
+        "Poyo — Seedance 2.5 API 라이브 · 4–30초·초당 단가 공개",
+        "OpenAI Astra — 첫 Critical 사이버 모델 · 일부 내부 작업 일시정지",
+        "Claude Managed Agents — 세션 예산 캡 · advisor · 추론 지역",
+        "Apple 중국 Mac — Qwen을 Siri·Writing Tools에 연결 가이드",
+        "Alibaba Qwen 오픈웨이트 — 대형 상업 사용자 매출 공유 계획 보도"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "OpenAI",
+        "Claude",
+        "Apple",
+        "ByteDance",
+        "Amazon",
+        "Hugging Face",
+        "Anthropic",
+        "GitHub",
+        "Meta",
+        "DeepMind",
+        "ChatGPT",
+        "AWS",
+        "ElevenLabs",
+        "Midjourney",
+        "DeepSeek",
+        "Runway"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-08-07",
       "title": "AI Daily Brief — 2026-08-07 (최근 24h)",
@@ -168,8 +214,8 @@
         "NVIDIA",
         "AWS",
         "ByteDance",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "DeepSeek",
         "DeepMind"
       ],
@@ -203,8 +249,8 @@
       ],
       "companies": [
         "OpenAI",
-        "Claude",
         "Google",
+        "Claude",
         "Meta",
         "Anthropic",
         "GitHub",
@@ -383,8 +429,8 @@
         "policy"
       ],
       "companies": [
-        "Gemini",
         "Google",
+        "Gemini",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -396,8 +442,8 @@
         "Hugging Face",
         "Notion",
         "AWS",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "Runway"
       ],
       "has_rumor": false,
@@ -441,10 +487,10 @@
         "GitHub",
         "Oracle",
         "Kling",
-        "Runway",
         "Amazon",
+        "Runway",
         "Meta",
-        "Midjourney"
+        "ElevenLabs"
       ],
       "has_rumor": false,
       "source": "md",
@@ -532,8 +578,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Meta",
-        "Luma"
+        "Luma",
+        "Meta"
       ],
       "has_rumor": false,
       "source": "md",
@@ -574,8 +620,8 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "Microsoft",
         "Google",
         "Zapier"
@@ -615,16 +661,16 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Claude",
         "Gemini",
+        "Claude",
         "Kling",
         "Meta",
         "Cloudflare",
         "Luma",
         "Anthropic",
         "Copilot",
-        "Amazon",
-        "Google"
+        "Google",
+        "Amazon"
       ],
       "has_rumor": false,
       "source": "md",

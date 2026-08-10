@@ -628,8 +628,8 @@
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-08-07",
-    termIds: ["agent", "credits", "multimodal", "open-weight", "moe", "token"]
+    date: "2026-08-10",
+    termIds: ["reference-image", "open-weight", "multimodal", "harness", "agent", "credits"]
   };
 
   const TAGS = [

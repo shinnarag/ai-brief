@@ -1,116 +1,123 @@
 {
-  "date": "2026-08-07",
-  "label": "8월 7일 브리프",
+  "date": "2026-08-10",
+  "label": "8월 10일 브리프",
   "termIds": [
-    "agent",
-    "credits",
-    "multimodal",
+    "reference-image",
     "open-weight",
-    "moe",
-    "token"
+    "multimodal",
+    "harness",
+    "agent",
+    "credits"
   ],
   "allMatchedIds": [
+    "reference-image",
     "multimodal",
     "early-access",
     "credits",
+    "harness",
     "open-weight",
     "prompt",
     "agent",
-    "token",
-    "moe",
     "api"
   ],
   "candidates": [
     {
       "term": "Seedance",
       "hint": "ByteDance 영상 생성 모델",
-      "hits": 18,
-      "sample": "기본을 연 날, CapCut 에디터 Seedance 2.5 지역 롤아웃·한국 보도가 겹쳤다. 도넛형 스피커 $300대 가격",
-      "brief_date": "2026-08-07"
+      "hits": 19,
+      "sample": "72h) 주제: 아스트라는 잠갔고, Seedance API엔 초당 단가가 붙었다 주제 설명: OpenAI가 미공개 Astr",
+      "brief_date": "2026-08-10"
     },
     {
       "term": "해상도(720p/1080p/4K)",
       "hint": "출력 화질 단위",
-      "hits": 3,
-      "sample": "품 표면) 네이티브 **최대 30초·4K** 단일 패스, 멀티모달 레퍼런스 **최대 50**, R2V(그린스크린",
-      "brief_date": "2026-08-07"
+      "hits": 4,
+      "sample": "프레임·멀티모달 레퍼런스. 480p/720p 초당 크레딧 표가 붙었다. 2. **OpenAI Astra — 첫 C",
+      "brief_date": "2026-08-10"
     },
     {
       "term": "ElevenLabs",
       "hint": "음성 합성",
       "hits": 1,
-      "sample": "/Luma/Decart/Hailuo/ElevenLabs/Suno — 창 내 메이저 GA 미확인. **히트:** ChatGPT",
-      "brief_date": "2026-08-07"
+      "sample": "/Luma/Decart/Hailuo/ElevenLabs/Suno — 창 내 메이저 GA 미확인. **히트:** Astra Cr",
+      "brief_date": "2026-08-10"
     },
     {
       "term": "FLUX 3",
       "hint": "BFL 멀티모달·영상 모델",
       "hits": 1,
       "sample": "없음) · BFL blog(8/4 FLUX 3 Video 이후 신규 없음) · Seed 블로그(8/5 SeedReal",
-      "brief_date": "2026-08-07"
+      "brief_date": "2026-08-10"
     },
     {
       "term": "Hailuo/MiniMax",
       "hint": "영상·모델 벤더",
       "hits": 1,
       "sample": "gsfield/Luma/Decart/Hailuo/ElevenLabs/Suno — 창 내 메이저 GA 미확인. **히트:",
-      "brief_date": "2026-08-07"
+      "brief_date": "2026-08-10"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
       "sample": "· fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo/ElevenLabs/Suno — 창",
-      "brief_date": "2026-08-07"
+      "brief_date": "2026-08-10"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 1,
       "sample": "신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo/ElevenLab",
-      "brief_date": "2026-08-07"
+      "brief_date": "2026-08-10"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
       "sample": "ay/Kling/Higgsfield/Luma/Decart/Hailuo/ElevenLabs/Suno — 창 내 메이저",
-      "brief_date": "2026-08-07"
+      "brief_date": "2026-08-10"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 1,
-      "sample": "트 면제 본문 재탕. > 스윕: Midjourney updates(최신 V8.2=7/24 창 밖) · DeepSeek ch",
-      "brief_date": "2026-08-07"
+      "sample": "ico 메시지 보드. > 스윕: Midjourney updates(최신 V8.2=7/24 창 밖) · DeepSeek ch",
+      "brief_date": "2026-08-10"
     },
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
       "hits": 1,
       "sample": "ime 이후 신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo/Ele",
-      "brief_date": "2026-08-07"
+      "brief_date": "2026-08-10"
     },
     {
       "term": "Suno",
       "hint": "음악 생성",
       "hits": 1,
-      "sample": "t/Hailuo/ElevenLabs/Suno — 창 내 메이저 GA 미확인. **히트:** ChatGPT Free",
-      "brief_date": "2026-08-07"
+      "sample": "t/Hailuo/ElevenLabs/Suno — 창 내 메이저 GA 미확인. **히트:** Astra Critica",
+      "brief_date": "2026-08-10"
     },
     {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
       "hits": 1,
       "sample": "ealtime 이후 신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hai",
-      "brief_date": "2026-08-07"
+      "brief_date": "2026-08-10"
     },
     {
       "term": "샌드박스",
       "hint": "격리 실행 환경",
       "hits": 1,
-      "sample": "유사한 방식.” - (조건) 샌드박스 탈출·제로데이 고도 공격 아님(Irregular 측: 평가 환경 경계",
-      "brief_date": "2026-08-07"
+      "sample": "테이징 팀은 **프로덕션 vs 평가 샌드박스** 분리를 재확인하고, “다음 프론티어 모델 일정” 로드맵에 지연 버퍼",
+      "brief_date": "2026-08-10"
+    },
+    {
+      "term": "파인튜닝",
+      "hint": "추가 학습으로 맞춤",
+      "hits": 1,
+      "sample": "리트레이닝**. 통상 3–6개월 후 파인튜닝·공개 가능 단계. Seed 팀(~2,000명, 전 DeepMind Wu",
+      "brief_date": "2026-08-10"
     }
   ],
   "catalogSize": 29
