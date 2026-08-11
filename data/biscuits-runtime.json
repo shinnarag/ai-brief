@@ -27,7 +27,7 @@
       "term": "Suno",
       "hint": "음악 생성",
       "hits": 30,
-      "sample": "2.0(8/7 누락 백필)**, **Suno 9/3 Pro 월 20곡 다운로드 상한**, Imagen 4 API D",
+      "sample": "2.0(8/7 누락 백필)**, **Suno 9/3 Pro 월 20곡 다운로드 상한**, **Arena `mona-",
       "brief_date": "2026-08-11"
     },
     {
@@ -105,6 +105,13 @@
       "hint": "생성 모델 추론 허브",
       "hits": 1,
       "sample": "ealtime 이후 신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hai",
+      "brief_date": "2026-08-11"
+    },
+    {
+      "term": "워터마크",
+      "hint": "생성물 표시·추적",
+      "hits": 1,
+      "sample": "검증**에 넣으면 **OpenAI 워터마크 검출** 보고 → **OpenAI 계열**로 강하게 추정. **Open",
       "brief_date": "2026-08-11"
     }
   ],
