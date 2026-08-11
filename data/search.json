@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T10:48:43",
-  "count": 357,
+  "generated_at": "2026-08-11T12:25:42",
+  "count": 359,
   "items": [
     {
       "date": "2026-08-11",
@@ -18,7 +18,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-08-11.html#c-top-5-01"
     },
@@ -38,7 +39,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-08-11.html#c-top-5-02"
     },
@@ -58,7 +60,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-08-11.html#c-top-5-03"
     },
@@ -70,15 +73,16 @@
       "section": "Top 5",
       "sectionId": "top-5",
       "cardId": "c-top-5-04",
-      "title": "Imagen 4 API — 8/17 종료 D-6 · Gemini 이미지로 이전",
-      "snippet": "imagen-4.0-* 세 엔드포인트 종료 예정. 권장 대체 gemini-3.1-flash-image. 이미지 파이프 스테이징 마감.",
-      "text": "Imagen 4 API — 8/17 종료 D-6 · Gemini 이미지로 이전 imagen-4.0-* 세 엔드포인트 종료 예정. 권장 대체 gemini-3.1-flash-image. 이미지 파이프 스테이징 마감. 콘텐츠 · 크리에이티브",
+      "title": "Suno — 9/3부터 Pro 월 20곡 · Premier 월 60곡 다운로드 상한",
+      "snippet": "8/10 공식. Free는 평생 7회 트라이얼. 플랫폼 내 재생·공유는 무제한. 기존 곡도 9/3 이후 다운로드에 적용.",
+      "text": "Suno — 9/3부터 Pro 월 20곡 · Premier 월 60곡 다운로드 상한 8/10 공식. Free는 평생 7회 트라이얼. 플랫폼 내 재생·공유는 무제한. 기존 곡도 9/3 이후 다운로드에 적용. 콘텐츠 · 크리에이티브",
       "domains": [
         "agents",
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-08-11.html#c-top-5-04"
     },
@@ -90,15 +94,16 @@
       "section": "Top 5",
       "sectionId": "top-5",
       "cardId": "c-top-5-05",
-      "title": "방도자(方桃子) — AI 숏드라마 캐릭터 · 광고 제안가 공개",
-      "snippet": "약 2개월 40만 팔로워·시리즈 조회 2.5억 프레임. 1–20초 16.8만 위안 등 제안가 보도(계약액 아님).",
-      "text": "방도자(方桃子) — AI 숏드라마 캐릭터 · 광고 제안가 공개 약 2개월 40만 팔로워·시리즈 조회 2.5억 프레임. 1–20초 16.8만 위안 등 제안가 보도(계약액 아님). 마케팅 · 비즈니스",
+      "title": "Imagen 4 API — 8/17 종료 D-6 · Gemini 이미지로 이전",
+      "snippet": "imagen-4.0-* 세 엔드포인트 종료 예정. 권장 대체 gemini-3.1-flash-image. 이미지 파이프 스테이징 마감.",
+      "text": "Imagen 4 API — 8/17 종료 D-6 · Gemini 이미지로 이전 imagen-4.0-* 세 엔드포인트 종료 예정. 권장 대체 gemini-3.1-flash-image. 이미지 파이프 스테이징 마감. 콘텐츠 · 크리에이티브",
       "domains": [
         "agents",
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-08-11.html#c-top-5-05"
     },
@@ -118,7 +123,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-08-11.html#c-모델-플랫폼-01"
     },
@@ -138,7 +144,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-08-11.html#c-모델-플랫폼-02"
     },
@@ -158,7 +165,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-08-11.html#c-모델-플랫폼-03"
     },
@@ -178,7 +186,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-08-11.html#c-콘텐츠-제작-크리에이티브-01"
     },
@@ -190,6 +199,27 @@
       "section": "콘텐츠 제작 · 크리에이티브",
       "sectionId": "콘텐츠-제작-크리에이티브",
       "cardId": "c-콘텐츠-제작-크리에이티브-02",
+      "title": "Suno — 9/3 다운로드 정책 · Pro 월 20곡 · Premier 월 60곡 · Free 평생 7회 (8/10 공지)",
+      "snippet": "(사실) Suno 공식 블로그(2026-08-10): 2026-09-03부터 티어별 오프플랫폼 다운로드 상한 적용. Free: 평생( lifetime) 트라이얼 최대 7회 · Pro: 월 20회 · Premier: 월 60회. 한도 초과분은 추가 다운로드 구매 가능. 동시 예고:…",
+      "text": "Suno — 9/3 다운로드 정책 · Pro 월 20곡 · Premier 월 60곡 · Free 평생 7회 (8/10 공지) (사실) Suno 공식 블로그(2026-08-10): 2026-09-03부터 티어별 오프플랫폼 다운로드 상한 적용. Free: 평생( lifetime) 트라이얼 최대 7회 · Pro: 월 20회 · Premier: 월 60회. 한도 초과분은 추가 다운로드 구매 가능. 동시 예고: 신규 모델 출시 시 구 모델 은퇴·9/3 새 Terms of Service. (범위·카운팅) 제한은 기기/파일로 내려받는 다운로드만. 라이브러리 재생·링크 공유는 전 플랜 무제한. 곡 1개 = 다운로드 1회(포맷·재다운로드 무관; 실패·중단은 미차감; 스템은 해당 곡 1회에 포함). 월 쿼터는 청구일 기준 리셋, 미사용분 이월 없음. 9/3 이전 생성 곡 포함 전 라이브러리 다운로드에 적용(재생·공유는 유지). (예외·권리) Suno Studio(Premier 쪽 프로 워크플로) 다운로드는 한도 없음(공식 FAQ). 유료 구독 중 다운로드한 곡의 상업적 이용 권리는 유지(공지·FAQ 공통). Free 트라이얼 다운로드는 비상업·개인 한도. (맥락) “의도적 창작 vs 대량 익스포트·슬롭” 프레임. Variety 등 2차: Pro $8/월 플랜에 상업 라이선스+월 20 DL 묶음으로 보도. 커뮤니티(Reddit 등) 취소·연간 플랜 논쟁 동시 확산. (영향) 숏폼 BGM·광고 뮤직·배치 익스포트 팀은 9/3 전 필요 곡 일괄 백업, Pro 사용 시 월 20곡 쿼터로 파이프라인 재설계, 대량 스템 작업은 Studio/Premier 경로 검토. 추가 DL 단가는 공지 시점에 구매 가능만 명시 — 단가표는 후속 워치.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-11.html#c-콘텐츠-제작-크리에이티브-02"
+    },
+    {
+      "date": "2026-08-11",
+      "displayDate": "2026년 8월 11일(화)",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
+      "briefUrl": "brief/2026-08-11.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-03",
       "title": "Imagen 4 API — 8/17 종료 D-6 · Gemini 3.1 Flash Image로 이전",
       "snippet": "(사실) Firebase AI Logic·Google 문서: 모든 Imagen 모델이 빠르면 2026-08-17 셧다운. 안정 ID imagen-4.0-generate-001 · ultra · fast 포함. 권장 대체 gemini-3.1-flash-image(Nano Banana…",
       "text": "Imagen 4 API — 8/17 종료 D-6 · Gemini 3.1 Flash Image로 이전 (사실) Firebase AI Logic·Google 문서: 모든 Imagen 모델이 빠르면 2026-08-17 셧다운. 안정 ID imagen-4.0-generate-001 · ultra · fast 포함. 권장 대체 gemini-3.1-flash-image(Nano Banana 2 계). (범위) Gemini API·Firebase 등 Imagen 4 안정 ID를 쓰는 이미지 생성·편집 앱. 종료 후 엔드포인트 비가용. 마이그레이션 표: Fast→Flash Image(MINIMAL), Standard→Flash Image(HIGH), Ultra→gemini-3-pro-image 등. (맥락) 6월 deprecation 공지의 실행 마감이 6일 앞. 신규 기능 출시가 아니라 프로덕션 파이프 교체 데드라인. Image 2.0 백필과 같이 이미지 생성 스택 교체 주로 묶어서 본다. (영향) 광고·키비주얼·배치 이미지 자동화는 동일 프롬프트로 Gemini 이미지 품질·단가·해상도를 스테이징하고, 하드코딩 모델 ID를 교체할 후보.",
@@ -198,9 +228,10 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
-      "href": "brief/2026-08-11.html#c-콘텐츠-제작-크리에이티브-02"
+      "href": "brief/2026-08-11.html#c-콘텐츠-제작-크리에이티브-03"
     },
     {
       "date": "2026-08-11",
@@ -218,7 +249,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-08-11.html#c-마케팅-비즈니스-01"
     },
@@ -238,7 +270,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-08-11.html#c-테크-인프라-규제-보안-01"
     },
@@ -258,7 +291,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-08-11.html#c-테크-인프라-규제-보안-02"
     },
@@ -278,7 +312,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-08-11.html#c-sns-트렌드-루머-바이럴-01"
     },
@@ -298,7 +333,8 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "href": "brief/2026-08-11.html#c-sns-트렌드-루머-바이럴-02"
     },
@@ -310,6 +346,27 @@
       "section": "SNS 트렌드 · 루머 · 바이럴",
       "sectionId": "sns-트렌드-루머-바이럴",
       "cardId": "c-sns-트렌드-루머-바이럴-03",
+      "title": "Suno 9/3 다운로드 캡 — Pro 월 20 프레임으로 커뮤니티 반발",
+      "snippet": "“무제한 다운로드 시대 종료” 요약·연간 Pro 취소 논의가 Reddit/X에 붙음. 공식은 재생·공유 무제한·Studio 예외·추가 구매를 강조. 단가·슬롭 규제 서사는 마케팅/콘텐츠 카드 수치를 따름.",
+      "text": "Suno 9/3 다운로드 캡 — Pro 월 20 프레임으로 커뮤니티 반발 “무제한 다운로드 시대 종료” 요약·연간 Pro 취소 논의가 Reddit/X에 붙음. 공식은 재생·공유 무제한·Studio 예외·추가 구매를 강조. 단가·슬롭 규제 서사는 마케팅/콘텐츠 카드 수치를 따름.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-11.html#c-sns-트렌드-루머-바이럴-03"
+    },
+    {
+      "date": "2026-08-11",
+      "displayDate": "2026년 8월 11일(화)",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
+      "briefUrl": "brief/2026-08-11.html",
+      "section": "SNS 트렌드 · 루머 · 바이럴",
+      "sectionId": "sns-트렌드-루머-바이럴",
+      "cardId": "c-sns-트렌드-루머-바이럴-04",
       "title": "방도자 — 광고 단가 클립이 숏폼으로 재확산",
       "snippet": "16.8만~25.8만 위안 제안가 구간이 X·IG 요약 클립으로 돌며 “AI 배우가 천만 인플 단가를 넘는다” 프레임과 “브랜드가 싸구려로 보일 것” 반발이 동시에 붙음. 수치는 마케팅 카드.",
       "text": "방도자 — 광고 단가 클립이 숏폼으로 재확산 16.8만~25.8만 위안 제안가 구간이 X·IG 요약 클립으로 돌며 “AI 배우가 천만 인플 단가를 넘는다” 프레임과 “브랜드가 싸구려로 보일 것” 반발이 동시에 붙음. 수치는 마케팅 카드.",
@@ -318,9 +375,10 @@
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
-      "href": "brief/2026-08-11.html#c-sns-트렌드-루머-바이럴-03"
+      "href": "brief/2026-08-11.html#c-sns-트렌드-루머-바이럴-04"
     },
     {
       "date": "2026-08-10",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T10:48:43",
+  "generated_at": "2026-08-11T12:25:42",
   "platform": "AI Pulse",
   "count": 20,
   "domains": {
@@ -13,10 +13,10 @@
   "domain_counts": {
     "infra": 54,
     "models": 130,
-    "creative": 51,
-    "marketing": 55,
-    "agents": 70,
-    "policy": 47
+    "creative": 52,
+    "agents": 71,
+    "marketing": 54,
+    "policy": 48
   },
   "companies": [
     [
@@ -139,24 +139,25 @@
       "date": "2026-08-11",
       "title": "AI Daily Brief — 2026-08-11 (최근 24h)",
       "theme": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
-      "theme_blurb": "Meta가 30B 오픈웨이트 Muse Glimmer를 맥·PC 한 장 GPU용으로 연 날, Anthropic은 Sonnet 5 도입가($2/$10)를 영구화하며 9/1 인상 예고를 철회했다. 제작 쪽은 xAI Imagine Image 2.0(8/7 누락 백필), Imagen 4 API D-6 이전, AI 숏드라마 캐릭터 광고 단가를 같이 본다.",
+      "theme_blurb": "Meta가 30B 오픈웨이트 Muse Glimmer를 맥·PC 한 장 GPU용으로 연 날, Anthropic은 Sonnet 5 도입가($2/$10)를 영구화하며 9/1 인상 예고를 철회했다. 제작 쪽은 xAI Imagine Image 2.0(8/7 누락 백필), Suno 9/3 Pro 월 20곡 다운로드 상한, Imagen 4 API D-6 이전, AI 숏드라마 캐릭터 광고 단가를 같이 본다.",
       "edition_title": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
-      "edition_blurb": "Meta가 30B 오픈웨이트 Muse Glimmer를 맥·PC 한 장 GPU용으로 연 날, Anthropic은 Sonnet 5 도입가($2/$10)를 영구화하며 9/1 인상 예고를 철회했다. 제작 쪽은 xAI Imagine Image 2.0(8/7 누락 백필), Imagen 4 API D-6 이전, AI 숏드라마 캐릭터 광고 단가를 같이 본다.",
+      "edition_blurb": "Meta가 30B 오픈웨이트 Muse Glimmer를 맥·PC 한 장 GPU용으로 연 날, Anthropic은 Sonnet 5 도입가($2/$10)를 영구화하며 9/1 인상 예고를 철회했다. 제작 쪽은 xAI Imagine Image 2.0(8/7 누락 백필), Suno 9/3 Pro 월 20곡 다운로드 상한, Imagen 4 API D-6 이전, AI 숏드라마 캐릭터 광고 단가를 같이 본다.",
       "url": "brief/2026-08-11.html",
-      "excerpt": "축은 Meta Muse Glimmer 30B 오픈웨이트·로컬 에이전트, Claude Sonnet 5 $2/$10 영구화(9/1 인상 철회), [백필] xAI Imagine Image 2.0 Quality Mode(8/7), Imagen 4 API 8/17 종료 D-6, NVIDIA×월가 6사 컴퓨트 파이낸싱(>$500B), AI 숏드라마 캐릭터 방도자 광고 단가 이다.  ",
+      "excerpt": "축은 Meta Muse Glimmer 30B 오픈웨이트·로컬 에이전트, Claude Sonnet 5 $2/$10 영구화(9/1 인상 철회), [백필] xAI Imagine Image 2.0 Quality Mode(8/7), Suno 9/3 다운로드 상한(Pro 월 20 · Premier 월 60), Imagen 4 API 8/17 종료 D-6, NVIDIA×월가 6사 컴퓨트 파이낸싱(>$500B), AI 숏드라마 캐릭터 방도자 광고 단가 이다.  ",
       "top5": [
         "Meta Muse Glimmer — 30B 오픈웨이트 · 로컬 always-on 에이전트",
         "Claude Sonnet 5 — $2/$10 도입가 영구화 · 9/1 인상 철회",
         "xAI Imagine Image 2.0 — Quality Mode · 정밀 편집 · Arena #2",
-        "Imagen 4 API — 8/17 종료 D-6 · Gemini 이미지로 이전",
-        "방도자(方桃子) — AI 숏드라마 캐릭터 · 광고 제안가 공개"
+        "Suno — 9/3부터 Pro 월 20곡 · Premier 월 60곡 다운로드 상한",
+        "Imagen 4 API — 8/17 종료 D-6 · Gemini 이미지로 이전"
       ],
       "domains": [
         "agents",
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "companies": [
         "NVIDIA",
@@ -217,8 +218,8 @@
         "DeepMind",
         "ChatGPT",
         "AWS",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "DeepSeek",
         "Runway"
       ],
@@ -263,8 +264,8 @@
         "NVIDIA",
         "AWS",
         "ByteDance",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "DeepSeek",
         "DeepMind"
       ],
@@ -478,8 +479,8 @@
         "policy"
       ],
       "companies": [
-        "Google",
         "Gemini",
+        "Google",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -491,8 +492,8 @@
         "Hugging Face",
         "Notion",
         "AWS",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "Runway"
       ],
       "has_rumor": false,
@@ -536,10 +537,10 @@
         "GitHub",
         "Oracle",
         "Kling",
-        "Runway",
         "Amazon",
+        "Runway",
         "Meta",
-        "ElevenLabs"
+        "Midjourney"
       ],
       "has_rumor": false,
       "source": "md",
@@ -581,8 +582,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "NVIDIA",
-        "Gemini"
+        "Gemini",
+        "NVIDIA"
       ],
       "has_rumor": false,
       "source": "md",
@@ -669,11 +670,11 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "Microsoft",
-        "Zapier",
-        "Google"
+        "Google",
+        "Zapier"
       ],
       "has_rumor": false,
       "source": "md",
