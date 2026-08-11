@@ -1,123 +1,103 @@
 {
-  "date": "2026-08-10",
-  "label": "8월 10일 브리프",
+  "date": "2026-08-11",
+  "label": "8월 11일 브리프",
   "termIds": [
-    "reference-image",
+    "short-drama",
+    "character-ip",
+    "ai-influencer",
     "open-weight",
-    "multimodal",
     "harness",
-    "agent",
-    "credits"
+    "multimodal"
   ],
   "allMatchedIds": [
-    "reference-image",
+    "character-ip",
+    "ai-influencer",
+    "short-drama",
     "multimodal",
-    "early-access",
-    "credits",
     "harness",
     "open-weight",
     "prompt",
     "agent",
+    "token",
     "api"
   ],
   "candidates": [
-    {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 19,
-      "sample": "72h) 주제: 아스트라는 잠갔고, Seedance API엔 초당 단가가 붙었다 주제 설명: OpenAI가 미공개 Astr",
-      "brief_date": "2026-08-10"
-    },
-    {
-      "term": "해상도(720p/1080p/4K)",
-      "hint": "출력 화질 단위",
-      "hits": 4,
-      "sample": "프레임·멀티모달 레퍼런스. 480p/720p 초당 크레딧 표가 붙었다. 2. **OpenAI Astra — 첫 C",
-      "brief_date": "2026-08-10"
-    },
-    {
-      "term": "ElevenLabs",
-      "hint": "음성 합성",
-      "hits": 1,
-      "sample": "/Luma/Decart/Hailuo/ElevenLabs/Suno — 창 내 메이저 GA 미확인. **히트:** Astra Cr",
-      "brief_date": "2026-08-10"
-    },
     {
       "term": "FLUX 3",
       "hint": "BFL 멀티모달·영상 모델",
       "hits": 1,
       "sample": "없음) · BFL blog(8/4 FLUX 3 Video 이후 신규 없음) · Seed 블로그(8/5 SeedReal",
-      "brief_date": "2026-08-10"
+      "brief_date": "2026-08-11"
     },
     {
       "term": "Hailuo/MiniMax",
       "hint": "영상·모델 벤더",
       "hits": 1,
-      "sample": "gsfield/Luma/Decart/Hailuo/ElevenLabs/Suno — 창 내 메이저 GA 미확인. **히트:",
-      "brief_date": "2026-08-10"
+      "sample": "gsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **히트:** Muse Glimmer",
+      "brief_date": "2026-08-11"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
-      "sample": "· fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo/ElevenLabs/Suno — 창",
-      "brief_date": "2026-08-10"
+      "sample": "· fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **",
+      "brief_date": "2026-08-11"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 1,
-      "sample": "신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo/ElevenLab",
-      "brief_date": "2026-08-10"
+      "sample": "신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저",
+      "brief_date": "2026-08-11"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "ay/Kling/Higgsfield/Luma/Decart/Hailuo/ElevenLabs/Suno — 창 내 메이저",
-      "brief_date": "2026-08-10"
+      "sample": "ay/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **히트:**",
+      "brief_date": "2026-08-11"
+    },
+    {
+      "term": "MCP",
+      "hint": "Model Context Protocol",
+      "hits": 1,
+      "sample": "- (벤치·배포) 자사 표: MCP Atlas 75.5, SWE-Bench Verified 76.0 등 —",
+      "brief_date": "2026-08-11"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 1,
-      "sample": "ico 메시지 보드. > 스윕: Midjourney updates(최신 V8.2=7/24 창 밖) · DeepSeek ch",
-      "brief_date": "2026-08-10"
+      "sample": "-latest 종료. > 스윕: Midjourney updates(V8.2=창 밖) · DeepSeek changelog(",
+      "brief_date": "2026-08-11"
+    },
+    {
+      "term": "RAG",
+      "hint": "검색 증강 생성",
+      "hits": 1,
+      "sample": "*(GA). - (범위) 검색·RAG·에셋 인덱싱 등 임베딩 엔드포인트를 프리뷰 ID로 고정한 앱. “ear",
+      "brief_date": "2026-08-11"
     },
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
       "hits": 1,
-      "sample": "ime 이후 신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo/Ele",
-      "brief_date": "2026-08-10"
+      "sample": "ime 이후 신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo — 창",
+      "brief_date": "2026-08-11"
     },
     {
-      "term": "Suno",
-      "hint": "음악 생성",
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
       "hits": 1,
-      "sample": "t/Hailuo/ElevenLabs/Suno — 창 내 메이저 GA 미확인. **히트:** Astra Critica",
-      "brief_date": "2026-08-10"
+      "sample": "그널** 이다. > 전일 제외: Seedance 2.5 API(Poyo) · Astra Critical · Claude",
+      "brief_date": "2026-08-11"
     },
     {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
       "hits": 1,
       "sample": "ealtime 이후 신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hai",
-      "brief_date": "2026-08-10"
-    },
-    {
-      "term": "샌드박스",
-      "hint": "격리 실행 환경",
-      "hits": 1,
-      "sample": "테이징 팀은 **프로덕션 vs 평가 샌드박스** 분리를 재확인하고, “다음 프론티어 모델 일정” 로드맵에 지연 버퍼",
-      "brief_date": "2026-08-10"
-    },
-    {
-      "term": "파인튜닝",
-      "hint": "추가 학습으로 맞춤",
-      "hits": 1,
-      "sample": "리트레이닝**. 통상 3–6개월 후 파인튜닝·공개 가능 단계. Seed 팀(~2,000명, 전 DeepMind Wu",
-      "brief_date": "2026-08-10"
+      "brief_date": "2026-08-11"
     }
   ],
   "catalogSize": 29
