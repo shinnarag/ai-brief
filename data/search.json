@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-11T10:15:25",
-  "count": 355,
+  "generated_at": "2026-08-11T10:48:43",
+  "count": 357,
   "items": [
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",
-      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
       "briefUrl": "brief/2026-08-11.html",
       "section": "Top 5",
       "sectionId": "top-5",
@@ -25,7 +25,7 @@
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",
-      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
       "briefUrl": "brief/2026-08-11.html",
       "section": "Top 5",
       "sectionId": "top-5",
@@ -45,14 +45,14 @@
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",
-      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
       "briefUrl": "brief/2026-08-11.html",
       "section": "Top 5",
       "sectionId": "top-5",
       "cardId": "c-top-5-03",
-      "title": "Imagen 4 API — 8/17 종료 D-6 · Gemini 이미지로 이전",
-      "snippet": "imagen-4.0-* 세 엔드포인트 종료 예정. 권장 대체 gemini-3.1-flash-image. 이미지 파이프 스테이징 마감.",
-      "text": "Imagen 4 API — 8/17 종료 D-6 · Gemini 이미지로 이전 imagen-4.0-* 세 엔드포인트 종료 예정. 권장 대체 gemini-3.1-flash-image. 이미지 파이프 스테이징 마감. 콘텐츠 · 크리에이티브",
+      "title": "xAI Imagine Image 2.0 — Quality Mode · 정밀 편집 · Arena #2",
+      "snippet": "8/7 공식 GA. grok.com/imagine·iOS·Android. 매직완드·세그·멀티레퍼(5장)·Smart Resize. API는 coming soon.",
+      "text": "xAI Imagine Image 2.0 — Quality Mode · 정밀 편집 · Arena #2 8/7 공식 GA. grok.com/imagine·iOS·Android. 매직완드·세그·멀티레퍼(5장)·Smart Resize. API는 coming soon. 콘텐츠 · 크리에이티브",
       "domains": [
         "agents",
         "creative",
@@ -65,14 +65,14 @@
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",
-      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
       "briefUrl": "brief/2026-08-11.html",
       "section": "Top 5",
       "sectionId": "top-5",
       "cardId": "c-top-5-04",
-      "title": "NVIDIA — 월가 6사와 컴퓨트 파이낸싱 플랫폼 · $500B+ 목표",
-      "snippet": "Apollo·BlackRock·Blackstone·Brookfield·Goldman·KKR과 MOU. 고객용 AI 인프라 제3자 자본 조달 축.",
-      "text": "NVIDIA — 월가 6사와 컴퓨트 파이낸싱 플랫폼 · $500B+ 목표 Apollo·BlackRock·Blackstone·Brookfield·Goldman·KKR과 MOU. 고객용 AI 인프라 제3자 자본 조달 축. 테크 · 인프라",
+      "title": "Imagen 4 API — 8/17 종료 D-6 · Gemini 이미지로 이전",
+      "snippet": "imagen-4.0-* 세 엔드포인트 종료 예정. 권장 대체 gemini-3.1-flash-image. 이미지 파이프 스테이징 마감.",
+      "text": "Imagen 4 API — 8/17 종료 D-6 · Gemini 이미지로 이전 imagen-4.0-* 세 엔드포인트 종료 예정. 권장 대체 gemini-3.1-flash-image. 이미지 파이프 스테이징 마감. 콘텐츠 · 크리에이티브",
       "domains": [
         "agents",
         "creative",
@@ -85,7 +85,7 @@
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",
-      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
       "briefUrl": "brief/2026-08-11.html",
       "section": "Top 5",
       "sectionId": "top-5",
@@ -105,7 +105,7 @@
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",
-      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
       "briefUrl": "brief/2026-08-11.html",
       "section": "모델 · 플랫폼",
       "sectionId": "모델-플랫폼",
@@ -125,7 +125,7 @@
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",
-      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
       "briefUrl": "brief/2026-08-11.html",
       "section": "모델 · 플랫폼",
       "sectionId": "모델-플랫폼",
@@ -145,7 +145,7 @@
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",
-      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
       "briefUrl": "brief/2026-08-11.html",
       "section": "모델 · 플랫폼",
       "sectionId": "모델-플랫폼",
@@ -165,14 +165,14 @@
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",
-      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
       "briefUrl": "brief/2026-08-11.html",
       "section": "콘텐츠 제작 · 크리에이티브",
       "sectionId": "콘텐츠-제작-크리에이티브",
       "cardId": "c-콘텐츠-제작-크리에이티브-01",
-      "title": "Imagen 4 API — 8/17 종료 D-6 · Gemini 3.1 Flash Image로 이전",
-      "snippet": "(사실) Firebase AI Logic·Google 문서: 모든 Imagen 모델이 빠르면 2026-08-17 셧다운. 안정 ID imagen-4.0-generate-001 · ultra · fast 포함. 권장 대체 gemini-3.1-flash-image(Nano Banana…",
-      "text": "Imagen 4 API — 8/17 종료 D-6 · Gemini 3.1 Flash Image로 이전 (사실) Firebase AI Logic·Google 문서: 모든 Imagen 모델이 빠르면 2026-08-17 셧다운. 안정 ID imagen-4.0-generate-001 · ultra · fast 포함. 권장 대체 gemini-3.1-flash-image(Nano Banana 2 계). (범위) Gemini API·Firebase 등 Imagen 4 안정 ID를 쓰는 이미지 생성·편집 앱. 종료 후 엔드포인트 비가용. 마이그레이션 표: Fast→Flash Image(MINIMAL), Standard→Flash Image(HIGH), Ultra→gemini-3-pro-image 등. (맥락) 6월 deprecation 공지의 실행 마감이 6일 앞. 신규 기능 출시가 아니라 프로덕션 파이프 교체 데드라인. (영향) 광고·키비주얼·배치 이미지 자동화는 동일 프롬프트로 Gemini 이미지 품질·단가·해상도를 스테이징하고, 하드코딩 모델 ID를 교체할 후보.",
+      "title": "xAI Imagine Image 2.0 — Quality Mode GA · 정밀 편집·멀티레퍼·Smart Resize (8/7)",
+      "snippet": "(사실) xAI 공식(2026-08-07): Imagine Image 2.0을 grok.com/imagine 및 Grok iOS·Android 앱의 새 Quality Mode로 일반 공개. 목표는 “실무에 쓸 수 있는 이미지” — 지시 준수, 타이포·레이아웃, 작은 텍스트 선명도,…",
+      "text": "xAI Imagine Image 2.0 — Quality Mode GA · 정밀 편집·멀티레퍼·Smart Resize (8/7) (사실) xAI 공식(2026-08-07): Imagine Image 2.0을 grok.com/imagine 및 Grok iOS·Android 앱의 새 Quality Mode로 일반 공개. 목표는 “실무에 쓸 수 있는 이미지” — 지시 준수, 타이포·레이아웃, 작은 텍스트 선명도, 생성·편집 간 일관성. (편집·툴) Magic Wand(지정 영역만 수정) · Segmentation · 배경 제거(투명 PNG) · Multi-ref editing(입력 최대 5장, 수동 합성 축소) · Smart Resize(비율 선택 시 프레임 채움 재구성). 템플릿: 포토 편집·제품 컬러·에디토리얼 포스터·헤드샷·아이콘·캐릭터 스프라이트·머천·UGC·e-커머스 등. Build a world for video — 캐릭터·로케이션·프롭을 같은 스타일로 분리 생성. (벤치·배포) 자사 인용 Arena(8/7 스냅샷): Text-to-Image · Image Edit 모두 세계 2위(1위 GPT-Image-2 계). Arena 표기는 SpaceXAI. 컨슈머(웹·앱) 즉시 사용. 전용 API는 coming soon(공지 문구). (맥락) 월(8/10) 72h 창·화(8/11) 24h 브리프 모두 미수록 → 당일 백필. 7/31 Imagine Video 1.5 이후 이미지 본선 메이저 업그레이드. Imagen 4 종료(D-6)와 같은 주 이미지 스택 재배치 후보. (영향) 키비주얼·광고 소재·캐릭터 일관성·멀티비율 리사이즈 팀은 Quality Mode PoC를 큐에 넣고, GPT-Image-2·Gemini 이미지·Imagen 대체와 지시 준수·텍스트·편집 정밀도·크레딧 4축 A/B. API 파이프는 공개 일정 워치.",
       "domains": [
         "agents",
         "creative",
@@ -185,7 +185,27 @@
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",
-      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
+      "briefUrl": "brief/2026-08-11.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-02",
+      "title": "Imagen 4 API — 8/17 종료 D-6 · Gemini 3.1 Flash Image로 이전",
+      "snippet": "(사실) Firebase AI Logic·Google 문서: 모든 Imagen 모델이 빠르면 2026-08-17 셧다운. 안정 ID imagen-4.0-generate-001 · ultra · fast 포함. 권장 대체 gemini-3.1-flash-image(Nano Banana…",
+      "text": "Imagen 4 API — 8/17 종료 D-6 · Gemini 3.1 Flash Image로 이전 (사실) Firebase AI Logic·Google 문서: 모든 Imagen 모델이 빠르면 2026-08-17 셧다운. 안정 ID imagen-4.0-generate-001 · ultra · fast 포함. 권장 대체 gemini-3.1-flash-image(Nano Banana 2 계). (범위) Gemini API·Firebase 등 Imagen 4 안정 ID를 쓰는 이미지 생성·편집 앱. 종료 후 엔드포인트 비가용. 마이그레이션 표: Fast→Flash Image(MINIMAL), Standard→Flash Image(HIGH), Ultra→gemini-3-pro-image 등. (맥락) 6월 deprecation 공지의 실행 마감이 6일 앞. 신규 기능 출시가 아니라 프로덕션 파이프 교체 데드라인. Image 2.0 백필과 같이 이미지 생성 스택 교체 주로 묶어서 본다. (영향) 광고·키비주얼·배치 이미지 자동화는 동일 프롬프트로 Gemini 이미지 품질·단가·해상도를 스테이징하고, 하드코딩 모델 ID를 교체할 후보.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-11.html#c-콘텐츠-제작-크리에이티브-02"
+    },
+    {
+      "date": "2026-08-11",
+      "displayDate": "2026년 8월 11일(화)",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
       "briefUrl": "brief/2026-08-11.html",
       "section": "마케팅 · 비즈니스",
       "sectionId": "마케팅-비즈니스",
@@ -205,7 +225,7 @@
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",
-      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
       "briefUrl": "brief/2026-08-11.html",
       "section": "테크 · 인프라 · 규제 · 보안",
       "sectionId": "테크-인프라-규제-보안",
@@ -225,7 +245,7 @@
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",
-      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
       "briefUrl": "brief/2026-08-11.html",
       "section": "테크 · 인프라 · 규제 · 보안",
       "sectionId": "테크-인프라-규제-보안",
@@ -245,7 +265,7 @@
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",
-      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
       "briefUrl": "brief/2026-08-11.html",
       "section": "SNS 트렌드 · 루머 · 바이럴",
       "sectionId": "sns-트렌드-루머-바이럴",
@@ -265,11 +285,31 @@
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",
-      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
       "briefUrl": "brief/2026-08-11.html",
       "section": "SNS 트렌드 · 루머 · 바이럴",
       "sectionId": "sns-트렌드-루머-바이럴",
       "cardId": "c-sns-트렌드-루머-바이럴-02",
+      "title": "Imagine Image 2.0 — Arena #2·편집 툴 데모 클립 잔향",
+      "snippet": "8/7 공지 이후 국내·중문 요약(“OpenAI에 근소 2위”, 매직완드·텍스트 렌더)과 리뷰 영상이 창 밖~주초에 걸쳐 재유통. 수치는 Arena 스냅샷·자사 인용 프레임으로 취급.",
+      "text": "Imagine Image 2.0 — Arena #2·편집 툴 데모 클립 잔향 8/7 공지 이후 국내·중문 요약(“OpenAI에 근소 2위”, 매직완드·텍스트 렌더)과 리뷰 영상이 창 밖~주초에 걸쳐 재유통. 수치는 Arena 스냅샷·자사 인용 프레임으로 취급.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-11.html#c-sns-트렌드-루머-바이럴-02"
+    },
+    {
+      "date": "2026-08-11",
+      "displayDate": "2026년 8월 11일(화)",
+      "briefTitle": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
+      "briefUrl": "brief/2026-08-11.html",
+      "section": "SNS 트렌드 · 루머 · 바이럴",
+      "sectionId": "sns-트렌드-루머-바이럴",
+      "cardId": "c-sns-트렌드-루머-바이럴-03",
       "title": "방도자 — 광고 단가 클립이 숏폼으로 재확산",
       "snippet": "16.8만~25.8만 위안 제안가 구간이 X·IG 요약 클립으로 돌며 “AI 배우가 천만 인플 단가를 넘는다” 프레임과 “브랜드가 싸구려로 보일 것” 반발이 동시에 붙음. 수치는 마케팅 카드.",
       "text": "방도자 — 광고 단가 클립이 숏폼으로 재확산 16.8만~25.8만 위안 제안가 구간이 X·IG 요약 클립으로 돌며 “AI 배우가 천만 인플 단가를 넘는다” 프레임과 “브랜드가 싸구려로 보일 것” 반발이 동시에 붙음. 수치는 마케팅 카드.",
@@ -280,7 +320,7 @@
         "marketing",
         "models"
       ],
-      "href": "brief/2026-08-11.html#c-sns-트렌드-루머-바이럴-02"
+      "href": "brief/2026-08-11.html#c-sns-트렌드-루머-바이럴-03"
     },
     {
       "date": "2026-08-10",

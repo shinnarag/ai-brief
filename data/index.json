@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T10:15:25",
+  "generated_at": "2026-08-11T10:48:43",
   "platform": "AI Pulse",
   "count": 20,
   "domains": {
@@ -11,17 +11,17 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "infra": 55,
-    "models": 129,
+    "infra": 54,
+    "models": 130,
     "creative": 51,
-    "marketing": 54,
-    "agents": 69,
+    "marketing": 55,
+    "agents": 70,
     "policy": 47
   },
   "companies": [
     [
       "OpenAI",
-      118
+      120
     ],
     [
       "Claude",
@@ -37,15 +37,15 @@
     ],
     [
       "NVIDIA",
-      55
+      50
+    ],
+    [
+      "Gemini",
+      34
     ],
     [
       "ChatGPT",
       33
-    ],
-    [
-      "Gemini",
-      32
     ],
     [
       "Google",
@@ -60,12 +60,20 @@
       22
     ],
     [
+      "Grok",
+      21
+    ],
+    [
       "GitHub",
       21
     ],
     [
       "Apple",
       19
+    ],
+    [
+      "xAI",
+      17
     ],
     [
       "Hugging Face",
@@ -84,10 +92,6 @@
       9
     ],
     [
-      "Grok",
-      9
-    ],
-    [
       "Midjourney",
       8
     ],
@@ -101,10 +105,6 @@
     ],
     [
       "Runway",
-      5
-    ],
-    [
-      "xAI",
       5
     ],
     [
@@ -138,17 +138,17 @@
     {
       "date": "2026-08-11",
       "title": "AI Daily Brief — 2026-08-11 (최근 24h)",
-      "theme": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
-      "theme_blurb": "Meta가 30B 오픈웨이트 Muse Glimmer를 맥·PC 한 장 GPU용으로 연 날, Anthropic은 Sonnet 5 도입가($2/$10)를 영구화하며 9/1 인상 예고를 철회했다. 제작 쪽은 Imagen 4 API D-6 이전과 AI 숏드라마 캐릭터 광고 단가를 같이 본다.",
-      "edition_title": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다",
-      "edition_blurb": "Meta가 30B 오픈웨이트 Muse Glimmer를 맥·PC 한 장 GPU용으로 연 날, Anthropic은 Sonnet 5 도입가($2/$10)를 영구화하며 9/1 인상 예고를 철회했다. 제작 쪽은 Imagen 4 API D-6 이전과 AI 숏드라마 캐릭터 광고 단가를 같이 본다.",
+      "theme": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
+      "theme_blurb": "Meta가 30B 오픈웨이트 Muse Glimmer를 맥·PC 한 장 GPU용으로 연 날, Anthropic은 Sonnet 5 도입가($2/$10)를 영구화하며 9/1 인상 예고를 철회했다. 제작 쪽은 xAI Imagine Image 2.0(8/7 누락 백필), Imagen 4 API D-6 이전, AI 숏드라마 캐릭터 광고 단가를 같이 본다.",
+      "edition_title": "로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필",
+      "edition_blurb": "Meta가 30B 오픈웨이트 Muse Glimmer를 맥·PC 한 장 GPU용으로 연 날, Anthropic은 Sonnet 5 도입가($2/$10)를 영구화하며 9/1 인상 예고를 철회했다. 제작 쪽은 xAI Imagine Image 2.0(8/7 누락 백필), Imagen 4 API D-6 이전, AI 숏드라마 캐릭터 광고 단가를 같이 본다.",
       "url": "brief/2026-08-11.html",
-      "excerpt": "축은 Meta Muse Glimmer 30B 오픈웨이트·로컬 에이전트, Claude Sonnet 5 $2/$10 영구화(9/1 인상 철회), NVIDIA×월가 6사 컴퓨트 파이낸싱 플랫폼(>$500B 목표), Imagen 4 API 8/17 종료 D-6, AI 숏드라마 캐릭터 방도자(方桃子) 광고 단가·팔로워 시그널 이다.  ",
+      "excerpt": "축은 Meta Muse Glimmer 30B 오픈웨이트·로컬 에이전트, Claude Sonnet 5 $2/$10 영구화(9/1 인상 철회), [백필] xAI Imagine Image 2.0 Quality Mode(8/7), Imagen 4 API 8/17 종료 D-6, NVIDIA×월가 6사 컴퓨트 파이낸싱(>$500B), AI 숏드라마 캐릭터 방도자 광고 단가 이다.  ",
       "top5": [
         "Meta Muse Glimmer — 30B 오픈웨이트 · 로컬 always-on 에이전트",
         "Claude Sonnet 5 — $2/$10 도입가 영구화 · 9/1 인상 철회",
+        "xAI Imagine Image 2.0 — Quality Mode · 정밀 편집 · Arena #2",
         "Imagen 4 API — 8/17 종료 D-6 · Gemini 이미지로 이전",
-        "NVIDIA — 월가 6사와 컴퓨트 파이낸싱 플랫폼 · $500B+ 목표",
         "방도자(方桃子) — AI 숏드라마 캐릭터 · 광고 제안가 공개"
       ],
       "domains": [
@@ -162,6 +162,8 @@
         "NVIDIA",
         "Gemini",
         "Meta",
+        "Grok",
+        "xAI",
         "Claude",
         "OpenAI",
         "Anthropic",
@@ -172,9 +174,7 @@
         "Midjourney",
         "ByteDance",
         "DeepSeek",
-        "Runway",
-        "Apple",
-        "Kling"
+        "Runway"
       ],
       "has_rumor": false,
       "source": "md",
@@ -217,8 +217,8 @@
         "DeepMind",
         "ChatGPT",
         "AWS",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "DeepSeek",
         "Runway"
       ],
@@ -263,10 +263,10 @@
         "NVIDIA",
         "AWS",
         "ByteDance",
-        "Midjourney",
         "ElevenLabs",
-        "DeepMind",
-        "DeepSeek"
+        "Midjourney",
+        "DeepSeek",
+        "DeepMind"
       ],
       "has_rumor": false,
       "source": "md",
@@ -298,8 +298,8 @@
       ],
       "companies": [
         "OpenAI",
-        "Claude",
         "Google",
+        "Claude",
         "Meta",
         "Anthropic",
         "GitHub",
@@ -478,8 +478,8 @@
         "policy"
       ],
       "companies": [
-        "Gemini",
         "Google",
+        "Gemini",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -491,8 +491,8 @@
         "Hugging Face",
         "Notion",
         "AWS",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "Runway"
       ],
       "has_rumor": false,
@@ -529,17 +529,17 @@
         "ChatGPT",
         "DeepMind",
         "Anthropic",
-        "Claude",
         "NVIDIA",
+        "Claude",
         "Hugging Face",
-        "GitHub",
         "Google",
+        "GitHub",
         "Oracle",
         "Kling",
-        "Amazon",
         "Runway",
+        "Amazon",
         "Meta",
-        "Midjourney"
+        "ElevenLabs"
       ],
       "has_rumor": false,
       "source": "md",
@@ -581,8 +581,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "Gemini",
-        "NVIDIA"
+        "NVIDIA",
+        "Gemini"
       ],
       "has_rumor": false,
       "source": "md",
@@ -669,11 +669,11 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "Microsoft",
-        "Google",
-        "Zapier"
+        "Zapier",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -710,8 +710,8 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Claude",
         "Gemini",
+        "Claude",
         "Kling",
         "Meta",
         "Cloudflare",
@@ -838,8 +838,8 @@
       ],
       "companies": [
         "Anthropic",
-        "OpenAI",
         "NVIDIA",
+        "OpenAI",
         "Google",
         "Adobe",
         "GitHub",
@@ -850,8 +850,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Samsung"
       ],
       "has_rumor": false,
@@ -929,8 +929,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,

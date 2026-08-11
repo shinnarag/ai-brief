@@ -14,6 +14,7 @@
     "ai-influencer",
     "short-drama",
     "multimodal",
+    "credits",
     "harness",
     "open-weight",
     "prompt",
@@ -33,7 +34,7 @@
       "term": "Hailuo/MiniMax",
       "hint": "영상·모델 벤더",
       "hits": 1,
-      "sample": "gsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **히트:** Muse Glimmer",
+      "sample": "gsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **누락 백필:** xAI `x.ai/",
       "brief_date": "2026-08-11"
     },
     {
@@ -54,7 +55,7 @@
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "ay/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **히트:**",
+      "sample": "ay/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **누락 백필",
       "brief_date": "2026-08-11"
     },
     {
@@ -89,7 +90,7 @@
       "term": "Seedance",
       "hint": "ByteDance 영상 생성 모델",
       "hits": 1,
-      "sample": "그널** 이다. > 전일 제외: Seedance 2.5 API(Poyo) · Astra Critical · Claude",
+      "sample": "단가** 이다. > 전일 제외: Seedance 2.5 API(Poyo) · Astra Critical · Claude",
       "brief_date": "2026-08-11"
     },
     {
