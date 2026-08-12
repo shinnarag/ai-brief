@@ -2,13 +2,20 @@
   "date": "2026-08-12",
   "label": "8월 12일 브리프",
   "termIds": [
-    "agent",
-    "api",
-    "early-access",
-    "prompt"
+    "multi-shot",
+    "lora",
+    "i2v",
+    "keyframe",
+    "open-weight",
+    "agent"
   ],
   "allMatchedIds": [
+    "i2v",
+    "keyframe",
+    "multi-shot",
+    "lora",
     "early-access",
+    "open-weight",
     "prompt",
     "agent",
     "api"
@@ -18,7 +25,28 @@
       "term": "워터마크",
       "hint": "생성물 표시·추적",
       "hits": 14,
-      "sample": "제: 봇이 앱에 로그인하고, 카피에 워터마크가 남는다 — Manus는 8/25까지 무료 창 주제 설명: SpaceX",
+      "sample": "제: 봇이 앱에 로그인하고, 카피에 워터마크가 남는다 — LTX-2.5 오픈웨이트·Manus 무료 창 주제 설명:",
+      "brief_date": "2026-08-12"
+    },
+    {
+      "term": "ComfyUI",
+      "hint": "노드 기반 생성 워크플로 UI",
+      "hits": 9,
+      "sample": "2.5가 오픈웨이트로 공개**(HF·ComfyUI day-one·22B 영상·오디오 월드 모델). Manus는 Meta",
+      "brief_date": "2026-08-12"
+    },
+    {
+      "term": "Kling",
+      "hint": "영상 생성 모델",
+      "hits": 3,
+      "sample": "신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저",
+      "brief_date": "2026-08-12"
+    },
+    {
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
+      "hits": 2,
+      "sample": "0만+** 주장. - (맥락) Seedance·Kling·Veo·FLUX Video 등 클로즈드/클라우드 영상 스택",
       "brief_date": "2026-08-12"
     },
     {
@@ -40,13 +68,6 @@
       "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
       "sample": "· fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **",
-      "brief_date": "2026-08-12"
-    },
-    {
-      "term": "Kling",
-      "hint": "영상 생성 모델",
-      "hits": 1,
-      "sample": "신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저",
       "brief_date": "2026-08-12"
     },
     {
@@ -78,10 +99,45 @@
       "brief_date": "2026-08-12"
     },
     {
+      "term": "Veo",
+      "hint": "Google 영상 모델",
+      "hits": 1,
+      "sample": "(맥락) Seedance·Kling·Veo·FLUX Video 등 클로즈드/클라우드 영상 스택 대비 **로컬·오픈",
+      "brief_date": "2026-08-12"
+    },
+    {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
       "hits": 1,
       "sample": "ealtime 이후 신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hai",
+      "brief_date": "2026-08-12"
+    },
+    {
+      "term": "래턴트",
+      "hint": "압축 잠재 공간",
+      "hits": 1,
+      "sample": "endering**(8× 시간 압축 latent + 장면 복잡도 적응 키프레임). 커스텀 **Gemma 4 12B**",
+      "brief_date": "2026-08-12"
+    },
+    {
+      "term": "체크포인트",
+      "hint": "학습 가중치 스냅샷",
+      "hits": 1,
+      "sample": ". 피지컬 AI·로보틱스 프리트레인 체크포인트. - (배포·라이선스) **Hugging Face** `Light",
+      "brief_date": "2026-08-12"
+    },
+    {
+      "term": "파인튜닝",
+      "hint": "추가 학습으로 맞춤",
+      "hits": 1,
+      "sample": "해 **자체 하드웨어에서 로컬 추론·파인튜닝** 가능. - (스펙) **22B** asymmetric dual",
+      "brief_date": "2026-08-12"
+    },
+    {
+      "term": "해상도(720p/1080p/4K)",
+      "hint": "출력 화질 단위",
+      "hits": 1,
+      "sample": "** - 멀티샷·모션·프롬프트·4K/HDR·ComfyUI·16GB 로컬 시도 프레임이 확산. 일부는 벤치",
       "brief_date": "2026-08-12"
     },
     {

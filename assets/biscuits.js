@@ -629,7 +629,7 @@
 
   const LATEST_BRIEF = {
     date: "2026-08-12",
-    termIds: ["agent", "api", "early-access", "prompt"]
+    termIds: ["multi-shot", "lora", "i2v", "keyframe", "open-weight", "agent"]
   };
 
   const TAGS = [

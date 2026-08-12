@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T10:33:16",
+  "generated_at": "2026-08-12T10:42:02",
   "platform": "AI Pulse",
   "count": 21,
   "domains": {
@@ -12,10 +12,10 @@
   },
   "domain_counts": {
     "models": 135,
+    "creative": 56,
     "policy": 50,
-    "marketing": 57,
-    "agents": 74,
-    "creative": 54,
+    "marketing": 56,
+    "agents": 75,
     "infra": 54
   },
   "companies": [
@@ -36,20 +36,20 @@
       51
     ],
     [
-      "ChatGPT",
-      51
+      "Grok",
+      49
     ],
     [
-      "Grok",
-      51
+      "ChatGPT",
+      47
     ],
     [
       "NVIDIA",
-      40
+      43
     ],
     [
       "Google",
-      37
+      36
     ],
     [
       "Gemini",
@@ -68,12 +68,12 @@
       19
     ],
     [
-      "xAI",
-      15
+      "Hugging Face",
+      16
     ],
     [
-      "Hugging Face",
-      14
+      "xAI",
+      15
     ],
     [
       "Amazon",
@@ -93,7 +93,7 @@
     ],
     [
       "Kling",
-      6
+      9
     ],
     [
       "Midjourney",
@@ -138,18 +138,18 @@
     {
       "date": "2026-08-12",
       "title": "AI Daily Brief — 2026-08-12 (최근 24h)",
-      "theme": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다 — Manus는 8/25까지 무료 창",
-      "theme_blurb": "SpaceXAI가 클라우드 PC를 가진 always-on 에이전트 팀 Grok Bot을 베타로 연 날, Anthropic은 Claude가 생성하는 텍스트에 보이지 않는 워터마크를 심고(파일은 C2PA), 전 세계 동일 정책을 공식 정리했다. [보완] Manus는 Meta 인수 해제 후 독립 복귀 공지와 함께 영향 계정 무과금·8/25 복원·welcome-back 보너스(커뮤니티: 〜8/25 한시 무료) 창이 열렸다. 제작 쪽은 Image 2.0 API 모델 ID, ChatGPT 예약, 프랑스 AI 요약 소송 시그널을 같이 본다.",
-      "edition_title": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다 — Manus는 8/25까지 무료 창",
-      "edition_blurb": "SpaceXAI가 클라우드 PC를 가진 always-on 에이전트 팀 Grok Bot을 베타로 연 날, Anthropic은 Claude가 생성하는 텍스트에 보이지 않는 워터마크를 심고(파일은 C2PA), 전 세계 동일 정책을 공식 정리했다. [보완] Manus는 Meta 인수 해제 후 독립 복귀 공지와 함께 영향 계정 무과금·8/25 복원·welcome-back 보너스(커뮤니티: 〜8/25 한시 무료) 창이 열렸다. 제작 쪽은 Image 2.0 API 모델 ID, ChatGPT 예약, 프랑스 AI 요약 소송 시그널을 같이 본다.",
+      "theme": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다 — LTX-2.5 오픈웨이트·Manus 무료 창",
+      "theme_blurb": "SpaceXAI가 클라우드 PC를 가진 always-on 에이전트 팀 Grok Bot을 베타로 연 날, Anthropic은 Claude가 생성하는 텍스트에 보이지 않는 워터마크를 심고(파일은 C2PA), 전 세계 동일 정책을 공식 정리했다. [보완] LTX-2.5가 오픈웨이트로 공개(HF·ComfyUI day-one·22B 영상·오디오 월드 모델). Manus는 Meta 인수 해제 후 영향 계정 무과금·8/25 복원(커뮤니티: 〜8/25 한시 무료). 제작 쪽은 Image 2.0 API, ChatGPT 예약, 프랑스 AI 요약 소송도 같이 본다.",
+      "edition_title": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다 — LTX-2.5 오픈웨이트·Manus 무료 창",
+      "edition_blurb": "SpaceXAI가 클라우드 PC를 가진 always-on 에이전트 팀 Grok Bot을 베타로 연 날, Anthropic은 Claude가 생성하는 텍스트에 보이지 않는 워터마크를 심고(파일은 C2PA), 전 세계 동일 정책을 공식 정리했다. [보완] LTX-2.5가 오픈웨이트로 공개(HF·ComfyUI day-one·22B 영상·오디오 월드 모델). Manus는 Meta 인수 해제 후 영향 계정 무과금·8/25 복원(커뮤니티: 〜8/25 한시 무료). 제작 쪽은 Image 2.0 API, ChatGPT 예약, 프랑스 AI 요약 소송도 같이 본다.",
       "url": "brief/2026-08-12.html",
-      "excerpt": "축은 Grok Bot 얼리 베타(클라우드 컴퓨터·앱 로그인·24/7), Anthropic Claude — 생성 텍스트 전부에 보이지 않는 워터마크(+파일 C2PA, EU AI Act·전 세계), [후속] Imagine Image 2.0 API `grok-imagine-image-2.0`, [보완] Manus 독립 복귀·8/11–8/23 무과금·8/25 복원(〜8/25 한시 무료 프레임), ChatGPT OpenTable·Resy·Yelp 예약, 프랑스 언론×Google AI Overviews 경쟁",
+      "excerpt": "축은 Grok Bot 얼리 베타, Anthropic Claude 비가시 텍스트 워터마크(+C2PA), [보완] LTX-2.5 오픈웨이트 월드 모델(22B·ComfyUI·ARR $10M 미만 무료), [후속] Imagine Image 2.0 API, [보완] Manus 독립·〜8/25 한시 무료 프레임, ChatGPT 예약, 프랑스 AI Overviews 제소, DALL·E GPT 8/30 종료 이다.  ",
       "top5": [
         "Grok Bot — 클라우드 PC 가진 always-on 에이전트 팀 베타",
-        "Imagine Image 2.0 — API grok-imagine-image-2.0 공개",
+        "LTX-2.5 — 오픈웨이트 영상·오디오 월드 모델 공개",
         "Anthropic Claude — 생성 텍스트 전부에 보이지 않는 워터마크",
-        "Manus — Meta 분리·독립 복귀 · 〜8/25 한시 무료 창",
-        "ChatGPT — OpenTable·Resy·Yelp 레스토랑 예약 GA"
+        "Imagine Image 2.0 — API grok-imagine-image-2.0 공개",
+        "Manus — Meta 분리·독립 복귀 · 〜8/25 한시 무료 창"
       ],
       "domains": [
         "agents",
@@ -163,18 +163,18 @@
         "Claude",
         "ChatGPT",
         "Anthropic",
-        "Google",
         "Meta",
         "OpenAI",
+        "Google",
+        "NVIDIA",
+        "Kling",
         "AWS",
+        "Hugging Face",
         "Microsoft",
         "Gemini",
-        "NVIDIA",
         "Midjourney",
         "DeepSeek",
-        "Runway",
-        "Kling",
-        "Luma"
+        "Runway"
       ],
       "has_rumor": false,
       "source": "md",
@@ -263,8 +263,8 @@
         "DeepMind",
         "ChatGPT",
         "AWS",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "DeepSeek",
         "Runway"
       ],
@@ -309,10 +309,10 @@
         "NVIDIA",
         "AWS",
         "ByteDance",
-        "ElevenLabs",
         "Midjourney",
-        "DeepMind",
-        "DeepSeek"
+        "ElevenLabs",
+        "DeepSeek",
+        "DeepMind"
       ],
       "has_rumor": false,
       "source": "md",
@@ -537,8 +537,8 @@
         "Hugging Face",
         "Notion",
         "AWS",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "Runway"
       ],
       "has_rumor": false,
@@ -575,17 +575,17 @@
         "ChatGPT",
         "DeepMind",
         "Anthropic",
-        "Claude",
         "NVIDIA",
+        "Claude",
         "Hugging Face",
         "GitHub",
         "Google",
         "Oracle",
         "Kling",
-        "Runway",
         "Amazon",
+        "Runway",
         "Meta",
-        "ElevenLabs"
+        "Midjourney"
       ],
       "has_rumor": false,
       "source": "md",
@@ -627,8 +627,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "Gemini",
-        "NVIDIA"
+        "NVIDIA",
+        "Gemini"
       ],
       "has_rumor": false,
       "source": "md",
@@ -673,8 +673,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Meta",
-        "Luma"
+        "Luma",
+        "Meta"
       ],
       "has_rumor": false,
       "source": "md",
@@ -715,8 +715,8 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "Microsoft",
         "Zapier",
         "Google"
@@ -764,8 +764,8 @@
         "Luma",
         "Anthropic",
         "Copilot",
-        "Google",
-        "Amazon"
+        "Amazon",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -896,8 +896,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Samsung"
       ],
       "has_rumor": false,
@@ -975,8 +975,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,
