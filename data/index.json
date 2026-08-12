@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T12:42:00",
+  "generated_at": "2026-08-12T10:16:22",
   "platform": "AI Pulse",
-  "count": 20,
+  "count": 21,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,57 +11,53 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "infra": 54,
-    "models": 130,
-    "creative": 53,
-    "agents": 72,
-    "marketing": 54,
-    "policy": 48
+    "models": 134,
+    "policy": 51,
+    "marketing": 57,
+    "creative": 54,
+    "agents": 73,
+    "infra": 54
   },
   "companies": [
     [
       "OpenAI",
-      131
+      122
     ],
     [
       "Claude",
-      65
+      82
     ],
     [
       "Meta",
       64
     ],
     [
-      "Anthropic",
-      57
-    ],
-    [
-      "NVIDIA",
-      50
-    ],
-    [
-      "Gemini",
-      36
-    ],
-    [
       "ChatGPT",
-      35
-    ],
-    [
-      "Google",
-      32
-    ],
-    [
-      "ByteDance",
-      28
-    ],
-    [
-      "IBM",
-      22
+      51
     ],
     [
       "Grok",
-      21
+      49
+    ],
+    [
+      "Anthropic",
+      45
+    ],
+    [
+      "Google",
+      41
+    ],
+    [
+      "NVIDIA",
+      40
+    ],
+    [
+      "Gemini",
+      35
+    ],
+    [
+      "ByteDance",
+      27
     ],
     [
       "GitHub",
@@ -73,7 +69,7 @@
     ],
     [
       "xAI",
-      19
+      15
     ],
     [
       "Hugging Face",
@@ -84,32 +80,40 @@
       13
     ],
     [
+      "IBM",
+      13
+    ],
+    [
       "DeepMind",
       12
     ],
     [
-      "Kling",
+      "AWS",
       9
     ],
     [
+      "Kling",
+      6
+    ],
+    [
       "Midjourney",
-      8
-    ],
-    [
-      "DeepSeek",
-      7
-    ],
-    [
-      "AWS",
-      7
-    ],
-    [
-      "Runway",
       5
     ],
     [
+      "DeepSeek",
+      5
+    ],
+    [
+      "Microsoft",
+      4
+    ],
+    [
+      "Runway",
+      4
+    ],
+    [
       "Luma",
-      3
+      4
     ],
     [
       "Cloudflare",
@@ -122,19 +126,60 @@
     [
       "ElevenLabs",
       2
-    ],
-    [
-      "Microsoft",
-      2
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-08-05",
-    "end": "2026-08-11",
+    "start": "2026-08-06",
+    "end": "2026-08-12",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-08-12",
+      "title": "AI Daily Brief — 2026-08-12 (최근 24h)",
+      "theme": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다",
+      "theme_blurb": "SpaceXAI가 클라우드 PC를 가진 always-on 에이전트 팀 Grok Bot을 베타로 연 날, Anthropic은 Claude 출력에 비가시 워터마크·C2PA 메타를 전 세계로 붙인다고 공식 정리했다. 제작 쪽은 Image 2.0 API 모델 ID, ChatGPT 예약, 프랑스 AI 요약 소송 시그널을 같이 본다.",
+      "edition_title": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다",
+      "edition_blurb": "SpaceXAI가 클라우드 PC를 가진 always-on 에이전트 팀 Grok Bot을 베타로 연 날, Anthropic은 Claude 출력에 비가시 워터마크·C2PA 메타를 전 세계로 붙인다고 공식 정리했다. 제작 쪽은 Image 2.0 API 모델 ID, ChatGPT 예약, 프랑스 AI 요약 소송 시그널을 같이 본다.",
+      "url": "brief/2026-08-12.html",
+      "excerpt": "축은 Grok Bot 얼리 베타(클라우드 컴퓨터·앱 로그인·24/7), Claude 비가시 워터마크·C2PA 프로비넌스(EU AI Act·전 세계 적용), [후속] Imagine Image 2.0 API `grok-imagine-image-2.0`, ChatGPT OpenTable·Resy·Yelp 예약, 프랑스 언론×Google AI Overviews 경쟁당국 제소, DALL·E GPT 8/30 종료 카운트 이다.  ",
+      "top5": [
+        "Grok Bot — 클라우드 PC 가진 always-on 에이전트 팀 베타",
+        "Imagine Image 2.0 — API grok-imagine-image-2.0 공개",
+        "Claude — 텍스트 워터마크 + 파일 C2PA 프로비넌스 전 세계",
+        "ChatGPT — OpenTable·Resy·Yelp 레스토랑 예약 GA",
+        "프랑스 언론 ~300사 — Google AI Overviews 경쟁당국 제소"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "Grok",
+        "Claude",
+        "ChatGPT",
+        "Google",
+        "OpenAI",
+        "Anthropic",
+        "Microsoft",
+        "NVIDIA",
+        "Gemini",
+        "AWS",
+        "Midjourney",
+        "DeepSeek",
+        "Runway",
+        "Kling",
+        "Luma",
+        "xAI"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-08-11",
       "title": "AI Daily Brief — 2026-08-11 (최근 24h)",
@@ -479,8 +524,8 @@
         "policy"
       ],
       "companies": [
-        "Google",
         "Gemini",
+        "Google",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -530,8 +575,8 @@
         "ChatGPT",
         "DeepMind",
         "Anthropic",
-        "Claude",
         "NVIDIA",
+        "Claude",
         "Hugging Face",
         "GitHub",
         "Google",

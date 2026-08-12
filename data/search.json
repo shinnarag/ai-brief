@@ -1,7 +1,247 @@
 {
-  "generated_at": "2026-08-11T12:42:00",
-  "count": 361,
+  "generated_at": "2026-08-12T10:16:22",
+  "count": 373,
   "items": [
+    {
+      "date": "2026-08-12",
+      "displayDate": "2026년 8월 12일(수)",
+      "briefTitle": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다",
+      "briefUrl": "brief/2026-08-12.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-01",
+      "title": "Grok Bot — 클라우드 PC 가진 always-on 에이전트 팀 베타",
+      "snippet": "SpaceXAI×Cursor 공동. SuperGrok Heavy·Cursor Ultra·Teams Premium 대상. 앱에 로그인해 일을 끝까지 처리한다.",
+      "text": "Grok Bot — 클라우드 PC 가진 always-on 에이전트 팀 베타 SpaceXAI×Cursor 공동. SuperGrok Heavy·Cursor Ultra·Teams Premium 대상. 앱에 로그인해 일을 끝까지 처리한다. 모델 · 플랫폼",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-12.html#c-top-5-01"
+    },
+    {
+      "date": "2026-08-12",
+      "displayDate": "2026년 8월 12일(수)",
+      "briefTitle": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다",
+      "briefUrl": "brief/2026-08-12.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-02",
+      "title": "Imagine Image 2.0 — API grok-imagine-image-2.0 공개",
+      "snippet": "전일 브리프의 “API coming soon”이 해제. 공식 블로그·docs에 모델 ID·샘플 코드·1K/2K.",
+      "text": "Imagine Image 2.0 — API grok-imagine-image-2.0 공개 전일 브리프의 “API coming soon”이 해제. 공식 블로그·docs에 모델 ID·샘플 코드·1K/2K. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-12.html#c-top-5-02"
+    },
+    {
+      "date": "2026-08-12",
+      "displayDate": "2026년 8월 12일(수)",
+      "briefTitle": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다",
+      "briefUrl": "brief/2026-08-12.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-03",
+      "title": "Claude — 텍스트 워터마크 + 파일 C2PA 프로비넌스 전 세계",
+      "snippet": "8/2 이후 EU 출시 모델부터 마킹. API·Claude Code·클라우드 파트너 포함. 카피·에셋 출처 신호가 남는다.",
+      "text": "Claude — 텍스트 워터마크 + 파일 C2PA 프로비넌스 전 세계 8/2 이후 EU 출시 모델부터 마킹. API·Claude Code·클라우드 파트너 포함. 카피·에셋 출처 신호가 남는다. 규제 · 리스크",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-12.html#c-top-5-03"
+    },
+    {
+      "date": "2026-08-12",
+      "displayDate": "2026년 8월 12일(수)",
+      "briefTitle": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다",
+      "briefUrl": "brief/2026-08-12.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-04",
+      "title": "ChatGPT — OpenTable·Resy·Yelp 레스토랑 예약 GA",
+      "snippet": "8/10 롤아웃. 채팅에서 검색·가능 시간·예약까지. Work 플랜은 제외.",
+      "text": "ChatGPT — OpenTable·Resy·Yelp 레스토랑 예약 GA 8/10 롤아웃. 채팅에서 검색·가능 시간·예약까지. Work 플랜은 제외. 마케팅 · 비즈니스",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-12.html#c-top-5-04"
+    },
+    {
+      "date": "2026-08-12",
+      "displayDate": "2026년 8월 12일(수)",
+      "briefTitle": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다",
+      "briefUrl": "brief/2026-08-12.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-05",
+      "title": "프랑스 언론 ~300사 — Google AI Overviews 경쟁당국 제소",
+      "snippet": "7월 말 프랑스 롤아웃 후 트래픽 침해·합의 위반 주장. 브랜드 검색·콘텐츠 노출 정책 워치.",
+      "text": "프랑스 언론 ~300사 — Google AI Overviews 경쟁당국 제소 7월 말 프랑스 롤아웃 후 트래픽 침해·합의 위반 주장. 브랜드 검색·콘텐츠 노출 정책 워치. 규제 · 리스크",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-12.html#c-top-5-05"
+    },
+    {
+      "date": "2026-08-12",
+      "displayDate": "2026년 8월 12일(수)",
+      "briefTitle": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다",
+      "briefUrl": "brief/2026-08-12.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-01",
+      "title": "Grok Bot — always-on 에이전트 팀 얼리 베타 (8/11)",
+      "snippet": "(사실) SpaceXAI가 Grok Bot 얼리 베타를 공식 발표. “프롬프트 응답”이 아니라 앱·웹에 로그인하고 멀티스텝 작업을 끝까지 처리하는 AI 동료 팀. Cursor 인프라·인증과 연동(SpaceX–Cursor 통합 축).",
+      "text": "Grok Bot — always-on 에이전트 팀 얼리 베타 (8/11) (사실) SpaceXAI가 Grok Bot 얼리 베타를 공식 발표. “프롬프트 응답”이 아니라 앱·웹에 로그인하고 멀티스텝 작업을 끝까지 처리하는 AI 동료 팀. Cursor 인프라·인증과 연동(SpaceX–Cursor 통합 축). (범위·플랜) 오늘부터 SuperGrok Heavy, Cursor Ultra($200/월), Cursor Premium Teams($120/시트·월) 구독자. macOS·Windows·iOS(iOS 18+). 공식 FAQ: 런치 시 Linux 데스크톱·Android·iPad 미지원. 엔터프라이즈는 웨이트리스트. (동작) 봇마다 영속 클라우드 컴퓨터(계정 공유 1대 — 봇 간 파일·세션·로그인 공유). 닫은 랩톱에서도 백그라운드 계속. 병렬 봇·그룹 스레드 핸드오프·Teach a task(브라우저 워크플로 시연→루틴, 최대 10분). 승인·2FA·CAPTCHA는 휴먼 핸드오프. (사용 예·사내) 세일즈 아웃바운드 리서치·CRM 갱신, 마케팅 캠페인, 인보이스·온보딩, UI 버그 재현·티켓. 사내 프로토타입이 먼저 돌고 외부 베타로 확장. (맥락) Claude Cowork·ChatGPT Work·코딩 에이전트 레이스 속 “오피스 앱을 직접 조작하는 디지털 동료” 포지션. Bloomberg·VentureBeat 등 당일 보도. (영향) 콘텐츠·마케팅 오퍼레이션은 승인 룰(발송·게시·결제·프로덕션 변경) 을 먼저 설계한 뒤, 아웃바운드 초안·리포트 루틴·에셋 정리 봇만 스테이징. 단가 감각: Ultra $200 / Teams $120·시트 — 하위 티어 미포함.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-12.html#c-모델-플랫폼-01"
+    },
+    {
+      "date": "2026-08-12",
+      "displayDate": "2026년 8월 12일(수)",
+      "briefTitle": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다",
+      "briefUrl": "brief/2026-08-12.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-01",
+      "title": "Imagine Image 2.0 — API 모델 ID grok-imagine-image-2.0 (컨슈머 GA 후속)",
+      "snippet": "(사실) 전일 브리프(8/11 백필)에서 Image 2.0 컨슈머 Quality Mode는 “API coming soon”으로 정리. 공식 글·docs 기준 API 사용 가능 — 모델명 grok-imagine-image-2.0. 콘솔 플레이그라운드·샘플 코드 공개.",
+      "text": "Imagine Image 2.0 — API 모델 ID grok-imagine-image-2.0 (컨슈머 GA 후속) (사실) 전일 브리프(8/11 백필)에서 Image 2.0 컨슈머 Quality Mode는 “API coming soon”으로 정리. 공식 글·docs 기준 API 사용 가능 — 모델명 grok-imagine-image-2.0. 콘솔 플레이그라운드·샘플 코드 공개. (범위·스펙) 텍스트→이미지 샘플. docs: 해상도 1K·2K, 다양한 aspect ratio, quality 파라미터(low/medium, 기본 medium)는 2.0 전용. 편집·멀티레퍼 등은 컨슈머 기능과 별도로 API 편집 문서 확인. (단가) Imagine 계열 이미지 flat per-image 프레임(docs 개요 $0.05/image 대역 — 플랜·모델별 최신 pricing 교차 확인 권장). 배치·A/B 시 단가표 재벤치. (맥락) 8/7 컨슈머 GA 이후 API 슬롯 오픈. Imagen 4 8/17 종료와 같은 주 이미지 파이프 재배치 후보. 컨슈머 Quality Mode(매직완드·세그·멀티레퍼 5장·Smart Resize) 자체는 전일 카드 — 오늘은 API 가용 후속만. (영향) 키비주얼·광고 소재 자동화 팀은 모델 문자열·해상도·quality 스테이징 후 GPT-Image·Gemini Flash Image와 지시 준수·텍스트·단가 4축 비교.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-12.html#c-콘텐츠-제작-크리에이티브-01"
+    },
+    {
+      "date": "2026-08-12",
+      "displayDate": "2026년 8월 12일(수)",
+      "briefTitle": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다",
+      "briefUrl": "brief/2026-08-12.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-02",
+      "title": "DALL·E GPT — 8/30 ChatGPT 공식 GPT 종료 · Images로 이전",
+      "snippet": "(사실) OpenAI ChatGPT 릴리즈 노트(7/31 블록): 2026-08-30 공식 DALL·E GPT 은퇴. 보관할 이미지는 그 전 다운로드 권고.",
+      "text": "DALL·E GPT — 8/30 ChatGPT 공식 GPT 종료 · Images로 이전 (사실) OpenAI ChatGPT 릴리즈 노트(7/31 블록): 2026-08-30 공식 DALL·E GPT 은퇴. 보관할 이미지는 그 전 다운로드 권고. (범위) 전용 DALL·E GPT 표면만 제거. ChatGPT Images(및 유저 제작 GPT의 이미지 생성)는 유지 — “이미지 생성 자체 종료” 아님. (영향) 팀이 DALL·E GPT 히스토리·프롬프트 템플릿에 묶여 있으면 18일 내 에셋 백업·Images 워크플로로 이전. 신규 캠페인은 Images/다른 벤더로.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-12.html#c-콘텐츠-제작-크리에이티브-02"
+    },
+    {
+      "date": "2026-08-12",
+      "displayDate": "2026년 8월 12일(수)",
+      "briefTitle": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다",
+      "briefUrl": "brief/2026-08-12.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-01",
+      "title": "ChatGPT — OpenTable·Resy·Yelp 레스토랑 예약 (8/10 GA)",
+      "snippet": "(사실) OpenAI 제품 릴리즈: ChatGPT에서 식당 검색·가능 시간 확인·예약까지. 지역·일시·인원·예산·식이·분위기 선호를 채팅으로 넣으면 응답 안 가능 슬롯 표시 후 선택 예약.",
+      "text": "ChatGPT — OpenTable·Resy·Yelp 레스토랑 예약 (8/10 GA) (사실) OpenAI 제품 릴리즈: ChatGPT에서 식당 검색·가능 시간 확인·예약까지. 지역·일시·인원·예산·식이·분위기 선호를 채팅으로 넣으면 응답 안 가능 슬롯 표시 후 선택 예약. (범위) 전 플랜 롤아웃(모바일·웹·데스크톱). OpenTable 글로벌, Resy 미국, Yelp 미국·캐나다. ChatGPT Work는 예약 검색 미포함. (맥락) 로컬·외식·라이프스타일 브랜드가 “검색 결과”가 아니라 대화형 예약 경로에 노출되는 축. (영향) F&B·로컬 캠페인 팀은 자사 리스팅·예약 플랫폼 연동 상태를 점검하고, “ChatGPT에서 예약되는 경로”를 채널 맵에 한 줄 추가.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-12.html#c-마케팅-비즈니스-01"
+    },
+    {
+      "date": "2026-08-12",
+      "displayDate": "2026년 8월 12일(수)",
+      "briefTitle": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다",
+      "briefUrl": "brief/2026-08-12.html",
+      "section": "테크 · 인프라 · 규제 · 보안",
+      "sectionId": "테크-인프라-규제-보안",
+      "cardId": "c-테크-인프라-규제-보안-01",
+      "title": "Claude — AI 생성 콘텐츠 마킹: 텍스트 워터마크 + C2PA 파일 메타 (공식 정리)",
+      "snippet": "(사실) Anthropic Help Center·Euronews(8/11) 등: 2026-08-02 이후 EU에서 출시된 Claude 모델은 런치부터 기계 판독 마킹. 생성 텍스트에 비가시 워터마크(의미·가독성 변경 없음, 복사·일부 편집 후에도 남을 수 있음). 지원 파일(.sv…",
+      "text": "Claude — AI 생성 콘텐츠 마킹: 텍스트 워터마크 + C2PA 파일 메타 (공식 정리) (사실) Anthropic Help Center·Euronews(8/11) 등: 2026-08-02 이후 EU에서 출시된 Claude 모델은 런치부터 기계 판독 마킹. 생성 텍스트에 비가시 워터마크(의미·가독성 변경 없음, 복사·일부 편집 후에도 남을 수 있음). 지원 파일(.svg/.png/.jpg 등)에 서명된 C2PA 프로비넌스 메타. (범위) Claude Platform(API)·Claude·Claude Code·Cowork·Tag 및 AWS·Google Cloud·Microsoft Foundry 등 지원 모델 접근. 전 세계 동일 정책(EU only 아님). 8/2 이전 모델은 전환 기간 중 추가 예정. 검출 툴은 “forthcoming”. (한계·명시) 마킹 검출 = “Claude를 거쳤을 수 있음” 신호이지 원저자 확정 아님(교정·번역·요약에도 붙을 수 있음). 강편집·번역·짧은 문장·메타 제거(변환·스크린샷) 시 미검출 가능. (맥락) EU AI Act 투명성(Article 50) Code of Practice 이행. 위반 시 과징 프레임(보도: 최대 €1,500만 또는 전 세계 매출 3% 등 — 규제 본문 기준). (영향) 브랜드 카피·보도자료·이미지 에셋을 Claude로 뽑는 팀은 워터마크·C2PA가 배포물에 남을 수 있음을 전제로 검수·검출 정책 초안. “인간 작성으로 보이게 하기” 목적 사용은 리스크 상승.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-12.html#c-테크-인프라-규제-보안-01"
+    },
+    {
+      "date": "2026-08-12",
+      "displayDate": "2026년 8월 12일(수)",
+      "briefTitle": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다",
+      "briefUrl": "brief/2026-08-12.html",
+      "section": "테크 · 인프라 · 규제 · 보안",
+      "sectionId": "테크-인프라-규제-보안",
+      "cardId": "c-테크-인프라-규제-보안-02",
+      "title": "프랑스 언론 연합 — Google AI Overviews 경쟁당국 제소 (8/11)",
+      "snippet": "(사실) APIG(약 300 언론)이 프랑스 경쟁당국에 Google AI 생성 검색 요약(AI Overviews) 관련 조치 요청. 7월 말 프랑스 롤아웃 후 동의 없이 도입·트래픽 유출·기존 보상 합의 위반 주장(Reuters·AFP 계 보도).",
+      "text": "프랑스 언론 연합 — Google AI Overviews 경쟁당국 제소 (8/11) (사실) APIG(약 300 언론)이 프랑스 경쟁당국에 Google AI 생성 검색 요약(AI Overviews) 관련 조치 요청. 7월 말 프랑스 롤아웃 후 동의 없이 도입·트래픽 유출·기존 보상 합의 위반 주장(Reuters·AFP 계 보도). (범위) 뉴스 퍼블리셔 트래픽·수익 분배·검색 결과 상단 AI 요약. 2024 Google 관련 과징 이력과 연속되는 프랑스–빅테크 축. (영향) 브랜드·콘텐츠 SEO 팀은 “검색 클릭” 의존 캠페인의 노출 경로 변화를 워치. 당장 제작 단가표는 아님 — 배포·인용 정책 메모.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-12.html#c-테크-인프라-규제-보안-02"
+    },
+    {
+      "date": "2026-08-12",
+      "displayDate": "2026년 8월 12일(수)",
+      "briefTitle": "봇이 앱에 로그인하고, 카피에 워터마크가 남는다",
+      "briefUrl": "brief/2026-08-12.html",
+      "section": "SNS 트렌드 · 루머 · 바이럴",
+      "sectionId": "sns-트렌드-루머-바이럴",
+      "cardId": "c-sns-트렌드-루머-바이럴-01",
+      "title": "Grok Bot — “클라우드 동료 팀” 프레임이 타임라인 상단",
+      "snippet": "@AndrewCurran_ 등 요약 카드(조회 약 10만+)가 “절대 안 멈추는 클라우드 호스트 에이전트 팀·봇끼리 메시징” 프레임으로 확산. 가격 티어($200 Ultra / $120 Teams)와 “Cursor 합병 산물” 해석이 리플 축.",
+      "text": "Grok Bot — “클라우드 동료 팀” 프레임이 타임라인 상단 @AndrewCurran_ 등 요약 카드(조회 약 10만+)가 “절대 안 멈추는 클라우드 호스트 에이전트 팀·봇끼리 메시징” 프레임으로 확산. 가격 티어($200 Ultra / $120 Teams)와 “Cursor 합병 산물” 해석이 리플 축.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-08-12.html#c-sns-트렌드-루머-바이럴-01"
+    },
     {
       "date": "2026-08-11",
       "displayDate": "2026년 8월 11일(화)",

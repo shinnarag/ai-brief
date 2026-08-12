@@ -1,96 +1,82 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "candidates": [
     {
-      "term": "Suno",
-      "hint": "음악 생성",
-      "hits": 30,
-      "sample": "2.0(8/7 누락 백필)**, **Suno 9/3 Pro 월 20곡 다운로드 상한**, **Arena `mona-",
-      "brief_date": "2026-08-11"
+      "term": "워터마크",
+      "hint": "생성물 표시·추적",
+      "hits": 14,
+      "sample": "제: 봇이 앱에 로그인하고, 카피에 워터마크가 남는다 주제 설명: SpaceXAI가 클라우드 PC를 가진 alway",
+      "brief_date": "2026-08-12"
     },
     {
       "term": "FLUX 3",
       "hint": "BFL 멀티모달·영상 모델",
       "hits": 1,
       "sample": "없음) · BFL blog(8/4 FLUX 3 Video 이후 신규 없음) · Seed 블로그(8/5 SeedReal",
-      "brief_date": "2026-08-11"
+      "brief_date": "2026-08-12"
     },
     {
       "term": "Hailuo/MiniMax",
       "hint": "영상·모델 벤더",
       "hits": 1,
-      "sample": "gsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **누락 백필:** xAI Imagin",
-      "brief_date": "2026-08-11"
+      "sample": "gsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **히트:** Grok Bot · Cl",
+      "brief_date": "2026-08-12"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
       "sample": "· fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **",
-      "brief_date": "2026-08-11"
+      "brief_date": "2026-08-12"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 1,
       "sample": "신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저",
-      "brief_date": "2026-08-11"
+      "brief_date": "2026-08-12"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "ay/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **누락 백필",
-      "brief_date": "2026-08-11"
-    },
-    {
-      "term": "MCP",
-      "hint": "Model Context Protocol",
-      "hits": 1,
-      "sample": "- (벤치·배포) 자사 표: MCP Atlas 75.5, SWE-Bench Verified 76.0 등 —",
-      "brief_date": "2026-08-11"
+      "sample": "ay/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **히트:**",
+      "brief_date": "2026-08-12"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 1,
-      "sample": "-latest 종료. > 스윕: Midjourney updates(V8.2=창 밖) · DeepSeek changelog(",
-      "brief_date": "2026-08-11"
-    },
-    {
-      "term": "RAG",
-      "hint": "검색 증강 생성",
-      "hits": 1,
-      "sample": "*(GA). - (범위) 검색·RAG·에셋 인덱싱 등 임베딩 엔드포인트를 프리뷰 ID로 고정한 앱. “ear",
-      "brief_date": "2026-08-11"
+      "sample": "관련 SNS 재탕. > 스윕: Midjourney updates(V8.2=7/24 창 밖) · DeepSeek chang",
+      "brief_date": "2026-08-12"
     },
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
       "hits": 1,
       "sample": "ime 이후 신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo — 창",
-      "brief_date": "2026-08-11"
+      "brief_date": "2026-08-12"
     },
     {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
+      "term": "Suno",
+      "hint": "음악 생성",
       "hits": 1,
-      "sample": "단가** 이다. > 전일 제외: Seedance 2.5 API(Poyo) · Astra Critical · Claude",
-      "brief_date": "2026-08-11"
+      "sample": "lity Mode(8/7·백필) · Suno 9/3 DL · mona-lisa-1 · Imagen D-6 본문 ·",
+      "brief_date": "2026-08-12"
     },
     {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
       "hits": 1,
       "sample": "ealtime 이후 신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hai",
-      "brief_date": "2026-08-11"
+      "brief_date": "2026-08-12"
     },
     {
-      "term": "워터마크",
-      "hint": "생성물 표시·추적",
+      "term": "화면비",
+      "hint": "9:16·16:9 등",
       "hits": 1,
-      "sample": "검증**에 넣으면 **OpenAI 워터마크 검출** 보고 → **OpenAI 계열**로 강하게 추정. **Open",
-      "brief_date": "2026-08-11"
+      "sample": "해상도 **1K·2K**, 다양한 aspect ratio, `quality` 파라미터(**low/medium**, 기본 medi",
+      "brief_date": "2026-08-12"
     }
   ]
 }
