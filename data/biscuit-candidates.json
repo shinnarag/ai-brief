@@ -1,131 +1,103 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "candidates": [
     {
-      "term": "워터마크",
-      "hint": "생성물 표시·추적",
-      "hits": 14,
-      "sample": "제: 봇이 앱에 로그인하고, 카피에 워터마크가 남는다 — LTX-2.5 오픈웨이트·Manus 무료 창 주제 설명:",
-      "brief_date": "2026-08-12"
-    },
-    {
-      "term": "ComfyUI",
-      "hint": "노드 기반 생성 워크플로 UI",
-      "hits": 9,
-      "sample": "2.5가 오픈웨이트로 공개**(HF·ComfyUI day-one·22B 영상·오디오 월드 모델). Manus는 Meta",
-      "brief_date": "2026-08-12"
-    },
-    {
-      "term": "Kling",
-      "hint": "영상 생성 모델",
-      "hits": 3,
-      "sample": "신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저",
-      "brief_date": "2026-08-12"
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 5,
+      "sample": "ime 이후 신규 없음) · fal/Runway changelog/Kling/Higgsfield/Luma/Decart/",
+      "brief_date": "2026-08-13"
     },
     {
       "term": "Seedance",
       "hint": "ByteDance 영상 생성 모델",
+      "hits": 3,
+      "sample": "파이프**를 한 단계 올리는 날. Seedance/Kling 생성 클립과 **실사 촬영 소스**를 같은 주 스택에서 비교",
+      "brief_date": "2026-08-13"
+    },
+    {
+      "term": "Kling",
+      "hint": "영상 생성 모델",
       "hits": 2,
-      "sample": "0만+** 주장. - (맥락) Seedance·Kling·Veo·FLUX Video 등 클로즈드/클라우드 영상 스택",
-      "brief_date": "2026-08-12"
+      "sample": "al/Runway changelog/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저",
+      "brief_date": "2026-08-13"
     },
     {
       "term": "FLUX 3",
       "hint": "BFL 멀티모달·영상 모델",
       "hits": 1,
       "sample": "없음) · BFL blog(8/4 FLUX 3 Video 이후 신규 없음) · Seed 블로그(8/5 SeedReal",
-      "brief_date": "2026-08-12"
+      "brief_date": "2026-08-13"
     },
     {
       "term": "Hailuo/MiniMax",
       "hint": "영상·모델 벤더",
       "hits": 1,
-      "sample": "gsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **히트:** Grok Bot · Cl",
-      "brief_date": "2026-08-12"
+      "sample": "gsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **히트:** Grok 4.6 · Pi",
+      "brief_date": "2026-08-13"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
-      "sample": "· fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **",
-      "brief_date": "2026-08-12"
+      "sample": "way changelog/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **",
+      "brief_date": "2026-08-13"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "ay/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **히트:**",
-      "brief_date": "2026-08-12"
+      "sample": "og/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **히트:**",
+      "brief_date": "2026-08-13"
+    },
+    {
+      "term": "MCP",
+      "hint": "Model Context Protocol",
+      "hits": 1,
+      "sample": "ax 신규/업그레이드만 잔여 일수. MCP·Agent·15초 초과 제외. [약관](https://runway.co",
+      "brief_date": "2026-08-13"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 1,
-      "sample": "관련 SNS 재탕. > 스윕: Midjourney updates(V8.2=7/24 창 밖) · DeepSeek chang",
-      "brief_date": "2026-08-12"
+      "sample": "AI Overviews. > 스윕: Midjourney updates · DeepSeek changelog(7/31 이후 신규",
+      "brief_date": "2026-08-13"
     },
     {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
+      "term": "Sora",
+      "hint": "OpenAI 영상 모델",
       "hits": 1,
-      "sample": "ime 이후 신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hailuo — 창",
-      "brief_date": "2026-08-12"
-    },
-    {
-      "term": "Suno",
-      "hint": "음악 생성",
-      "hits": 1,
-      "sample": "lity Mode(8/7·백필) · Suno 9/3 DL · mona-lisa-1 · Imagen D-6 본문 ·",
-      "brief_date": "2026-08-12"
-    },
-    {
-      "term": "Veo",
-      "hint": "Google 영상 모델",
-      "hits": 1,
-      "sample": "(맥락) Seedance·Kling·Veo·FLUX Video 등 클로즈드/클라우드 영상 스택 대비 **로컬·오픈",
-      "brief_date": "2026-08-12"
+      "sample": ") Fidji Simo 7월 사임, Sora 숏폼 앱 종료 후 Peebles 등 이탈과 같은 임원 교체 축. IPO",
+      "brief_date": "2026-08-13"
     },
     {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
       "hits": 1,
-      "sample": "ealtime 이후 신규 없음) · fal/Runway/Kling/Higgsfield/Luma/Decart/Hai",
-      "brief_date": "2026-08-12"
+      "sample": "ealtime 이후 신규 없음) · fal/Runway changelog/Kling/Higgsfield/Luma/",
+      "brief_date": "2026-08-13"
     },
     {
-      "term": "래턴트",
-      "hint": "압축 잠재 공간",
+      "term": "시드(seed)",
+      "hint": "재현용 난수 시드",
       "hits": 1,
-      "sample": "endering**(8× 시간 압축 latent + 장면 복잡도 적응 키프레임). 커스텀 **Gemma 4 12B**",
-      "brief_date": "2026-08-12"
+      "sample": "buschkin의 River AI가 시드/시리즈A로 **$11억** 조달. 리드 General Catalyst·",
+      "brief_date": "2026-08-13"
     },
     {
-      "term": "체크포인트",
-      "hint": "학습 가중치 스냅샷",
+      "term": "워터마크",
+      "hint": "생성물 표시·추적",
       "hits": 1,
-      "sample": ". 피지컬 AI·로보틱스 프리트레인 체크포인트. - (배포·라이선스) **Hugging Face** `Light",
-      "brief_date": "2026-08-12"
+      "sample": "· LTX-2.5 · Claude 워터마크 · Image 2.0 API · Manus 한시 무료 · DALL·E",
+      "brief_date": "2026-08-13"
     },
     {
       "term": "파인튜닝",
       "hint": "추가 학습으로 맞춤",
       "hits": 1,
-      "sample": "해 **자체 하드웨어에서 로컬 추론·파인튜닝** 가능. - (스펙) **22B** asymmetric dual",
-      "brief_date": "2026-08-12"
-    },
-    {
-      "term": "해상도(720p/1080p/4K)",
-      "hint": "출력 화질 단위",
-      "hits": 1,
-      "sample": "** - 멀티샷·모션·프롬프트·4K/HDR·ComfyUI·16GB 로컬 시도 프레임이 확산. 일부는 벤치",
-      "brief_date": "2026-08-12"
-    },
-    {
-      "term": "화면비",
-      "hint": "9:16·16:9 등",
-      "hits": 1,
-      "sample": "해상도 **1K·2K**, 다양한 aspect ratio, `quality` 파라미터(**low/medium**, 기본 medi",
-      "brief_date": "2026-08-12"
+      "sample": "픈웨이트를 **RL·LoRA로 직접 파인튜닝**해 자기 모델로 서빙하는 API. “프롬프트로 남의 모델을 조향하지",
+      "brief_date": "2026-08-13"
     }
   ]
 }

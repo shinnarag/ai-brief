@@ -1,7 +1,367 @@
 {
-  "generated_at": "2026-08-12T10:42:02",
-  "count": 376,
+  "generated_at": "2026-08-13T10:19:27",
+  "count": 394,
   "items": [
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-01",
+      "title": "Grok 4.6 — 장시간 에이전트·비주얼 초안, API $2/$6",
+      "snippet": "Cursor·Grok Build·API 당일 오픈. AA Intelligence에서 GPT-5.6 Sol과 동점(61). 첫주 포함 사용량 2배.",
+      "text": "Grok 4.6 — 장시간 에이전트·비주얼 초안, API $2/$6 Cursor·Grok Build·API 당일 오픈. AA Intelligence에서 GPT-5.6 Sol과 동점(61). 첫주 포함 사용량 2배. 모델 · 플랫폼",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-top-5-01"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-02",
+      "title": "Pixel 11 — Magic Capture·Creator Suite, 8/20 매장",
+      "snippet": "한 탭으로 약 400프레임을 골라 12MP 사진+영상. 뷰파인더 텔레프롬프터·스토리보드. 선주문 오늘, 매장 8/20.",
+      "text": "Pixel 11 — Magic Capture·Creator Suite, 8/20 매장 한 탭으로 약 400프레임을 골라 12MP 사진+영상. 뷰파인더 텔레프롬프터·스토리보드. 선주문 오늘, 매장 8/20. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-top-5-02"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-03",
+      "title": "ChatGPT Ads — 영국·멕시코·브라질·일본·한국 오픈 (8/11)",
+      "snippet": "Free·Go만 광고. Plus 이상은 무광고. 답변 아래 스폰서 슬롯. 한국 브랜드가 대화형 광고를 살 수 있는 창.",
+      "text": "ChatGPT Ads — 영국·멕시코·브라질·일본·한국 오픈 (8/11) Free·Go만 광고. Plus 이상은 무광고. 답변 아래 스폰서 슬롯. 한국 브랜드가 대화형 광고를 살 수 있는 창. 마케팅 · 비즈니스",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-top-5-03"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-04",
+      "title": "Gemini 앱 — 월간 이용자 10억, 이미지 하루 1.5억 장 (8/11)",
+      "snippet": "Google 사상 최속 10억. 음성 63%, 소상공 이미지·영상·오디오 한 곳. 앱 MAU 기준.",
+      "text": "Gemini 앱 — 월간 이용자 10억, 이미지 하루 1.5억 장 (8/11) Google 사상 최속 10억. 음성 63%, 소상공 이미지·영상·오디오 한 곳. 앱 MAU 기준. 마케팅 · 비즈니스",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-top-5-04"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-05",
+      "title": "Gemini 커넥티드 앱 — Wix·OpenTable(UK) 등 수주 내 롤아웃",
+      "snippet": "Made by Google(8/12). 회의 요약·사이트 편집·예약·티켓·음악. 제작은 Wix 연결을 먼저 본다.",
+      "text": "Gemini 커넥티드 앱 — Wix·OpenTable(UK) 등 수주 내 롤아웃 Made by Google(8/12). 회의 요약·사이트 편집·예약·티켓·음악. 제작은 Wix 연결을 먼저 본다. 모델 · 플랫폼",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-top-5-05"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-01",
+      "title": "Grok 4.6 — 장시간 에이전트·비주얼 초안용 플래그십 (8/12)",
+      "snippet": "(사실) SpaceXAI가 Grok 4.6을 공식 출시. 4.5 대비 오래 가는 에이전트와 비주얼·인터랙티브 초안(앱·대시보드의 구조·비주얼 랭귀지를 한 패스에 잡는 쪽)에 초점을 맞춘다. 모델 ID grok-4.6.",
+      "text": "Grok 4.6 — 장시간 에이전트·비주얼 초안용 플래그십 (8/12) (사실) SpaceXAI가 Grok 4.6을 공식 출시. 4.5 대비 오래 가는 에이전트와 비주얼·인터랙티브 초안(앱·대시보드의 구조·비주얼 랭귀지를 한 패스에 잡는 쪽)에 초점을 맞춘다. 모델 ID grok-4.6. (범위) 오늘부터 Cursor(전 플랜), Grok Build(기본 모델), xAI API, OpenRouter·Vercel·Cloudflare. SuperGrok($30/월) 이상 컨슈머 플랜에도 모델로 표기. 컨텍스트 50만 토큰, 지식 컷오프 2026-02-01, 입력 텍스트+이미지 / 출력 텍스트. reasoning low/medium/high(기본)/xhigh. (단가·프로모) API 입력 $2 / 출력 $6 per 1M. fast variant는 표준의 2배. 4.5와 같은 토큰가. 첫 1주 Cursor·Grok Build 포함 사용량 2배. 프롬프트 캐시는 prompt_cache_key를 권장(없으면 캐시 미스 시 입력 풀가). (벤치·파트너) 공식: AA Intelligence 61(GPT-5.6 Sol Max와 동점). CursorBench 3.2 69.9%, FrontierCode 1.1 Extended 61.3%(Sol 60.6%보다 위). Terminal-Bench 3.0은 26%(Sol 34.6%보다 아래). Devin Desktop·CLI day-one. 커뮤니티(DHH): Fast $4/$12. (맥락) 전일 Grok Bot(앱 로그인 에이전트 팀) 다음 날 같은 스택의 두뇌 업그레이드. 이미지 생성 자체가 아니라 캠페인 마이크로사이트·인터랙티브 시안을 코드로 뽑는 축. (영향) 콘텐츠·마케팅 오퍼레이션은 첫주 2배 창에 Grok Build로 랜딩·대시보드 초안을 스테이징하고, GPT-5.6 Sol·Opus 5와 지시 준수·수정 라운드·단가 3축을 비교. 영상/이미지 생성 파이프는 Imagine 쪽을 그대로 둔다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-모델-플랫폼-01"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-02",
+      "title": "Gemini 커넥티드 앱 — Wix·Otter·OpenTable(UK) 등, 수주 내 롤아웃 (8/12)",
+      "snippet": "(사실) Google이 Made by Google에서 Gemini 앱에 연결 가능한 외부 서비스를 추가 발표. 켜면 계획·제작·할 일을 한 화면에서 처리하는 축.",
+      "text": "Gemini 커넥티드 앱 — Wix·Otter·OpenTable(UK) 등, 수주 내 롤아웃 (8/12) (사실) Google이 Made by Google에서 Gemini 앱에 연결 가능한 외부 서비스를 추가 발표. 켜면 계획·제작·할 일을 한 화면에서 처리하는 축. (범위·일정) 앞으로 몇 주에 걸쳐 롤아웃. 생산성·크리에이티브: Granola, Otter.ai, Wix(회의 요약·사이트 편집). 로컬·엔터: Fever, GetYourGuide, Localiza, OpenTable(UK), Ticketmaster. 음악: iHeartRadio, Pandora. 홈·헬스: Angi, Thumbtack, Zocdoc. (맥락) 전일 브리프의 ChatGPT 예약(OpenTable·Resy·Yelp)과 같은 대화형 로컬 예약 축이 Gemini에도 붙는다. 제작 쪽은 Wix로 사이트 초안을 고치는 연결이 바로 만질 후보. (영향) 브랜드 사이트·랜딩을 Wix로 돌리는 팀은 Gemini 연결이 뜨는 지역·권한을 확인한 뒤, ChatGPT 쪽 예약/광고 경로와 채널 맵을 한 줄씩 나눠 적는다.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-모델-플랫폼-02"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-01",
+      "title": "Pixel 11 — Magic Capture·Creator Suite·Camera Looks (8/12 발표, 8/20 매장)",
+      "snippet": "(사실) Google이 Made by Google에서 Pixel 11 / 11 Pro / 11 Pro XL을 공개. Gemini Intelligence용 하드웨어 + 최근 몇 년 중 가장 큰 카메라 업그레이드 프레임. 선주문 오늘, 매장 판매 8/20. 가격 $899 / $1,09…",
+      "text": "Pixel 11 — Magic Capture·Creator Suite·Camera Looks (8/12 발표, 8/20 매장) (사실) Google이 Made by Google에서 Pixel 11 / 11 Pro / 11 Pro XL을 공개. Gemini Intelligence용 하드웨어 + 최근 몇 년 중 가장 큰 카메라 업그레이드 프레임. 선주문 오늘, 매장 판매 8/20. 가격 $899 / $1,099 / $1,299. (Magic Capture) 한 탭으로 놓치기 쉬운 순간(아기 웃음·펫·액션)을 자동 포착. 세션당 온디바이스+Gemini가 약 400프레임을 분석해 12MP 사진을 고르고, 크롭·언블러를 자동 적용. 사진과 영상을 같이 뽑아서 모드 전환이 필요 없다. (Creator Suite) 뷰파인더에 소셜 그리드·말하는 속도에 맞춰 스크롤되는 텔레프롬프터. 촬영분을 프로젝트 폴더에 바로 저장. Storyboard로 클립 트림·재배열. 카메라 앱 기본 모드를 영상으로 고정 가능. (Looks·야간·번역) 촬영 시 미학을 고르는 Camera Looks(Natural/Shadows/Vanilla + Digi·Editorial·Velvet 등 6종, 커스텀 가능). Pro/Pro XL Instant Night Sight는 이전 Pixel 대비 야간 촬영 최대 4.5배 빠름. 카메라에서 Circle to Search. Live Translate는 영상·오디오를 선호 언어로 실시간 더빙(Tensor G6, 앱·미디어 제한). (맥락) 숏폼·UGC 팀이 “생성 모델”이 아니라 폰 촬영·편집 파이프를 한 단계 올리는 날. Seedance/Kling 생성 클립과 실사 촬영 소스를 같은 주 스택에서 비교할 후보. (영향) 사내 Pixel 사용·리뷰 팀은 8/20 전 Creator Suite(텔레프롬프터·스토리보드)만 체크리스트에 넣고, Magic Capture는 초 단위 리액션·제품 드롭 촬영에 써 본다. 지역·언어·18+·구독 게이트는 각주 확인.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-콘텐츠-제작-크리에이티브-01"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-01",
+      "title": "ChatGPT Ads — 영국·멕시코·브라질·일본·한국 론칭 (8/11)",
+      "snippet": "(사실) OpenAI가 ChatGPT Ads를 영국·멕시코·브라질·일본·한국에 오픈했다고 공식 글을 갱신. 2/9 미국 테스트 이후 5개국 확장. 광고는 답변 아래 스폰서 유닛(로고·헤드라인·랜딩·이미지), 답변과 시각적으로 분리.",
+      "text": "ChatGPT Ads — 영국·멕시코·브라질·일본·한국 론칭 (8/11) (사실) OpenAI가 ChatGPT Ads를 영국·멕시코·브라질·일본·한국에 오픈했다고 공식 글을 갱신. 2/9 미국 테스트 이후 5개국 확장. 광고는 답변 아래 스폰서 유닛(로고·헤드라인·랜딩·이미지), 답변과 시각적으로 분리. (범위·플랜) Free·Go 로그인 성인만. Plus·Pro·Business·Enterprise·Education은 무광고. Free는 광고 제거 시 사용량·기능이 줄어드는 선택지. 18세 미만·건강·정신건강·정치 근처에는 광고 없음. (구매) 광고주는 채팅 원문을 받지 않음(집계 성과만). 공개 자료 기준 CPM·CPC, 관련성+입찰로 노출. 초기 카테고리: 소비재·로컬 서비스·여행·디지털/교육. 정치 광고 금지. (맥락) 한국·일본이 같은 날 열린다. 대화 맥락으로 광고를 고르되 광고주에게 대화를 넘기지 않는 구조. 퍼블리셔 수익 배분은 공식 글에 없음. (영향) 국내 브랜드·퍼포먼스 팀은 ChatGPT Ads 한국 자격·랜딩(OAI-AdsBot)·카테고리 정책을 먼저 확인하고, 검색·메타 대비 대화형 하단 슬롯만 소액 스테이징. Plus 이상 사내 계정은 광고 없음.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-마케팅-비즈니스-01"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-02",
+      "title": "Gemini 앱 — 월간 이용자 10억, 이미지 하루 1.5억 장+ (8/11)",
+      "snippet": "(사실) Sundar Pichai·Keyword 블로그: Gemini 앱 월간 활성 이용자 10억 돌파. Google 제품 중 가장 빨리 10억을 찍은 14번째. 7월 9.5억 → 8월 10억.",
+      "text": "Gemini 앱 — 월간 이용자 10억, 이미지 하루 1.5억 장+ (8/11) (사실) Sundar Pichai·Keyword 블로그: Gemini 앱 월간 활성 이용자 10억 돌파. Google 제품 중 가장 빨리 10억을 찍은 14번째. 7월 9.5억 → 8월 10억. (사용) 이용자 63%가 음성으로 말함. Gemini Live의 5분의 1은 카메라·화면 공유. 학생 요청의 38%에 첨부. 소상공이 이미지·영상·오디오를 한곳에서 씀 — 공식: 하루 1.5억 장+ 이미지 생성. Android는 40+ 앱 자동화, iOS 활성 1억+. (범위) 수치는 독립 앱 MAU. 검색 AI Overviews와는 별 집계. 커뮤니티는 “검색·지메일에 끼워 넣은 수” 논쟁. (영향) 브랜드가 Gemini 앱 안에서 보이는 이미지·보이스·연결 앱 경로를 채널 맵에 추가. 생성 단가표가 아니라 도달·습관 메모.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-마케팅-비즈니스-02"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-03",
+      "title": "Cognition(Devin) — $40B+ 밸류 신규 라운드 초기 협상 (8/12 보도)",
+      "snippet": "(사실) Bloomberg 인용 보도: Devin 제작사 Cognition이 투자자와 $10억+ 조달·밸류 최소 $40B 초기 협상. 3개월 전 $10억@$26B 이후. 성사되지 않거나 조건이 달라질 수 있음(보도 명시).",
+      "text": "Cognition(Devin) — $40B+ 밸류 신규 라운드 초기 협상 (8/12 보도) (사실) Bloomberg 인용 보도: Devin 제작사 Cognition이 투자자와 $10억+ 조달·밸류 최소 $40B 초기 협상. 3개월 전 $10억@$26B 이후. 성사되지 않거나 조건이 달라질 수 있음(보도 명시). (수치) 연환산 매출 런레이트 약 $10억 근접 — 5월 라운드 때 $4.92억의 약 2배. 엔터프라이즈: Citi·Mercedes-Benz·Goldman·Dell 등. 2025-07 Windsurf IDE 인수. (맥락) Cursor는 SpaceX $600억 인수가 임박 프레임. 코딩 에이전트 밸류 레이스. Grok 4.6이 같은 날 Devin에 올라 벤치 비교가 붙는다. (영향) Devin·Cursor 단가·시트 예산을 짜는 팀은 라운드 성사 여부가 아니라 오늘 쓸 모델(4.6 vs Opus 5) 벤치가 먼저. 밸류는 워치.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-마케팅-비즈니스-03"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-04",
+      "title": "River AI — 설립 2개월, General Catalyst 리드 $11억 (8/11)",
+      "snippet": "(사실) 전 xAI 공동창업자 Igor Babuschkin의 River AI가 시드/시리즈A로 $11억 조달. 리드 General Catalyst·AMP PBC, 참여 Nvidia·AMD Ventures·YC·Temasek.",
+      "text": "River AI — 설립 2개월, General Catalyst 리드 $11억 (8/11) (사실) 전 xAI 공동창업자 Igor Babuschkin의 River AI가 시드/시리즈A로 $11억 조달. 리드 General Catalyst·AMP PBC, 참여 Nvidia·AMD Ventures·YC·Temasek. (제품) 오픈웨이트를 RL·LoRA로 직접 파인튜닝해 자기 모델로 서빙하는 API. “프롬프트로 남의 모델을 조향하지 말고 학습시켜 소유” 포지션. 주장: 복잡한 RL 런 15–20분, 폐쇄형 대비 2–4배 비용 절감(자사 발표). (영향) 브랜드·사내 톤을 모델에 심으려는 팀은 API 페이지를 열어 대상 오픈 모델·토큰가를 확인. 아직 크리에이티브 GA가 아니라 포스트트레이닝 인프라 카드.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-마케팅-비즈니스-04"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-05",
+      "title": "Brad Lightcap — OpenAI 장기 임원, “새 일”로 퇴사 (8/11)",
+      "snippet": "(사실) 2018 합류, CFO→COO(2022~)→스페셜 프로젝트. 내부 메모를 X에 공개. 몇 주 더 잔류. 다음 벤처 내용은 미공개.",
+      "text": "Brad Lightcap — OpenAI 장기 임원, “새 일”로 퇴사 (8/11) (사실) 2018 합류, CFO→COO(2022~)→스페셜 프로젝트. 내부 메모를 X에 공개. 몇 주 더 잔류. 다음 벤처 내용은 미공개. (맥락) Fidji Simo 7월 사임, Sora 숏폼 앱 종료 후 Peebles 등 이탈과 같은 임원 교체 축. IPO 준비 보도와 겹침.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-마케팅-비즈니스-05"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "테크 · 인프라 · 규제 · 보안",
+      "sectionId": "테크-인프라-규제-보안",
+      "cardId": "c-테크-인프라-규제-보안-01",
+      "title": "DeepMind — Koray Kavukcuoglu가 Hassabis 후임으로 총괄 (8/12)",
+      "snippet": "(사실) CNBC: 전 DeepMind CTO·Google 수석 AI 아키텍트 Koray Kavukcuoglu가 DeepMind 수장(SVP). Sundar Pichai 직보. 담당: Gemini 모델, 프론티어 연구, Gemini 앱·개발자 팀. 공동창업자 Demis Hassab…",
+      "text": "DeepMind — Koray Kavukcuoglu가 Hassabis 후임으로 총괄 (8/12) (사실) CNBC: 전 DeepMind CTO·Google 수석 AI 아키텍트 Koray Kavukcuoglu가 DeepMind 수장(SVP). Sundar Pichai 직보. 담당: Gemini 모델, 프론티어 연구, Gemini 앱·개발자 팀. 공동창업자 Demis Hassabis는 의장. (범위) 런던 잔류 Hassabis와 달리 Kavukcuoglu는 이미 마운틴뷰. Google은 영국 거점 유지 입장. (맥락) 보도 프레임: 2026 들어 OpenAI·Anthropic 프론티어 대비 Gemini가 코딩에서 뒤처졌고, 7월 Gemini 3.5 Pro 지연 보도에 주가 하락. 내부 “Code Strike” 팀. 분석가: 연구 랩보다 제품 로드맵·출시 리듬 쪽으로 무게. (영향) Gemini 이미지·영상 파이프를 쓰는 팀은 3.5 Pro 출시 일정만 워치. 당장 단가표는 그대로.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-테크-인프라-규제-보안-01"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "테크 · 인프라 · 규제 · 보안",
+      "sectionId": "테크-인프라-규제-보안",
+      "cardId": "c-테크-인프라-규제-보안-02",
+      "title": "CoreWeave — 2Q 매출 $25.8억, 백로그 $1040억 (8/11 실적, 8/12 주가)",
+      "snippet": "(사실) 2Q26 매출 $25.75억(전년 $12.12억). 백로그 약 $1040억(6/30). 별도 Q3 초 신규 약정 $250억+는 백로그에 미포함. 조정 EBITDA $15.1억(마진 59%). 순손실 $6.26억.",
+      "text": "CoreWeave — 2Q 매출 $25.8억, 백로그 $1040억 (8/11 실적, 8/12 주가) (사실) 2Q26 매출 $25.75억(전년 $12.12억). 백로그 약 $1040억(6/30). 별도 Q3 초 신규 약정 $250억+는 백로그에 미포함. 조정 EBITDA $15.1억(마진 59%). 순손실 $6.26억. (인프라) 활성 전력 1.5GW(분기 +약 500MW), 계약 전력 약 3.7GW. NVIDIA Vera Rubin NVL72 첫 반입·검증. 고객 확대에 Runway ML·Cognition 명시. (시장) 8/12 CoreWeave 약 +19%, Super Micro +13%, Nebius +23% 대역(보도). AI 인프라 수요 지속 프레임. (영향) 제작 단가가 아니라 GPU 클라우드 가용·Runway 등 영상 벤더 용량 워치. 사내 렌더/학습 예산을 클라우드에 두는 팀만 숫자 벤치.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-테크-인프라-규제-보안-02"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "테크 · 인프라 · 규제 · 보안",
+      "sectionId": "테크-인프라-규제-보안",
+      "cardId": "c-테크-인프라-규제-보안-03",
+      "title": "OpenAI Daybreak — AWS Bedrock에서 Blue·Red 제공 (8/11)",
+      "snippet": "(사실) 사이버 방어용 Daybreak가 Amazon Bedrock으로. Blue: GPT-5.6 Sol 등 범용+방어 세이프가드. Red: 취약점 연구·익스플로잇 검증용 특화. 둘 다 Daybreak Access 승인 필요.",
+      "text": "OpenAI Daybreak — AWS Bedrock에서 Blue·Red 제공 (8/11) (사실) 사이버 방어용 Daybreak가 Amazon Bedrock으로. Blue: GPT-5.6 Sol 등 범용+방어 세이프가드. Red: 취약점 연구·익스플로잇 검증용 특화. 둘 다 Daybreak Access 승인 필요. (영향) 보안·레드팀만. 콘텐츠 파이프와 분리. 승인 워크스페이스가 있으면 Bedrock 콘솔·bedrock-mantle Responses API.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-테크-인프라-규제-보안-03"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "SNS 트렌드 · 루머 · 바이럴",
+      "sectionId": "sns-트렌드-루머-바이럴",
+      "cardId": "c-sns-트렌드-루머-바이럴-01",
+      "title": "Gemini 10억 — “끼워 넣은 수” 프레임이 리플 축",
+      "snippet": "Sundar 원 포스트(조회 약 280만)에 “검색·지메일에 강제라서 10억” 반박이 상단. 앱 MAU vs 검색 삽입을 가르는 논쟁.",
+      "text": "Gemini 10억 — “끼워 넣은 수” 프레임이 리플 축 Sundar 원 포스트(조회 약 280만)에 “검색·지메일에 강제라서 10억” 반박이 상단. 앱 MAU vs 검색 삽입을 가르는 논쟁.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-sns-트렌드-루머-바이럴-01"
+    },
+    {
+      "date": "2026-08-13",
+      "displayDate": "2026년 8월 13일(목)",
+      "briefTitle": "초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다",
+      "briefUrl": "brief/2026-08-13.html",
+      "section": "SNS 트렌드 · 루머 · 바이럴",
+      "sectionId": "sns-트렌드-루머-바이럴",
+      "cardId": "c-sns-트렌드-루머-바이럴-02",
+      "title": "Grok 4.6 — “가성비 1위” vs Fast $4/$12 체감",
+      "snippet": "Elon은 intelligence·속도·비용 종합 1위 프레임. DHH는 Fast가 $4/$12로 체감 빠르다고 인용. 벤치 동점(Sol)과 가격 언더컷이 타임라인 축.",
+      "text": "Grok 4.6 — “가성비 1위” vs Fast $4/$12 체감 Elon은 intelligence·속도·비용 종합 1위 프레임. DHH는 Fast가 $4/$12로 체감 빠르다고 인용. 벤치 동점(Sol)과 가격 언더컷이 타임라인 축.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-13.html#c-sns-트렌드-루머-바이럴-02"
+    },
     {
       "date": "2026-08-12",
       "displayDate": "2026년 8월 12일(수)",
