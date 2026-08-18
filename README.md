@@ -18,4 +18,4 @@ assets/         디자인 시스템
 data/           index.json
 ```
 
-자동 배포: 로컬 수집기 → `site/build.py` → 이 저장소 push → GitHub Pages.
+자동 배포: 수집기 → site/build.py → 이 저장소 push → GitHub Pages.
