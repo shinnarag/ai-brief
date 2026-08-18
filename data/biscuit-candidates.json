@@ -1,103 +1,103 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-18",
   "candidates": [
+    {
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
+      "hits": 29,
+      "sample": "백필) 주제: 5분 노래는 열렸고, Hailuo 무제한은 이번 주다 주제 설명: MiniMax가 Music 3.0 가중",
+      "brief_date": "2026-08-18"
+    },
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
-      "hits": 5,
-      "sample": "ime 이후 신규 없음) · fal/Runway changelog/Kling/Higgsfield/Luma/Decart/",
-      "brief_date": "2026-08-13"
+      "hits": 8,
+      "sample": "0 ComfyUI·5분 곡 벤치 · Runway Max Hailuo 무제한 8/23 PT · Gemini 3.7 Fla",
+      "brief_date": "2026-08-18"
     },
     {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 3,
-      "sample": "파이프**를 한 단계 올리는 날. Seedance/Kling 생성 클립과 **실사 촬영 소스**를 같은 주 스택에서 비교",
-      "brief_date": "2026-08-13"
+      "term": "Luma",
+      "hint": "영상 생성",
+      "hits": 5,
+      "sample": "인프라 · 규제 · 보안 1. **Luma × Dumbstruck — 광고 Creative Intelligence",
+      "brief_date": "2026-08-18"
+    },
+    {
+      "term": "ComfyUI",
+      "hint": "노드 기반 생성 워크플로 UI",
+      "hits": 4,
+      "sample": "다. 실무 액션: Music 3.0 ComfyUI·5분 곡 벤치 · Runway Max Hailuo 무제한 8/23 PT",
+      "brief_date": "2026-08-18"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
-      "hits": 2,
-      "sample": "al/Runway changelog/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저",
-      "brief_date": "2026-08-13"
+      "hits": 3,
+      "sample": "ne(창 내 신규 GA 미확인) · Kling API는 8/10 이펙트 1종(창 밖). **히트:** Music 3.",
+      "brief_date": "2026-08-18"
+    },
+    {
+      "term": "Midjourney",
+      "hint": "이미지 생성 서비스",
+      "hits": 3,
+      "sample": "Daybreak AWS. > 스윕: Midjourney updates(V8.2=7/24 이후 신규 없음) · BFL blog(",
+      "brief_date": "2026-08-18"
     },
     {
       "term": "FLUX 3",
       "hint": "BFL 멀티모달·영상 모델",
-      "hits": 1,
-      "sample": "없음) · BFL blog(8/4 FLUX 3 Video 이후 신규 없음) · Seed 블로그(8/5 SeedReal",
-      "brief_date": "2026-08-13"
+      "hits": 2,
+      "sample": "없음) · BFL blog(8/4 FLUX 3 Video 이후 신규 없음) · Seed 블로그·x.ai Imagine",
+      "brief_date": "2026-08-18"
     },
     {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
-      "hits": 1,
-      "sample": "gsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **히트:** Grok 4.6 · Pi",
-      "brief_date": "2026-08-13"
+      "term": "MCP",
+      "hint": "Model Context Protocol",
+      "hits": 2,
+      "sample": "PT부터 신규·업그레이드 Max만. MCP·Agent 제외. 잔여 일수만. 3. **Gemini 3.7 Flas",
+      "brief_date": "2026-08-18"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
-      "sample": "way changelog/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **",
-      "brief_date": "2026-08-13"
+      "sample": "인. - fal featured · Higgsfield · Decart Lucy 제품 GA · Kling 메이저 버전: 창 내",
+      "brief_date": "2026-08-18"
     },
     {
-      "term": "Luma",
-      "hint": "영상 생성",
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
       "hits": 1,
-      "sample": "og/Kling/Higgsfield/Luma/Decart/Hailuo — 창 내 메이저 GA 미확인. **히트:**",
-      "brief_date": "2026-08-13"
+      "sample": "님**. - (맥락) 직전 주 Seedance 2.5 무제한(8/13 PT 종료)과 **다른 모델·다른 코호트**.",
+      "brief_date": "2026-08-18"
     },
     {
-      "term": "MCP",
-      "hint": "Model Context Protocol",
+      "term": "Suno",
+      "hint": "음악 생성",
       "hits": 1,
-      "sample": "ax 신규/업그레이드만 잔여 일수. MCP·Agent·15초 초과 제외. [약관](https://runway.co",
-      "brief_date": "2026-08-13"
+      "sample": "15`는 미검증. - (영향) Suno·Udio·Lyria와 **로컬 5분 곡**을 같은 주에 비교. 브랜드",
+      "brief_date": "2026-08-18"
     },
     {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
+      "term": "Udio",
+      "hint": "음악 생성",
       "hits": 1,
-      "sample": "AI Overviews. > 스윕: Midjourney updates · DeepSeek changelog(7/31 이후 신규",
-      "brief_date": "2026-08-13"
-    },
-    {
-      "term": "Sora",
-      "hint": "OpenAI 영상 모델",
-      "hits": 1,
-      "sample": ") Fidji Simo 7월 사임, Sora 숏폼 앱 종료 후 Peebles 등 이탈과 같은 임원 교체 축. IPO",
-      "brief_date": "2026-08-13"
+      "sample": "미검증. - (영향) Suno·Udio·Lyria와 **로컬 5분 곡**을 같은 주에 비교. 브랜드 BGM·숏",
+      "brief_date": "2026-08-18"
     },
     {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
       "hits": 1,
-      "sample": "ealtime 이후 신규 없음) · fal/Runway changelog/Kling/Higgsfield/Luma/",
-      "brief_date": "2026-08-13"
+      "sample": "창 내 공식 신규 글 미확인. - fal featured · Higgsfield · Decart Lucy 제품",
+      "brief_date": "2026-08-18"
     },
     {
-      "term": "시드(seed)",
-      "hint": "재현용 난수 시드",
+      "term": "星图(광고 단가 플랫폼)",
+      "hint": "중국 인플루언서 단가 표시",
       "hits": 1,
-      "sample": "buschkin의 River AI가 시드/시리즈A로 **$11억** 조달. 리드 General Catalyst·",
-      "brief_date": "2026-08-13"
-    },
-    {
-      "term": "워터마크",
-      "hint": "생성물 표시·추적",
-      "hits": 1,
-      "sample": "· LTX-2.5 · Claude 워터마크 · Image 2.0 API · Manus 한시 무료 · DALL·E",
-      "brief_date": "2026-08-13"
-    },
-    {
-      "term": "파인튜닝",
-      "hint": "추가 학습으로 맞춤",
-      "hits": 1,
-      "sample": "픈웨이트를 **RL·LoRA로 직접 파인튜닝**해 자기 모델로 서빙하는 API. “프롬프트로 남의 모델을 조향하지",
-      "brief_date": "2026-08-13"
+      "sample": "11, 창 밖. - 方桃子/팡타오즈 星图 단가: 8/4–11 보도, 창 내 신규 수치 없음. - OpenAI 공",
+      "brief_date": "2026-08-18"
     }
   ]
 }

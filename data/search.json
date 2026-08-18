@@ -1,7 +1,367 @@
 {
-  "generated_at": "2026-08-13T10:19:27",
-  "count": 394,
+  "generated_at": "2026-08-18T10:06:00",
+  "count": 412,
   "items": [
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-01",
+      "title": "MiniMax Music 3.0 — 5분 곡 오픈웨이트",
+      "snippet": "가사+설명으로 통곡 생성. HF·ComfyUI·SGLang. 8/13 공지, 8/13 브리프 미포함 백필.",
+      "text": "MiniMax Music 3.0 — 5분 곡 오픈웨이트 가사+설명으로 통곡 생성. HF·ComfyUI·SGLang. 8/13 공지, 8/13 브리프 미포함 백필. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-top-5-01"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-02",
+      "title": "Runway Max — Hailuo 3.0 무제한, 8/23 PT까지",
+      "snippet": "8/17 0:00 PT부터 신규·업그레이드 Max만. MCP·Agent 제외. 잔여 일수만.",
+      "text": "Runway Max — Hailuo 3.0 무제한, 8/23 PT까지 8/17 0:00 PT부터 신규·업그레이드 Max만. MCP·Agent 제외. 잔여 일수만. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-top-5-02"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-03",
+      "title": "Gemini 3.7 Flash — 코딩 워크호스, 연말까지 반값",
+      "snippet": "$0.75/$3.75. Spark 당일 교체. 3.6 이후 3주. 8/13 오후 공지 백필.",
+      "text": "Gemini 3.7 Flash — 코딩 워크호스, 연말까지 반값 $0.75/$3.75. Spark 당일 교체. 3.6 이후 3주. 8/13 오후 공지 백필. 모델 · 플랫폼",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-top-5-03"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-04",
+      "title": "DeepSeek-V4-Pro GA — 에이전트 강화 + 피크 요금",
+      "snippet": "deepseek-v4-pro. 8/16 16:00 UTC부터 피크가 오프피크의 2배. 캐시 히트 최대 약 11배.",
+      "text": "DeepSeek-V4-Pro GA — 에이전트 강화 + 피크 요금 deepseek-v4-pro. 8/16 16:00 UTC부터 피크가 오프피크의 2배. 캐시 히트 최대 약 11배. 모델 · 플랫폼",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-top-5-04"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-05",
+      "title": "Qwen3.8-27B — 로컬 멀티모달, Apache 2.0",
+      "snippet": "27B·262K(YaRN 1M). 이미지·영상 네이티브. HF Qwen/Qwen3.8-27B 8/14.",
+      "text": "Qwen3.8-27B — 로컬 멀티모달, Apache 2.0 27B·262K(YaRN 1M). 이미지·영상 네이티브. HF Qwen/Qwen3.8-27B 8/14. 모델 · 플랫폼",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-top-5-05"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-01",
+      "title": "Gemini 3.7 Flash — 코딩·에이전트 워크호스, 연말까지 $0.75/$3.75 (8/13)",
+      "snippet": "(사실) Google이 Gemini 3.7 Flash를 공개. 3.6 Flash 이후 3주. 코딩·에이전트·지식 업무용 워크호스. 모델 ID gemini-3.7-flash.",
+      "text": "Gemini 3.7 Flash — 코딩·에이전트 워크호스, 연말까지 $0.75/$3.75 (8/13) (사실) Google이 Gemini 3.7 Flash를 공개. 3.6 Flash 이후 3주. 코딩·에이전트·지식 업무용 워크호스. 모델 ID gemini-3.7-flash. (벤치) FrontierCode 1.1 Main 43.6%(3.6은 34.4%). DeepSWE v1.1 65.3%(49.0%). WebDev Arena Elo 1588(1538). GDP.pdf 34.0%(22.0%). AutomationBench 30.4%(17.0%). (단가·기간) 소개가 입력 $0.75 / 출력 $3.75 per 1M. 2026-12-31까지. 2027-01-01부터 $1.50 / $7.50. 컨텍스트는 보도 기준 100만 토큰. (범위) Gemini API · AI Studio · Android Studio · Antigravity · Gemini Enterprise. Gemini Spark(AI Pro·Ultra, 160+국. EEA·나이지리아·스위스·영국 제외)가 당일부터 3.7 Flash. (제작 함의) 공식 데모는 3.7 Flash + Nano Banana로 캐릭터·아이템을 실시간 뽑는 3D 게임, Omni 서브에이전트로 랜딩 페이지. UI·레퍼런스 준수가 3.6보다 낫다고 명시. (영향) 랜딩·에이전트 초안 단가를 연말 창에 스테이징. 3.5 Pro 일정은 여전히 미공개.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-모델-플랫폼-01"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-02",
+      "title": "DeepSeek-V4-Pro GA + 피크/오프피크 요금 (8/13 공지, 8/16 16:00 UTC 적용)",
+      "snippet": "(사실) DeepSeek가 V4-Pro 정식을 앱·웹·API에 올림. 모델명 deepseek-v4-pro(버전 DeepSeek-V4-Pro-0813). Flash는 deepseek-v4-flash(0731).",
+      "text": "DeepSeek-V4-Pro GA + 피크/오프피크 요금 (8/13 공지, 8/16 16:00 UTC 적용) (사실) DeepSeek가 V4-Pro 정식을 앱·웹·API에 올림. 모델명 deepseek-v4-pro(버전 DeepSeek-V4-Pro-0813). Flash는 deepseek-v4-flash(0731). (기능) 에이전트 강화. Responses API 네이티브·Codex 원클릭. thinking low / high / max. 컨텍스트 1M, 최대 출력 384K. (벤치, 자사) HLE 42.7 / 툴 60.0. Terminal Bench 2.1 87.9. Cybergym 83.3. DeepSWE 62.7. Toolathlon-Verified 74.1. (요금, 1M 토큰) 피크 UTC 01:00–04:00 · 06:00–10:00(그 외 오프피크, 피크의 절반). Flash 출력 오프/피크 $0.66 / $1.32. Pro 출력 $1.98 / $3.96. Pro 캐시 히트 $0.022 / $0.044(구 $0.003625 대비 피크 약 +1,114%). 동시성 Flash 2500 / Pro 500. (영향) 장문·반복 프롬프트는 오프피크로 돌리거나 캐시 전제를 다시 짠다. Codex 경로를 쓰는 팀은 Responses 설정을 확인.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-모델-플랫폼-02"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-03",
+      "title": "Qwen3.8-27B — 로컬 비전·영상 27B, Apache 2.0 (8/14)",
+      "snippet": "(사실) Alibaba Qwen이 Qwen3.8-27B 가중치를 HF·ModelScope에 공개. Apache 2.0. 8/3에 예고한 Max급 오픈 중 실제 로컬용이 창 안에 도착.",
+      "text": "Qwen3.8-27B — 로컬 비전·영상 27B, Apache 2.0 (8/14) (사실) Alibaba Qwen이 Qwen3.8-27B 가중치를 HF·ModelScope에 공개. Apache 2.0. 8/3에 예고한 Max급 오픈 중 실제 로컬용이 창 안에 도착. (스펙) 27B 덴스 + 비전 인코더. 네이티브 컨텍스트 262,144, YaRN으로 1,000,000. thinking 기본 켜짐, reasoning_effort xhigh(기본)/medium/low. 이미지·시간 단위 영상 입력. (벤치, 자사) SWE-bench Pro 61.7(Opus 4.6 Max 53.4보다 위, Claude Code 하네스). Terminal Bench 2.1 73.0. OSWorld-Verified 84.3. 클라우드 호스티드 1M 컨텍스트는 “coming soon”. (영향) 사내 온프레·프라이빗 벤치 후보. BF16 약 56GB. GGUF는 Unsloth 등 커뮤니티 퀀트. 상용은 라이선스 그대로 가능.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-모델-플랫폼-03"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-04",
+      "title": "GLM-5.3 — 같은 베이스, 포스트트레이닝으로 코딩·사이버 (8/14)",
+      "snippet": "(사실) Z.ai가 GLM-5.3 공개. 베이스는 GLM-5.2와 동일(보도: 약 743B). 이득은 전부 포스트트레이닝.",
+      "text": "GLM-5.3 — 같은 베이스, 포스트트레이닝으로 코딩·사이버 (8/14) (사실) Z.ai가 GLM-5.3 공개. 베이스는 GLM-5.2와 동일(보도: 약 743B). 이득은 전부 포스트트레이닝. (범위) 지금 Z.ai API · GLM Coding Plan · ZCode. 가중치는 출시 후 약 2주, 안전 평가 뒤. (벤치) 자사 Code Bench에서 5.2 대비 +50%. 보도: Terminal-Bench 3.0 4.6 → 28.3. CyberGym 84.5%. 사이버는 “의도하지 않은 부상” 프레임. (루머) Cursor에서 심각한 취약점을 찾았다는 보도는 공식 글에 없음. 카드에 수치로 쓰지 않음. (영향) 오픈웨이트 코딩 하네스를 보는 팀은 가중치 드롭(대략 8월 말)만 워치. 지금은 API·ZCode.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-모델-플랫폼-04"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-05",
+      "title": "Grok 4.6 — GitHub Copilot 모델 피커 (8/14)",
+      "snippet": "(사실) SpaceXAI가 Grok 4.6을 GitHub Copilot(클라우드 에이전트·CLI·VS Code)에 올림. 모델 피커에서 선택. 일부 비즈니스·엔터는 Copilot 설정에서 허용 필요.",
+      "text": "Grok 4.6 — GitHub Copilot 모델 피커 (8/14) (사실) SpaceXAI가 Grok 4.6을 GitHub Copilot(클라우드 에이전트·CLI·VS Code)에 올림. 모델 피커에서 선택. 일부 비즈니스·엔터는 Copilot 설정에서 허용 필요. (단가) API는 그대로 $2 / $6 per 1M. 8/12 본선 카드의 배포 확장. (영향) Copilot이 기본 하네스인 팀은 4.6을 Sol·Opus와 같은 리포에서 한 주 비교.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-모델-플랫폼-05"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-06",
+      "title": "OpenAI Ultrafast — GPT-5.6 Sol 최대 14배, Cerebras (8/13)",
+      "snippet": "(사실) OpenAI가 API Ultrafast 티어 프리뷰. Cerebras로 GPT-5.6 Sol을 표준 대비 최대 14배, 초당 출력 최대 750 토큰.",
+      "text": "OpenAI Ultrafast — GPT-5.6 Sol 최대 14배, Cerebras (8/13) (사실) OpenAI가 API Ultrafast 티어 프리뷰. Cerebras로 GPT-5.6 Sol을 표준 대비 최대 14배, 초당 출력 최대 750 토큰. (범위) 제한 프리뷰. 용량 따라 확대. 관심은 신청 폼. 실시간 보이스·커머스·개발 에이전트·보안 대응이 타깃. (영향) 일반 ChatGPT 단가표가 아님. 저지연 슬롯이 열리면 숏폼 대본·라이브 응대만 따로 벤치.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-모델-플랫폼-06"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-01",
+      "title": "MiniMax Music 3.0 — 최대 5분 통곡, 오픈웨이트 (8/13 공지)",
+      "snippet": "(사실) MiniMax가 Music 3.0을 연구 글로 공개하고 가중치를 MiniMaxAI/MiniMax-Music3 에 올림. 가사+뮤직 디스크립션으로 한 번에 완성곡.",
+      "text": "MiniMax Music 3.0 — 최대 5분 통곡, 오픈웨이트 (8/13 공지) (사실) MiniMax가 Music 3.0을 연구 글로 공개하고 가중치를 MiniMaxAI/MiniMax-Music3 에 올림. 가사+뮤직 디스크립션으로 한 번에 완성곡. (범위) 최대 5분. 출력 32 kHz 16-bit 스테레오 WAV. 섹션 태그([Verse] [Chorus] 등) + Structured Caption(장르·BPM·보컬·편성). (스택) Global LLM 8B(Qwen3.5-8B 초기화) + Local LLM 0.6B + Flow Matching 2.4B + Flow-VAE 123M. SGLang-Omni · diffusers(PR) · ComfyUI. 풀 정밀 24GB+ VRAM, 오프로드시 약 8GB도 가능(느림). CUDA 전제. (호스티드) 플랫폼 가이드는 music-generation. 곡당 단가는 공식 글에 없음. 제휴 리뷰의 $0.15는 미검증. (영향) Suno·Udio·Lyria와 로컬 5분 곡을 같은 주에 비교. 브랜드 BGM·숏폼 훅은 Comfy 노드부터.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-콘텐츠-제작-크리에이티브-01"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-02",
+      "title": "Runway Max — Hailuo 3.0 무제한, 8/17–8/23 PT (신규·업그레이드만)",
+      "snippet": "(사실) Runway가 Hailuo 3.0 무제한 프로모를 Max 플랜에 걸었다. 배너+약관 현재 노출.",
+      "text": "Runway Max — Hailuo 3.0 무제한, 8/17–8/23 PT (신규·업그레이드만) (사실) Runway가 Hailuo 3.0 무제한 프로모를 Max 플랜에 걸었다. 배너+약관 현재 노출. (기간) Eligibility·Promotion Period: 2026-08-17 00:00 PT ~ 2026-08-23 23:59 PT (7일). 늦게 올리면 남은 일수만. (조건) 기간 안 Max 신규 가입 또는 업그레이드. runwayml.com만. 리셀러 제외. MCP·Agent에서는 무제한 아님. (맥락) 직전 주 Seedance 2.5 무제한(8/13 PT 종료)과 다른 모델·다른 코호트. 재탕 아님. (영향) Hailuo를 쓰는 숏폼 팀은 오늘~8/23 PT만 Max 업그레이드 손익을 계산. 기존 Max는 대상 아님.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-콘텐츠-제작-크리에이티브-02"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-01",
+      "title": "Anthropic, Decart를 약 $60억에 인수 협상 (8/13 보도)",
+      "snippet": "(사실) Bloomberg: Anthropic이 Decart AI를 약 $60억에 사는 초기 협상. 성사되지 않거나 조건이 달라질 수 있음.",
+      "text": "Anthropic, Decart를 약 $60억에 인수 협상 (8/13 보도) (사실) Bloomberg: Anthropic이 Decart AI를 약 $60억에 사는 초기 협상. 성사되지 않거나 조건이 달라질 수 있음. (범위) Decart는 실시간 영상(Lucy) + 월드모델 + 칩 효율. 5월 라운드 보도 밸류 약 $40억($3억, Radical·Nvidia·Adobe Ventures 등). (맥락) Claude 추론 용량을 densify하려는 프레임. 콘텐츠 팀에선 Lucy 실시간 영상 스택이 Anthropic 쪽으로 붙을지가 포인트. (영향) Decart/Lucy 단가·SLA를 쓰는 팀은 성사 전까지 계약만 워치. 베타 재탕 금지, 딜 확정·제품 통합만 다음 카드.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-마케팅-비즈니스-01"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-02",
+      "title": "Anthropic — Q2 매출 $115억+, 조정 영업이익 흑자 (8/15 보도)",
+      "snippet": "(사실) CNBC: 투자자 문서 기준 2Q26 매출 $115억 초과, 조정 영업이익 흑자. 전년 동기 대비 급증 프레임. 수치는 예비·개정 가능.",
+      "text": "Anthropic — Q2 매출 $115억+, 조정 영업이익 흑자 (8/15 보도) (사실) CNBC: 투자자 문서 기준 2Q26 매출 $115억 초과, 조정 영업이익 흑자. 전년 동기 대비 급증 프레임. 수치는 예비·개정 가능. (보도 부가) 다수 매체는 영업이익 약 $5.59억, 1Q $48억 → 2Q 더블 이상을 인용. 감사 전. (맥락) IPO 준비 보도와 같은 주. Decart $60억 협상과 겹침. (영향) Claude 시트·API 예산을 짜는 팀에 단가 변경은 없음. 흑자 스토리는 IR.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-마케팅-비즈니스-02"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "테크 · 인프라 · 규제 · 보안",
+      "sectionId": "테크-인프라-규제-보안",
+      "cardId": "c-테크-인프라-규제-보안-01",
+      "title": "Luma × Dumbstruck — 광고 Creative Intelligence 파트너십 (8/13)",
+      "snippet": "(사실) Luma와 감정 분석사 Dumbstruck이 광고 콘텐츠에 AI+인간 반응을 붙이는 Creative Intelligence 카테고리를 발표.",
+      "text": "Luma × Dumbstruck — 광고 Creative Intelligence 파트너십 (8/13) (사실) Luma와 감정 분석사 Dumbstruck이 광고 콘텐츠에 AI+인간 반응을 붙이는 Creative Intelligence 카테고리를 발표. (범위) 제품 GA·요금·API는 글에 없음. 의사결정 레이어 포지션. (영향) 캠페인 프리테스트 툴을 찾는 팀만 워치. 생성 모델 교체가 아님.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-테크-인프라-규제-보안-01"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "SNS 트렌드 · 루머 · 바이럴",
+      "sectionId": "sns-트렌드-루머-바이럴",
+      "cardId": "c-sns-트렌드-루머-바이럴-01",
+      "title": "Music 3.0 — 로컬 음악 가중치 드롭이 r/LocalLLaMA 축",
+      "snippet": "8/13 HF 드롭 스레드(약 600업). “오디오용 llama.cpp가 필요하다”가 상단. 영상 벤더 타임라인과 별 축.",
+      "text": "Music 3.0 — 로컬 음악 가중치 드롭이 r/LocalLLaMA 축 8/13 HF 드롭 스레드(약 600업). “오디오용 llama.cpp가 필요하다”가 상단. 영상 벤더 타임라인과 별 축.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-sns-트렌드-루머-바이럴-01"
+    },
+    {
+      "date": "2026-08-18",
+      "displayDate": "2026년 8월 18일(화)",
+      "briefTitle": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "briefUrl": "brief/2026-08-18.html",
+      "section": "SNS 트렌드 · 루머 · 바이럴",
+      "sectionId": "sns-트렌드-루머-바이럴",
+      "cardId": "c-sns-트렌드-루머-바이럴-02",
+      "title": "DeepSeek 요금 — “캐시 히트 +1,114%” 계산 스레드",
+      "snippet": "피크/오프피크 표가 퍼지며 Pro 캐시 히트가 가장 크게 보임. “싼 DeepSeek” 전제 재계산이 리플 축.",
+      "text": "DeepSeek 요금 — “캐시 히트 +1,114%” 계산 스레드 피크/오프피크 표가 퍼지며 Pro 캐시 히트가 가장 크게 보임. “싼 DeepSeek” 전제 재계산이 리플 축.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-18.html#c-sns-트렌드-루머-바이럴-02"
+    },
     {
       "date": "2026-08-13",
       "displayDate": "2026년 8월 13일(목)",

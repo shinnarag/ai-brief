@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T10:19:27",
+  "generated_at": "2026-08-18T10:06:00",
   "platform": "AI Pulse",
-  "count": 22,
+  "count": 23,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,84 +11,64 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "agents": 78,
-    "creative": 58,
-    "marketing": 62,
-    "models": 140,
-    "infra": 56,
+    "creative": 64,
+    "models": 144,
+    "marketing": 66,
+    "infra": 57,
+    "agents": 81,
     "policy": 50
   },
   "companies": [
     [
-      "OpenAI",
-      109
-    ],
-    [
       "Grok",
-      85
+      82
     ],
     [
       "Gemini",
-      72
-    ],
-    [
-      "Claude",
-      67
+      70
     ],
     [
       "ChatGPT",
-      64
+      44
     ],
     [
-      "Meta",
-      53
-    ],
-    [
-      "NVIDIA",
-      43
+      "Claude",
+      38
     ],
     [
       "Google",
-      39
+      37
+    ],
+    [
+      "DeepSeek",
+      32
+    ],
+    [
+      "OpenAI",
+      30
     ],
     [
       "Anthropic",
-      36
-    ],
-    [
-      "xAI",
-      19
-    ],
-    [
-      "Apple",
-      19
-    ],
-    [
-      "Hugging Face",
-      16
-    ],
-    [
-      "Amazon",
-      15
-    ],
-    [
-      "AWS",
-      15
-    ],
-    [
-      "ByteDance",
-      15
-    ],
-    [
-      "DeepMind",
-      12
-    ],
-    [
-      "IBM",
-      12
+      27
     ],
     [
       "Runway",
+      20
+    ],
+    [
+      "NVIDIA",
+      14
+    ],
+    [
+      "Copilot",
+      11
+    ],
+    [
+      "AWS",
+      11
+    ],
+    [
+      "DeepMind",
       10
     ],
     [
@@ -96,19 +76,15 @@
       10
     ],
     [
-      "Midjourney",
-      5
-    ],
-    [
-      "Cloudflare",
-      5
-    ],
-    [
-      "DeepSeek",
-      5
+      "Meta",
+      10
     ],
     [
       "Luma",
+      9
+    ],
+    [
+      "Midjourney",
       5
     ],
     [
@@ -116,29 +92,86 @@
       5
     ],
     [
+      "xAI",
+      5
+    ],
+    [
+      "Adobe",
+      2
+    ],
+    [
+      "Cloudflare",
+      2
+    ],
+    [
+      "Amazon",
+      2
+    ],
+    [
       "Sora",
+      2
+    ],
+    [
+      "Hugging Face",
       2
     ],
     [
       "Microsoft",
       2
-    ],
-    [
-      "Azure",
-      2
-    ],
-    [
-      "ElevenLabs",
-      2
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-08-07",
-    "end": "2026-08-13",
-    "brief_count": 5
+    "start": "2026-08-12",
+    "end": "2026-08-18",
+    "brief_count": 3
   },
   "briefs": [
+    {
+      "date": "2026-08-18",
+      "title": "AI Daily Brief — 2026-08-18 (8/14~18 백필)",
+      "theme": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "theme_blurb": "MiniMax가 Music 3.0 가중치를 푼 주, Runway는 신규 Max에 Hailuo 3.0 무제한을 8/23까지 걸었다. Gemini 3.7 Flash는 연말까지 반값, DeepSeek는 V4-Pro 정식과 함께 피크 요금을 올렸다.",
+      "edition_title": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
+      "edition_blurb": "MiniMax가 Music 3.0 가중치를 푼 주, Runway는 신규 Max에 Hailuo 3.0 무제한을 8/23까지 걸었다. Gemini 3.7 Flash는 연말까지 반값, DeepSeek는 V4-Pro 정식과 함께 피크 요금을 올렸다.",
+      "url": "brief/2026-08-18.html",
+      "excerpt": "축은 MiniMax Music 3.0 오픈웨이트(최대 5분·HF·ComfyUI), Runway Hailuo 3.0 무제한(신규/업그레이드 Max, 8/17–8/23 PT), Gemini 3.7 Flash(코딩·에이전트, 연말까지 `$0.75/$3.75`), DeepSeek-V4-Pro GA + 피크/오프피크 요금(8/16 16:00 UTC 적용), Qwen3.8-27B Apache 2.0이다.",
+      "top5": [
+        "MiniMax Music 3.0 — 5분 곡 오픈웨이트",
+        "Runway Max — Hailuo 3.0 무제한, 8/23 PT까지",
+        "Gemini 3.7 Flash — 코딩 워크호스, 연말까지 반값",
+        "DeepSeek-V4-Pro GA — 에이전트 강화 + 피크 요금",
+        "Qwen3.8-27B — 로컬 멀티모달, Apache 2.0"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "companies": [
+        "DeepSeek",
+        "Gemini",
+        "Anthropic",
+        "Runway",
+        "Copilot",
+        "OpenAI",
+        "Grok",
+        "Luma",
+        "Claude",
+        "GitHub",
+        "Google",
+        "Midjourney",
+        "ChatGPT",
+        "NVIDIA",
+        "Kling",
+        "Adobe"
+      ],
+      "has_rumor": true,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-08-13",
       "title": "AI Daily Brief — 2026-08-13 (최근 24h)",
@@ -169,8 +202,8 @@
         "ChatGPT",
         "OpenAI",
         "DeepMind",
-        "Runway",
         "NVIDIA",
+        "Runway",
         "AWS",
         "xAI",
         "Kling",
@@ -213,8 +246,8 @@
         "ChatGPT",
         "Anthropic",
         "Meta",
-        "Google",
         "OpenAI",
+        "Google",
         "NVIDIA",
         "Kling",
         "AWS",
@@ -360,8 +393,8 @@
         "ByteDance",
         "Midjourney",
         "ElevenLabs",
-        "DeepMind",
-        "DeepSeek"
+        "DeepSeek",
+        "DeepMind"
       ],
       "has_rumor": false,
       "source": "md",
@@ -676,8 +709,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "Gemini",
-        "NVIDIA"
+        "NVIDIA",
+        "Gemini"
       ],
       "has_rumor": false,
       "source": "md",
@@ -767,8 +800,8 @@
         "Midjourney",
         "ElevenLabs",
         "Microsoft",
-        "Zapier",
-        "Google"
+        "Google",
+        "Zapier"
       ],
       "has_rumor": false,
       "source": "md",
@@ -805,16 +838,16 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Gemini",
         "Claude",
+        "Gemini",
         "Kling",
         "Meta",
         "Cloudflare",
         "Luma",
         "Anthropic",
         "Copilot",
-        "Amazon",
-        "Google"
+        "Google",
+        "Amazon"
       ],
       "has_rumor": false,
       "source": "md",
@@ -945,8 +978,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Samsung"
       ],
       "has_rumor": false,
@@ -1024,8 +1057,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,
