@@ -629,7 +629,7 @@
 
   const LATEST_BRIEF = {
     date: "2026-08-18",
-    termIds: ["agent", "open-weight", "harness", "multimodal", "api", "token"]
+    termIds: ["short-drama", "upscale", "open-weight", "harness", "agent", "early-access"]
   };
 
   const TAGS = [

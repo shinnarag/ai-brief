@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:06:00",
+  "generated_at": "2026-08-18T10:19:26",
   "platform": "AI Pulse",
   "count": 23,
   "domains": {
@@ -11,53 +11,53 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "creative": 64,
-    "models": 144,
-    "marketing": 66,
-    "infra": 57,
-    "agents": 81,
+    "creative": 71,
+    "models": 146,
+    "marketing": 69,
+    "infra": 58,
+    "agents": 83,
     "policy": 50
   },
   "companies": [
     [
       "Grok",
-      82
+      81
     ],
     [
       "Gemini",
-      70
+      73
     ],
     [
       "ChatGPT",
-      44
+      56
     ],
     [
       "Claude",
-      38
-    ],
-    [
-      "Google",
-      37
-    ],
-    [
-      "DeepSeek",
-      32
+      48
     ],
     [
       "OpenAI",
+      43
+    ],
+    [
+      "Google",
+      41
+    ],
+    [
+      "NVIDIA",
       30
     ],
     [
       "Anthropic",
-      27
+      29
+    ],
+    [
+      "DeepSeek",
+      24
     ],
     [
       "Runway",
-      20
-    ],
-    [
-      "NVIDIA",
-      14
+      19
     ],
     [
       "Copilot",
@@ -68,6 +68,10 @@
       11
     ],
     [
+      "ElevenLabs",
+      10
+    ],
+    [
       "DeepMind",
       10
     ],
@@ -76,12 +80,16 @@
       10
     ],
     [
+      "Luma",
+      10
+    ],
+    [
       "Meta",
       10
     ],
     [
-      "Luma",
-      9
+      "Amazon",
+      8
     ],
     [
       "Midjourney",
@@ -96,15 +104,15 @@
       5
     ],
     [
+      "Zapier",
+      2
+    ],
+    [
       "Adobe",
       2
     ],
     [
       "Cloudflare",
-      2
-    ],
-    [
-      "Amazon",
       2
     ],
     [
@@ -130,18 +138,18 @@
     {
       "date": "2026-08-18",
       "title": "AI Daily Brief — 2026-08-18 (8/14~18 백필)",
-      "theme": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
-      "theme_blurb": "MiniMax가 Music 3.0 가중치를 푼 주, Runway는 신규 Max에 Hailuo 3.0 무제한을 8/23까지 걸었다. Gemini 3.7 Flash는 연말까지 반값, DeepSeek는 V4-Pro 정식과 함께 피크 요금을 올렸다.",
-      "edition_title": "5분 노래는 열렸고, Hailuo 무제한은 이번 주다",
-      "edition_blurb": "MiniMax가 Music 3.0 가중치를 푼 주, Runway는 신규 Max에 Hailuo 3.0 무제한을 8/23까지 걸었다. Gemini 3.7 Flash는 연말까지 반값, DeepSeek는 V4-Pro 정식과 함께 피크 요금을 올렸다.",
+      "theme": "5분 곡은 풀렸고, 1080p는 얼리로 붙었다",
+      "theme_blurb": "MiniMax가 5분 통곡 가중치를 연 주, Higgsfield는 Seedance 2.5를 1080p 얼리로 올렸다. Runway Max Hailuo 무제한은 8/23까지, Suno Studio 2.0은 Premier DAW에 MIDI를 붙였다.",
+      "edition_title": "5분 곡은 풀렸고, 1080p는 얼리로 붙었다",
+      "edition_blurb": "MiniMax가 5분 통곡 가중치를 연 주, Higgsfield는 Seedance 2.5를 1080p 얼리로 올렸다. Runway Max Hailuo 무제한은 8/23까지, Suno Studio 2.0은 Premier DAW에 MIDI를 붙였다.",
       "url": "brief/2026-08-18.html",
-      "excerpt": "축은 MiniMax Music 3.0 오픈웨이트(최대 5분·HF·ComfyUI), Runway Hailuo 3.0 무제한(신규/업그레이드 Max, 8/17–8/23 PT), Gemini 3.7 Flash(코딩·에이전트, 연말까지 `$0.75/$3.75`), DeepSeek-V4-Pro GA + 피크/오프피크 요금(8/16 16:00 UTC 적용), Qwen3.8-27B Apache 2.0이다.",
+      "excerpt": "축은 MiniMax Music 3.0 오픈웨이트(최대 5분·HF·ComfyUI), Higgsfield Seedance 2.5 1080p 얼리(Plus+, 8/14), Suno Studio 2.0(Premier, MIDI·채팅 베타), Runway Hailuo 3.0 무제한(신규/업그레이드 Max, 8/17–8/23 PT), Gemini 3.7 Flash(연말까지 `$0.75/$3.75`)다. Stripe–OpenRouter $7B+·Anthropic ARR $65억은 본문.",
       "top5": [
         "MiniMax Music 3.0 — 5분 곡 오픈웨이트",
+        "Higgsfield — Seedance 2.5 1080p 얼리 액세스",
+        "Suno Studio 2.0 — Premier DAW에 MIDI·채팅",
         "Runway Max — Hailuo 3.0 무제한, 8/23 PT까지",
-        "Gemini 3.7 Flash — 코딩 워크호스, 연말까지 반값",
-        "DeepSeek-V4-Pro GA — 에이전트 강화 + 피크 요금",
-        "Qwen3.8-27B — 로컬 멀티모달, Apache 2.0"
+        "Gemini 3.7 Flash — 코딩 워크호스, 연말까지 반값"
       ],
       "domains": [
         "agents",
@@ -151,22 +159,22 @@
         "models"
       ],
       "companies": [
-        "DeepSeek",
         "Gemini",
+        "DeepSeek",
+        "OpenAI",
+        "NVIDIA",
         "Anthropic",
+        "Claude",
+        "ChatGPT",
         "Runway",
         "Copilot",
-        "OpenAI",
+        "ElevenLabs",
+        "Google",
         "Grok",
         "Luma",
-        "Claude",
+        "Amazon",
         "GitHub",
-        "Google",
-        "Midjourney",
-        "ChatGPT",
-        "NVIDIA",
-        "Kling",
-        "Adobe"
+        "Midjourney"
       ],
       "has_rumor": true,
       "source": "md",
@@ -426,8 +434,8 @@
       ],
       "companies": [
         "OpenAI",
-        "Google",
         "Claude",
+        "Google",
         "Meta",
         "Anthropic",
         "GitHub",
@@ -606,8 +614,8 @@
         "policy"
       ],
       "companies": [
-        "Google",
         "Gemini",
+        "Google",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -660,12 +668,12 @@
         "NVIDIA",
         "Claude",
         "Hugging Face",
-        "Google",
         "GitHub",
+        "Google",
         "Oracle",
         "Kling",
-        "Runway",
         "Amazon",
+        "Runway",
         "Meta",
         "Midjourney"
       ],
@@ -709,8 +717,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "NVIDIA",
-        "Gemini"
+        "Gemini",
+        "NVIDIA"
       ],
       "has_rumor": false,
       "source": "md",
@@ -755,8 +763,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Luma",
-        "Meta"
+        "Meta",
+        "Luma"
       ],
       "has_rumor": false,
       "source": "md",
@@ -800,8 +808,8 @@
         "Midjourney",
         "ElevenLabs",
         "Microsoft",
-        "Google",
-        "Zapier"
+        "Zapier",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -838,16 +846,16 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Claude",
         "Gemini",
+        "Claude",
         "Kling",
         "Meta",
         "Cloudflare",
         "Luma",
         "Anthropic",
         "Copilot",
-        "Google",
-        "Amazon"
+        "Amazon",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -966,8 +974,8 @@
       ],
       "companies": [
         "Anthropic",
-        "NVIDIA",
         "OpenAI",
+        "NVIDIA",
         "Google",
         "Adobe",
         "GitHub",
