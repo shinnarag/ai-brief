@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T10:18:15",
+  "generated_at": "2026-08-19T11:20:15",
   "platform": "AI Pulse",
   "count": 24,
   "domains": {
@@ -135,9 +135,9 @@
       "date": "2026-08-19",
       "title": "AI Daily Brief — 2026-08-19 (최근 24h)",
       "theme": "폰에서 그리고, 코워크는 전 유료로 열렸다",
-      "theme_blurb": "Gemini in Chrome이 미국 안드로이드 전원에 풀리고 Nano Banana로 페이지에서 이미지를 뽑는다. Claude Cowork는 유료 전 플랜 모바일·웹으로, Higgsfield는 Series B $400M을 찍었다.",
+      "theme_blurb": "Gemini in Chrome이 미국 안드로이드 전원에 풀리고 Nano Banana로 페이지에서 이미지를 뽑는다. Claude Cowork는 유료 전 플랜 모바일·웹으로 열렸고, Higgsfield는 Series B $400M을 찍었다.",
       "edition_title": "폰에서 그리고, 코워크는 전 유료로 열렸다",
-      "edition_blurb": "Gemini in Chrome이 미국 안드로이드 전원에 풀리고 Nano Banana로 페이지에서 이미지를 뽑는다. Claude Cowork는 유료 전 플랜 모바일·웹으로, Higgsfield는 Series B $400M을 찍었다.",
+      "edition_blurb": "Gemini in Chrome이 미국 안드로이드 전원에 풀리고 Nano Banana로 페이지에서 이미지를 뽑는다. Claude Cowork는 유료 전 플랜 모바일·웹으로 열렸고, Higgsfield는 Series B $400M을 찍었다.",
       "url": "brief/2026-08-19.html",
       "excerpt": "축은 Gemini in Chrome 미국 안드로이드 GA(Nano Banana 온페이지 이미지 + AI Pro/Ultra Auto Browse), Claude Cowork 유료 전 플랜 모바일·웹, Higgsfield Series B $400M @$5.4B(ARR $700M), Round Hill → Suno·Anthropic 각각 최대 $10억대 소송(8/17 제소, 8/18 브리프 미포함), OpenAI Astra RL 일시 정지(Hugging Face 평가 사고 + Cyber Critical",
       "top5": [
@@ -169,8 +169,8 @@
         "ElevenLabs",
         "Runway",
         "Grok",
-        "Copilot",
         "Firefly",
+        "Copilot",
         "Kling"
       ],
       "has_rumor": false,
@@ -212,8 +212,8 @@
         "Copilot",
         "ElevenLabs",
         "Google",
-        "Luma",
         "Grok",
+        "Luma",
         "Amazon",
         "GitHub",
         "Midjourney"
@@ -252,8 +252,8 @@
         "ChatGPT",
         "OpenAI",
         "DeepMind",
-        "Runway",
         "NVIDIA",
+        "Runway",
         "AWS",
         "xAI",
         "Kling",
@@ -443,8 +443,8 @@
         "ByteDance",
         "Midjourney",
         "ElevenLabs",
-        "DeepSeek",
-        "DeepMind"
+        "DeepMind",
+        "DeepSeek"
       ],
       "has_rumor": false,
       "source": "md",
@@ -710,12 +710,12 @@
         "Claude",
         "NVIDIA",
         "Hugging Face",
-        "Google",
         "GitHub",
+        "Google",
         "Oracle",
         "Kling",
-        "Runway",
         "Amazon",
+        "Runway",
         "Meta",
         "Midjourney"
       ],
@@ -850,8 +850,8 @@
         "Midjourney",
         "ElevenLabs",
         "Microsoft",
-        "Google",
-        "Zapier"
+        "Zapier",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -896,8 +896,8 @@
         "Luma",
         "Anthropic",
         "Copilot",
-        "Google",
-        "Amazon"
+        "Amazon",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1028,8 +1028,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Samsung"
       ],
       "has_rumor": false,
@@ -1107,8 +1107,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,
