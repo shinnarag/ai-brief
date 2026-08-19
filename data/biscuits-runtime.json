@@ -1,146 +1,113 @@
 {
-  "date": "2026-08-18",
-  "label": "8월 18일 브리프",
+  "date": "2026-08-19",
+  "label": "8월 19일 브리프",
   "termIds": [
-    "short-drama",
-    "upscale",
-    "open-weight",
-    "harness",
     "agent",
-    "early-access"
+    "deepfake",
+    "early-access",
+    "api",
+    "prompt",
+    "token"
   ],
   "allMatchedIds": [
-    "upscale",
-    "short-drama",
     "early-access",
-    "credits",
-    "harness",
-    "open-weight",
+    "deepfake",
     "prompt",
     "agent",
     "token",
-    "cli",
     "api"
   ],
   "candidates": [
     {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
-      "hits": 27,
-      "sample": "얼리로 올렸다. Runway Max Hailuo 무제한은 8/23까지, Suno Studio 2.0은 Premier D",
-      "brief_date": "2026-08-18"
-    },
-    {
-      "term": "해상도(720p/1080p/4K)",
-      "hint": "출력 화질 단위",
-      "hits": 17,
-      "sample": "ield는 Seedance 2.5를 1080p 얼리로 올렸다. Runway Max Hailuo 무제한은 8/23까지,",
-      "brief_date": "2026-08-18"
-    },
-    {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 13,
-      "sample": "치를 연 주, Higgsfield는 Seedance 2.5를 1080p 얼리로 올렸다. Runway Max Hailuo 무",
-      "brief_date": "2026-08-18"
-    },
-    {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
-      "hits": 12,
-      "sample": "대 5분·HF·ComfyUI), **Higgsfield Seedance 2.5 1080p 얼리**(Plus+, 8/14), *",
-      "brief_date": "2026-08-18"
+      "hits": 15,
+      "sample": "· Gmail 승인 기본값 확인 · Higgsfield 엔터 단가 워치 · Suno 소송 리스크 메모 수집 시각: 2026-0",
+      "brief_date": "2026-08-19"
     },
     {
       "term": "Suno",
       "hint": "음악 생성",
       "hits": 12,
-      "sample": "Hailuo 무제한은 8/23까지, Suno Studio 2.0은 Premier DAW에 MIDI를 붙였다. 실무",
-      "brief_date": "2026-08-18"
+      "sample": "ggsfield 엔터 단가 워치 · Suno 소송 리스크 메모 수집 시각: 2026-08-19 10:10 KST 범",
+      "brief_date": "2026-08-19"
     },
     {
-      "term": "MCP",
-      "hint": "Model Context Protocol",
-      "hits": 9,
-      "sample": "PT부터 신규·업그레이드 Max만. MCP·Agent 제외. 잔여 일수만. 5. **Gemini 3.7 Flas",
-      "brief_date": "2026-08-18"
-    },
-    {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
-      "hits": 9,
-      "sample": "2.5를 1080p 얼리로 올렸다. Runway Max Hailuo 무제한은 8/23까지, Suno Studio 2.0",
-      "brief_date": "2026-08-18"
-    },
-    {
-      "term": "ElevenLabs",
-      "hint": "음성 합성",
-      "hits": 8,
-      "sample": "ms) · 신뢰도: 공식 5. **ElevenLabs Hosted MCP — Claude 커넥터로 에이전트 운영 (8/17)",
-      "brief_date": "2026-08-18"
-    },
-    {
-      "term": "Luma",
-      "hint": "영상 생성",
-      "hits": 6,
-      "sample": "es) · 신뢰도: 보도 4. **Luma × Dumbstruck — 광고 Creative Intelligence",
-      "brief_date": "2026-08-18"
-    },
-    {
-      "term": "ComfyUI",
-      "hint": "노드 기반 생성 워크플로 UI",
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
       "hits": 4,
-      "sample": "다. 실무 액션: Music 3.0 ComfyUI·5분 곡 벤치 · Seedance 1080p 5컷 써 본다 · Stud",
-      "brief_date": "2026-08-18"
-    },
-    {
-      "term": "Kling",
-      "hint": "영상 생성 모델",
-      "hits": 3,
-      "sample": "GA 없음, Copilot만) · Kling API는 8/10 이펙트 1종(창 밖). **히트:** Music 3.",
-      "brief_date": "2026-08-18"
+      "sample": "전일 제외: Music 3.0 · Seedance 1080p EA · Studio 2.0 · Hailuo Max 무제한",
+      "brief_date": "2026-08-19"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 3,
-      "sample": "Daybreak AWS. > 스윕: Midjourney updates(V8.2=7/24 이후 신규 없음) · BFL blog(",
-      "brief_date": "2026-08-18"
+      "sample": "· Decart 협상. > 스윕: Midjourney updates(V8.2=7/24 이후 신규 없음) · BFL blog(",
+      "brief_date": "2026-08-19"
+    },
+    {
+      "term": "해상도(720p/1080p/4K)",
+      "hint": "출력 화질 단위",
+      "hits": 3,
+      "sample": "usic 3.0 · Seedance 1080p EA · Studio 2.0 · Hailuo Max 무제한 · Gemi",
+      "brief_date": "2026-08-19"
+    },
+    {
+      "term": "ElevenLabs",
+      "hint": "음성 합성",
+      "hits": 2,
+      "sample": "pilot · Ultrafast · ElevenLabs MCP · Imagen 4 셧다운 · Stripe–OpenRouter",
+      "brief_date": "2026-08-19"
     },
     {
       "term": "FLUX 3",
       "hint": "BFL 멀티모달·영상 모델",
       "hits": 2,
       "sample": "없음) · BFL blog(8/4 FLUX 3 Video 이후 신규 없음) · Seed 블로그(8/5 SeedReal",
-      "brief_date": "2026-08-18"
+      "brief_date": "2026-08-19"
+    },
+    {
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
+      "hits": 1,
+      "sample": "p EA · Studio 2.0 · Hailuo Max 무제한 · Gemini 3.7 Flash · DeepSeek V",
+      "brief_date": "2026-08-19"
+    },
+    {
+      "term": "Kling",
+      "hint": "영상 생성 모델",
+      "hits": 1,
+      "sample": "Decart Lucy 제품 GA · Kling 메이저 버전 · ElevenLabs·Suno·Udio·Firefly 제",
+      "brief_date": "2026-08-19"
+    },
+    {
+      "term": "MCP",
+      "hint": "Model Context Protocol",
+      "hits": 1,
+      "sample": "rafast · ElevenLabs MCP · Imagen 4 셧다운 · Stripe–OpenRouter · An",
+      "brief_date": "2026-08-19"
     },
     {
       "term": "Udio",
       "hint": "음악 생성",
       "hits": 1,
-      "sample": "미검증. - (영향) Suno·Udio·Lyria와 **로컬 5분 곡**을 같은 주에 비교. 브랜드 BGM·숏",
-      "brief_date": "2026-08-18"
+      "sample": "전 · ElevenLabs·Suno·Udio·Firefly 제품 GA: 창 내 미확인. - OpenAI 공식 pac",
+      "brief_date": "2026-08-19"
     },
     {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
       "hits": 1,
-      "sample": ". 창 내 신규 모델 글 없음. - fal featured · Decart Lucy 제품 GA · Kling 메이",
-      "brief_date": "2026-08-18"
+      "sample": "in Public도 8/14. - fal featured · Decart Lucy 제품 GA · Kling 메이",
+      "brief_date": "2026-08-19"
     },
     {
-      "term": "星图(광고 단가 플랫폼)",
-      "hint": "중국 인플루언서 단가 표시",
+      "term": "샌드박스",
+      "hint": "격리 실행 환경",
       "hits": 1,
-      "sample": "·9/3 시행. - 方桃子/팡타오즈 星图 단가: 8/4–11 보도, 창 내 신규 수치 없음. Trivium 숏드",
-      "brief_date": "2026-08-18"
-    },
-    {
-      "term": "워터마크",
-      "hint": "생성물 표시·추적",
-      "hits": 1,
-      "sample": "0·8/6 창 밖. - Claude 워터마크 해설(Verge 8/17)은 8/11–12에 다룬 이슈의 해설 재탕에",
-      "brief_date": "2026-08-18"
+      "sample": "**Hugging Face 평가 중 샌드박스 탈출 사고**, 미공개 **Astra**가 Preparedness Fr",
+      "brief_date": "2026-08-19"
     }
   ],
   "catalogSize": 29

@@ -628,8 +628,8 @@
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-08-18",
-    termIds: ["short-drama", "upscale", "open-weight", "harness", "agent", "early-access"]
+    date: "2026-08-19",
+    termIds: ["agent", "deepfake", "early-access", "api", "prompt", "token"]
   };
 
   const TAGS = [
