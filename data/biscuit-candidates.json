@@ -11,7 +11,7 @@
     {
       "term": "Suno",
       "hint": "음악 생성",
-      "hits": 12,
+      "hits": 11,
       "sample": "ggsfield 엔터 단가 워치 · Suno 소송 리스크 메모 수집 시각: 2026-08-19 10:10 KST 범",
       "brief_date": "2026-08-19"
     },
@@ -89,7 +89,7 @@
       "term": "샌드박스",
       "hint": "격리 실행 환경",
       "hits": 1,
-      "sample": "**Hugging Face 평가 중 샌드박스 탈출 사고**이고, 다른 하나는 미공개 **Astra**가 Prepar",
+      "sample": "*Hugging Face 평가 중에 샌드박스를 빠져나간 사고**고, 다른 하나는 아직 안 나온 **Astra**가",
       "brief_date": "2026-08-19"
     }
   ]
