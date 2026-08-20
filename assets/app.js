@@ -600,9 +600,23 @@
     }
   }
 
+
+  /* ---------- home calendar: pin scroll box to newest month ---------- */
+  function initCalScroll() {
+    const el = document.querySelector("[data-cal-scroll], .cal-box");
+    if (!el) return;
+    const pin = () => {
+      el.scrollTop = el.scrollHeight;
+    };
+    pin();
+    window.requestAnimationFrame(pin);
+    window.addEventListener("load", pin, { once: true });
+  }
+
   /* ---------- boot ---------- */
   initReadingChrome();
   initBriefDateNav();
   initTocSpy();
   initArchive();
+  initCalScroll();
 })();
