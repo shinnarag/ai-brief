@@ -37,14 +37,21 @@
       "term": "LLM",
       "hint": "설명 없는 대문자 약어",
       "hits": 7,
-      "sample": "t · WSJ 매출 · KT NPU LLM 스테이션 · 기이안 연애. ## 🔥 Top 5 1. **Higgsfi",
+      "sample": "t · WSJ 매출 · KT NPU LLM 스테이션 · 기이안 연애 · HappyShrimp 1.0 베타(8/17",
       "brief_date": "2026-08-20"
     },
     {
       "term": "NPU",
       "hint": "설명 없는 대문자 약어",
       "hits": 7,
-      "sample": "Tenet · WSJ 매출 · KT NPU LLM 스테이션 · 기이안 연애. ## 🔥 Top 5 1. **Hig",
+      "sample": "Tenet · WSJ 매출 · KT NPU LLM 스테이션 · 기이안 연애 · HappyShrimp 1.0 베타(",
+      "brief_date": "2026-08-20"
+    },
+    {
+      "term": "ATH",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "세운 **알리바바 Token Hub(ATH)** 제품이고, PC 웹이 국내·해외 같은 날 열렸어요. - (범",
       "brief_date": "2026-08-20"
     },
     {
@@ -59,6 +66,13 @@
       "hint": "영상 생성 모델",
       "hits": 2,
       "sample": "gelog(창 내 신규 없음). **Kling 5.0은 whatlaunched.today 등재만 있고 klingai.",
+      "brief_date": "2026-08-20"
+    },
+    {
+      "term": "MBW",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "happyshrimp.cn/) · [MBW](https://www.musicbusinessworldwide.com",
       "brief_date": "2026-08-20"
     },
     {
@@ -83,6 +97,20 @@
       "brief_date": "2026-08-20"
     },
     {
+      "term": "BGM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "·해외 동시에 열려 있으니, 브랜드 BGM·캠페인 송 초안을 happyshrimp.ai에서 한 번 돌려 보시면 돼",
+      "brief_date": "2026-08-20"
+    },
+    {
+      "term": "BPM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "넣거나 연주곡만 받을 수도 있고, BPM·조·악기 구성 같은 음악 훈련은 필요 없다고 해요. 알리바바가 이름을",
+      "brief_date": "2026-08-20"
+    },
+    {
       "term": "FLUX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
@@ -97,6 +125,13 @@
       "brief_date": "2026-08-20"
     },
     {
+      "term": "GROUP",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "파트너는 **TAIHE MUSIC GROUP(太合)** 이고, 아티스트 공동 창작과 고품질 콘텐츠 개발을 한다고 해",
+      "brief_date": "2026-08-20"
+    },
+    {
       "term": "Hailuo/MiniMax",
       "hint": "영상·모델 벤더",
       "hits": 1,
@@ -104,10 +139,31 @@
       "brief_date": "2026-08-20"
     },
     {
+      "term": "MUSIC",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "만 적어요. 파트너는 **TAIHE MUSIC GROUP(太合)** 이고, 아티스트 공동 창작과 고품질 콘텐츠 개발을",
+      "brief_date": "2026-08-20"
+    },
+    {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 1,
       "sample": "ni 3.7 Flash. > 스윕: Midjourney updates(V8.2=7/24 이후 신규 없음) · BFL blog(",
+      "brief_date": "2026-08-20"
+    },
+    {
+      "term": "Suno",
+      "hint": "음악 생성",
+      "hits": 1,
+      "sample": "ai에서 한 번 돌려 보시면 돼요. Suno·Udio와 같은 칸의 빅테크 엔트리고, 태합 라이선스 범위와 아란야 현",
+      "brief_date": "2026-08-20"
+    },
+    {
+      "term": "TAIHE",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "여기선 달러만 적어요. 파트너는 **TAIHE MUSIC GROUP(太合)** 이고, 아티스트 공동 창작과 고품질 콘",
       "brief_date": "2026-08-20"
     },
     {
