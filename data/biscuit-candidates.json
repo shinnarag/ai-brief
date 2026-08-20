@@ -1,96 +1,61 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "candidates": [
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
-      "hits": 15,
-      "sample": "· Gmail 승인 기본값 확인 · Higgsfield 엔터 단가 워치 · Suno 소송 리스크 메모 수집 시각: 2026-0",
-      "brief_date": "2026-08-19"
-    },
-    {
-      "term": "Suno",
-      "hint": "음악 생성",
       "hits": 11,
-      "sample": "ggsfield 엔터 단가 워치 · Suno 소송 리스크 메모 수집 시각: 2026-08-19 10:10 KST 범",
-      "brief_date": "2026-08-19"
+      "sample": "크·규제 / SNS > 오늘은 **Higgsfield The Cully Hill Boys**(초상 라이선스 장편, Semaf",
+      "brief_date": "2026-08-20"
     },
     {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 4,
-      "sample": "전일 제외: Music 3.0 · Seedance 1080p EA · Studio 2.0 · Hailuo Max 무제한",
-      "brief_date": "2026-08-19"
-    },
-    {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
-      "hits": 3,
-      "sample": "· Decart 협상. > 스윕: Midjourney updates(V8.2=7/24 이후 신규 없음) · BFL blog(",
-      "brief_date": "2026-08-19"
-    },
-    {
-      "term": "해상도(720p/1080p/4K)",
-      "hint": "출력 화질 단위",
-      "hits": 3,
-      "sample": "usic 3.0 · Seedance 1080p EA · Studio 2.0 · Hailuo Max 무제한 · Gemi",
-      "brief_date": "2026-08-19"
-    },
-    {
-      "term": "ElevenLabs",
-      "hint": "음성 합성",
+      "term": "Kling",
+      "hint": "영상 생성 모델",
       "hits": 2,
-      "sample": "pilot · Ultrafast · ElevenLabs MCP · Imagen 4 셧다운 · Stripe–OpenRouter",
-      "brief_date": "2026-08-19"
+      "sample": "gelog(창 내 신규 없음). **Kling 5.0은 whatlaunched.today 등재만 있고 klingai.",
+      "brief_date": "2026-08-20"
     },
     {
       "term": "FLUX 3",
       "hint": "BFL 멀티모달·영상 모델",
-      "hits": 2,
+      "hits": 1,
       "sample": "없음) · BFL blog(8/4 FLUX 3 Video 이후 신규 없음) · Seed 블로그(8/5 SeedReal",
-      "brief_date": "2026-08-19"
+      "brief_date": "2026-08-20"
     },
     {
       "term": "Hailuo/MiniMax",
       "hint": "영상·모델 벤더",
       "hits": 1,
-      "sample": "p EA · Studio 2.0 · Hailuo Max 무제한 · Gemini 3.7 Flash · DeepSeek V",
-      "brief_date": "2026-08-19"
+      "sample": "이트: 8/10. 창 밖 회고. - MiniMax H3 오픈웨이트: 7/31~8/13. 창 밖. - Higgsfield",
+      "brief_date": "2026-08-20"
     },
     {
-      "term": "Kling",
-      "hint": "영상 생성 모델",
+      "term": "Midjourney",
+      "hint": "이미지 생성 서비스",
       "hits": 1,
-      "sample": "art Lucy 제품 정식 공개 · Kling 메이저 버전 · ElevenLabs·Suno·Udio·Firefly 제",
-      "brief_date": "2026-08-19"
+      "sample": "ni 3.7 Flash. > 스윕: Midjourney updates(V8.2=7/24 이후 신규 없음) · BFL blog(",
+      "brief_date": "2026-08-20"
     },
     {
-      "term": "MCP",
-      "hint": "Model Context Protocol",
+      "term": "RAG",
+      "hint": "검색 증강 생성",
       "hits": 1,
-      "sample": "rafast · ElevenLabs MCP · Imagen 4 셧다운 · Stripe–OpenRouter · An",
-      "brief_date": "2026-08-19"
-    },
-    {
-      "term": "Udio",
-      "hint": "음악 생성",
-      "hits": 1,
-      "sample": "전 · ElevenLabs·Suno·Udio·Firefly 제품 정식 공개: 창 내 미확인. - OpenAI 공식",
-      "brief_date": "2026-08-19"
-    },
-    {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 1,
-      "sample": "in Public도 8/14. - fal featured · Decart Lucy 제품 정식 공개 · Kling",
-      "brief_date": "2026-08-19"
+      "sample": "문서 초안을 돌려야 하는 팀은 데모 RAG 한 건만 보시면 돼요. 클라우드 영상 모델 대체는 아니고, 온프레 텍스",
+      "brief_date": "2026-08-20"
     },
     {
       "term": "샌드박스",
       "hint": "격리 실행 환경",
       "hits": 1,
-      "sample": "*Hugging Face 평가 중에 샌드박스를 빠져나간 사고**고, 다른 하나는 아직 안 나온 **Astra**가",
-      "brief_date": "2026-08-19"
+      "sample": "인**을 걸 수 있고, 셀프호스티드 샌드박스에 메모리 스토어를 붙일 수 있어요. 콘솔 세션 뷰어는 타임라인·요청별",
+      "brief_date": "2026-08-20"
+    },
+    {
+      "term": "워터마크",
+      "hint": "생성물 표시·추적",
+      "hits": 1,
+      "sample": "**재탕 생략.** - Gemini 워터마크 토글: The Verge 8/14. 창 밖. - Muse Glimmer",
+      "brief_date": "2026-08-20"
     }
   ]
 }
