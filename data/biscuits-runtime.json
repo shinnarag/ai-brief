@@ -4,10 +4,10 @@
   "termIds": [
     "character-ip",
     "t2v",
-    "open-weight",
-    "agent",
-    "early-access",
-    "credits"
+    "rag",
+    "zdr",
+    "sandbox",
+    "open-weight"
   ],
   "allMatchedIds": [
     "t2v",
@@ -18,7 +18,12 @@
     "prompt",
     "agent",
     "token",
-    "api"
+    "api",
+    "zdr",
+    "rag",
+    "sandbox",
+    "watermark",
+    "ga"
   ],
   "candidates": [
     {
@@ -29,10 +34,59 @@
       "brief_date": "2026-08-20"
     },
     {
+      "term": "LLM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 7,
+      "sample": "t · WSJ 매출 · KT NPU LLM 스테이션 · 기이안 연애. ## 🔥 Top 5 1. **Higgsfi",
+      "brief_date": "2026-08-20"
+    },
+    {
+      "term": "NPU",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 7,
+      "sample": "Tenet · WSJ 매출 · KT NPU LLM 스테이션 · 기이안 연애. ## 🔥 Top 5 1. **Hig",
+      "brief_date": "2026-08-20"
+    },
+    {
+      "term": "ATOM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "NPU LLM 스테이션 — 리벨리온 ATOM-MAX + 믿음 K 2.5 Pro 일체형 (8/19)** - (사",
+      "brief_date": "2026-08-20"
+    },
+    {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 2,
       "sample": "gelog(창 내 신규 없음). **Kling 5.0은 whatlaunched.today 등재만 있고 klingai.",
+      "brief_date": "2026-08-20"
+    },
+    {
+      "term": "망분리",
+      "hint": "내부망과 외부망을 나눈 환경",
+      "hits": 2,
+      "sample": "데이터·연산이 사내에서만 돌아가요. 망분리 공공·국방·제약·제조·금융을 타깃으로 적어요. 설치 당일부터 사내 문서",
+      "brief_date": "2026-08-20"
+    },
+    {
+      "term": "소버린 AI",
+      "hint": "자국·자체 인프라에서 도는 AI 스택",
+      "hits": 2,
+      "sample": "에 두고 당일 RAG를 켤 수 있는 소버린 어플라이언스고, 기존 API 주소만 바꾸면 된다고 해요. ## 📦 모",
+      "brief_date": "2026-08-20"
+    },
+    {
+      "term": "BFL",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": ".2=7/24 이후 신규 없음) · BFL blog(8/4 FLUX 3 Video 이후 신규 없음) · Seed",
+      "brief_date": "2026-08-20"
+    },
+    {
+      "term": "FLUX",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "없음) · BFL blog(8/4 FLUX 3 Video 이후 신규 없음) · Seed 블로그(8/5 SeedRe",
       "brief_date": "2026-08-20"
     },
     {
@@ -57,26 +111,12 @@
       "brief_date": "2026-08-20"
     },
     {
-      "term": "RAG",
-      "hint": "검색 증강 생성",
+      "term": "온프레미스",
+      "hint": "사내·자체 인프라에서 실행",
       "hits": 1,
-      "sample": "문서 초안을 돌려야 하는 팀은 데모 RAG 한 건만 보시면 돼요. 클라우드 영상 모델 대체는 아니고, 온프레 텍스",
-      "brief_date": "2026-08-20"
-    },
-    {
-      "term": "샌드박스",
-      "hint": "격리 실행 환경",
-      "hits": 1,
-      "sample": "인**을 걸 수 있고, 셀프호스티드 샌드박스에 메모리 스토어를 붙일 수 있어요. 콘솔 세션 뷰어는 타임라인·요청별",
-      "brief_date": "2026-08-20"
-    },
-    {
-      "term": "워터마크",
-      "hint": "생성물 표시·추적",
-      "hits": 1,
-      "sample": "**재탕 생략.** - Gemini 워터마크 토글: The Verge 8/14. 창 밖. - Muse Glimmer",
+      "sample": "클라우드 영상 모델 대체는 아니고, 온프레 텍스트 에이전트 후보예요. - 출처: [아이티비즈](https:/",
       "brief_date": "2026-08-20"
     }
   ],
-  "catalogSize": 29
+  "catalogSize": 34
 }

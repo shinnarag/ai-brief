@@ -133,7 +133,7 @@
               <a class="top-index-title" href="#c-테크-인프라-규제-보안-01">KT NPU LLM 스테이션 — 리벨리온 칩+믿음 K 2.5를 한 서버에</a>
               <a class="top-index-cat top-index-cat--tech" href="#테크-인프라-규제-보안" title="섹션으로 이동">테크 · 인프라</a>
             </div>
-            <p class="top-index-blurb">사내에 두고 당일 RAG를 켤 수 있는 소버린 어플라이언스고, 기존 <button type="button" class="inline-biscuit" data-biscuit="api">API</button> 주소만 바꾸면 된다고 해요.</p>
+            <p class="top-index-blurb">사내에 두고 당일 <button type="button" class="inline-biscuit" data-biscuit="rag">RAG</button>를 켤 수 있는 소버린 어플라이언스고, 기존 <button type="button" class="inline-biscuit" data-biscuit="api">API</button> 주소만 바꾸면 된다고 해요.</p>
             <a class="top-index-go" href="#c-테크-인프라-규제-보안-01">본문 보기 →</a>
           </div>
         </div></div></section><section class="content-card content-card--model news-section" id="모델-플랫폼" data-icon="models"><h2 class="news-section-title"><span class="sec-icon sec-icon--models" aria-hidden="true"><svg class="icon-svg icon-svg--models" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><path d="M12 3.8 4.8 8v8L12 20.2 19.2 16V8L12 3.8z"/><path d="M4.8 8 12 12.2 19.2 8M12 12.2V20.2" opacity=".55"/></svg></span><span class="sec-title-text">모델 · 플랫폼</span></h2><div class="news-grid">
@@ -143,8 +143,8 @@
             <span class="news-chip news-chip-top5">Top 2</span>
             
           </div>
-          <h3 class="news-title">Claude — Files <button type="button" class="inline-biscuit" data-biscuit="api">API</button>·<button type="button" class="inline-biscuit" data-biscuit="agent">Agent</button> Skills 정식 공개, Admin 사용자 관리도 헤더 해제 (8/19)</h3>
-          <ul class="news-bullets"><li>(사실) Anthropic이 8/19 플랫폼 릴리즈 노트에서 Files API와 Agent Skills(/v1/skills)를 정식으로 열었어요. /v1/files와 올린 파일을 가리키는 Messages 요청, container로 스킬을 불러오는 요청 모두 <button type="button" class="inline-biscuit" data-biscuit="early-access">베타</button> 헤더가 더 이상 필요 없어요. 예전 헤더를 보내도 그대로 받아 줘요.</li><li>(Files 범위) 파일 하나 최대 500 MB, 조직 저장 1 TB, 분당 약 500 요청이에요. 올릴 때 expires_in_seconds를 1시간~90일로 넣으면 expires_at이 생기고, 안 넣으면 null이에요. 워크스페이스 안의 모든 키가 같은 파일을 볼 수 있어서, 테넌트별로 워크스페이스를 나누셔야 해요. ZDR 대상은 아니에요.</li><li>(Skills) 미리 만든 스킬은 PowerPoint(pptx)·Excel(xlsx)·Word(docx)·PDF(pdf) 이고, 코드 실행 툴이 있어야 돌아가요. API 쪽 스킬 컨테이너는 네트워크가 없고 런타임에 패키지를 못 깔아요. claude.ai 커스텀 스킬은 개인 단위고, API는 워크스페이스 공유예요.</li><li>(같은 날) Enterprise Admin API 사용자 관리(멤버·초대·그룹·커스텀 롤)도 정식이에요. Managed Agents는 web_search/web_fetch에 허용·차단 도메인을 걸 수 있고, 셀프호스티드 샌드박스에 메모리 스토어를 붙일 수 있어요. 콘솔 세션 뷰어는 타임라인·요청별 트랜스크립트·비용 인스펙터로 바뀌었어요.</li><li>(영향) 브랜드 가이드 PDF와 레퍼런스 컷을 한 번 올려 두고 캠페인 초안에 재사용하시면 돼요. 슬라이드·시트 스킬은 스테이징에서 헤더를 뺀 요청으로 한 번만 확인해 보시면 좋아요.</li></ul>
+          <h3 class="news-title">Claude — Files <button type="button" class="inline-biscuit" data-biscuit="api">API</button>·<button type="button" class="inline-biscuit" data-biscuit="agent">Agent</button> Skills <button type="button" class="inline-biscuit" data-biscuit="ga">정식 공개</button>, Admin 사용자 관리도 헤더 해제 (8/19)</h3>
+          <ul class="news-bullets"><li>(사실) Anthropic이 8/19 플랫폼 릴리즈 노트에서 Files API와 Agent Skills(/v1/skills)를 정식으로 열었어요. /v1/files와 올린 파일을 가리키는 Messages 요청, container로 스킬을 불러오는 요청 모두 <button type="button" class="inline-biscuit" data-biscuit="early-access">베타</button> 헤더가 더 이상 필요 없어요. 예전 헤더를 보내도 그대로 받아 줘요.</li><li>(Files 범위) 파일 하나 최대 500 MB, 조직 저장 1 TB, 분당 약 500 요청이에요. 올릴 때 expires_in_seconds를 1시간~90일로 넣으면 expires_at이 생기고, 안 넣으면 null이에요. 워크스페이스 안의 모든 키가 같은 파일을 볼 수 있어서, 테넌트별로 워크스페이스를 나누셔야 해요. <button type="button" class="inline-biscuit" data-biscuit="zdr">ZDR</button>(<button type="button" class="inline-biscuit" data-biscuit="zdr">데이터 미보관</button>) 대상은 아니에요.</li><li>(Skills) 미리 만든 스킬은 PowerPoint(pptx)·Excel(xlsx)·Word(docx)·PDF(pdf) 이고, 코드 실행 툴이 있어야 돌아가요. API 쪽 스킬 컨테이너는 네트워크가 없고 런타임에 패키지를 못 깔아요. claude.ai 커스텀 스킬은 개인 단위고, API는 워크스페이스 공유예요.</li><li>(같은 날) Enterprise Admin API 사용자 관리(멤버·초대·그룹·커스텀 롤)도 정식이에요. Managed Agents는 web_search/web_fetch에 허용·차단 도메인을 걸 수 있고, 셀프호스티드 <button type="button" class="inline-biscuit" data-biscuit="sandbox">샌드박스</button>에 메모리 스토어를 붙일 수 있어요. 콘솔 세션 뷰어는 타임라인·요청별 트랜스크립트·비용 인스펙터로 바뀌었어요.</li><li>(영향) 브랜드 가이드 PDF와 레퍼런스 컷을 한 번 올려 두고 캠페인 초안에 재사용하시면 돼요. 슬라이드·시트 스킬은 스테이징에서 헤더를 뺀 요청으로 한 번만 확인해 보시면 좋아요.</li></ul>
           <div class="news-footer"><a class="news-chip" href="https://platform.claude.com/docs/en/release-notes/overview" target="_blank" rel="noreferrer">플랫폼 릴리즈 노트</a><a class="news-chip" href="https://platform.claude.com/docs/en/build-with-claude/files" target="_blank" rel="noreferrer">Files API</a><a class="news-chip" href="https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview" target="_blank" rel="noreferrer">Agent Skills</a><span class="news-chip news-chip-muted">공식</span></div>
         </article>
         <article class="news-card rel-official" id="c-모델-플랫폼-02" data-card-id="c-모델-플랫폼-02">
@@ -214,7 +214,7 @@
             
           </div>
           <h3 class="news-title">KT NPU LLM 스테이션 — 리벨리온 ATOM-MAX + 믿음 K 2.5 Pro 일체형 (8/19)</h3>
-          <ul class="news-bullets"><li>(사실) KT가 국산 NPU와 국산 LLM을 한 서버에 넣은 기업용 소버린 어플라이언스 KT NPU LLM 스테이션을 8/19 출시했다고 밝혔어요. 칩은 리벨리온 ATOM-MAX, 모델은 믿음 K 2.5 프로, 운영 API 플랫폼이 같이 들어가요.</li><li>(범위) 고객사 내부에 설치되고 데이터·연산이 사내에서만 돌아가요. 망분리 공공·국방·제약·제조·금융을 타깃으로 적어요. 설치 당일부터 사내 문서 RAG를 쓸 수 있고, 업계 표준 API라 기존 서비스의 접속 정보만 바꾸면 된다고 해요.</li><li>(이후) 회의록·코딩 지원·업무 자동화 에이전트 K-Claw(가칭) 를 순차 탑재하고, 피지컬 AI용 엣지 DC로 넓히겠다고 했어요. 판매가·랙당 성능 숫자는 보도에 없어요.</li><li>(영향) 사내 망분리 환경에서 카피·문서 초안을 돌려야 하는 팀은 데모 RAG 한 건만 보시면 돼요. 클라우드 영상 모델 대체는 아니고, 온프레 텍스트 에이전트 후보예요.</li></ul>
+          <ul class="news-bullets"><li>(사실) KT가 국산 NPU와 국산 LLM을 한 서버에 넣은 기업용 소버린 어플라이언스 KT NPU LLM 스테이션을 8/19 출시했다고 밝혔어요. 칩은 리벨리온 ATOM-MAX, 모델은 믿음 K 2.5 프로, 운영 API 플랫폼이 같이 들어가요.</li><li>(범위) 고객사 내부에 설치되고 데이터·연산이 사내에서만 돌아가요. 망분리 공공·국방·제약·제조·금융을 타깃으로 적어요. 설치 당일부터 사내 문서 <button type="button" class="inline-biscuit" data-biscuit="rag">RAG</button>를 쓸 수 있고, 업계 표준 API라 기존 서비스의 접속 정보만 바꾸면 된다고 해요.</li><li>(이후) 회의록·코딩 지원·업무 자동화 에이전트 K-Claw(가칭) 를 순차 탑재하고, 피지컬 AI용 엣지 DC로 넓히겠다고 했어요. 판매가·랙당 성능 숫자는 보도에 없어요.</li><li>(영향) 사내 망분리 환경에서 카피·문서 초안을 돌려야 하는 팀은 데모 <button type="button" class="inline-biscuit" data-biscuit="rag">RAG</button> 한 건만 보시면 돼요. 클라우드 영상 모델 대체는 아니고, 온프레 텍스트 에이전트 후보예요.</li></ul>
           <div class="news-footer"><a class="news-chip" href="https://www.it-b.co.kr/news/articleView.html?idxno=89543" target="_blank" rel="noreferrer">아이티비즈</a><a class="news-chip" href="https://www.koreatimes.co.kr/business/companies/20260819/kt-puts-korean-ai-chips-language-model-into-one-enterprise-server" target="_blank" rel="noreferrer">코리아타임스</a><span class="news-chip news-chip-muted">보도</span></div>
         </article></div></section><section class="content-card content-card--sns news-section" id="sns-트렌드-루머-바이럴" data-icon="sns"><h2 class="news-section-title"><span class="sec-icon sec-icon--sns" aria-hidden="true"><svg class="icon-svg icon-svg--sns" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><rect x="5" y="4.5" width="10.5" height="15" rx="2.2"/><path d="M8 8.2h4.5M8 11.2h4.5M8 14.2h2.8" opacity=".7"/><path d="M15.5 9.5h2.2a1.8 1.8 0 0 1 1.8 1.8v6.2a1.8 1.8 0 0 1-1.8 1.8H11" opacity=".55"/></svg></span><span class="sec-title-text">SNS 트렌드 · 루머 · 바이럴</span></h2><div class="news-grid">
         <article class="news-card rel-press" id="c-sns-트렌드-루머-바이럴-01" data-card-id="c-sns-트렌드-루머-바이럴-01">
@@ -351,13 +351,17 @@
 </tr>
 </tbody>
 </table></div></section>
-          <section class="related-biscuits-min news-section" id="related-biscuits" data-terms="early-access,agent,api,prompt,token,credits,character-ip" aria-label="관련 비스킷">
+          <section class="related-biscuits-min news-section" id="related-biscuits" data-terms="early-access,agent,api,prompt,rag,ga,zdr,sandbox,token,credits,character-ip" aria-label="관련 비스킷">
             <h2 class="news-section-title"><span class="sec-title-text">관련 비스킷</span></h2>
             <ul class="related-biscuits-min-list">
             <li><button type="button" data-biscuit="early-access">얼리 액세스</button></li>
             <li><button type="button" data-biscuit="agent">에이전트</button></li>
             <li><button type="button" data-biscuit="api">API</button></li>
             <li><button type="button" data-biscuit="prompt">프롬프트</button></li>
+            <li><button type="button" data-biscuit="rag">RAG</button></li>
+            <li><button type="button" data-biscuit="ga">정식 공개</button></li>
+            <li><button type="button" data-biscuit="zdr">ZDR</button></li>
+            <li><button type="button" data-biscuit="sandbox">샌드박스</button></li>
             <li><button type="button" data-biscuit="token">토큰</button></li>
             <li><button type="button" data-biscuit="credits">크레딧</button></li>
             <li><button type="button" data-biscuit="character-ip">캐릭터 IP</button></li>

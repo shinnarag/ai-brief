@@ -6,6 +6,18 @@
   "use strict";
 
   const ART = {
+      zdr: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef6f3"/>
+  <rect x="28" y="28" width="110" height="64" rx="12" fill="#fff" stroke="#0a7d6c" stroke-width="2"/>
+  <text x="83" y="56" text-anchor="middle" fill="#0a7d6c" font-size="12" font-weight="700" font-family="system-ui">요청</text>
+  <text x="83" y="76" text-anchor="middle" fill="#5f9e93" font-size="10" font-family="system-ui">파일 · 프롬프트</text>
+  <path d="M148 60 H186" stroke="#0a7d6c" stroke-width="3"/>
+  <polygon points="186,54 200,60 186,66" fill="#0a7d6c"/>
+  <rect x="210" y="28" width="122" height="64" rx="12" fill="#0a7d6c"/>
+  <text x="271" y="56" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">답만 남김</text>
+  <text x="271" y="76" text-anchor="middle" fill="#b8ebe0" font-size="10" font-family="system-ui">저장 안 함</text>
+</svg>`,
       cli: `
 <svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
   <rect width="360" height="120" fill="#1d1d1f"/>
@@ -331,6 +343,50 @@
   <rect x="150" y="36" width="170" height="48" rx="12" fill="#fff" stroke="#16a34a" stroke-width="2"/>
   <text x="235" y="58" text-anchor="middle" fill="#14532d" font-size="12" font-weight="700" font-family="system-ui">생성 크레딧</text>
   <text x="235" y="74" text-anchor="middle" fill="#4ade80" font-size="10" font-family="system-ui">구독·종량 결제 단위</text>
+</svg>`,
+      rag: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef6f3"/>
+  <rect x="20" y="28" width="92" height="64" rx="12" fill="#fff" stroke="#0a7d6c" stroke-width="2"/>
+  <text x="66" y="56" text-anchor="middle" fill="#0a7d6c" font-size="12" font-weight="700" font-family="system-ui">문서 검색</text>
+  <text x="66" y="74" text-anchor="middle" fill="#5f9e93" font-size="10" font-family="system-ui">사내 · 가이드</text>
+  <path d="M122 60 H154" stroke="#0a7d6c" stroke-width="3"/>
+  <polygon points="154,54 168,60 154,66" fill="#0a7d6c"/>
+  <rect x="176" y="28" width="72" height="64" rx="12" fill="#0a7d6c"/>
+  <text x="212" y="64" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">모델</text>
+  <path d="M256 60 H286" stroke="#0a7d6c" stroke-width="3"/>
+  <polygon points="286,54 300,60 286,66" fill="#0a7d6c"/>
+  <rect x="306" y="36" width="38" height="48" rx="10" fill="#fff" stroke="#0a7d6c" stroke-width="2"/>
+  <text x="325" y="64" text-anchor="middle" fill="#0a7d6c" font-size="11" font-weight="700" font-family="system-ui">답</text>
+</svg>`,
+      sandbox: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f4f0ea"/>
+  <rect x="48" y="18" width="264" height="84" rx="16" fill="none" stroke="#b45309" stroke-width="3" stroke-dasharray="7 5"/>
+  <rect x="86" y="36" width="188" height="50" rx="12" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
+  <text x="180" y="58" text-anchor="middle" fill="#9a3412" font-size="13" font-weight="700" font-family="system-ui">코드 실행</text>
+  <text x="180" y="76" text-anchor="middle" fill="#c2410c" font-size="10" font-family="system-ui">바깥 망 · 파일과 분리</text>
+</svg>`,
+      watermark: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fef2f2"/>
+  <rect x="36" y="22" width="170" height="76" rx="12" fill="#fff" stroke="#b91c1c" stroke-width="2"/>
+  <text x="121" y="56" text-anchor="middle" fill="#7f1d1d" font-size="13" font-weight="700" font-family="system-ui">생성 결과</text>
+  <text x="121" y="76" text-anchor="middle" fill="#f87171" font-size="10" font-family="system-ui">이미지 · 영상</text>
+  <rect x="150" y="40" width="168" height="44" rx="10" fill="#b91c1c" opacity="0.92"/>
+  <text x="234" y="66" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">AI 표시 · 추적</text>
+</svg>`,
+      ga: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fffbeb"/>
+  <rect x="28" y="30" width="118" height="60" rx="12" fill="#fff" stroke="#d97706" stroke-width="2"/>
+  <text x="87" y="56" text-anchor="middle" fill="#92400e" font-size="12" font-weight="700" font-family="system-ui">베타 · 초대</text>
+  <text x="87" y="74" text-anchor="middle" fill="#f59e0b" font-size="10" font-family="system-ui">제한 공개</text>
+  <path d="M156 60 H196" stroke="#d97706" stroke-width="3"/>
+  <polygon points="196,54 210,60 196,66" fill="#d97706"/>
+  <rect x="218" y="30" width="118" height="60" rx="12" fill="#d97706"/>
+  <text x="277" y="56" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">정식 공개</text>
+  <text x="277" y="74" text-anchor="middle" fill="#fde68a" font-size="10" font-family="system-ui">GA · 전원 개방</text>
 </svg>`
     };
 
@@ -616,6 +672,16 @@
       firstSeen: "2026-08-05"
     },
     {
+      id: "zdr",
+      term: "ZDR",
+      en: "Zero Data Retention",
+      tag: "work",
+      tagLabel: "활용",
+      text: "요청이 끝나면 프롬프트나 파일을 서버에 남기지 않는 약정이에요. 데이터 미보관이라고 불러요.",
+      detail: "ZDR(Zero Data Retention)은 API 호출이 끝난 뒤 입력·출력을 보관하지 않겠다는 엔터 약정입니다. 학습에도 안 쓰고, 로그에도 안 남기는 쪽이 목표예요. Files API처럼 파일을 워크스페이스에 올려 두는 기능은 보통 ZDR 밖이라서, 올린 파일이 만료 전까지 남아 있습니다. 브랜드 가이드나 캠페인 원본을 올릴 때는 워크스페이스 분리와 만료 설정을 같이 보시면 됩니다.",
+      firstSeen: "2026-08-20"
+    },
+    {
       id: "credits",
       term: "크레딧",
       en: "Credits",
@@ -624,12 +690,52 @@
       text: "생성 툴에서 한 번 렌더·한 장 뽑을 때마다 깎이는 사용량 단위예요.",
       detail: "크레딧은 구독 플랜에 묶이거나 종량 과금되는 ‘생성 횟수·연산량’ 단위입니다. Draft는 적게, 고해상·긴 초수는 많이 소모하는 식입니다. 팀 예산 관리에서는 인원별 크레딧 캡, 프로모 종료일, 연간 할인 조건을 브리프 가격 카드와 같이 봅니다.",
       firstSeen: "2026-08-05"
+    },
+    {
+      id: "rag",
+      term: "RAG",
+      en: "Retrieval-Augmented Generation",
+      tag: "work",
+      tagLabel: "활용",
+      text: "답을 만들기 전에 사내 문서 같은 걸 먼저 찾아 붙이는 방식이에요. 검색 증강 생성이라고 불러요.",
+      detail: "RAG(Retrieval-Augmented Generation, 검색 증강 생성)는 모델 기억만으로 답하지 않고, 검색·벡터 저장소에서 관련 문서를 가져온 뒤 그 조각을 프롬프트에 넣어 생성합니다. 사내 규정·캠페인 가이드처럼 ‘우리 자료’를 붙일 때 환각을 줄이는 기본 패턴이에요. 설치 당일 RAG가 켜진다는 말은 온프레 문서 검색이 바로 붙는다는 뜻으로 보시면 됩니다. 검색 품질·권한·최신성이 답 품질을 좌우해요.",
+      firstSeen: "2026-08-20"
+    },
+    {
+      id: "sandbox",
+      term: "샌드박스",
+      en: "Sandbox",
+      tag: "work",
+      tagLabel: "활용",
+      text: "에이전트가 코드를 돌릴 때, 바깥 시스템과 떨어뜨려 두는 격리 실행 환경이에요.",
+      detail: "샌드박스는 프로세스·네트워크·파일을 제한한 실행 칸입니다. 코딩 에이전트나 스킬이 패키지를 깔거나 사내망에 손대지 못하게 막을 때 씁니다. 셀프호스티드 샌드박스에 메모리 스토어를 붙인다는 말은, 격리는 유지한 채 대화 기억만 연결한다는 뜻이에요. 권한 최소화·사람 승인과 같이 설계하는 경우가 많아요.",
+      firstSeen: "2026-08-20"
+    },
+    {
+      id: "watermark",
+      term: "워터마크",
+      en: "Watermark",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "생성된 이미지·영상에 ‘AI가 만든 결과’라는 흔적을 심어 두는 표시예요.",
+      detail: "워터마크는 눈에 보이는 로고일 수도 있고, 픽셀·비트에 숨긴 탐지용 신호일 수도 있습니다. 딥페이크·비동의 합성 대응, 플랫폼 고지, 출처 추적에 쓰여요. 토글을 끄면 표시가 빠지는 제품도 있어, 브랜드 배포 전에 켜짐 여부와 탐지 가능 여부를 확인하는 편이 안전합니다.",
+      firstSeen: "2026-08-20"
+    },
+    {
+      id: "ga",
+      term: "정식 공개",
+      en: "Generally Available",
+      tag: "basics",
+      tagLabel: "기초",
+      text: "베타·초대 없이 대상 사용자에게 제품이 열린 상태예요. 영문에선 GA라고 불러요.",
+      detail: "GA(Generally Available)는 얼리 액세스·클로즈드 베타가 끝나고 일반(또는 해당 플랜) 사용자에게 정식으로 열리는 단계입니다. 본문 기본은 ‘정식 공개’이고, 하이라이트가 필요하면 `GA(정식 공개)`처럼 약어도 같이 둡니다. 베타 헤더 해제·API 정식은 이 전환을 가리켜요. 같은 베타 단계 재탕은 카드로 올리지 않습니다.",
+      firstSeen: "2026-08-20"
     }
   ];
 
   const LATEST_BRIEF = {
     date: "2026-08-20",
-    termIds: ["character-ip", "t2v", "open-weight", "agent", "early-access", "credits"]
+    termIds: ["character-ip", "t2v", "rag", "zdr", "sandbox", "open-weight"]
   };
 
   const TAGS = [
