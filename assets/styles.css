@@ -579,8 +579,14 @@ img { max-width: 100%; }
   border: 1px solid var(--line);
   border-radius: var(--radius-m);
   box-shadow: var(--shadow);
-  height: 480px;
-  max-height: 70vh;
+  /* One month in view. Desktop ~1120px:
+     sticky 일–토 ~38 + wrap pad 30 + title ~42
+     + 6-week grid (short first/last weekend rows 72, else 92;
+       max ~552–572 grid) + slack ≈ 640.
+     Tall enough that day 1–end of a 6-week month stay unclipped;
+     short enough that a second month does not sit fully in view. */
+  height: 640px;
+  max-height: min(640px, 88vh);
   overflow-x: hidden;
   overflow-y: auto;
   overscroll-behavior: contain;
@@ -738,7 +744,8 @@ a.cal-cell[data-tip]:focus-visible::after {
   visibility: visible;
 }
 @media (max-width: 560px) {
-  .cal-box { height: 400px; }
+  /* one 6-week month: 6 x 76 + gaps + sticky header + title + pad */
+  .cal-box { height: 560px; max-height: min(560px, 88vh); }
   .cal-wd-row { gap: 6px; padding: 8px 10px 6px; }
   .cal-wrap { gap: 16px; padding: 10px; }
   .cal-grid { gap: 6px; }
