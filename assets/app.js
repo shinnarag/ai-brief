@@ -607,18 +607,30 @@
     if (!el) return;
     const pin = () => {
       const last = el.querySelector(".cal-wrap .cal-month:last-child");
+      const wrap = el.querySelector(".cal-wrap");
       if (!last) {
         el.scrollTop = el.scrollHeight;
         return;
       }
       const header = el.querySelector(".cal-wd-row");
-      const headerH = header ? header.getBoundingClientRect().height : 0;
-      const delta = last.getBoundingClientRect().top - el.getBoundingClientRect().top - headerH;
-      el.scrollTop += delta;
+      const headerH = header ? header.offsetHeight : 0;
+      // Taller box > one month, so without extra bottom pad the scroller
+      // cannot place August under 일–토 (max scroll still shows July).
+      if (wrap) {
+        const room = el.clientHeight - headerH - last.offsetHeight;
+        wrap.style.paddingBottom = Math.max(18, Math.ceil(room)) + "px";
+      }
+      const lastTop =
+        last.getBoundingClientRect().top + el.scrollTop - el.getBoundingClientRect().top;
+      el.scrollTop = Math.max(0, Math.round(lastTop - headerH));
     };
     pin();
-    window.requestAnimationFrame(pin);
+    window.requestAnimationFrame(() => {
+      pin();
+      window.requestAnimationFrame(pin);
+    });
     window.addEventListener("load", pin, { once: true });
+    window.setTimeout(pin, 120);
   }
 
   /* ---------- boot ---------- */

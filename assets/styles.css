@@ -579,17 +579,20 @@ img { max-width: 100%; }
   border: 1px solid var(--line);
   border-radius: 12px;
   box-shadow: var(--shadow);
-  /* One month in view. Hairline cells are shorter than the old 92px
-     tiles, so the box comes down: 6-week month ≈ 500. Extra height
-     would reveal the previous month above when pinned to current. */
-  height: 520px;
-  max-height: min(520px, 88vh);
+  /* One 6-week month unclipped. Measured from current CSS:
+     sticky 일–토 ≈ 36px + month title ≈ 31px + 6×80px cells +
+     5×8px gaps + wrap bottom pad 18 + fade 12 ≈ 617. Extra
+     top/bottom air so the last week is not in the fade.
+     720 sits under two full months (~1100), so July+August
+     do not both sit in view when pinned to the current month. */
+  height: 720px;
+  max-height: min(720px, 90vh);
   overflow-x: hidden;
   overflow-y: auto;
   overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
   scroll-snap-type: y proximity;
-  scroll-padding-top: 34px;
+  scroll-padding-top: 36px;
   scrollbar-width: thin;
   scrollbar-color: var(--text-3) transparent;
   padding: 0;
@@ -772,7 +775,8 @@ a.cal-cell[data-tip]:focus-visible::after {
   visibility: visible;
 }
 @media (max-width: 560px) {
-  .cal-box { height: 460px; max-height: min(460px, 88vh); }
+  /* 6×68 + 5×6 gaps + sticky ≈ 32 + title ≈ 31 + pad/fade ≈ 523; extra air */
+  .cal-box { height: 640px; max-height: min(640px, 90vh); }
   .cal-wd-row { gap: 6px; padding: 8px 10px 6px; }
   .cal-wrap { gap: 16px; padding: 10px; }
   .cal-grid { gap: 6px; }
