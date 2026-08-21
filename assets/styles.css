@@ -682,10 +682,13 @@ a.cal-cell:focus-visible {
   min-height: 40px;
 }
 .cal-cell.is-weekend {
-  background: transparent;
-  border: none;
+  background: var(--fill-2);
+  border: 1px solid var(--line);
   box-shadow: none;
-  min-height: 40px;
+  min-height: 80px;
+  opacity: 1;
+  pointer-events: none;
+  cursor: default;
 }
 .cal-cell.is-weekend .cal-day { color: var(--text-3); }
 .cal-cell.is-pad {
@@ -774,8 +777,8 @@ a.cal-cell[data-tip]:focus-visible::after {
   .cal-wrap { gap: 16px; padding: 10px; }
   .cal-grid { gap: 6px; }
   .cal-cell { min-height: 68px; padding: 7px 8px; }
-  .cal-cell.is-empty,
-  .cal-cell.is-weekend { min-height: 32px; }
+  .cal-cell.is-empty { min-height: 32px; }
+  .cal-cell.is-weekend { min-height: 68px; }
   .cal-theme { font-size: 11px; }
 }
 
