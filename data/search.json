@@ -1,7 +1,407 @@
 {
-  "generated_at": "2026-08-20T16:38:06",
-  "count": 459,
+  "generated_at": "2026-08-21T10:28:56",
+  "count": 479,
   "items": [
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-01",
+      "title": "BFL — FLUX Upscale, 영상을 2K·4K로 다시 그려요",
+      "snippet": "480p부터 받아 네이티브 4K까지 올리고, 얼굴 번짐이나 물·잔디 격자 아티팩트도 손봐요. Precise는 신원 유지, Creative는 디테일을 더 만들어 줘요.",
+      "text": "BFL — FLUX Upscale, 영상을 2K·4K로 다시 그려요 480p부터 받아 네이티브 4K까지 올리고, 얼굴 번짐이나 물·잔디 격자 아티팩트도 손봐요. Precise는 신원 유지, Creative는 디테일을 더 만들어 줘요. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-top-5-01"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-02",
+      "title": "MiniMax Design — H3를 데스크톱 지휘대로 묶었어요",
+      "snippet": "카피·이미지·영상·오디오 에이전트가 한 캔버스에서 돌아가고, 맥·윈도 앱을 받아 숏드라마·이커머스·브랜드 TVC를 한 흐름으로 뽑으실 수 있어요.",
+      "text": "MiniMax Design — H3를 데스크톱 지휘대로 묶었어요 카피·이미지·영상·오디오 에이전트가 한 캔버스에서 돌아가고, 맥·윈도 앱을 받아 숏드라마·이커머스·브랜드 TVC를 한 흐름으로 뽑으실 수 있어요. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-top-5-02"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-03",
+      "title": "Higgsfield Faceless Studio — 슈퍼컴퓨터 스킬이 독립 제품이 됐어요",
+      "snippet": "주제·스타일·내레이션 세 스텝으로 1~5분 에피소드를 만들고, 채널에 스타일과 목소리를 저장해 회차 톤을 맞춰 두실 수 있어요.",
+      "text": "Higgsfield Faceless Studio — 슈퍼컴퓨터 스킬이 독립 제품이 됐어요 주제·스타일·내레이션 세 스텝으로 1~5분 에피소드를 만들고, 채널에 스타일과 목소리를 저장해 회차 톤을 맞춰 두실 수 있어요. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-top-5-03"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-04",
+      "title": "OpenAI — gpt-image-2 투명 배경이 프리뷰로 열렸어요",
+      "snippet": "Images API와 Responses API에서 background=transparent에 PNG·WebP를 붙이면 컷아웃 에셋을 바로 뽑으실 수 있고, JPEG는 투명을 못 담아요.",
+      "text": "OpenAI — gpt-image-2 투명 배경이 프리뷰로 열렸어요 Images API와 Responses API에서 background=transparent에 PNG·WebP를 붙이면 컷아웃 에셋을 바로 뽑으실 수 있고, JPEG는 투명을 못 담아요. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-top-5-04"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-05",
+      "title": "Slack Code — 코딩 에이전트가 프로젝트 채널에서 일해요",
+      "snippet": "무료 플랜 포함 전 플랜에서 에이전트를 태그하면 코드 채널이 열리고, 사람이 승인하기 전에는 나가지 않아요.",
+      "text": "Slack Code — 코딩 에이전트가 프로젝트 채널에서 일해요 무료 플랜 포함 전 플랜에서 에이전트를 태그하면 코드 채널이 열리고, 사람이 승인하기 전에는 나가지 않아요. 모델 · 플랫폼",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-top-5-05"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-01",
+      "title": "Slack Code — 코딩 에이전트가 전용 코드 채널에서 일하고, 사람이 승인해요 (8/20)",
+      "snippet": "(사실) Slack이 Slack Code를 열었어요. 아이디어·버그·페이지 수정을 대화에 적고 Claude Code나 Devin 같은 에이전트를 태그하면, 그 작업만 보는 코드 채널이 생겨요. Unite.AI는 날짜를 8/20으로 적었고, 공식 헬프는 8월 업데이트 맨 위에 올려…",
+      "text": "Slack Code — 코딩 에이전트가 전용 코드 채널에서 일하고, 사람이 승인해요 (8/20) (사실) Slack이 Slack Code를 열었어요. 아이디어·버그·페이지 수정을 대화에 적고 Claude Code나 Devin 같은 에이전트를 태그하면, 그 작업만 보는 코드 채널이 생겨요. Unite.AI는 날짜를 8/20으로 적었고, 공식 헬프는 8월 업데이트 맨 위에 올려 두었어요. (범위) 무료 플랜을 포함한 모든 플랜에서 당일부터 쓸 수 있어요. 마켓플레이스 에이전트와 붙고, 창립 파트너는 Claude Code, Devin, Vercel Agent, GitHub Copilot이에요. 파트너 에이전트가 코드 채널 안에 실제로 들어오는 건 “곧 연동”이라고만 적혀 있어요. (채널) 참여자마다 탭이 있고, 팀은 에이전트가 보는 대화를 같이 보고 코드 diff를 검토하고 HTML 미리보기를 띄워요. 피드백을 남기면 에이전트가 반영하고, 사람이 승인하기 전에는 나가지 않아요. 일이 끝나면 채널이 자동으로 아카이브되고 감사 로그가 남아요. (맥락) 전날(8/19) Salesforce가 Slackbot MCP(모델 컨텍스트 프로토콜) 클라이언트를 정식으로 열었고, Slack Code는 그 배관 위에 올린 배포 표면이에요. Cursor가 어제 연 클라우드 에이전트 구독(PR·Slack 스레드를 보다가 깨우는 기능)과는 다른 제품이에요. (영향) 제작 툴 레포를 Slack에서 리뷰하는 팀은 코드 채널 한 건만 파일럿해 보시면 돼요. 에이전트가 혼자 DM에서 고치던 작업을 채널로 옮기면 승인과 로그가 같이 따라와요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-모델-플랫폼-01"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-02",
+      "title": "ChatGPT — Apple Messages 플러그인, 실리콘 맥의 Codex·Work에서만 (8/20)",
+      "snippet": "(사실) OpenAI가 ChatGPT 데스크톱에 Apple Messages 플러그인을 넣었어요. MacRumors는 8/20 16:12 PDT(한국 시간 8/21 08:12)로 적었어요. iMessage·SMS·RCS를 검색하고 초안을 잡고, 보내기도 해요.",
+      "text": "ChatGPT — Apple Messages 플러그인, 실리콘 맥의 Codex·Work에서만 (8/20) (사실) OpenAI가 ChatGPT 데스크톱에 Apple Messages 플러그인을 넣었어요. MacRumors는 8/20 16:12 PDT(한국 시간 8/21 08:12)로 적었어요. iMessage·SMS·RCS를 검색하고 초안을 잡고, 보내기도 해요. (범위) Apple silicon 맥의 데스크톱 앱만이에요. Intel 맥·웹·모바일·Codex CLI·IDE 확장은 빠져요. 모든 플랜이고, 플러그인 디렉터리 Public에서 설치한 뒤 Codex와 ChatGPT Work 세션에서만 돌아가요. 일반 ChatGPT 채팅에는 안 붙어요. 폰에서 ChatGPT로 문자를 보내는 기능도 아니에요. (권한·승인) 쓰려면 macOS 전체 디스크 접근과 연락처·자동화 권한이 필요해요. 기본은 보낼 메시지와 수신자를 매번 승인해요. OpenAI는 지속 승인을 켜지 말라고 했고, 켜면 보내기 전에 한 번 더 볼 기회가 사라진다고 적었어요. 보내기 전에 고칠 수도 있어요. (프라이버시) OpenAI는 Bloomberg에 플러그인이 기기 로컬에서 돌고 “누군가의 메시지를 전부 색인하지는 않는다”고 했어요. AppleScript와 손쉬운 사용으로 붙는다는 서술도 같이 나와요. (영향) 캠페인 회신 초안을 맥에서 돌리는 분은 Work 세션에서 검색·초안만 먼저 써 보시면 돼요. 지속 승인은 끄고, 브랜드 계정 맥에는 권한을 최소로 두시면 좋아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-모델-플랫폼-02"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-03",
+      "title": "Meta AI Mac 앱 — Muse Spark로 받아쓰기·화면 맥락, 광고 계정도 붙어요 (8/20)",
+      "snippet": "(사실) Meta가 Meta AI 맥 앱을 발표했어요. TechCrunch는 8/20 05:11 PDT(한국 시간 21:11)이에요. 시스템 전체 받아쓰기와, 지금 화면을 보고 질문하는 기능이 Muse Spark로 돌아가요.",
+      "text": "Meta AI Mac 앱 — Muse Spark로 받아쓰기·화면 맥락, 광고 계정도 붙어요 (8/20) (사실) Meta가 Meta AI 맥 앱을 발표했어요. TechCrunch는 8/20 05:11 PDT(한국 시간 21:11)이에요. 시스템 전체 받아쓰기와, 지금 화면을 보고 질문하는 기능이 Muse Spark로 돌아가요. (범위) MacObserver는 1.0 베타, 설치 후 약 16MB, macOS 15+, Apple silicon, AppKit·SwiftUI·WebKit 네이티브라고 적었어요. Electron 래핑이 아니에요. Option-Space로 지금 앱 위에 호출 창을 띄워요(Quick Invoke). 받아쓰기는 단축키를 누르고 말하면 Mail·문서·코드 에디터에 글자가 들어가요. (화면) 스크린 녹화·손쉬운 사용 권한을 주면 다른 맥 창을 대화에 붙여 보이는 텍스트와 스크린샷을 읽어요. 맥을 조종하지는 않아요. 사이드바에는 미디어·아티팩트·예약 작업·대화 기록·About Me가 있어요. (비즈니스) 같은 업데이트에서 상점 주인은 Instagram·Facebook 계정, Meta 광고 캠페인, Google Workspace(Gmail·Docs·Sheets·Slides)를 연결해요. 게시 성과·참여를 물어보고, 공개 데이터로 경쟁사 감각을 보고, 제안 덱·문서·시트를 만들 수 있다고 해요. (영향) 광고 운영과 카피를 맥에서 같이 보는 팀은 받아쓰기와 광고 계정 연결만 먼저 켜 보시면 돼요. 창을 붙이는 권한은 스테이징 맥에서만 주시면 좋아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-모델-플랫폼-03"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-04",
+      "title": "OpenAI — Prompt Caching 대시보드가 API 플랫폼에 붙었어요 (8/20)",
+      "snippet": "캐시 적중률, 쓰기 대비 읽기, 캐시 읽기·쓰기·미캐시 토큰 비중을 모델·서비스 티어로 걸러 볼 수 있어요. 긴 브랜드 가이드를 반복 넣는 팀은 적중률만 오늘 한 번 보시면 돼요.",
+      "text": "OpenAI — Prompt Caching 대시보드가 API 플랫폼에 붙었어요 (8/20) 캐시 적중률, 쓰기 대비 읽기, 캐시 읽기·쓰기·미캐시 토큰 비중을 모델·서비스 티어로 걸러 볼 수 있어요. 긴 브랜드 가이드를 반복 넣는 팀은 적중률만 오늘 한 번 보시면 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-모델-플랫폼-04"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-05",
+      "title": "Thomson Reuters — CoCounsel Legal 차세대가 미국에서 정식 공개 (8/20)",
+      "snippet": "(사실) Thomson Reuters가 CoCounsel Legal 다음 세대를 미국에서 정식으로 열었어요. Anthropic Claude Agent SDK 위에 올렸고, Westlaw·Practical Law 인용으로 리서치부터 산출물까지 한 워크플로로 간다고 해요. 캐나다·영국…",
+      "text": "Thomson Reuters — CoCounsel Legal 차세대가 미국에서 정식 공개 (8/20) (사실) Thomson Reuters가 CoCounsel Legal 다음 세대를 미국에서 정식으로 열었어요. Anthropic Claude Agent SDK 위에 올렸고, Westlaw·Practical Law 인용으로 리서치부터 산출물까지 한 워크플로로 간다고 해요. 캐나다·영국·호주는 올해 안이에요. (신기능) Westlaw Brief Builder가 쟁점 분석에서 브리프 초안까지 권한을 검증하며 이어 주고, Workspaces는 사건 문서를 한곳에 묶어요. Word 안의 Drafting Agent, 최대 1만 건·질문 100개의 Tabular Analysis, Deep Research Verify가 같이 나왔어요. (연동) 8월에 Claude로 인용 산출물을 받는 CoCounsel Legal MCP(모델 컨텍스트 프로토콜)가 넓어졌어요. AWS Amazon Quick MCP는 예고, Reveal 증거 연동은 10월이에요. CoCounsel 사용자는 107개국·지역 100만 명이라고 적어요. (영향) 법률 카피·계약 초안을 Claude에 맡기는 브랜드는 MCP 경로가 열리는지만 워치하시면 돼요. 제작 영상 스택과는 별개예요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-모델-플랫폼-05"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-06",
+      "title": "Ramp Router — 미국 전용 모델 라우터, 2026년 말까지 라우팅 무료 (8/20)",
+      "snippet": "Ramp가 3년 쓰던 내부 라우터를 Router로 열었어요. TechCrunch는 8/20 09:46 PDT(한국 시간 8/21 01:46)이에요. 미국만이고, 올해 말까지 라우팅 수수료는 무료며 추론비는 그대로 내요. 출시 크레딧 $26이 따라와요. OpenAI·Anthropic…",
+      "text": "Ramp Router — 미국 전용 모델 라우터, 2026년 말까지 라우팅 무료 (8/20) Ramp가 3년 쓰던 내부 라우터를 Router로 열었어요. TechCrunch는 8/20 09:46 PDT(한국 시간 8/21 01:46)이에요. 미국만이고, 올해 말까지 라우팅 수수료는 무료며 추론비는 그대로 내요. 출시 크레딧 $26이 따라와요. OpenAI·Anthropic·DeepSeek·Moonshot·MiniMax·Nvidia·xAI·Z.ai를 고르고, 벤치 최대 3개로 보내거나 어려운 질문만 비싼 모델로 보내는 전략이 있어요. 내년 요금은 안 적혀 있어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-모델-플랫폼-06"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-01",
+      "title": "BFL — FLUX Upscale, 영상을 2K·4K로 다시 그리는 독립 툴·엔드포인트 (8/20)",
+      "snippet": "(사실) Black Forest Labs가 FLUX Upscale을 독립 FLUX Tool이자 API로 열었어요. 공식 블로그 날짜는 August 20, 2026이에요. HD로 뽑은 샷을 방송·캠페인·큰 화면 해상도로 올리기 전에 한 번 더 그리는 단계고, 로컬 업스케일러가 그 해…",
+      "text": "BFL — FLUX Upscale, 영상을 2K·4K로 다시 그리는 독립 툴·엔드포인트 (8/20) (사실) Black Forest Labs가 FLUX Upscale을 독립 FLUX Tool이자 API로 열었어요. 공식 블로그 날짜는 August 20, 2026이에요. HD로 뽑은 샷을 방송·캠페인·큰 화면 해상도로 올리기 전에 한 번 더 그리는 단계고, 로컬 업스케일러가 그 해상도에서 무너지는 문제를 겨냥해요. (범위) 480p부터 받아 네이티브 4K까지 올려요. upscale_factor는 1.5×·2×·3×이고, HD 입력이면 대략 1080p·2K·4K로 떨어져요. 소스는 최대 20초, 50MB, 2560×1440(2K) 이고 넘으면 잘라 주지 않고 거절하며 과금하지 않아요. 출력 프레임은 약 14.4메가픽셀(4K 이상)에서 캡이 걸려, 이미 큰 소스는 요청 배율보다 덜 올라가요. 원본 오디오 트랙은 그대로 남아요. 4K 입력은 받지 않아요. (모드·단가) Precise(creativity: 0)는 4스텝, $0.07/mp/s로 더 빠르고 싸고 신원·레퍼런스를 지키기에 좋아요. Creative(creativity: 1, 기본값)는 8스텝, $0.10/mp/s로 복원·디테일을 더 만들지만 얼굴을 바꾸거나 바꿀 수 있어요. 초당 대략 1080p는 Precise $0.14 / Creative $0.20, 2K는 $0.25 / $0.35, 4K는 $0.55 / $0.79예요. 10초를 1080p로 올리면 Precise 약 $1.39, Creative 약 $1.98이고, 나온 결과만 받아요. (디테일) FLUX 3 출력을 네이티브로 이해하고, 일반 업스케일러가 놓치는 얼굴 번짐이나 물·잔디 같은 텍스처의 격자 아티팩트를 고친다고 해요. 짧은 prompt로 Creative 디테일 방향을 잡을 수 있고, 편집·트림 뒤에 마지막 스텝으로 돌리라고 적혀 있어요. 엔드포인트는 POST https://api.bfl.ai/v1/flux-tools/video-upscale-v1 이고 플레이그라운드 모델 ID는 flux-3-upscale이에요. 결과 URL은 준비 후 약 1시간이면 만료돼요. (영향) FLUX 3로 캠페인 히어로를 뽑는 팀은 Precise로 얼굴·제품 샷 한 개만 먼저 올려 보시면 돼요. Creative는 생성 푸티지·군중·풍경에 두고, 브랜드 얼굴은 Precise로 나누시면 좋아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-콘텐츠-제작-크리에이티브-01"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-02",
+      "title": "MiniMax Design — H3를 데스크톱 창작 지휘대로, 맥·윈도 앱 (8/20)",
+      "snippet": "(사실) MiniMax가 MiniMax Design을 제품 페이지에서 열었고, 토큰포스트는 8/20 12:12 KST에 보도했어요. H3를 앞에 둔 AI 네이티브 창작 플랫폼이고, 창작 요구를 해석해 모델과 스킬을 나누어 호출해요. 히어로는 “H3 LIVE NOW”예요.",
+      "text": "MiniMax Design — H3를 데스크톱 창작 지휘대로, 맥·윈도 앱 (8/20) (사실) MiniMax가 MiniMax Design을 제품 페이지에서 열었고, 토큰포스트는 8/20 12:12 KST에 보도했어요. H3를 앞에 둔 AI 네이티브 창작 플랫폼이고, 창작 요구를 해석해 모델과 스킬을 나누어 호출해요. 히어로는 “H3 LIVE NOW”예요. (범위) macOS 13+(M 시리즈·Intel)와 Windows 10+ x64 데스크톱이에요. 스크립트·스토리보드·영상·음악·편집이 한 캔버스에 있고 노드가 자동으로 이어져요. 카피·이미지·영상·오디오 에이전트가 문안·컷·타임라인·보이스를 동시에 맡아요. 모델은 자동 매칭이고 수동 선택도 있어요. 로컬 에셋 센터가 파일을 맥·윈도에 저장하고 프로 툴로 내보내요. (3D 감독대) 토큰포스트는 에이전트 3D 감독대를 적었어요. 장면과 카메라 구도를 말로 주면 3D 공간에서 구도와 인물 관계를 먼저 시뮬하고, 확인한 뒤에 H3로 영상을 뽑아요. 시행착오를 최종 생성이 아니라 스토리보드로 앞당기려는 설계로 읽어요. H3는 최대 15초, 24fps, 32kHz 스테레오 오디오예요. (스킬·라이선스) 스킬 예시는 그래미풍 랩 MV, 홍보 영상, 이커머스 제품 컷, 오디오북, 캐릭터 장면 스토리보드, 이미지 리믹스, MV 제작이에요. 타깃은 숏드라마·이커머스·브랜드 TVC·광고·교육이에요. 토큰포스트는 앞서 H3 공용 라이선스 적용 지역에서 한국이 빠졌다고 보도한 적이 있어서, 한국 팀·법인은 이용 조건과 모델 라이선스를 따로 보셔야 해요. (영향) Hailuo/H3를 이미 쓰는 팀은 맥 앱을 받아 한 캠페인 브리프만 캔버스에 넣어 보시면 돼요. 한국 계정은 라이선스부터 확인하고, 온프레 엔터는 enterprise@minimaxi.com 레인이에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-콘텐츠-제작-크리에이티브-02"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-03",
+      "title": "Higgsfield Faceless Studio — 슈퍼컴퓨터 스킬이 독립 제품으로 (8/20)",
+      "snippet": "(사실) Higgsfield changelog가 Aug 20, 2026에 Faceless Studio. Out now를 올렸어요. 스키마 datePublished는 2026-08-20T05:00+05:00(한국 시간 09:00)이에요. 어제 브리프가 장편 Cully Hill Boy…",
+      "text": "Higgsfield Faceless Studio — 슈퍼컴퓨터 스킬이 독립 제품으로 (8/20) (사실) Higgsfield changelog가 Aug 20, 2026에 Faceless Studio. Out now를 올렸어요. 스키마 datePublished는 2026-08-20T05:00+05:00(한국 시간 09:00)이에요. 어제 브리프가 장편 Cully Hill Boys만 다루고 이 분리는 빠져 있어서 오늘 올려요. 예전엔 Supercomputer 스킬이었고, 이제 단독 제품이에요. (범위) 얼굴 없는 애니메이션 영상을 세 스텝으로 만들어요. 테마는 Education, History, Kids, Storytelling 네 가지예요. Script에서 주제를 고르거나 직접 쓰고, 포맷·길이(1~5분)·애니메이션 스타일을 정해요. Style은 Stickman Cartoon부터 Studio 3D까지 프리셋 8개예요. Voice에서 나레이터를 고르면 스크립트·보이스오버·애니메이션이 붙은 회차가 나와요. (채널) 스타일과 목소리를 채널에 저장해서 다음 회차도 같고 들리게 해요. 시작은 higgsfield.ai/faceless-studio에서 채널을 만드는 거예요. 요금·크레딧 숫자는 changelog에 없어요. (영향) 교육·히스토리 톤의 페이월 숏폼을 돌리는 팀은 채널 하나 만들어 1분짜리만 뽑아 보시면 돼요. Explainer 앱(7/2 독립)과 칸이 겹치니, 얼굴 없는 시리즈 운영은 Faceless 채널로 모으시면 좋아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-콘텐츠-제작-크리에이티브-03"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-04",
+      "title": "OpenAI — gpt-image-2 투명 배경 프리뷰, PNG·WebP만 (8/20)",
+      "snippet": "(사실) OpenAI API changelog가 8/20에 gpt-image-2와 gpt-image-2-2026-04-21의 투명 배경 프리뷰를 적었어요. /v1/images/generations, /v1/images/edits, /v1/responses 이미지 툴에서 backgr…",
+      "text": "OpenAI — gpt-image-2 투명 배경 프리뷰, PNG·WebP만 (8/20) (사실) OpenAI API changelog가 8/20에 gpt-image-2와 gpt-image-2-2026-04-21의 투명 배경 프리뷰를 적었어요. /v1/images/generations, /v1/images/edits, /v1/responses 이미지 툴에서 background를 transparent로 두고 png 또는 webp로 받아요. JPEG는 투명을 못 담아요. (프롬프트) 공식 쿡북(날짜 Aug 20, 2026)은 피사체만 고립시키고 배경·체커보드·불필요한 그림자를 빼 달라고 해요. 프롬프트가 풍경이나 단색 배경을 말하면 background=\"transparent\"보다 프롬프트가 이긴다고 못 박혀 있어요. 편집 턴마다 “투명 배경을 유지하라”를 반복하지 않으면 불투명 장면이 다시 들어와요. PNG는 output_compression을 빼고, WebP는 압축을 쓸 수 있어요. (쓰임) 쿡북 제목이 캠페인·프레젠테이션용 투명 에셋이에요. 제품 컷·차트·스티커처럼 어디에나 올리는 레이어를 염두에 둬요. 커뮤니티 스레드도 같은 날 샘플을 올렸어요. (영향) 키비주얼을 슬라이드·배너에 다시 올리는 팀은 PNG 한 장만 스테이징해 보시면 돼요. 가장자리는 후처리에서 한 번 확인하고, JPEG 배포본은 따로 보내시면 좋아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-콘텐츠-제작-크리에이티브-04"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-01",
+      "title": "MiniMax — 음악·가사 유료 API, 8/20부터 신규 차단",
+      "snippet": "플랫폼 문서가 2026-08-20부터 Music Generation·Lyrics Generation 유료 API는 신규 사용자에게 닫힌다고 적어요. 기존 유료 사용자는 그대로 쓰고, 무료 API(Music-3.0-free, Music-2.6-free, music-cover-free…",
+      "text": "MiniMax — 음악·가사 유료 API, 8/20부터 신규 차단 플랫폼 문서가 2026-08-20부터 Music Generation·Lyrics Generation 유료 API는 신규 사용자에게 닫힌다고 적어요. 기존 유료 사용자는 그대로 쓰고, 무료 API(Music-3.0-free, Music-2.6-free, music-cover-free)는 중단돼요. 웹 제품 MiniMax Audio나 Hugging Face의 오픈소스 MiniMax Music 3를 쓰라고 안내해요. 브랜드 BGM을 MiniMax API에 붙이려던 신규 계정은 Audio 제품 면이나 오픈웨이트로 우회하시면 돼요. 종료일이 명시된 프로모가 아니라 API 게이트 변경이라 카드로 남겨 두어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-마케팅-비즈니스-01"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "테크 · 인프라 · 보안",
+      "sectionId": "테크-인프라-보안",
+      "cardId": "c-테크-인프라-보안-01",
+      "title": "Binance Agent OS — 거래소 인프라를 에이전트 권한으로 열어요 (8/20)",
+      "snippet": "(사실) Binance가 Agent OS를 발표했어요. PR Newswire는 8/20 12:00 ET(한국 시간 8/21 01:00)이에요. ChatGPT·Claude Code·Codex·Cursor 같은 에이전트가 시세·잔고·주문을 전용 Agentic 서브계정과 취소 가능한 권…",
+      "text": "Binance Agent OS — 거래소 인프라를 에이전트 권한으로 열어요 (8/20) (사실) Binance가 Agent OS를 발표했어요. PR Newswire는 8/20 12:00 ET(한국 시간 8/21 01:00)이에요. ChatGPT·Claude Code·Codex·Cursor 같은 에이전트가 시세·잔고·주문을 전용 Agentic 서브계정과 취소 가능한 권한으로 만져요. 제품 면은 binance.com/agent-os예요. (MCP) 개발자 문서는 Agent Native MCP 서버를 적어요. 시세 읽기, 읽기 전용 계정, 거래 권한이 단계로 나뉘고, 에이전트가 인간 승인 없이 주문을 넣지 않게 권한을 좁혀요. MCP는 모델이 도구를 부르는 모델 컨텍스트 프로토콜이에요. (영향) 크리에이티브 팀과는 거리가 멀어요. 에이전트가 결제·광고 예산에 손대는 파일럿을 보시는 분만 권한 모델을 참고하시면 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-테크-인프라-보안-01"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "테크 · 인프라 · 보안",
+      "sectionId": "테크-인프라-보안",
+      "cardId": "c-테크-인프라-보안-02",
+      "title": "미국 CISA·FBI·NSA — 수도 시설 PLC를 AI가 짠 스크립트로 노려요 (8/20)",
+      "snippet": "TechCrunch는 8/20에 미 당국이 해커가 AI로 익스플로잇 스크립트를 만들어 Siemens S7 PLC(프로그래머블 로직 컨트롤러)를 노린다고 경고했다고 전했어요. 대상은 수도 같은 취약 인프라예요. 제작 스택과는 무관하고, 온프레 에이전트가 산업 제어망에 닿지 않는지만…",
+      "text": "미국 CISA·FBI·NSA — 수도 시설 PLC를 AI가 짠 스크립트로 노려요 (8/20) TechCrunch는 8/20에 미 당국이 해커가 AI로 익스플로잇 스크립트를 만들어 Siemens S7 PLC(프로그래머블 로직 컨트롤러)를 노린다고 경고했다고 전했어요. 대상은 수도 같은 취약 인프라예요. 제작 스택과는 무관하고, 온프레 에이전트가 산업 제어망에 닿지 않는지만 점검하시면 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-테크-인프라-보안-02"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "테크 · 인프라 · 보안",
+      "sectionId": "테크-인프라-보안",
+      "cardId": "c-테크-인프라-보안-03",
+      "title": "Alation — AI 데이터 카탈로그 업체가 사이버 공격을 확인했어요 (8/20)",
+      "snippet": "TechCrunch는 Alation이 무단 활동이 포함된 격리된 사고라고 확인했다고 전했어요. 유출 건수는 안 적혀 있어요. 엔터프라이즈 데이터 카탈로그를 쓰는 팀은 공급사 공지를 한 번 보시면 돼요.",
+      "text": "Alation — AI 데이터 카탈로그 업체가 사이버 공격을 확인했어요 (8/20) TechCrunch는 Alation이 무단 활동이 포함된 격리된 사고라고 확인했다고 전했어요. 유출 건수는 안 적혀 있어요. 엔터프라이즈 데이터 카탈로그를 쓰는 팀은 공급사 공지를 한 번 보시면 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-테크-인프라-보안-03"
+    },
+    {
+      "date": "2026-08-21",
+      "displayDate": "2026년 8월 21일(금)",
+      "briefTitle": "4K로 올리고, 얼굴 없는 회차도 상품이다",
+      "briefUrl": "brief/2026-08-21.html",
+      "section": "SNS · 커뮤니티",
+      "sectionId": "sns-커뮤니티",
+      "cardId": "c-sns-커뮤니티-01",
+      "title": "기이안 연애 1회 방송 후 — 기안84 “자괴감·창피”, 장도연 “인간이면 좋겠다” (8/20)",
+      "snippet": "(사실) MBN 예능 기이안 연애 1회가 나간 뒤, 스타뉴스가 8/20 21:50 KST에 기안84의 소감을 전했어요. 어제 카드는 방송 전 예고였고, 오늘은 방송 후 반응만 이어서 적어요.",
+      "text": "기이안 연애 1회 방송 후 — 기안84 “자괴감·창피”, 장도연 “인간이면 좋겠다” (8/20) (사실) MBN 예능 기이안 연애 1회가 나간 뒤, 스타뉴스가 8/20 21:50 KST에 기안84의 소감을 전했어요. 어제 카드는 방송 전 예고였고, 오늘은 방송 후 반응만 이어서 적어요. (장면) 기안84는 식당에서 점원으로 일하는 설정을 두고 “자괴감이 들고 창피했다”고 했어요. 장도연은 뉴스엔 인용으로 “인간이면 좋겠다”고 했고, 일부 보도는 MC 허경환이 몰입이 안 된다고 했다는 반응도 실었어요. (영향) 가상 인플루언서·숏드라마 상업 신호로 워치하는 팀만 보시면 돼요. 봉지은 캐릭터 설정은 어제와 같아서 반복하지 않아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-21.html#c-sns-커뮤니티-01"
+    },
     {
       "date": "2026-08-20",
       "displayDate": "2026년 8월 20일(목)",

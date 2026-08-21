@@ -387,6 +387,22 @@
   <rect x="218" y="30" width="118" height="60" rx="12" fill="#d97706"/>
   <text x="277" y="56" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">정식 공개</text>
   <text x="277" y="74" text-anchor="middle" fill="#fde68a" font-size="10" font-family="system-ui">GA · 전원 개방</text>
+</svg>`,
+      mcp: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef5ff"/>
+  <rect x="22" y="30" width="96" height="60" rx="12" fill="#fff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="70" y="56" text-anchor="middle" fill="#1d4ed8" font-size="13" font-weight="700" font-family="system-ui">모델</text>
+  <text x="70" y="74" text-anchor="middle" fill="#60a5fa" font-size="10" font-family="system-ui">질문 · 계획</text>
+  <rect x="132" y="42" width="96" height="36" rx="10" fill="#1d4ed8"/>
+  <text x="180" y="65" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">MCP 규약</text>
+  <rect x="242" y="22" width="96" height="28" rx="8" fill="#fff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="290" y="41" text-anchor="middle" fill="#1d4ed8" font-size="11" font-weight="700" font-family="system-ui">검색</text>
+  <rect x="242" y="70" width="96" height="28" rx="8" fill="#fff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="290" y="89" text-anchor="middle" fill="#1d4ed8" font-size="11" font-weight="700" font-family="system-ui">도구</text>
+  <path d="M118 60 H132" stroke="#1d4ed8" stroke-width="3"/>
+  <path d="M228 50 H242" stroke="#1d4ed8" stroke-width="2"/>
+  <path d="M228 70 H242" stroke="#1d4ed8" stroke-width="2"/>
 </svg>`
     };
 
@@ -730,12 +746,22 @@
       text: "베타·초대 없이 대상 사용자에게 제품이 열린 상태예요. 영문에선 GA라고 불러요.",
       detail: "GA(Generally Available)는 얼리 액세스·클로즈드 베타가 끝나고 일반(또는 해당 플랜) 사용자에게 정식으로 열리는 단계입니다. 본문 기본은 ‘정식 공개’이고, 하이라이트가 필요하면 `GA(정식 공개)`처럼 약어도 같이 둡니다. 베타 헤더 해제·API 정식은 이 전환을 가리켜요. 같은 베타 단계 재탕은 카드로 올리지 않습니다.",
       firstSeen: "2026-08-20"
+    },
+    {
+      id: "mcp",
+      term: "MCP",
+      en: "Model Context Protocol",
+      tag: "work",
+      tagLabel: "활용",
+      text: "모델이 검색·도구·데이터를 부를 때 쓰는 공통 연결 규약이에요. 모델 컨텍스트 프로토콜이라고 불러요.",
+      detail: "MCP(Model Context Protocol, 모델 컨텍스트 프로토콜)는 모델이 파일·검색·외부 앱 같은 도구를 같은 방식으로 부르도록 정한 연결 규약입니다. Slack·법률 워크벤치·거래소처럼 서로 다른 제품이 ‘도구 서버’를 열어 두면, 에이전트가 각각 다른 플러그인을 배우지 않고도 권한을 나눠 쓸 수 있어요. 읽기 전용과 실행 권한을 나누고, 사람 승인 뒤에만 나가게 설계하는 경우가 많아요.",
+      firstSeen: "2026-08-21"
     }
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-08-20",
-    termIds: ["character-ip", "t2v", "rag", "zdr", "sandbox", "open-weight"]
+    date: "2026-08-21",
+    termIds: ["upscale", "short-drama", "ai-influencer", "mcp", "multimodal", "open-weight"]
   };
 
   const TAGS = [
