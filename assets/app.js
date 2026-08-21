@@ -606,7 +606,15 @@
     const el = document.querySelector("[data-cal-scroll], .cal-box");
     if (!el) return;
     const pin = () => {
-      el.scrollTop = el.scrollHeight;
+      const last = el.querySelector(".cal-wrap .cal-month:last-child");
+      if (!last) {
+        el.scrollTop = el.scrollHeight;
+        return;
+      }
+      const header = el.querySelector(".cal-wd-row");
+      const headerH = header ? header.getBoundingClientRect().height : 0;
+      const delta = last.getBoundingClientRect().top - el.getBoundingClientRect().top - headerH;
+      el.scrollTop += delta;
     };
     pin();
     window.requestAnimationFrame(pin);
