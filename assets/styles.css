@@ -734,14 +734,17 @@ a.cal-cell:focus-visible {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+/* CSS ::after tooltip disabled — clipped by .cal-box overflow.
+   JS portals #cal-tip (.cal-float-tip) onto document.body. */
 a.cal-cell[data-tip]::after {
-  content: attr(data-tip);
-  position: absolute;
-  left: 50%;
-  bottom: calc(100% + 8px);
-  transform: translateX(-50%);
+  content: none;
+  display: none;
+}
+.cal-float-tip {
+  position: fixed;
+  z-index: 9999;
+  max-width: 260px;
   width: max-content;
-  max-width: min(260px, 70vw);
   padding: 10px 12px;
   background: #1d1d1f;
   color: #fff;
@@ -756,21 +759,8 @@ a.cal-cell[data-tip]::after {
   opacity: 0;
   visibility: hidden;
   transition: opacity 80ms ease, visibility 80ms ease;
-  z-index: 80;
 }
-.cal-grid > a.cal-cell[data-tip]:nth-child(7n+1)::after,
-.cal-grid > a.cal-cell[data-tip]:nth-child(7n+2)::after {
-  left: 0;
-  transform: none;
-}
-.cal-grid > a.cal-cell[data-tip]:nth-child(7n)::after,
-.cal-grid > a.cal-cell[data-tip]:nth-child(7n+6)::after {
-  left: auto;
-  right: 0;
-  transform: none;
-}
-a.cal-cell[data-tip]:hover::after,
-a.cal-cell[data-tip]:focus-visible::after {
+.cal-float-tip.is-visible {
   opacity: 1;
   visibility: visible;
 }

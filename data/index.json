@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T18:34:11",
+  "generated_at": "2026-08-21T18:43:22",
   "platform": "AI Pulse",
   "count": 26,
   "domains": {
@@ -64,11 +64,11 @@
       12
     ],
     [
-      "Grok",
+      "Meta",
       12
     ],
     [
-      "Meta",
+      "Grok",
       12
     ],
     [
@@ -171,10 +171,10 @@
         "Salesforce",
         "Copilot",
         "Runway",
-        "Gemini",
-        "Google",
+        "Amazon",
         "GitHub",
-        "Amazon"
+        "Gemini",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -793,11 +793,11 @@
         "ChatGPT",
         "DeepMind",
         "Anthropic",
-        "Claude",
         "NVIDIA",
+        "Claude",
         "Hugging Face",
-        "Google",
         "GitHub",
+        "Google",
         "Oracle",
         "Kling",
         "Runway",
@@ -982,8 +982,8 @@
         "Luma",
         "Anthropic",
         "Copilot",
-        "Google",
-        "Amazon"
+        "Amazon",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1102,8 +1102,8 @@
       ],
       "companies": [
         "Anthropic",
-        "OpenAI",
         "NVIDIA",
+        "OpenAI",
         "Google",
         "Adobe",
         "GitHub",

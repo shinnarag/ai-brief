@@ -633,10 +633,125 @@
     window.setTimeout(pin, 120);
   }
 
+  /* ---------- home calendar: portal hover tip outside overflow box ---------- */
+  function initCalTip() {
+    const cells = $$("a.cal-cell[data-tip]");
+    if (!cells.length) return;
+
+    const GAP = 8;
+    const MARGIN = 8;
+    const HIDE_DELAY = 100;
+
+    let tip = document.getElementById("cal-tip");
+    if (!tip) {
+      tip = document.createElement("div");
+      tip.id = "cal-tip";
+      tip.className = "cal-float-tip";
+      tip.setAttribute("role", "tooltip");
+      tip.setAttribute("aria-hidden", "true");
+      document.body.appendChild(tip);
+    }
+
+    let active = null;
+    let hideTimer = null;
+
+    function cancelHide() {
+      if (hideTimer) {
+        clearTimeout(hideTimer);
+        hideTimer = null;
+      }
+    }
+
+    function hide() {
+      cancelHide();
+      active = null;
+      tip.classList.remove("is-visible");
+      tip.setAttribute("aria-hidden", "true");
+      tip.textContent = "";
+    }
+
+    function hideSoon() {
+      cancelHide();
+      hideTimer = window.setTimeout(hide, HIDE_DELAY);
+    }
+
+    function allowHover(e) {
+      if (e && e.pointerType === "touch") return false;
+      if (window.matchMedia && !window.matchMedia("(hover: hover)").matches) {
+        return false;
+      }
+      return true;
+    }
+
+    function place(cell) {
+      const text = cell.getAttribute("data-tip") || "";
+      if (!text) {
+        hide();
+        return;
+      }
+      tip.classList.remove("is-visible");
+      tip.textContent = text;
+      tip.style.left = "0px";
+      tip.style.top = "-9999px";
+
+      const cr = cell.getBoundingClientRect();
+      const tw = tip.offsetWidth;
+      const th = tip.offsetHeight;
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+
+      let left = cr.left + (cr.width - tw) / 2;
+      left = Math.min(Math.max(MARGIN, left), Math.max(MARGIN, vw - tw - MARGIN));
+
+      const preferAbove = cr.top - th - GAP;
+      const sticky = document.querySelector(".cal-wd-row");
+      const stickyBottom = sticky ? sticky.getBoundingClientRect().bottom : 0;
+      const hitsTop = preferAbove < MARGIN;
+      const hitsSticky = !!(sticky && preferAbove < stickyBottom + GAP);
+      let top = hitsTop || hitsSticky ? cr.bottom + GAP : preferAbove;
+      if (top + th > vh - MARGIN) {
+        top = Math.max(MARGIN, vh - th - MARGIN);
+      }
+
+      tip.style.left = Math.round(left) + "px";
+      tip.style.top = Math.round(top) + "px";
+      tip.classList.add("is-visible");
+      tip.setAttribute("aria-hidden", "false");
+    }
+
+    function show(cell) {
+      cancelHide();
+      active = cell;
+      place(cell);
+    }
+
+    cells.forEach((cell) => {
+      cell.addEventListener("pointerenter", (e) => {
+        if (!allowHover(e)) return;
+        show(cell);
+      });
+      cell.addEventListener("pointerleave", (e) => {
+        if (e && e.pointerType === "touch") return;
+        if (active === cell) hideSoon();
+      });
+      cell.addEventListener("focus", () => show(cell));
+      cell.addEventListener("blur", hideSoon);
+    });
+
+    const box = document.querySelector("[data-cal-scroll], .cal-box");
+    if (box) box.addEventListener("scroll", hide, { passive: true });
+    window.addEventListener("scroll", hide, { passive: true });
+    window.addEventListener("resize", hide);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") hide();
+    });
+  }
+
   /* ---------- boot ---------- */
   initReadingChrome();
   initBriefDateNav();
   initTocSpy();
   initArchive();
   initCalScroll();
+  initCalTip();
 })();
