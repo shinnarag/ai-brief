@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T18:43:22",
+  "generated_at": "2026-08-24T10:44:50",
   "platform": "AI Pulse",
-  "count": 26,
+  "count": 27,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,64 +11,64 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "creative": 85,
-    "models": 159,
-    "agents": 93,
-    "infra": 63,
-    "marketing": 77,
+    "creative": 89,
+    "models": 163,
+    "marketing": 83,
+    "agents": 95,
+    "infra": 64,
     "policy": 52
   },
   "companies": [
     [
       "OpenAI",
-      88
+      104
     ],
     [
       "Claude",
-      82
-    ],
-    [
-      "Gemini",
-      50
+      85
     ],
     [
       "Anthropic",
-      49
+      59
     ],
     [
       "ChatGPT",
-      47
+      53
+    ],
+    [
+      "Gemini",
+      52
     ],
     [
       "DeepSeek",
-      31
+      50
     ],
     [
       "NVIDIA",
-      22
-    ],
-    [
-      "Google",
-      17
+      43
     ],
     [
       "Runway",
-      16
+      29
+    ],
+    [
+      "Grok",
+      29
+    ],
+    [
+      "Google",
+      21
     ],
     [
       "Copilot",
       14
     ],
     [
-      "GitHub",
-      12
-    ],
-    [
       "Meta",
-      12
+      13
     ],
     [
-      "Grok",
+      "GitHub",
       12
     ],
     [
@@ -77,10 +77,26 @@
     ],
     [
       "Midjourney",
-      9
+      11
+    ],
+    [
+      "xAI",
+      11
+    ],
+    [
+      "Mistral",
+      10
+    ],
+    [
+      "Kling",
+      10
     ],
     [
       "Apple",
+      10
+    ],
+    [
+      "Amazon",
       9
     ],
     [
@@ -88,27 +104,15 @@
       9
     ],
     [
+      "AWS",
+      8
+    ],
+    [
       "Hugging Face",
       8
     ],
     [
-      "Amazon",
-      8
-    ],
-    [
-      "Kling",
-      8
-    ],
-    [
-      "AWS",
-      3
-    ],
-    [
       "Salesforce",
-      2
-    ],
-    [
-      "xAI",
       2
     ],
     [
@@ -130,11 +134,56 @@
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-08-15",
-    "end": "2026-08-21",
-    "brief_count": 4
+    "start": "2026-08-18",
+    "end": "2026-08-24",
+    "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-08-24",
+      "title": "AI Daily Brief — 2026-08-24 (주말+월요일 아침)",
+      "theme": "HDR로 넘기고, 숏드라마는 배우 없이 돌아간다",
+      "theme_blurb": "Runway가 SDR 납품본을 다시 그리지 않고 진짜 HDR로 바꿔 주는 Ruby를 연 주말, 중국 숏드라마 1분기 신작의 95%가 AI라는 숫자가 같이 왔어요. 후반 색과 배우 없는 회차를 같은 브리프에서 보시면 돼요.",
+      "edition_title": "HDR로 넘기고, 숏드라마는 배우 없이 돌아간다",
+      "edition_blurb": "Runway가 SDR 납품본을 다시 그리지 않고 진짜 HDR로 바꿔 주는 Ruby를 연 주말, 중국 숏드라마 1분기 신작의 95%가 AI라는 숫자가 같이 왔어요. 후반 색과 배우 없는 회차를 같은 브리프에서 보시면 돼요.",
+      "url": "brief/2026-08-24.html",
+      "excerpt": "오늘은 Runway Ruby(SDR→HDR API, 8/21 23:24 KST), DeepSeek-V4-Flash-Vision-Exp, Krikey K-Pop Idol Generator, GPT-5.6 Sol API $4/$20 프로모, 중국 숏드라마 1분기 95% AI가 축이에요.",
+      "top5": [
+        "Runway Ruby — SDR 납품본을 다시 그리지 않고 HDR로 넘겨요",
+        "DeepSeek-V4-Flash-Vision-Exp — 플래시 단가에 이미지를 붙였어요",
+        "Krikey K-Pop Idol Generator — 사진 한 장으로 3D 아이돌 MV를 뽑아요",
+        "중국 숏드라마 — 1분기 신작 12만 편 중 95%가 AI예요",
+        "OpenAI GPT-5.6 Sol — API가 $4/$20 프로모로 내려가요"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "companies": [
+        "NVIDIA",
+        "DeepSeek",
+        "Grok",
+        "OpenAI",
+        "Runway",
+        "Anthropic",
+        "Mistral",
+        "xAI",
+        "ChatGPT",
+        "AWS",
+        "Google",
+        "Claude",
+        "Midjourney",
+        "Gemini",
+        "Kling",
+        "Amazon"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-08-21",
       "title": "AI Daily Brief — 2026-08-21 (최근 24h)",
@@ -170,11 +219,11 @@
         "Midjourney",
         "Salesforce",
         "Copilot",
-        "Runway",
         "Amazon",
+        "Google",
         "GitHub",
         "Gemini",
-        "Google"
+        "Runway"
       ],
       "has_rumor": false,
       "source": "md",
@@ -298,8 +347,8 @@
         "Copilot",
         "ElevenLabs",
         "Google",
-        "Grok",
         "Luma",
+        "Grok",
         "Amazon",
         "GitHub",
         "Midjourney"
@@ -382,8 +431,8 @@
         "ChatGPT",
         "Anthropic",
         "Meta",
-        "OpenAI",
         "Google",
+        "OpenAI",
         "NVIDIA",
         "Kling",
         "AWS",
@@ -529,8 +578,8 @@
         "ByteDance",
         "Midjourney",
         "ElevenLabs",
-        "DeepMind",
-        "DeepSeek"
+        "DeepSeek",
+        "DeepMind"
       ],
       "has_rumor": false,
       "source": "md",
@@ -742,8 +791,8 @@
         "policy"
       ],
       "companies": [
-        "Gemini",
         "Google",
+        "Gemini",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -796,12 +845,12 @@
         "NVIDIA",
         "Claude",
         "Hugging Face",
-        "GitHub",
         "Google",
+        "GitHub",
         "Oracle",
         "Kling",
-        "Runway",
         "Amazon",
+        "Runway",
         "Meta",
         "Midjourney"
       ],
@@ -1114,8 +1163,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Samsung"
       ],
       "has_rumor": false,
@@ -1193,8 +1242,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,

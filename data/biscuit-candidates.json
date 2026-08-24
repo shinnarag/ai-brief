@@ -1,236 +1,264 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-24",
   "candidates": [
+    {
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 8,
+      "sample": "크·규제 / SNS > 오늘은 **Runway Ruby(SDR→HDR API, 8/21 23:24 KST)**, **",
+      "brief_date": "2026-08-24"
+    },
+    {
+      "term": "GPT",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 6,
+      "sample": "Idol Generator**, **GPT-5.6 Sol API $4/$20 프로모**, **중국 숏드라마 1분기",
+      "brief_date": "2026-08-24"
+    },
+    {
+      "term": "NVIDIA",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 6,
+      "sample": "/20 공식, 주말 한글 보도) · NVIDIA AVO 100 RHAE · Anthropic IPO 보도 · 기이안 넷",
+      "brief_date": "2026-08-24"
+    },
+    {
+      "term": "AVO",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 5,
+      "sample": "주말 한글 보도) · NVIDIA AVO 100 RHAE · Anthropic IPO 보도 · 기이안 넷플릭스",
+      "brief_date": "2026-08-24"
+    },
     {
       "term": "Hailuo/MiniMax",
       "hint": "영상·모델 벤더",
-      "hits": 28,
-      "sample": "s Studio가 독립 제품이 되고 MiniMax Design 데스크톱이 나왔어요. 납품 해상도와 에피소드 파이프를 같은",
-      "brief_date": "2026-08-21"
+      "hits": 4,
+      "sample": "LUX Upscale 2K/4K · MiniMax Design/H3 데스크톱 · Higgsfield Faceless St",
+      "brief_date": "2026-08-24"
     },
     {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 14,
-      "sample": "그리는 업스케일 API를 연 날, Higgsfield Faceless Studio가 독립 제품이 되고 MiniMax Desi",
-      "brief_date": "2026-08-21"
+      "term": "AGI",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 3,
+      "sample": "**NVIDIA AVO — ARC-AGI-3 공개셋에서 100.00 RHAE, 하니스가 모델을 끌어올렸어요 (8",
+      "brief_date": "2026-08-24"
+    },
+    {
+      "term": "ARC",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 3,
+      "sample": "제 1. **NVIDIA AVO — ARC-AGI-3 공개셋에서 100.00 RHAE, 하니스가 모델을 끌어올렸어",
+      "brief_date": "2026-08-24"
     },
     {
       "term": "FLUX",
       "hint": "설명 없는 대문자 약어",
-      "hits": 12,
-      "sample": "리프에서 보시면 돼요. 실무 액션: FLUX Upscale Precise 한 샷 · Faceless 채널 파일럿 ·",
-      "brief_date": "2026-08-21"
+      "hits": 3,
+      "sample": "I**가 축이에요. > 전일 제외: FLUX Upscale 2K/4K · MiniMax Design/H3 데스크톱",
+      "brief_date": "2026-08-24"
+    },
+    {
+      "term": "GIF",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 3,
+      "sample": "와 Pro($15/인·월)로 MP4·GIF·FBX를 보내요. 4. **중국 숏드라마 — 1분기 신작 12만 편",
+      "brief_date": "2026-08-24"
+    },
+    {
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 3,
+      "sample": "ax Design/H3 데스크톱 · Higgsfield Faceless Studio · gpt-image-2 투명 배경 프리뷰",
+      "brief_date": "2026-08-24"
+    },
+    {
+      "term": "LGU",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 3,
+      "sample": "보도 · 기이안 넷플릭스 4위 · LGU+ 유쓰 AI 쇼츠. ## 🔥 Top 5 1. **Runway Ruby",
+      "brief_date": "2026-08-24"
+    },
+    {
+      "term": "RHAE",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 3,
+      "sample": "도) · NVIDIA AVO 100 RHAE · Anthropic IPO 보도 · 기이안 넷플릭스 4위 · LGU+",
+      "brief_date": "2026-08-24"
+    },
+    {
+      "term": "AWS",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "ess 구독 정가는 그대로**예요. AWS Bedrock도 같은 날 인하를 공지했어요. - (같이 열린 것)",
+      "brief_date": "2026-08-24"
     },
     {
       "term": "BFL",
       "hint": "설명 없는 대문자 약어",
-      "hits": 7,
-      "sample": "없는 회차도 상품이다 주제 설명: BFL이 영상을 2K·4K로 다시 그리는 업스케일 API를 연 날, Higgs",
-      "brief_date": "2026-08-21"
+      "hits": 2,
+      "sample": "aceless=8/20이 최신) · BFL 블로그(FLUX Upscale=8/20이 최신) · Seed 블로그(8",
+      "brief_date": "2026-08-24"
     },
     {
-      "term": "PNG",
+      "term": "FBX",
       "hint": "설명 없는 대문자 약어",
-      "hits": 5,
-      "sample": "설치 · gpt-image-2 투명 PNG · 기이안 1회 레퍼런스 수집 시각: 2026-08-21 11:50 K",
-      "brief_date": "2026-08-21"
-    },
-    {
-      "term": "해상도(720p/1080p/4K)",
-      "hint": "출력 화질 단위",
-      "hits": 5,
-      "sample": "*FLUX Upscale(영상 2K·4K API, 8/20)**, **MiniMax Design 데스크톱(H3",
-      "brief_date": "2026-08-21"
-    },
-    {
-      "term": "JPEG",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 3,
-      "sample": "아웃 에셋을 바로 뽑으실 수 있고, JPEG는 투명을 못 담아요. 5. **Slack Code — 코딩 에이전트가",
-      "brief_date": "2026-08-21"
+      "hits": 2,
+      "sample": "o($15/인·월)로 MP4·GIF·FBX를 보내요. 4. **중국 숏드라마 — 1분기 신작 12만 편 중 95",
+      "brief_date": "2026-08-24"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 2,
-      "sample": "유지, 상태 업그레이드 없음) · Kling 5.0은 whatlaunched 등재만. Runway 사이트 Hailu",
-      "brief_date": "2026-08-21"
+      "sample": "스·아란야 현장·앱 정식 없음) · Kling 5.0은 공식 없음. Runway 사이트 Hailuo 3.0 Unlim",
+      "brief_date": "2026-08-24"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 2,
-      "sample": "hrimp 1.0 베타. > 스윕: Midjourney updates(V8.2=7/24 이후 신규 없음) · Seed 블로그(",
-      "brief_date": "2026-08-21"
+      "sample": "hrimp 1.0 베타. > 스윕: Midjourney updates(V8.2=7/24, 8/20 알파 UX는 폴더·Upsca",
+      "brief_date": "2026-08-24"
     },
     {
-      "term": "NPU",
+      "term": "NISX",
       "hint": "설명 없는 대문자 약어",
       "hits": 2,
-      "sample": "c vs OpenAI 매출 · KT NPU LLM 스테이션 · 기이안 연애 예고(구성만) · 모두의 AI 컨소시엄",
-      "brief_date": "2026-08-21"
+      "sample": "www.newsis.com/view/NISX20260823_0003758687) · 신뢰도: 보도 ## 🛠️ 테",
+      "brief_date": "2026-08-24"
     },
     {
-      "term": "PLC",
+      "term": "RFI",
       "hint": "설명 없는 대문자 약어",
       "hits": 2,
-      "sample": "ISA·FBI·NSA — 수도 시설 PLC를 AI가 짠 스크립트로 노려요 (8/20)** - TechCrun",
-      "brief_date": "2026-08-21"
+      "sample": "실) 뉴욕타임스 계열 전재와 AFP·RFI가 **8/22**에, Anthropic 은행이 잠재 투자자에게 **10",
+      "brief_date": "2026-08-24"
     },
     {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
+      "term": "해상도(720p/1080p/4K)",
+      "hint": "출력 화질 단위",
       "hits": 2,
-      "sample": "은 whatlaunched 등재만. Runway 사이트 Hailuo 3.0 Unlimited 배너(~8/23)는 dat",
-      "brief_date": "2026-08-21"
+      "sample": "제외: FLUX Upscale 2K/4K · MiniMax Design/H3 데스크톱 · Higgsfield F",
+      "brief_date": "2026-08-24"
     },
     {
-      "term": "TVC",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "앱을 받아 숏드라마·이커머스·브랜드 TVC를 한 흐름으로 뽑으실 수 있어요. 3. **Higgsfield Fac",
-      "brief_date": "2026-08-21"
-    },
-    {
-      "term": "온프레미스",
-      "hint": "사내·자체 인프라에서 실행",
-      "hits": 2,
-      "sample": "한국 계정은 라이선스부터 확인하고, 온프레 엔터는 enterprise@minimaxi.com 레인이에요. -",
-      "brief_date": "2026-08-21"
-    },
-    {
-      "term": "AGI",
+      "term": "AFP",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "wap은 하우투(8/19), ARC-AGI·Muse Code·Prime 창 안 신규 없음. - Higgsfield",
-      "brief_date": "2026-08-21"
-    },
-    {
-      "term": "ARC",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "ce swap은 하우투(8/19), ARC-AGI·Muse Code·Prime 창 안 신규 없음. - Higgsf",
-      "brief_date": "2026-08-21"
-    },
-    {
-      "term": "AWS",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "텍스트 프로토콜)**가 넓어졌어요. AWS Amazon Quick MCP는 예고, Reveal 증거 연동은 **1",
-      "brief_date": "2026-08-21"
-    },
-    {
-      "term": "BGM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "쓰라고 안내해요. - 브랜드 BGM을 MiniMax API에 붙이려던 신규 계정은 Audio 제품 면이나",
-      "brief_date": "2026-08-21"
+      "sample": "- (사실) 뉴욕타임스 계열 전재와 AFP·RFI가 **8/22**에, Anthropic 은행이 잠재 투자자에게",
+      "brief_date": "2026-08-24"
     },
     {
       "term": "CISA",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "· 신뢰도: 공식 2. **미국 CISA·FBI·NSA — 수도 시설 PLC를 AI가 짠 스크립트로 노려요 (8",
-      "brief_date": "2026-08-21"
+      "sample": "Binance Agent OS · CISA PLC · 기이안 연애 1회 반응. 8/20 제외: Cully Hill",
+      "brief_date": "2026-08-24"
     },
     {
-      "term": "FBI",
+      "term": "DGX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "도: 공식 2. **미국 CISA·FBI·NSA — 수도 시설 PLC를 AI가 짠 스크립트로 노려요 (8/20)",
-      "brief_date": "2026-08-21"
+      "sample": "40개 커널**을 커밋했다고 해요. DGX B200에서 멀티헤드 어텐션이 FlashAttention-4 대비 최대",
+      "brief_date": "2026-08-24"
     },
     {
-      "term": "FLUX 3",
-      "hint": "BFL 멀티모달·영상 모델",
-      "hits": 1,
-      "sample": "결과만 받아요. - (디테일) FLUX 3 출력을 네이티브로 이해하고, 일반 업스케일러가 놓치는 **얼굴 번짐**",
-      "brief_date": "2026-08-21"
-    },
-    {
-      "term": "IDE",
+      "term": "DNYUZ",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "l 맥·웹·모바일·Codex CLI·IDE 확장은 빠져요. **모든 플랜**이고, 플러그인 디렉터리 Public에",
-      "brief_date": "2026-08-21"
+      "sample": "는 아직 없어요. - 출처: [DNYUZ(NYT 전재)](https://dnyuz.com/2026/08/22/a",
+      "brief_date": "2026-08-24"
     },
     {
-      "term": "LIVE",
+      "term": "EXR",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "나누어 호출해요. 히어로는 “H3 LIVE NOW”예요. - (범위) **macOS 13+**(M 시리즈·I",
-      "brief_date": "2026-08-21"
+      "sample": "0초·16비트 HDR ProRes와 EXR**로 적었으니, 파이프 설계는 API 40초를 기준으로 두시면 돼요.",
+      "brief_date": "2026-08-24"
     },
     {
-      "term": "LLM",
+      "term": "GCP",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "OpenAI 매출 · KT NPU LLM 스테이션 · 기이안 연애 예고(구성만) · 모두의 AI 컨소시엄 · 독",
-      "brief_date": "2026-08-21"
+      "sample": "텍스트를 내요. - (영향) GCP 안에서 영상 파이프 에이전트를 돌리는 팀은 모델 카드만 오늘 열어 보시",
+      "brief_date": "2026-08-24"
     },
     {
-      "term": "Luma",
-      "hint": "영상 생성",
-      "hits": 1,
-      "sample": "shed 게이트 실패로 카드 생략, Luma Face swap은 하우투(8/19), ARC-AGI·Muse Code",
-      "brief_date": "2026-08-21"
-    },
-    {
-      "term": "MBN",
+      "term": "GLM",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "(8/20)** - (사실) MBN 예능 **기이안 연애** 1회가 나간 뒤, 스타뉴스가 **8/20 21",
-      "brief_date": "2026-08-21"
+      "sample": "ral Medium 3.5**와 **GLM-5.2**예요. - (영향) 브랜드 가이드·계약서·캠페인 리포트를",
+      "brief_date": "2026-08-24"
     },
     {
-      "term": "NOW",
+      "term": "GPU",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "호출해요. 히어로는 “H3 LIVE NOW”예요. - (범위) **macOS 13+**(M 시리즈·Intel",
-      "brief_date": "2026-08-21"
+      "sample": "- (커널) 같은 글에서 7일 GPU 커널 작업으로 **500개 넘는 방향**, **40개 커널**을 커밋했",
+      "brief_date": "2026-08-24"
     },
     {
-      "term": "NSA",
+      "term": "HLG",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "식 2. **미국 CISA·FBI·NSA — 수도 시설 PLC를 AI가 짠 스크립트로 노려요 (8/20)**",
-      "brief_date": "2026-08-21"
+      "sample": "본은 **HDR10**, 옵션은 **HLG**, BT.2020+PQ **ProRes**(`hdr_prores`,",
+      "brief_date": "2026-08-24"
+    },
+    {
+      "term": "JPEG",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "1**이 이 모델을 기본 지원해요. JPEG·PNG·GIF·WebP를 받고, 이미지는 사용자 메시지에만 넣을 수 있",
+      "brief_date": "2026-08-24"
+    },
+    {
+      "term": "PLC",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "nce Agent OS · CISA PLC · 기이안 연애 1회 반응. 8/20 제외: Cully Hill Boy",
+      "brief_date": "2026-08-24"
+    },
+    {
+      "term": "PNG",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "이 모델을 기본 지원해요. JPEG·PNG·GIF·WebP를 받고, 이미지는 사용자 메시지에만 넣을 수 있어요.",
+      "brief_date": "2026-08-24"
     },
     {
       "term": "POST",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "리라고 적혀 있어요. 엔드포인트는 `POST https://api.bfl.ai/v1/flux-tools/video-",
-      "brief_date": "2026-08-21"
+      "sample": "않는다고 적었어요. 엔드포인트는 `POST /v1/video_to_hdr`, 모델 이름은 `ruby`예요.",
+      "brief_date": "2026-08-24"
     },
     {
-      "term": "RCS",
+      "term": "RHA",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "적었어요. iMessage·SMS·RCS를 검색하고 초안을 잡고, 보내기도 해요. - (범위) **Appl",
-      "brief_date": "2026-08-21"
-    },
-    {
-      "term": "SDK",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "opic **Claude Agent SDK** 위에 올렸고, Westlaw·Practical Law 인용으로 리서",
-      "brief_date": "2026-08-21"
-    },
-    {
-      "term": "SMS",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "12)로 적었어요. iMessage·SMS·RCS를 검색하고 초안을 잡고, 보내기도 해요. - (범위) **",
-      "brief_date": "2026-08-21"
+      "sample": "-AGI-3 공개셋에서 100.00 RHA… | 인프라·규제 | 공식 | [원문](https://developer",
+      "brief_date": "2026-08-24"
     },
     {
       "term": "Seedance",
       "hint": "ByteDance 영상 생성 모델",
       "hits": 1,
-      "sample": "독이 최신) · Dreamina 홈(Seedance 2.5 배너는 창 밖 제품 표면) · HappyShrimp/HappyO",
-      "brief_date": "2026-08-21"
+      "sample": "amina/Jimeng/CapCut(Seedance 2.5 배너는 창 밖 제품 표면) · HappyShrimp/HappyO",
+      "brief_date": "2026-08-24"
+    },
+    {
+      "term": "VISTA",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "환경 액션은 **6,624회**로, VISTA **7,542회**보다 약 **12%** 적어요. 같은 Opus 5를",
+      "brief_date": "2026-08-24"
+    },
+    {
+      "term": "온프레미스",
+      "hint": "사내·자체 인프라에서 실행",
+      "hits": 1,
+      "sample": "고 표·각주를 확인해요. 클라우드와 온프레 모두이고, 민감 문서를 격리 경계 밖으로 안 보내도 되게 설계했다고 해",
+      "brief_date": "2026-08-24"
     }
   ]
 }

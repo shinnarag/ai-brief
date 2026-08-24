@@ -403,6 +403,17 @@
   <path d="M118 60 H132" stroke="#1d4ed8" stroke-width="3"/>
   <path d="M228 50 H242" stroke="#1d4ed8" stroke-width="2"/>
   <path d="M228 70 H242" stroke="#1d4ed8" stroke-width="2"/>
+</svg>`,
+      hdr: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#111827"/>
+  <rect x="28" y="28" width="130" height="64" rx="10" fill="#374151"/>
+  <text x="93" y="56" text-anchor="middle" fill="#9ca3af" font-size="13" font-weight="700" font-family="system-ui">SDR</text>
+  <text x="93" y="76" text-anchor="middle" fill="#6b7280" font-size="10" font-family="system-ui">표준 밝기</text>
+  <text x="175" y="66" text-anchor="middle" fill="#fbbf24" font-size="18">→</text>
+  <rect x="202" y="22" width="130" height="76" rx="12" fill="#fbbf24"/>
+  <text x="267" y="56" text-anchor="middle" fill="#111827" font-size="14" font-weight="700" font-family="system-ui">HDR</text>
+  <text x="267" y="76" text-anchor="middle" fill="#78350f" font-size="10" font-family="system-ui">하이 다이내믹</text>
 </svg>`
     };
 
@@ -756,12 +767,22 @@
       text: "모델이 검색·도구·데이터를 부를 때 쓰는 공통 연결 규약이에요. 모델 컨텍스트 프로토콜이라고 불러요.",
       detail: "MCP(Model Context Protocol, 모델 컨텍스트 프로토콜)는 모델이 파일·검색·외부 앱 같은 도구를 같은 방식으로 부르도록 정한 연결 규약입니다. Slack·법률 워크벤치·거래소처럼 서로 다른 제품이 ‘도구 서버’를 열어 두면, 에이전트가 각각 다른 플러그인을 배우지 않고도 권한을 나눠 쓸 수 있어요. 읽기 전용과 실행 권한을 나누고, 사람 승인 뒤에만 나가게 설계하는 경우가 많아요.",
       firstSeen: "2026-08-21"
+    },
+    {
+      id: "hdr",
+      term: "HDR",
+      en: "High Dynamic Range",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "아주 밝은 하이라이트와 아주 어두운 그림자를 한 화면에 같이 담는 넓은 밝기 범위예요. 맞은편은 SDR(표준 다이내믹 레인지)이에요.",
+      detail: "HDR(High Dynamic Range, 하이 다이내믹 레인지)은 화면이 담을 수 있는 밝기·대비 폭을 넓힌 영상 규격입니다. SDR(Standard Dynamic Range) 납품본은 TV·웹에서 흔히 보는 표준 밝기고, HDR10·HLG·PQ 같은 마스터는 하이라이트가 더 살아납니다. Runway Ruby처럼 SDR을 다시 그리지 않고 HDR로 넘기는 단계는 해상도를 키우는 업스케일과 달리 색 마스터에 가깝습니다. 캠페인 히어로를 HDR로 내야 하면 납품 규격(HDR10/HLG/ProRes/EXR)을 먼저 맞춰 두세요.",
+      firstSeen: "2026-08-24"
     }
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-08-21",
-    termIds: ["upscale", "short-drama", "ai-influencer", "mcp", "multimodal", "open-weight"]
+    date: "2026-08-24",
+    termIds: ["hdr", "short-drama", "upscale", "character-ip", "ai-influencer", "keyframe"]
   };
 
   const TAGS = [
