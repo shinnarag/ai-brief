@@ -781,8 +781,8 @@
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-08-24",
-    termIds: ["hdr", "short-drama", "upscale", "character-ip", "ai-influencer", "keyframe"]
+    date: "2026-08-25",
+    termIds: ["t2v", "short-drama", "upscale", "character-ip", "hdr", "mcp"]
   };
 
   const TAGS = [
