@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T10:21:18",
+  "generated_at": "2026-08-26T10:44:00",
   "platform": "AI Pulse",
   "count": 29,
   "domains": {
@@ -204,8 +204,8 @@
         "DeepSeek",
         "Mistral",
         "ChatGPT",
-        "Gemini",
         "NVIDIA",
+        "Gemini",
         "Kling",
         "Midjourney",
         "Runway"
@@ -291,13 +291,13 @@
         "Anthropic",
         "DeepSeek",
         "NVIDIA",
-        "Midjourney",
         "Salesforce",
+        "Midjourney",
         "Copilot",
-        "Runway",
-        "Google",
-        "Amazon",
         "GitHub",
+        "Amazon",
+        "Google",
+        "Runway",
         "Gemini"
       ],
       "has_rumor": false,
@@ -920,12 +920,12 @@
         "Claude",
         "NVIDIA",
         "Hugging Face",
-        "Google",
         "GitHub",
+        "Google",
         "Oracle",
         "Kling",
-        "Runway",
         "Amazon",
+        "Runway",
         "Meta",
         "Midjourney"
       ],
@@ -969,8 +969,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "Gemini",
-        "NVIDIA"
+        "NVIDIA",
+        "Gemini"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1060,8 +1060,8 @@
         "Midjourney",
         "ElevenLabs",
         "Microsoft",
-        "Google",
-        "Zapier"
+        "Zapier",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1106,8 +1106,8 @@
         "Luma",
         "Anthropic",
         "Copilot",
-        "Google",
-        "Amazon"
+        "Amazon",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1226,8 +1226,8 @@
       ],
       "companies": [
         "Anthropic",
-        "OpenAI",
         "NVIDIA",
+        "OpenAI",
         "Google",
         "Adobe",
         "GitHub",

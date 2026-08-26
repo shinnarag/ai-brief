@@ -414,7 +414,7 @@
   <rect x="202" y="22" width="130" height="76" rx="12" fill="#fbbf24"/>
   <text x="267" y="56" text-anchor="middle" fill="#111827" font-size="14" font-weight="700" font-family="system-ui">HDR</text>
   <text x="267" y="76" text-anchor="middle" fill="#78350f" font-size="10" font-family="system-ui">하이 다이내믹</text>
-</svg>`
+</svg>`,
       asr: `
 <svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
   <rect width="360" height="120" fill="#ecfdf5"/>
