@@ -1,201 +1,278 @@
 {
-  "date": "2026-08-25",
-  "label": "8월 25일 브리프",
+  "date": "2026-08-26",
+  "label": "8월 26일 브리프",
   "termIds": [
-    "t2v",
+    "asr",
     "short-drama",
     "upscale",
     "character-ip",
     "hdr",
-    "mcp"
+    "sandbox"
   ],
   "allMatchedIds": [
-    "t2v",
     "hdr",
+    "asr",
     "upscale",
     "character-ip",
     "short-drama",
     "early-access",
     "credits",
+    "harness",
     "open-weight",
-    "context",
     "prompt",
     "agent",
     "token",
+    "moe",
     "api",
     "sandbox",
-    "watermark",
-    "mcp"
+    "ga"
   ],
   "candidates": [
     {
+      "term": "IBM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 8,
+      "sample": "lexity가 로컬 에이전트를 내고 IBM은 초고속 전사 모델을 열었어요. Manus 웰컴백 할인 숫자도 확정돼,",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "NVIDIA",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 4,
+      "sample": "테크 · 인프라 · 규제 1. **NVIDIA Jetson Orin Nano 2 — 엣지 추론 2배, 모듈은 2027",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "DGX",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 3,
+      "sample": "uter — 로컬 에이전트 하네스가 DGX Spark·RTX에 붙어요 (8/25)** - (사실) Perpl",
+      "brief_date": "2026-08-26"
+    },
+    {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
-      "hits": 22,
-      "sample": "래프트 · PPT→TVC 한 샷 · Higgsfield 셀렉터 · fal 단가 비교 · Manus 복원 포털 수집 시각: 20",
-      "brief_date": "2026-08-25"
-    },
-    {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 9,
-      "sample": "· Higgsfield 셀렉터 · fal 단가 비교 · Manus 복원 포털 수집 시각: 2026-08-25 1",
-      "brief_date": "2026-08-25"
-    },
-    {
-      "term": "LLM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 5,
-      "sample": "son Reuters Thomson LLM**, **Claude Code v2.1.243**, **Manus 8/",
-      "brief_date": "2026-08-25"
-    },
-    {
-      "term": "해상도(720p/1080p/4K)",
-      "hint": "출력 화질 단위",
-      "hits": 5,
-      "sample": "Wan 3.0**(30초·문서 입력·1080p, Higgsfield·fal 허브), **Higgsfield 제휴 프로",
-      "brief_date": "2026-08-25"
-    },
-    {
-      "term": "GEN",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 4,
-      "sample": "퇴역 · Manus 복원 포털 · GEN-1.5 리서치. ## 🔥 Top 5 1. **Alibaba Wan 3",
-      "brief_date": "2026-08-25"
-    },
-    {
-      "term": "PPT",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 4,
-      "sample": "주제 설명: Wan 3.0이 PDF·PPT를 받아 최대 30초 1080p를 뽑고, Higgsfield와 fal에도",
-      "brief_date": "2026-08-25"
-    },
-    {
-      "term": "AVO",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "+ 유쓰 AI 쇼츠 · NVIDIA AVO · 기이안 넷플릭스 4위. 8/21 제외: FLUX Upscale 2K",
-      "brief_date": "2026-08-25"
+      "hits": 3,
+      "sample": "0p·허브·API·리스트 단가) · Higgsfield 제휴(3시간 최대 50%) · Claude Code v2.1.243 ·",
+      "brief_date": "2026-08-26"
     },
     {
       "term": "FLUX",
       "hint": "설명 없는 대문자 약어",
       "hits": 2,
-      "sample": "안 넷플릭스 4위. 8/21 제외: FLUX Upscale 2K/4K · MiniMax Design/H3 · Hig",
-      "brief_date": "2026-08-25"
+      "sample": "ol $4/$20. 8/21 제외: FLUX Upscale 2K/4K · MiniMax Design/H3 · Hig",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "GPT",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "· 중국 숏드라마 95% AI · GPT-5.6 Sol $4/$20. 8/21 제외: FLUX Upscale 2",
+      "brief_date": "2026-08-26"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 2,
-      "sample": "스·아란야 현장·앱 정식 없음) · Kling 5.0은 공식 없음 · Kling 3.0 Turbo changelog",
-      "brief_date": "2026-08-25"
+      "sample": "위·아란야 현장·앱 정식 없음) · Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA",
+      "brief_date": "2026-08-26"
     },
     {
-      "term": "LGU",
+      "term": "PPLX",
       "hint": "설명 없는 대문자 약어",
       "hits": 2,
-      "sample": "Anthropic IPO 보도 · LGU+ 유쓰 AI 쇼츠 · NVIDIA AVO · 기이안 넷플릭스 4위. 8",
-      "brief_date": "2026-08-25"
+      "sample": "B**와 하네스에 맞춰 후학습한 **PPLX 27B**이고, **Nemotron 3.5 Lightning**(오픈",
+      "brief_date": "2026-08-26"
     },
     {
-      "term": "SDK",
+      "term": "RTX",
       "hint": "설명 없는 대문자 약어",
       "hits": 2,
-      "sample": "컨텍스트 프로토콜) 서버가 `-p`·SDK에서 끊기면 자동 재연결하고, 리눅스 x64 네이티브 설치 용량은 약 *",
-      "brief_date": "2026-08-25"
+      "sample": "에이전트 하네스가 DGX Spark·RTX에 붙어요 (8/25)** - (사실) Perplexity가 **P",
+      "brief_date": "2026-08-26"
     },
     {
-      "term": "SGT",
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 2,
+      "sample": "· GEN-1.5. 8/24 제외: Runway Ruby HDR · DeepSeek-V4-Flash-Vision-Exp",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "TOPS",
       "hint": "설명 없는 대문자 약어",
       "hits": 2,
-      "sample": "**2026-08-25 08:00 SGT**(한국 시간 09:00)부터라고 적었어요. 8/11 분리 공지의 트리",
-      "brief_date": "2026-08-25"
+      "sample": "리: 테크 · 인프라 - 78 TOPS·8GB·8코어 Arm이고, 같은 성능에 전력은 40% 덜 쓴다고 해요.",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "VRAM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "Spark(GB10)** 또는 **VRAM 24GB 이상 RTX**(대략 3090급)예요. 로컬 모델은 **Qwe",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "해상도(720p/1080p/4K)",
+      "hint": "출력 화질 단위",
+      "hits": 2,
+      "sample": "aba Wan 3.0(PDF→30초 1080p·허브·API·리스트 단가) · Higgsfield 제휴(3시간 최대 5",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "AGI",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "베이스가 될 수 있다는 식이에요. AGI 문턱 프레임과 Anthropic 컴퓨트 열세 해석이 같이 돌았지만, 모",
+      "brief_date": "2026-08-26"
     },
     {
       "term": "BFL",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": ", 8/20 알파 UX가 최신) · BFL 블로그(FLUX Upscale=8/20이 최신) · Seed 블로그(8",
-      "brief_date": "2026-08-25"
+      "sample": ", 8/20 알파 UX가 최신) · BFL 블로그(FLUX Upscale=8/20이 최신, 창 안 신규 없음) ·",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "CPU",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "*8GB**, **8코어 Arm** CPU예요. 15W 모드에서 Super와 같은 성능을 더 낮은 전력으로 낸다고",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "CRE",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "g Q2 RMB850M·CapCut CRE[AI]TE 심사 국면은 창 밖(8/19–20·마감 8/10–11). M",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "CTC",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "r에 언어 모델을 붙이지 않고, **CTC(연결주의 시간 분류)**로 오디오 프레임을 토큰에 한 번에 매핑해요.",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "FFASR",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "00%**는 벤더 비공식 수치예요. FFASR(원거리·잔향)에서는 비상업 5위·Apache 9위 정확도이면서 둘 다",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "GEN",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "dex mcp-server 퇴역 · GEN-1.5. 8/24 제외: Runway Ruby HDR · DeepSee",
+      "brief_date": "2026-08-26"
     },
     {
       "term": "GLM",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "rint는 아홉 프로브 중 여섯에서 GLM-5.3과 겹쳤다고 했어요. - (확산) 랩 공식은 없고, Open",
-      "brief_date": "2026-08-25"
+      "sample": "- (비용·한계) 백그라운드 생각은 GLM·Grok 기준 대략 **시간당 $1–$2**이고, 메시지가 없으면 생각",
+      "brief_date": "2026-08-26"
     },
     {
-      "term": "GPT",
+      "term": "GPU",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "· 중국 숏드라마 95% AI · GPT-5.6 Sol $4/$20 · Grok Bot 플랜 · Grok 4.6",
-      "brief_date": "2026-08-25"
-    },
-    {
-      "term": "HEX",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "밖이라 카드 생략. Relight/HEX 독립(8/21)·Blender 플러그인(8/21)도 동일. - Ox A",
-      "brief_date": "2026-08-25"
+      "sample": "고, 헤드라인 RTFx는 데이터센터 GPU 배치 숫자라 노트북 WebGPU와는 달라요. - (영향) 인터뷰·",
+      "brief_date": "2026-08-26"
     },
     {
       "term": "Hailuo/MiniMax",
       "hint": "영상·모델 벤더",
       "hits": 1,
       "sample": "LUX Upscale 2K/4K · MiniMax Design/H3 · Higgsfield Faceless Studio",
-      "brief_date": "2026-08-25"
+      "brief_date": "2026-08-26"
     },
     {
-      "term": "JSON",
+      "term": "LPX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "**100만 토큰**, 도구 호출과 JSON 출력을 받아요. OpenRouter 스텔스 슬러그 `stealth/ox",
-      "brief_date": "2026-08-25"
+      "sample": "정이라 카드 생략. - Groq 3 LPX 양산(8/24)은 화 브리프 미등재였으나 수창(8/25 10:10 KS",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "Luma",
+      "hint": "영상 생성",
+      "hits": 1,
+      "sample": "없음) · Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음) · Cursor",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "MIT",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "실) Laude Institute와 MIT가 **Headlong**을 **2026-08-25**에 공개했어요. 핵",
+      "brief_date": "2026-08-26"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 1,
-      "sample": "00M(8/19 백필). > 스윕: Midjourney updates(V8.2=7/24, 8/20 알파 UX가 최신) · BF",
-      "brief_date": "2026-08-25"
+      "sample": "· Slack Code. > 스윕: Midjourney updates(V8.2=7/24, 8/20 알파 UX가 최신) · BF",
+      "brief_date": "2026-08-26"
     },
     {
-      "term": "NVIDIA",
+      "term": "PII",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "도 · LGU+ 유쓰 AI 쇼츠 · NVIDIA AVO · 기이안 넷플릭스 4위. 8/21 제외: FLUX Upscal",
-      "brief_date": "2026-08-25"
+      "sample": "터가 멈추고, 내보낼 컨텍스트에 **PII 분류**를 돌린 뒤 사용자에게 보여 준 다음, 그 한 스텝만 클라우드",
+      "brief_date": "2026-08-26"
     },
     {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
+      "term": "RMB",
+      "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "털**이 축이에요. > 전일 제외: Runway Ruby HDR · DeepSeek-V4-Flash-Vision-Exp",
-      "brief_date": "2026-08-25"
+      "sample": "4라 화창 밖. - Kling Q2 RMB850M·CapCut CRE[AI]TE 심사 국면은 창 밖(8/19–20",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "SPGI",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "SA-4.0)은 GigaSpeech·SPGI 등을 더해 약 **7.5만 시간**이에요. 합성 2,740시간(멀티스피",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "STT",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "바이어싱은 못 해요. 노트북·엣지 STT와 엔터프라이즈 일괄 전사용으로 위치 잡았고, 헤드라인 RTFx는 데이터",
+      "brief_date": "2026-08-26"
     },
     {
       "term": "Seedance",
       "hint": "ByteDance 영상 생성 모델",
       "hits": 1,
       "sample": "amina/Jimeng/CapCut(Seedance 2.5 배너는 창 밖 제품 표면) · HappyShrimp/HappyO",
-      "brief_date": "2026-08-25"
+      "brief_date": "2026-08-26"
     },
     {
-      "term": "TVC",
+      "term": "WER",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "3.0 480p 드래프트 · PPT→TVC 한 샷 · Higgsfield 셀렉터 · fal 단가 비교 · Manu",
-      "brief_date": "2026-08-25"
+      "sample": "공개 단문 영어 세트에서 비상업 **WER 4.85%**, Apache **5.00%**는 벤더 비공식 수치예요.",
+      "brief_date": "2026-08-26"
+    },
+    {
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 1,
+      "sample": "· Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음) · Cursor cha",
+      "brief_date": "2026-08-26"
     },
     {
       "term": "체크포인트",
       "hint": "학습 가중치 스냅샷",
       "hits": 1,
-      "sample": "stlaw·Practical Law·Checkpoint·Reuters 콘텐츠와 전문가 후학습을 얹었고, 프런티어 랩처럼 기초",
-      "brief_date": "2026-08-25"
+      "sample": "뽑는 팀은 오늘 HF Apache 체크포인트로 짧은 클립만 돌려 보시면 돼요. 상용 파이프는 Apache 쪽을, 연",
+      "brief_date": "2026-08-26"
     }
   ],
-  "catalogSize": 36
+  "catalogSize": 37
 }

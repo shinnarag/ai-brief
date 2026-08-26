@@ -415,6 +415,14 @@
   <text x="267" y="56" text-anchor="middle" fill="#111827" font-size="14" font-weight="700" font-family="system-ui">HDR</text>
   <text x="267" y="76" text-anchor="middle" fill="#78350f" font-size="10" font-family="system-ui">하이 다이내믹</text>
 </svg>`
+      asr: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#ecfdf5"/>
+  <rect x="36" y="34" width="88" height="52" rx="12" fill="#059669"/>
+  <text x="80" y="66" text-anchor="middle" fill="#fff" font-size="16" font-weight="700" font-family="system-ui">🎙</text>
+  <text x="160" y="58" fill="#065f46" font-size="14" font-weight="700" font-family="system-ui">→ 텍스트</text>
+  <text x="160" y="82" fill="#047857" font-size="11" font-family="system-ui">ASR 자동 음성 인식</text>
+</svg>`
     };
 
   const BISCUITS = [
@@ -777,12 +785,22 @@
       text: "아주 밝은 하이라이트와 아주 어두운 그림자를 한 화면에 같이 담는 넓은 밝기 범위예요. 맞은편은 SDR(표준 다이내믹 레인지)이에요.",
       detail: "HDR(High Dynamic Range, 하이 다이내믹 레인지)은 화면이 담을 수 있는 밝기·대비 폭을 넓힌 영상 규격입니다. SDR(Standard Dynamic Range) 납품본은 TV·웹에서 흔히 보는 표준 밝기고, HDR10·HLG·PQ 같은 마스터는 하이라이트가 더 살아납니다. Runway Ruby처럼 SDR을 다시 그리지 않고 HDR로 넘기는 단계는 해상도를 키우는 업스케일과 달리 색 마스터에 가깝습니다. 캠페인 히어로를 HDR로 내야 하면 납품 규격(HDR10/HLG/ProRes/EXR)을 먼저 맞춰 두세요.",
       firstSeen: "2026-08-24"
+    },
+    {
+      id: "asr",
+      term: "ASR",
+      en: "Automatic Speech Recognition",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "말소리를 글자로 바꿔 주는 자동 음성 인식이에요. 인터뷰·원테이크를 자막·스크립트로 뽑을 때 쓰는 층이에요.",
+      detail: "ASR(Automatic Speech Recognition, 자동 음성 인식)은 음성을 텍스트로 옮기는 기술입니다. 영상 후반·고객센터·회의록처럼 ‘듣고 받아 적는’ 일이 필요할 때 쓰고요. WER(단어 오류율)은 틀린 단어 비율, RTFx(실시간 배수)는 실제 시간보다 몇 배로 빨리 도는지 보여 줘요. 번역·요약은 보통 ASR 다음에 붙는 별도 단계예요.",
+      firstSeen: "2026-08-26"
     }
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-08-25",
-    termIds: ["t2v", "short-drama", "upscale", "character-ip", "hdr", "mcp"]
+    date: "2026-08-26",
+    termIds: ["asr", "short-drama", "upscale", "character-ip", "hdr", "sandbox"]
   };
 
   const TAGS = [
