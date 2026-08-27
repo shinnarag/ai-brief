@@ -31,6 +31,7 @@
           </button>
           <div class="brief-date-picker" id="brief-date-picker-2026-07-29" role="listbox"
             aria-label="브리프 날짜 목록" hidden>
+      <a class="brief-date-option" role="option" href="2026-08-27.html" data-date="2026-08-27" aria-selected="false"><span class="brief-date-option-date">2026년 8월 27일(목)</span><span class="brief-date-option-title">전사는 정식으로 열렸고, 스텔스 소는 이름을 밝혔다</span></a>
       <a class="brief-date-option" role="option" href="2026-08-26.html" data-date="2026-08-26" aria-selected="false"><span class="brief-date-option-date">2026년 8월 26일(수)</span><span class="brief-date-option-title">민감 문서는 책상에서, 전사는 초당 3.5시간</span></a>
       <a class="brief-date-option" role="option" href="2026-08-25.html" data-date="2026-08-25" aria-selected="false"><span class="brief-date-option-date">2026년 8월 25일(화)</span><span class="brief-date-option-title">문서를 넣으면 30초가 나오고, 허브에도 붙었다</span></a>
       <a class="brief-date-option" role="option" href="2026-08-24.html" data-date="2026-08-24" aria-selected="false"><span class="brief-date-option-date">2026년 8월 24일(월)</span><span class="brief-date-option-title">HDR로 넘기고, 숏드라마는 배우 없이 돌아간다</span></a>
@@ -188,7 +189,7 @@
             
           </div>
           <h3 class="news-title">Anthropic, Claude Mythos로 HAWK·AES 암호 약점 발견 — 60시간·~$10만, CryptanalysisBench 공개</h3>
-          <ul class="news-bullets"><li>7/28 공식 연구: Claude Mythos Preview가 구현 버그가 아니라 알고리즘 수학 자체의 약점을 찾았다고 발표. (1) 포스트양자 서명 후보 HAWK — 2년 전문가 리뷰를 통과한 NIST 3라운드 후보에서 60시간 만에 유효 키 강도 약 절반 감소(예: HAWK-256 기대 비용 2^64 → 2^38 시연). (2) 7라운드 AES-128 meet-in-the-middle — 모델이 “Möbius Bridge” 지문으로 기존 대비 200~800× 가속.</li><li>자율성·비용: HAWK는 반자율(연구자 가이드), AES는 스캐폴드 후 거의 완전 자율(실질 <button type="button" class="inline-biscuit" data-biscuit="prompt">프롬프트</button> 수 회·수억~10억 <button type="button" class="inline-biscuit" data-biscuit="token">토큰</button>). 각 결과 <button type="button" class="inline-biscuit" data-biscuit="api">API</button> 비용 약 $100,000. 프로덕션 영향 없음 — HAWK 미배포, AES는 라운드 축소판·전문 풀 사이퍼 미파괴. LEA 13라운드·Serpent 6라운드 등 후속 실험도 언급.</li><li>공개물: HAWK·AES 논문 PDF, AES 핵심 통찰 CoT, ETH Zurich·Tel Aviv·Haifa 공동 CryptanalysisBench(arXiv 2607.18538). HAWK 저자·NIST 리스트·미 정부·산업 파트너에 사전 공유.</li><li>함의: 암호 표준 심사·레거시 암호 감사에 LLM이 “상위 전문가급” 보조로 진입. 병목은 발견이 아니라 인간 검증(AES 검증에 연구자 수백 시간). Glasswing·취약점 폭주와 같은 “트리아지 포화” 프레임이 암호학 쪽으로 확장.</li><li>보안·표준·리서치 팀은 CryptanalysisBench·데모 레포를 내부 평가 세트에 넣고, PQC 후보 리뷰 프로세스에 에이전트 오딧 슬롯을 설계할 후보.</li></ul>
+          <ul class="news-bullets"><li>7/28 공식 연구: Claude Mythos Preview가 구현 버그가 아니라 알고리즘 수학 자체의 약점을 찾았다고 발표. (1) 포스트양자 서명 후보 HAWK — 2년 전문가 리뷰를 통과한 NIST 3라운드 후보에서 60시간 만에 유효 키 강도 약 절반 감소(예: HAWK-256 기대 비용 2^64 → 2^38 시연). (2) 7라운드 AES-128 meet-in-the-middle — 모델이 “Möbius Bridge” 지문으로 기존 대비 200~800× 가속.</li><li>자율성·비용: HAWK는 반자율(연구자 가이드), AES는 스캐폴드 후 거의 완전 자율(실질 <button type="button" class="inline-biscuit" data-biscuit="prompt">프롬프트</button> 수 회·수억~10억 <button type="button" class="inline-biscuit" data-biscuit="token">토큰</button>). 각 결과 <button type="button" class="inline-biscuit" data-biscuit="api">API</button> 비용 약 $100,000. 프로덕션 영향 없음 — HAWK 미배포, AES는 라운드 축소판·전문 풀 사이퍼 미파괴. LEA 13라운드·Serpent 6라운드 등 후속 실험도 언급.</li><li>공개물: HAWK·AES 논문 PDF, AES 핵심 통찰 <button type="button" class="inline-biscuit" data-biscuit="cot">CoT</button>, ETH Zurich·Tel Aviv·Haifa 공동 CryptanalysisBench(arXiv 2607.18538). HAWK 저자·NIST 리스트·미 정부·산업 파트너에 사전 공유.</li><li>함의: 암호 표준 심사·레거시 암호 감사에 LLM이 “상위 전문가급” 보조로 진입. 병목은 발견이 아니라 인간 검증(AES 검증에 연구자 수백 시간). Glasswing·취약점 폭주와 같은 “트리아지 포화” 프레임이 암호학 쪽으로 확장.</li><li>보안·표준·리서치 팀은 CryptanalysisBench·데모 레포를 내부 평가 세트에 넣고, PQC 후보 리뷰 프로세스에 에이전트 오딧 슬롯을 설계할 후보.</li></ul>
           <div class="news-footer"><a class="news-chip" href="https://www.anthropic.com/research/discovering-cryptographic-weaknesses" target="_blank" rel="noreferrer">Anthropic 연구</a><a class="news-chip" href="https://arxiv.org/abs/2607.18538" target="_blank" rel="noreferrer">CryptanalysisBench</a><span class="news-chip news-chip-muted">공식</span></div>
         </article>
         <article class="news-card rel-official" id="c-테크-인프라-규제-보안-03" data-card-id="c-테크-인프라-규제-보안-03">
@@ -372,7 +373,7 @@
 </tr>
 </tbody>
 </table></div></section><details class="brief-scratch"><summary>내부 참고 · 짧게 남긴 시그널 <span class="brief-scratch-hint">확인·해결되면 삭제</span></summary><ul class="brief-scratch-list"><li><strong>채용 매니저 48% “신입보다 AI 투자”</strong> — : Higher Ed Dive 7/28 — 미 채용 매니저 1,000명 설문, 55%가 신입 예산을 AI로 일부 이전. 전문은 페이월 구간 다수 · Higher Ed Dive · <a href="https://www.highereddive.com/news/new-grads-have-to-compete-with-ai-for-entry-level-roles-hiring/826298/" target="_blank" rel="noreferrer">Higher Ed Dive</a></li><li><strong>Midjourney</strong> — : V8.2 기본 모델(7/24) 이후 updates 허브 창 내 추가 Announcement 없음. Co-Star 인수는 7/23로 윈도우 밖.</li><li><strong>Higgsfield / Decart Lucy / ElevenLabs / Suno</strong> — : 창 내 신규 메이저 제품·가격 공지 미확인(전일 트라이얼·상태 유지 메모와 별개 신규 없음).</li><li><strong>fal.ai changelog</strong> — : 7월 초 serverless 재시도 등 이후 창 내 신규 featured 모델 미확인(봇 챌린지로 전문 재확인 제한).</li><li><strong>Microsoft MAI-Image-2.5-Pro / MAI-Voice-2-Flash</strong> — : MAI-Cyber 관련 스토리 링크에 노출 — 별도 창 내 신규 런칭 보도로 확정하지 않음, 관찰 후보.</li></ul></details>
-          <section class="related-biscuits-min news-section" id="related-biscuits" data-terms="agent,cli,ga,mcp,harness,sandbox,prompt,token,api,open-weight" aria-label="관련 비스킷">
+          <section class="related-biscuits-min news-section" id="related-biscuits" data-terms="agent,cli,ga,mcp,harness,sandbox,prompt,token,api,cot,open-weight" aria-label="관련 비스킷">
             <h2 class="news-section-title"><span class="sec-title-text">관련 비스킷</span></h2>
             <ul class="related-biscuits-min-list">
             <li><button type="button" data-biscuit="agent">에이전트</button></li>
@@ -384,6 +385,7 @@
             <li><button type="button" data-biscuit="prompt">프롬프트</button></li>
             <li><button type="button" data-biscuit="token">토큰</button></li>
             <li><button type="button" data-biscuit="api">API</button></li>
+            <li><button type="button" data-biscuit="cot">CoT</button></li>
             <li><button type="button" data-biscuit="open-weight">오픈웨이트</button></li>
             </ul>
           </section></div>

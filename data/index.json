@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T10:44:00",
+  "generated_at": "2026-08-27T10:23:48",
   "platform": "AI Pulse",
-  "count": 29,
+  "count": 30,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,81 +11,89 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "creative": 93,
-    "marketing": 87,
-    "models": 174,
-    "infra": 67,
-    "agents": 99,
+    "models": 179,
+    "marketing": 89,
+    "infra": 69,
+    "agents": 101,
+    "creative": 94,
     "policy": 52
   },
   "companies": [
     [
       "OpenAI",
-      72
-    ],
-    [
-      "Claude",
-      61
+      74
     ],
     [
       "NVIDIA",
-      52
+      61
     ],
     [
-      "Anthropic",
-      38
-    ],
-    [
-      "DeepSeek",
-      28
-    ],
-    [
-      "ChatGPT",
-      27
+      "Claude",
+      53
     ],
     [
       "Grok",
-      24
+      41
+    ],
+    [
+      "Gemini",
+      36
+    ],
+    [
+      "DeepSeek",
+      29
+    ],
+    [
+      "Anthropic",
+      27
+    ],
+    [
+      "ChatGPT",
+      23
+    ],
+    [
+      "Hugging Face",
+      20
     ],
     [
       "Runway",
-      18
+      20
+    ],
+    [
+      "IBM",
+      15
+    ],
+    [
+      "Perplexity",
+      14
+    ],
+    [
+      "Google",
+      14
+    ],
+    [
+      "xAI",
+      14
     ],
     [
       "Meta",
       14
     ],
     [
-      "IBM",
-      14
-    ],
-    [
-      "Perplexity",
-      13
-    ],
-    [
       "Mistral",
       12
     ],
     [
-      "Gemini",
+      "GitHub",
       11
-    ],
-    [
-      "xAI",
-      11
-    ],
-    [
-      "Kling",
-      10
     ],
     [
       "Apple",
       10
     ],
     [
-      "GitHub",
-      8
+      "Kling",
+      9
     ],
     [
       "Midjourney",
@@ -96,20 +104,12 @@
       7
     ],
     [
-      "Google",
-      6
-    ],
-    [
-      "Hugging Face",
-      5
+      "Luma",
+      3
     ],
     [
       "Amazon",
       3
-    ],
-    [
-      "Luma",
-      2
     ],
     [
       "Salesforce",
@@ -122,11 +122,56 @@
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-08-20",
-    "end": "2026-08-26",
+    "start": "2026-08-21",
+    "end": "2026-08-27",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-08-27",
+      "title": "AI Daily Brief — 2026-08-27 (최근 24h)",
+      "theme": "전사는 정식으로 열렸고, 스텔스 소는 이름을 밝혔다",
+      "theme_blurb": "Gemini 3.5 Transcribe가 자막 API로 열린 날, Z.ai가 Ox Alpha를 GLM-5.3-Flash로 공개했어요. 인터뷰 드래프트와 코딩 플랜 단가를 같은 브리프에서 보시면 돼요.",
+      "edition_title": "전사는 정식으로 열렸고, 스텔스 소는 이름을 밝혔다",
+      "edition_blurb": "Gemini 3.5 Transcribe가 자막 API로 열린 날, Z.ai가 Ox Alpha를 GLM-5.3-Flash로 공개했어요. 인터뷰 드래프트와 코딩 플랜 단가를 같은 브리프에서 보시면 돼요.",
+      "url": "brief/2026-08-27.html",
+      "excerpt": "오늘은 Gemini 3.5 Transcribe(실시간·파일 ASR), GLM-5.3-Flash(Ox Alpha 정체·MIT 오픈웨이트), Grok Bot 플랜 확대, Qwen3.8-Flash-Next, OpenAI Hugging Face 사고 공식 리포트가 축이에요.",
+      "top5": [
+        "Gemini 3.5 Transcribe — 실시간 전사가 자막 API로 열렸어요",
+        "GLM-5.3-Flash — 일주일짜리 스텔스 소가 이름을 밝혔어요",
+        "Grok Bot — SuperGrok·Cursor Pro·Teams에 기본으로 들어가요",
+        "Qwen3.8-Flash-Next — Qwen4 뼈대를 오픈웨이트로 먼저 풀었어요",
+        "OpenAI — Hugging Face 사고 공식 리포트가 나왔어요"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "companies": [
+        "Gemini",
+        "Grok",
+        "OpenAI",
+        "Hugging Face",
+        "Claude",
+        "NVIDIA",
+        "Google",
+        "GitHub",
+        "xAI",
+        "Anthropic",
+        "DeepSeek",
+        "Runway",
+        "Midjourney",
+        "Perplexity",
+        "Kling",
+        "Luma"
+      ],
+      "has_rumor": true,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-08-26",
       "title": "AI Daily Brief — 2026-08-26 (최근 24h)",
@@ -163,8 +208,8 @@
         "Kling",
         "Grok",
         "Midjourney",
-        "GitHub",
         "Gemini",
+        "GitHub",
         "Meta",
         "Luma"
       ],
@@ -202,8 +247,8 @@
         "Grok",
         "Hugging Face",
         "DeepSeek",
-        "Mistral",
         "ChatGPT",
+        "Mistral",
         "NVIDIA",
         "Gemini",
         "Kling",
@@ -294,11 +339,11 @@
         "Salesforce",
         "Midjourney",
         "Copilot",
-        "GitHub",
         "Amazon",
-        "Google",
         "Runway",
-        "Gemini"
+        "Google",
+        "Gemini",
+        "GitHub"
       ],
       "has_rumor": false,
       "source": "md",
@@ -379,8 +424,8 @@
         "ElevenLabs",
         "Runway",
         "Grok",
-        "Firefly",
         "Copilot",
+        "Firefly",
         "Kling"
       ],
       "has_rumor": false,
@@ -653,8 +698,8 @@
         "ByteDance",
         "Midjourney",
         "ElevenLabs",
-        "DeepMind",
-        "DeepSeek"
+        "DeepSeek",
+        "DeepMind"
       ],
       "has_rumor": false,
       "source": "md",
@@ -686,8 +731,8 @@
       ],
       "companies": [
         "OpenAI",
-        "Claude",
         "Google",
+        "Claude",
         "Meta",
         "Anthropic",
         "GitHub",
@@ -917,11 +962,11 @@
         "ChatGPT",
         "DeepMind",
         "Anthropic",
-        "Claude",
         "NVIDIA",
+        "Claude",
         "Hugging Face",
-        "GitHub",
         "Google",
+        "GitHub",
         "Oracle",
         "Kling",
         "Amazon",
@@ -1226,8 +1271,8 @@
       ],
       "companies": [
         "Anthropic",
-        "NVIDIA",
         "OpenAI",
+        "NVIDIA",
         "Google",
         "Adobe",
         "GitHub",
@@ -1238,8 +1283,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Samsung"
       ],
       "has_rumor": false,
@@ -1317,8 +1362,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,

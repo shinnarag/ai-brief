@@ -422,6 +422,35 @@
   <text x="80" y="66" text-anchor="middle" fill="#fff" font-size="16" font-weight="700" font-family="system-ui">🎙</text>
   <text x="160" y="58" fill="#065f46" font-size="14" font-weight="700" font-family="system-ui">→ 텍스트</text>
   <text x="160" y="82" fill="#047857" font-size="11" font-family="system-ui">ASR 자동 음성 인식</text>
+</svg>`,
+      wer: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fff7ed"/>
+  <text x="180" y="28" text-anchor="middle" fill="#9a3412" font-size="12" font-family="system-ui">맞은 단어 vs 틀린 단어</text>
+  <rect x="28" y="44" width="70" height="40" rx="10" fill="#16a34a"/>
+  <text x="63" y="70" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">맞음</text>
+  <rect x="108" y="44" width="70" height="40" rx="10" fill="#16a34a"/>
+  <text x="143" y="70" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">맞음</text>
+  <rect x="188" y="44" width="70" height="40" rx="10" fill="#dc2626"/>
+  <text x="223" y="70" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">틀림</text>
+  <rect x="268" y="44" width="70" height="40" rx="10" fill="#16a34a"/>
+  <text x="303" y="70" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">맞음</text>
+  <text x="180" y="106" text-anchor="middle" fill="#c2410c" font-size="12" font-family="system-ui">WER = 틀린 비율 · 낮을수록 정확</text>
+</svg>`,
+      cot: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef2ff"/>
+  <rect x="20" y="36" width="88" height="48" rx="16" fill="#fff" stroke="#4338ca" stroke-width="2"/>
+  <text x="64" y="66" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="700" font-family="system-ui">생각1</text>
+  <path d="M112 60 H138" stroke="#4338ca" stroke-width="3"/>
+  <polygon points="138,54 150,60 138,66" fill="#4338ca"/>
+  <rect x="154" y="36" width="88" height="48" rx="16" fill="#fff" stroke="#4338ca" stroke-width="2"/>
+  <text x="198" y="66" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="700" font-family="system-ui">생각2</text>
+  <path d="M246 60 H272" stroke="#4338ca" stroke-width="3"/>
+  <polygon points="272,54 284,60 272,66" fill="#4338ca"/>
+  <rect x="288" y="36" width="52" height="48" rx="16" fill="#4338ca"/>
+  <text x="314" y="66" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">답</text>
+  <text x="180" y="108" text-anchor="middle" fill="#3730a3" font-size="11" font-family="system-ui">연쇄 사고 · 한 줄씩 이어서 생각</text>
 </svg>`
     };
 
@@ -795,12 +824,32 @@
       text: "말소리를 글자로 바꿔 주는 자동 음성 인식이에요. 인터뷰·원테이크를 자막·스크립트로 뽑을 때 쓰는 층이에요.",
       detail: "ASR(Automatic Speech Recognition, 자동 음성 인식)은 음성을 텍스트로 옮기는 기술입니다. 영상 후반·고객센터·회의록처럼 ‘듣고 받아 적는’ 일이 필요할 때 쓰고요. WER(단어 오류율)은 틀린 단어 비율, RTFx(실시간 배수)는 실제 시간보다 몇 배로 빨리 도는지 보여 줘요. 번역·요약은 보통 ASR 다음에 붙는 별도 단계예요.",
       firstSeen: "2026-08-26"
+    },
+    {
+      id: "wer",
+      term: "WER",
+      en: "Word Error Rate",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "받아 적은 글이 원문과 얼마나 다른지 보는 틀린 단어 비율이에요. 낮을수록 전사가 정확해요.",
+      detail: "WER(Word Error Rate, 단어 오류율)은 자동 음성 인식이 원문 대비 삽입·삭제·교체한 단어 수를 전체 단어로 나눈 값입니다. 4.0%면 100단어 중 대략 네 곳이 틀린 셈이에요. 스트리밍(실시간)과 파일(비스트리밍) 숫자는 보통 따로 적히고, 벤치 세트·언어가 바뀌면 같은 모델도 값이 달라요. ASR 카드를 볼 때 속도(RTFx)와 짝으로 보시면 돼요.",
+      firstSeen: "2026-08-27"
+    },
+    {
+      id: "cot",
+      term: "CoT",
+      en: "Chain of Thought",
+      tag: "model",
+      tagLabel: "모델",
+      text: "답을 내기 전에 생각을 한 줄씩 이어 가는 연쇄 사고예요. 모니터하면 이상한 목표를 더 일찍 볼 수 있어요.",
+      detail: "CoT(Chain of Thought, 연쇄 사고)는 모델이 최종 답 앞에 중간 추론을 풀어 쓰는 방식입니다. 코딩·수학에서 단계를 밝히면 맞힐 확률이 올라가는 편이고, 에이전트 안전에서는 그 생각 스트림을 감시해 위험한 계획을 중간에 끊기도 해요. OpenAI 리포트의 CoT 모니터는 이 작업 메모를 보고 이상 행동을 호출하는 장치에 가깝습니다. 생각 토큰은 출력 요금에 잡히는 경우가 많아요.",
+      firstSeen: "2026-08-27"
     }
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-08-26",
-    termIds: ["asr", "short-drama", "upscale", "character-ip", "hdr", "sandbox"]
+    date: "2026-08-27",
+    termIds: ["wer", "asr", "short-drama", "character-ip", "hdr", "upscale"]
   };
 
   const TAGS = [
