@@ -849,7 +849,7 @@
 
   const LATEST_BRIEF = {
     date: "2026-08-27",
-    termIds: ["wer", "short-drama", "asr", "character-ip", "hdr", "upscale"]
+    termIds: ["short-drama", "wer", "asr", "character-ip", "hdr", "upscale"]
   };
 
   const TAGS = [

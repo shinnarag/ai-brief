@@ -2,8 +2,8 @@
   "date": "2026-08-27",
   "label": "8월 27일 브리프",
   "termIds": [
-    "wer",
     "short-drama",
+    "wer",
     "asr",
     "character-ip",
     "hdr",
@@ -19,7 +19,6 @@
     "open-weight",
     "agent",
     "token",
-    "moe",
     "fp8",
     "api",
     "sandbox",
@@ -67,7 +66,7 @@
       "term": "NVIDIA",
       "hint": "설명 없는 대문자 약어",
       "hits": 2,
-      "sample": "okenSpeed로 돌릴 수 있고, NVIDIA는 GB300 NVL72에서 FP8(8비트로 가볍게 계산하는 방식) 기준",
+      "sample": "okenSpeed로 돌릴 수 있고, NVIDIA는 GB300 NVL72에서 FP8 기준으로 그래픽카드 한 장당 초당 *",
       "brief_date": "2026-08-27"
     },
     {
@@ -137,7 +136,7 @@
       "term": "NVL",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "수 있고, NVIDIA는 GB300 NVL72에서 FP8(8비트로 가볍게 계산하는 방식) 기준으로 그래픽카드 한",
+      "sample": "수 있고, NVIDIA는 GB300 NVL72에서 FP8 기준으로 그래픽카드 한 장당 초당 **16,000** 토",
       "brief_date": "2026-08-27"
     },
     {
