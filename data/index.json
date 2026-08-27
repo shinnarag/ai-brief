@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T10:23:48",
+  "generated_at": "2026-08-27T12:25:56",
   "platform": "AI Pulse",
   "count": 30,
   "domains": {
@@ -130,15 +130,15 @@
     {
       "date": "2026-08-27",
       "title": "AI Daily Brief — 2026-08-27 (최근 24h)",
-      "theme": "전사는 정식으로 열렸고, 스텔스 소는 이름을 밝혔다",
+      "theme": "전사는 정식으로 열렸고, 스텔스 Ox는 이름을 밝혔다",
       "theme_blurb": "Gemini 3.5 Transcribe가 자막 API로 열린 날, Z.ai가 Ox Alpha를 GLM-5.3-Flash로 공개했어요. 인터뷰 드래프트와 코딩 플랜 단가를 같은 브리프에서 보시면 돼요.",
-      "edition_title": "전사는 정식으로 열렸고, 스텔스 소는 이름을 밝혔다",
+      "edition_title": "전사는 정식으로 열렸고, 스텔스 Ox는 이름을 밝혔다",
       "edition_blurb": "Gemini 3.5 Transcribe가 자막 API로 열린 날, Z.ai가 Ox Alpha를 GLM-5.3-Flash로 공개했어요. 인터뷰 드래프트와 코딩 플랜 단가를 같은 브리프에서 보시면 돼요.",
       "url": "brief/2026-08-27.html",
       "excerpt": "오늘은 Gemini 3.5 Transcribe(실시간·파일 ASR), GLM-5.3-Flash(Ox Alpha 정체·MIT 오픈웨이트), Grok Bot 플랜 확대, Qwen3.8-Flash-Next, OpenAI Hugging Face 사고 공식 리포트가 축이에요.",
       "top5": [
         "Gemini 3.5 Transcribe — 실시간 전사가 자막 API로 열렸어요",
-        "GLM-5.3-Flash — 일주일짜리 스텔스 소가 이름을 밝혔어요",
+        "GLM-5.3-Flash — 일주일짜리 스텔스 Ox가 이름을 밝혔어요",
         "Grok Bot — SuperGrok·Cursor Pro·Teams에 기본으로 들어가요",
         "Qwen3.8-Flash-Next — Qwen4 뼈대를 오픈웨이트로 먼저 풀었어요",
         "OpenAI — Hugging Face 사고 공식 리포트가 나왔어요"
@@ -247,10 +247,10 @@
         "Grok",
         "Hugging Face",
         "DeepSeek",
-        "ChatGPT",
         "Mistral",
-        "NVIDIA",
+        "ChatGPT",
         "Gemini",
+        "NVIDIA",
         "Kling",
         "Midjourney",
         "Runway"
@@ -339,10 +339,10 @@
         "Salesforce",
         "Midjourney",
         "Copilot",
-        "Amazon",
-        "Runway",
         "Google",
         "Gemini",
+        "Runway",
+        "Amazon",
         "GitHub"
       ],
       "has_rumor": false,
@@ -424,8 +424,8 @@
         "ElevenLabs",
         "Runway",
         "Grok",
-        "Copilot",
         "Firefly",
+        "Copilot",
         "Kling"
       ],
       "has_rumor": false,
@@ -467,8 +467,8 @@
         "Copilot",
         "ElevenLabs",
         "Google",
-        "Grok",
         "Luma",
+        "Grok",
         "Amazon",
         "GitHub",
         "Midjourney"
@@ -969,8 +969,8 @@
         "GitHub",
         "Oracle",
         "Kling",
-        "Amazon",
         "Runway",
+        "Amazon",
         "Meta",
         "Midjourney"
       ],
@@ -1014,8 +1014,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "NVIDIA",
-        "Gemini"
+        "Gemini",
+        "NVIDIA"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1105,8 +1105,8 @@
         "Midjourney",
         "ElevenLabs",
         "Microsoft",
-        "Zapier",
-        "Google"
+        "Google",
+        "Zapier"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1143,16 +1143,16 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Claude",
         "Gemini",
+        "Claude",
         "Kling",
         "Meta",
         "Cloudflare",
         "Luma",
         "Anthropic",
         "Copilot",
-        "Amazon",
-        "Google"
+        "Google",
+        "Amazon"
       ],
       "has_rumor": false,
       "source": "md",
