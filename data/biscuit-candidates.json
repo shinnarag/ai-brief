@@ -5,13 +5,13 @@
       "term": "GLM",
       "hint": "설명 없는 대문자 약어",
       "hits": 20,
-      "sample": "날, Z.ai가 Ox Alpha를 GLM-5.3-Flash로 공개했어요. 인터뷰 드래프트와 코딩 플랜 단가를 같",
+      "sample": "보이던 Ox Alpha가 Z.ai의 GLM-5.3-Flash라는 걸 알게 됐어요. 실무 액션: 짧은 인터뷰로 Tr",
       "brief_date": "2026-08-27"
     },
     {
       "term": "MIT",
       "hint": "설명 없는 대문자 약어",
-      "hits": 7,
+      "hits": 5,
       "sample": "Flash**(Ox Alpha 정체·MIT 오픈웨이트), **Grok Bot 플랜 확대**, **Qwen3.8-F",
       "brief_date": "2026-08-27"
     },
@@ -23,13 +23,6 @@
       "brief_date": "2026-08-27"
     },
     {
-      "term": "GPU",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "TensorRT-LLM FP8 기준 GPU당 **16,000** 토큰/초 이상을 냈다고 포럼에 적었어요. -",
-      "brief_date": "2026-08-27"
-    },
-    {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
       "hits": 2,
@@ -37,10 +30,17 @@
       "brief_date": "2026-08-27"
     },
     {
+      "term": "IBM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "ted Understanding · IBM Granite Speech 5.0 · Manus 웰컴백 보너스 숫자 ·",
+      "brief_date": "2026-08-27"
+    },
+    {
       "term": "NVIDIA",
       "hint": "설명 없는 대문자 약어",
       "hits": 2,
-      "sample": "GLang·TokenSpeed이고, NVIDIA는 GB300 NVL72에서 TensorRT-LLM FP8 기준 GPU당",
+      "sample": "okenSpeed로 돌릴 수 있고, NVIDIA는 GB300 NVL72에서 FP8(8비트로 가볍게 계산하는 방식) 기준",
       "brief_date": "2026-08-27"
     },
     {
@@ -48,13 +48,6 @@
       "hint": "영상·크리에이티브 툴",
       "hits": 2,
       "sample": "복원 포털 오픈. 8/24 제외: Runway Ruby HDR · DeepSeek-V4-Flash-Vision-Exp",
-      "brief_date": "2026-08-27"
-    },
-    {
-      "term": "임베딩",
-      "hint": "텍스트를 벡터로 바꾼 표현",
-      "hits": 2,
-      "sample": "- 활성 6B에 n-gram 임베딩 51B를 얹은 실험 프리뷰이고, 라이선스는 Apache가 아니에요.",
       "brief_date": "2026-08-27"
     },
     {
@@ -68,14 +61,14 @@
       "term": "CMEK",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "I(멤버·초대·워크스페이스·키·한도·CMEK) 스킬이 넓어졌어요. 배시 권한 프롬프트에서 자동 모드로 한 키에 넘어",
+      "sample": "초대·작업 공간·키·한도·암호화 키(CMEK)를 다루는 범위가 넓어졌어요. 터미널 권한을 물을 때 자동 모드로 한",
       "brief_date": "2026-08-27"
     },
     {
       "term": "FLEURS",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": ", 비스트리밍 **2.6%**예요. FLEURS 상위 언어는 스트리밍 **5.50%**, 비스트리밍 **5.04%**로",
+      "sample": "%**, 파일 **2.6%**예요. FLEURS 상위 언어는 실시간 **5.50%**, 파일 **5.04%**로 Chi",
       "brief_date": "2026-08-27"
     },
     {
@@ -86,24 +79,10 @@
       "brief_date": "2026-08-27"
     },
     {
-      "term": "IBM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "ted Understanding · IBM Granite Speech 5.0 · Manus 웰컴백 보너스 숫자 ·",
-      "brief_date": "2026-08-27"
-    },
-    {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 1,
       "sample": "위·아란야 현장·앱 정식 없음) · Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA",
-      "brief_date": "2026-08-27"
-    },
-    {
-      "term": "LLM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "00 NVL72에서 TensorRT-LLM FP8 기준 GPU당 **16,000** 토큰/초 이상을 냈다고 포럼에",
       "brief_date": "2026-08-27"
     },
     {
@@ -114,24 +93,10 @@
       "brief_date": "2026-08-27"
     },
     {
-      "term": "MAU",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": ".0**이에요. 상업 사용은 되지만 MAU 1억 또는 월 매출 $2,000만 초과 제품은 모델명을 UI에 보여야",
-      "brief_date": "2026-08-27"
-    },
-    {
       "term": "METR",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "t 발표 뒤에 나온 서면 정리예요. METR·Redwood Research도 별도 정렬 조사를 했고 자체 리포트를",
-      "brief_date": "2026-08-27"
-    },
-    {
-      "term": "MTP",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "**n-gram 임베딩 51B**와 MTP **4B**가 붙어요. 히든 레이아웃은 48층 Gated DeltaNe",
+      "sample": "햇 발표 뒤에 나온 글로 정리예요. METR과 Redwood Research도 따로 살펴보고 있고, 자체 보고서를",
       "brief_date": "2026-08-27"
     },
     {
@@ -145,7 +110,7 @@
       "term": "NVL",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "ed이고, NVIDIA는 GB300 NVL72에서 TensorRT-LLM FP8 기준 GPU당 **16,000**",
+      "sample": "수 있고, NVIDIA는 GB300 NVL72에서 FP8(8비트로 가볍게 계산하는 방식) 기준으로 그래픽카드 한",
       "brief_date": "2026-08-27"
     },
     {
@@ -170,10 +135,10 @@
       "brief_date": "2026-08-27"
     },
     {
-      "term": "체크포인트",
-      "hint": "학습 가중치 스냅샷",
+      "term": "임베딩",
+      "hint": "텍스트를 벡터로 바꾼 표현",
       "hits": 1,
-      "sample": "6 Max를 앞선다고 적혀 있어요. 체크포인트는 저장 기준 약 **180B**, 풀 리포는 대략 **360GB**라",
+      "sample": "에 미리 외워 둔 조각(n-gram 임베딩) **51B**와 다음 토큰을 미리 찍는 부분 **4B**가 붙어요.",
       "brief_date": "2026-08-27"
     }
   ]

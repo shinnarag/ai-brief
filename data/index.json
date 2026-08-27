@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T12:33:12",
+  "generated_at": "2026-08-27T12:39:02",
   "platform": "AI Pulse",
   "count": 30,
   "domains": {
@@ -21,7 +21,7 @@
   "companies": [
     [
       "OpenAI",
-      74
+      75
     ],
     [
       "NVIDIA",
@@ -53,7 +53,7 @@
     ],
     [
       "Hugging Face",
-      20
+      21
     ],
     [
       "Runway",
@@ -61,14 +61,14 @@
     ],
     [
       "IBM",
+      17
+    ],
+    [
+      "Google",
       15
     ],
     [
       "Perplexity",
-      14
-    ],
-    [
-      "Google",
       14
     ],
     [
@@ -130,18 +130,18 @@
     {
       "date": "2026-08-27",
       "title": "AI Daily Brief — 2026-08-27 (최근 24h)",
-      "theme": "전사는 정식으로 열렸고, 스텔스 Ox는 이름을 밝혔다",
-      "theme_blurb": "Gemini 3.5 Transcribe가 자막 API로 열린 날, Z.ai가 Ox Alpha를 GLM-5.3-Flash로 공개했어요. 인터뷰 드래프트와 코딩 플랜 단가를 같은 브리프에서 보시면 돼요.",
-      "edition_title": "전사는 정식으로 열렸고, 스텔스 Ox는 이름을 밝혔다",
-      "edition_blurb": "Gemini 3.5 Transcribe가 자막 API로 열린 날, Z.ai가 Ox Alpha를 GLM-5.3-Flash로 공개했어요. 인터뷰 드래프트와 코딩 플랜 단가를 같은 브리프에서 보시면 돼요.",
+      "theme": "받아쓰기가 정식으로 열렸고, 이름 없던 Ox가 누구인지 밝혀졌어요",
+      "theme_blurb": "Google이 말소리를 자막으로 바꿔 주는 Gemini 3.5 Transcribe를 열었어요. 같은 날, 주말에 이름만 있고 만든 회사는 안 보이던 Ox Alpha가 Z.ai의 GLM-5.3-Flash라는 걸 알게 됐어요.",
+      "edition_title": "받아쓰기가 정식으로 열렸고, 이름 없던 Ox가 누구인지 밝혀졌어요",
+      "edition_blurb": "Google이 말소리를 자막으로 바꿔 주는 Gemini 3.5 Transcribe를 열었어요. 같은 날, 주말에 이름만 있고 만든 회사는 안 보이던 Ox Alpha가 Z.ai의 GLM-5.3-Flash라는 걸 알게 됐어요.",
       "url": "brief/2026-08-27.html",
       "excerpt": "오늘은 Gemini 3.5 Transcribe(실시간·파일 ASR), GLM-5.3-Flash(Ox Alpha 정체·MIT 오픈웨이트), Grok Bot 플랜 확대, Qwen3.8-Flash-Next, OpenAI Hugging Face 사고 공식 리포트가 축이에요.",
       "top5": [
-        "Gemini 3.5 Transcribe — 실시간 전사가 자막 API로 열렸어요",
-        "GLM-5.3-Flash — 일주일짜리 스텔스 Ox가 이름을 밝혔어요",
-        "Grok Bot — SuperGrok·Cursor Pro·Teams에 기본으로 들어가요",
-        "Qwen3.8-Flash-Next — Qwen4 뼈대를 오픈웨이트로 먼저 풀었어요",
-        "OpenAI — Hugging Face 사고 공식 리포트가 나왔어요"
+        "Gemini 3.5 Transcribe — 말소리를 바로 자막으로 바꿔 주는 API가 열렸어요",
+        "GLM-5.3-Flash — 일주일 동안 이름 없이 돌던 Ox가 자기 이름을 밝혔어요",
+        "Grok Bot — SuperGrok이랑 Cursor 유료 플랜에 기본으로 들어가요",
+        "Qwen3.8-Flash-Next — 다음 세대 Qwen의 뼈대를 먼저 공개했어요",
+        "OpenAI — Hugging Face를 건드린 사고의 공식 설명이 나왔어요"
       ],
       "domains": [
         "agents",
@@ -152,21 +152,21 @@
       ],
       "companies": [
         "Gemini",
-        "Grok",
         "OpenAI",
+        "Grok",
         "Hugging Face",
         "Claude",
         "NVIDIA",
         "Google",
         "GitHub",
+        "IBM",
         "xAI",
         "Anthropic",
         "DeepSeek",
         "Runway",
         "Perplexity",
         "Midjourney",
-        "Kling",
-        "Luma"
+        "Kling"
       ],
       "has_rumor": true,
       "source": "md",
@@ -247,8 +247,8 @@
         "Grok",
         "Hugging Face",
         "DeepSeek",
-        "ChatGPT",
         "Mistral",
+        "ChatGPT",
         "NVIDIA",
         "Gemini",
         "Kling",
@@ -339,11 +339,11 @@
         "Salesforce",
         "Midjourney",
         "Copilot",
+        "Runway",
         "Amazon",
         "GitHub",
-        "Gemini",
         "Google",
-        "Runway"
+        "Gemini"
       ],
       "has_rumor": false,
       "source": "md",
@@ -467,8 +467,8 @@
         "Copilot",
         "ElevenLabs",
         "Google",
-        "Luma",
         "Grok",
+        "Luma",
         "Amazon",
         "GitHub",
         "Midjourney"
@@ -650,8 +650,8 @@
         "DeepMind",
         "ChatGPT",
         "AWS",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "DeepSeek",
         "Runway"
       ],
@@ -696,10 +696,10 @@
         "NVIDIA",
         "AWS",
         "ByteDance",
-        "ElevenLabs",
         "Midjourney",
-        "DeepMind",
-        "DeepSeek"
+        "ElevenLabs",
+        "DeepSeek",
+        "DeepMind"
       ],
       "has_rumor": false,
       "source": "md",
@@ -731,8 +731,8 @@
       ],
       "companies": [
         "OpenAI",
-        "Google",
         "Claude",
+        "Google",
         "Meta",
         "Anthropic",
         "GitHub",
@@ -911,8 +911,8 @@
         "policy"
       ],
       "companies": [
-        "Gemini",
         "Google",
+        "Gemini",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -924,8 +924,8 @@
         "Hugging Face",
         "Notion",
         "AWS",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "Runway"
       ],
       "has_rumor": false,
@@ -969,10 +969,10 @@
         "Google",
         "Oracle",
         "Kling",
-        "Amazon",
         "Runway",
+        "Amazon",
         "Meta",
-        "ElevenLabs"
+        "Midjourney"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1102,11 +1102,11 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "ElevenLabs",
         "Midjourney",
+        "ElevenLabs",
         "Microsoft",
-        "Google",
-        "Zapier"
+        "Zapier",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1143,8 +1143,8 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Gemini",
         "Claude",
+        "Gemini",
         "Kling",
         "Meta",
         "Cloudflare",
@@ -1283,8 +1283,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Samsung"
       ],
       "has_rumor": false,
@@ -1362,8 +1362,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,
