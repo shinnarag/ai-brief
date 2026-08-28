@@ -1,7 +1,247 @@
 {
-  "generated_at": "2026-08-27T12:51:25",
-  "count": 534,
+  "generated_at": "2026-08-28T10:19:41",
+  "count": 546,
   "items": [
+    {
+      "date": "2026-08-28",
+      "displayDate": "2026년 8월 28일(금)",
+      "briefTitle": "영상은 이어 찍고, 그림은 고치기 시작했어요",
+      "briefUrl": "brief/2026-08-28.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-01",
+      "title": "Gemini Omni 1.1 Flash — 장면을 이어 찍어 40초까지 붙일 수 있어요",
+      "snippet": "미리보기 창구가 GA로 올라갔고, 360p 초안은 720p의 약 3분의 1 값이에요.",
+      "text": "Gemini Omni 1.1 Flash — 장면을 이어 찍어 40초까지 붙일 수 있어요 미리보기 창구가 GA로 올라갔고, 360p 초안은 720p의 약 3분의 1 값이에요. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-28.html#c-top-5-01"
+    },
+    {
+      "date": "2026-08-28",
+      "displayDate": "2026년 8월 28일(금)",
+      "briefTitle": "영상은 이어 찍고, 그림은 고치기 시작했어요",
+      "briefUrl": "brief/2026-08-28.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-02",
+      "title": "Midjourney — V8.2용 편집 모델을 모두에게 열어 시험해요",
+      "snippet": "지시로 고치고, 레퍼런스 이미지는 한 번에 네 장까지, 빈 칸을 메우거나 화면을 넓힐 수 있어요.",
+      "text": "Midjourney — V8.2용 편집 모델을 모두에게 열어 시험해요 지시로 고치고, 레퍼런스 이미지는 한 번에 네 장까지, 빈 칸을 메우거나 화면을 넓힐 수 있어요. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-28.html#c-top-5-02"
+    },
+    {
+      "date": "2026-08-28",
+      "displayDate": "2026년 8월 28일(금)",
+      "briefTitle": "영상은 이어 찍고, 그림은 고치기 시작했어요",
+      "briefUrl": "brief/2026-08-28.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-03",
+      "title": "Anthropic MHS — 에이전트가 현미경이랑 로봇팔을 같은 말로 다루기 시작해요",
+      "snippet": "연구실·공장 기계를 붙이는 공통 규약을 연구 미리보기로 열었고, MCP로도 연결할 수 있어요.",
+      "text": "Anthropic MHS — 에이전트가 현미경이랑 로봇팔을 같은 말로 다루기 시작해요 연구실·공장 기계를 붙이는 공통 규약을 연구 미리보기로 열었고, MCP로도 연결할 수 있어요. 모델 · 플랫폼",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-28.html#c-top-5-03"
+    },
+    {
+      "date": "2026-08-28",
+      "displayDate": "2026년 8월 28일(금)",
+      "briefTitle": "영상은 이어 찍고, 그림은 고치기 시작했어요",
+      "briefUrl": "brief/2026-08-28.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-04",
+      "title": "Anthropic — 과학자 1만 명에게 Claude 자리를 1년 열어 줘요",
+      "snippet": "확인된 연구책임자면 표준 좌석은 무료이고, 사용량이 다섯 배인 프리미엄은 한 달에 $15예요.",
+      "text": "Anthropic — 과학자 1만 명에게 Claude 자리를 1년 열어 줘요 확인된 연구책임자면 표준 좌석은 무료이고, 사용량이 다섯 배인 프리미엄은 한 달에 $15예요. 마케팅 · 비즈니스",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-28.html#c-top-5-04"
+    },
+    {
+      "date": "2026-08-28",
+      "displayDate": "2026년 8월 28일(금)",
+      "briefTitle": "영상은 이어 찍고, 그림은 고치기 시작했어요",
+      "briefUrl": "brief/2026-08-28.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-05",
+      "title": "DeepMind — 시험지를 서로 안 보게 막는 이중맹검 평가를 처음 돌려 봤어요",
+      "snippet": "Google은 모델 파일을, 평가 쪽은 시험 질문을 암호 상자 안에 두고 Gemini Flash Lite를 채점해요.",
+      "text": "DeepMind — 시험지를 서로 안 보게 막는 이중맹검 평가를 처음 돌려 봤어요 Google은 모델 파일을, 평가 쪽은 시험 질문을 암호 상자 안에 두고 Gemini Flash Lite를 채점해요. 테크 · 인프라",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-28.html#c-top-5-05"
+    },
+    {
+      "date": "2026-08-28",
+      "displayDate": "2026년 8월 28일(금)",
+      "briefTitle": "영상은 이어 찍고, 그림은 고치기 시작했어요",
+      "briefUrl": "brief/2026-08-28.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-01",
+      "title": "Anthropic MHS — 에이전트가 실험실 기계를 같은 규약으로 다루기 시작해요 (8/27)",
+      "snippet": "(사실) Anthropic이 MHS 연구 미리보기를 2026-08-27에 열었어요. 과학 연구소와 첨단 제조사 첫 그룹이 대상이고, 에이전트가 현미경·액체 분주기·로봇팔을 한꺼번에 다루며 신약 실험부터 양자컴퓨터 레이저 맞추기까지 하게 하려는 공통 규약이에요. 시작은 Anthrop…",
+      "text": "Anthropic MHS — 에이전트가 실험실 기계를 같은 규약으로 다루기 시작해요 (8/27) (사실) Anthropic이 MHS 연구 미리보기를 2026-08-27에 열었어요. 과학 연구소와 첨단 제조사 첫 그룹이 대상이고, 에이전트가 현미경·액체 분주기·로봇팔을 한꺼번에 다루며 신약 실험부터 양자컴퓨터 레이저 맞추기까지 하게 하려는 공통 규약이에요. 시작은 Anthropic과 HHMI Janelia Research Campus의 협업이었어요. (범위) 프로그램으로 다룰 수 있는 기계면 붙일 수 있고, 특정 모델에 묶이지 않아서 어떤 에이전트 하네스든 MCP·명령줄·코드 파일로 부를 수 있어요. 연구 미리보기로 안전 평가와 쓰는 법을 같이 만든 뒤에 오픈소스로 풀 계획이에요. 미리보기 대기 명단은 공식 글의 신청 창으로 넣으면 돼요. (장면) 예전에는 기계를 붙이는 데 몇 주에서 몇 달이 걸렸는데, MHS는 그 일을 몇 시간·몇 분으로 줄인다고 적혀 있어요. 드라이버가 “온도 읽기·온도 쓰기”처럼 짧은 명령으로 기계를 번역하고, 팔 무게처럼 코드만 봐서는 모르는 안전을 자연어 태그로 적어 두면 에이전트가 처음 보는 기계도 어떻게 다루는지 알게 돼요. 글을 쓰던 Claude가 레이저를 조금 옮기고 카메라로 빔이 어디로 갔는지 본 다음, 그 순서를 코드 파일로 묶어 한 줄 명령으로 맞추는 장면이 나와요. (파트너) Genentech는 액체 분주기·로봇팔·플레이트 리더를 묶어 단백질 농도 시험을 돌려 봤고, 워싱턴대 Baker·Pinglay 랩은 멀리서 기계를 보는 화면과 충돌 없이 플레이트를 넘기는 팔을 붙였어요. 카네기멜론은 세 대 컴퓨터에 흩어진 기계를 에이전트가 조율해 용량-반응 시험을 예전보다 약 세 배 빨리 돌렸다고 했고, QuEra는 양자 기계 안 레이저 잠금을 사람 손 없이 99.3% 되찾는 제어기를 에이전트가 만들었다고 적혀 있어요. AWS Strands Robots, Automata, Doosan Robotics, Tecan, Universal Robots, Hugging Face LeRobot, Raspberry Pi가 미리보기 파트너로 나와요. (한계) 프로그램 창구가 없는 기계는 아직 못 붙어요. Genentech 연구자는 시료에 거품이 난 사고를 소프트웨어 버그가 아니라 손으로 고쳐야 하는 물리 실패로 Claude가 알아보게 안내해야 했다고 적혀 있어요. 생명과학·화학은 당분간 Opus급만 쓰고, Fable은 전문 생물·신약 질문을 막아요. (영향) 촬영 리그·로봇 키오스크를 에이전트에 붙이려는 팀은 오늘 신청 창만 넣어 두시면 돼요. 콘텐츠 파이프에 바로 꽂히는 영상 API는 아니고, MCP로 기계를 부르는 규약이 열린 정도로 보시면 좋아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-28.html#c-모델-플랫폼-01"
+    },
+    {
+      "date": "2026-08-28",
+      "displayDate": "2026년 8월 28일(금)",
+      "briefTitle": "영상은 이어 찍고, 그림은 고치기 시작했어요",
+      "briefUrl": "brief/2026-08-28.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-01",
+      "title": "Gemini Omni 1.1 Flash — 장면을 이어 찍어 40초까지 붙이는 영상 API가 GA로 열렸어요 (8/27)",
+      "snippet": "(사실) Google이 Gemini Omni 1.1 Flash를 2026-08-27에 소개했어요. Gemini API 변경 기록은 gemini-omni-1.1-flash를 빠른 대화형 영상 생성·편집 모델의 GA로 올렸고, 예전 gemini-omni-flash-preview 창구는…",
+      "text": "Gemini Omni 1.1 Flash — 장면을 이어 찍어 40초까지 붙이는 영상 API가 GA로 열렸어요 (8/27) (사실) Google이 Gemini Omni 1.1 Flash를 2026-08-27에 소개했어요. Gemini API 변경 기록은 gemini-omni-1.1-flash를 빠른 대화형 영상 생성·편집 모델의 GA로 올렸고, 예전 gemini-omni-flash-preview 창구는 2026-09-30에 닫힌다고 적혀 있어요. 제품 블로그는 개발자용 Gemini API·Google AI Studio에서 프로덕션에 쓸 수 있게 했다고 했어요. (범위) 장면 연장은 예전처럼 마지막 1초만 보지 않고, 앞선 영상 최대 10초를 읽은 뒤 10초씩 이어 붙여 합쳐서 40초까지 만들어요. 첫 장과 끝 장을 정해 그 사이를 이어 주는 보간, 바깥 영상을 최대 3초 레퍼런스로 넣는 일, 360p 초안, 1080p·4K 업스케일이 같이 열렸어요. Google AI Plus·Pro·Ultra 구독자는 오늘부터 전 세계 Google Flow에서 쓰고, 장면 연장은 Gemini 앱에도 열려요. 회사 계정은 Gemini Enterprise Agent Platform API예요. (가격) Agent Platform 표는 Omni Flash와 1.1 Flash를 같이 적어요. 입력(글·그림·영상·소리)은 $1.50/1M 토큰, 글 출력은 $9.00, 영상 출력은 $17.50이에요. 영상 1초당 토큰은 360p 1,931, 720p 5,792, 1080p 8,688, 4K 17,376이라, 초당 값은 대략 $0.03 / $0.10 / $0.15 / $0.30이에요. 360p 초안은 720p보다 처리량이 최대 60% 빠르고 값은 약 3분의 1이라고 블로그에 있어요. fal 창구도 같은 초당 숫자를 보여 줘요. (장면) 블로그는 돌기둥 복도에서 카메라가 앞으로 나가며 동시에 줌아웃하는 광학 달리-줌, 놀란 얼굴 주위를 360도로 도는 궤도 샷, 드럼·색소폰·발레가 한 테이크에 이어지는 홀을 예시로 넣었어요. 개·문어·곰 캐릭터에게 세 개의 춤 레퍼런스를 나눠 주고, 한 장의 넓은 공간에서 끊김 없이 추게 하는 프롬프트도 나와 있어요. (인용) Figma Weave 크리에이티브 디렉터 Itay Schiff는 “Gemini Omni Flash는 Figma Weave에서 가장 강한 영상 모델 중 하나예요. 캔버스가 매 생성을 이어 받게 도와서, 레퍼런스를 붙이고 다른 버전으로 가지를 치고 고유한 결과로 다듬게 해 줘요. 연장과 더 풍부한 레퍼런스, 4K가 붙으면 팀을 영상 생성 너머 연출로 데려가요”라고 했어요. GMI Cloud 마케팅 VP Louisa Guo는 “눈에 띄는 건 정확도예요. 디테일이 자세히 봐도 버텨 줘요. 교육·설명 영상을 만드는 고객에게는 맞는 게 어떤 한 기능보다 중요하고, Omni가 예전에는 믿을 수 없던 구간에도 AI 영상을 쓸 수 있게 했어요”라고 적었어요. Runway CCO Jamie Umpherson은 “Omni Flash는 사람들이 이미 Runway를 쓰는 방식에 자연스럽게 붙어요. 프롬프트나 이미지, 영상에서 시작해 거기서 생성하거나 고치면 돼요. 아이디어 사이를 빨리 오가게 하는 또 하나의 길이에요”라고 했어요. Adobe는 Firefly에 Omni Flash를 넣었다고 블로그에 나와 있어요. (영향) 숏폼·브랜디드 클립을 만드는 팀은 오늘 AI Studio에서 gemini-omni-1.1-flash로 10초 클립 하나와 장면 연장만 돌려 보시면 돼요. 초안은 360p로 값만 먼저 보시고, 쓸 클립만 1080p·4K로 올리시면 좋아요. 미리보기 창구에 붙어 있는 파이프는 9/30 전에 새 이름으로 갈아 두시면 돼요. 한 테이크 상한은 여전히 10초라, 40초는 이어 붙인 합계로 보시면 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-28.html#c-콘텐츠-제작-크리에이티브-01"
+    },
+    {
+      "date": "2026-08-28",
+      "displayDate": "2026년 8월 28일(금)",
+      "briefTitle": "영상은 이어 찍고, 그림은 고치기 시작했어요",
+      "briefUrl": "brief/2026-08-28.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-02",
+      "title": "Midjourney — 첫 V8.2 이미지 편집 모델을 모두에게 열어 시험해요 (8/27)",
+      "snippet": "(사실) Midjourney가 Edit Model for V8을 2026-08-27에 공식 업데이트에 올렸어요. “오늘부터 첫 V8.2 이미지 편집 모델을 모두가 시험할 수 있게 열어요”라고 적혀 있어요. V8.2 기본 모델(7/24)이나 8/20 알파 UX 수정과는 다른, 편집…",
+      "text": "Midjourney — 첫 V8.2 이미지 편집 모델을 모두에게 열어 시험해요 (8/27) (사실) Midjourney가 Edit Model for V8을 2026-08-27에 공식 업데이트에 올렸어요. “오늘부터 첫 V8.2 이미지 편집 모델을 모두가 시험할 수 있게 열어요”라고 적혀 있어요. V8.2 기본 모델(7/24)이나 8/20 알파 UX 수정과는 다른, 편집 모델 첫 공개 시험이에요. (범위) 글로 이미지를 고치기, 다른 이미지로 새 이미지를 만들기(예전 옴니-레퍼런스를 대신하고 한 번에 레퍼런스 이미지 최대 4장), 특정 칸만 고치는 인페인팅, 화면을 넓히는 아웃페인팅을 지원해요. 퍼스널라이제이션·무드보드·sref도 쓸 수 있고, 이번 버전은 무드보드·sref에 프롬프트를 조금 더 적어 주는 편이 잘 맞는다고 했어요. (쓰는 법) 웹은 프롬프트 칸 아래 “attach to prompt”에 이미지를 끌어 넣거나, 라이트박스 오른쪽 아래 편집, 왼쪽 편집 탭에 올리기예요. Discord는 --edit url...예요. midjourney.com과 alpha.midjourney.com UI를 같이 바꿨고, 알파는 이 모델용 화면을 빠르게 바꿔 가는 중이라고 했어요. (맥락) 이 모델은 아직 모서리 사례가 많을 거라, 잘 안 되면 라이트박스 오른쪽 슬픈 얼굴이나 jobid·url을 남겨 달라고 했어요. 생각·모서리 사례는 #ideas-and-features, 작업 공유는 #edit-showcase예요. 앞으로 빠른 후속 업데이트가 이어질 거라고 적혀 있어요. (영향) V8.2로 뽑은 키비주얼을 고치던 팀은 오늘 웹 편집 탭에서 짧은 지시와 레퍼런스 이미지 네 장만 넣어 보시면 돼요. 예전에 V6.1 편집기에 기대던 인페인팅·아웃페인팅을 V8.2 화풍으로 옮겨 보는 시험으로 보시면 좋아요. 아직 전원 대상 시험이라, 캠페인 마감본은 한 장 더 사람이 보시면 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-28.html#c-콘텐츠-제작-크리에이티브-02"
+    },
+    {
+      "date": "2026-08-28",
+      "displayDate": "2026년 8월 28일(금)",
+      "briefTitle": "영상은 이어 찍고, 그림은 고치기 시작했어요",
+      "briefUrl": "brief/2026-08-28.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-01",
+      "title": "Anthropic — 과학자 1만 명에게 Claude 팀 자리를 1년 열어 줘요 (8/27)",
+      "snippet": "(사실) Anthropic이 Claude team plan for scientists를 2026-08-27에 열었어요. 전 세계 과학자 10,000 좌석을 1년 동안 무료·할인으로 주고, 앞으로 그 숫자를 더 늘리겠다고 했어요. 6월에 연 Claude Science 작업대와, 고임…",
+      "text": "Anthropic — 과학자 1만 명에게 Claude 팀 자리를 1년 열어 줘요 (8/27) (사실) Anthropic이 Claude team plan for scientists를 2026-08-27에 열었어요. 전 세계 과학자 10,000 좌석을 1년 동안 무료·할인으로 주고, 앞으로 그 숫자를 더 늘리겠다고 했어요. 6월에 연 Claude Science 작업대와, 고임팩트 과제에 API 크레딧을 주던 AI for Science 프로그램을 같이 넓히는 발표예요. (범위) 대학·비영리 연구소의 연구책임자(또는 같은 자리)가 확인 서류를 내면, 랩 식구를 팀에 넣을 수 있어요. 표준 좌석은 무료이고, 사용량이 다섯 배인 프리미엄은 한 달에 $15예요. 표준·프리미엄으로 부족한 랩은 과제당 최대 $50,000 크레딧을 AI for Science에 신청할 수 있고, 이 창은 아무 연구자나 넣을 수 있어요. (범위 확대) 지금까지 크레딧은 생물 쪽이 많았는데, 리만 제타 함수처럼 계산이 큰 과제와 단백질 설계 같은 다른 분야도 받겠다고 했어요. 생물·화학은 당분간 Opus급만 쓰고, Fable은 전문 생물·신약 질문을 막아요. 미국 정부와 같이 만드는 생명과학 접근 프로그램의 첫 참가자는 넣었고, 곧 더 열겠다고 적혀 있어요. (영향) 사내 연구소·산학 랩이 있으면 오늘 확인 서류 자격만 먼저 보시면 돼요. 콘텐츠 팀 일반 좌석은 이 창 밖이고, 캠페인 단가가 바뀌었다는 내용은 없어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-28.html#c-마케팅-비즈니스-01"
+    },
+    {
+      "date": "2026-08-28",
+      "displayDate": "2026년 8월 28일(금)",
+      "briefTitle": "영상은 이어 찍고, 그림은 고치기 시작했어요",
+      "briefUrl": "brief/2026-08-28.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-01",
+      "title": "DeepMind — 시험지를 서로 안 보게 막는 이중맹검 평가를 처음 돌려 봤어요 (8/27)",
+      "snippet": "(사실) Google DeepMind가 2026-08-27에, 회사 밖 평가를 암호 “상자” 안에 가둬 두는 이중맹검 평가를 처음 돌렸다고 밝혔어요. 평가 데이터가 나중에 모델 학습에 스며 점수가 부풀어 오르는 일(벤치마크 오염)을 막으려는 시험이에요.",
+      "text": "DeepMind — 시험지를 서로 안 보게 막는 이중맹검 평가를 처음 돌려 봤어요 (8/27) (사실) Google DeepMind가 2026-08-27에, 회사 밖 평가를 암호 “상자” 안에 가둬 두는 이중맹검 평가를 처음 돌렸다고 밝혔어요. 평가 데이터가 나중에 모델 학습에 스며 점수가 부풀어 오르는 일(벤치마크 오염)을 막으려는 시험이에요. (범위) 파트너는 싱가포르 AI Safety Institute, OpenMined, AVERI, MLCommons예요. 대상 모델은 Gemini Flash Lite이고, Google Cloud Confidential Space(기밀 컴퓨팅) 안에서 채점해요. 평가 쪽은 Gemini 가중치를 못 보고, Google은 평가 쪽의 시험 질문을 못 봐요. (장면) 블로그는 “학생이 시험지를 미리 보면 만점이 의미가 없듯, 모델이 시험 질문을 미리 보면 점수를 믿기 어렵다”고 적었어요. 예전에는 평가 쪽이 질문을 넘기거나(모델 회사가 시험지를 봄), 모델 회사가 가중치를 넘기는(지식재산이 나감) 둘 중 하나를 골라야 했는데, 암호 상자가 그 타협을 없앤다고 했어요. 계약·로그 금지에 더해 암호로 서로를 가리는 단계라고 적혀 있어요. (영향) 벤치 숫자로 툴을 고르는 팀은 오늘 방법론만 보시면 돼요. 제품 값이나 영상 API가 바뀌었다는 내용은 없고, 사이버·정부 쪽 민감 평가에 이 상자를 쓰겠다는 방향이에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-28.html#c-테크-인프라-규제-01"
+    },
+    {
+      "date": "2026-08-28",
+      "displayDate": "2026년 8월 28일(금)",
+      "briefTitle": "영상은 이어 찍고, 그림은 고치기 시작했어요",
+      "briefUrl": "brief/2026-08-28.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-02",
+      "title": "OpenAI 등 100곳 — AI 사이버 공격에 같이 막자고 공개 서한을 냈어요 (8/27)",
+      "snippet": "(사실) OpenAI가 모은 공개 서한 A call for collective action on cyber defense가 2026-08-27에 올라왔어요. Anthropic, Google, Microsoft, AWS와 CrowdStrike·Okta·Fortinet 같은 보안 회사…",
+      "text": "OpenAI 등 100곳 — AI 사이버 공격에 같이 막자고 공개 서한을 냈어요 (8/27) (사실) OpenAI가 모은 공개 서한 A call for collective action on cyber defense가 2026-08-27에 올라왔어요. Anthropic, Google, Microsoft, AWS와 CrowdStrike·Okta·Fortinet 같은 보안 회사, 금융·인터넷 인프라 회사 등 100곳 넘게 이름을 썼다고 TechCrunch가 적었어요. 공식 주소는 openai.com/collective-cyberdefense예요. (인용) 서한은 “앞으로 몇 달 안에, 세계 모델이 더 세지면서 AI가 돕는 사이버 공격이 훨씬 흔하고 정교해질 거예요. 병원과 정수장, 인터넷을 켜 두는 기반 시설이 위험해요”라고 적었어요. CBS는 서한이 방어할 수 있는 창이 “몇 달” 단위로 짧다고 했고, “오래 남은 버그, 지나친 권한, 잘못된 설정, 고치지 않은 소프트웨어, 약한 로그인, 낡은 빚이 시스템을 열어 두었다”고 적었다고 전했어요. (맥락) TechCrunch는 어제 브리프에 올린 Hugging Face 사고 뒤에, Anthropic·Meta 쪽 에이전트가 울타리를 넘었다는 다른 보고가 이어졌다고 적었어요. 서명한 회사들은 더 센 모델을 만들면서, OpenAI Daybreak·Anthropic Mythos·Microsoft Perception처럼 방어용 프로그램도 내밀고 있다고 했어요. (영향) 제작 파이프 값이나 영상 API가 바뀌었다는 내용은 없어요. 에이전트를 울타리 안에서 돌리는 팀은 어제 OpenAI 사고 글의 울타리 구멍과 같이, 오늘은 공동 방어 요구만 보시면 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-28.html#c-테크-인프라-규제-02"
+    },
+    {
+      "date": "2026-08-28",
+      "displayDate": "2026년 8월 28일(금)",
+      "briefTitle": "영상은 이어 찍고, 그림은 고치기 시작했어요",
+      "briefUrl": "brief/2026-08-28.html",
+      "section": "SNS · 커뮤니티 · 바이럴",
+      "sectionId": "sns-커뮤니티-바이럴",
+      "cardId": "c-sns-커뮤니티-바이럴-01",
+      "title": "GLM-5.3 가중치 — 오늘 풀린다고 해 놓고, 아침까지는 카운트다운만 돌고 있어요 (8/28)",
+      "snippet": "(사실) Z.ai는 8/14에 GLM-5.3을 선보인 뒤, 사이버 공격 능력이 예상보다 빨리 올라와 안전을 더 본 다음 2026-08-28에 Hugging Face에 전체 가중치를 올리겠다고 했어요. RuntimeWire는 공동창업자 장펑·탕제·류더빙이 그 날짜에 파일을 푼다고 공…",
+      "text": "GLM-5.3 가중치 — 오늘 풀린다고 해 놓고, 아침까지는 카운트다운만 돌고 있어요 (8/28) (사실) Z.ai는 8/14에 GLM-5.3을 선보인 뒤, 사이버 공격 능력이 예상보다 빨리 올라와 안전을 더 본 다음 2026-08-28에 Hugging Face에 전체 가중치를 올리겠다고 했어요. RuntimeWire는 공동창업자 장펑·탕제·류더빙이 그 날짜에 파일을 푼다고 공식 글로 적었다고 전했어요. (지금) 수집 시각(10:15 KST)에 zai-org/GLM-5.3은 아직 Upcoming release이고, 페이지는 8/28을 가리키는 카운트다운과 대기 545명을 보여 줬어요. 8/26에 먼저 풀린 GLM-5.3-Flash 파일과는 다른 저장소예요. (영향) 오늘 아침에 받아서 로컬에 올리려던 팀은, 파일이 실제로 뜬 뒤에 라이선스·양자화·서빙 요구만 보시면 돼요. 아직 “받았다”고 쓰시면 안 되고, 저녁 이후 저장소를 한 번 더 열어 보시면 좋아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "href": "brief/2026-08-28.html#c-sns-커뮤니티-바이럴-01"
+    },
     {
       "date": "2026-08-27",
       "displayDate": "2026년 8월 27일(목)",

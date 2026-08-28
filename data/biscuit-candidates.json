@@ -1,145 +1,131 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "candidates": [
+    {
+      "term": "Midjourney",
+      "hint": "이미지 생성 서비스",
+      "hits": 13,
+      "sample": "험 · 360p 초안 단가 비교 · Midjourney 편집 4장 레퍼런스 · 미리보기 창구 교체 · 과학자 좌석은 자격만 확",
+      "brief_date": "2026-08-28"
+    },
     {
       "term": "GLM",
       "hint": "설명 없는 대문자 약어",
-      "hits": 20,
-      "sample": "보이던 Ox Alpha가 Z.ai의 GLM-5.3-Flash라는 걸 알게 됐어요. 실무 액션: 짧은 인터뷰로 Tr",
-      "brief_date": "2026-08-27"
+      "hits": 10,
+      "sample": "ni 3.5 Transcribe · GLM-5.3-Flash(Ox Alpha) · Grok Bot 플랜 확대 ·",
+      "brief_date": "2026-08-28"
     },
     {
-      "term": "MIT",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 5,
-      "sample": "Flash**(Ox Alpha 정체·MIT 오픈웨이트), **Grok Bot 플랜 확대**, **Qwen3.8-F",
-      "brief_date": "2026-08-27"
+      "term": "해상도(720p/1080p/4K)",
+      "hint": "출력 화질 단위",
+      "hits": 8,
+      "sample": "생성 GA · 장면 연장 40초 · 4K), **Midjourney V8.2 편집 모델**, **Anthropi",
+      "brief_date": "2026-08-28"
     },
     {
-      "term": "GPT",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "· 중국 숏드라마 95% AI · GPT-5.6 Sol 프로모. > 스윕: Midjourney updates(V",
-      "brief_date": "2026-08-27"
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 3,
+      "sample": "d/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음, fal Omni 1.1",
+      "brief_date": "2026-08-28"
     },
     {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 2,
-      "sample": ": Alibaba Wan 3.0 · Higgsfield 제휴(3시간 최대 50%) · Claude Code v2.1.243 ·",
-      "brief_date": "2026-08-27"
-    },
-    {
-      "term": "IBM",
+      "term": "AWS",
       "hint": "설명 없는 대문자 약어",
       "hits": 2,
-      "sample": "ted Understanding · IBM Granite Speech 5.0 · Manus 웰컴백 보너스 숫자 ·",
-      "brief_date": "2026-08-27"
+      "sample": "에이전트가 만들었다고 적혀 있어요. AWS Strands Robots, Automata, Doosan Roboti",
+      "brief_date": "2026-08-28"
     },
     {
-      "term": "NVIDIA",
+      "term": "CBS",
       "hint": "설명 없는 대문자 약어",
       "hits": 2,
-      "sample": "okenSpeed로 돌릴 수 있고, NVIDIA는 GB300 NVL72에서 FP8 기준으로 그래픽카드 한 장당 초당 *",
-      "brief_date": "2026-08-27"
+      "sample": "반 시설이 위험해요”라고 적었어요. CBS는 서한이 방어할 수 있는 창이 “몇 달” 단위로 짧다고 했고, “오래",
+      "brief_date": "2026-08-28"
     },
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
       "hits": 2,
-      "sample": "복원 포털 오픈. 8/24 제외: Runway Ruby HDR · DeepSeek-V4-Flash-Vision-Exp",
-      "brief_date": "2026-08-27"
+      "sample": "· Higgsfield/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음, fal",
+      "brief_date": "2026-08-28"
+    },
+    {
+      "term": "AVERI",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "stitute, OpenMined, AVERI, MLCommons예요. 대상 모델은 **Gemini Flash Lit",
+      "brief_date": "2026-08-28"
     },
     {
       "term": "BFL",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": ", 8/20 알파 UX가 최신) · BFL 블로그(FLUX Upscale=8/20이 최신, 창 안 신규 없음) ·",
-      "brief_date": "2026-08-27"
+      "sample": "(**히트: 이중맹검 평가**) · BFL 블로그(FLUX Upscale=8/20이 최신, 창 안 신규 없음) ·",
+      "brief_date": "2026-08-28"
     },
     {
-      "term": "CMEK",
+      "term": "CCO",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "초대·작업 공간·키·한도·암호화 키(CMEK)를 다루는 범위가 넓어졌어요. 터미널 권한을 물을 때 자동 모드로 한",
-      "brief_date": "2026-08-27"
+      "sample": "했어요”라고 적었어요. Runway CCO Jamie Umpherson은 “Omni Flash는 사람들이 이미 R",
+      "brief_date": "2026-08-28"
     },
     {
-      "term": "FLEURS",
+      "term": "CNBC",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "%**, 파일 **2.6%**예요. FLEURS 상위 언어는 실시간 **5.50%**, 파일 **5.04%**로 Chi",
-      "brief_date": "2026-08-27"
+      "sample": "esearch-preview) · [CNBC](https://www.cnbc.com/2026/08/27/anthro",
+      "brief_date": "2026-08-28"
     },
     {
       "term": "FLUX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "파 UX가 최신) · BFL 블로그(FLUX Upscale=8/20이 최신, 창 안 신규 없음) · Seed 블로그",
-      "brief_date": "2026-08-27"
+      "sample": "중맹검 평가**) · BFL 블로그(FLUX Upscale=8/20이 최신, 창 안 신규 없음) · Seed 블로그",
+      "brief_date": "2026-08-28"
+    },
+    {
+      "term": "GMI",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "너머 연출로 데려가요”라고 했어요. GMI Cloud 마케팅 VP Louisa Guo는 “눈에 띄는 건 정확도예요",
+      "brief_date": "2026-08-28"
+    },
+    {
+      "term": "HHMI",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "이에요. 시작은 Anthropic과 HHMI Janelia Research Campus의 협업이었어요. - (",
+      "brief_date": "2026-08-28"
+    },
+    {
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 1,
+      "sample": "안 Imagine 정식 없음) · Higgsfield/Kling/Runway/Luma/fal featured(창 안 메이저",
+      "brief_date": "2026-08-28"
+    },
+    {
+      "term": "IBM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "· Laude Headlong · IBM Granite Speech 5.0 · Manus 웰컴백 보너스 · Je",
+      "brief_date": "2026-08-28"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 1,
-      "sample": "위·아란야 현장·앱 정식 없음) · Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA",
-      "brief_date": "2026-08-27"
+      "sample": "정식 없음) · Higgsfield/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA",
+      "brief_date": "2026-08-28"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "없음) · Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음) · Cursor",
-      "brief_date": "2026-08-27"
-    },
-    {
-      "term": "METR",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "햇 발표 뒤에 나온 글로 정리예요. METR과 Redwood Research도 따로 살펴보고 있고, 자체 보고서를",
-      "brief_date": "2026-08-27"
-    },
-    {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
-      "hits": 1,
-      "sample": "-5.6 Sol 프로모. > 스윕: Midjourney updates(V8.2=7/24, 8/20 알파 UX가 최신) · BF",
-      "brief_date": "2026-08-27"
-    },
-    {
-      "term": "NVL",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "수 있고, NVIDIA는 GB300 NVL72에서 FP8 기준으로 그래픽카드 한 장당 초당 **16,000** 토",
-      "brief_date": "2026-08-27"
-    },
-    {
-      "term": "SWE",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "epSWE 1.1 **58.7**, SWE-bench Pro **62.5**, CoWorkBench **73.9*",
-      "brief_date": "2026-08-27"
-    },
-    {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 1,
-      "sample": "amina/Jimeng/CapCut(Seedance 2.5 배너는 창 밖) · HappyShrimp/HappyOyster/",
-      "brief_date": "2026-08-27"
-    },
-    {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 1,
-      "sample": "· Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음) · Cursor cha",
-      "brief_date": "2026-08-27"
-    },
-    {
-      "term": "임베딩",
-      "hint": "텍스트를 벡터로 바꾼 표현",
-      "hits": 1,
-      "sample": "에 미리 외워 둔 조각(n-gram 임베딩) **51B**와 다음 토큰을 미리 찍는 부분 **4B**가 붙어요.",
-      "brief_date": "2026-08-27"
+      "sample": "sfield/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음, fal Omni",
+      "brief_date": "2026-08-28"
     }
   ]
 }

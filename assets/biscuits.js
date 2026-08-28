@@ -451,6 +451,42 @@
   <rect x="288" y="36" width="52" height="48" rx="16" fill="#4338ca"/>
   <text x="314" y="66" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">답</text>
   <text x="180" y="108" text-anchor="middle" fill="#3730a3" font-size="11" font-family="system-ui">연쇄 사고 · 한 줄씩 이어서 생각</text>
+</svg>`,
+      mhs: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f3f4f6"/>
+  <rect x="22" y="28" width="88" height="64" rx="12" fill="#111827"/>
+  <text x="66" y="58" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">에이전트</text>
+  <text x="66" y="76" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="system-ui">읽기 · 쓰기</text>
+  <path d="M118 60 H150" stroke="#111827" stroke-width="3"/>
+  <polygon points="150,54 164,60 150,66" fill="#111827"/>
+  <rect x="172" y="22" width="70" height="32" rx="8" fill="#fff" stroke="#111827" stroke-width="2"/>
+  <text x="207" y="43" text-anchor="middle" fill="#111827" font-size="11" font-weight="700" font-family="system-ui">현미경</text>
+  <rect x="172" y="66" width="70" height="32" rx="8" fill="#fff" stroke="#111827" stroke-width="2"/>
+  <text x="207" y="87" text-anchor="middle" fill="#111827" font-size="11" font-weight="700" font-family="system-ui">로봇팔</text>
+  <rect x="256" y="34" width="82" height="52" rx="12" fill="#0a7d6c"/>
+  <text x="297" y="58" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">MHS</text>
+  <text x="297" y="76" text-anchor="middle" fill="#b8ebe0" font-size="10" font-family="system-ui">공통 규약</text>
+</svg>`,
+      inpaint: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fff7ed"/>
+  <rect x="36" y="24" width="160" height="72" rx="12" fill="#fed7aa"/>
+  <rect x="92" y="42" width="48" height="36" rx="6" fill="#fff" stroke="#ea580c" stroke-dasharray="4 3"/>
+  <text x="116" y="65" text-anchor="middle" fill="#c2410c" font-size="16">+</text>
+  <path d="M210 60 H246" stroke="#ea580c" stroke-width="3"/>
+  <polygon points="246,54 260,60 246,66" fill="#ea580c"/>
+  <rect x="268" y="24" width="64" height="72" rx="12" fill="#ea580c"/>
+  <text x="300" y="58" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">메움</text>
+  <text x="300" y="76" text-anchor="middle" fill="#ffedd5" font-size="10" font-family="system-ui">빈 칸만</text>
+</svg>`,
+      outpaint: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#ecfeff"/>
+  <rect x="118" y="34" width="70" height="52" rx="8" fill="#0891b2"/>
+  <text x="153" y="65" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="system-ui">원본</text>
+  <rect x="78" y="28" width="204" height="64" rx="12" fill="none" stroke="#0e7490" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="180" y="108" text-anchor="middle" fill="#155e75" font-size="11" font-family="system-ui">화면을 바깥으로 넓힘</text>
 </svg>`
     };
 
@@ -844,12 +880,42 @@
       text: "답을 내기 전에 생각을 한 줄씩 이어 가는 연쇄 사고예요. 모니터하면 이상한 목표를 더 일찍 볼 수 있어요.",
       detail: "CoT(Chain of Thought, 연쇄 사고)는 모델이 최종 답 앞에 중간 추론을 풀어 쓰는 방식입니다. 코딩·수학에서 단계를 밝히면 맞힐 확률이 올라가는 편이고, 에이전트 안전에서는 그 생각 스트림을 감시해 위험한 계획을 중간에 끊기도 해요. OpenAI 리포트의 CoT 모니터는 이 작업 메모를 보고 이상 행동을 호출하는 장치에 가깝습니다. 생각 토큰은 출력 요금에 잡히는 경우가 많아요.",
       firstSeen: "2026-08-27"
+    },
+    {
+      id: "mhs",
+      term: "MHS",
+      en: "Model Hardware Standard",
+      tag: "work",
+      tagLabel: "활용",
+      text: "에이전트가 현미경·로봇팔 같은 기계를 같은 말로 다루게 하는 공통 규약이에요.",
+      detail: "MHS(Model Hardware Standard, 모델 하드웨어 스탠더드)는 Anthropic이 연 기계-에이전트 연결 규약입니다. 온도 읽기·쓰기처럼 짧은 명령으로 장치를 번역하고, 팔 무게 같은 안전 정보를 자연어 태그로 적어두면 처음 보는 기계도 다룰 수 있어요. MCP·명령줄·코드 파일로 붙일 수 있고, 연구 미리보기 뒤에 오픈소스로 풀 계획이에요. 영상 API가 아니라 실험실·공장 기계를 에이전트에 붙이는 층이에요.",
+      firstSeen: "2026-08-28"
+    },
+    {
+      id: "inpaint",
+      term: "인페인팅",
+      en: "Inpainting",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "그림에서 빈 칸이나 지우고 싶은 부분만 골라, 그 자리만 다시 그려 넣는 편집이에요.",
+      detail: "인페인팅은 마스크로 고른 영역만 모델이 다시 채우는 이미지 편집입니다. 로고를 빼거나, 손에 든 소품만 바꾸거나, 얼굴만 다듬을 때 써요. 바깥 픽셀은 그대로 두고 안쪽만 고치므로, 전체 재생성보다 구도와 브랜드 요소를 지키기 쉬워요. Midjourney V8.2 편집 모델처럼 지시문·레퍼런스 이미지와 같이 쓰는 경우가 많아요.",
+      firstSeen: "2026-08-28"
+    },
+    {
+      id: "outpaint",
+      term: "아웃페인팅",
+      en: "Outpainting",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "이미 있는 그림의 바깥을 이어서 그려, 화면을 더 넓히는 편집이에요.",
+      detail: "아웃페인팅은 원본 프레임 밖을 모델이 이어서 그리는 확장 편집입니다. 세로 숏폼을 가로 히어로로 넓히거나, 잘린 배경을 살릴 때 써요. 인페인팅이 안쪽을 메운다면 아웃페인팅은 캔버스를 키우는 쪽에 가깝습니다. 가장자리가 어색하면 프롬프트로 이어질 배경을 한 줄 더 적거나, 넓힌 뒤 한 번 더 다듬으면 좋아요.",
+      firstSeen: "2026-08-28"
     }
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-08-27",
-    termIds: ["short-drama", "wer", "asr", "character-ip", "hdr", "upscale"]
+    date: "2026-08-28",
+    termIds: ["reference-image", "inpaint", "outpaint", "upscale", "character-ip", "short-drama"]
   };
 
   const TAGS = [
