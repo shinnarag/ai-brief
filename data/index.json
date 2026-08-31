@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-28T10:19:41",
+  "generated_at": "2026-08-31T10:27:00",
   "platform": "AI Pulse",
-  "count": 31,
+  "count": 32,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,96 +11,88 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "creative": 97,
-    "models": 182,
-    "marketing": 92,
-    "infra": 71,
-    "agents": 102,
-    "policy": 52
+    "models": 188,
+    "marketing": 95,
+    "agents": 104,
+    "creative": 99,
+    "policy": 53,
+    "infra": 71
   },
   "companies": [
     [
-      "Gemini",
-      63
+      "Claude",
+      89
     ],
     [
       "OpenAI",
-      60
-    ],
-    [
-      "Claude",
-      58
-    ],
-    [
-      "NVIDIA",
-      58
+      76
     ],
     [
       "Anthropic",
-      54
+      66
+    ],
+    [
+      "Gemini",
+      64
     ],
     [
       "Grok",
-      42
+      48
     ],
     [
-      "Google",
-      36
+      "NVIDIA",
+      39
     ],
     [
       "Hugging Face",
-      27
+      38
     ],
     [
-      "DeepSeek",
-      26
+      "Google",
+      32
     ],
     [
       "Midjourney",
-      23
-    ],
-    [
-      "Runway",
-      22
+      31
     ],
     [
       "IBM",
       18
     ],
     [
+      "DeepMind",
+      15
+    ],
+    [
       "Perplexity",
       15
     ],
     [
-      "DeepMind",
-      13
-    ],
-    [
-      "xAI",
-      12
-    ],
-    [
-      "Mistral",
-      12
-    ],
-    [
-      "ChatGPT",
-      9
-    ],
-    [
-      "AWS",
-      9
-    ],
-    [
       "GitHub",
-      9
+      14
     ],
     [
-      "Kling",
+      "Runway",
+      11
+    ],
+    [
+      "DeepSeek",
       8
     ],
     [
-      "Meta",
+      "Kling",
+      7
+    ],
+    [
+      "xAI",
+      5
+    ],
+    [
+      "Luma",
+      4
+    ],
+    [
+      "AWS",
       4
     ],
     [
@@ -108,11 +100,15 @@
       3
     ],
     [
+      "ChatGPT",
+      3
+    ],
+    [
       "Figma",
       3
     ],
     [
-      "Luma",
+      "Meta",
       3
     ],
     [
@@ -124,21 +120,66 @@
       2
     ],
     [
-      "Amazon",
-      1
+      "Mistral",
+      2
     ],
     [
-      "Apple",
+      "Cohere",
       1
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-08-22",
-    "end": "2026-08-28",
+    "start": "2026-08-25",
+    "end": "2026-08-31",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-08-31",
+      "title": "AI Daily Brief — 2026-08-31 (주말+월요일 아침)",
+      "theme": "가중치는 풀렸고, Cursor 창구는 갈라졌어요",
+      "theme_blurb": "Z.ai가 GLM-5.3 전체 가중치를 금요일에 올렸고, OpenAI는 SpaceX가 산 Cursor에 모델을 11월부터 끊겠다고 했어요. 받아 둘 파일과 갈아 볼 코딩 창구를 같은 브리프에서 만져 보시면 돼요.",
+      "edition_title": "가중치는 풀렸고, Cursor 창구는 갈라졌어요",
+      "edition_blurb": "Z.ai가 GLM-5.3 전체 가중치를 금요일에 올렸고, OpenAI는 SpaceX가 산 Cursor에 모델을 11월부터 끊겠다고 했어요. 받아 둘 파일과 갈아 볼 코딩 창구를 같은 브리프에서 만져 보시면 돼요.",
+      "url": "brief/2026-08-31.html",
+      "excerpt": "오늘은 GLM-5.3 전체 가중치 후속(753B · glm-5.3 라이선스 · $10B MaaS 심사), Tencent Hy4 preview(770B · Apache 2.0), OpenAI→Cursor 계약 종료(11/12 차단), Grok Bot × X, Claude Code 주간 사용량 9/14가 축이에요.",
+      "top5": [
+        "GLM-5.3 가중치 후속 — 금요일에 풀렸고, 라이선스는 MIT가 아니에요",
+        "Tencent Hy4 preview — 770B 오픈웨이트를 Apache 2.0으로 풀었어요",
+        "OpenAI — SpaceX가 산 Cursor에 모델을 11월 12일부터 끊어요",
+        "Grok Bot — X 계정만 붙이면 타임라인과 멘션을 읽기 시작해요",
+        "Claude Code — 9월 14일부터 주간 사용량이 오늘보다 약 17% 줄어요"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "Claude",
+        "OpenAI",
+        "Grok",
+        "Anthropic",
+        "Hugging Face",
+        "Midjourney",
+        "GitHub",
+        "Gemini",
+        "DeepMind",
+        "Runway",
+        "NVIDIA",
+        "xAI",
+        "DeepSeek",
+        "Cohere",
+        "Kling",
+        "Luma"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-08-28",
       "title": "AI Daily Brief — 2026-08-28 (최근 24h)",
@@ -265,10 +306,10 @@
         "Kling",
         "Grok",
         "Midjourney",
-        "GitHub",
         "Gemini",
-        "Luma",
-        "Meta"
+        "GitHub",
+        "Meta",
+        "Luma"
       ],
       "has_rumor": true,
       "source": "md",
@@ -396,10 +437,10 @@
         "Midjourney",
         "Salesforce",
         "Copilot",
-        "GitHub",
-        "Google",
         "Runway",
         "Gemini",
+        "Google",
+        "GitHub",
         "Amazon"
       ],
       "has_rumor": false,
@@ -524,8 +565,8 @@
         "Copilot",
         "ElevenLabs",
         "Google",
-        "Luma",
         "Grok",
+        "Luma",
         "Amazon",
         "GitHub",
         "Midjourney"
@@ -564,8 +605,8 @@
         "ChatGPT",
         "OpenAI",
         "DeepMind",
-        "NVIDIA",
         "Runway",
+        "NVIDIA",
         "AWS",
         "xAI",
         "Kling",
@@ -968,8 +1009,8 @@
         "policy"
       ],
       "companies": [
-        "Google",
         "Gemini",
+        "Google",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -1022,8 +1063,8 @@
         "NVIDIA",
         "Claude",
         "Hugging Face",
-        "GitHub",
         "Google",
+        "GitHub",
         "Oracle",
         "Kling",
         "Runway",
@@ -1117,8 +1158,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Luma",
-        "Meta"
+        "Meta",
+        "Luma"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1200,8 +1241,8 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Claude",
         "Gemini",
+        "Claude",
         "Kling",
         "Meta",
         "Cloudflare",

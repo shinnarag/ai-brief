@@ -487,6 +487,18 @@
   <text x="153" y="65" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="system-ui">원본</text>
   <rect x="78" y="28" width="204" height="64" rx="12" fill="none" stroke="#0e7490" stroke-width="2" stroke-dasharray="5 4"/>
   <text x="180" y="108" text-anchor="middle" fill="#155e75" font-size="11" font-family="system-ui">화면을 바깥으로 넓힘</text>
+</svg>`,
+      maas: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef2ff"/>
+  <rect x="24" y="30" width="100" height="60" rx="12" fill="#fff" stroke="#3730a3" stroke-width="2"/>
+  <text x="74" y="56" text-anchor="middle" fill="#3730a3" font-size="12" font-weight="700" font-family="system-ui">모델 파일</text>
+  <text x="74" y="74" text-anchor="middle" fill="#6366f1" font-size="10" font-family="system-ui">내가 호스팅</text>
+  <path d="M132 60 H176" stroke="#3730a3" stroke-width="3"/>
+  <polygon points="176,54 190,60 176,66" fill="#3730a3"/>
+  <rect x="198" y="24" width="138" height="72" rx="14" fill="#3730a3"/>
+  <text x="267" y="54" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">API로 빌려 줌</text>
+  <text x="267" y="76" text-anchor="middle" fill="#c7d2fe" font-size="11" font-family="system-ui">MaaS</text>
 </svg>`
     };
 
@@ -910,12 +922,22 @@
       text: "이미 있는 그림의 바깥을 이어서 그려, 화면을 더 넓히는 편집이에요.",
       detail: "아웃페인팅은 원본 프레임 밖을 모델이 이어서 그리는 확장 편집입니다. 세로 숏폼을 가로 히어로로 넓히거나, 잘린 배경을 살릴 때 써요. 인페인팅이 안쪽을 메운다면 아웃페인팅은 캔버스를 키우는 쪽에 가깝습니다. 가장자리가 어색하면 프롬프트로 이어질 배경을 한 줄 더 적거나, 넓힌 뒤 한 번 더 다듬으면 좋아요.",
       firstSeen: "2026-08-28"
+    },
+    {
+      id: "maas",
+      term: "MaaS",
+      en: "Model as a Service",
+      tag: "work",
+      tagLabel: "활용",
+      text: "모델 파일을 내가 띄워 두고, 남에게 API처럼 빌려 주는 호스팅 사업이에요.",
+      detail: "MaaS(Model as a Service, 모델 즉 서비스)는 다운로드한 가중치를 자기 서버에 올려 제3자가 입력·파라미터·학습 데이터를 실질적으로 고르게 하는 호스팅입니다. 앱 기능 안에만 모델을 심거나, 남의 창구로 요청만 넘기는 일은 보통 MaaS가 아니에요. GLM-5.3 라이선스는 연속 12개월 매출 100억 달러를 넘는 MaaS 사업자에게 Z.AI 보안 심사를 요구해요.",
+      firstSeen: "2026-08-31"
     }
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-08-28",
-    termIds: ["reference-image", "inpaint", "outpaint", "upscale", "character-ip", "short-drama"]
+    date: "2026-08-31",
+    termIds: ["character-ip", "inpaint", "outpaint", "short-drama", "upscale", "maas"]
   };
 
   const TAGS = [

@@ -1,159 +1,160 @@
 {
-  "date": "2026-08-28",
-  "label": "8월 28일 브리프",
+  "date": "2026-08-31",
+  "label": "8월 31일 브리프",
   "termIds": [
-    "reference-image",
+    "character-ip",
     "inpaint",
     "outpaint",
+    "short-drama",
     "upscale",
-    "character-ip",
-    "short-drama"
+    "maas"
   ],
   "allMatchedIds": [
     "upscale",
     "character-ip",
     "short-drama",
-    "reference-image",
     "early-access",
     "credits",
     "harness",
+    "open-weight",
     "prompt",
     "agent",
     "token",
+    "fp8",
     "api",
     "ga",
-    "mcp",
     "mhs",
     "inpaint",
-    "outpaint"
+    "outpaint",
+    "maas"
   ],
   "candidates": [
     {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
-      "hits": 13,
-      "sample": "험 · 360p 초안 단가 비교 · Midjourney 편집 4장 레퍼런스 · 미리보기 창구 교체 · 과학자 좌석은 자격만 확",
-      "brief_date": "2026-08-28"
-    },
-    {
       "term": "GLM",
       "hint": "설명 없는 대문자 약어",
-      "hits": 10,
-      "sample": "ni 3.5 Transcribe · GLM-5.3-Flash(Ox Alpha) · Grok Bot 플랜 확대 ·",
-      "brief_date": "2026-08-28"
+      "hits": 30,
+      "sample": "갈라졌어요 주제 설명: Z.ai가 GLM-5.3 전체 가중치를 금요일에 올렸고, OpenAI는 SpaceX가 산",
+      "brief_date": "2026-08-31"
     },
     {
-      "term": "해상도(720p/1080p/4K)",
-      "hint": "출력 화질 단위",
+      "term": "Midjourney",
+      "hint": "이미지 생성 서비스",
       "hits": 8,
-      "sample": "생성 GA · 장면 연장 40초 · 4K), **Midjourney V8.2 편집 모델**, **Anthropi",
-      "brief_date": "2026-08-28"
+      "sample": "Omni 1.1 Flash GA · Midjourney V8.2 편집 모델 · Anthropic MHS · 과학자 Claude",
+      "brief_date": "2026-08-31"
     },
     {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
+      "term": "MIT",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 7,
+      "sample": "속 — 금요일에 풀렸고, 라이선스는 MIT가 아니에요** · 카테고리: 모델 · 플랫폼 - 753B 파일이",
+      "brief_date": "2026-08-31"
+    },
+    {
+      "term": "LICENSE",
+      "hint": "설명 없는 대문자 약어",
       "hits": 3,
-      "sample": "d/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음, fal Omni 1.1",
-      "brief_date": "2026-08-28"
-    },
-    {
-      "term": "AWS",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "에이전트가 만들었다고 적혀 있어요. AWS Strands Robots, Automata, Doosan Roboti",
-      "brief_date": "2026-08-28"
-    },
-    {
-      "term": "CBS",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "반 시설이 위험해요”라고 적었어요. CBS는 서한이 방어할 수 있는 창이 “몇 달” 단위로 짧다고 했고, “오래",
-      "brief_date": "2026-08-28"
+      "sample": "이선스 칸은 `glm-5.3`이고, LICENSE 원문은 사용·복사·수정·배포·판매에 더해 실행·배포·미세조정을 명시해요",
+      "brief_date": "2026-08-31"
     },
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
       "hits": 2,
-      "sample": "· Higgsfield/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음, fal",
-      "brief_date": "2026-08-28"
-    },
-    {
-      "term": "AVERI",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "stitute, OpenMined, AVERI, MLCommons예요. 대상 모델은 **Gemini Flash Lit",
-      "brief_date": "2026-08-28"
+      "sample": "· Higgsfield/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음, Run",
+      "brief_date": "2026-08-31"
     },
     {
       "term": "BFL",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "(**히트: 이중맹검 평가**) · BFL 블로그(FLUX Upscale=8/20이 최신, 창 안 신규 없음) ·",
-      "brief_date": "2026-08-28"
+      "sample": "로그(이중맹검=8/27이 최신) · BFL 블로그(FLUX Upscale=8/20이 최신) · Seed 블로그(8",
+      "brief_date": "2026-08-31"
     },
     {
-      "term": "CCO",
+      "term": "BMG",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "했어요”라고 적었어요. Runway CCO Jamie Umpherson은 “Omni Flash는 사람들이 이미 R",
-      "brief_date": "2026-08-28"
+      "sample": "없이 학습에 썼다고 주장하는 점과, BMG 소송이 493곡에 묶인 것보다 범위가 넓다고 했어요. 소장에는 LibG",
+      "brief_date": "2026-08-31"
     },
     {
-      "term": "CNBC",
+      "term": "CNB",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "esearch-preview) · [CNBC](https://www.cnbc.com/2026/08/27/anthro",
-      "brief_date": "2026-08-28"
+      "sample": "ModelScope·GitCode·CNB 미러가 같이 열려요. 라이선스는 **Apache 2.0**이에요.",
+      "brief_date": "2026-08-31"
     },
     {
       "term": "FLUX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "중맹검 평가**) · BFL 블로그(FLUX Upscale=8/20이 최신, 창 안 신규 없음) · Seed 블로그",
-      "brief_date": "2026-08-28"
+      "sample": "8/27이 최신) · BFL 블로그(FLUX Upscale=8/20이 최신) · Seed 블로그(8/5 SeedRe",
+      "brief_date": "2026-08-31"
     },
     {
-      "term": "GMI",
+      "term": "GPT",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "너머 연출로 데려가요”라고 했어요. GMI Cloud 마케팅 VP Louisa Guo는 “눈에 띄는 건 정확도예요",
-      "brief_date": "2026-08-28"
-    },
-    {
-      "term": "HHMI",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "이에요. 시작은 Anthropic과 HHMI Janelia Research Campus의 협업이었어요. - (",
-      "brief_date": "2026-08-28"
+      "sample": "- (영향) Cursor에서 GPT·Codex를 기본으로 쓰던 팀은 오늘 모델 피커에서 OpenAI 비중만",
+      "brief_date": "2026-08-31"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
-      "sample": "안 Imagine 정식 없음) · Higgsfield/Kling/Runway/Luma/fal featured(창 안 메이저",
-      "brief_date": "2026-08-28"
+      "sample": "9 Grok Bot × X**) · Higgsfield/Kling/Runway/Luma/fal featured(창 안 메이저",
+      "brief_date": "2026-08-31"
     },
     {
-      "term": "IBM",
+      "term": "IDE",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "· Laude Headlong · IBM Granite Speech 5.0 · Manus 웰컴백 보너스 · Je",
-      "brief_date": "2026-08-28"
+      "sample": "OpenAI가 만든 Cursor용 IDE 확장으로는 계속 접근할 수 있다고 했다고 Times of India가",
+      "brief_date": "2026-08-31"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 1,
-      "sample": "정식 없음) · Higgsfield/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA",
-      "brief_date": "2026-08-28"
+      "sample": "× X**) · Higgsfield/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA",
+      "brief_date": "2026-08-31"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "sfield/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음, fal Omni",
-      "brief_date": "2026-08-28"
+      "sample": "sfield/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음, Runway W",
+      "brief_date": "2026-08-31"
+    },
+    {
+      "term": "MTP",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "전문가 1개를 켜고, 추측 디코딩용 MTP 층(총 10B, 활성 0.7B)이 붙어 있어요. 카드는 미리보기라 복잡",
+      "brief_date": "2026-08-31"
+    },
+    {
+      "term": "NVIDIA",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "공식 없음. 루머 재탕 금지. - NVIDIA–Hugging Face $12.9B: 8/27 The Informati",
+      "brief_date": "2026-08-31"
+    },
+    {
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 1,
+      "sample": "d/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음, Runway Wan 3",
+      "brief_date": "2026-08-31"
+    },
+    {
+      "term": "파인튜닝",
+      "hint": "추가 학습으로 맞춤",
+      "hits": 1,
+      "sample": ", local deployment, fine-tuning, and commercial use under the GLM-5.3 L",
+      "brief_date": "2026-08-31"
     }
   ],
-  "catalogSize": 44
+  "catalogSize": 45
 }
