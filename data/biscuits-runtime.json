@@ -27,14 +27,14 @@
     {
       "term": "GPT",
       "hint": "설명 없는 대문자 약어",
-      "hits": 18,
+      "hits": 16,
       "sample": "ChatGPT 로그인 Codex의 GPT-5.4가 빠지는 날이에요. 실무 액션: Solaris early acc",
       "brief_date": "2026-09-01"
     },
     {
       "term": "MIT",
       "hint": "설명 없는 대문자 약어",
-      "hits": 9,
+      "hits": 8,
       "sample": "화면이 OS가 됐고, 비전 가중치는 MIT로 풀렸어요 주제 설명: Runway가 코드를 거치지 않고 화면을 프레임",
       "brief_date": "2026-09-01"
     },
@@ -57,13 +57,6 @@
       "hint": "이미지 생성 서비스",
       "hits": 2,
       "sample": "ude Code v2.1.251 · Midjourney V8.2 편집 화질 · Sony·Warner 소송. 창 밖·재탕: Mu",
-      "brief_date": "2026-09-01"
-    },
-    {
-      "term": "체크포인트",
-      "hint": "학습 가중치 스냅샷",
-      "hits": 2,
-      "sample": "-Flash-Vision-Exp** 체크포인트를 **2026-08-31**에 Hugging Face `deepseek",
       "brief_date": "2026-09-01"
     },
     {
@@ -172,10 +165,17 @@
       "brief_date": "2026-09-01"
     },
     {
+      "term": "체크포인트",
+      "hint": "학습 가중치 스냅샷",
+      "hits": 1,
+      "sample": "-Flash-Vision-Exp** 체크포인트를 **2026-08-31**에 Hugging Face `deepseek",
+      "brief_date": "2026-09-01"
+    },
+    {
       "term": "해상도(720p/1080p/4K)",
       "hint": "출력 화질 단위",
       "hits": 1,
-      "sample": "로 화면을 그려요. 목표 화질은 **720p**이고, 상호작용이 “interactive”(바로 반응하는 느낌)로 느",
+      "sample": "로 화면을 그려요. 목표 화질은 **720p**이고, 상호작용이 바로 반응하는 느낌으로 느껴지려면 지연이 **0.5",
       "brief_date": "2026-09-01"
     }
   ],
