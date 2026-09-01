@@ -1,131 +1,159 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "candidates": [
     {
-      "term": "GLM",
+      "term": "GPT",
       "hint": "설명 없는 대문자 약어",
-      "hits": 30,
-      "sample": "갈라졌어요 주제 설명: Z.ai가 GLM-5.3 전체 가중치를 금요일에 올렸고, OpenAI는 SpaceX가 산",
-      "brief_date": "2026-08-31"
-    },
-    {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
-      "hits": 8,
-      "sample": "Omni 1.1 Flash GA · Midjourney V8.2 편집 모델 · Anthropic MHS · 과학자 Claude",
-      "brief_date": "2026-08-31"
+      "hits": 17,
+      "sample": "ChatGPT 로그인 Codex의 GPT-5.4가 빠지는 날이에요. 실무 액션: Solaris early acc",
+      "brief_date": "2026-09-01"
     },
     {
       "term": "MIT",
       "hint": "설명 없는 대문자 약어",
-      "hits": 7,
-      "sample": "속 — 금요일에 풀렸고, 라이선스는 MIT가 아니에요** · 카테고리: 모델 · 플랫폼 - 753B 파일이",
-      "brief_date": "2026-08-31"
-    },
-    {
-      "term": "LICENSE",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 3,
-      "sample": "이선스 칸은 `glm-5.3`이고, LICENSE 원문은 사용·복사·수정·배포·판매에 더해 실행·배포·미세조정을 명시해요",
-      "brief_date": "2026-08-31"
+      "hits": 8,
+      "sample": "화면이 OS가 됐고, 비전 가중치는 MIT로 풀렸어요 주제 설명: Runway가 코드를 거치지 않고 화면을 프레임",
+      "brief_date": "2026-09-01"
     },
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
+      "hits": 8,
+      "sample": "크·규제 / SNS > 오늘은 **Runway Solaris**(Interface World Model · early",
+      "brief_date": "2026-09-01"
+    },
+    {
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 4,
+      "sample": "$2/$10 영구화(8/11) · fal H3 Max(8/27) · DeepSeek Vision API(8/21",
+      "brief_date": "2026-09-01"
+    },
+    {
+      "term": "Midjourney",
+      "hint": "이미지 생성 서비스",
       "hits": 2,
-      "sample": "· Higgsfield/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음, Run",
-      "brief_date": "2026-08-31"
+      "sample": "ude Code v2.1.251 · Midjourney V8.2 편집 화질 · Sony·Warner 소송. 창 밖·재탕: Mu",
+      "brief_date": "2026-09-01"
+    },
+    {
+      "term": "체크포인트",
+      "hint": "학습 가중치 스냅샷",
+      "hits": 2,
+      "sample": "-Flash-Vision-Exp** 체크포인트를 **2026-08-31**에 Hugging Face `deepseek",
+      "brief_date": "2026-09-01"
     },
     {
       "term": "BFL",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "로그(이중맹검=8/27이 최신) · BFL 블로그(FLUX Upscale=8/20이 최신) · Seed 블로그(8",
-      "brief_date": "2026-08-31"
-    },
-    {
-      "term": "BMG",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "없이 학습에 썼다고 주장하는 점과, BMG 소송이 493곡에 묶인 것보다 범위가 넓다고 했어요. 소장에는 LibG",
-      "brief_date": "2026-08-31"
-    },
-    {
-      "term": "CNB",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "ModelScope·GitCode·CNB 미러가 같이 열려요. 라이선스는 **Apache 2.0**이에요.",
-      "brief_date": "2026-08-31"
+      "sample": "블로그(창 안 신규 제품 없음) · BFL(FLUX Upscale=8/20이 최신) · Seed(8/5 SeedR",
+      "brief_date": "2026-09-01"
     },
     {
       "term": "FLUX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "8/27이 최신) · BFL 블로그(FLUX Upscale=8/20이 최신) · Seed 블로그(8/5 SeedRe",
-      "brief_date": "2026-08-31"
+      "sample": "창 안 신규 제품 없음) · BFL(FLUX Upscale=8/20이 최신) · Seed(8/5 SeedRealti",
+      "brief_date": "2026-09-01"
     },
     {
-      "term": "GPT",
+      "term": "FORECAST",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "- (영향) Cursor에서 GPT·Codex를 기본으로 쓰던 팀은 오늘 모델 피커에서 OpenAI 비중만",
-      "brief_date": "2026-08-31"
+      "sample": "M-2.5로 BigQuery `AI.FORECAST`를 쓰라고 안내해요. - (영향) 캠페인·트래픽·재고처럼 여러 지",
+      "brief_date": "2026-09-01"
+    },
+    {
+      "term": "GLM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "출**이 축이에요. > 전일 제외: GLM-5.3 가중치 · Hy4 preview · OpenAI→Cursor 1",
+      "brief_date": "2026-09-01"
+    },
+    {
+      "term": "GPU",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "올리는 크기는 아니고, 호스트·멀티 GPU 쪽이 현실적인 경로예요. 캠페인 영상 API가 바뀌었다는 내용은 없어요",
+      "brief_date": "2026-09-01"
+    },
+    {
+      "term": "GWM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "이 프레임을 그리는 이단 구조예요. GWM-1 일반 월드 모델 라인의 이어짐이라고 해요. - (장면) 공식",
+      "brief_date": "2026-09-01"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
-      "sample": "9 Grok Bot × X**) · Higgsfield/Kling/Runway/Luma/fal featured(창 안 메이저",
-      "brief_date": "2026-08-31"
+      "sample": "TimesFM-3 8/31**) · Higgsfield/Kling/Luma/fal featured(창 안 메이저 GA 없음,",
+      "brief_date": "2026-09-01"
     },
     {
       "term": "IDE",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "OpenAI가 만든 Cursor용 IDE 확장으로는 계속 접근할 수 있다고 했다고 Times of India가",
-      "brief_date": "2026-08-31"
+      "sample": "GPT 로그인으로 Codex CLI·IDE·데스크톱을 쓰던 팀은 오늘 모델 피커에 5.4가 남아 있는지만 먼저 보",
+      "brief_date": "2026-09-01"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 1,
-      "sample": "× X**) · Higgsfield/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA",
-      "brief_date": "2026-08-31"
+      "sample": "/31**) · Higgsfield/Kling/Luma/fal featured(창 안 메이저 GA 없음, fal H3",
+      "brief_date": "2026-09-01"
+    },
+    {
+      "term": "LLM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "를 넘기면 안 된다고 적혀 있어요. LLM이 장면을 바꿀지·유지할지 정하고, 월드 모델이 프레임을 그리는 이단 구",
+      "brief_date": "2026-09-01"
+    },
+    {
+      "term": "LTX",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "ake / mona-lisa-1 / LTX-2.5: 상태 업그레이드 없음. 재탕 금지. - Moonshot kim",
+      "brief_date": "2026-09-01"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "sfield/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음, Runway W",
-      "brief_date": "2026-08-31"
+      "sample": "· Higgsfield/Kling/Luma/fal featured(창 안 메이저 GA 없음, fal H3 Max=",
+      "brief_date": "2026-09-01"
     },
     {
-      "term": "MTP",
+      "term": "README",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "전문가 1개를 켜고, 추측 디코딩용 MTP 층(총 10B, 활성 0.7B)이 붙어 있어요. 카드는 미리보기라 복잡",
-      "brief_date": "2026-08-31"
+      "sample": "vLLM·SGLang 서빙 안내도 README에 있어요. - (벤치) 모델 카드 표는 Agents' Last E",
+      "brief_date": "2026-09-01"
     },
     {
-      "term": "NVIDIA",
+      "term": "SDK",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "공식 없음. 루머 재탕 금지. - NVIDIA–Hugging Face $12.9B: 8/27 The Informati",
-      "brief_date": "2026-08-31"
+      "sample": "않음. - Muse Code 유료·SDK 확대 보도(CryptoBriefing 8/31): 공식 Meta 글 d",
+      "brief_date": "2026-09-01"
     },
     {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
+      "term": "SSIM",
+      "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "d/Kling/Runway/Luma/fal featured(창 안 메이저 제품 GA 없음, Runway Wan 3",
-      "brief_date": "2026-08-31"
+      "sample": "모델을 썼고, 시각이 복잡해질수록 SSIM·DINOv3 기준 정보 손실이 커진다고 적어요. 같은 시작 이미지·같은",
+      "brief_date": "2026-09-01"
     },
     {
-      "term": "파인튜닝",
-      "hint": "추가 학습으로 맞춤",
+      "term": "해상도(720p/1080p/4K)",
+      "hint": "출력 화질 단위",
       "hits": 1,
-      "sample": ", local deployment, fine-tuning, and commercial use under the GLM-5.3 L",
-      "brief_date": "2026-08-31"
+      "sample": "로 화면을 그려요. 목표 화질은 **720p**이고, 상호작용이 “interactive”로 느껴지려면 지연이 **0",
+      "brief_date": "2026-09-01"
     }
   ]
 }

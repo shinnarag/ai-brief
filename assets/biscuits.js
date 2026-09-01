@@ -499,6 +499,19 @@
   <rect x="198" y="24" width="138" height="72" rx="14" fill="#3730a3"/>
   <text x="267" y="54" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">API로 빌려 줌</text>
   <text x="267" y="76" text-anchor="middle" fill="#c7d2fe" font-size="11" font-family="system-ui">MaaS</text>
+</svg>`,
+      "world-model": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f0fdf4"/>
+  <rect x="28" y="28" width="120" height="64" rx="12" fill="#166534"/>
+  <text x="88" y="56" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">장면 이해</text>
+  <text x="88" y="74" text-anchor="middle" fill="#bbf7d0" font-size="10" font-family="system-ui">물리·인과</text>
+  <path d="M156 60 H196" stroke="#166534" stroke-width="3"/>
+  <polygon points="196,54 210,60 196,66" fill="#166534"/>
+  <rect x="218" y="22" width="114" height="76" rx="14" fill="#fff" stroke="#166534" stroke-width="2"/>
+  <text x="275" y="48" text-anchor="middle" fill="#166534" font-size="12" font-weight="700" font-family="system-ui">다음 프레임</text>
+  <text x="275" y="68" text-anchor="middle" fill="#15803d" font-size="10" font-family="system-ui">행동에 반응</text>
+  <text x="275" y="86" text-anchor="middle" fill="#86efac" font-size="10" font-family="system-ui">월드 모델</text>
 </svg>`
     };
 
@@ -932,12 +945,22 @@
       text: "모델 파일을 내가 띄워 두고, 남에게 API처럼 빌려 주는 호스팅 사업이에요.",
       detail: "MaaS(Model as a Service, 모델 즉 서비스)는 다운로드한 가중치를 자기 서버에 올려 제3자가 입력·파라미터·학습 데이터를 실질적으로 고르게 하는 호스팅입니다. 앱 기능 안에만 모델을 심거나, 남의 창구로 요청만 넘기는 일은 보통 MaaS가 아니에요. GLM-5.3 라이선스는 연속 12개월 매출 100억 달러를 넘는 MaaS 사업자에게 Z.AI 보안 심사를 요구해요.",
       firstSeen: "2026-08-31"
+    },
+    {
+      id: "world-model",
+      term: "월드 모델",
+      en: "World Model",
+      tag: "model",
+      tagLabel: "모델",
+      text: "화면·물리·다음 순간을 안에서 그려 보며, 행동에 어떻게 반응할지 예측하는 모델이에요.",
+      detail: "월드 모델(World Model)은 이미지나 상태를 보고 다음 장면을 스스로 시뮬레이션하는 모델입니다. 클릭·드래그·말 같은 행동을 조건으로 넣고 프레임을 이어 그리면, 코드로 짠 화면 없이도 상호작용이 가능해져요. Interface World Model은 그 아이디어를 앱·웹 UI 런타임에 붙인 표현이에요. 아직 글자 안정성·긴 세션 일관성 같은 한계가 있어, 연구 미리보기와 제작 파이프를 나눠 보시면 좋아요.",
+      firstSeen: "2026-09-01"
     }
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-08-31",
-    termIds: ["character-ip", "inpaint", "outpaint", "short-drama", "upscale", "maas"]
+    date: "2026-09-01",
+    termIds: ["upscale", "world-model", "open-weight", "moe", "multimodal", "ga"]
   };
 
   const TAGS = [
