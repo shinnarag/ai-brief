@@ -4,14 +4,14 @@
     {
       "term": "GPT",
       "hint": "설명 없는 대문자 약어",
-      "hits": 17,
+      "hits": 18,
       "sample": "ChatGPT 로그인 Codex의 GPT-5.4가 빠지는 날이에요. 실무 액션: Solaris early acc",
       "brief_date": "2026-09-01"
     },
     {
       "term": "MIT",
       "hint": "설명 없는 대문자 약어",
-      "hits": 8,
+      "hits": 9,
       "sample": "화면이 OS가 됐고, 비전 가중치는 MIT로 풀렸어요 주제 설명: Runway가 코드를 거치지 않고 화면을 프레임",
       "brief_date": "2026-09-01"
     },
@@ -152,7 +152,7 @@
       "term": "해상도(720p/1080p/4K)",
       "hint": "출력 화질 단위",
       "hits": 1,
-      "sample": "로 화면을 그려요. 목표 화질은 **720p**이고, 상호작용이 “interactive”로 느껴지려면 지연이 **0",
+      "sample": "로 화면을 그려요. 목표 화질은 **720p**이고, 상호작용이 “interactive”(바로 반응하는 느낌)로 느",
       "brief_date": "2026-09-01"
     }
   ]
