@@ -1,183 +1,164 @@
 {
-  "date": "2026-09-01",
-  "label": "9월 1일 브리프",
+  "date": "2026-09-02",
+  "label": "9월 2일 브리프",
   "termIds": [
+    "asr",
+    "diarization",
     "upscale",
-    "world-model",
-    "open-weight",
-    "moe",
-    "multimodal",
-    "ga"
+    "wer",
+    "zdr",
+    "harness"
   ],
   "allMatchedIds": [
+    "asr",
     "upscale",
-    "multimodal",
     "early-access",
+    "harness",
     "open-weight",
     "prompt",
     "agent",
     "token",
-    "moe",
-    "cli",
     "api",
+    "zdr",
+    "watermark",
     "ga",
-    "world-model"
+    "wer",
+    "diarization"
   ],
   "candidates": [
     {
-      "term": "GPT",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 16,
-      "sample": "ChatGPT 로그인 Codex의 GPT-5.4가 빠지는 날이에요. 실무 액션: Solaris early acc",
-      "brief_date": "2026-09-01"
-    },
-    {
-      "term": "MIT",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 8,
-      "sample": "화면이 OS가 됐고, 비전 가중치는 MIT로 풀렸어요 주제 설명: Runway가 코드를 거치지 않고 화면을 프레임",
-      "brief_date": "2026-09-01"
-    },
-    {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
-      "hits": 8,
-      "sample": "크·규제 / SNS > 오늘은 **Runway Solaris**(Interface World Model · early",
-      "brief_date": "2026-09-01"
-    },
-    {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
+      "hits": 10,
+      "sample": "오늘은 **Muse Image**(fal · $0.01/장), **Gemini Agentic Video**(토큰",
+      "brief_date": "2026-09-02"
+    },
+    {
+      "term": "fps",
+      "hint": "초당 프레임",
       "hits": 4,
-      "sample": "$2/$10 영구화(8/11) · fal H3 Max(8/27) · DeepSeek Vision API(8/21",
-      "brief_date": "2026-09-01"
+      "sample": "Agentic Video — 고정 FPS 대신 필요한 순간만 다시 훑는 영상 이해를 켰어요 (9/1)**",
+      "brief_date": "2026-09-02"
+    },
+    {
+      "term": "EFS",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 3,
+      "sample": "Frontier Safeguards(EFS)**는 고객 클라우드에 데이터를 두고 감시하는 구조로, 올가을부터 단계",
+      "brief_date": "2026-09-02"
+    },
+    {
+      "term": "FLUX",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "pple 추가 증거. 창 밖·재탕: FLUX 3 Video GA(8/4) · Midjourney V8.2 편집(8/",
+      "brief_date": "2026-09-02"
+    },
+    {
+      "term": "GPT",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "ision 오픈웨이트 · Codex GPT-5.4 퇴역 · TimesFM-3 · Apple 추가 증거. 창 밖·재",
+      "brief_date": "2026-09-02"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 2,
-      "sample": "ude Code v2.1.251 · Midjourney V8.2 편집 화질 · Sony·Warner 소송. 창 밖·재탕: Mu",
-      "brief_date": "2026-09-01"
+      "sample": "X 3 Video GA(8/4) · Midjourney V8.2 편집(8/27) · SeedRealtime(8/5) · fal",
+      "brief_date": "2026-09-02"
+    },
+    {
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 2,
+      "sample": "박**이 축이에요. > 전일 제외: Runway Solaris · DeepSeek Vision 오픈웨이트 · Codex",
+      "brief_date": "2026-09-02"
+    },
+    {
+      "term": "Sora",
+      "hint": "OpenAI 영상 모델",
+      "hits": 2,
+      "sample": "fal H3 Max(8/27) · Sora API 9/24 종료(3/24 공지) · Instagram AI 프로필",
+      "brief_date": "2026-09-02"
+    },
+    {
+      "term": "VLOSE",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "(8/31) · ChatGPT EU VLOSE(8/31). > 스윕: Midjourney updates(Edit V8",
+      "brief_date": "2026-09-02"
+    },
+    {
+      "term": "AWS",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "%**까지 싸질 수 있다고 적어요. AWS·Google Cloud·Microsoft Azure에도 올라요.",
+      "brief_date": "2026-09-02"
     },
     {
       "term": "BFL",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "블로그(창 안 신규 제품 없음) · BFL(FLUX Upscale=8/20이 최신) · Seed(8/5 SeedR",
-      "brief_date": "2026-09-01"
+      "sample": "d(Gemini 글과 동일 창) · BFL(FLUX Upscale=8/20·Video GA=8/4이 최신) · S",
+      "brief_date": "2026-09-02"
     },
     {
-      "term": "FLUX",
+      "term": "CVP",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "창 안 신규 제품 없음) · BFL(FLUX Upscale=8/20이 최신) · Seed(8/5 SeedRealti",
-      "brief_date": "2026-09-01"
+      "sample": "시면 돼요. Mythos가 필요하면 CVP·생명과학 프로그램 신청 링크를 열어 두시면 좋아요. - 출처: [",
+      "brief_date": "2026-09-02"
     },
     {
-      "term": "FORECAST",
-      "hint": "설명 없는 대문자 약어",
+      "term": "FLUX 3",
+      "hint": "BFL 멀티모달·영상 모델",
       "hits": 1,
-      "sample": "M-2.5로 BigQuery `AI.FORECAST`를 쓰라고 안내해요. - (영향) 캠페인·트래픽·재고처럼 여러 지",
-      "brief_date": "2026-09-01"
+      "sample": "pple 추가 증거. 창 밖·재탕: FLUX 3 Video GA(8/4) · Midjourney V8.2 편집(8/27",
+      "brief_date": "2026-09-02"
     },
     {
-      "term": "GLM",
+      "term": "GIF",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "출**이 축이에요. > 전일 제외: GLM-5.3 가중치 · Hy4 preview · OpenAI→Cursor 1",
-      "brief_date": "2026-09-01"
+      "sample": "e Spark와 도구·계획을 공유해 GIF·임베드 이미지 사이트·인터랙티브 결과도 같은 요청에서 나올 수 있다고",
+      "brief_date": "2026-09-02"
     },
     {
-      "term": "GPU",
-      "hint": "설명 없는 대문자 약어",
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
       "hits": 1,
-      "sample": "올리는 크기는 아니고, 호스트·멀티 GPU 쪽이 현실적인 경로예요. 캠페인 영상 API가 바뀌었다는 내용은 없어요",
-      "brief_date": "2026-09-01"
-    },
-    {
-      "term": "GWM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "이 프레임을 그리는 이단 구조예요. GWM-1 일반 월드 모델 라인의 이어짐이라고 해요. - (장면) 공식",
-      "brief_date": "2026-09-01"
+      "sample": "ggsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(**히트: Muse Image**",
+      "brief_date": "2026-09-02"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
-      "sample": "TimesFM-3 8/31**) · Higgsfield/Kling/Luma/fal featured(창 안 메이저 GA 없음,",
-      "brief_date": "2026-09-01"
-    },
-    {
-      "term": "IDE",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "GPT 로그인으로 Codex CLI·IDE·데스크톱을 쓰던 팀은 오늘 모델 피커에 5.4가 남아 있는지만 먼저 보",
-      "brief_date": "2026-09-01"
+      "sample": "Solaris=8/31이 최신) · Higgsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(",
+      "brief_date": "2026-09-02"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 1,
-      "sample": "/31**) · Higgsfield/Kling/Luma/fal featured(창 안 메이저 GA 없음, fal H3",
-      "brief_date": "2026-09-01"
-    },
-    {
-      "term": "LLM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "를 넘기면 안 된다고 적혀 있어요. LLM이 장면을 바꿀지·유지할지 정하고, 월드 모델이 프레임을 그리는 이단 구",
-      "brief_date": "2026-09-01"
+      "sample": "1이 최신) · Higgsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(**히트:",
+      "brief_date": "2026-09-02"
     },
     {
       "term": "LTX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "ake / mona-lisa-1 / LTX-2.5: 상태 업그레이드 없음. 재탕 금지. - Moonshot kim",
-      "brief_date": "2026-09-01"
+      "sample": "ake / mona-lisa-1 / LTX-2.5: 상태 변경 없음. 재탕 금지. - Instagram AI-ge",
+      "brief_date": "2026-09-02"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "· Higgsfield/Kling/Luma/fal featured(창 안 메이저 GA 없음, fal H3 Max=",
-      "brief_date": "2026-09-01"
-    },
-    {
-      "term": "README",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "vLLM·SGLang 서빙 안내도 README에 있어요. - (벤치) 모델 카드 표는 Agents' Last E",
-      "brief_date": "2026-09-01"
-    },
-    {
-      "term": "SDK",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "않음. - Muse Code 유료·SDK 확대 보도(CryptoBriefing 8/31): 공식 Meta 글 d",
-      "brief_date": "2026-09-01"
-    },
-    {
-      "term": "SSIM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "모델을 썼고, 시각이 복잡해질수록 SSIM·DINOv3 기준 정보 손실이 커진다고 적어요. 같은 시작 이미지·같은",
-      "brief_date": "2026-09-01"
-    },
-    {
-      "term": "체크포인트",
-      "hint": "학습 가중치 스냅샷",
-      "hits": 1,
-      "sample": "-Flash-Vision-Exp** 체크포인트를 **2026-08-31**에 Hugging Face `deepseek",
-      "brief_date": "2026-09-01"
-    },
-    {
-      "term": "해상도(720p/1080p/4K)",
-      "hint": "출력 화질 단위",
-      "hits": 1,
-      "sample": "로 화면을 그려요. 목표 화질은 **720p**이고, 상호작용이 바로 반응하는 느낌으로 느껴지려면 지연이 **0.5",
-      "brief_date": "2026-09-01"
+      "sample": "· Higgsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(**히트: Muse",
+      "brief_date": "2026-09-02"
     }
   ],
-  "catalogSize": 46
+  "catalogSize": 47
 }

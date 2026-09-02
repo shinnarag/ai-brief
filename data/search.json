@@ -1,7 +1,227 @@
 {
-  "generated_at": "2026-09-01T12:54:39",
-  "count": 571,
+  "generated_at": "2026-09-02T10:20:18",
+  "count": 582,
   "items": [
+    {
+      "date": "2026-09-02",
+      "displayDate": "2026년 9월 2일(수)",
+      "briefTitle": "이미지 1센트, 영상은 스스로 훑고, Fable 캐시는 싸졌어요",
+      "briefUrl": "brief/2026-09-02.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-01",
+      "title": "Meta Muse Image — fal에서 장당 $0.01로 에이전트형 이미지 생성이 열렸어요",
+      "snippet": "계획·검색·자기 검수 뒤에 픽셀을 그리고, 생성과 정밀 편집을 한 모델에서 이어 가요.",
+      "text": "Meta Muse Image — fal에서 장당 $0.01로 에이전트형 이미지 생성이 열렸어요 계획·검색·자기 검수 뒤에 픽셀을 그리고, 생성과 정밀 편집을 한 모델에서 이어 가요. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-02.html#c-top-5-01"
+    },
+    {
+      "date": "2026-09-02",
+      "displayDate": "2026년 9월 2일(수)",
+      "briefTitle": "이미지 1센트, 영상은 스스로 훑고, Fable 캐시는 싸졌어요",
+      "briefUrl": "brief/2026-09-02.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-02",
+      "title": "Gemini Agentic Video — 영상을 고정 FPS로 안 먹고, 필요한 구간만 골라 봐요",
+      "snippet": "3.7·3.6 Flash와 3.5 Flash-Lite에 열렸고, 토큰은 최대 88%, 비용은 최대 66%까지 줄일 수 있다고 해요.",
+      "text": "Gemini Agentic Video — 영상을 고정 FPS로 안 먹고, 필요한 구간만 골라 봐요 3.7·3.6 Flash와 3.5 Flash-Lite에 열렸고, 토큰은 최대 88%, 비용은 최대 66%까지 줄일 수 있다고 해요. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-02.html#c-top-5-02"
+    },
+    {
+      "date": "2026-09-02",
+      "displayDate": "2026년 9월 2일(수)",
+      "briefTitle": "이미지 1센트, 영상은 스스로 훑고, Fable 캐시는 싸졌어요",
+      "briefUrl": "brief/2026-09-02.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-03",
+      "title": "Muse Voice Transcribe — 실시간 ASR에 화자 분리까지 한 모델로 붙였어요",
+      "snippet": "Meta Model API는 $3/1,000분이고, Mac Meta AI는 Fn 키로 아무 앱에나 받아쓰기를 넣어요.",
+      "text": "Muse Voice Transcribe — 실시간 ASR에 화자 분리까지 한 모델로 붙였어요 Meta Model API는 $3/1,000분이고, Mac Meta AI는 Fn 키로 아무 앱에나 받아쓰기를 넣어요. 모델 · 플랫폼",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-02.html#c-top-5-03"
+    },
+    {
+      "date": "2026-09-02",
+      "displayDate": "2026년 9월 2일(수)",
+      "briefTitle": "이미지 1센트, 영상은 스스로 훑고, Fable 캐시는 싸졌어요",
+      "briefUrl": "brief/2026-09-02.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-04",
+      "title": "Claude Fable 5.1 — 캐시 읽기 값을 75% 깎아 에이전트 단가를 내렸어요",
+      "snippet": "일반 작업은 약 25%, 에이전트 쪽은 최대 약 45%까지 싸질 수 있고, Mythos 5.1은 신뢰 접근만이에요.",
+      "text": "Claude Fable 5.1 — 캐시 읽기 값을 75% 깎아 에이전트 단가를 내렸어요 일반 작업은 약 25%, 에이전트 쪽은 최대 약 45%까지 싸질 수 있고, Mythos 5.1은 신뢰 접근만이에요. 모델 · 플랫폼",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-02.html#c-top-5-04"
+    },
+    {
+      "date": "2026-09-02",
+      "displayDate": "2026년 9월 2일(수)",
+      "briefTitle": "이미지 1센트, 영상은 스스로 훑고, Fable 캐시는 싸졌어요",
+      "briefUrl": "brief/2026-09-02.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-05",
+      "title": "OpenAI — Apple 영업비밀 소송에 ‘Apple이 만든 난장판’이라고 맞받았어요",
+      "snippet": "전직자 노트북·증거 후속에 대한 법원 제출이고, 전일 Apple 추가 증거 카드의 후속이에요.",
+      "text": "OpenAI — Apple 영업비밀 소송에 ‘Apple이 만든 난장판’이라고 맞받았어요 전직자 노트북·증거 후속에 대한 법원 제출이고, 전일 Apple 추가 증거 카드의 후속이에요. 규제 · 리스크",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-02.html#c-top-5-05"
+    },
+    {
+      "date": "2026-09-02",
+      "displayDate": "2026년 9월 2일(수)",
+      "briefTitle": "이미지 1센트, 영상은 스스로 훑고, Fable 캐시는 싸졌어요",
+      "briefUrl": "brief/2026-09-02.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-01",
+      "title": "Claude Fable 5.1 · Mythos 5.1 — 캐시 읽기 $0.25로 에이전트 요금을 깎았어요 (9/1)",
+      "snippet": "(사실) Anthropic이 2026-09-01에 Claude Fable 5.1과 Claude Mythos 5.1을 공개했어요. 같은 모델이고 안전장치 강도만 달라요. Fable은 전 플랫폼 GA이고, Mythos는 사이버보안·생명과학 신뢰 접근 프로그램만이에요.",
+      "text": "Claude Fable 5.1 · Mythos 5.1 — 캐시 읽기 $0.25로 에이전트 요금을 깎았어요 (9/1) (사실) Anthropic이 2026-09-01에 Claude Fable 5.1과 Claude Mythos 5.1을 공개했어요. 같은 모델이고 안전장치 강도만 달라요. Fable은 전 플랫폼 GA이고, Mythos는 사이버보안·생명과학 신뢰 접근 프로그램만이에요. (가격) API 모델 ID는 claude-fable-5-1이에요. 입력 $10/백만 토큰·출력 $50은 Fable 5와 같고, 캐시 읽기만 $0.25/백만 토큰으로 75% 내렸어요. 공식 글은 일반 작업에서 약 25%, 복잡 에이전트 작업에서 최대 약 45%까지 싸질 수 있다고 적어요. AWS·Google Cloud·Microsoft Azure에도 올라요. (범위) Terminal-Bench 4.0에서 Fable 5.1 55.8%(Mythos 5.1 60.9%), CursorBench 3.2.0 73.4%, Humanity's Last Exam(도구 있음) 65.0%를 표에 적어요. Claude Code 기본 effort는 High, Claude.ai·Cowork는 Medium이에요. (프라이버시·안전) Enterprise Frontier Safeguards(EFS)는 고객 클라우드에 데이터를 두고 감시하는 구조로, 올가을부터 단계 공개예요. EFS 전에는 대상 고객이 Fable 5.1을 ZDR로 쓸 수 있어요. 사이버 오탐은 세션당 약 60% 줄었다고 하고, 취약점 발견은 허용하되 침투·익스플로잇·바이너리 스캔은 여전히 Opus로 넘긴다고 적어요. (규제) EU AI Act 투명성 규범에 따라 8/2 이후 모델 출력에 비가시 워터마크를 넣고, 탐지 API는 규제·언론·기업 등 대상 비공개 미리보기예요. (영향) Claude Code·장기 에이전트를 돌리던 팀은 오늘 캐시 단가와 ZDR/EFS 일정만 먼저 보시면 돼요. Mythos가 필요하면 CVP·생명과학 프로그램 신청 링크를 열어 두시면 좋아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-02.html#c-모델-플랫폼-01"
+    },
+    {
+      "date": "2026-09-02",
+      "displayDate": "2026년 9월 2일(수)",
+      "briefTitle": "이미지 1센트, 영상은 스스로 훑고, Fable 캐시는 싸졌어요",
+      "briefUrl": "brief/2026-09-02.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-02",
+      "title": "Muse Voice Transcribe — 실시간 ASR·화자 분리·말끝 감지를 한 모델에 넣었어요 (9/1)",
+      "snippet": "(사실) Meta Superintelligence Labs가 2026-09-01에 Muse Voice Transcribe를 공개했어요. Muse Spark 계열의 첫 실시간 오디오 인식 모델이라고 적혀 있어요.",
+      "text": "Muse Voice Transcribe — 실시간 ASR·화자 분리·말끝 감지를 한 모델에 넣었어요 (9/1) (사실) Meta Superintelligence Labs가 2026-09-01에 Muse Voice Transcribe를 공개했어요. Muse Spark 계열의 첫 실시간 오디오 인식 모델이라고 적혀 있어요. (범위) 오디오를 80ms 조각(12.5Hz)으로 받아 스트리밍 ASR을 하고, 화자 태그와 말 시작·끝 토큰으로 화자 분리와 말끝 감지를 같이 해요. 학습 언어는 70+, 출시 검증은 25개예요. 한 시간 넘는 녹음과 20명 이상 화자를 후처리 없이 받는다고 해요. 어려운 단어는 더 듣고, 쉬운 단어는 빨리 확정하는 adaptive delay에 WER 보상을 섞었다고 적어요. (가격·창구) Meta Model API는 $3/1,000 오디오 분(약 $0.18/시간)이에요. Meta AI for Mac에서는 Fn을 눌러 아무 앱에나 받아쓰기를 넣고, Muse Code에도 붙어 있어요. Artificial Analysis 스트리밍 음성→텍스트 순위에서 2026-09-01 기준 1위라고 해요. (영향) 인터뷰·회의·숏폼 자막·다국어 코드 스위칭 받아쓰기를 보던 팀은 오늘 API 단가와 Mac Fn 받아쓰기만 먼저 만져 보시면 돼요. 영상 생성 API 소식은 아니에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-02.html#c-모델-플랫폼-02"
+    },
+    {
+      "date": "2026-09-02",
+      "displayDate": "2026년 9월 2일(수)",
+      "briefTitle": "이미지 1센트, 영상은 스스로 훑고, Fable 캐시는 싸졌어요",
+      "briefUrl": "brief/2026-09-02.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-01",
+      "title": "Meta Muse Image — fal에서 장당 $0.01 에이전트형 이미지 생성·편집이 열렸어요 (9/1)",
+      "snippet": "(사실) fal이 2026-09-01에 Meta Superintelligence Labs의 Muse Image를 Meta Model API 경로로 개발자·엔터프라이즈에 열었다고 발표했어요. Meta 개발자 페이지도 장당 $0.01이라고 적어요.",
+      "text": "Meta Muse Image — fal에서 장당 $0.01 에이전트형 이미지 생성·편집이 열렸어요 (9/1) (사실) fal이 2026-09-01에 Meta Superintelligence Labs의 Muse Image를 Meta Model API 경로로 개발자·엔터프라이즈에 열었다고 발표했어요. Meta 개발자 페이지도 장당 $0.01이라고 적어요. (범위) 프롬프트를 바로 픽셀로 보내지 않고, 계획 → 도구 호출 → 자기 검수 → 렌더 순으로 가요. 웹에서 실물 레퍼런스를 찾고, 코드로 차트·QR 같은 정밀 요소를 그린 뒤, 틀린 부분을 고치고 내보낸다고 해요. 생성과 한 요소만 바꾸는 정밀 편집, 여러 턴 대화 수정, 브랜드 키트·샘플을 넣은 레퍼런스 합성을 한 모델에서 다룬다고 적혀 있어요. Muse Spark와 도구·계획을 공유해 GIF·임베드 이미지 사이트·인터랙티브 결과도 같은 요청에서 나올 수 있다고 해요. (벤치·창구) fal 보도는 Arena 텍스트→이미지·단일 편집·다중 편집에서 상위 5권이라고 적어요(벤더 주장). Playground와 API가 열려 있고, 편집 엔드포인트 예시는 meta/muse-image/edit이에요. (영향) 광고 변형·카탈로그·유저별 맞춤 이미지를 대량으로 돌리던 팀은 오늘 $0.01/장 단가와 편집 일관성을 기존 스택과 나란히 보시면 돼요. 아직 영상 클립 GA는 이 카드 범위가 아니에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-02.html#c-콘텐츠-제작-크리에이티브-01"
+    },
+    {
+      "date": "2026-09-02",
+      "displayDate": "2026년 9월 2일(수)",
+      "briefTitle": "이미지 1센트, 영상은 스스로 훑고, Fable 캐시는 싸졌어요",
+      "briefUrl": "brief/2026-09-02.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-02",
+      "title": "Gemini Agentic Video — 고정 FPS 대신 필요한 순간만 다시 훑는 영상 이해를 켰어요 (9/1)",
+      "snippet": "(사실) Google이 2026-09-01에 Gemini 3.7 Flash, 3.6 Flash, 3.5 Flash-Lite에 agentic video understanding을 열었어요. Google AI Studio Gemini API와 Gemini Enterprise Agent…",
+      "text": "Gemini Agentic Video — 고정 FPS 대신 필요한 순간만 다시 훑는 영상 이해를 켰어요 (9/1) (사실) Google이 2026-09-01에 Gemini 3.7 Flash, 3.6 Flash, 3.5 Flash-Lite에 agentic video understanding을 열었어요. Google AI Studio Gemini API와 Gemini Enterprise Agent Platform에서 업로드·YouTube URL을 받아요. (범위) 예전에는 기본 1 FPS(API로 조절)로 프레임을 한꺼번에 먹였는데, 이제는 모델이 목표에 맞춰 구간·배속·모달리티(프레임·오디오·자막)를 고르고 내부 도구로 필요한 조각만 불러요. 공식 수치는 토큰 최대 88% 절감, 분석 비용 최대 66% 절감, 정확도 최대 7% 향상이고, 추가 기능 요금은 없다고 해요. API에서는 processing: \"agentic\"만 켜면 돼요. (장면) 서브초 컷 찾기, 수 시간 영상에서 바늘 찾기, 이상 구간 고 FPS 재검사, 반복 동작·물체 카운팅 예시를 들어요. 곧 Gemini 앱 Flash·Flash-Lite에도 풀리고, 몇 달 안에 YouTube 시청 페이지 Ask YouTube에도 들어간다고 해요. (영향) 롱폼 리뷰·강의·브랜드 모니터링 영상을 토큰 폭탄으로 돌리던 팀은 오늘 agentic 모드와 3.7 Flash 조합만 먼저 비교해 보시면 돼요. 영상 생성 모델 GA는 아니에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-02.html#c-콘텐츠-제작-크리에이티브-02"
+    },
+    {
+      "date": "2026-09-02",
+      "displayDate": "2026년 9월 2일(수)",
+      "briefTitle": "이미지 1센트, 영상은 스스로 훑고, Fable 캐시는 싸졌어요",
+      "briefUrl": "brief/2026-09-02.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-01",
+      "title": "OpenAI — Apple 영업비밀 소송에 ‘Apple이 만든 난장판’이라고 반박했어요 (후속, 9/1 보도)",
+      "snippet": "(사실) Reuters가 OpenAI가 캘리포니아 북부 연방법원에 제출한 답변을 전했어요. 기사 날짜선은 San Francisco Aug 31이고, 9/1에 널리 읽힌 후속이에요. 전일 Apple이 전직자 맥북에서 ‘충격적 증거’를 냈다고 한 카드의 맞대응이에요.",
+      "text": "OpenAI — Apple 영업비밀 소송에 ‘Apple이 만든 난장판’이라고 반박했어요 (후속, 9/1 보도) (사실) Reuters가 OpenAI가 캘리포니아 북부 연방법원에 제출한 답변을 전했어요. 기사 날짜선은 San Francisco Aug 31이고, 9/1에 널리 읽힌 후속이에요. 전일 Apple이 전직자 맥북에서 ‘충격적 증거’를 냈다고 한 카드의 맞대응이에요. (범위) OpenAI는 Apple이 기밀이 유출됐다는 점을 보여 주지 못했다고 적고, “이 분쟁은 Apple이 만든 난장판이고, 남을 탓하려는 것”이라고 했어요. 개인 iCloud로 업무 파일을 쓰게 한 관행, 퇴사 직후 바로 내보내는 오프보딩 때문에 기기·파일 정리가 어렵다고 주장해요. Liu는 퇴사 후 접근이 옛 동료의 Apple 업무 질문에 답하기 위해서였다고 하고, Tan은 프로토타입을 반납했으며 남긴 것은 비기밀 체크리스트 수준이라고 해요. (영향) 콘텐츠 단가나 모델 칸이 바뀐 소식은 아니에요. 디바이스·온디바이스 파트너십을 보던 팀만 소송 일정과 양측 주장 온도를 이어서 보시면 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-02.html#c-테크-인프라-규제-01"
+    },
+    {
+      "date": "2026-09-02",
+      "displayDate": "2026년 9월 2일(수)",
+      "briefTitle": "이미지 1센트, 영상은 스스로 훑고, Fable 캐시는 싸졌어요",
+      "briefUrl": "brief/2026-09-02.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-02",
+      "title": "xAI — LatchBio 바이오시큐리티 벤치에서 Grok 4.6이 거부·일상 과제 둘 다 50%를 넘겼어요 (9/1)",
+      "snippet": "(사실) SpaceXAI(x.ai)가 2026-09-01에 LatchBio의 독립 평가를 요약해 올렸어요. BioSecBench-Refusal에서 Grok 4.6이 위장·위험 과제를 가장 잘 거절하면서도 일상 생물 과제는 계속 수행했다고 해요.",
+      "text": "xAI — LatchBio 바이오시큐리티 벤치에서 Grok 4.6이 거부·일상 과제 둘 다 50%를 넘겼어요 (9/1) (사실) SpaceXAI(x.ai)가 2026-09-01에 LatchBio의 독립 평가를 요약해 올렸어요. BioSecBench-Refusal에서 Grok 4.6이 위장·위험 과제를 가장 잘 거절하면서도 일상 생물 과제는 계속 수행했다고 해요. (범위) 거부·일상 준수의 조화평균은 하네스별로 상위 3칸을 차지하고 평균 62.1%예요. 거부 59.2%·일상 완료 64.8%로, 둘 다 50%를 넘긴 유일한 시스템이라고 적어요. BioSecBench-Surveillance는 평균 53.5%로 Opus 5 다음·GPT-5.6 Sol 앞이에요. (영향) 캠페인 제작 스택이 바뀌는 소식은 아니에요. 바이오·안전 평가를 보는 팀만 LatchBio 원문과 함께 두시면 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-02.html#c-테크-인프라-규제-02"
+    },
     {
       "date": "2026-09-01",
       "displayDate": "2026년 9월 1일(화)",

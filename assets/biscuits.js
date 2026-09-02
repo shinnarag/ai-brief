@@ -512,6 +512,21 @@
   <text x="275" y="48" text-anchor="middle" fill="#166534" font-size="12" font-weight="700" font-family="system-ui">다음 프레임</text>
   <text x="275" y="68" text-anchor="middle" fill="#15803d" font-size="10" font-family="system-ui">행동에 반응</text>
   <text x="275" y="86" text-anchor="middle" fill="#86efac" font-size="10" font-family="system-ui">월드 모델</text>
+</svg>`,
+      "diarization": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eff6ff"/>
+  <rect x="24" y="30" width="70" height="60" rx="12" fill="#1d4ed8"/>
+  <text x="59" y="58" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">A</text>
+  <text x="59" y="74" text-anchor="middle" fill="#bfdbfe" font-size="10" font-family="system-ui">화자</text>
+  <rect x="108" y="30" width="70" height="60" rx="12" fill="#2563eb"/>
+  <text x="143" y="58" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">B</text>
+  <text x="143" y="74" text-anchor="middle" fill="#bfdbfe" font-size="10" font-family="system-ui">화자</text>
+  <path d="M190 60 H230" stroke="#1d4ed8" stroke-width="3"/>
+  <polygon points="230,54 244,60 230,66" fill="#1d4ed8"/>
+  <rect x="252" y="28" width="84" height="64" rx="12" fill="#fff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="294" y="55" text-anchor="middle" fill="#1d4ed8" font-size="11" font-weight="700" font-family="system-ui">누가</text>
+  <text x="294" y="72" text-anchor="middle" fill="#3b82f6" font-size="11" font-family="system-ui">말했나</text>
 </svg>`
     };
 
@@ -955,12 +970,22 @@
       text: "화면·물리·다음 순간을 안에서 그려 보며, 행동에 어떻게 반응할지 예측하는 모델이에요.",
       detail: "월드 모델(World Model)은 이미지나 상태를 보고 다음 장면을 스스로 시뮬레이션하는 모델입니다. 클릭·드래그·말 같은 행동을 조건으로 넣고 프레임을 이어 그리면, 코드로 짠 화면 없이도 상호작용이 가능해져요. Interface World Model은 그 아이디어를 앱·웹 UI 런타임에 붙인 표현이에요. 아직 글자 안정성·긴 세션 일관성 같은 한계가 있어, 연구 미리보기와 제작 파이프를 나눠 보시면 좋아요.",
       firstSeen: "2026-09-01"
+    },
+    {
+      id: "diarization",
+      term: "화자 분리",
+      en: "Diarization",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "녹음에서 누가 말했는지 구간을 갈라, 화자마다 다른 태그로 적어 주는 처리예요.",
+      detail: "화자 분리(Diarization)는 여러 사람이 섞인 오디오에서 말 구간을 화자별로 나누는 기술입니다. 회의록·인터뷰·숏폼 자막에서 ‘A/B가 언제 말했는지’를 자동으로 붙일 때 써요. Muse Voice Transcribe처럼 ASR·말끝 감지와 한 모델에 붙이면, 따로 후처리 파이프를 두지 않아도 실시간으로 태그가 따라와요. 화자가 많거나 겹쳐 말할수록 어려운 편이에요.",
+      firstSeen: "2026-09-02"
     }
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-01",
-    termIds: ["upscale", "world-model", "open-weight", "moe", "multimodal", "ga"]
+    date: "2026-09-02",
+    termIds: ["asr", "diarization", "upscale", "wer", "zdr", "harness"]
   };
 
   const TAGS = [
