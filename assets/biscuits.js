@@ -527,6 +527,19 @@
   <rect x="252" y="28" width="84" height="64" rx="12" fill="#fff" stroke="#1d4ed8" stroke-width="2"/>
   <text x="294" y="55" text-anchor="middle" fill="#1d4ed8" font-size="11" font-weight="700" font-family="system-ui">누가</text>
   <text x="294" y="72" text-anchor="middle" fill="#3b82f6" font-size="11" font-family="system-ui">말했나</text>
+</svg>`,
+      "recurrent-depth": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#faf5ff"/>
+  <circle cx="90" cy="60" r="36" fill="none" stroke="#7c3aed" stroke-width="3"/>
+  <path d="M90 36 A24 24 0 1 1 66 78" fill="none" stroke="#7c3aed" stroke-width="3"/>
+  <polygon points="62,72 54,84 72,80" fill="#7c3aed"/>
+  <text x="90" y="64" text-anchor="middle" fill="#7c3aed" font-size="11" font-weight="700" font-family="system-ui">루프</text>
+  <path d="M140 60 H180" stroke="#7c3aed" stroke-width="3"/>
+  <polygon points="180,54 194,60 180,66" fill="#7c3aed"/>
+  <rect x="202" y="28" width="130" height="64" rx="12" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="267" y="52" text-anchor="middle" fill="#7c3aed" font-size="12" font-weight="700" font-family="system-ui">안쪽 계산</text>
+  <text x="267" y="72" text-anchor="middle" fill="#a78bfa" font-size="10" font-family="system-ui">글자로 안 보임</text>
 </svg>`
     };
 
@@ -980,12 +993,22 @@
       text: "녹음에서 누가 말했는지 구간을 갈라, 화자마다 다른 태그로 적어 주는 처리예요.",
       detail: "화자 분리(Diarization)는 여러 사람이 섞인 오디오에서 말 구간을 화자별로 나누는 기술입니다. 회의록·인터뷰·숏폼 자막에서 ‘A/B가 언제 말했는지’를 자동으로 붙일 때 써요. Muse Voice Transcribe처럼 ASR·말끝 감지와 한 모델에 붙이면, 따로 후처리 파이프를 두지 않아도 실시간으로 태그가 따라와요. 화자가 많거나 겹쳐 말할수록 어려운 편이에요.",
       firstSeen: "2026-09-02"
+    },
+    {
+      id: "recurrent-depth",
+      term: "recurrent depth",
+      en: "Recurrent Depth",
+      tag: "model",
+      tagLabel: "모델",
+      text: "같은 층을 여러 번 돌며 안쪽에서 추론해, 글자로 된 CoT보다 읽기 어려운 계산을 늘리는 구조예요.",
+      detail: "recurrent depth(불투명 재귀·루프 트랜스포머로도 불려요)는 입력을 같은 신경망 층에 반복 통과시켜 성능을 올리는 기법입니다. 단계별 생각을 문장으로 남기는 CoT와 달리, 일부 추론이 숫자 활성화 안에만 남아 모니터하기 어려워질 수 있어요. Astra 보도에서 안전 연구자들이 이 점을 우려했고, OpenAI는 사용을 제한해 CoT를 읽을 수 있게 둔다고 반박했어요.",
+      firstSeen: "2026-09-03"
     }
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-02",
-    termIds: ["asr", "diarization", "upscale", "wer", "zdr", "harness"]
+    date: "2026-09-03",
+    termIds: ["upscale", "sandbox", "cot", "recurrent-depth", "harness", "moe"]
   };
 
   const TAGS = [

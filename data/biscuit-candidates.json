@@ -1,138 +1,166 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "candidates": [
     {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 10,
-      "sample": "오늘은 **Muse Image**(fal · $0.01/장), **Gemini Agentic Video**(토큰",
-      "brief_date": "2026-09-02"
-    },
-    {
-      "term": "fps",
-      "hint": "초당 프레임",
-      "hits": 4,
-      "sample": "Agentic Video — 고정 FPS 대신 필요한 순간만 다시 훑는 영상 이해를 켰어요 (9/1)**",
-      "brief_date": "2026-09-02"
-    },
-    {
-      "term": "EFS",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 3,
-      "sample": "Frontier Safeguards(EFS)**는 고객 클라우드에 데이터를 두고 감시하는 구조로, 올가을부터 단계",
-      "brief_date": "2026-09-02"
-    },
-    {
-      "term": "FLUX",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "pple 추가 증거. 창 밖·재탕: FLUX 3 Video GA(8/4) · Midjourney V8.2 편집(8/",
-      "brief_date": "2026-09-02"
+      "term": "Suno",
+      "hint": "음악 생성",
+      "hits": 7,
+      "sample": "Astra Daybreak 일정 · Suno 아티스트명 프롬프트 정책 수집 시각: 2026-09-03 10:30 K",
+      "brief_date": "2026-09-03"
     },
     {
       "term": "GPT",
       "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "ision 오픈웨이트 · Codex GPT-5.4 퇴역 · TimesFM-3 · Apple 추가 증거. 창 밖·재",
-      "brief_date": "2026-09-02"
+      "hits": 4,
+      "sample": "Vision 가중치 · Codex GPT-5.4 퇴역 · TimesFM-3 · FLUX 3 Video · Mid",
+      "brief_date": "2026-09-03"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
-      "hits": 2,
-      "sample": "X 3 Video GA(8/4) · Midjourney V8.2 편집(8/27) · SeedRealtime(8/5) · fal",
-      "brief_date": "2026-09-02"
+      "hits": 3,
+      "sample": "-3 · FLUX 3 Video · Midjourney V8.2 · fal H3 Max · SeedRealtime · Hy4",
+      "brief_date": "2026-09-03"
     },
     {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
-      "hits": 2,
-      "sample": "박**이 축이에요. > 전일 제외: Runway Solaris · DeepSeek Vision 오픈웨이트 · Codex",
-      "brief_date": "2026-09-02"
-    },
-    {
-      "term": "Sora",
-      "hint": "OpenAI 영상 모델",
-      "hits": 2,
-      "sample": "fal H3 Max(8/27) · Sora API 9/24 종료(3/24 공지) · Instagram AI 프로필",
-      "brief_date": "2026-09-02"
-    },
-    {
-      "term": "VLOSE",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "(8/31) · ChatGPT EU VLOSE(8/31). > 스윕: Midjourney updates(Edit V8",
-      "brief_date": "2026-09-02"
-    },
-    {
-      "term": "AWS",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "%**까지 싸질 수 있다고 적어요. AWS·Google Cloud·Microsoft Azure에도 올라요.",
-      "brief_date": "2026-09-02"
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 3,
+      "sample": "· Midjourney V8.2 · fal H3 Max · SeedRealtime · Hy4 가중치 드롭(오늘은",
+      "brief_date": "2026-09-03"
     },
     {
       "term": "BFL",
       "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "d(Gemini 글과 동일 창) · BFL(FLUX Upscale=8/20·Video GA=8/4이 최신) · S",
-      "brief_date": "2026-09-02"
+      "hits": 2,
+      "sample": "**히트: Fairwind**) · BFL(Upscale=8/20·Video GA=8/4) · Seed(STEM",
+      "brief_date": "2026-09-03"
     },
     {
-      "term": "CVP",
+      "term": "HLE",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "랫폼 - 공식은 DeepSWE·HLE-Verified에서 이득을 강조하고, 복잡한 일에선 토큰을 더 쓸 수",
+      "brief_date": "2026-09-03"
+    },
+    {
+      "term": "해상도(720p/1080p/4K)",
+      "hint": "출력 화질 단위",
+      "hits": 2,
+      "sample": "고치기, 그림 속 글자 번역, 2K·4K 업스케일이 붙고, pics.new로도 바로 열어요. 2. **Gemi",
+      "brief_date": "2026-09-03"
+    },
+    {
+      "term": "BIPA",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "시면 돼요. Mythos가 필요하면 CVP·생명과학 프로그램 신청 링크를 열어 두시면 좋아요. - 출처: [",
-      "brief_date": "2026-09-02"
+      "sample": "전제를 거부한다고 했고, 음성지문(BIPA) 주장도 곁들여요. 집단 인정·법정·징벌 손해·신원 상업화 금지 명령을",
+      "brief_date": "2026-09-03"
+    },
+    {
+      "term": "CWE",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "은 **70%**를 넘는다고 해요. CWE-Bench pass@1은 **47.2%**로 선두 **47.8%**와",
+      "brief_date": "2026-09-03"
+    },
+    {
+      "term": "DECODER",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "면 돼요. - 출처: [THE DECODER](https://the-decoder.com/gemini-3-8-fla",
+      "brief_date": "2026-09-03"
+    },
+    {
+      "term": "FLUX",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": ".4 퇴역 · TimesFM-3 · FLUX 3 Video · Midjourney V8.2 · fal H3 Max",
+      "brief_date": "2026-09-03"
     },
     {
       "term": "FLUX 3",
       "hint": "BFL 멀티모달·영상 모델",
       "hits": 1,
-      "sample": "pple 추가 증거. 창 밖·재탕: FLUX 3 Video GA(8/4) · Midjourney V8.2 편집(8/27",
-      "brief_date": "2026-09-02"
-    },
-    {
-      "term": "GIF",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "e Spark와 도구·계획을 공유해 GIF·임베드 이미지 사이트·인터랙티브 결과도 같은 요청에서 나올 수 있다고",
-      "brief_date": "2026-09-02"
+      "sample": ".4 퇴역 · TimesFM-3 · FLUX 3 Video · Midjourney V8.2 · fal H3 Max ·",
+      "brief_date": "2026-09-03"
     },
     {
       "term": "Hailuo/MiniMax",
       "hint": "영상·모델 벤더",
       "hits": 1,
-      "sample": "ggsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(**히트: Muse Image**",
-      "brief_date": "2026-09-02"
+      "sample": "ggsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(H3 Max 재탕 금지) · Ha",
+      "brief_date": "2026-09-03"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
-      "sample": "Solaris=8/31이 최신) · Higgsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(",
-      "brief_date": "2026-09-02"
+      "sample": "논쟁 9/2**) · Runway/Higgsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(",
+      "brief_date": "2026-09-03"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 1,
-      "sample": "1이 최신) · Higgsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(**히트:",
-      "brief_date": "2026-09-02"
+      "sample": "· Runway/Higgsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(H3 Max",
+      "brief_date": "2026-09-03"
     },
     {
       "term": "LTX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "ake / mona-lisa-1 / LTX-2.5: 상태 변경 없음. 재탕 금지. - Instagram AI-ge",
-      "brief_date": "2026-09-02"
+      "sample": "ake / mona-lisa-1 / LTX-2.5 / Anthropic–Decart: 상태 변경 없음. - Hy4",
+      "brief_date": "2026-09-03"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "· Higgsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(**히트: Muse",
-      "brief_date": "2026-09-02"
+      "sample": "ay/Higgsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(H3 Max 재탕 금",
+      "brief_date": "2026-09-03"
+    },
+    {
+      "term": "MFA",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "·펜테스트 직원으로 접근을 제한하고 MFA를 켠다고 적어요. 파트너는 **650**곳을 넘기고, CrowdStri",
+      "brief_date": "2026-09-03"
+    },
+    {
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 1,
+      "sample": "t depth 논쟁 9/2**) · Runway/Higgsfield/Kling/Luma/Hailuo(창 안 메이저 GA",
+      "brief_date": "2026-09-03"
+    },
+    {
+      "term": "STEM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "ideo GA=8/4) · Seed(STEM Fellows 마감 9/30만, 제품 신규 없음) · DeepSeek(",
+      "brief_date": "2026-09-03"
+    },
+    {
+      "term": "Sora",
+      "hint": "OpenAI 영상 모델",
+      "hits": 1,
+      "sample": "B.AI API 얇은 후속만. - Sora Videos API 9/24 종료: 3/24 공지 재탕. 임박 리마인드",
+      "brief_date": "2026-09-03"
+    },
+    {
+      "term": "UMG",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "라이선스 경로만 다시 보시면 돼요. UMG·Sony 등 기존 저작권 소송·Warner 합의와는 쟁점이 달라요.",
+      "brief_date": "2026-09-03"
+    },
+    {
+      "term": "가드레일",
+      "hint": "모델 출력·도구 사용 안전 장치",
+      "hits": 1,
+      "sample": "과 프레이징” 같은 우회 프롬프트로 가드레일을 넘길 수 있다고 주장해요. - (영향) 광고·숏폼에 아티스트 닮",
+      "brief_date": "2026-09-03"
     }
   ]
 }
