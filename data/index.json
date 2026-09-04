@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T10:23:35",
+  "generated_at": "2026-09-04T10:35:30",
   "platform": "AI Pulse",
-  "count": 35,
+  "count": 36,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,81 +11,77 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "creative": 106,
-    "agents": 109,
-    "models": 198,
-    "infra": 74,
-    "marketing": 100,
+    "models": 203,
+    "creative": 108,
+    "marketing": 104,
+    "infra": 76,
+    "agents": 111,
     "policy": 58
   },
   "companies": [
     [
       "OpenAI",
-      110
-    ],
-    [
-      "Gemini",
-      89
+      119
     ],
     [
       "Google",
-      89
+      70
+    ],
+    [
+      "Gemini",
+      70
     ],
     [
       "Claude",
-      72
+      68
+    ],
+    [
+      "Meta",
+      52
+    ],
+    [
+      "ChatGPT",
+      49
+    ],
+    [
+      "Grok",
+      47
     ],
     [
       "Anthropic",
-      69
+      43
     ],
     [
       "Apple",
       41
     ],
     [
-      "Midjourney",
-      35
-    ],
-    [
       "DeepSeek",
       33
     ],
     [
-      "Grok",
-      32
+      "Midjourney",
+      31
     ],
     [
       "Hugging Face",
-      31
-    ],
-    [
-      "Meta",
-      31
+      26
     ],
     [
       "Runway",
-      22
+      19
     ],
     [
-      "ChatGPT",
-      20
-    ],
-    [
-      "DeepMind",
-      18
+      "xAI",
+      11
     ],
     [
       "GitHub",
       10
     ],
     [
-      "xAI",
-      6
-    ],
-    [
       "AWS",
-      6
+      8
     ],
     [
       "Kling",
@@ -96,23 +92,31 @@
       5
     ],
     [
-      "Microsoft",
+      "DeepMind",
       5
     ],
     [
-      "Sora",
-      3
+      "Azure",
+      4
     ],
     [
-      "Figma",
-      3
+      "Sora",
+      4
+    ],
+    [
+      "Cloudflare",
+      2
+    ],
+    [
+      "Amazon",
+      2
     ],
     [
       "Canva",
       2
     ],
     [
-      "Azure",
+      "Microsoft",
       2
     ],
     [
@@ -120,33 +124,62 @@
       2
     ],
     [
-      "Firefly",
-      2
-    ],
-    [
-      "Adobe",
-      2
-    ],
-    [
       "Cohere",
-      1
-    ],
-    [
-      "Perplexity",
-      1
-    ],
-    [
-      "IBM",
       1
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-08-28",
-    "end": "2026-09-03",
+    "start": "2026-08-29",
+    "end": "2026-09-04",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-09-04",
+      "title": "AI Daily Brief — 2026-09-04 (최근 24h)",
+      "theme": "Astra가 열렸고, 네 창구가 한나절 멈췄어요",
+      "theme_blurb": "OpenAI가 GPT-6 Astra를 ChatGPT·API·Bedrock으로 풀기 시작했고, Meta Muse Spark 1.3은 코딩·긴 작업 쪽을 한 단계 올렸어요. 같은 날 ChatGPT·Claude·Grok·Gemini가 겹쳐 잠깐 장애를 냈어요.",
+      "edition_title": "Astra가 열렸고, 네 창구가 한나절 멈췄어요",
+      "edition_blurb": "OpenAI가 GPT-6 Astra를 ChatGPT·API·Bedrock으로 풀기 시작했고, Meta Muse Spark 1.3은 코딩·긴 작업 쪽을 한 단계 올렸어요. 같은 날 ChatGPT·Claude·Grok·Gemini가 겹쳐 잠깐 장애를 냈어요.",
+      "url": "brief/2026-09-04.html",
+      "excerpt": "오늘은 GPT-6 Astra GA(컴퓨터 사용·코딩·Sites · $10/$50), ChatGPT Sites(웹·게임 호스팅), Muse Spark 1.3(Muse Code · $1.25/$4.25), 4사 겹침 장애, Midjourney alpha lightbox이 축이에요.",
+      "top5": [
+        "GPT-6 Astra — ChatGPT·API·Bedrock으로 풀리기 시작했어요",
+        "ChatGPT Sites — 프롬프트로 웹·게임을 만들고 바로 호스팅해요",
+        "Muse Spark 1.3 — Muse Code와 Meta Model API에 올라왔어요",
+        "Astra API — 표준 $10/$50, Fast mode는 두 배 요금이에요",
+        "ChatGPT·Claude·Grok·Gemini — 목요일 오전에 겹쳐 장애가 났어요"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models"
+      ],
+      "companies": [
+        "ChatGPT",
+        "Meta",
+        "OpenAI",
+        "Grok",
+        "Midjourney",
+        "Claude",
+        "Gemini",
+        "Anthropic",
+        "AWS",
+        "xAI",
+        "Google",
+        "Hugging Face",
+        "Cloudflare",
+        "Amazon",
+        "Azure",
+        "DeepSeek"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-09-03",
       "title": "AI Daily Brief — 2026-09-03 (최근 24h)",
@@ -185,8 +218,8 @@
         "Runway",
         "Kling",
         "Apple",
-        "Luma",
         "Sora",
+        "Luma",
         "xAI"
       ],
       "has_rumor": false,
@@ -270,8 +303,8 @@
         "Runway",
         "Google",
         "Hugging Face",
-        "GitHub",
         "Claude",
+        "GitHub",
         "Anthropic",
         "Midjourney",
         "Grok",
@@ -406,13 +439,13 @@
         "NVIDIA",
         "Google",
         "GitHub",
-        "xAI",
         "IBM",
+        "xAI",
         "Anthropic",
         "DeepSeek",
         "Runway",
-        "Midjourney",
         "Perplexity",
+        "Midjourney",
         "Kling"
       ],
       "has_rumor": true,
@@ -455,8 +488,8 @@
         "Kling",
         "Grok",
         "Midjourney",
-        "Gemini",
         "GitHub",
+        "Gemini",
         "Meta",
         "Luma"
       ],
@@ -494,8 +527,8 @@
         "Grok",
         "Hugging Face",
         "DeepSeek",
-        "Mistral",
         "ChatGPT",
+        "Mistral",
         "NVIDIA",
         "Gemini",
         "Kling",
@@ -583,14 +616,14 @@
         "Anthropic",
         "DeepSeek",
         "NVIDIA",
-        "Midjourney",
         "Salesforce",
+        "Midjourney",
         "Copilot",
         "Runway",
-        "Gemini",
-        "GitHub",
         "Google",
-        "Amazon"
+        "GitHub",
+        "Amazon",
+        "Gemini"
       ],
       "has_rumor": false,
       "source": "md",
@@ -714,8 +747,8 @@
         "Copilot",
         "ElevenLabs",
         "Google",
-        "Luma",
         "Grok",
+        "Luma",
         "Amazon",
         "GitHub",
         "Midjourney"
@@ -798,8 +831,8 @@
         "ChatGPT",
         "Anthropic",
         "Meta",
-        "OpenAI",
         "Google",
+        "OpenAI",
         "NVIDIA",
         "Kling",
         "AWS",
@@ -978,8 +1011,8 @@
       ],
       "companies": [
         "OpenAI",
-        "Google",
         "Claude",
+        "Google",
         "Meta",
         "Anthropic",
         "GitHub",
@@ -1158,8 +1191,8 @@
         "policy"
       ],
       "companies": [
-        "Gemini",
         "Google",
+        "Gemini",
         "OpenAI",
         "DeepMind",
         "Anthropic",
@@ -1209,11 +1242,11 @@
         "ChatGPT",
         "DeepMind",
         "Anthropic",
-        "NVIDIA",
         "Claude",
+        "NVIDIA",
         "Hugging Face",
-        "GitHub",
         "Google",
+        "GitHub",
         "Oracle",
         "Kling",
         "Runway",
@@ -1390,8 +1423,8 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Gemini",
         "Claude",
+        "Gemini",
         "Kling",
         "Meta",
         "Cloudflare",

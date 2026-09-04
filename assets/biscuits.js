@@ -540,6 +540,37 @@
   <rect x="202" y="28" width="130" height="64" rx="12" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
   <text x="267" y="52" text-anchor="middle" fill="#7c3aed" font-size="12" font-weight="700" font-family="system-ui">안쪽 계산</text>
   <text x="267" y="72" text-anchor="middle" fill="#a78bfa" font-size="10" font-family="system-ui">글자로 안 보임</text>
+</svg>`,
+      "preparedness-framework": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fff5f5"/>
+  <rect x="24" y="28" width="72" height="64" rx="10" fill="#fff" stroke="#dc2626" stroke-width="2"/>
+  <text x="60" y="55" text-anchor="middle" fill="#dc2626" font-size="11" font-weight="700" font-family="system-ui">Critical</text>
+  <text x="60" y="74" text-anchor="middle" fill="#f87171" font-size="10" font-family="system-ui">위험 문턱</text>
+  <path d="M106 60 H140" stroke="#dc2626" stroke-width="3"/>
+  <polygon points="140,54 154,60 140,66" fill="#dc2626"/>
+  <rect x="162" y="22" width="86" height="76" rx="12" fill="#dc2626"/>
+  <text x="205" y="48" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="system-ui">기본 제품</text>
+  <text x="205" y="68" text-anchor="middle" fill="#fecaca" font-size="10" font-family="system-ui">가드 강화</text>
+  <text x="205" y="86" text-anchor="middle" fill="#fecaca" font-size="10" font-family="system-ui">패치·리뷰</text>
+  <path d="M258 60 H286" stroke="#b91c1c" stroke-width="3"/>
+  <polygon points="286,54 300,60 286,66" fill="#b91c1c"/>
+  <rect x="308" y="34" width="40" height="52" rx="10" fill="#7f1d1d"/>
+  <text x="328" y="58" text-anchor="middle" fill="#fff" font-size="9" font-weight="700" font-family="system-ui">Day</text>
+  <text x="328" y="72" text-anchor="middle" fill="#fecaca" font-size="9" font-family="system-ui">break</text>
+</svg>`,
+      "intelligence-index": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef6ff"/>
+  <rect x="28" y="24" width="160" height="72" rx="12" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <text x="108" y="48" text-anchor="middle" fill="#2563eb" font-size="12" font-weight="700" font-family="system-ui">Intelligence</text>
+  <text x="108" y="68" text-anchor="middle" fill="#3b82f6" font-size="11" font-family="system-ui">Index</text>
+  <text x="108" y="86" text-anchor="middle" fill="#93c5fd" font-size="10" font-family="system-ui">종합 점수</text>
+  <path d="M198 60 H228" stroke="#2563eb" stroke-width="3"/>
+  <polygon points="228,54 242,60 228,66" fill="#2563eb"/>
+  <rect x="250" y="30" width="86" height="60" rx="12" fill="#2563eb"/>
+  <text x="293" y="55" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="system-ui">Coding</text>
+  <text x="293" y="72" text-anchor="middle" fill="#bfdbfe" font-size="10" font-family="system-ui">Agent Index</text>
 </svg>`
     };
 
@@ -1003,12 +1034,32 @@
       text: "같은 층을 여러 번 돌며 안쪽에서 추론해, 글자로 된 CoT보다 읽기 어려운 계산을 늘리는 구조예요.",
       detail: "recurrent depth(불투명 재귀·루프 트랜스포머로도 불려요)는 입력을 같은 신경망 층에 반복 통과시켜 성능을 올리는 기법입니다. 단계별 생각을 문장으로 남기는 CoT와 달리, 일부 추론이 숫자 활성화 안에만 남아 모니터하기 어려워질 수 있어요. Astra 보도에서 안전 연구자들이 이 점을 우려했고, OpenAI는 사용을 제한해 CoT를 읽을 수 있게 둔다고 반박했어요.",
       firstSeen: "2026-09-03"
+    },
+    {
+      id: "preparedness-framework",
+      term: "Preparedness Framework",
+      en: "Preparedness Framework",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "OpenAI가 모델 위험 수준을 나눠, Critical처럼 높은 문턱이면 가드를 더 세게 걸거나 Daybreak로 좁히는 기준표예요.",
+      detail: "Preparedness Framework(준비도 프레임워크)는 OpenAI가 사이버·생물·설득 같은 위험 축을 단계로 평가해, 배포 전에 어떤 안전장치를 붙일지 정하는 틀이에요. Critical에 닿으면 기본 제품에는 안전한 코드 리뷰·패치 쪽만 두고, PoC 익스플로잇 같은 고급 능력은 Daybreak 같은 제한 창구로 좁혀요. 오정렬 모니터링·작업 확인 같은 배포 가드도 이 문턱과 같이 읽으면 이해가 쉬워요.",
+      firstSeen: "2026-09-04"
+    },
+    {
+      id: "intelligence-index",
+      term: "Intelligence Index",
+      en: "Intelligence Index",
+      tag: "model",
+      tagLabel: "모델",
+      text: "Artificial Analysis가 여러 벤치를 묶어 모델 실력을 한 점수로 보여주는 종합 지수예요.",
+      detail: "Intelligence Index(지능 지수)는 Artificial Analysis가 추론·지식·코딩 등 여러 측정을 합쳐 만든 종합 점수예요. 모델 세대나 추론 모드(max·xhigh)를 나란히 비교할 때 자주 인용돼요. 코딩 에이전트만 따로 보는 Coding Agent Index는 같은 집의 형제 지수라, 일반 지능 점수와 과제당 비용·토큰 효율을 같이 보시면 헤드라인만 보는 실수를 줄일 수 있어요.",
+      firstSeen: "2026-09-04"
     }
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-03",
-    termIds: ["upscale", "sandbox", "cot", "recurrent-depth", "harness", "moe"]
+    date: "2026-09-04",
+    termIds: ["i2v", "reference-image", "t2v", "zdr", "intelligence-index", "harness"]
   };
 
   const TAGS = [

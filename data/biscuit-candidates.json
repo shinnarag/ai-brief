@@ -1,166 +1,152 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "candidates": [
-    {
-      "term": "Suno",
-      "hint": "음악 생성",
-      "hits": 7,
-      "sample": "Astra Daybreak 일정 · Suno 아티스트명 프롬프트 정책 수집 시각: 2026-09-03 10:30 K",
-      "brief_date": "2026-09-03"
-    },
     {
       "term": "GPT",
       "hint": "설명 없는 대문자 약어",
-      "hits": 4,
-      "sample": "Vision 가중치 · Codex GPT-5.4 퇴역 · TimesFM-3 · FLUX 3 Video · Mid",
-      "brief_date": "2026-09-03"
+      "hits": 14,
+      "sample": "멈췄어요 주제 설명: OpenAI가 GPT-6 Astra를 ChatGPT·API·Bedrock으로 풀기 시작했고,",
+      "brief_date": "2026-09-04"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
+      "hits": 12,
+      "sample": "ontributor 데이터 약정 · Midjourney alpha 편집 lightbox · 장애 시 백업 창구 수집 시각: 2",
+      "brief_date": "2026-09-04"
+    },
+    {
+      "term": "AGI",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 6,
+      "sample": "er 4 **97.6%**, ARC-AGI-3 **99.9%**(자체 하네스 조건), ExploitBench **",
+      "brief_date": "2026-09-04"
+    },
+    {
+      "term": "AWS",
+      "hint": "설명 없는 대문자 약어",
       "hits": 3,
-      "sample": "-3 · FLUX 3 Video · Midjourney V8.2 · fal H3 Max · SeedRealtime · Hy4",
-      "brief_date": "2026-09-03"
-    },
-    {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 3,
-      "sample": "· Midjourney V8.2 · fal H3 Max · SeedRealtime · Hy4 가중치 드롭(오늘은",
-      "brief_date": "2026-09-03"
-    },
-    {
-      "term": "BFL",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "**히트: Fairwind**) · BFL(Upscale=8/20·Video GA=8/4) · Seed(STEM",
-      "brief_date": "2026-09-03"
-    },
-    {
-      "term": "HLE",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "랫폼 - 공식은 DeepSWE·HLE-Verified에서 이득을 강조하고, 복잡한 일에선 토큰을 더 쓸 수",
-      "brief_date": "2026-09-03"
-    },
-    {
-      "term": "해상도(720p/1080p/4K)",
-      "hint": "출력 화질 단위",
-      "hits": 2,
-      "sample": "고치기, 그림 속 글자 번역, 2K·4K 업스케일이 붙고, pics.new로도 바로 열어요. 2. **Gemi",
-      "brief_date": "2026-09-03"
-    },
-    {
-      "term": "BIPA",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "전제를 거부한다고 했고, 음성지문(BIPA) 주장도 곁들여요. 집단 인정·법정·징벌 손해·신원 상업화 금지 명령을",
-      "brief_date": "2026-09-03"
-    },
-    {
-      "term": "CWE",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "은 **70%**를 넘는다고 해요. CWE-Bench pass@1은 **47.2%**로 선두 **47.8%**와",
-      "brief_date": "2026-09-03"
+      "sample": "erprise와 OpenAI API·AWS에 퍼져요. API 모델 ID는 `gpt-6-astra`이고 Amazon",
+      "brief_date": "2026-09-04"
     },
     {
       "term": "DECODER",
       "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "/3)** - (사실) THE DECODER와 출시 브리핑 정리가, Astra와 함께 ChatGPT **Sites*",
+      "brief_date": "2026-09-04"
+    },
+    {
+      "term": "ARC",
+      "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "면 돼요. - 출처: [THE DECODER](https://the-decoder.com/gemini-3-8-fla",
-      "brief_date": "2026-09-03"
+      "sample": "h Tier 4 **97.6%**, ARC-AGI-3 **99.9%**(자체 하네스 조건), ExploitBenc",
+      "brief_date": "2026-09-04"
+    },
+    {
+      "term": "BFL",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "ai(Grok 4.7은 예고만) · BFL/Seed/Runway/Higgsfield/Kling/Luma/Hailu",
+      "brief_date": "2026-09-04"
     },
     {
       "term": "FLUX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": ".4 퇴역 · TimesFM-3 · FLUX 3 Video · Midjourney V8.2 · fal H3 Max",
-      "brief_date": "2026-09-03"
+      "sample": ".1 제품 카드 · H3 Max · FLUX 3 Video · Solaris · DeepSeek Vision 가중치",
+      "brief_date": "2026-09-04"
     },
     {
       "term": "FLUX 3",
       "hint": "BFL 멀티모달·영상 모델",
       "hits": 1,
-      "sample": ".4 퇴역 · TimesFM-3 · FLUX 3 Video · Midjourney V8.2 · fal H3 Max ·",
-      "brief_date": "2026-09-03"
+      "sample": ".1 제품 카드 · H3 Max · FLUX 3 Video · Solaris · DeepSeek Vision 가중치 ·",
+      "brief_date": "2026-09-04"
+    },
+    {
+      "term": "GPU",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "했고, 텍사스 Stargate에서 GPU **10만** 장 이상으로 돌린 회사 최대 학습이라고 전해요. -",
+      "brief_date": "2026-09-04"
     },
     {
       "term": "Hailuo/MiniMax",
       "hint": "영상·모델 벤더",
       "hits": 1,
-      "sample": "ggsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(H3 Max 재탕 금지) · Ha",
-      "brief_date": "2026-09-03"
+      "sample": "ggsfield/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) · Happy*(베타·그레이 유지).",
+      "brief_date": "2026-09-04"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
-      "sample": "논쟁 9/2**) · Runway/Higgsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(",
-      "brief_date": "2026-09-03"
+      "sample": ") · BFL/Seed/Runway/Higgsfield/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) ·",
+      "brief_date": "2026-09-04"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 1,
-      "sample": "· Runway/Higgsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(H3 Max",
-      "brief_date": "2026-09-03"
+      "sample": "d/Runway/Higgsfield/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) · Happy*",
+      "brief_date": "2026-09-04"
     },
     {
       "term": "LTX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "ake / mona-lisa-1 / LTX-2.5 / Anthropic–Decart: 상태 변경 없음. - Hy4",
-      "brief_date": "2026-09-03"
+      "sample": "ake / mona-lisa-1 / LTX-2.5 / Anthropic–Decart: 상태 변경 없음. - Pat",
+      "brief_date": "2026-09-04"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "ay/Higgsfield/Kling/Luma/Hailuo(창 안 메이저 GA 없음) · fal(H3 Max 재탕 금",
-      "brief_date": "2026-09-03"
+      "sample": "ay/Higgsfield/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) · Happy*(베타·그",
+      "brief_date": "2026-09-04"
     },
     {
-      "term": "MFA",
+      "term": "MRCR",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "·펜테스트 직원으로 접근을 제한하고 MFA를 켠다고 적어요. 파트너는 **650**곳을 넘기고, CrowdStri",
-      "brief_date": "2026-09-03"
+      "sample": "ench 2.1 **88.8%**, MRCR 256K–512K **98.5%**·512K–1M **98.1%**를",
+      "brief_date": "2026-09-04"
+    },
+    {
+      "term": "PCB",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "→Unreal 워킹 씬, KiCad PCB 같은 컴퓨터 사용 장면도 보여 줘요. Higgsfield는 복잡한 크리",
+      "brief_date": "2026-09-04"
     },
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
       "hits": 1,
-      "sample": "t depth 논쟁 9/2**) · Runway/Higgsfield/Kling/Luma/Hailuo(창 안 메이저 GA",
-      "brief_date": "2026-09-03"
-    },
-    {
-      "term": "STEM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "ideo GA=8/4) · Seed(STEM Fellows 마감 9/30만, 제품 신규 없음) · DeepSeek(",
-      "brief_date": "2026-09-03"
+      "sample": ".7은 예고만) · BFL/Seed/Runway/Higgsfield/Kling/Luma/Hailuo/fal(창 안 메이",
+      "brief_date": "2026-09-04"
     },
     {
       "term": "Sora",
       "hint": "OpenAI 영상 모델",
       "hits": 1,
-      "sample": "B.AI API 얇은 후속만. - Sora Videos API 9/24 종료: 3/24 공지 재탕. 임박 리마인드",
-      "brief_date": "2026-09-03"
+      "sample": "ak·Responses 후속만. - Sora Videos API 9/24 종료: 3/24 공지 재탕. 임박 리마인드",
+      "brief_date": "2026-09-04"
     },
     {
-      "term": "UMG",
-      "hint": "설명 없는 대문자 약어",
+      "term": "Suno",
+      "hint": "음악 생성",
       "hits": 1,
-      "sample": "라이선스 경로만 다시 보시면 돼요. UMG·Sony 등 기존 저작권 소송·Warner 합의와는 쟁점이 달라요.",
-      "brief_date": "2026-09-03"
+      "sample": "ritical+CoT 논쟁 단독 · Suno 신원 소송 · Hy4 B.AI API. 창 밖·재탕: Fable/Myt",
+      "brief_date": "2026-09-04"
     },
     {
-      "term": "가드레일",
-      "hint": "모델 출력·도구 사용 안전 장치",
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
       "hits": 1,
-      "sample": "과 프레이징” 같은 우회 프롬프트로 가드레일을 넘길 수 있다고 주장해요. - (영향) 광고·숏폼에 아티스트 닮",
-      "brief_date": "2026-09-03"
+      "sample": "d/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) · Happy*(베타·그레이 유지). ##",
+      "brief_date": "2026-09-04"
     }
   ]
 }
