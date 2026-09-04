@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T10:35:30",
+  "generated_at": "2026-09-04T12:20:07",
   "platform": "AI Pulse",
   "count": 36,
   "domains": {
@@ -11,10 +11,10 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "models": 203,
-    "creative": 108,
-    "marketing": 104,
+    "models": 204,
+    "creative": 115,
     "infra": 76,
+    "marketing": 104,
     "agents": 111,
     "policy": 58
   },
@@ -24,16 +24,16 @@
       119
     ],
     [
-      "Google",
-      70
-    ],
-    [
       "Gemini",
-      70
+      75
     ],
     [
       "Claude",
-      68
+      74
+    ],
+    [
+      "Google",
+      70
     ],
     [
       "Meta",
@@ -41,11 +41,11 @@
     ],
     [
       "ChatGPT",
-      49
+      48
     ],
     [
       "Grok",
-      47
+      46
     ],
     [
       "Anthropic",
@@ -61,7 +61,7 @@
     ],
     [
       "Midjourney",
-      31
+      30
     ],
     [
       "Hugging Face",
@@ -138,17 +138,17 @@
     {
       "date": "2026-09-04",
       "title": "AI Daily Brief — 2026-09-04 (최근 24h)",
-      "theme": "Astra가 열렸고, 네 창구가 한나절 멈췄어요",
-      "theme_blurb": "OpenAI가 GPT-6 Astra를 ChatGPT·API·Bedrock으로 풀기 시작했고, Meta Muse Spark 1.3은 코딩·긴 작업 쪽을 한 단계 올렸어요. 같은 날 ChatGPT·Claude·Grok·Gemini가 겹쳐 잠깐 장애를 냈어요.",
-      "edition_title": "Astra가 열렸고, 네 창구가 한나절 멈췄어요",
-      "edition_blurb": "OpenAI가 GPT-6 Astra를 ChatGPT·API·Bedrock으로 풀기 시작했고, Meta Muse Spark 1.3은 코딩·긴 작업 쪽을 한 단계 올렸어요. 같은 날 ChatGPT·Claude·Grok·Gemini가 겹쳐 잠깐 장애를 냈어요.",
+      "theme": "Astra가 열렸고, Higgsfield 크리에이티브 백필을 같이 봤어요",
+      "theme_blurb": "OpenAI가 GPT-6 Astra를 ChatGPT·API·Bedrock으로 풀기 시작했고, Meta Muse Spark 1.3은 코딩·긴 작업 쪽을 한 단계 올렸어요. 같은 날 네 창구가 잠깐 겹쳐 흔들렸고, 오후에는 Joseph 요청으로 Higgsfield changelog 8/21–9/1 백필을 올렸어요.",
+      "edition_title": "Astra가 열렸고, Higgsfield 크리에이티브 백필을 같이 봤어요",
+      "edition_blurb": "OpenAI가 GPT-6 Astra를 ChatGPT·API·Bedrock으로 풀기 시작했고, Meta Muse Spark 1.3은 코딩·긴 작업 쪽을 한 단계 올렸어요. 같은 날 네 창구가 잠깐 겹쳐 흔들렸고, 오후에는 Joseph 요청으로 Higgsfield changelog 8/21–9/1 백필을 올렸어요.",
       "url": "brief/2026-09-04.html",
-      "excerpt": "오늘은 GPT-6 Astra GA(컴퓨터 사용·코딩·Sites · $10/$50), ChatGPT Sites(웹·게임 호스팅), Muse Spark 1.3(Muse Code · $1.25/$4.25), 4사 겹침 장애, Midjourney alpha lightbox이 축이에요.",
+      "excerpt": "오늘은 GPT-6 Astra GA(컴퓨터 사용·코딩·Sites · $10/$50), Higgsfield Genjutsu(영상 오브젝트·로케이션 교체), ChatGPT Sites(웹·게임 호스팅), Muse Spark 1.3(Muse Code · $1.25/$4.25), 4사 겹침 장애가 축이에요. 오후 백필로 Relight·Blender·H3 Max·허브 모델·Ad Multiplier도 같이 올렸어요.",
       "top5": [
         "GPT-6 Astra — ChatGPT·API·Bedrock으로 풀리기 시작했어요",
+        "Higgsfield Genjutsu — 영상에서 오브젝트·로케이션만 바꿔요",
         "ChatGPT Sites — 프롬프트로 웹·게임을 만들고 바로 호스팅해요",
         "Muse Spark 1.3 — Muse Code와 Meta Model API에 올라왔어요",
-        "Astra API — 표준 $10/$50, Fast mode는 두 배 요금이에요",
         "ChatGPT·Claude·Grok·Gemini — 목요일 오전에 겹쳐 장애가 났어요"
       ],
       "domains": [
@@ -162,10 +162,10 @@
         "ChatGPT",
         "Meta",
         "OpenAI",
-        "Grok",
-        "Midjourney",
         "Claude",
+        "Grok",
         "Gemini",
+        "Midjourney",
         "Anthropic",
         "AWS",
         "xAI",
@@ -216,10 +216,10 @@
         "Canva",
         "DeepMind",
         "Runway",
-        "Kling",
         "Apple",
-        "Sora",
+        "Kling",
         "Luma",
+        "Sora",
         "xAI"
       ],
       "has_rumor": false,
@@ -444,8 +444,8 @@
         "Anthropic",
         "DeepSeek",
         "Runway",
-        "Perplexity",
         "Midjourney",
+        "Perplexity",
         "Kling"
       ],
       "has_rumor": true,
@@ -616,13 +616,13 @@
         "Anthropic",
         "DeepSeek",
         "NVIDIA",
-        "Salesforce",
         "Midjourney",
+        "Salesforce",
         "Copilot",
         "Runway",
+        "Amazon",
         "Google",
         "GitHub",
-        "Amazon",
         "Gemini"
       ],
       "has_rumor": false,
@@ -704,8 +704,8 @@
         "ElevenLabs",
         "Runway",
         "Grok",
-        "Firefly",
         "Copilot",
+        "Firefly",
         "Kling"
       ],
       "has_rumor": false,
@@ -978,8 +978,8 @@
         "ByteDance",
         "Midjourney",
         "ElevenLabs",
-        "DeepSeek",
-        "DeepMind"
+        "DeepMind",
+        "DeepSeek"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1242,8 +1242,8 @@
         "ChatGPT",
         "DeepMind",
         "Anthropic",
-        "Claude",
         "NVIDIA",
+        "Claude",
         "Hugging Face",
         "Google",
         "GitHub",
@@ -1385,8 +1385,8 @@
         "Midjourney",
         "ElevenLabs",
         "Microsoft",
-        "Zapier",
-        "Google"
+        "Google",
+        "Zapier"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1431,8 +1431,8 @@
         "Luma",
         "Anthropic",
         "Copilot",
-        "Google",
-        "Amazon"
+        "Amazon",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1563,8 +1563,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Samsung"
       ],
       "has_rumor": false,
@@ -1642,8 +1642,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,

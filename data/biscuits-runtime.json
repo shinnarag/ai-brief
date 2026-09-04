@@ -2,16 +2,17 @@
   "date": "2026-09-04",
   "label": "9월 4일 브리프",
   "termIds": [
+    "upscale",
     "i2v",
-    "reference-image",
     "t2v",
-    "zdr",
-    "intelligence-index",
-    "harness"
+    "reference-image",
+    "mcp",
+    "zdr"
   ],
   "allMatchedIds": [
     "t2v",
     "i2v",
+    "upscale",
     "reference-image",
     "early-access",
     "credits",
@@ -24,6 +25,7 @@
     "api",
     "zdr",
     "ga",
+    "mcp",
     "cot",
     "recurrent-depth",
     "preparedness-framework",
@@ -31,17 +33,45 @@
   ],
   "candidates": [
     {
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 63,
+      "sample": "4h) 주제: Astra가 열렸고, Higgsfield 크리에이티브 백필을 같이 봤어요 주제 설명: OpenAI가 GPT-6",
+      "brief_date": "2026-09-04"
+    },
+    {
       "term": "GPT",
       "hint": "설명 없는 대문자 약어",
       "hits": 14,
-      "sample": "멈췄어요 주제 설명: OpenAI가 GPT-6 Astra를 ChatGPT·API·Bedrock으로 풀기 시작했고,",
+      "sample": "봤어요 주제 설명: OpenAI가 GPT-6 Astra를 ChatGPT·API·Bedrock으로 풀기 시작했고,",
       "brief_date": "2026-09-04"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
-      "hits": 12,
+      "hits": 11,
       "sample": "ontributor 데이터 약정 · Midjourney alpha 편집 lightbox · 장애 시 백업 창구 수집 시각: 2",
+      "brief_date": "2026-09-04"
+    },
+    {
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
+      "hits": 8,
+      "sample": "d/Runway/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) · Happy*(베타·그레이 유지).",
+      "brief_date": "2026-09-04"
+    },
+    {
+      "term": "FLUX",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 7,
+      "sample": "H3 Max 8/31 · Omni/FLUX Upscale/Recraft 8/27–28 · Ad Multiplier",
+      "brief_date": "2026-09-04"
+    },
+    {
+      "term": "해상도(720p/1080p/4K)",
+      "hint": "출력 화질 단위",
+      "hits": 7,
+      "sample": "/21) · Seedance 2.5 1080p(8/18) · Series B $400M(8/19) · Cully Hi",
       "brief_date": "2026-09-04"
     },
     {
@@ -49,6 +79,20 @@
       "hint": "설명 없는 대문자 약어",
       "hits": 6,
       "sample": "er 4 **97.6%**, ARC-AGI-3 **99.9%**(자체 하네스 조건), ExploitBench **",
+      "brief_date": "2026-09-04"
+    },
+    {
+      "term": "HEX",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 5,
+      "sample": "jutsu 9/1 · Relight/HEX·Blender 8/21 · H3 Max 8/31 · Omni/FLUX",
+      "brief_date": "2026-09-04"
+    },
+    {
+      "term": "FLUX 3",
+      "hint": "BFL 멀티모달·영상 모델",
+      "hits": 4,
+      "sample": "mini Omni 1.1 Flash·FLUX 3 Upscaler·Recraft V4가 붙었어요 (8/27–8/28)**",
       "brief_date": "2026-09-04"
     },
     {
@@ -66,6 +110,13 @@
       "brief_date": "2026-09-04"
     },
     {
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
+      "hits": 2,
+      "sample": "less Studio(8/21) · Seedance 2.5 1080p(8/18) · Series B $400M(8/19)",
+      "brief_date": "2026-09-04"
+    },
+    {
       "term": "ARC",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
@@ -76,21 +127,14 @@
       "term": "BFL",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "ai(Grok 4.7은 예고만) · BFL/Seed/Runway/Higgsfield/Kling/Luma/Hailu",
+      "sample": "ojects·페스티벌 연장**) · BFL/Seed/Runway/Kling/Luma/Hailuo/fal(창 안 메",
       "brief_date": "2026-09-04"
     },
     {
-      "term": "FLUX",
+      "term": "GLM",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": ".1 제품 카드 · H3 Max · FLUX 3 Video · Solaris · DeepSeek Vision 가중치",
-      "brief_date": "2026-09-04"
-    },
-    {
-      "term": "FLUX 3",
-      "hint": "BFL 멀티모달·영상 모델",
-      "hits": 1,
-      "sample": ".1 제품 카드 · H3 Max · FLUX 3 Video · Solaris · DeepSeek Vision 가중치 ·",
+      "sample": "ate·Ox Alpha(8/25). GLM-5.3 Flash가 Ox Alpha를 대체한 8/26 노트는 Ox Al",
       "brief_date": "2026-09-04"
     },
     {
@@ -101,24 +145,10 @@
       "brief_date": "2026-09-04"
     },
     {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
-      "hits": 1,
-      "sample": "ggsfield/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) · Happy*(베타·그레이 유지).",
-      "brief_date": "2026-09-04"
-    },
-    {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 1,
-      "sample": ") · BFL/Seed/Runway/Higgsfield/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) ·",
-      "brief_date": "2026-09-04"
-    },
-    {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 1,
-      "sample": "d/Runway/Higgsfield/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) · Happy*",
+      "sample": ") · BFL/Seed/Runway/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) · Happy*",
       "brief_date": "2026-09-04"
     },
     {
@@ -132,7 +162,7 @@
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "ay/Higgsfield/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) · Happy*(베타·그",
+      "sample": "L/Seed/Runway/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) · Happy*(베타·그",
       "brief_date": "2026-09-04"
     },
     {
@@ -153,7 +183,7 @@
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
       "hits": 1,
-      "sample": ".7은 예고만) · BFL/Seed/Runway/Higgsfield/Kling/Luma/Hailuo/fal(창 안 메이",
+      "sample": "티벌 연장**) · BFL/Seed/Runway/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) ·",
       "brief_date": "2026-09-04"
     },
     {
@@ -174,7 +204,7 @@
       "term": "fal",
       "hint": "생성 모델 추론 허브",
       "hits": 1,
-      "sample": "d/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) · Happy*(베타·그레이 유지). ##",
+      "sample": "y/Kling/Luma/Hailuo/fal(창 안 메이저 GA 없음) · Happy*(베타·그레이 유지). ##",
       "brief_date": "2026-09-04"
     }
   ],

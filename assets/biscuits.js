@@ -1059,7 +1059,7 @@
 
   const LATEST_BRIEF = {
     date: "2026-09-04",
-    termIds: ["i2v", "reference-image", "t2v", "zdr", "intelligence-index", "harness"]
+    termIds: ["upscale", "i2v", "t2v", "reference-image", "mcp", "zdr"]
   };
 
   const TAGS = [
