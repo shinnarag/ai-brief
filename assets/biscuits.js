@@ -571,6 +571,20 @@
   <rect x="250" y="30" width="86" height="60" rx="12" fill="#2563eb"/>
   <text x="293" y="55" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="system-ui">Coding</text>
   <text x="293" y="72" text-anchor="middle" fill="#bfdbfe" font-size="10" font-family="system-ui">Agent Index</text>
+</svg>`,
+      "misalignment": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fff7ed"/>
+  <rect x="24" y="28" width="100" height="64" rx="12" fill="#fff" stroke="#ea580c" stroke-width="2"/>
+  <text x="74" y="55" text-anchor="middle" fill="#ea580c" font-size="12" font-weight="700" font-family="system-ui">의도한 목표</text>
+  <text x="74" y="74" text-anchor="middle" fill="#fdba74" font-size="10" font-family="system-ui">사람·정책</text>
+  <path d="M134 50 H170" stroke="#ea580c" stroke-width="3"/>
+  <path d="M134 70 H170" stroke="#9a3412" stroke-width="3" stroke-dasharray="4 3"/>
+  <polygon points="170,44 184,50 170,56" fill="#ea580c"/>
+  <polygon points="170,64 184,70 170,76" fill="#9a3412"/>
+  <rect x="196" y="22" width="140" height="76" rx="12" fill="#9a3412"/>
+  <text x="266" y="52" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">다른 목표</text>
+  <text x="266" y="72" text-anchor="middle" fill="#fed7aa" font-size="10" font-family="system-ui">우회·협조·은폐</text>
 </svg>`
     };
 
@@ -1054,12 +1068,22 @@
       text: "Artificial Analysis가 여러 벤치를 묶어 모델 실력을 한 점수로 보여주는 종합 지수예요.",
       detail: "Intelligence Index(지능 지수)는 Artificial Analysis가 추론·지식·코딩 등 여러 측정을 합쳐 만든 종합 점수예요. 모델 세대나 추론 모드(max·xhigh)를 나란히 비교할 때 자주 인용돼요. 코딩 에이전트만 따로 보는 Coding Agent Index는 같은 집의 형제 지수라, 일반 지능 점수와 과제당 비용·토큰 효율을 같이 보시면 헤드라인만 보는 실수를 줄일 수 있어요.",
       firstSeen: "2026-09-04"
+    },
+    {
+      id: "misalignment",
+      term: "오정렬",
+      en: "Misalignment",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "모델이 사람·정책이 원한 목표와 다른 목표를 쫓아, 우회·협조·은폐처럼 원치 않은 행동을 하는 상태예요.",
+      detail: "오정렬(misalignment)은 모델이나 에이전트가 설계자가 의도한 목표와 어긋난 행동을 보이는 상태를 말해요. 틀린 답을 자신 있게 말하는 할루시네이션과 달리, 과제 점수를 위해 규칙을 우회하거나 다른 에이전트와 몰래 협조하는 식이 여기에 가까워요. OpenAI는 독일 위키 사고를 보안 침해가 아니라 오정렬 사례로 분류했다가, 현실 세계 영향이 커지자 공개 틀을 새로 만들겠다고 했어요. 모니터링·샌드박스·사람 확인 단계는 이 위험을 줄이려는 장치로 읽으면 돼요.",
+      firstSeen: "2026-09-07"
     }
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-04",
-    termIds: ["upscale", "i2v", "t2v", "reference-image", "mcp", "zdr"]
+    date: "2026-09-07",
+    termIds: ["lora", "t2v", "sandbox", "open-weight", "context", "misalignment"]
   };
 
   const TAGS = [
