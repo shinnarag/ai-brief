@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T10:21:28",
+  "generated_at": "2026-09-07T12:32:28",
   "platform": "AI Pulse",
   "count": 37,
   "domains": {
@@ -11,7 +11,7 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "creative": 119,
+    "creative": 117,
     "policy": 59,
     "agents": 114,
     "models": 206,
@@ -92,11 +92,11 @@
       5
     ],
     [
-      "Luma",
+      "Sora",
       5
     ],
     [
-      "Sora",
+      "Luma",
       5
     ],
     [
@@ -139,12 +139,12 @@
       "edition_title": "Astra는 주말에 게임·3D를 뽑았고, Hugging Face 집주인은 NVIDIA로 바뀌었어요",
       "edition_blurb": "GPT-6 Astra가 Pro·API로 퍼진 뒤 주말 동안 Hangzhou 웹 3D·멀티플레이 슈터·Clip Studio 채색 데모가 쏟아졌어요. 같은 창에서 OpenAI는 독일 위키 에이전트 사고를 인정하고 공개 틀을 만들겠다고 했고, 금요일에 빠진 NVIDIA→Hugging Face $12.93B 인수도 같이 올렸어요.",
       "url": "brief/2026-09-07.html",
-      "excerpt": "오늘은 Astra 주말 크리에이티브 스트레스 테스트(Hangzhou·Astral War·Clip Studio), NVIDIA→Hugging Face $12.93B(9/3 누락 보완), 독일 위키 에이전트 사고 + 공개 프레임워크(9/4–5), Astra Pro·API·Sites 게임 가이드, CNBC model fatigue가 축이에요.",
+      "excerpt": "오늘은 Astra 주말 크리에이티브 스트레스 테스트(Hangzhou·Astral War·Clip Studio), NVIDIA→Hugging Face $12.93B(9/3 누락 보완), 독일 위키 에이전트 사고 + 공개 프레임워크(9/4–5), Astra Pro·Enterprise·API 접근, CNBC model fatigue가 축이에요.",
       "top5": [
         "Astra 주말 — Hangzhou 웹 3D·슈터·Clip Studio 채색이 한꺼번에 나왔어요",
         "NVIDIA — Hugging Face를 $12.93B에 사기로 했어요",
         "OpenAI — 독일 위키 에이전트 사고를 인정하고 공개 틀을 만들겠다고 했어요",
-        "Astra — Pro·Enterprise·API에 풀렸고, Sites로 게임을 올리는 공식 가이드도 나왔어요",
+        "Astra — Pro·Enterprise·API에 풀렸어요",
         "CNBC — 사흘에 네 랩이 쏟아지 ‘model fatigue’라는 말이 돌았어요"
       ],
       "domains": [
@@ -171,7 +171,7 @@
         "Runway",
         "Gemini",
         "Kling",
-        "Luma"
+        "Sora"
       ],
       "has_rumor": false,
       "source": "md",
@@ -260,8 +260,8 @@
         "Runway",
         "Kling",
         "Apple",
-        "Luma",
         "Sora",
+        "Luma",
         "xAI"
       ],
       "has_rumor": false,
@@ -353,7 +353,7 @@
         "DeepMind",
         "Gemini",
         "Kling",
-        "Luma"
+        "Meta"
       ],
       "has_rumor": false,
       "source": "md",
@@ -392,8 +392,8 @@
         "GitHub",
         "Gemini",
         "DeepMind",
-        "Runway",
         "NVIDIA",
+        "Runway",
         "xAI",
         "DeepSeek",
         "Cohere",
@@ -478,16 +478,16 @@
         "Grok",
         "Hugging Face",
         "Claude",
-        "Google",
         "NVIDIA",
+        "Google",
         "GitHub",
-        "IBM",
         "xAI",
+        "IBM",
         "Anthropic",
         "DeepSeek",
         "Runway",
-        "Perplexity",
         "Midjourney",
+        "Perplexity",
         "Kling"
       ],
       "has_rumor": true,
@@ -532,8 +532,8 @@
         "Midjourney",
         "GitHub",
         "Gemini",
-        "Luma",
-        "Meta"
+        "Meta",
+        "Luma"
       ],
       "has_rumor": true,
       "source": "md",
@@ -569,8 +569,8 @@
         "Grok",
         "Hugging Face",
         "DeepSeek",
-        "Mistral",
         "ChatGPT",
+        "Mistral",
         "NVIDIA",
         "Gemini",
         "Kling",
@@ -661,8 +661,8 @@
         "Midjourney",
         "Salesforce",
         "Copilot",
-        "GitHub",
         "Amazon",
+        "GitHub",
         "Runway",
         "Google",
         "Gemini"
@@ -746,8 +746,8 @@
         "ElevenLabs",
         "Runway",
         "Grok",
-        "Copilot",
         "Firefly",
+        "Copilot",
         "Kling"
       ],
       "has_rumor": false,
@@ -829,8 +829,8 @@
         "ChatGPT",
         "OpenAI",
         "DeepMind",
-        "Runway",
         "NVIDIA",
+        "Runway",
         "AWS",
         "xAI",
         "Kling",
@@ -873,8 +873,8 @@
         "ChatGPT",
         "Anthropic",
         "Meta",
-        "Google",
         "OpenAI",
+        "Google",
         "NVIDIA",
         "Kling",
         "AWS",
@@ -1020,8 +1020,8 @@
         "ByteDance",
         "Midjourney",
         "ElevenLabs",
-        "DeepSeek",
-        "DeepMind"
+        "DeepMind",
+        "DeepSeek"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1382,8 +1382,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Luma",
-        "Meta"
+        "Meta",
+        "Luma"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1427,8 +1427,8 @@
         "Midjourney",
         "ElevenLabs",
         "Microsoft",
-        "Zapier",
-        "Google"
+        "Google",
+        "Zapier"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1593,8 +1593,8 @@
       ],
       "companies": [
         "Anthropic",
-        "NVIDIA",
         "OpenAI",
+        "NVIDIA",
         "Google",
         "Adobe",
         "GitHub",
@@ -1605,8 +1605,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Samsung"
       ],
       "has_rumor": false,
@@ -1684,8 +1684,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,

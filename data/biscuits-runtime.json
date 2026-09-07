@@ -3,14 +3,13 @@
   "label": "9월 7일 브리프",
   "termIds": [
     "lora",
-    "t2v",
     "sandbox",
     "open-weight",
     "context",
-    "misalignment"
+    "misalignment",
+    "agent"
   ],
   "allMatchedIds": [
-    "t2v",
     "lora",
     "credits",
     "open-weight",
@@ -34,7 +33,7 @@
       "term": "CNBC",
       "hint": "설명 없는 대문자 약어",
       "hits": 8,
-      "sample": "I·Sites 게임 가이드**, **CNBC model fatigue**가 축이에요. > 전일 제외: Astra G",
+      "sample": "erprise·API 접근**, **CNBC model fatigue**가 축이에요. > 전일 제외: Astra G",
       "brief_date": "2026-09-07"
     },
     {
@@ -47,7 +46,7 @@
     {
       "term": "GPT",
       "hint": "설명 없는 대문자 약어",
-      "hits": 5,
+      "hits": 4,
       "sample": "VIDIA로 바뀌었어요 주제 설명: GPT-6 Astra가 Pro·API로 퍼진 뒤 주말 동안 Hangzhou 웹",
       "brief_date": "2026-09-07"
     },
@@ -80,13 +79,6 @@
       "brief_date": "2026-09-07"
     },
     {
-      "term": "EXPLORER",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "게임은 `window.__VOID_EXPLORER__`로 비행 모드·지형 준비·드로우 콜을 노출해, Astra가 스크린샷",
-      "brief_date": "2026-09-07"
-    },
-    {
       "term": "GET",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
@@ -98,13 +90,6 @@
       "hint": "영상 생성 모델",
       "hits": 1,
       "sample": "log 신규 없음) · Runway/Kling/Luma/Seed/BFL/Happy*(창 안 메이저 GA 없음) · f",
-      "brief_date": "2026-09-07"
-    },
-    {
-      "term": "LOD",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "는 문제를 속도 곡선·지형 스트리밍·LOD 마스크로 같이 고친 과정을 길게 적어요. 통제 시뮬에서 버려진 지형 잡",
       "brief_date": "2026-09-07"
     },
     {
@@ -140,13 +125,6 @@
       "hint": "음악 생성",
       "hits": 1,
       "sample": "ash · Google Pics · Suno 신원 소송. > 스윕: Midjourney(최신=9/2 lightbox",
-      "brief_date": "2026-09-07"
-    },
-    {
-      "term": "VOID",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "구성돼요. 게임은 `window.__VOID_EXPLORER__`로 비행 모드·지형 준비·드로우 콜을 노출해, As",
       "brief_date": "2026-09-07"
     },
     {

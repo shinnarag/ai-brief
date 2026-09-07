@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T10:21:28",
-  "count": 634,
+  "generated_at": "2026-09-07T12:32:28",
+  "count": 631,
   "items": [
     {
       "date": "2026-09-07",
@@ -73,9 +73,9 @@
       "section": "Top 5",
       "sectionId": "top-5",
       "cardId": "c-top-5-04",
-      "title": "Astra — Pro·Enterprise·API에 풀렸고, Sites로 게임을 올리는 공식 가이드도 나왔어요",
+      "title": "Astra — Pro·Enterprise·API에 풀렸어요",
       "snippet": "Plus·Business는 며칠 더 기다리고, Codex는 창이 바뀌어도 노트를 남기도록 바뀌었어요.",
-      "text": "Astra — Pro·Enterprise·API에 풀렸고, Sites로 게임을 올리는 공식 가이드도 나왔어요 Plus·Business는 며칠 더 기다리고, Codex는 창이 바뀌어도 노트를 남기도록 바뀌었어요. 모델 · 플랫폼",
+      "text": "Astra — Pro·Enterprise·API에 풀렸어요 Plus·Business는 며칠 더 기다리고, Codex는 창이 바뀌어도 노트를 남기도록 바뀌었어요. 모델 · 플랫폼",
       "domains": [
         "agents",
         "creative",
@@ -154,33 +154,12 @@
       "displayDate": "2026년 9월 7일(월)",
       "briefTitle": "Astra는 주말에 게임·3D를 뽑았고, Hugging Face 집주인은 NVIDIA로 바뀌었어요",
       "briefUrl": "brief/2026-09-07.html",
-      "section": "모델 · 플랫폼",
-      "sectionId": "모델-플랫폼",
-      "cardId": "c-모델-플랫폼-03",
-      "title": "Astra — Pro·Enterprise·API에 풀렸고, Sites로 게임을 올리는 공식 가이드도 나왔어요",
-      "snippet": "Plus·Business는 며칠 더 기다리고, Codex는 창이 바뀌어도 노트를 남기도록 바뀌었어요.",
-      "text": "Astra — Pro·Enterprise·API에 풀렸고, Sites로 게임을 올리는 공식 가이드도 나왔어요 Plus·Business는 며칠 더 기다리고, Codex는 창이 바뀌어도 노트를 남기도록 바뀌었어요.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-09-07.html#c-모델-플랫폼-03"
-    },
-    {
-      "date": "2026-09-07",
-      "displayDate": "2026년 9월 7일(월)",
-      "briefTitle": "Astra는 주말에 게임·3D를 뽑았고, Hugging Face 집주인은 NVIDIA로 바뀌었어요",
-      "briefUrl": "brief/2026-09-07.html",
       "section": "콘텐츠 제작 · 크리에이티브",
       "sectionId": "콘텐츠-제작-크리에이티브",
       "cardId": "c-콘텐츠-제작-크리에이티브-01",
       "title": "Astra 주말 — Hangzhou 웹 3D·Astral War·Clip Studio 채색이 스트레스 테스트가 됐어요 (9/5–9/6)",
       "snippet": "(사실) Decrypt가 2026-09-06에, Astra 출시 후 약 48시간 동안 나온 실사용 데모를 한 줄로 갈라 정리했어요. 공간·기계·에이전트 쪽은 지금까지 써 본 모델 중 가장 세고, 글쓰기는 전작보다 약하다는 쪽이 같은 테스터에게서 같이 나왔다고 적어요.",
-      "text": "Astra 주말 — Hangzhou 웹 3D·Astral War·Clip Studio 채색이 스트레스 테스트가 됐어요 (9/5–9/6) (사실) Decrypt가 2026-09-06에, Astra 출시 후 약 48시간 동안 나온 실사용 데모를 한 줄로 갈라 정리했어요. 공간·기계·에이전트 쪽은 지금까지 써 본 모델 중 가장 세고, 글쓰기는 전작보다 약하다는 쪽이 같은 테스터에게서 같이 나왔다고 적어요. (3D·도시) SuSu는 Three.js로 항저우와 주변을 24분 만에 브라우저 미니어처로 옮겼다고 했고, 西湖·雷峰塔·찻밭·습지와 낮밤 전환·클릭 랜드마크까지 넣었다고 전해요. Matt Shumer는 Unreal에서 맨해튼을 거리 단위로 다듬은 플라이스루를 올렸고, Max Weinbach는 사진만으로 Apple Park를 Blender에 옮겼다고 했어요. Tom Krcha는 집 한 장에서 가전·장난감까지 있는 편집 가능 인테리어를 60fps로 받았다고 적어요. (게임·페인트) Rishi Prasad는 하루 만에 브라우저 슈터 Astral War를 만들었고, 권위 서버·12인 로비·컨트롤러·보이스 채팅을 붙였으며 Claude Opus 5로 한 달 전 빌드보다 비주얼이 한 단계 뛰었다고 했어요. 일본 일러스트레이터 Taiyaki Sun은 손 선화를 넘기고 Clip Studio Paint에서 마우스로 채색하라고 했고, Astra가 레이어·줌·브러시를 직접 움직였으며 Pro 최대 노력으로 사용량의 약 21%를 썼다고 전해요. (음악 vs 글) Auggie의 Bach 코랄 벤치에서 Astra는 성부 충돌 없이 Neapolitan sixth까지 넣었고, 이 벤치에서 처음으로 passing tone을 쓴 모델이라고 했어요. 반대로 Louis-François Bouchard의 편집 보이스 Elo에서는 Astra가 1995점으로 11위, 전작 Sol은 2156점으로 6위였고, Artificial Analysis GDPval-AA v2에서는 약 80 Elo이 빠졌다고 전해요. Mia AI Lab은 성격이 없고 창작엔 쓰지 말라고 했고, Pangram 탐지도 속이지 못했다는 테스트가 같이 돌아요. (영향) 3D·브라우저 게임·툴 조작 PoC를 돌리던 팀은 오늘 Sites·Codex·컴퓨터 사용 경로만 먼저 만져 보시면 돼요. 브랜드 카피·보이스 톤이 중요한 글은 Sol·다른 모델과 나란히 읽는 편이 안전해요.",
+      "text": "Astra 주말 — Hangzhou 웹 3D·Astral War·Clip Studio 채색이 스트레스 테스트가 됐어요 (9/5–9/6) (사실) Decrypt가 2026-09-06에, Astra 출시 후 약 48시간 동안 나온 실사용 데모를 한 줄로 갈라 정리했어요. 공간·기계·에이전트 쪽은 지금까지 써 본 모델 중 가장 세고, 글쓰기는 전작보다 약하다는 쪽이 같은 테스터에게서 같이 나왔다고 적어요. (3D·도시) SuSu는 Three.js로 항저우와 주변을 24분 만에 브라우저 미니어처로 옮겼다고 했고, 西湖·雷峰塔·찻밭·습지와 낮밤 전환·클릭 랜드마크까지 넣었다고 전해요. Matt Shumer는 Unreal에서 맨해튼을 거리 단위로 다듬은 플라이스루를 올렸고, Max Weinbach는 사진만으로 Apple Park를 Blender에 옮겼다고 했어요. Tom Krcha는 집 한 장에서 가전·장난감까지 있는 편집 가능 인테리어를 60fps로 받았다고 적어요. (게임·페인트) Rishi Prasad는 하루 만에 브라우저 슈터 Astral War를 만들었고, 권위 서버·12인 로비·컨트롤러·보이스 채팅을 붙였으며 Claude Opus 5로 한 달 전 빌드보다 비주얼이 한 단계 뛰었다고 했어요. 일본 일러스트레이터 Taiyaki Sun은 손 선화를 넘기고 Clip Studio Paint에서 마우스로 채색하라고 했고, Astra가 레이어·줌·브러시를 직접 움직였으며 Pro 최대 노력으로 사용량의 약 21%를 썼다고 전해요. (음악 vs 글) Auggie의 Bach 코랄 벤치에서 Astra는 성부 충돌 없이 Neapolitan sixth까지 넣었고, 이 벤치에서 처음으로 passing tone을 쓴 모델이라고 했어요. 반대로 Louis-François Bouchard의 편집 보이스 Elo에서는 Astra가 1995점으로 11위, 전작 Sol은 2156점으로 6위였고, Artificial Analysis GDPval-AA v2에서는 약 80 Elo이 빠졌다고 전해요. Mia AI Lab은 성격이 없고 창작엔 쓰지 말라고 했고, Pangram 탐지도 속이지 못했다는 테스트가 같이 돌아요. (Sites·가이드) OpenAI Developers가 2026-09-04에 Astra로 게임을 만드는 공식 글을 올렸어요. Void Explorer(항성계 2,048·절차 행성 10,000+·Three.js·Vite·WebGPU)를 중심으로 경험→아키텍처→자가 점검 루프를 보여 주고, @Sites로 브라우저 링크를 바로 받는 배포 흐름과 Sunwake·Hollowflux 예시도 안내해요. (24h) @OpenAIDevs가 2026-09-05에 Astra로 데모·링크를 남기라는 24시간 챌린지를 걸었고, 주말 데모 물량과 같은 축이에요. (영향) 3D·브라우저 게임·툴 조작 PoC를 돌리던 팀은 오늘 Sites·Codex·컴퓨터 사용 경로와 공식 가이드의 상태 훅만 먼저 만져 보시면 돼요. 브랜드 카피·보이스 톤이 중요한 글은 Sol·다른 모델과 나란히 읽는 편이 안전해요.",
       "domains": [
         "agents",
         "creative",
@@ -190,48 +169,6 @@
         "policy"
       ],
       "href": "brief/2026-09-07.html#c-콘텐츠-제작-크리에이티브-01"
-    },
-    {
-      "date": "2026-09-07",
-      "displayDate": "2026년 9월 7일(월)",
-      "briefTitle": "Astra는 주말에 게임·3D를 뽑았고, Hugging Face 집주인은 NVIDIA로 바뀌었어요",
-      "briefUrl": "brief/2026-09-07.html",
-      "section": "콘텐츠 제작 · 크리에이티브",
-      "sectionId": "콘텐츠-제작-크리에이티브",
-      "cardId": "c-콘텐츠-제작-크리에이티브-02",
-      "title": "Building games with Astra — Void Explorer·Sites 배포 공식 가이드가 나왔어요 (9/4)",
-      "snippet": "(사실) OpenAI Developers가 2026-09-04에 Astra로 게임을 만드는 방법을 공식 글로 올렸어요. Thomas Ricouard가 Codex에서 만든 Void Explorer를 중심으로, 경험→아키텍처→자가 점검 루프를 보여 줘요.",
-      "text": "Building games with Astra — Void Explorer·Sites 배포 공식 가이드가 나왔어요 (9/4) (사실) OpenAI Developers가 2026-09-04에 Astra로 게임을 만드는 방법을 공식 글로 올렸어요. Thomas Ricouard가 Codex에서 만든 Void Explorer를 중심으로, 경험→아키텍처→자가 점검 루프를 보여 줘요. (범위) Void Explorer는 항성계 2,048개와 절차 행성 10,000개 이상, 지구 크기 행성까지 다루고, Three.js·Vite·WebGPU·워커·Playwright로 구성돼요. 게임은 window.__VOID_EXPLORER__로 비행 모드·지형 준비·드로우 콜을 노출해, Astra가 스크린샷과 상태를 같이 보게 해요. Sunwake(절차 바다)·Hollowflux(2D 액션) 예시도 있고, @Sites로 배포해 브라우저 링크를 바로 받는 흐름을 안내해요. (장면) 공식은 “보이는 것은 닿을 수 있게”라는 경험에서 시작해, 얕은 각 진입 때 행성이 사라지는 문제를 속도 곡선·지형 스트리밍·LOD 마스크로 같이 고친 과정을 길게 적어요. 통제 시뮬에서 버려진 지형 잡이 6,074→13으로 줄었다는 표도 올려요. (영향) Sites로 플레이 가능 데모를 뽑던 팀은 오늘 공식 글의 상태 훅·장면 테스트만 따라가 보시면 돼요. 별도 영상 T2V API 소식은 아니에요.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-09-07.html#c-콘텐츠-제작-크리에이티브-02"
-    },
-    {
-      "date": "2026-09-07",
-      "displayDate": "2026년 9월 7일(월)",
-      "briefTitle": "Astra는 주말에 게임·3D를 뽑았고, Hugging Face 집주인은 NVIDIA로 바뀌었어요",
-      "briefUrl": "brief/2026-09-07.html",
-      "section": "콘텐츠 제작 · 크리에이티브",
-      "sectionId": "콘텐츠-제작-크리에이티브",
-      "cardId": "c-콘텐츠-제작-크리에이티브-03",
-      "title": "OpenAIDevs — Astra로 24시간 안에 뭔가를 내놓으라는 챌린지가 열렸어요 (9/5)",
-      "snippet": "(사실) @OpenAIDevs가 2026-09-05에 GPT-6 Astra로 데모나 링크를 남기라고 하며 24시간 기한을 걸었어요. Cerebral Valley가 SF·NY 오프라인 해커톤도 같이 돌렸다는 정리가 있어요.",
-      "text": "OpenAIDevs — Astra로 24시간 안에 뭔가를 내놓으라는 챌린지가 열렸어요 (9/5) (사실) @OpenAIDevs가 2026-09-05에 GPT-6 Astra로 데모나 링크를 남기라고 하며 24시간 기한을 걸었어요. Cerebral Valley가 SF·NY 오프라인 해커톤도 같이 돌렸다는 정리가 있어요. (범위) 공식 접수 양식·심사단은 없고, 트레드에 링크를 다는 형식이에요. 주말 데모 물량과 같은 축이에요.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-09-07.html#c-콘텐츠-제작-크리에이티브-03"
     },
     {
       "date": "2026-09-07",

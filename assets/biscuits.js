@@ -1083,7 +1083,7 @@
 
   const LATEST_BRIEF = {
     date: "2026-09-07",
-    termIds: ["lora", "t2v", "sandbox", "open-weight", "context", "misalignment"]
+    termIds: ["lora", "sandbox", "open-weight", "context", "misalignment", "agent"]
   };
 
   const TAGS = [
