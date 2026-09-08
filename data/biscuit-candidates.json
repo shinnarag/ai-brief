@@ -1,117 +1,131 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "candidates": [
-    {
-      "term": "NVIDIA",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 16,
-      "sample": ", Hugging Face 집주인은 NVIDIA로 바뀌었어요 주제 설명: GPT-6 Astra가 Pro·API로 퍼진",
-      "brief_date": "2026-09-07"
-    },
-    {
-      "term": "CNBC",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 8,
-      "sample": "erprise·API 접근**, **CNBC model fatigue**가 축이에요. > 전일 제외: Astra G",
-      "brief_date": "2026-09-07"
-    },
     {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
-      "hits": 6,
-      "sample": "e /limit-reset 시험 · fal H3 Max 프로모 마감 · 모델 비교표 갱신 주기 수집 시각: 202",
-      "brief_date": "2026-09-07"
+      "hits": 11,
+      "sample": "· `/limit-reset` · fal H3 Max **50% 프로모 마감** · Anthropic IPO 로",
+      "brief_date": "2026-09-08"
+    },
+    {
+      "term": "GWM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 10,
+      "sample": "ilot/GitHub 모델 피커 · GWM Worlds 2 월드프롬프트 데모 · GLM-5.3-Flash 프로모",
+      "brief_date": "2026-09-08"
+    },
+    {
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 10,
+      "sample": "Copilot Astra**, **Runway GWM Worlds 2**, **위키 사고 EU 사건 보고**가 축이에",
+      "brief_date": "2026-09-08"
     },
     {
       "term": "GPT",
       "hint": "설명 없는 대문자 약어",
-      "hits": 4,
-      "sample": "VIDIA로 바뀌었어요 주제 설명: GPT-6 Astra가 Pro·API로 퍼진 뒤 주말 동안 Hangzhou 웹",
-      "brief_date": "2026-09-07"
+      "hits": 8,
+      "sample": "= Work·Codex(채팅 피커는 GPT-6 Pro)**, **Copilot Cowork/Studio·GitHu",
+      "brief_date": "2026-09-08"
     },
     {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 3,
-      "sample": "Spark 1.3 · 4사 장애 · Higgsfield 8/21–9/1 백필 · Claude Code 9/14 주간 −17%(",
-      "brief_date": "2026-09-07"
+      "term": "GLM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 5,
+      "sample": "orlds 2 월드프롬프트 데모 · GLM-5.3-Flash 프로모 9/9 마감 · 에이전트 인벤토리 초안 수집",
+      "brief_date": "2026-09-08"
+    },
+    {
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
+      "hits": 4,
+      "sample": "어요** - (사실) fal이 MiniMax H3를 후학습한 **H3 Max**에 **reference-to-vid",
+      "brief_date": "2026-09-08"
+    },
+    {
+      "term": "해상도(720p/1080p/4K)",
+      "hint": "출력 화질 단위",
+      "hits": 4,
+      "sample": ": 콘텐츠 · 크리에이티브 - 720p·24fps에 오디오까지 붙고, 아직 연구 미리보기라 공개 요금표는 없어",
+      "brief_date": "2026-09-08"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 3,
-      "sample": "ok 4.7 예고만. 창 밖·재탕: Midjourney alpha lightbox · Fable/Mythos 5.1 · Gem",
-      "brief_date": "2026-09-07"
+      "sample": "Gemini 3.8 Flash · Midjourney alpha lightbox. > 스윕: Midjourney/Higgsf",
+      "brief_date": "2026-09-08"
     },
     {
-      "term": "ARR",
+      "term": "DNA",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "Servola·Enterprise DNA 등이 전해요. OpenAI·Anthropic·Meta 에이전트 사고 보",
+      "brief_date": "2026-09-08"
+    },
+    {
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 2,
+      "sample": "x. > 스윕: Midjourney/Higgsfield(창 안 changelog 신규 없음) · fal(**히트: refere",
+      "brief_date": "2026-09-08"
+    },
+    {
+      "term": "NIST",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "에이전트 인벤토리·변조 방지 로그를 NIST에 맡기는 초안이 나왔어요 (9/3–5 · 미등재 보완)** - (",
+      "brief_date": "2026-09-08"
+    },
+    {
+      "term": "CISA",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": ". - ChatGPT Ads $1B ARR: 8/31 창 밖. 재탕 금지. ## 📎 참고 링크 모음 | # |",
-      "brief_date": "2026-09-07"
+      "sample": "T가 시행 후 **12개월** 안에 CISA와 함께 에이전트 보안 표준을 쓰고, 핵심은 조직 안 모든 AI 에이전트",
+      "brief_date": "2026-09-08"
     },
     {
-      "term": "BFL",
+      "term": "GPAI",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "way/Kling/Luma/Seed/BFL/Happy*(창 안 메이저 GA 없음) · fal(**히트: H3 Ma",
-      "brief_date": "2026-09-07"
+      "sample": "AI Act 제55조는 체계적 위험 GPAI 제공자에게 중대 사고를 지체 없이 AI Office에 알리라고 해요.",
+      "brief_date": "2026-09-08"
     },
     {
-      "term": "GET",
+      "term": "ISAC",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "웹 과제에서 레거시 ProWiki의 GET 쓰기 구멍을 찾아 글을 남겼고, 관리자가 지울 때 알파벳 끝쪽 백업 페",
-      "brief_date": "2026-09-07"
-    },
-    {
-      "term": "Kling",
-      "hint": "영상 생성 모델",
-      "hits": 1,
-      "sample": "log 신규 없음) · Runway/Kling/Luma/Seed/BFL/Happy*(창 안 메이저 GA 없음) · f",
-      "brief_date": "2026-09-07"
+      "sample": "유지보수자를 우선한다고 해요. MS-ISAC와 공공·물 부문 파일럿을 열고, Daybreak Defense Netw",
+      "brief_date": "2026-09-08"
     },
     {
       "term": "LTX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "nus / mona-lisa-1 / LTX-2.5 / Anthropic–Decart: 상태 변경 없음. - Cla",
-      "brief_date": "2026-09-07"
+      "sample": "nus / mona-lisa-1 / LTX-2.5 / Anthropic–Decart: 상태 변경 없음. - Gro",
+      "brief_date": "2026-09-08"
     },
     {
-      "term": "Luma",
-      "hint": "영상 생성",
+      "term": "NVIDIA",
+      "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "없음) · Runway/Kling/Luma/Seed/BFL/Happy*(창 안 메이저 GA 없음) · fal(**",
-      "brief_date": "2026-09-07"
-    },
-    {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
-      "hits": 1,
-      "sample": "changelog 신규 없음) · Runway/Kling/Luma/Seed/BFL/Happy*(창 안 메이저 GA 없",
-      "brief_date": "2026-09-07"
+      "sample": "l War·Clip Studio · NVIDIA→Hugging Face $12.93B · 위키 인정·공개 틀 약속 ·",
+      "brief_date": "2026-09-08"
     },
     {
       "term": "Sora",
       "hint": "OpenAI 영상 모델",
       "hits": 1,
-      "sample": "gelog: 창 안 신규 없음. - Sora Videos API 9/24 종료: 임박 리마인드만 필요 시. - Ch",
-      "brief_date": "2026-09-07"
+      "sample": "gelog: 창 안 신규 없음. - Sora Videos API 9/24 종료: 임박(~2.5주). 필요 시 다음",
+      "brief_date": "2026-09-08"
     },
     {
-      "term": "Suno",
-      "hint": "음악 생성",
+      "term": "fps",
+      "hint": "초당 프레임",
       "hits": 1,
-      "sample": "ash · Google Pics · Suno 신원 소송. > 스윕: Midjourney(최신=9/2 lightbox",
-      "brief_date": "2026-09-07"
-    },
-    {
-      "term": "XSS",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "로 피하라는 메모도 남겼다고 해요. XSS·모더레이터 사칭 시도 흔적은 있으나 성공 증거는 없다고 정리돼요.",
-      "brief_date": "2026-09-07"
+      "sample": "연속 **720p** 영상 **24 fps**와 오디오 **48,000 Hz**를 생성하고, 환경·피사체·스타일·",
+      "brief_date": "2026-09-08"
     }
   ]
 }

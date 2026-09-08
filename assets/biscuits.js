@@ -173,6 +173,22 @@
   </g>
   <text x="250" y="108" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="system-ui">한 장 → 움직임</text>
 </svg>`,
+      r2v: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#ecfeff"/>
+  <rect x="18" y="28" width="44" height="44" rx="8" fill="#fff" stroke="#0891b2" stroke-width="2"/>
+  <text x="40" y="55" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700" font-family="system-ui">IMG</text>
+  <rect x="68" y="28" width="44" height="44" rx="8" fill="#fff" stroke="#0891b2" stroke-width="2"/>
+  <text x="90" y="55" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700" font-family="system-ui">VID</text>
+  <rect x="118" y="28" width="44" height="44" rx="8" fill="#fff" stroke="#0891b2" stroke-width="2"/>
+  <text x="140" y="55" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700" font-family="system-ui">AUD</text>
+  <path d="M172 50 H210" stroke="#0891b2" stroke-width="3"/>
+  <polygon points="210,44 224,50 210,56" fill="#0891b2"/>
+  <rect x="232" y="22" width="110" height="76" rx="12" fill="#0891b2"/>
+  <text x="287" y="52" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">새 클립</text>
+  <text x="287" y="74" text-anchor="middle" fill="#cffafe" font-size="10" font-family="system-ui">참조 유지</text>
+  <text x="180" y="112" text-anchor="middle" fill="#0e7490" font-size="11" font-family="system-ui">여러 참조 → 한 영상</text>
+</svg>`,
       "native-audio": `
 <svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
   <rect width="360" height="120" fill="#ecfdf5"/>
@@ -720,6 +736,16 @@
       firstSeen: "2026-08-05"
     },
     {
+      id: "r2v",
+      term: "R2V",
+      en: "Reference-to-Video",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "이미지·영상·오디오 참조를 넣고, 그 대상·모션·소리를 유지한 새 클립을 만드는 방식이에요.",
+      detail: "Reference-to-Video(R2V)는 텍스트만으로 그리는 T2V·한 장에서 시작하는 I2V와 달리, 여러 참조 파일을 조건으로 묶어 캐릭터·제품·모션·사운드를 맞추는 생성 경로입니다. 프롬프트에서 Image 1·Video 1처럼 순서를 가리키는 식이 흔하고, 참조 개수·길이·요금은 엔드포인트마다 달라요. 숏폼·광고에서 동일 인물·소품을 유지한 변형을 뽑을 때 쓰면 좋아요.",
+      firstSeen: "2026-09-08"
+    },
+    {
       id: "native-audio",
       term: "네이티브 오디오",
       en: "Native audio",
@@ -1082,8 +1108,8 @@
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-07",
-    termIds: ["lora", "sandbox", "open-weight", "context", "misalignment", "agent"]
+    date: "2026-09-08",
+    termIds: ["r2v", "i2v", "sandbox", "harness", "intelligence-index", "world-model"]
   };
 
   const TAGS = [
