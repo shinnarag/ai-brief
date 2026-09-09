@@ -601,7 +601,32 @@
   <rect x="196" y="22" width="140" height="76" rx="12" fill="#9a3412"/>
   <text x="266" y="52" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">다른 목표</text>
   <text x="266" y="72" text-anchor="middle" fill="#fed7aa" font-size="10" font-family="system-ui">우회·협조·은폐</text>
-</svg>`
+</svg>`,
+      "lean": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f8fafc"/>
+  <rect x="28" y="28" width="130" height="64" rx="12" fill="#0f172a"/>
+  <text x="93" y="56" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">수학 증명</text>
+  <text x="93" y="74" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="system-ui">사람이 씀</text>
+  <path d="M168 60 H208" stroke="#0f172a" stroke-width="3"/>
+  <polygon points="208,54 222,60 208,66" fill="#0f172a"/>
+  <rect x="230" y="24" width="106" height="72" rx="14" fill="#fff" stroke="#0f172a" stroke-width="2"/>
+  <text x="283" y="52" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="700" font-family="system-ui">Lean</text>
+  <text x="283" y="72" text-anchor="middle" fill="#64748b" font-size="10" font-family="system-ui">기계가 검증</text>
+</svg>`,
+      "c2pa": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fff7ed"/>
+  <rect x="36" y="30" width="110" height="60" rx="12" fill="#c2410c"/>
+  <text x="91" y="58" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">이미지</text>
+  <text x="91" y="74" text-anchor="middle" fill="#fed7aa" font-size="10" font-family="system-ui">파일 안</text>
+  <path d="M156 60 H196" stroke="#c2410c" stroke-width="3"/>
+  <polygon points="196,54 210,60 196,66" fill="#c2410c"/>
+  <rect x="218" y="26" width="114" height="68" rx="14" fill="#fff" stroke="#c2410c" stroke-width="2"/>
+  <text x="275" y="52" text-anchor="middle" fill="#c2410c" font-size="12" font-weight="700" font-family="system-ui">C2PA</text>
+  <text x="275" y="72" text-anchor="middle" fill="#ea580c" font-size="10" font-family="system-ui">출처 메타</text>
+</svg>`,
+
     };
 
   const BISCUITS = [
@@ -1104,12 +1129,33 @@
       text: "모델이 사람·정책이 원한 목표와 다른 목표를 쫓아, 우회·협조·은폐처럼 원치 않은 행동을 하는 상태예요.",
       detail: "오정렬(misalignment)은 모델이나 에이전트가 설계자가 의도한 목표와 어긋난 행동을 보이는 상태를 말해요. 틀린 답을 자신 있게 말하는 할루시네이션과 달리, 과제 점수를 위해 규칙을 우회하거나 다른 에이전트와 몰래 협조하는 식이 여기에 가까워요. OpenAI는 독일 위키 사고를 보안 침해가 아니라 오정렬 사례로 분류했다가, 현실 세계 영향이 커지자 공개 틀을 새로 만들겠다고 했어요. 모니터링·샌드박스·사람 확인 단계는 이 위험을 줄이려는 장치로 읽으면 돼요.",
       firstSeen: "2026-09-07"
+    }    ,
+    {
+      id: "lean",
+      term: "Lean",
+      en: "Lean",
+      tag: "model",
+      tagLabel: "모델",
+      text: "수학 증명을 코드처럼 적으면 컴퓨터가 빈틈없이 맞는지 확인해 주는 증명 보조기예요.",
+      detail: "Lean은 수학 문장을 프로그래밍 언어처럼 적고, 커널이 각 추론 단계가 규칙에 맞는지 검사하는 증명 보조기예요. 사람이 쓴 논문 초고와 달리, Lean에 올라간 증명은 ‘이 문장이 형식 체계 안에서 참이다’를 기계가 재현할 수 있어요. OpenAI·연구팀이 Navier–Stokes·Euler 결과를 Lean으로 형식화했다고 할 때, 그 말은 논문 PDF만이 아니라 기계 검증 가능한 증명 파일이 있다는 뜻에 가깝아요. 남는 숙제는 Lean에 적힌 목표가 우리가 말한 수학 문제와 같은지 사람이 확인하는 일이에요.",
+      firstSeen: "2026-09-09"
+    },
+    {
+      id: "c2pa",
+      term: "C2PA",
+      en: "C2PA",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "이미지나 영상이 어디서 어떻게 만들어졌는지 파일 안에 서명된 출처 기록을 남기는 표준이에요.",
+      detail: "C2PA(Coalition for Content Provenance and Authenticity)는 생성·편집 이력을 콘텐츠 파일 메타데이터로 묶어 서명하는 개방 표준이에요. ChatGPT Images가 C2PA 메타데이터와 보이지 않는 워터마크를 같이 쓴다고 할 때, 전자는 도구·모델·시간이 적힌 출처 티켓에 가깝고 후자는 픽셀에 심는 탐지 신호예요. 콘텐츠 팀에서는 ‘이 컷이 AI로 만들어졌는지’를 나중에 추적하거나 플랫폼 라벨과 맞출 때 이 두 장치를 같이 보시면 돼요. C2PA만으로 진실이 보장되진 않고, 서명을 지원하는 도구·뷰어가 있어야 읽혀요.",
+      firstSeen: "2026-09-09"
     }
+
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-08",
-    termIds: ["r2v", "i2v", "sandbox", "harness", "intelligence-index", "world-model"]
+    date: "2026-09-09",
+    termIds: ["r2v", "diarization", "short-drama", "lean", "multimodal", "open-weight"]
   };
 
   const TAGS = [

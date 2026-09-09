@@ -1,131 +1,194 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "candidates": [
     {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 11,
-      "sample": "· `/limit-reset` · fal H3 Max **50% 프로모 마감** · Anthropic IPO 로",
-      "brief_date": "2026-09-08"
-    },
-    {
-      "term": "GWM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 10,
-      "sample": "ilot/GitHub 모델 피커 · GWM Worlds 2 월드프롬프트 데모 · GLM-5.3-Flash 프로모",
-      "brief_date": "2026-09-08"
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 8,
+      "sample": "이후 약 24h · 필요 시 48h(Higgsfield 9/4 3D Jutsu 미등재 보완) · 모델·플랫폼 / 콘텐츠 / 마",
+      "brief_date": "2026-09-09"
     },
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
-      "hits": 10,
-      "sample": "Copilot Astra**, **Runway GWM Worlds 2**, **위키 사고 EU 사건 보고**가 축이에",
-      "brief_date": "2026-09-08"
+      "hits": 7,
+      "sample": "에 Firefly·Veo·Kling·Runway·Luma를 넣는 Generative Media Tool을 올렸고, Op",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "Kling",
+      "hint": "영상 생성 모델",
+      "hits": 6,
+      "sample": "e 타임라인에 Firefly·Veo·Kling·Runway·Luma를 넣는 Generative Media Tool을",
+      "brief_date": "2026-09-09"
     },
     {
       "term": "GPT",
       "hint": "설명 없는 대문자 약어",
-      "hits": 8,
-      "sample": "= Work·Codex(채팅 피커는 GPT-6 Pro)**, **Copilot Cowork/Studio·GitHu",
-      "brief_date": "2026-09-08"
+      "hits": 5,
+      "sample": "생성량이 ChatGPT Images·GPT-Image API 합쳐 **30억** 장을 넘는다고 적고, 2.0 대비",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "Veo",
+      "hint": "Google 영상 모델",
+      "hits": 5,
+      "sample": "miere 타임라인에 Firefly·Veo·Kling·Runway·Luma를 넣는 Generative Media",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 3,
+      "sample": "타**가 축이에요. > 전일 제외: fal H3 Max reference-to-video · Plus Astra=",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "APPSO",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "수 있냐”는 문항이 있다고 36Kr·APPSO가 전해요. 파라미터·공식 벤치는 비공개이고, 커뮤니티 쪽에 출력 **3",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "ASML",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "대공국이 신규로 들어오고, a16z·ASML·NVIDIA·Salesforce Ventures 등이 재참여해요. 자금",
+      "brief_date": "2026-09-09"
     },
     {
       "term": "GLM",
       "hint": "설명 없는 대문자 약어",
-      "hits": 5,
-      "sample": "orlds 2 월드프롬프트 데모 · GLM-5.3-Flash 프로모 9/9 마감 · 에이전트 인벤토리 초안 수집",
-      "brief_date": "2026-09-08"
+      "hits": 2,
+      "sample": "s 2 · 위키 EU 사건 보고 · GLM 50% 마감 카드 · Astra vs Fable · Stop Rogue",
+      "brief_date": "2026-09-09"
     },
     {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
-      "hits": 4,
-      "sample": "어요** - (사실) fal이 MiniMax H3를 후학습한 **H3 Max**에 **reference-to-vid",
-      "brief_date": "2026-09-08"
-    },
-    {
-      "term": "해상도(720p/1080p/4K)",
-      "hint": "출력 화질 단위",
-      "hits": 4,
-      "sample": ": 콘텐츠 · 크리에이티브 - 720p·24fps에 오디오까지 붙고, 아직 연구 미리보기라 공개 요금표는 없어",
-      "brief_date": "2026-09-08"
+      "term": "IPM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "강제 Euler·Boussinesq·IPM을 Lean으로 올렸고, OpenAI 연락을 성명으로 적었어요 (9/7–",
+      "brief_date": "2026-09-09"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
-      "hits": 3,
-      "sample": "Gemini 3.8 Flash · Midjourney alpha lightbox. > 스윕: Midjourney/Higgsf",
-      "brief_date": "2026-09-08"
+      "hits": 2,
+      "sample": "Muse Spark 모델 카드 · Midjourney lightbox · WeatherNext 3(9/3). > 스윕: Mi",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "NVIDIA",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "신규로 들어오고, a16z·ASML·NVIDIA·Salesforce Ventures 등이 재참여해요. 자금은 프론티어",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
+      "hits": 2,
+      "sample": "nce — Zhang Yiming이 Seedance 기반 실시간 공간 영상(월드 모델)을 지휘한다는 Bloomberg 보도",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "AVI",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "tabyte**)를 공개했어요. **AVI** 점수로 코딩·비코딩을 한 숫자로 순위 매기고, 비영리 웹 포털·AP",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "BFL",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "s E**) · fal/Runway/BFL/Seed(창 안 메이저 신규 없음) · Happy*/Newtake/Ma",
+      "brief_date": "2026-09-09"
     },
     {
       "term": "DNA",
       "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "Servola·Enterprise DNA 등이 전해요. OpenAI·Anthropic·Meta 에이전트 사고 보",
-      "brief_date": "2026-09-08"
+      "hits": 1,
+      "sample": "phaGenome Atlas로 인간 DNA 한 글자 변이 90억 개 예측을 풀었어요 (9/8)** - (사실",
+      "brief_date": "2026-09-09"
     },
     {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 2,
-      "sample": "x. > 스윕: Midjourney/Higgsfield(창 안 changelog 신규 없음) · fal(**히트: refere",
-      "brief_date": "2026-09-08"
-    },
-    {
-      "term": "NIST",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "에이전트 인벤토리·변조 방지 로그를 NIST에 맡기는 초안이 나왔어요 (9/3–5 · 미등재 보완)** - (",
-      "brief_date": "2026-09-08"
-    },
-    {
-      "term": "CISA",
+      "term": "EQT",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "T가 시행 후 **12개월** 안에 CISA와 함께 에이전트 보안 표준을 쓰고, 핵심은 조직 안 모든 AI 에이전트",
-      "brief_date": "2026-09-08"
+      "sample": "Electronics, 공동 리드는 EQT 운용 Scaleup Europe Fund와 기존 PSG Equity예요",
+      "brief_date": "2026-09-09"
     },
     {
-      "term": "GPAI",
+      "term": "GWM",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "AI Act 제55조는 체계적 위험 GPAI 제공자에게 중대 사고를 지체 없이 AI Office에 알리라고 해요.",
-      "brief_date": "2026-09-08"
+      "sample": "ilot/GitHub Astra · GWM Worlds 2 · 위키 EU 사건 보고 · GLM 50% 마감 카드",
+      "brief_date": "2026-09-09"
     },
     {
-      "term": "ISAC",
+      "term": "HSBC",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "유지보수자를 우선한다고 해요. MS-ISAC와 공공·물 부문 파일럿을 열고, Daybreak Defense Netw",
-      "brief_date": "2026-09-08"
+      "sample": "*125+**(Airbus·ASML·HSBC 등)를 들어요. 오픈웨이트·인프라·제품을 한 스택으로 묶는 주권 AI",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "IBC",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "obe가 **2026-09-08**(IBC 2026 앞)에 Premiere **Generative Media To",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "LLM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "nez-Zoroa 프로그램의 완성에 LLM(Claude·Codex·Sol, Astra는 초고·감사)을 썼다고 해요",
+      "brief_date": "2026-09-09"
     },
     {
       "term": "LTX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "nus / mona-lisa-1 / LTX-2.5 / Anthropic–Decart: 상태 변경 없음. - Gro",
-      "brief_date": "2026-09-08"
+      "sample": "nus / mona-lisa-1 / LTX-2.5 / Anthropic–Decart: 상태 변경 없음. Image",
+      "brief_date": "2026-09-09"
     },
     {
-      "term": "NVIDIA",
+      "term": "Luma",
+      "hint": "영상 생성",
+      "hits": 1,
+      "sample": "ng**, **Runway**, **Luma**를 고를 수 있어요. Generate Video는 타임라인·프로그램",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "PSG",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "l War·Clip Studio · NVIDIA→Hugging Face $12.93B · 위키 인정·공개 틀 약속 ·",
-      "brief_date": "2026-09-08"
+      "sample": "eup Europe Fund와 기존 PSG Equity예요. - (범위) Advent·BlackRock 운용",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "SFX",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "ce Audio(대화·음악·앰비언스·SFX 독립 제어), Separate Crosstalk(겹친 두 화자 분리),",
+      "brief_date": "2026-09-09"
     },
     {
       "term": "Sora",
       "hint": "OpenAI 영상 모델",
       "hits": 1,
-      "sample": "gelog: 창 안 신규 없음. - Sora Videos API 9/24 종료: 임박(~2.5주). 필요 시 다음",
-      "brief_date": "2026-09-08"
+      "sample": "가장자리. 밀도상 본문 미등재. - Sora Videos API 9/24 종료: 임박(~2주). - GLM-5.3-",
+      "brief_date": "2026-09-09"
     },
     {
       "term": "fps",
       "hint": "초당 프레임",
       "hits": 1,
-      "sample": "연속 **720p** 영상 **24 fps**와 오디오 **48,000 Hz**를 생성하고, 환경·피사체·스타일·",
-      "brief_date": "2026-09-08"
+      "sample": "약 **0.05**초·**20** fps 얘기가 나오지만 대변인은 논평하지 않았고 제품명·요금·해외 일정은 없어",
+      "brief_date": "2026-09-09"
     }
   ]
 }
