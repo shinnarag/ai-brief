@@ -2,164 +2,178 @@
   "date": "2026-09-10",
   "candidates": [
     {
-      "term": "Sora",
-      "hint": "OpenAI 영상 모델",
-      "hits": 19,
-      "sample": "pic의 사이버 평가 정렬 리포트와 Sora API 9/24 종료 카운트다운도 있어요. 실무 액션: V4.1 Fla",
-      "brief_date": "2026-09-10"
-    },
-    {
-      "term": "PHYMI",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 6,
-      "sample": "API 9/24 카운트다운**, **PHYMI 시드**가 축이에요. > 전일 제외: Premiere Generativ",
-      "brief_date": "2026-09-10"
-    },
-    {
-      "term": "IDG",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 5,
-      "sample": "꺼져요. 5. **PHYMI — IDG 주도로 약 $100M 시드를 받아 Physical Agent를 키워요*",
-      "brief_date": "2026-09-10"
-    },
-    {
       "term": "Suno",
       "hint": "음악 생성",
-      "hits": 4,
+      "hits": 15,
       "sample": "Generative Media · Suno v6 · Images 2.5 · Muse · V4.1 Flash 이틀",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "Sora",
+      "hint": "OpenAI 영상 모델",
+      "hits": 14,
+      "sample": "ash 새 단가·피크 시각 확인 · Sora Videos API 9/24 이전 이관 · Anthropic 사이버 평",
       "brief_date": "2026-09-10"
     },
     {
       "term": "METR",
       "hint": "설명 없는 대문자 약어",
-      "hits": 3,
-      "sample": "버 평가 사고 네 건의 정렬 평가와 METR 조사를 열었어요 (9/9)** - (사실) Anthropic이 *",
+      "hits": 5,
+      "sample": "I 패키지를 올린 장면을 공개하고, METR과 8주 독립 조사를 열어요. 3. **캘리포니아 — SB 813·AB",
       "brief_date": "2026-09-10"
     },
     {
-      "term": "시드(seed)",
-      "hint": "재현용 난수 시드",
-      "hits": 3,
-      "sample": "24 카운트다운**, **PHYMI 시드**가 축이에요. > 전일 제외: Premiere Generative M",
-      "brief_date": "2026-09-10"
-    },
-    {
-      "term": "AFP",
+      "term": "SSC",
       "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "을 장기 구매한다고 발표했다고 DW·AFP·Reuters가 전해요. EU 단일 투자로 최대라고 해요. Alphab",
+      "hits": 5,
+      "sample": "ecurity Committee**(SSC, 의장 Zico Kolter)에도 들어가요. SSC는 OpenAI 전체",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "IDG",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 3,
+      "sample": "· 비즈니스 1. **PHYMI — IDG 주도로 약 $100M 시드를 받은 피지컬 에이전트 스타트업이에요 (9/",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "PHYMI",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 3,
+      "sample": "# 📣 마케팅 · 비즈니스 1. **PHYMI — IDG 주도로 약 $100M 시드를 받은 피지컬 에이전트 스타트업이",
       "brief_date": "2026-09-10"
     },
     {
       "term": "BFL",
       "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "ggsfield/Runway/fal/BFL/Seed(메이저 신규 없음) · Adobe(전일 Generative M",
+      "hits": 2,
+      "sample": "최신 3D Jutsu 9/4) · BFL(창 안 신규 없음 · Upscale 8/20) · Seed blog(창",
       "brief_date": "2026-09-10"
     },
     {
-      "term": "CRM",
+      "term": "CAISI",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "Christiano는 NIST 산하 CAISI(Center for AI Standards and Innovation)",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 2,
+      "sample": "as/Alpha 9/2–9/3) · Higgsfield(창 안 신규 없음 · 최신 3D Jutsu 9/4) · BFL(창 안",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "Midjourney",
+      "hint": "이미지 생성 서비스",
+      "hits": 2,
+      "sample": "규 없음, v6 재탕 금지**) · Midjourney(창 안 신규 없음 · Collecting ideas/Alpha 9/2–",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "PBC",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "발표했어요. OpenAI Group PBC 이사회에는 **비투표 옵저버**로 앉고, Foundation의 **Sa",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 2,
+      "sample": "og(창 안 신규 없음) · fal/Runway(창 안 메이저 GA 미확인) · Adobe(Premiere 9/8 재탕",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 2,
+      "sample": "d blog(창 안 신규 없음) · fal/Runway(창 안 메이저 GA 미확인) · Adobe(Premiere",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "AISI",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "다 크다는 해석이 돌며, 에이전트가 CRM·워크플로·세무 자리를 잠식할 수 있다는 프레임이 재점화돼요. -",
+      "sample": "s 5·내부 연구 모델이에요. UK AISI가 보고한 Mythos 5 건은 이 글 범위 밖이라고 선을 그어요.",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "ARC",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "ent Research Center(ARC) 창립자예요. 2017–2021에는 OpenAI에서 정렬 연구를 이끌며",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "BMG",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "rcaRouter 등이 Warner·BMG·Believe 학습 데이터·구독 수익 공유를 풀어요. 제품 카드는 어제",
       "brief_date": "2026-09-10"
     },
     {
       "term": "FOSUN",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "전해요. Yunqi Partners·FOSUN RZ Capital·Glory Ventures와 Didi Global·",
+      "sample": "시드를 받았다고 전해요. Yunqi·FOSUN RZ·Glory·Didi·Hesai가 참여했고, 위챗 공식 글로 공개됐",
       "brief_date": "2026-09-10"
     },
     {
       "term": "GDP",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "ala에 신규 운영을 연다고 해요. GDP **€3.6B**, 일자리 **37,000**(상시 **7,000**)",
-      "brief_date": "2026-09-10"
-    },
-    {
-      "term": "GPT",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "4%** 빠져 이틀 연속 약세예요. GPT-6 Astra 출시가 전용 소프트웨어를 AI가 대체할 수 있다는 우려를",
-      "brief_date": "2026-09-10"
-    },
-    {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 1,
-      "sample": "ourney(창 안 신규 없음) · Higgsfield/Runway/fal/BFL/Seed(메이저 신규 없음) · Adobe(",
+      "sample": "해요. 건설기(2027–2028) GDP 연평균 **€3.6B**·일자리 **37,000+**(상시 약 **7,",
       "brief_date": "2026-09-10"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 1,
-      "sample": "이프는 오늘 Seedance·Veo·Kling 등 대체 모델로 프롬프트 이식 PoC만 잡아 두시면 돼요. 종료 후 4",
+      "sample": "기대는 팀은 오늘 Seedance·Kling·Veo·H3 같은 대체로 클립 한 번만 뽑아 포맷을 맞추면 돼요. 9/",
       "brief_date": "2026-09-10"
     },
     {
       "term": "LTX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "e/Manus/mona-lisa-1/LTX-2.5/Anthropic–Decart: 상태 변경 없음. - DeepS",
+      "sample": "nus / mona-lisa-1 / LTX-2.5 / Anthropic–Decart: 상태 변경 없음. - Mid",
       "brief_date": "2026-09-10"
     },
     {
-      "term": "MSOCK",
+      "term": "NIST",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "본문에 명시. - Intellect MSOCK(9/8–9/9): 콘텐츠 팀 렌즈 밖이라 본문 미등재. - Sora A",
-      "brief_date": "2026-09-10"
-    },
-    {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
-      "hits": 1,
-      "sample": "·가격 진전 없음, 재탕 금지) · Midjourney(창 안 신규 없음) · Higgsfield/Runway/fal/BFL/",
+      "sample": "- (범위) Christiano는 NIST 산하 CAISI(Center for AI Standards and In",
       "brief_date": "2026-09-10"
     },
     {
       "term": "NVIDIA",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "Amazon Ring 고객을 들고, NVIDIA Omniverse·Isaac 스택 연동을 언급해요. - 출처: [",
+      "sample": "해요. Amazon Ring 고객과 NVIDIA Omniverse/Isaac 파트너를 언급하는 보도도 있어요. 금액은",
       "brief_date": "2026-09-10"
     },
     {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
-      "hits": 1,
-      "sample": "신규 없음) · Higgsfield/Runway/fal/BFL/Seed(메이저 신규 없음) · Adobe(전일 Gene",
-      "brief_date": "2026-09-10"
-    },
-    {
-      "term": "SUPO",
+      "term": "RLHF",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "*15.5%** 올랐어요. 보안기관 SUPO는 외국계 데이터센터 보안 리스크를 경고했고, 총리 Orpo는 일자리·디",
+      "sample": "OpenAI에서 정렬 연구를 이끌며 RLHF에 기여했다고 해요. CAISI 역할에서는 OpenAI 관련 안건과 모델",
       "brief_date": "2026-09-10"
     },
     {
       "term": "Seedance",
       "hint": "ByteDance 영상 생성 모델",
       "hits": 1,
-      "sample": "ra 의존 숏폼·광고 파이프는 오늘 Seedance·Veo·Kling 등 대체 모델로 프롬프트 이식 PoC만 잡아 두시면",
+      "sample": "s API에 아직 기대는 팀은 오늘 Seedance·Kling·Veo·H3 같은 대체로 클립 한 번만 뽑아 포맷을 맞추면",
       "brief_date": "2026-09-10"
     },
     {
       "term": "Veo",
       "hint": "Google 영상 모델",
       "hits": 1,
-      "sample": "광고 파이프는 오늘 Seedance·Veo·Kling 등 대체 모델로 프롬프트 이식 PoC만 잡아 두시면 돼요.",
-      "brief_date": "2026-09-10"
-    },
-    {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 1,
-      "sample": "· Higgsfield/Runway/fal/BFL/Seed(메이저 신규 없음) · Adobe(전일 Generati",
+      "sample": "은 오늘 Seedance·Kling·Veo·H3 같은 대체로 클립 한 번만 뽑아 포맷을 맞추면 돼요. 9/9 내부",
       "brief_date": "2026-09-10"
     }
   ]

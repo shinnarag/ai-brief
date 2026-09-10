@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T10:49:01",
+  "generated_at": "2026-09-10T10:51:44",
   "platform": "AI Pulse",
   "count": 40,
   "domains": {
@@ -12,20 +12,20 @@
   },
   "domain_counts": {
     "models": 220,
-    "infra": 84,
+    "infra": 83,
+    "policy": 64,
     "creative": 125,
-    "marketing": 117,
-    "agents": 123,
-    "policy": 62
+    "marketing": 116,
+    "agents": 126
   },
   "companies": [
     [
       "OpenAI",
-      112
+      141
     ],
     [
       "ChatGPT",
-      67
+      70
     ],
     [
       "Anthropic",
@@ -37,31 +37,35 @@
     ],
     [
       "Claude",
-      52
-    ],
-    [
-      "DeepSeek",
-      43
+      45
     ],
     [
       "Meta",
-      42
+      43
+    ],
+    [
+      "DeepSeek",
+      37
     ],
     [
       "Google",
-      32
+      29
     ],
     [
       "Runway",
-      26
+      27
     ],
     [
-      "Sora",
-      25
+      "Hugging Face",
+      26
     ],
     [
       "Copilot",
       25
+    ],
+    [
+      "Midjourney",
+      23
     ],
     [
       "GitHub",
@@ -72,24 +76,20 @@
       23
     ],
     [
-      "Midjourney",
+      "Sora",
       22
-    ],
-    [
-      "Hugging Face",
-      21
     ],
     [
       "Adobe",
       19
     ],
     [
-      "Gemini",
-      17
+      "Microsoft",
+      18
     ],
     [
-      "Microsoft",
-      16
+      "Gemini",
+      18
     ],
     [
       "Kling",
@@ -100,12 +100,12 @@
       11
     ],
     [
-      "Salesforce",
-      10
-    ],
-    [
       "Luma",
       9
+    ],
+    [
+      "Azure",
+      8
     ],
     [
       "Firefly",
@@ -117,10 +117,6 @@
     ],
     [
       "ByteDance",
-      6
-    ],
-    [
-      "Azure",
       6
     ],
     [
@@ -138,6 +134,10 @@
     [
       "Samsung",
       4
+    ],
+    [
+      "Salesforce",
+      2
     ],
     [
       "Apple",
@@ -158,43 +158,44 @@
     {
       "date": "2026-09-10",
       "title": "AI Daily Brief — 2026-09-10 (최근 24h)",
-      "theme": "Flash가 Pro를 삼키고, 핀란드에 원전 계약이 붙었어요",
-      "theme_blurb": "DeepSeek가 V4.1 Flash를 공식으로 올리고 Pro 트래픽을 Flash 요금으로 돌리며, Google은 핀란드에 €13B 인프라와 첫 해외 원전 구매계약을 맺었어요. 같은 창에 Anthropic의 사이버 평가 정렬 리포트와 Sora API 9/24 종료 카운트다운도 있어요.",
-      "edition_title": "Flash가 Pro를 삼키고, 핀란드에 원전 계약이 붙었어요",
-      "edition_blurb": "DeepSeek가 V4.1 Flash를 공식으로 올리고 Pro 트래픽을 Flash 요금으로 돌리며, Google은 핀란드에 €13B 인프라와 첫 해외 원전 구매계약을 맺었어요. 같은 창에 Anthropic의 사이버 평가 정렬 리포트와 Sora API 9/24 종료 카운트다운도 있어요.",
+      "theme": "DeepSeek가 Pro 요청을 Flash로 넘기고, 캘리포니아에는 AI 감사 틀이 생겼어요",
+      "theme_blurb": "DeepSeek V4.1 Flash가 정식으로 오르며 deepseek-v4-pro 호출도 Flash로 라우팅·Flash 요금이 되고, Anthropic은 사이버 평가 4건의 오정렬 분석을 공개했어요. 같은 창에 캘리포니아 SB 813·AB 1405, OpenAI 에이전트 추가 사이트 후속, Google 핀란드 €13B·원자력 PPA도 있어요.",
+      "edition_title": "DeepSeek가 Pro 요청을 Flash로 넘기고, 캘리포니아에는 AI 감사 틀이 생겼어요",
+      "edition_blurb": "DeepSeek V4.1 Flash가 정식으로 오르며 deepseek-v4-pro 호출도 Flash로 라우팅·Flash 요금이 되고, Anthropic은 사이버 평가 4건의 오정렬 분석을 공개했어요. 같은 창에 캘리포니아 SB 813·AB 1405, OpenAI 에이전트 추가 사이트 후속, Google 핀란드 €13B·원자력 PPA도 있어요.",
       "url": "brief/2026-09-10.html",
-      "excerpt": "오늘은 DeepSeek V4.1 Flash GA·Pro 라우팅, Anthropic 사이버 정렬 평가, Google 핀란드 €13B·원전, Sora API 9/24 카운트다운, PHYMI 시드가 축이에요.",
+      "excerpt": "오늘은 DeepSeek V4.1 Flash GA·Pro 무음 라우팅·Flash 단가 인하, Anthropic 사이버 사고 오정렬 평가, 캘리포니아 SB 813·AB 1405, OpenAI 에이전트 추가 사이트 후속, Sora API 9/24 종료 임박이 축이에요.",
       "top5": [
-        "DeepSeek V4.1 Flash — Pro 트래픽을 Flash로 돌리고 단가도 다시 깎았어요",
-        "Anthropic — Claude 사이버 평가 사고 네 건의 정렬 평가를 공개했어요",
-        "Google — 핀란드에 €13B AI 인프라와 첫 해외 원전 구매계약을 걸었어요",
-        "Sora API — 9/24 종료까지 약 2주, 마이그레이션 창이 닫혀 가요",
-        "PHYMI — IDG 주도로 약 $100M 시드를 받아 Physical Agent를 키워요"
+        "DeepSeek V4.1 Flash — 정식으로 오르고, Pro 요청은 Flash로 넘어가요",
+        "Anthropic — 사이버 평가 4건에서 편향 추론·무모함을 오정렬로 정리했어요",
+        "캘리포니아 — SB 813·AB 1405로 AI 독립 검증·감사인 등록 틀을 만들었어요",
+        "OpenAI 에이전트 후속 — 독일 위키 말고도 10곳 넘는 사이트에 흔적이 더 나왔어요",
+        "Sora Videos API — 9/24에 꺼지니, 영상 파이프는 이번 주 안에 옮겨 보시면 좋아요"
       ],
       "domains": [
         "agents",
         "creative",
         "infra",
         "marketing",
-        "models"
+        "models",
+        "policy"
       ],
       "companies": [
+        "OpenAI",
         "DeepSeek",
         "Sora",
         "Anthropic",
         "Google",
-        "OpenAI",
-        "Claude",
-        "Salesforce",
+        "Hugging Face",
+        "ChatGPT",
         "NVIDIA",
-        "GitHub",
-        "Amazon",
-        "Kling",
         "Midjourney",
-        "ByteDance",
-        "Mistral",
+        "Microsoft",
+        "Claude",
+        "Amazon",
         "Runway",
-        "Adobe"
+        "GitHub",
+        "Kling",
+        "Azure"
       ],
       "has_rumor": false,
       "source": "md",
@@ -231,8 +232,8 @@
         "DeepSeek",
         "Meta",
         "Mistral",
-        "Google",
         "Runway",
+        "Google",
         "Firefly",
         "Kling",
         "Anthropic",
@@ -281,8 +282,8 @@
         "Midjourney",
         "NVIDIA",
         "Claude",
-        "Meta",
         "Grok",
+        "Meta",
         "Hugging Face",
         "Gemini",
         "Sora"
@@ -418,8 +419,8 @@
         "Canva",
         "DeepMind",
         "Runway",
-        "Kling",
         "Apple",
+        "Kling",
         "Luma",
         "Sora",
         "xAI"
@@ -502,18 +503,18 @@
         "DeepSeek",
         "Apple",
         "ChatGPT",
-        "Google",
         "Runway",
+        "Google",
         "Hugging Face",
-        "GitHub",
         "Claude",
+        "GitHub",
         "Anthropic",
         "Midjourney",
         "Grok",
         "DeepMind",
         "Gemini",
         "Kling",
-        "Meta"
+        "Luma"
       ],
       "has_rumor": false,
       "source": "md",
@@ -641,8 +642,8 @@
         "NVIDIA",
         "Google",
         "GitHub",
-        "IBM",
         "xAI",
+        "IBM",
         "Anthropic",
         "DeepSeek",
         "Runway",
@@ -692,8 +693,8 @@
         "Midjourney",
         "GitHub",
         "Gemini",
-        "Meta",
-        "Luma"
+        "Luma",
+        "Meta"
       ],
       "has_rumor": true,
       "source": "md",
@@ -818,14 +819,14 @@
         "Anthropic",
         "DeepSeek",
         "NVIDIA",
-        "Salesforce",
         "Midjourney",
+        "Salesforce",
         "Copilot",
-        "Google",
-        "GitHub",
+        "Amazon",
         "Runway",
-        "Gemini",
-        "Amazon"
+        "GitHub",
+        "Google",
+        "Gemini"
       ],
       "has_rumor": false,
       "source": "md",
@@ -906,8 +907,8 @@
         "ElevenLabs",
         "Runway",
         "Grok",
-        "Firefly",
         "Copilot",
+        "Firefly",
         "Kling"
       ],
       "has_rumor": false,
@@ -1180,8 +1181,8 @@
         "ByteDance",
         "ElevenLabs",
         "Midjourney",
-        "DeepMind",
-        "DeepSeek"
+        "DeepSeek",
+        "DeepMind"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1213,8 +1214,8 @@
       ],
       "companies": [
         "OpenAI",
-        "Google",
         "Claude",
+        "Google",
         "Meta",
         "Anthropic",
         "GitHub",
@@ -1447,12 +1448,12 @@
         "NVIDIA",
         "Claude",
         "Hugging Face",
-        "Google",
         "GitHub",
+        "Google",
         "Oracle",
         "Kling",
-        "Runway",
         "Amazon",
+        "Runway",
         "Meta",
         "ElevenLabs"
       ],
@@ -1542,8 +1543,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Meta",
-        "Luma"
+        "Luma",
+        "Meta"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1587,8 +1588,8 @@
         "ElevenLabs",
         "Midjourney",
         "Microsoft",
-        "Google",
-        "Zapier"
+        "Zapier",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1633,8 +1634,8 @@
         "Luma",
         "Anthropic",
         "Copilot",
-        "Google",
-        "Amazon"
+        "Amazon",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1765,8 +1766,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Samsung"
       ],
       "has_rumor": false,
@@ -1844,8 +1845,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,

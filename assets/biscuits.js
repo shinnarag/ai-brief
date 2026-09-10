@@ -664,6 +664,19 @@
   <text x="277" y="74" text-anchor="middle" fill="#34d399" font-size="10" font-family="system-ui">장기 전력 구매</text>
 </svg>`,
 
+      "ivo": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f4f1ea"/>
+  <rect x="24" y="26" width="96" height="68" rx="10" fill="#fff" stroke="#8b5e34" stroke-width="2"/>
+  <text x="72" y="56" text-anchor="middle" fill="#8b5e34" font-size="12" font-weight="700" font-family="system-ui">모델</text>
+  <text x="72" y="76" text-anchor="middle" fill="#a88966" font-size="10" font-family="system-ui">개발사</text>
+  <path d="M130 60 H168" stroke="#8b5e34" stroke-width="2"/>
+  <polygon points="168,55 180,60 168,65" fill="#8b5e34"/>
+  <rect x="188" y="26" width="148" height="68" rx="10" fill="#fff7ed" stroke="#c2410c" stroke-width="2"/>
+  <text x="262" y="52" text-anchor="middle" fill="#c2410c" font-size="13" font-weight="700" font-family="system-ui">IVO</text>
+  <text x="262" y="74" text-anchor="middle" fill="#9a3412" font-size="10" font-family="system-ui">독립 검증 · 감사</text>
+</svg>`,
+
     };
 
   const BISCUITS = [
@@ -1216,13 +1229,24 @@
       text: "발전소에서 나오는 전기를 몇 년 단위로 미리 사 두는 장기 구매 계약이에요.",
       detail: "PPA(Power Purchase Agreement, 전력 구매 계약)는 데이터센터·클라우드 사업자가 원전·풍력·태양광 사업자와 맺는 장기 전력 거래예요. Google이 핀란드 Loviisa 원전 출력 절반을 22년 산다고 할 때, 그 뼈대가 PPA예요. AI 캡엑스 뉴스에서 ‘자체 전력 확보’와 같이 나오면, 요금·가동 기간·그리드 부담을 가르는 계약 조건으로 보시면 돼요.",
       firstSeen: "2026-09-10"
+    }    ,
+    {
+      id: "ivo",
+      term: "IVO",
+      en: "Independent Verification Organization",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "주가 지정한, 개발사와 따로 떨어져 AI 시스템 위험을 평가하는 독립 검증 기관이에요.",
+      detail: "IVO(Independent Verification Organization)는 캘리포니아 SB 813이 도입하는 독립 검증 기관이에요. AI를 만든 회사가 아니라 지정된 제3자가 위험·준수 여부를 평가하고, 그 근거가 되는 지표·방법론을 밝히도록 해요. AB 1405의 감사인 등록부와 짝을 이뤄, 개발사가 숙제를 스스로 채점하지 않게 하려는 틀로 읽으면 돼요. 당장 모든 모델에 의무 감사가 붙는 뜻은 아니고, 지정·등록 인프라를 먼저 까는 단계예요.",
+      firstSeen: "2026-09-10"
     }
+
 
   ];
 
   const LATEST_BRIEF = {
     date: "2026-09-10",
-    termIds: ["agent", "ppa", "cot", "multimodal", "vla", "ctf"]
+    termIds: ["upscale", "ppa", "cot", "multimodal", "vla", "misalignment"]
   };
 
   const TAGS = [
