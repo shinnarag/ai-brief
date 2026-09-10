@@ -626,6 +626,43 @@
   <text x="275" y="52" text-anchor="middle" fill="#c2410c" font-size="12" font-weight="700" font-family="system-ui">C2PA</text>
   <text x="275" y="72" text-anchor="middle" fill="#ea580c" font-size="10" font-family="system-ui">출처 메타</text>
 </svg>`,
+      "ctf": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fef2f2"/>
+  <rect x="28" y="28" width="120" height="64" rx="12" fill="#fff" stroke="#b91c1c" stroke-width="2"/>
+  <text x="88" y="56" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="700" font-family="system-ui">문제 풀기</text>
+  <text x="88" y="74" text-anchor="middle" fill="#f87171" font-size="10" font-family="system-ui">해킹 연습</text>
+  <path d="M158 60 H198" stroke="#b91c1c" stroke-width="3"/>
+  <polygon points="198,54 212,60 198,66" fill="#b91c1c"/>
+  <rect x="220" y="28" width="112" height="64" rx="14" fill="#b91c1c"/>
+  <text x="276" y="56" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="system-ui">CTF</text>
+  <text x="276" y="74" text-anchor="middle" fill="#fecaca" font-size="10" font-family="system-ui">깃발 찾기</text>
+</svg>`,
+      "vla": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef2ff"/>
+  <rect x="16" y="36" width="88" height="48" rx="10" fill="#fff" stroke="#4f46e5" stroke-width="2"/>
+  <text x="60" y="65" text-anchor="middle" fill="#4f46e5" font-size="11" font-weight="700" font-family="system-ui">Vision</text>
+  <path d="M110 60 H132" stroke="#4f46e5" stroke-width="2"/>
+  <rect x="138" y="36" width="88" height="48" rx="10" fill="#fff" stroke="#4f46e5" stroke-width="2"/>
+  <text x="182" y="65" text-anchor="middle" fill="#4f46e5" font-size="11" font-weight="700" font-family="system-ui">Language</text>
+  <path d="M232 60 H254" stroke="#4f46e5" stroke-width="2"/>
+  <rect x="260" y="30" width="84" height="60" rx="12" fill="#4f46e5"/>
+  <text x="302" y="56" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">Action</text>
+  <text x="302" y="74" text-anchor="middle" fill="#c7d2fe" font-size="10" font-family="system-ui">로봇 행동</text>
+</svg>`,
+      "ppa": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#ecfdf5"/>
+  <rect x="24" y="28" width="120" height="64" rx="12" fill="#059669"/>
+  <text x="84" y="56" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">발전소</text>
+  <text x="84" y="74" text-anchor="middle" fill="#a7f3d0" font-size="10" font-family="system-ui">원전 · 재생</text>
+  <path d="M154 60 H196" stroke="#059669" stroke-width="3"/>
+  <polygon points="196,54 210,60 196,66" fill="#059669"/>
+  <rect x="218" y="28" width="118" height="64" rx="12" fill="#fff" stroke="#059669" stroke-width="2"/>
+  <text x="277" y="56" text-anchor="middle" fill="#047857" font-size="13" font-weight="700" font-family="system-ui">PPA</text>
+  <text x="277" y="74" text-anchor="middle" fill="#34d399" font-size="10" font-family="system-ui">장기 전력 구매</text>
+</svg>`,
 
     };
 
@@ -1149,13 +1186,43 @@
       text: "이미지나 영상이 어디서 어떻게 만들어졌는지 파일 안에 서명된 출처 기록을 남기는 표준이에요.",
       detail: "C2PA(Coalition for Content Provenance and Authenticity)는 생성·편집 이력을 콘텐츠 파일 메타데이터로 묶어 서명하는 개방 표준이에요. ChatGPT Images가 C2PA 메타데이터와 보이지 않는 워터마크를 같이 쓴다고 할 때, 전자는 도구·모델·시간이 적힌 출처 티켓에 가깝고 후자는 픽셀에 심는 탐지 신호예요. 콘텐츠 팀에서는 ‘이 컷이 AI로 만들어졌는지’를 나중에 추적하거나 플랫폼 라벨과 맞출 때 이 두 장치를 같이 보시면 돼요. C2PA만으로 진실이 보장되진 않고, 서명을 지원하는 도구·뷰어가 있어야 읽혀요.",
       firstSeen: "2026-09-09"
+    },
+    {
+      id: "ctf",
+      term: "CTF",
+      en: "Capture the Flag",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "해킹·보안 실력을 겨루려고 숨긴 깃발(비밀값)을 찾아내는 연습 경기예요.",
+      detail: "CTF(Capture the Flag)는 보안·사이버 평가에서 쓰는 문제 풀이 형식이에요. 모델에게 가상 회사 서버에서 비밀 문자열(깃발)을 찾으라고 시키면, 침투·권한 상승·패킷 분석 같은 단계를 밟아요. Anthropic 정렬 리포트처럼 평가 환경이 실제 인터넷과 섞이면, CTF 과제가 범위 밖 시스템을 건드리는 사고로 이어질 수 있어요. 콘텐츠 팀보다는 에이전트 안전·레드팀 맥락에서 자주 보여요.",
+      firstSeen: "2026-09-10"
+    },
+    {
+      id: "vla",
+      term: "VLA",
+      en: "Vision-Language-Action",
+      tag: "model",
+      tagLabel: "모델",
+      text: "보고(Vision), 이해하고(Language), 팔·바퀴로 움직이는(Action) 로봇용 모델 구조예요.",
+      detail: "VLA(Vision-Language-Action)는 카메라 입력과 언어 지시를 받아 모터·그리퍼 같은 행동을 내는 체화 AI 모델 계열이에요. 화면 위 에이전트가 클릭만 하는 것과 달리, 실제 공간에서 물건을 집거나 이동하는 쪽이에요. PHYMI 같은 스타트업이 Physical Agent·VLA를 말할 때, 인지와 행동을 한 파이프로 묶겠다는 뜻에 가깝아요.",
+      firstSeen: "2026-09-10"
+    },
+    {
+      id: "ppa",
+      term: "PPA",
+      en: "Power Purchase Agreement",
+      tag: "work",
+      tagLabel: "활용",
+      text: "발전소에서 나오는 전기를 몇 년 단위로 미리 사 두는 장기 구매 계약이에요.",
+      detail: "PPA(Power Purchase Agreement, 전력 구매 계약)는 데이터센터·클라우드 사업자가 원전·풍력·태양광 사업자와 맺는 장기 전력 거래예요. Google이 핀란드 Loviisa 원전 출력 절반을 22년 산다고 할 때, 그 뼈대가 PPA예요. AI 캡엑스 뉴스에서 ‘자체 전력 확보’와 같이 나오면, 요금·가동 기간·그리드 부담을 가르는 계약 조건으로 보시면 돼요.",
+      firstSeen: "2026-09-10"
     }
 
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-09",
-    termIds: ["r2v", "diarization", "short-drama", "multimodal", "lean", "open-weight"]
+    date: "2026-09-10",
+    termIds: ["agent", "ppa", "cot", "multimodal", "vla", "ctf"]
   };
 
   const TAGS = [

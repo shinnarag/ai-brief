@@ -1,229 +1,166 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "candidates": [
+    {
+      "term": "Sora",
+      "hint": "OpenAI 영상 모델",
+      "hits": 19,
+      "sample": "pic의 사이버 평가 정렬 리포트와 Sora API 9/24 종료 카운트다운도 있어요. 실무 액션: V4.1 Fla",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "PHYMI",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 6,
+      "sample": "API 9/24 카운트다운**, **PHYMI 시드**가 축이에요. > 전일 제외: Premiere Generativ",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "IDG",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 5,
+      "sample": "꺼져요. 5. **PHYMI — IDG 주도로 약 $100M 시드를 받아 Physical Agent를 키워요*",
+      "brief_date": "2026-09-10"
+    },
     {
       "term": "Suno",
       "hint": "음악 생성",
-      "hits": 18,
-      "sample": "Premiere 타임라인 생성기와 Suno v6가 같은 창에 겹쳤고, Images 2.5·Muse도 열렸어요 주제",
-      "brief_date": "2026-09-09"
-    },
-    {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 8,
-      "sample": "이후 약 24h · 필요 시 48h(Higgsfield 9/4 3D Jutsu 미등재 보완 · Suno v6 9/9 백필) ·",
-      "brief_date": "2026-09-09"
-    },
-    {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
-      "hits": 7,
-      "sample": "에 Firefly·Veo·Kling·Runway·Luma를 넣는 Generative Media Tool을 올렸고, Su",
-      "brief_date": "2026-09-09"
-    },
-    {
-      "term": "Kling",
-      "hint": "영상 생성 모델",
-      "hits": 6,
-      "sample": "emiere에 Firefly·Veo·Kling·Runway·Luma를 넣는 Generative Media Tool을",
-      "brief_date": "2026-09-09"
-    },
-    {
-      "term": "GPT",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 5,
-      "sample": "생성량이 ChatGPT Images·GPT-Image API 합쳐 **30억** 장을 넘는다고 적고, 2.0 대비",
-      "brief_date": "2026-09-09"
-    },
-    {
-      "term": "Veo",
-      "hint": "Google 영상 모델",
-      "hits": 5,
-      "sample": "가 Premiere에 Firefly·Veo·Kling·Runway·Luma를 넣는 Generative Media",
-      "brief_date": "2026-09-09"
-    },
-    {
-      "term": "BMG",
-      "hint": "설명 없는 대문자 약어",
       "hits": 4,
-      "sample": "**Suno v6 — Warner·BMG·Believe와 만든 라이선스 세대가 플랫폼 전체를 갈아타요 (9/9",
-      "brief_date": "2026-09-09"
+      "sample": "Generative Media · Suno v6 · Images 2.5 · Muse · V4.1 Flash 이틀",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
+      "term": "METR",
+      "hint": "설명 없는 대문자 약어",
       "hits": 3,
-      "sample": "타**가 축이에요. > 전일 제외: fal H3 Max reference-to-video · Plus Astra=",
-      "brief_date": "2026-09-09"
+      "sample": "버 평가 사고 네 건의 정렬 평가와 METR 조사를 열었어요 (9/9)** - (사실) Anthropic이 *",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "APPSO",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "수 있냐”는 문항이 있다고 36Kr·APPSO가 전해요. 파라미터·공식 벤치는 비공개이고, 커뮤니티 쪽에 출력 **3",
-      "brief_date": "2026-09-09"
+      "term": "시드(seed)",
+      "hint": "재현용 난수 시드",
+      "hits": 3,
+      "sample": "24 카운트다운**, **PHYMI 시드**가 축이에요. > 전일 제외: Premiere Generative M",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "ASML",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "대공국이 신규로 들어오고, a16z·ASML·NVIDIA·Salesforce Ventures 등이 재참여해요. 자금",
-      "brief_date": "2026-09-09"
-    },
-    {
-      "term": "GLM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "s 2 · 위키 EU 사건 보고 · GLM 50% 마감 카드 · Astra vs Fable · Stop Rogue",
-      "brief_date": "2026-09-09"
-    },
-    {
-      "term": "IPM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "강제 Euler·Boussinesq·IPM을 Lean으로 올렸고, OpenAI 연락을 성명으로 적었어요 (9/7–",
-      "brief_date": "2026-09-09"
-    },
-    {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
-      "hits": 2,
-      "sample": "Muse Spark 모델 카드 · Midjourney lightbox · WeatherNext 3(9/3). > 스윕: Mi",
-      "brief_date": "2026-09-09"
-    },
-    {
-      "term": "NVIDIA",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "신규로 들어오고, a16z·ASML·NVIDIA·Salesforce Ventures 등이 재참여해요. 자금은 프론티어",
-      "brief_date": "2026-09-09"
-    },
-    {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 2,
-      "sample": "nce — Zhang Yiming이 Seedance 기반 실시간 공간 영상(월드 모델)을 지휘한다는 Bloomberg 보도",
-      "brief_date": "2026-09-09"
-    },
-    {
-      "term": "AVI",
+      "term": "AFP",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "tabyte**)를 공개했어요. **AVI** 점수로 코딩·비코딩을 한 숫자로 순위 매기고, 비영리 웹 포털·AP",
-      "brief_date": "2026-09-09"
+      "sample": "을 장기 구매한다고 발표했다고 DW·AFP·Reuters가 전해요. EU 단일 투자로 최대라고 해요. Alphab",
+      "brief_date": "2026-09-10"
     },
     {
       "term": "BFL",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "s E**) · fal/Runway/BFL/Seed(창 안 메이저 신규 없음) · Happy*/Newtake/Ma",
-      "brief_date": "2026-09-09"
+      "sample": "ggsfield/Runway/fal/BFL/Seed(메이저 신규 없음) · Adobe(전일 Generative M",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "BGM",
+      "term": "CRM",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "달이라고 전해요. - (영향) BGM·숏폼 음악·브랜드 스팅을 Suno로 돌리던 팀은 오늘 Pro면 v6와",
-      "brief_date": "2026-09-09"
+      "sample": "다 크다는 해석이 돌며, 에이전트가 CRM·워크플로·세무 자리를 잠식할 수 있다는 프레임이 재점화돼요. -",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "DNA",
+      "term": "FOSUN",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "phaGenome Atlas로 인간 DNA 한 글자 변이 90억 개 예측을 풀었어요 (9/8)** - (사실",
-      "brief_date": "2026-09-09"
+      "sample": "전해요. Yunqi Partners·FOSUN RZ Capital·Glory Ventures와 Didi Global·",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "EQT",
+      "term": "GDP",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "Electronics, 공동 리드는 EQT 운용 Scaleup Europe Fund와 기존 PSG Equity예요",
-      "brief_date": "2026-09-09"
+      "sample": "ala에 신규 운영을 연다고 해요. GDP **€3.6B**, 일자리 **37,000**(상시 **7,000**)",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "GWM",
+      "term": "GPT",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "ilot/GitHub Astra · GWM Worlds 2 · 위키 EU 사건 보고 · GLM 50% 마감 카드",
-      "brief_date": "2026-09-09"
+      "sample": "4%** 빠져 이틀 연속 약세예요. GPT-6 Astra 출시가 전용 소프트웨어를 AI가 대체할 수 있다는 우려를",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "HSBC",
-      "hint": "설명 없는 대문자 약어",
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
-      "sample": "*125+**(Airbus·ASML·HSBC 등)를 들어요. 오픈웨이트·인프라·제품을 한 스택으로 묶는 주권 AI",
-      "brief_date": "2026-09-09"
+      "sample": "ourney(창 안 신규 없음) · Higgsfield/Runway/fal/BFL/Seed(메이저 신규 없음) · Adobe(",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "IBC",
-      "hint": "설명 없는 대문자 약어",
+      "term": "Kling",
+      "hint": "영상 생성 모델",
       "hits": 1,
-      "sample": "obe가 **2026-09-08**(IBC 2026 앞)에 Premiere **Generative Media To",
-      "brief_date": "2026-09-09"
-    },
-    {
-      "term": "LLM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "nez-Zoroa 프로그램의 완성에 LLM(Claude·Codex·Sol, Astra는 초고·감사)을 썼다고 해요",
-      "brief_date": "2026-09-09"
+      "sample": "이프는 오늘 Seedance·Veo·Kling 등 대체 모델로 프롬프트 이식 PoC만 잡아 두시면 돼요. 종료 후 4",
+      "brief_date": "2026-09-10"
     },
     {
       "term": "LTX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "nus / mona-lisa-1 / LTX-2.5 / Anthropic–Decart: 상태 변경 없음. Image",
-      "brief_date": "2026-09-09"
+      "sample": "e/Manus/mona-lisa-1/LTX-2.5/Anthropic–Decart: 상태 변경 없음. - DeepS",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "Luma",
-      "hint": "영상 생성",
-      "hits": 1,
-      "sample": "ng**, **Runway**, **Luma**를 고를 수 있어요. Generate Video는 타임라인·프로그램",
-      "brief_date": "2026-09-09"
-    },
-    {
-      "term": "PSG",
+      "term": "MSOCK",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "eup Europe Fund와 기존 PSG Equity예요. - (범위) Advent·BlackRock 운용",
-      "brief_date": "2026-09-09"
+      "sample": "본문에 명시. - Intellect MSOCK(9/8–9/9): 콘텐츠 팀 렌즈 밖이라 본문 미등재. - Sora A",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "SFX",
+      "term": "Midjourney",
+      "hint": "이미지 생성 서비스",
+      "hits": 1,
+      "sample": "·가격 진전 없음, 재탕 금지) · Midjourney(창 안 신규 없음) · Higgsfield/Runway/fal/BFL/",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "NVIDIA",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "ce Audio(대화·음악·앰비언스·SFX 독립 제어), Separate Crosstalk(겹친 두 화자 분리),",
-      "brief_date": "2026-09-09"
+      "sample": "Amazon Ring 고객을 들고, NVIDIA Omniverse·Isaac 스택 연동을 언급해요. - 출처: [",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "Sora",
-      "hint": "OpenAI 영상 모델",
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
       "hits": 1,
-      "sample": "가장자리. 밀도상 본문 미등재. - Sora Videos API 9/24 종료: 임박(~2주). - GLM-5.3-",
-      "brief_date": "2026-09-09"
+      "sample": "신규 없음) · Higgsfield/Runway/fal/BFL/Seed(메이저 신규 없음) · Adobe(전일 Gene",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "UMG",
+      "term": "SUPO",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "chCrunch 맥락으로는 Sony·UMG 소송이 남아 있고, 발표 전날 YouTube 학습을 인정했으며, WMG",
-      "brief_date": "2026-09-09"
+      "sample": "*15.5%** 올랐어요. 보안기관 SUPO는 외국계 데이터센터 보안 리스크를 경고했고, 총리 Orpo는 일자리·디",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "WMG",
-      "hint": "설명 없는 대문자 약어",
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
       "hits": 1,
-      "sample": "YouTube 학습을 인정했으며, WMG는 이전에 합의·BMG 딜은 지난달이라고 전해요. - (영향) BG",
-      "brief_date": "2026-09-09"
+      "sample": "ra 의존 숏폼·광고 파이프는 오늘 Seedance·Veo·Kling 등 대체 모델로 프롬프트 이식 PoC만 잡아 두시면",
+      "brief_date": "2026-09-10"
     },
     {
-      "term": "fps",
-      "hint": "초당 프레임",
+      "term": "Veo",
+      "hint": "Google 영상 모델",
       "hits": 1,
-      "sample": "약 **0.05**초·**20** fps 얘기가 나오지만 대변인은 논평하지 않았고 제품명·요금·해외 일정은 없어",
-      "brief_date": "2026-09-09"
+      "sample": "광고 파이프는 오늘 Seedance·Veo·Kling 등 대체 모델로 프롬프트 이식 PoC만 잡아 두시면 돼요.",
+      "brief_date": "2026-09-10"
+    },
+    {
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 1,
+      "sample": "· Higgsfield/Runway/fal/BFL/Seed(메이저 신규 없음) · Adobe(전일 Generati",
+      "brief_date": "2026-09-10"
     }
   ]
 }
