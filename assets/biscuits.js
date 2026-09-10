@@ -1155,7 +1155,7 @@
 
   const LATEST_BRIEF = {
     date: "2026-09-09",
-    termIds: ["r2v", "diarization", "short-drama", "lean", "multimodal", "open-weight"]
+    termIds: ["r2v", "diarization", "short-drama", "multimodal", "lean", "open-weight"]
   };
 
   const TAGS = [

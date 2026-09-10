@@ -2,24 +2,31 @@
   "date": "2026-09-09",
   "candidates": [
     {
+      "term": "Suno",
+      "hint": "음악 생성",
+      "hits": 18,
+      "sample": "Premiere 타임라인 생성기와 Suno v6가 같은 창에 겹쳤고, Images 2.5·Muse도 열렸어요 주제",
+      "brief_date": "2026-09-09"
+    },
+    {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
       "hits": 8,
-      "sample": "이후 약 24h · 필요 시 48h(Higgsfield 9/4 3D Jutsu 미등재 보완) · 모델·플랫폼 / 콘텐츠 / 마",
+      "sample": "이후 약 24h · 필요 시 48h(Higgsfield 9/4 3D Jutsu 미등재 보완 · Suno v6 9/9 백필) ·",
       "brief_date": "2026-09-09"
     },
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
       "hits": 7,
-      "sample": "에 Firefly·Veo·Kling·Runway·Luma를 넣는 Generative Media Tool을 올렸고, Op",
+      "sample": "에 Firefly·Veo·Kling·Runway·Luma를 넣는 Generative Media Tool을 올렸고, Su",
       "brief_date": "2026-09-09"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 6,
-      "sample": "e 타임라인에 Firefly·Veo·Kling·Runway·Luma를 넣는 Generative Media Tool을",
+      "sample": "emiere에 Firefly·Veo·Kling·Runway·Luma를 넣는 Generative Media Tool을",
       "brief_date": "2026-09-09"
     },
     {
@@ -33,7 +40,14 @@
       "term": "Veo",
       "hint": "Google 영상 모델",
       "hits": 5,
-      "sample": "miere 타임라인에 Firefly·Veo·Kling·Runway·Luma를 넣는 Generative Media",
+      "sample": "가 Premiere에 Firefly·Veo·Kling·Runway·Luma를 넣는 Generative Media",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "BMG",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 4,
+      "sample": "**Suno v6 — Warner·BMG·Believe와 만든 라이선스 세대가 플랫폼 전체를 갈아타요 (9/9",
       "brief_date": "2026-09-09"
     },
     {
@@ -104,6 +118,13 @@
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
       "sample": "s E**) · fal/Runway/BFL/Seed(창 안 메이저 신규 없음) · Happy*/Newtake/Ma",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "BGM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "달이라고 전해요. - (영향) BGM·숏폼 음악·브랜드 스팅을 Suno로 돌리던 팀은 오늘 Pro면 v6와",
       "brief_date": "2026-09-09"
     },
     {
@@ -181,6 +202,20 @@
       "hint": "OpenAI 영상 모델",
       "hits": 1,
       "sample": "가장자리. 밀도상 본문 미등재. - Sora Videos API 9/24 종료: 임박(~2주). - GLM-5.3-",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "UMG",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "chCrunch 맥락으로는 Sony·UMG 소송이 남아 있고, 발표 전날 YouTube 학습을 인정했으며, WMG",
+      "brief_date": "2026-09-09"
+    },
+    {
+      "term": "WMG",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "YouTube 학습을 인정했으며, WMG는 이전에 합의·BMG 딜은 지난달이라고 전해요. - (영향) BG",
       "brief_date": "2026-09-09"
     },
     {
