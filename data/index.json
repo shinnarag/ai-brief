@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T10:42:50",
+  "generated_at": "2026-09-10T10:43:31",
   "platform": "AI Pulse",
   "count": 39,
   "domains": {
@@ -240,8 +240,8 @@
         "Midjourney",
         "NVIDIA",
         "Claude",
-        "Grok",
         "Meta",
+        "Grok",
         "Hugging Face",
         "Gemini",
         "Sora"
@@ -472,7 +472,7 @@
         "DeepMind",
         "Gemini",
         "Kling",
-        "Luma"
+        "Meta"
       ],
       "has_rumor": false,
       "source": "md",
@@ -597,16 +597,16 @@
         "Grok",
         "Hugging Face",
         "Claude",
-        "NVIDIA",
         "Google",
+        "NVIDIA",
         "GitHub",
         "IBM",
         "xAI",
         "Anthropic",
         "DeepSeek",
         "Runway",
-        "Midjourney",
         "Perplexity",
+        "Midjourney",
         "Kling"
       ],
       "has_rumor": true,
@@ -651,8 +651,8 @@
         "Midjourney",
         "Gemini",
         "GitHub",
-        "Luma",
-        "Meta"
+        "Meta",
+        "Luma"
       ],
       "has_rumor": true,
       "source": "md",
@@ -688,8 +688,8 @@
         "Grok",
         "Hugging Face",
         "DeepSeek",
-        "Mistral",
         "ChatGPT",
+        "Mistral",
         "Gemini",
         "NVIDIA",
         "Kling",
@@ -781,10 +781,10 @@
         "Midjourney",
         "Copilot",
         "Runway",
-        "Gemini",
         "Amazon",
-        "GitHub",
-        "Google"
+        "Gemini",
+        "Google",
+        "GitHub"
       ],
       "has_rumor": false,
       "source": "md",
@@ -908,8 +908,8 @@
         "Copilot",
         "ElevenLabs",
         "Google",
-        "Grok",
         "Luma",
+        "Grok",
         "Amazon",
         "GitHub",
         "Midjourney"
@@ -1139,8 +1139,8 @@
         "ByteDance",
         "ElevenLabs",
         "Midjourney",
-        "DeepSeek",
-        "DeepMind"
+        "DeepMind",
+        "DeepSeek"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1172,8 +1172,8 @@
       ],
       "companies": [
         "OpenAI",
-        "Claude",
         "Google",
+        "Claude",
         "Meta",
         "Anthropic",
         "GitHub",
@@ -1406,8 +1406,8 @@
         "NVIDIA",
         "Claude",
         "Hugging Face",
-        "GitHub",
         "Google",
+        "GitHub",
         "Oracle",
         "Kling",
         "Runway",
@@ -1501,8 +1501,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Luma",
-        "Meta"
+        "Meta",
+        "Luma"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1724,8 +1724,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Samsung"
       ],
       "has_rumor": false,
@@ -1803,8 +1803,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepSeek",
         "DeepMind",
+        "DeepSeek",
         "Sora"
       ],
       "has_rumor": false,
