@@ -676,6 +676,33 @@
   <text x="262" y="52" text-anchor="middle" fill="#c2410c" font-size="13" font-weight="700" font-family="system-ui">IVO</text>
   <text x="262" y="74" text-anchor="middle" fill="#9a3412" font-size="10" font-family="system-ui">독립 검증 · 감사</text>
 </svg>`,
+      distillation: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fef2f2"/>
+  <rect x="24" y="28" width="110" height="64" rx="12" fill="#b91c1c"/>
+  <text x="79" y="56" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">큰 모델</text>
+  <text x="79" y="74" text-anchor="middle" fill="#fecaca" font-size="10" font-family="system-ui">답·CoT</text>
+  <path d="M144 60 H188" stroke="#b91c1c" stroke-width="3"/>
+  <polygon points="188,54 202,60 188,66" fill="#b91c1c"/>
+  <rect x="210" y="28" width="126" height="64" rx="12" fill="#fff" stroke="#b91c1c" stroke-width="2"/>
+  <text x="273" y="56" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="700" font-family="system-ui">작은 모델</text>
+  <text x="273" y="74" text-anchor="middle" fill="#ef4444" font-size="10" font-family="system-ui">능력 이식</text>
+</svg>`,
+      "full-duplex": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#ecfeff"/>
+  <circle cx="90" cy="60" r="36" fill="#0e7490"/>
+  <text x="90" y="56" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">듣기</text>
+  <text x="90" y="74" text-anchor="middle" fill="#a5f3fc" font-size="10" font-family="system-ui">동시에</text>
+  <path d="M136 48 H224" stroke="#0e7490" stroke-width="3"/>
+  <path d="M224 72 H136" stroke="#0891b2" stroke-width="3"/>
+  <polygon points="224,42 238,48 224,54" fill="#0e7490"/>
+  <polygon points="136,66 122,72 136,78" fill="#0891b2"/>
+  <circle cx="270" cy="60" r="36" fill="#0891b2"/>
+  <text x="270" y="56" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">말하기</text>
+  <text x="270" y="74" text-anchor="middle" fill="#cffafe" font-size="10" font-family="system-ui">가로채기</text>
+</svg>`,
+
 
     };
 
@@ -1239,14 +1266,34 @@
       text: "주가 지정한, 개발사와 따로 떨어져 AI 시스템 위험을 평가하는 독립 검증 기관이에요.",
       detail: "IVO(Independent Verification Organization)는 캘리포니아 SB 813이 도입하는 독립 검증 기관이에요. AI를 만든 회사가 아니라 지정된 제3자가 위험·준수 여부를 평가하고, 그 근거가 되는 지표·방법론을 밝히도록 해요. AB 1405의 감사인 등록부와 짝을 이뤄, 개발사가 숙제를 스스로 채점하지 않게 하려는 틀로 읽으면 돼요. 당장 모든 모델에 의무 감사가 붙는 뜻은 아니고, 지정·등록 인프라를 먼저 까는 단계예요.",
       firstSeen: "2026-09-10"
+    },
+    {
+      id: "distillation",
+      term: "증류",
+      en: "Distillation",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "큰 모델의 답·추론을 모아 작은 모델에 능력을 옮겨 심는 학습 방식이에요.",
+      detail: "증류(Distillation)는 선생 모델의 출력이나 CoT를 학습 데이터로 삼아 학생 모델에 비슷한 능력을 이식하는 기법이에요. 정상적으로는 라이선스·계약 안에서 쓰지만, Anthropic 위협 보고서처럼 가짜 계정·프록시로 몰래 CoT를 수확하는 불법 증류도 문제로 올라와요. 콘텐츠 팀보다는 API 보안·모델 경쟁 맥락에서 자주 보여요.",
+      firstSeen: "2026-09-11"
+    },
+    {
+      id: "full-duplex",
+      term: "풀듀플렉스",
+      en: "Full Duplex",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "한쪽이 말할 때 다른 쪽도 동시에 듣고 말할 수 있는, 전화처럼 겹치는 대화 방식이에요.",
+      detail: "풀듀플렉스(Full Duplex)는 송신과 수신이 동시에 열리는 통신이에요. 음성 AI에서는 STT→LLM→TTS를 번갈아 돌리는 턴제와 달리, 가로채기·맞장구·생각 중 침묵을 한 모델이 처리하는 쪽에 가깝습니다. GPT-Live-1이 API에서 강조하는 강점이에요. 예약·튜터·고객지원처럼 사람 말 중간에 끼어들거나 기다려야 하는 보이스 에이전트에 특히 중요해요.",
+      firstSeen: "2026-09-11"
     }
 
 
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-10",
-    termIds: ["upscale", "ppa", "cot", "multimodal", "vla", "misalignment"]
+    date: "2026-09-11",
+    termIds: ["full-duplex", "asr", "upscale", "mcp", "mhs", "open-weight"]
   };
 
   const TAGS = [
