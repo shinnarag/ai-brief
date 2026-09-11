@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T10:43:04",
-  "count": 695,
+  "generated_at": "2026-09-11T10:43:35",
+  "count": 694,
   "items": [
     {
       "date": "2026-09-11",
@@ -442,27 +442,6 @@
         "policy"
       ],
       "href": "brief/2026-09-10.html#c-콘텐츠-제작-크리에이티브-01"
-    },
-    {
-      "date": "2026-09-10",
-      "displayDate": "2026년 9월 10일(목)",
-      "briefTitle": "DeepSeek가 Pro 요청을 Flash로 넘기고, 캘리포니아에는 AI 감사 틀이 생겼어요",
-      "briefUrl": "brief/2026-09-10.html",
-      "section": "콘텐츠 제작 · 크리에이티브",
-      "sectionId": "콘텐츠-제작-크리에이티브",
-      "cardId": "c-콘텐츠-제작-크리에이티브-02",
-      "title": "Suno — blog.suno.com 스윕: 창 안 신규는 v6(9/9)·Believe(9/8)뿐이에요",
-      "snippet": "(사실) 2026-09-10에 https://blog.suno.com/을 열면 최신글은 Mikey Shulman의 Introducing v6(Sep 9)과 Believe and TuneCore 파트너십(Sep 8)이에요. 그 아래는 8/21 프로필 페이스 등이에요.",
-      "text": "Suno — blog.suno.com 스윕: 창 안 신규는 v6(9/9)·Believe(9/8)뿐이에요 (사실) 2026-09-10에 https://blog.suno.com/을 열면 최신글은 Mikey Shulman의 Introducing v6(Sep 9)과 Believe and TuneCore 파트너십(Sep 8)이에요. 그 아래는 8/21 프로필 페이스 등이에요. (범위) 어제 브리프가 v6를 Top·본카드로 이미 올렸으니 오늘은 재탕하지 않아요. 아티스트 옵트인 체험·요금표 개편·릴리즈 노트 추가 항목은 창 안에서 확인되지 않았어요.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-09-10.html#c-콘텐츠-제작-크리에이티브-02"
     },
     {
       "date": "2026-09-10",
