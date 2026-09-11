@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T10:34:19",
-  "count": 696,
+  "generated_at": "2026-09-11T10:43:04",
+  "count": 695,
   "items": [
     {
       "date": "2026-09-11",
@@ -169,27 +169,6 @@
         "policy"
       ],
       "href": "brief/2026-09-11.html#c-콘텐츠-제작-크리에이티브-02"
-    },
-    {
-      "date": "2026-09-11",
-      "displayDate": "2026년 9월 11일(금)",
-      "briefTitle": "음성은 API로 풀듀플렉스가 되고, 음악은 메이저 레이블 라이선스 창이 열렸어요",
-      "briefUrl": "brief/2026-09-11.html",
-      "section": "콘텐츠 제작 · 크리에이티브",
-      "sectionId": "콘텐츠-제작-크리에이티브",
-      "cardId": "c-콘텐츠-제작-크리에이티브-03",
-      "title": "Suno — blog.suno.com 스윕: 창 안 신규 글은 없어요",
-      "snippet": "(사실) 2026-09-11에 https://blog.suno.com/을 열면 최신은 여전히 Mikey Shulman의 Introducing v6(Sep 9)과 Believe/TuneCore(Sep 8)이에요. 아티스트 옵트인 체험·추가 릴리즈 노트는 창 안에서 확인되지 않았어요.…",
-      "text": "Suno — blog.suno.com 스윕: 창 안 신규 글은 없어요 (사실) 2026-09-11에 https://blog.suno.com/을 열면 최신은 여전히 Mikey Shulman의 Introducing v6(Sep 9)과 Believe/TuneCore(Sep 8)이에요. 아티스트 옵트인 체험·추가 릴리즈 노트는 창 안에서 확인되지 않았어요. v6 본카드는 9/9–9/10에 올렸으니 오늘은 재탕하지 않아요.",
-      "domains": [
-        "agents",
-        "creative",
-        "infra",
-        "marketing",
-        "models",
-        "policy"
-      ],
-      "href": "brief/2026-09-11.html#c-콘텐츠-제작-크리에이티브-03"
     },
     {
       "date": "2026-09-11",

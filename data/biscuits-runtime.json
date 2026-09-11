@@ -41,13 +41,6 @@
       "brief_date": "2026-09-11"
     },
     {
-      "term": "Suno",
-      "hint": "음악 생성",
-      "hits": 12,
-      "sample": "Generative Media · Suno v6 · Images 2.5 · Muse · 3D Jutsu · Mis",
-      "brief_date": "2026-09-11"
-    },
-    {
       "term": "UMG",
       "hint": "설명 없는 대문자 약어",
       "hits": 10,
@@ -59,6 +52,13 @@
       "hint": "설명 없는 대문자 약어",
       "hits": 9,
       "sample": "ek V4.1 Flash 오픈웨이트(MIT), Anthropic 위협 정보 보고서, ChatGPT 금융 서비스도",
+      "brief_date": "2026-09-11"
+    },
+    {
+      "term": "Suno",
+      "hint": "음악 생성",
+      "hits": 5,
+      "sample": "Generative Media · Suno v6 · Images 2.5 · Muse · 3D Jutsu · Mis",
       "brief_date": "2026-09-11"
     },
     {
