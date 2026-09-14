@@ -1,194 +1,138 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-14",
   "candidates": [
+    {
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 16,
+      "sample": "같은 날 호응했어요. 같은 주말에 Higgsfield·Runway가 After Effects·Premiere 안으로 들어오고",
+      "brief_date": "2026-09-14"
+    },
+    {
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 14,
+      "sample": "fter-effects` PoC · Runway Adobe 패널·크레딧 · Gemini Windows `Alt+Spac",
+      "brief_date": "2026-09-14"
+    },
     {
       "term": "GPT",
       "hint": "설명 없는 대문자 약어",
-      "hits": 13,
-      "sample": "OpenAI가 ChatGPT에 있던 GPT-Live-1을 API로 열어 동시 청취·발화 음성 에이전트를 만들고,",
-      "brief_date": "2026-09-11"
-    },
-    {
-      "term": "ElevenLabs",
-      "hint": "음성 합성",
-      "hits": 12,
-      "sample": "ive-1 $0.05/분 PoC · ElevenLabs×UMG 로드맵 메모 · DeepSeek HF 가중치·`deepseek-",
-      "brief_date": "2026-09-11"
-    },
-    {
-      "term": "UMG",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 10,
-      "sample": "트를 만들고, ElevenLabs는 UMG와 다년 라이선스로 팬용 리믹스·매시업 플랫폼을 준비해요. 같은 창에 D",
-      "brief_date": "2026-09-11"
-    },
-    {
-      "term": "MIT",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 9,
-      "sample": "ek V4.1 Flash 오픈웨이트(MIT), Anthropic 위협 정보 보고서, ChatGPT 금융 서비스도",
-      "brief_date": "2026-09-11"
+      "hits": 6,
+      "sample": ")**가 축이에요. > 전일 제외: GPT-Live-1 · ElevenLabs×UMG · DeepSeek V4.1",
+      "brief_date": "2026-09-14"
     },
     {
       "term": "Suno",
       "hint": "음악 생성",
       "hits": 5,
-      "sample": "Generative Media · Suno v6 · Images 2.5 · Muse · 3D Jutsu · Mis",
-      "brief_date": "2026-09-11"
+      "sample": "Generative Media · Suno v6 · Images 2.5 · Muse · 3D Jutsu · Ast",
+      "brief_date": "2026-09-14"
     },
     {
-      "term": "LPDDR",
+      "term": "GLM",
       "hint": "설명 없는 대문자 약어",
       "hits": 3,
-      "sample": "3. **Positron AI — LPDDR5X 추론 ASIC으로 Series C/C-1 약 $875M·기업가치 $",
-      "brief_date": "2026-09-11"
-    },
-    {
-      "term": "Sora",
-      "hint": "OpenAI 영상 모델",
-      "hits": 3,
-      "sample": "opic 증류·프록시 경유 점검 · Sora API 9/24 이관 잔여 확인 수집 시각: 2026-09-11 10:",
-      "brief_date": "2026-09-11"
-    },
-    {
-      "term": "ASIC",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "ron AI — LPDDR5X 추론 ASIC으로 Series C/C-1 약 $875M·기업가치 $5B를 받았어요**",
-      "brief_date": "2026-09-11"
+      "sample": "결제된다고 해요. - (영향) GLM 계열·OpenRouter 트래픽을 보는 팀은 오늘 자본 규모만 메모해",
+      "brief_date": "2026-09-14"
     },
     {
       "term": "BFL",
       "hint": "설명 없는 대문자 약어",
       "hits": 2,
-      "sample": "최신 3D Jutsu 9/4) · BFL(창 안 신규 없음 · Upscale 8/20) · fal(창 안 신규",
-      "brief_date": "2026-09-11"
-    },
-    {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 2,
-      "sample": "· Alpha 9/2–9/3) · Higgsfield(창 안 신규 없음 · 최신 3D Jutsu 9/4) · BFL(창 안",
-      "brief_date": "2026-09-11"
-    },
-    {
-      "term": "LSEG",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": ", Daloopa·PitchBook·LSEG News·Crunchbase가 붙어 있어요. ## 📦 모델 · 플랫폼",
-      "brief_date": "2026-09-11"
+      "sample": "as/Alpha 9/2–9/3) · BFL(창 안 신규 없음 · Upscale 8/20) · fal(창 안 메이저",
+      "brief_date": "2026-09-14"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 2,
-      "sample": "8 — 창 안 신규 없음**) · Midjourney(창 안 신규 없음 · Alpha 9/2–9/3) · Higgsfield",
-      "brief_date": "2026-09-11"
+      "sample": "8 — 창 안 신규 없음**) · Midjourney(창 안 신규 없음 · Collecting ideas/Alpha 9/2–",
+      "brief_date": "2026-09-14"
     },
     {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
+      "term": "Sora",
+      "hint": "OpenAI 영상 모델",
       "hits": 2,
-      "sample": "없음 · H3 Max 8/27) · Runway(창 안 메이저 GA 미확인) · Adobe(Premiere 9/8 재탕",
-      "brief_date": "2026-09-11"
+      "sample": "eepSeek Pro 유지·회귀 · Sora API 9/24 이관 수집 시각: 2026-09-14 10:50 KST",
+      "brief_date": "2026-09-14"
     },
     {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
       "hits": 2,
-      "sample": "음 · Upscale 8/20) · fal(창 안 신규 없음 · H3 Max 8/27) · Runway(창 안 메",
-      "brief_date": "2026-09-11"
+      "sample": "음 · Upscale 8/20) · fal(창 안 메이저 GA 미확인) · Higgsfield(**히트: AI M",
+      "brief_date": "2026-09-14"
     },
     {
-      "term": "BGM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "만든다고 해요. - (영향) BGM·브랜드 스팅·숏폼 음악을 ElevenLabs로 돌리던 팀은 오늘 “라이",
-      "brief_date": "2026-09-11"
+      "term": "해상도(720p/1080p/4K)",
+      "hint": "출력 화질 단위",
+      "hits": 2,
+      "sample": "로 고칠 수 있다고 해요. 해상도는 1080p·4K·8K, 런타임은 5분·30분 이상도 프롬프트로 달라고 할 수 있고",
+      "brief_date": "2026-09-14"
     },
     {
-      "term": "CNBC",
+      "term": "DST",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "opic 공식 글 뒤 Reuters·CNBC·Politico가 같은 날 증류·사이버·생물 축을 나눠 전해요. 커뮤니",
-      "brief_date": "2026-09-11"
+      "sample": "Stone·a16z·Meritech·DST·CapitalG 등이 참여했다고 Business Wire·보도가 전해요",
+      "brief_date": "2026-09-14"
     },
     {
-      "term": "CXL",
-      "hint": "설명 없는 대문자 약어",
+      "term": "ElevenLabs",
+      "hint": "음성 합성",
       "hits": 1,
-      "sample": "LPDDR5X **288 GB**(CXL로 **2.3 TB**)를 쓰고, 테이프아웃은 2026년 말·양산은 **",
-      "brief_date": "2026-09-11"
+      "sample": "전일 제외: GPT-Live-1 · ElevenLabs×UMG · DeepSeek V4.1 Flash GA·가중치·단가 헤드라",
+      "brief_date": "2026-09-14"
     },
     {
-      "term": "DNS",
+      "term": "GTM",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "6 등은 AI로 툴킷을 재빌드·피싱·DNS 하이재킹까지 자동화했다고 해요. 생물 쪽은 그랜트 작성 지원 요청 차단",
-      "brief_date": "2026-09-11"
+      "sample": "약 **80%**를 쓴다고 해요. GTM 엔지니어 양성용 **$1 million** 장학금도 같이 열었어요.",
+      "brief_date": "2026-09-14"
     },
     {
-      "term": "GPU",
-      "hint": "설명 없는 대문자 약어",
+      "term": "Kling",
+      "hint": "영상 생성 모델",
       "hits": 1,
-      "sample": "대규모 배포(약 **2,000** GPU + 스토리지 클러스터)는 별도 상담을 열어 두었어요. - (영향)",
-      "brief_date": "2026-09-11"
-    },
-    {
-      "term": "GTG",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "사이버·생물) 러시아 연계로 읽히는 GTG-20006 등은 AI로 툴킷을 재빌드·피싱·DNS 하이재킹까지 자동화했",
-      "brief_date": "2026-09-11"
-    },
-    {
-      "term": "HBM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "*이라고 전해요. Asimov 칩은 HBM 대신 패키지 LPDDR5X **288 GB**(CXL로 **2.3 TB",
-      "brief_date": "2026-09-11"
-    },
-    {
-      "term": "LLM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "고 해요. - (범위) STT–LLM–TTS를 이어 붙이던 구조를 한 음성 모델로 단순화한다고 적어요. 가로",
-      "brief_date": "2026-09-11"
+      "sample": "·Muse(9/8) 재탕 금지. - Kling 3.0 “9월 런칭” SEO 글·GPT Image 2.5 Flare 보",
+      "brief_date": "2026-09-14"
     },
     {
       "term": "LTX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "nus / mona-lisa-1 / LTX-2.5 / Anthropic–Decart: 상태 변경 없음. - Mid",
-      "brief_date": "2026-09-11"
+      "sample": "nus / mona-lisa-1 / LTX-2.5 / Anthropic–Decart: 상태 변경 없음. - Sun",
+      "brief_date": "2026-09-14"
     },
     {
-      "term": "NEA",
+      "term": "METR",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "-10**에 Positron AI가 NEA·Andra·Atreides·Valor·SemiAnalysis Capit",
-      "brief_date": "2026-09-11"
+      "sample": "단계) ① **임베디드 평가자**: METR 같은 제3자가 책상·배지·노트북과 내부 리스크팀과 비슷한 권한으로 훈련",
+      "brief_date": "2026-09-14"
     },
     {
-      "term": "PHYMI",
+      "term": "OAI",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "ognition Series E · PHYMI · Antioch. > 스윕: Suno(**확인: blog.suno.c",
-      "brief_date": "2026-09-11"
+      "sample": "ing Face 에이전트 군집 사건(OAI-HF)을 들어요. 비슷한 오정렬이 6–12개월 뒤면 인터넷을 잡는 봇넷",
+      "brief_date": "2026-09-14"
     },
     {
-      "term": "STT",
+      "term": "SEO",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "수 있다고 해요. - (범위) STT–LLM–TTS를 이어 붙이던 구조를 한 음성 모델로 단순화한다고 적어요",
-      "brief_date": "2026-09-11"
+      "sample": "- Kling 3.0 “9월 런칭” SEO 글·GPT Image 2.5 Flare 보도 사이트는 공식과 날짜가 안",
+      "brief_date": "2026-09-14"
     },
     {
-      "term": "TTS",
+      "term": "UMG",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": ". - (범위) STT–LLM–TTS를 이어 붙이던 구조를 한 음성 모델로 단순화한다고 적어요. 가로채기 처",
-      "brief_date": "2026-09-11"
+      "sample": "Live-1 · ElevenLabs×UMG · DeepSeek V4.1 Flash GA·가중치·단가 헤드라인(Pr",
+      "brief_date": "2026-09-14"
     }
   ]
 }

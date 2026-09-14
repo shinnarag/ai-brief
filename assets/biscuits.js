@@ -18,6 +18,17 @@
   <text x="271" y="56" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">답만 남김</text>
   <text x="271" y="76" text-anchor="middle" fill="#b8ebe0" font-size="10" font-family="system-ui">저장 안 함</text>
 </svg>`,
+      guardrail: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f7f1ea"/>
+  <rect x="40" y="34" width="160" height="52" rx="10" fill="#fff" stroke="#b45309" stroke-width="2"/>
+  <text x="120" y="65" text-anchor="middle" fill="#9a3412" font-size="14" font-weight="700" font-family="system-ui">요청</text>
+  <path d="M210 60 H248" stroke="#b45309" stroke-width="3"/>
+  <polygon points="248,54 262,60 248,66" fill="#b45309"/>
+  <rect x="270" y="28" width="56" height="64" rx="8" fill="#b45309"/>
+  <text x="298" y="56" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="system-ui">가드</text>
+  <text x="298" y="74" text-anchor="middle" fill="#fde68a" font-size="10" font-family="system-ui">레일</text>
+</svg>`,
       cli: `
 <svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
   <rect width="360" height="120" fill="#1d1d1f"/>
@@ -1008,6 +1019,16 @@
       firstSeen: "2026-08-20"
     },
     {
+      id: "guardrail",
+      term: "가드레일",
+      en: "Guardrail",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "모델·에이전트가 위험한 출력이나 도구 호출을 하지 못하게 막아 두는 안전 장치예요.",
+      detail: "가드레일(guardrail)은 필터·정책·승인 규칙·라우팅 제한처럼, 모델이 허용 범위 밖으로 나가지 못하게 하는 안전 장치입니다. OpenRouter의 지역·ZDR 가드레일처럼 API 단에서 걸 수도 있고, 제품 UI의 자동 검토·차단일 수도 있어요. 콘텐츠 팀에서는 ‘브랜드 금칙어·초상권·아동 안전’ 규칙을 파이프에 심는 일과 같은 층으로 보시면 됩니다.",
+      firstSeen: "2026-09-14"
+    },
+    {
       id: "credits",
       term: "크레딧",
       en: "Credits",
@@ -1292,8 +1313,8 @@
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-11",
-    termIds: ["full-duplex", "asr", "upscale", "mcp", "mhs", "open-weight"]
+    date: "2026-09-14",
+    termIds: ["upscale", "keyframe", "hdr", "zdr", "mcp", "guardrail"]
   };
 
   const TAGS = [
