@@ -3,9 +3,9 @@
   "label": "9월 15일 브리프",
   "termIds": [
     "keyframe",
+    "video-continuation",
     "reference-image",
     "upscale",
-    "video-continuation",
     "sandbox",
     "zdr"
   ],

@@ -1314,7 +1314,7 @@
 
   const LATEST_BRIEF = {
     date: "2026-09-15",
-    termIds: ["keyframe", "reference-image", "upscale", "video-continuation", "sandbox", "zdr"]
+    termIds: ["keyframe", "video-continuation", "reference-image", "upscale", "sandbox", "zdr"]
   };
 
   const TAGS = [
