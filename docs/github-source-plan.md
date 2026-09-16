@@ -25,11 +25,11 @@ docs/                    운영·이전 설명
 
 `.github/workflows/build.yml`은 source/main 푸시 또는 pull request 시 의존성을 설치하고 `python scripts/local.py build`를 실행합니다. 주요 산출물과 JavaScript를 검사하고 빌드가 원본 파일을 변경하지 않았는지 확인합니다. 이 워크플로는 사이트 배포나 뉴스 생성, 메시지 전송을 하지 않습니다. `workflow_dispatch`도 정의했지만, GitHub 화면의 수동 실행은 워크플로가 기본 브랜치에 반영된 후 사용할 수 있습니다.
 
-2026-09-16에 Git 관리 대상 57개 파일만 별도 폴더로 복사해 로컬 빌드를 확인했습니다. `references/`와 `source-manifest.json` 없이 브리프 44개와 최신 페이지가 생성됐고, 빌드 전후 원본 파일의 해시는 모두 같았습니다. 이 검사는 현재 Mac의 설치된 의존성을 사용했으며 GitHub/Linux 실행 검증은 남아 있습니다.
+2026-09-16에 Git 관리 대상 57개 파일만 별도 폴더로 복사해 로컬 빌드를 확인했습니다. `references/`와 `source-manifest.json` 없이 브리프 44개와 최신 페이지가 생성됐고, 빌드 전후 원본 파일의 해시는 모두 같았습니다. 이후 [GitHub Actions의 첫 Ubuntu 빌드](https://github.com/shinnarag/ai-brief/actions/runs/35069622027)에서도 의존성 설치·사이트 빌드·산출물 검사·원본 변경 없음 검사를 모두 통과했습니다.
 
 ## 저장소 선택
 
-첫 연결 계획은 기존 공개 저장소의 `source` 브랜치에 웹사이트 코드와 공개 브리프를 보관하는 방식이며, 현재 공개 업로드 승인을 기다리고 있습니다. 기존 main 이력에서 분기하며 현재 사이트를 배포하는 main은 건드리지 않습니다. 인계서와 로컬 메타데이터는 업로드하지 않습니다. 운영 프롬프트·수집 코드까지 가져올 때는 아래 두 방식 중 공개 범위를 다시 적용합니다.
+첫 연결은 기존 공개 저장소의 `source` 브랜치에 웹사이트 코드와 공개 브리프 57개 파일을 보관하는 방식으로 완료했습니다. 기존 main 이력에서 분기하며 현재 사이트를 배포하는 main은 건드리지 않습니다. 인계서와 로컬 메타데이터는 업로드하지 않습니다. 운영 프롬프트·수집 코드까지 가져올 때는 아래 두 방식 중 공개 범위를 다시 적용합니다.
 
 ### 비공개 원본 + 기존 공개 사이트
 
@@ -57,7 +57,7 @@ docs/                    운영·이전 설명
 ## 현재 경계
 
 - 원본 브랜치를 연결해도 현재 GitHub 사이트의 배포는 변경하지 않습니다.
-- 로컬 원격 주소와 source 브랜치를 준비했으나 공개 업로드는 승인 대기 중이며, GitHub 빌드 검사는 아직 실행되지 않았습니다.
+- 로컬 source 브랜치는 origin/source를 추적하며, 공개 업로드와 첫 GitHub 빌드 검사를 완료했습니다. 자동 검사는 source 변경을 올릴 때 실행되므로 Mac 전원과 무관합니다.
 - `prompt.md`, `WATCHLIST.md` 최신본과 box 예약 상태는 아직 확인이 필요합니다.
 
 공식 참고: [GitHub Pages custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)

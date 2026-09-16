@@ -2,15 +2,15 @@
 
 브리프 원문과 웹사이트 생성 코드를 보관하는 원본입니다. 로컬 미리보기와 GitHub Actions에서 같은 빌드 명령을 사용합니다.
 
-연결 대상은 기존 공개 저장소 `shinnarag/ai-brief`의 `source` 브랜치이며, 현재 공개 업로드 승인 대기 중입니다. 로컬에는 원격 주소와 원본 브랜치를 준비했습니다. 원본 보관과 배포 전환 계획은 [GitHub 원본 관리 계획](docs/github-source-plan.md)에 정리했습니다. 업로드하면 `.github/workflows/build.yml`이 GitHub 서버에서 빌드·검증하고, [Actions 실행 기록](https://github.com/shinnarag/ai-brief/actions?query=branch%3Asource)에서 결과를 확인할 수 있습니다. 이 검사는 공개 사이트를 교체하지 않습니다.
+원본 57개 파일은 공개 저장소 [`shinnarag/ai-brief`의 `source` 브랜치](https://github.com/shinnarag/ai-brief/tree/source)에 보관합니다. 원본 보관과 배포 전환 계획은 [GitHub 원본 관리 계획](docs/github-source-plan.md)에 정리했습니다. source 브랜치에 변경을 올리면 `.github/workflows/build.yml`이 GitHub 서버에서 빌드·검증하고, [Actions 실행 기록](https://github.com/shinnarag/ai-brief/actions?query=branch%3Asource)에서 결과를 확인할 수 있습니다. 이 검사는 공개 사이트를 교체하지 않습니다.
 
 ## 현재 상태
 
 - 이 Mac에서 찾은 기존 사이트 코드에 사용자가 추가한 최신 브리프를 반영한 **로컬 빌드·미리보기 환경**입니다.
 - 브리프는 **44개**, 최신 날짜는 **2026-09-16**입니다. 기존 23개에 2026-08-19~2026-09-16 브리프 21개를 추가했습니다.
 - 월별 달력과 비스킷 59개는 현재 공개 사이트에 맞춰 동기화했습니다. 그 외 생성 코드는 이전 Mac 버전을 기반으로 하며, box의 최신 코드 및 운영 규칙은 별도 확인이 필요합니다.
-- 현재 지원: 환경 점검, 정적 사이트 빌드, 산출물 기본 검증, 로컬 미리보기. 원본 변경 시 GitHub Actions 빌드 설정도 준비했으며, 원격 실행은 아직입니다.
-- 아직 미구현: 최신 뉴스 수집·AI 작성, 실행 상태/재시도, 예약 실행, GitHub 배포, Slack 알림.
+- 현재 지원: 환경 점검, 정적 사이트 빌드, 산출물 기본 검증, 로컬 미리보기, 원본 변경 시 GitHub Actions 빌드 검사. [첫 GitHub 서버 빌드](https://github.com/shinnarag/ai-brief/actions/runs/35069622027)는 2026-09-16에 성공했습니다.
+- 아직 미구현: 최신 뉴스 수집·AI 작성, 실행 상태/재시도, 예약 실행, 이 원본에서 Pages로 자동 배포, Slack 알림.
 - 기존 Mac 운영 폴더는 수정하지 않았고 `.env`, 인증 정보, 배포·알림 스크립트, 예약 설정은 복사하지 않았습니다.
 
 ## 실행
@@ -34,7 +34,7 @@ python3 -m venv .venv
 .venv/bin/python scripts/local.py serve
 ```
 
-Node.js도 필요합니다. 준비 시 확인한 환경은 Python 3.14.3, Node.js 24.14.0, Markdown 3.10.2입니다. 새 환경에서 의존성을 설치하는 절차는 별도 확인 대상입니다.
+Node.js도 필요합니다. 확인한 환경은 Python 3.14.3, Node.js 24.14.0, Markdown 3.10.2입니다. GitHub Ubuntu 실행 서버에서 의존성 설치와 브리프 44개 빌드·검증을 확인했습니다.
 
 `build`는 이 폴더의 `site/public/`을 다시 생성하고 `logs/`에 비스킷 후보를 씁니다. 원본 JS를 빌드할 때 수정하던 기존 동작은 제거했습니다. 검증은 주요 페이지·모든 브리프 페이지 존재, JSON 파싱, 최신 페이지 연결, JS 문법, 컴퓨터 고유 경로 노출을 확인합니다. 콘텐츠 사실성이나 전체 링크 품질까지 검증하는 단계는 아닙니다.
 
