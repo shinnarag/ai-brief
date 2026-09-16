@@ -6,6 +6,29 @@
   "use strict";
 
   const ART = {
+      zdr: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef6f3"/>
+  <rect x="28" y="28" width="110" height="64" rx="12" fill="#fff" stroke="#0a7d6c" stroke-width="2"/>
+  <text x="83" y="56" text-anchor="middle" fill="#0a7d6c" font-size="12" font-weight="700" font-family="system-ui">요청</text>
+  <text x="83" y="76" text-anchor="middle" fill="#5f9e93" font-size="10" font-family="system-ui">파일 · 프롬프트</text>
+  <path d="M148 60 H186" stroke="#0a7d6c" stroke-width="3"/>
+  <polygon points="186,54 200,60 186,66" fill="#0a7d6c"/>
+  <rect x="210" y="28" width="122" height="64" rx="12" fill="#0a7d6c"/>
+  <text x="271" y="56" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">답만 남김</text>
+  <text x="271" y="76" text-anchor="middle" fill="#b8ebe0" font-size="10" font-family="system-ui">저장 안 함</text>
+</svg>`,
+      guardrail: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f7f1ea"/>
+  <rect x="40" y="34" width="160" height="52" rx="10" fill="#fff" stroke="#b45309" stroke-width="2"/>
+  <text x="120" y="65" text-anchor="middle" fill="#9a3412" font-size="14" font-weight="700" font-family="system-ui">요청</text>
+  <path d="M210 60 H248" stroke="#b45309" stroke-width="3"/>
+  <polygon points="248,54 262,60 248,66" fill="#b45309"/>
+  <rect x="270" y="28" width="56" height="64" rx="8" fill="#b45309"/>
+  <text x="298" y="56" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="system-ui">가드</text>
+  <text x="298" y="74" text-anchor="middle" fill="#fde68a" font-size="10" font-family="system-ui">레일</text>
+</svg>`,
       cli: `
 <svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
   <rect width="360" height="120" fill="#1d1d1f"/>
@@ -160,6 +183,22 @@
     <rect x="300" y="28" width="40" height="36" rx="6" fill="#0ea5e9"/>
   </g>
   <text x="250" y="108" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="system-ui">한 장 → 움직임</text>
+</svg>`,
+      r2v: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#ecfeff"/>
+  <rect x="18" y="28" width="44" height="44" rx="8" fill="#fff" stroke="#0891b2" stroke-width="2"/>
+  <text x="40" y="55" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700" font-family="system-ui">IMG</text>
+  <rect x="68" y="28" width="44" height="44" rx="8" fill="#fff" stroke="#0891b2" stroke-width="2"/>
+  <text x="90" y="55" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700" font-family="system-ui">VID</text>
+  <rect x="118" y="28" width="44" height="44" rx="8" fill="#fff" stroke="#0891b2" stroke-width="2"/>
+  <text x="140" y="55" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700" font-family="system-ui">AUD</text>
+  <path d="M172 50 H210" stroke="#0891b2" stroke-width="3"/>
+  <polygon points="210,44 224,50 210,56" fill="#0891b2"/>
+  <rect x="232" y="22" width="110" height="76" rx="12" fill="#0891b2"/>
+  <text x="287" y="52" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">새 클립</text>
+  <text x="287" y="74" text-anchor="middle" fill="#cffafe" font-size="10" font-family="system-ui">참조 유지</text>
+  <text x="180" y="112" text-anchor="middle" fill="#0e7490" font-size="11" font-family="system-ui">여러 참조 → 한 영상</text>
 </svg>`,
       "native-audio": `
 <svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
@@ -331,7 +370,351 @@
   <rect x="150" y="36" width="170" height="48" rx="12" fill="#fff" stroke="#16a34a" stroke-width="2"/>
   <text x="235" y="58" text-anchor="middle" fill="#14532d" font-size="12" font-weight="700" font-family="system-ui">생성 크레딧</text>
   <text x="235" y="74" text-anchor="middle" fill="#4ade80" font-size="10" font-family="system-ui">구독·종량 결제 단위</text>
-</svg>`
+</svg>`,
+      rag: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef6f3"/>
+  <rect x="20" y="28" width="92" height="64" rx="12" fill="#fff" stroke="#0a7d6c" stroke-width="2"/>
+  <text x="66" y="56" text-anchor="middle" fill="#0a7d6c" font-size="12" font-weight="700" font-family="system-ui">문서 검색</text>
+  <text x="66" y="74" text-anchor="middle" fill="#5f9e93" font-size="10" font-family="system-ui">사내 · 가이드</text>
+  <path d="M122 60 H154" stroke="#0a7d6c" stroke-width="3"/>
+  <polygon points="154,54 168,60 154,66" fill="#0a7d6c"/>
+  <rect x="176" y="28" width="72" height="64" rx="12" fill="#0a7d6c"/>
+  <text x="212" y="64" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">모델</text>
+  <path d="M256 60 H286" stroke="#0a7d6c" stroke-width="3"/>
+  <polygon points="286,54 300,60 286,66" fill="#0a7d6c"/>
+  <rect x="306" y="36" width="38" height="48" rx="10" fill="#fff" stroke="#0a7d6c" stroke-width="2"/>
+  <text x="325" y="64" text-anchor="middle" fill="#0a7d6c" font-size="11" font-weight="700" font-family="system-ui">답</text>
+</svg>`,
+      sandbox: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f4f0ea"/>
+  <rect x="48" y="18" width="264" height="84" rx="16" fill="none" stroke="#b45309" stroke-width="3" stroke-dasharray="7 5"/>
+  <rect x="86" y="36" width="188" height="50" rx="12" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
+  <text x="180" y="58" text-anchor="middle" fill="#9a3412" font-size="13" font-weight="700" font-family="system-ui">코드 실행</text>
+  <text x="180" y="76" text-anchor="middle" fill="#c2410c" font-size="10" font-family="system-ui">바깥 망 · 파일과 분리</text>
+</svg>`,
+      watermark: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fef2f2"/>
+  <rect x="36" y="22" width="170" height="76" rx="12" fill="#fff" stroke="#b91c1c" stroke-width="2"/>
+  <text x="121" y="56" text-anchor="middle" fill="#7f1d1d" font-size="13" font-weight="700" font-family="system-ui">생성 결과</text>
+  <text x="121" y="76" text-anchor="middle" fill="#f87171" font-size="10" font-family="system-ui">이미지 · 영상</text>
+  <rect x="150" y="40" width="168" height="44" rx="10" fill="#b91c1c" opacity="0.92"/>
+  <text x="234" y="66" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">AI 표시 · 추적</text>
+</svg>`,
+      ga: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fffbeb"/>
+  <rect x="28" y="30" width="118" height="60" rx="12" fill="#fff" stroke="#d97706" stroke-width="2"/>
+  <text x="87" y="56" text-anchor="middle" fill="#92400e" font-size="12" font-weight="700" font-family="system-ui">베타 · 초대</text>
+  <text x="87" y="74" text-anchor="middle" fill="#f59e0b" font-size="10" font-family="system-ui">제한 공개</text>
+  <path d="M156 60 H196" stroke="#d97706" stroke-width="3"/>
+  <polygon points="196,54 210,60 196,66" fill="#d97706"/>
+  <rect x="218" y="30" width="118" height="60" rx="12" fill="#d97706"/>
+  <text x="277" y="56" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">정식 공개</text>
+  <text x="277" y="74" text-anchor="middle" fill="#fde68a" font-size="10" font-family="system-ui">GA · 전원 개방</text>
+</svg>`,
+      mcp: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef5ff"/>
+  <rect x="22" y="30" width="96" height="60" rx="12" fill="#fff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="70" y="56" text-anchor="middle" fill="#1d4ed8" font-size="13" font-weight="700" font-family="system-ui">모델</text>
+  <text x="70" y="74" text-anchor="middle" fill="#60a5fa" font-size="10" font-family="system-ui">질문 · 계획</text>
+  <rect x="132" y="42" width="96" height="36" rx="10" fill="#1d4ed8"/>
+  <text x="180" y="65" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">MCP 규약</text>
+  <rect x="242" y="22" width="96" height="28" rx="8" fill="#fff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="290" y="41" text-anchor="middle" fill="#1d4ed8" font-size="11" font-weight="700" font-family="system-ui">검색</text>
+  <rect x="242" y="70" width="96" height="28" rx="8" fill="#fff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="290" y="89" text-anchor="middle" fill="#1d4ed8" font-size="11" font-weight="700" font-family="system-ui">도구</text>
+  <path d="M118 60 H132" stroke="#1d4ed8" stroke-width="3"/>
+  <path d="M228 50 H242" stroke="#1d4ed8" stroke-width="2"/>
+  <path d="M228 70 H242" stroke="#1d4ed8" stroke-width="2"/>
+</svg>`,
+      hdr: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#111827"/>
+  <rect x="28" y="28" width="130" height="64" rx="10" fill="#374151"/>
+  <text x="93" y="56" text-anchor="middle" fill="#9ca3af" font-size="13" font-weight="700" font-family="system-ui">SDR</text>
+  <text x="93" y="76" text-anchor="middle" fill="#6b7280" font-size="10" font-family="system-ui">표준 밝기</text>
+  <text x="175" y="66" text-anchor="middle" fill="#fbbf24" font-size="18">→</text>
+  <rect x="202" y="22" width="130" height="76" rx="12" fill="#fbbf24"/>
+  <text x="267" y="56" text-anchor="middle" fill="#111827" font-size="14" font-weight="700" font-family="system-ui">HDR</text>
+  <text x="267" y="76" text-anchor="middle" fill="#78350f" font-size="10" font-family="system-ui">하이 다이내믹</text>
+</svg>`,
+      asr: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#ecfdf5"/>
+  <rect x="36" y="34" width="88" height="52" rx="12" fill="#059669"/>
+  <text x="80" y="66" text-anchor="middle" fill="#fff" font-size="16" font-weight="700" font-family="system-ui">🎙</text>
+  <text x="160" y="58" fill="#065f46" font-size="14" font-weight="700" font-family="system-ui">→ 텍스트</text>
+  <text x="160" y="82" fill="#047857" font-size="11" font-family="system-ui">ASR 자동 음성 인식</text>
+</svg>`,
+      wer: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fff7ed"/>
+  <text x="180" y="28" text-anchor="middle" fill="#9a3412" font-size="12" font-family="system-ui">맞은 단어 vs 틀린 단어</text>
+  <rect x="28" y="44" width="70" height="40" rx="10" fill="#16a34a"/>
+  <text x="63" y="70" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">맞음</text>
+  <rect x="108" y="44" width="70" height="40" rx="10" fill="#16a34a"/>
+  <text x="143" y="70" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">맞음</text>
+  <rect x="188" y="44" width="70" height="40" rx="10" fill="#dc2626"/>
+  <text x="223" y="70" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">틀림</text>
+  <rect x="268" y="44" width="70" height="40" rx="10" fill="#16a34a"/>
+  <text x="303" y="70" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">맞음</text>
+  <text x="180" y="106" text-anchor="middle" fill="#c2410c" font-size="12" font-family="system-ui">WER = 틀린 비율 · 낮을수록 정확</text>
+</svg>`,
+      cot: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef2ff"/>
+  <rect x="20" y="36" width="88" height="48" rx="16" fill="#fff" stroke="#4338ca" stroke-width="2"/>
+  <text x="64" y="66" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="700" font-family="system-ui">생각1</text>
+  <path d="M112 60 H138" stroke="#4338ca" stroke-width="3"/>
+  <polygon points="138,54 150,60 138,66" fill="#4338ca"/>
+  <rect x="154" y="36" width="88" height="48" rx="16" fill="#fff" stroke="#4338ca" stroke-width="2"/>
+  <text x="198" y="66" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="700" font-family="system-ui">생각2</text>
+  <path d="M246 60 H272" stroke="#4338ca" stroke-width="3"/>
+  <polygon points="272,54 284,60 272,66" fill="#4338ca"/>
+  <rect x="288" y="36" width="52" height="48" rx="16" fill="#4338ca"/>
+  <text x="314" y="66" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">답</text>
+  <text x="180" y="108" text-anchor="middle" fill="#3730a3" font-size="11" font-family="system-ui">연쇄 사고 · 한 줄씩 이어서 생각</text>
+</svg>`,
+      mhs: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f3f4f6"/>
+  <rect x="22" y="28" width="88" height="64" rx="12" fill="#111827"/>
+  <text x="66" y="58" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">에이전트</text>
+  <text x="66" y="76" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="system-ui">읽기 · 쓰기</text>
+  <path d="M118 60 H150" stroke="#111827" stroke-width="3"/>
+  <polygon points="150,54 164,60 150,66" fill="#111827"/>
+  <rect x="172" y="22" width="70" height="32" rx="8" fill="#fff" stroke="#111827" stroke-width="2"/>
+  <text x="207" y="43" text-anchor="middle" fill="#111827" font-size="11" font-weight="700" font-family="system-ui">현미경</text>
+  <rect x="172" y="66" width="70" height="32" rx="8" fill="#fff" stroke="#111827" stroke-width="2"/>
+  <text x="207" y="87" text-anchor="middle" fill="#111827" font-size="11" font-weight="700" font-family="system-ui">로봇팔</text>
+  <rect x="256" y="34" width="82" height="52" rx="12" fill="#0a7d6c"/>
+  <text x="297" y="58" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">MHS</text>
+  <text x="297" y="76" text-anchor="middle" fill="#b8ebe0" font-size="10" font-family="system-ui">공통 규약</text>
+</svg>`,
+      inpaint: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fff7ed"/>
+  <rect x="36" y="24" width="160" height="72" rx="12" fill="#fed7aa"/>
+  <rect x="92" y="42" width="48" height="36" rx="6" fill="#fff" stroke="#ea580c" stroke-dasharray="4 3"/>
+  <text x="116" y="65" text-anchor="middle" fill="#c2410c" font-size="16">+</text>
+  <path d="M210 60 H246" stroke="#ea580c" stroke-width="3"/>
+  <polygon points="246,54 260,60 246,66" fill="#ea580c"/>
+  <rect x="268" y="24" width="64" height="72" rx="12" fill="#ea580c"/>
+  <text x="300" y="58" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">메움</text>
+  <text x="300" y="76" text-anchor="middle" fill="#ffedd5" font-size="10" font-family="system-ui">빈 칸만</text>
+</svg>`,
+      outpaint: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#ecfeff"/>
+  <rect x="118" y="34" width="70" height="52" rx="8" fill="#0891b2"/>
+  <text x="153" y="65" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="system-ui">원본</text>
+  <rect x="78" y="28" width="204" height="64" rx="12" fill="none" stroke="#0e7490" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="180" y="108" text-anchor="middle" fill="#155e75" font-size="11" font-family="system-ui">화면을 바깥으로 넓힘</text>
+</svg>`,
+      maas: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef2ff"/>
+  <rect x="24" y="30" width="100" height="60" rx="12" fill="#fff" stroke="#3730a3" stroke-width="2"/>
+  <text x="74" y="56" text-anchor="middle" fill="#3730a3" font-size="12" font-weight="700" font-family="system-ui">모델 파일</text>
+  <text x="74" y="74" text-anchor="middle" fill="#6366f1" font-size="10" font-family="system-ui">내가 호스팅</text>
+  <path d="M132 60 H176" stroke="#3730a3" stroke-width="3"/>
+  <polygon points="176,54 190,60 176,66" fill="#3730a3"/>
+  <rect x="198" y="24" width="138" height="72" rx="14" fill="#3730a3"/>
+  <text x="267" y="54" text-anchor="middle" fill="#fff" font-size="13" font-weight="700" font-family="system-ui">API로 빌려 줌</text>
+  <text x="267" y="76" text-anchor="middle" fill="#c7d2fe" font-size="11" font-family="system-ui">MaaS</text>
+</svg>`,
+      "world-model": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f0fdf4"/>
+  <rect x="28" y="28" width="120" height="64" rx="12" fill="#166534"/>
+  <text x="88" y="56" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">장면 이해</text>
+  <text x="88" y="74" text-anchor="middle" fill="#bbf7d0" font-size="10" font-family="system-ui">물리·인과</text>
+  <path d="M156 60 H196" stroke="#166534" stroke-width="3"/>
+  <polygon points="196,54 210,60 196,66" fill="#166534"/>
+  <rect x="218" y="22" width="114" height="76" rx="14" fill="#fff" stroke="#166534" stroke-width="2"/>
+  <text x="275" y="48" text-anchor="middle" fill="#166534" font-size="12" font-weight="700" font-family="system-ui">다음 프레임</text>
+  <text x="275" y="68" text-anchor="middle" fill="#15803d" font-size="10" font-family="system-ui">행동에 반응</text>
+  <text x="275" y="86" text-anchor="middle" fill="#86efac" font-size="10" font-family="system-ui">월드 모델</text>
+</svg>`,
+      "diarization": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eff6ff"/>
+  <rect x="24" y="30" width="70" height="60" rx="12" fill="#1d4ed8"/>
+  <text x="59" y="58" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">A</text>
+  <text x="59" y="74" text-anchor="middle" fill="#bfdbfe" font-size="10" font-family="system-ui">화자</text>
+  <rect x="108" y="30" width="70" height="60" rx="12" fill="#2563eb"/>
+  <text x="143" y="58" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">B</text>
+  <text x="143" y="74" text-anchor="middle" fill="#bfdbfe" font-size="10" font-family="system-ui">화자</text>
+  <path d="M190 60 H230" stroke="#1d4ed8" stroke-width="3"/>
+  <polygon points="230,54 244,60 230,66" fill="#1d4ed8"/>
+  <rect x="252" y="28" width="84" height="64" rx="12" fill="#fff" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="294" y="55" text-anchor="middle" fill="#1d4ed8" font-size="11" font-weight="700" font-family="system-ui">누가</text>
+  <text x="294" y="72" text-anchor="middle" fill="#3b82f6" font-size="11" font-family="system-ui">말했나</text>
+</svg>`,
+      "recurrent-depth": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#faf5ff"/>
+  <circle cx="90" cy="60" r="36" fill="none" stroke="#7c3aed" stroke-width="3"/>
+  <path d="M90 36 A24 24 0 1 1 66 78" fill="none" stroke="#7c3aed" stroke-width="3"/>
+  <polygon points="62,72 54,84 72,80" fill="#7c3aed"/>
+  <text x="90" y="64" text-anchor="middle" fill="#7c3aed" font-size="11" font-weight="700" font-family="system-ui">루프</text>
+  <path d="M140 60 H180" stroke="#7c3aed" stroke-width="3"/>
+  <polygon points="180,54 194,60 180,66" fill="#7c3aed"/>
+  <rect x="202" y="28" width="130" height="64" rx="12" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="267" y="52" text-anchor="middle" fill="#7c3aed" font-size="12" font-weight="700" font-family="system-ui">안쪽 계산</text>
+  <text x="267" y="72" text-anchor="middle" fill="#a78bfa" font-size="10" font-family="system-ui">글자로 안 보임</text>
+</svg>`,
+      "preparedness-framework": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fff5f5"/>
+  <rect x="24" y="28" width="72" height="64" rx="10" fill="#fff" stroke="#dc2626" stroke-width="2"/>
+  <text x="60" y="55" text-anchor="middle" fill="#dc2626" font-size="11" font-weight="700" font-family="system-ui">Critical</text>
+  <text x="60" y="74" text-anchor="middle" fill="#f87171" font-size="10" font-family="system-ui">위험 문턱</text>
+  <path d="M106 60 H140" stroke="#dc2626" stroke-width="3"/>
+  <polygon points="140,54 154,60 140,66" fill="#dc2626"/>
+  <rect x="162" y="22" width="86" height="76" rx="12" fill="#dc2626"/>
+  <text x="205" y="48" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="system-ui">기본 제품</text>
+  <text x="205" y="68" text-anchor="middle" fill="#fecaca" font-size="10" font-family="system-ui">가드 강화</text>
+  <text x="205" y="86" text-anchor="middle" fill="#fecaca" font-size="10" font-family="system-ui">패치·리뷰</text>
+  <path d="M258 60 H286" stroke="#b91c1c" stroke-width="3"/>
+  <polygon points="286,54 300,60 286,66" fill="#b91c1c"/>
+  <rect x="308" y="34" width="40" height="52" rx="10" fill="#7f1d1d"/>
+  <text x="328" y="58" text-anchor="middle" fill="#fff" font-size="9" font-weight="700" font-family="system-ui">Day</text>
+  <text x="328" y="72" text-anchor="middle" fill="#fecaca" font-size="9" font-family="system-ui">break</text>
+</svg>`,
+      "intelligence-index": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef6ff"/>
+  <rect x="28" y="24" width="160" height="72" rx="12" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <text x="108" y="48" text-anchor="middle" fill="#2563eb" font-size="12" font-weight="700" font-family="system-ui">Intelligence</text>
+  <text x="108" y="68" text-anchor="middle" fill="#3b82f6" font-size="11" font-family="system-ui">Index</text>
+  <text x="108" y="86" text-anchor="middle" fill="#93c5fd" font-size="10" font-family="system-ui">종합 점수</text>
+  <path d="M198 60 H228" stroke="#2563eb" stroke-width="3"/>
+  <polygon points="228,54 242,60 228,66" fill="#2563eb"/>
+  <rect x="250" y="30" width="86" height="60" rx="12" fill="#2563eb"/>
+  <text x="293" y="55" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="system-ui">Coding</text>
+  <text x="293" y="72" text-anchor="middle" fill="#bfdbfe" font-size="10" font-family="system-ui">Agent Index</text>
+</svg>`,
+      "misalignment": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fff7ed"/>
+  <rect x="24" y="28" width="100" height="64" rx="12" fill="#fff" stroke="#ea580c" stroke-width="2"/>
+  <text x="74" y="55" text-anchor="middle" fill="#ea580c" font-size="12" font-weight="700" font-family="system-ui">의도한 목표</text>
+  <text x="74" y="74" text-anchor="middle" fill="#fdba74" font-size="10" font-family="system-ui">사람·정책</text>
+  <path d="M134 50 H170" stroke="#ea580c" stroke-width="3"/>
+  <path d="M134 70 H170" stroke="#9a3412" stroke-width="3" stroke-dasharray="4 3"/>
+  <polygon points="170,44 184,50 170,56" fill="#ea580c"/>
+  <polygon points="170,64 184,70 170,76" fill="#9a3412"/>
+  <rect x="196" y="22" width="140" height="76" rx="12" fill="#9a3412"/>
+  <text x="266" y="52" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">다른 목표</text>
+  <text x="266" y="72" text-anchor="middle" fill="#fed7aa" font-size="10" font-family="system-ui">우회·협조·은폐</text>
+</svg>`,
+      "lean": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f8fafc"/>
+  <rect x="28" y="28" width="130" height="64" rx="12" fill="#0f172a"/>
+  <text x="93" y="56" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">수학 증명</text>
+  <text x="93" y="74" text-anchor="middle" fill="#94a3b8" font-size="10" font-family="system-ui">사람이 씀</text>
+  <path d="M168 60 H208" stroke="#0f172a" stroke-width="3"/>
+  <polygon points="208,54 222,60 208,66" fill="#0f172a"/>
+  <rect x="230" y="24" width="106" height="72" rx="14" fill="#fff" stroke="#0f172a" stroke-width="2"/>
+  <text x="283" y="52" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="700" font-family="system-ui">Lean</text>
+  <text x="283" y="72" text-anchor="middle" fill="#64748b" font-size="10" font-family="system-ui">기계가 검증</text>
+</svg>`,
+      "c2pa": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fff7ed"/>
+  <rect x="36" y="30" width="110" height="60" rx="12" fill="#c2410c"/>
+  <text x="91" y="58" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">이미지</text>
+  <text x="91" y="74" text-anchor="middle" fill="#fed7aa" font-size="10" font-family="system-ui">파일 안</text>
+  <path d="M156 60 H196" stroke="#c2410c" stroke-width="3"/>
+  <polygon points="196,54 210,60 196,66" fill="#c2410c"/>
+  <rect x="218" y="26" width="114" height="68" rx="14" fill="#fff" stroke="#c2410c" stroke-width="2"/>
+  <text x="275" y="52" text-anchor="middle" fill="#c2410c" font-size="12" font-weight="700" font-family="system-ui">C2PA</text>
+  <text x="275" y="72" text-anchor="middle" fill="#ea580c" font-size="10" font-family="system-ui">출처 메타</text>
+</svg>`,
+      "ctf": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fef2f2"/>
+  <rect x="28" y="28" width="120" height="64" rx="12" fill="#fff" stroke="#b91c1c" stroke-width="2"/>
+  <text x="88" y="56" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="700" font-family="system-ui">문제 풀기</text>
+  <text x="88" y="74" text-anchor="middle" fill="#f87171" font-size="10" font-family="system-ui">해킹 연습</text>
+  <path d="M158 60 H198" stroke="#b91c1c" stroke-width="3"/>
+  <polygon points="198,54 212,60 198,66" fill="#b91c1c"/>
+  <rect x="220" y="28" width="112" height="64" rx="14" fill="#b91c1c"/>
+  <text x="276" y="56" text-anchor="middle" fill="#fff" font-size="14" font-weight="700" font-family="system-ui">CTF</text>
+  <text x="276" y="74" text-anchor="middle" fill="#fecaca" font-size="10" font-family="system-ui">깃발 찾기</text>
+</svg>`,
+      "vla": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef2ff"/>
+  <rect x="16" y="36" width="88" height="48" rx="10" fill="#fff" stroke="#4f46e5" stroke-width="2"/>
+  <text x="60" y="65" text-anchor="middle" fill="#4f46e5" font-size="11" font-weight="700" font-family="system-ui">Vision</text>
+  <path d="M110 60 H132" stroke="#4f46e5" stroke-width="2"/>
+  <rect x="138" y="36" width="88" height="48" rx="10" fill="#fff" stroke="#4f46e5" stroke-width="2"/>
+  <text x="182" y="65" text-anchor="middle" fill="#4f46e5" font-size="11" font-weight="700" font-family="system-ui">Language</text>
+  <path d="M232 60 H254" stroke="#4f46e5" stroke-width="2"/>
+  <rect x="260" y="30" width="84" height="60" rx="12" fill="#4f46e5"/>
+  <text x="302" y="56" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">Action</text>
+  <text x="302" y="74" text-anchor="middle" fill="#c7d2fe" font-size="10" font-family="system-ui">로봇 행동</text>
+</svg>`,
+      "ppa": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#ecfdf5"/>
+  <rect x="24" y="28" width="120" height="64" rx="12" fill="#059669"/>
+  <text x="84" y="56" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">발전소</text>
+  <text x="84" y="74" text-anchor="middle" fill="#a7f3d0" font-size="10" font-family="system-ui">원전 · 재생</text>
+  <path d="M154 60 H196" stroke="#059669" stroke-width="3"/>
+  <polygon points="196,54 210,60 196,66" fill="#059669"/>
+  <rect x="218" y="28" width="118" height="64" rx="12" fill="#fff" stroke="#059669" stroke-width="2"/>
+  <text x="277" y="56" text-anchor="middle" fill="#047857" font-size="13" font-weight="700" font-family="system-ui">PPA</text>
+  <text x="277" y="74" text-anchor="middle" fill="#34d399" font-size="10" font-family="system-ui">장기 전력 구매</text>
+</svg>`,
+
+      "ivo": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f4f1ea"/>
+  <rect x="24" y="26" width="96" height="68" rx="10" fill="#fff" stroke="#8b5e34" stroke-width="2"/>
+  <text x="72" y="56" text-anchor="middle" fill="#8b5e34" font-size="12" font-weight="700" font-family="system-ui">모델</text>
+  <text x="72" y="76" text-anchor="middle" fill="#a88966" font-size="10" font-family="system-ui">개발사</text>
+  <path d="M130 60 H168" stroke="#8b5e34" stroke-width="2"/>
+  <polygon points="168,55 180,60 168,65" fill="#8b5e34"/>
+  <rect x="188" y="26" width="148" height="68" rx="10" fill="#fff7ed" stroke="#c2410c" stroke-width="2"/>
+  <text x="262" y="52" text-anchor="middle" fill="#c2410c" font-size="13" font-weight="700" font-family="system-ui">IVO</text>
+  <text x="262" y="74" text-anchor="middle" fill="#9a3412" font-size="10" font-family="system-ui">독립 검증 · 감사</text>
+</svg>`,
+      distillation: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#fef2f2"/>
+  <rect x="24" y="28" width="110" height="64" rx="12" fill="#b91c1c"/>
+  <text x="79" y="56" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">큰 모델</text>
+  <text x="79" y="74" text-anchor="middle" fill="#fecaca" font-size="10" font-family="system-ui">답·CoT</text>
+  <path d="M144 60 H188" stroke="#b91c1c" stroke-width="3"/>
+  <polygon points="188,54 202,60 188,66" fill="#b91c1c"/>
+  <rect x="210" y="28" width="126" height="64" rx="12" fill="#fff" stroke="#b91c1c" stroke-width="2"/>
+  <text x="273" y="56" text-anchor="middle" fill="#b91c1c" font-size="12" font-weight="700" font-family="system-ui">작은 모델</text>
+  <text x="273" y="74" text-anchor="middle" fill="#ef4444" font-size="10" font-family="system-ui">능력 이식</text>
+</svg>`,
+      "full-duplex": `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#ecfeff"/>
+  <circle cx="90" cy="60" r="36" fill="#0e7490"/>
+  <text x="90" y="56" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">듣기</text>
+  <text x="90" y="74" text-anchor="middle" fill="#a5f3fc" font-size="10" font-family="system-ui">동시에</text>
+  <path d="M136 48 H224" stroke="#0e7490" stroke-width="3"/>
+  <path d="M224 72 H136" stroke="#0891b2" stroke-width="3"/>
+  <polygon points="224,42 238,48 224,54" fill="#0e7490"/>
+  <polygon points="136,66 122,72 136,78" fill="#0891b2"/>
+  <circle cx="270" cy="60" r="36" fill="#0891b2"/>
+  <text x="270" y="56" text-anchor="middle" fill="#fff" font-size="12" font-weight="700" font-family="system-ui">말하기</text>
+  <text x="270" y="74" text-anchor="middle" fill="#cffafe" font-size="10" font-family="system-ui">가로채기</text>
+</svg>`,
+
+
     };
 
   const BISCUITS = [
@@ -464,6 +847,16 @@
       text: "한 장의 정지 이미지를 출발점으로 움직임을 입히는 방식이에요.",
       detail: "Image-to-Video(I2V)는 포스터·키아트·스타트 프레임을 넣고 카메라 움직임·피사체 모션을 생성합니다. 브랜드 비주얼 아이덴티티를 유지한 채 숏폼으로 확장할 때 T2V보다 통제가 쉽습니다. 끝 프레임·키프레임을 같이 주는 모델도 있고, 얼굴·로고 일관성은 레퍼런스·시드로 보완합니다.",
       firstSeen: "2026-08-05"
+    },
+    {
+      id: "r2v",
+      term: "R2V",
+      en: "Reference-to-Video",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "이미지·영상·오디오 참조를 넣고, 그 대상·모션·소리를 유지한 새 클립을 만드는 방식이에요.",
+      detail: "Reference-to-Video(R2V)는 텍스트만으로 그리는 T2V·한 장에서 시작하는 I2V와 달리, 여러 참조 파일을 조건으로 묶어 캐릭터·제품·모션·사운드를 맞추는 생성 경로입니다. 프롬프트에서 Image 1·Video 1처럼 순서를 가리키는 식이 흔하고, 참조 개수·길이·요금은 엔드포인트마다 달라요. 숏폼·광고에서 동일 인물·소품을 유지한 변형을 뽑을 때 쓰면 좋아요.",
+      firstSeen: "2026-09-08"
     },
     {
       id: "native-audio",
@@ -616,6 +1009,26 @@
       firstSeen: "2026-08-05"
     },
     {
+      id: "zdr",
+      term: "ZDR",
+      en: "Zero Data Retention",
+      tag: "work",
+      tagLabel: "활용",
+      text: "요청이 끝나면 프롬프트나 파일을 서버에 남기지 않는 약정이에요. 데이터 미보관이라고 불러요.",
+      detail: "ZDR(Zero Data Retention)은 API 호출이 끝난 뒤 입력·출력을 보관하지 않겠다는 엔터 약정입니다. 학습에도 안 쓰고, 로그에도 안 남기는 쪽이 목표예요. Files API처럼 파일을 워크스페이스에 올려 두는 기능은 보통 ZDR 밖이라서, 올린 파일이 만료 전까지 남아 있습니다. 브랜드 가이드나 캠페인 원본을 올릴 때는 워크스페이스 분리와 만료 설정을 같이 보시면 됩니다.",
+      firstSeen: "2026-08-20"
+    },
+    {
+      id: "guardrail",
+      term: "가드레일",
+      en: "Guardrail",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "모델·에이전트가 위험한 출력이나 도구 호출을 하지 못하게 막아 두는 안전 장치예요.",
+      detail: "가드레일(guardrail)은 필터·정책·승인 규칙·라우팅 제한처럼, 모델이 허용 범위 밖으로 나가지 못하게 하는 안전 장치입니다. OpenRouter의 지역·ZDR 가드레일처럼 API 단에서 걸 수도 있고, 제품 UI의 자동 검토·차단일 수도 있어요. 콘텐츠 팀에서는 ‘브랜드 금칙어·초상권·아동 안전’ 규칙을 파이프에 심는 일과 같은 층으로 보시면 됩니다.",
+      firstSeen: "2026-09-14"
+    },
+    {
       id: "credits",
       term: "크레딧",
       en: "Credits",
@@ -624,12 +1037,284 @@
       text: "생성 툴에서 한 번 렌더·한 장 뽑을 때마다 깎이는 사용량 단위예요.",
       detail: "크레딧은 구독 플랜에 묶이거나 종량 과금되는 ‘생성 횟수·연산량’ 단위입니다. Draft는 적게, 고해상·긴 초수는 많이 소모하는 식입니다. 팀 예산 관리에서는 인원별 크레딧 캡, 프로모 종료일, 연간 할인 조건을 브리프 가격 카드와 같이 봅니다.",
       firstSeen: "2026-08-05"
+    },
+    {
+      id: "rag",
+      term: "RAG",
+      en: "Retrieval-Augmented Generation",
+      tag: "work",
+      tagLabel: "활용",
+      text: "답을 만들기 전에 사내 문서 같은 걸 먼저 찾아 붙이는 방식이에요. 검색 증강 생성이라고 불러요.",
+      detail: "RAG(Retrieval-Augmented Generation, 검색 증강 생성)는 모델 기억만으로 답하지 않고, 검색·벡터 저장소에서 관련 문서를 가져온 뒤 그 조각을 프롬프트에 넣어 생성합니다. 사내 규정·캠페인 가이드처럼 ‘우리 자료’를 붙일 때 환각을 줄이는 기본 패턴이에요. 설치 당일 RAG가 켜진다는 말은 온프레 문서 검색이 바로 붙는다는 뜻으로 보시면 됩니다. 검색 품질·권한·최신성이 답 품질을 좌우해요.",
+      firstSeen: "2026-08-20"
+    },
+    {
+      id: "sandbox",
+      term: "샌드박스",
+      en: "Sandbox",
+      tag: "work",
+      tagLabel: "활용",
+      text: "에이전트가 코드를 돌릴 때, 바깥 시스템과 떨어뜨려 두는 격리 실행 환경이에요.",
+      detail: "샌드박스는 프로세스·네트워크·파일을 제한한 실행 칸입니다. 코딩 에이전트나 스킬이 패키지를 깔거나 사내망에 손대지 못하게 막을 때 씁니다. 셀프호스티드 샌드박스에 메모리 스토어를 붙인다는 말은, 격리는 유지한 채 대화 기억만 연결한다는 뜻이에요. 권한 최소화·사람 승인과 같이 설계하는 경우가 많아요.",
+      firstSeen: "2026-08-20"
+    },
+    {
+      id: "watermark",
+      term: "워터마크",
+      en: "Watermark",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "생성된 이미지·영상에 ‘AI가 만든 결과’라는 흔적을 심어 두는 표시예요.",
+      detail: "워터마크는 눈에 보이는 로고일 수도 있고, 픽셀·비트에 숨긴 탐지용 신호일 수도 있습니다. 딥페이크·비동의 합성 대응, 플랫폼 고지, 출처 추적에 쓰여요. 토글을 끄면 표시가 빠지는 제품도 있어, 브랜드 배포 전에 켜짐 여부와 탐지 가능 여부를 확인하는 편이 안전합니다.",
+      firstSeen: "2026-08-20"
+    },
+    {
+      id: "ga",
+      term: "정식 공개",
+      en: "Generally Available",
+      tag: "basics",
+      tagLabel: "기초",
+      text: "베타·초대 없이 대상 사용자에게 제품이 열린 상태예요. 영문에선 GA라고 불러요.",
+      detail: "GA(Generally Available)는 얼리 액세스·클로즈드 베타가 끝나고 일반(또는 해당 플랜) 사용자에게 정식으로 열리는 단계입니다. 본문 기본은 ‘정식 공개’이고, 하이라이트가 필요하면 `GA(정식 공개)`처럼 약어도 같이 둡니다. 베타 헤더 해제·API 정식은 이 전환을 가리켜요. 같은 베타 단계 재탕은 카드로 올리지 않습니다.",
+      firstSeen: "2026-08-20"
+    },
+    {
+      id: "mcp",
+      term: "MCP",
+      en: "Model Context Protocol",
+      tag: "work",
+      tagLabel: "활용",
+      text: "모델이 검색·도구·데이터를 부를 때 쓰는 공통 연결 규약이에요. 모델 컨텍스트 프로토콜이라고 불러요.",
+      detail: "MCP(Model Context Protocol, 모델 컨텍스트 프로토콜)는 모델이 파일·검색·외부 앱 같은 도구를 같은 방식으로 부르도록 정한 연결 규약입니다. Slack·법률 워크벤치·거래소처럼 서로 다른 제품이 ‘도구 서버’를 열어 두면, 에이전트가 각각 다른 플러그인을 배우지 않고도 권한을 나눠 쓸 수 있어요. 읽기 전용과 실행 권한을 나누고, 사람 승인 뒤에만 나가게 설계하는 경우가 많아요.",
+      firstSeen: "2026-08-21"
+    },
+    {
+      id: "hdr",
+      term: "HDR",
+      en: "High Dynamic Range",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "아주 밝은 하이라이트와 아주 어두운 그림자를 한 화면에 같이 담는 넓은 밝기 범위예요. 맞은편은 SDR(표준 다이내믹 레인지)이에요.",
+      detail: "HDR(High Dynamic Range, 하이 다이내믹 레인지)은 화면이 담을 수 있는 밝기·대비 폭을 넓힌 영상 규격입니다. SDR(Standard Dynamic Range) 납품본은 TV·웹에서 흔히 보는 표준 밝기고, HDR10·HLG·PQ 같은 마스터는 하이라이트가 더 살아납니다. Runway Ruby처럼 SDR을 다시 그리지 않고 HDR로 넘기는 단계는 해상도를 키우는 업스케일과 달리 색 마스터에 가깝습니다. 캠페인 히어로를 HDR로 내야 하면 납품 규격(HDR10/HLG/ProRes/EXR)을 먼저 맞춰 두세요.",
+      firstSeen: "2026-08-24"
+    },
+    {
+      id: "asr",
+      term: "ASR",
+      en: "Automatic Speech Recognition",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "말소리를 글자로 바꿔 주는 자동 음성 인식이에요. 인터뷰·원테이크를 자막·스크립트로 뽑을 때 쓰는 층이에요.",
+      detail: "ASR(Automatic Speech Recognition, 자동 음성 인식)은 음성을 텍스트로 옮기는 기술입니다. 영상 후반·고객센터·회의록처럼 ‘듣고 받아 적는’ 일이 필요할 때 쓰고요. WER(단어 오류율)은 틀린 단어 비율, RTFx(실시간 배수)는 실제 시간보다 몇 배로 빨리 도는지 보여 줘요. 번역·요약은 보통 ASR 다음에 붙는 별도 단계예요.",
+      firstSeen: "2026-08-26"
+    },
+    {
+      id: "wer",
+      term: "WER",
+      en: "Word Error Rate",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "받아 적은 글이 원문과 얼마나 다른지 보는 틀린 단어 비율이에요. 낮을수록 전사가 정확해요.",
+      detail: "WER(Word Error Rate, 단어 오류율)은 자동 음성 인식이 원문 대비 삽입·삭제·교체한 단어 수를 전체 단어로 나눈 값입니다. 4.0%면 100단어 중 대략 네 곳이 틀린 셈이에요. 스트리밍(실시간)과 파일(비스트리밍) 숫자는 보통 따로 적히고, 벤치 세트·언어가 바뀌면 같은 모델도 값이 달라요. ASR 카드를 볼 때 속도(RTFx)와 짝으로 보시면 돼요.",
+      firstSeen: "2026-08-27"
+    },
+    {
+      id: "cot",
+      term: "CoT",
+      en: "Chain of Thought",
+      tag: "model",
+      tagLabel: "모델",
+      text: "답을 내기 전에 생각을 한 줄씩 이어 가는 연쇄 사고예요. 모니터하면 이상한 목표를 더 일찍 볼 수 있어요.",
+      detail: "CoT(Chain of Thought, 연쇄 사고)는 모델이 최종 답 앞에 중간 추론을 풀어 쓰는 방식입니다. 코딩·수학에서 단계를 밝히면 맞힐 확률이 올라가는 편이고, 에이전트 안전에서는 그 생각 스트림을 감시해 위험한 계획을 중간에 끊기도 해요. OpenAI 리포트의 CoT 모니터는 이 작업 메모를 보고 이상 행동을 호출하는 장치에 가깝습니다. 생각 토큰은 출력 요금에 잡히는 경우가 많아요.",
+      firstSeen: "2026-08-27"
+    },
+    {
+      id: "mhs",
+      term: "MHS",
+      en: "Model Hardware Standard",
+      tag: "work",
+      tagLabel: "활용",
+      text: "에이전트가 현미경·로봇팔 같은 기계를 같은 말로 다루게 하는 공통 규약이에요.",
+      detail: "MHS(Model Hardware Standard, 모델 하드웨어 스탠더드)는 Anthropic이 연 기계-에이전트 연결 규약입니다. 온도 읽기·쓰기처럼 짧은 명령으로 장치를 번역하고, 팔 무게 같은 안전 정보를 자연어 태그로 적어두면 처음 보는 기계도 다룰 수 있어요. MCP·명령줄·코드 파일로 붙일 수 있고, 연구 미리보기 뒤에 오픈소스로 풀 계획이에요. 영상 API가 아니라 실험실·공장 기계를 에이전트에 붙이는 층이에요.",
+      firstSeen: "2026-08-28"
+    },
+    {
+      id: "inpaint",
+      term: "인페인팅",
+      en: "Inpainting",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "그림에서 빈 칸이나 지우고 싶은 부분만 골라, 그 자리만 다시 그려 넣는 편집이에요.",
+      detail: "인페인팅은 마스크로 고른 영역만 모델이 다시 채우는 이미지 편집입니다. 로고를 빼거나, 손에 든 소품만 바꾸거나, 얼굴만 다듬을 때 써요. 바깥 픽셀은 그대로 두고 안쪽만 고치므로, 전체 재생성보다 구도와 브랜드 요소를 지키기 쉬워요. Midjourney V8.2 편집 모델처럼 지시문·레퍼런스 이미지와 같이 쓰는 경우가 많아요.",
+      firstSeen: "2026-08-28"
+    },
+    {
+      id: "outpaint",
+      term: "아웃페인팅",
+      en: "Outpainting",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "이미 있는 그림의 바깥을 이어서 그려, 화면을 더 넓히는 편집이에요.",
+      detail: "아웃페인팅은 원본 프레임 밖을 모델이 이어서 그리는 확장 편집입니다. 세로 숏폼을 가로 히어로로 넓히거나, 잘린 배경을 살릴 때 써요. 인페인팅이 안쪽을 메운다면 아웃페인팅은 캔버스를 키우는 쪽에 가깝습니다. 가장자리가 어색하면 프롬프트로 이어질 배경을 한 줄 더 적거나, 넓힌 뒤 한 번 더 다듬으면 좋아요.",
+      firstSeen: "2026-08-28"
+    },
+    {
+      id: "maas",
+      term: "MaaS",
+      en: "Model as a Service",
+      tag: "work",
+      tagLabel: "활용",
+      text: "모델 파일을 내가 띄워 두고, 남에게 API처럼 빌려 주는 호스팅 사업이에요.",
+      detail: "MaaS(Model as a Service, 모델 즉 서비스)는 다운로드한 가중치를 자기 서버에 올려 제3자가 입력·파라미터·학습 데이터를 실질적으로 고르게 하는 호스팅입니다. 앱 기능 안에만 모델을 심거나, 남의 창구로 요청만 넘기는 일은 보통 MaaS가 아니에요. GLM-5.3 라이선스는 연속 12개월 매출 100억 달러를 넘는 MaaS 사업자에게 Z.AI 보안 심사를 요구해요.",
+      firstSeen: "2026-08-31"
+    },
+    {
+      id: "world-model",
+      term: "월드 모델",
+      en: "World Model",
+      tag: "model",
+      tagLabel: "모델",
+      text: "화면·물리·다음 순간을 안에서 그려 보며, 행동에 어떻게 반응할지 예측하는 모델이에요.",
+      detail: "월드 모델(World Model)은 이미지나 상태를 보고 다음 장면을 스스로 시뮬레이션하는 모델입니다. 클릭·드래그·말 같은 행동을 조건으로 넣고 프레임을 이어 그리면, 코드로 짠 화면 없이도 상호작용이 가능해져요. Interface World Model은 그 아이디어를 앱·웹 UI 런타임에 붙인 표현이에요. 아직 글자 안정성·긴 세션 일관성 같은 한계가 있어, 연구 미리보기와 제작 파이프를 나눠 보시면 좋아요.",
+      firstSeen: "2026-09-01"
+    },
+    {
+      id: "diarization",
+      term: "화자 분리",
+      en: "Diarization",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "녹음에서 누가 말했는지 구간을 갈라, 화자마다 다른 태그로 적어 주는 처리예요.",
+      detail: "화자 분리(Diarization)는 여러 사람이 섞인 오디오에서 말 구간을 화자별로 나누는 기술입니다. 회의록·인터뷰·숏폼 자막에서 ‘A/B가 언제 말했는지’를 자동으로 붙일 때 써요. Muse Voice Transcribe처럼 ASR·말끝 감지와 한 모델에 붙이면, 따로 후처리 파이프를 두지 않아도 실시간으로 태그가 따라와요. 화자가 많거나 겹쳐 말할수록 어려운 편이에요.",
+      firstSeen: "2026-09-02"
+    },
+    {
+      id: "recurrent-depth",
+      term: "recurrent depth",
+      en: "Recurrent Depth",
+      tag: "model",
+      tagLabel: "모델",
+      text: "같은 층을 여러 번 돌며 안쪽에서 추론해, 글자로 된 CoT보다 읽기 어려운 계산을 늘리는 구조예요.",
+      detail: "recurrent depth(불투명 재귀·루프 트랜스포머로도 불려요)는 입력을 같은 신경망 층에 반복 통과시켜 성능을 올리는 기법입니다. 단계별 생각을 문장으로 남기는 CoT와 달리, 일부 추론이 숫자 활성화 안에만 남아 모니터하기 어려워질 수 있어요. Astra 보도에서 안전 연구자들이 이 점을 우려했고, OpenAI는 사용을 제한해 CoT를 읽을 수 있게 둔다고 반박했어요.",
+      firstSeen: "2026-09-03"
+    },
+    {
+      id: "preparedness-framework",
+      term: "Preparedness Framework",
+      en: "Preparedness Framework",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "OpenAI가 모델 위험 수준을 나눠, Critical처럼 높은 문턱이면 가드를 더 세게 걸거나 Daybreak로 좁히는 기준표예요.",
+      detail: "Preparedness Framework(준비도 프레임워크)는 OpenAI가 사이버·생물·설득 같은 위험 축을 단계로 평가해, 배포 전에 어떤 안전장치를 붙일지 정하는 틀이에요. Critical에 닿으면 기본 제품에는 안전한 코드 리뷰·패치 쪽만 두고, PoC 익스플로잇 같은 고급 능력은 Daybreak 같은 제한 창구로 좁혀요. 오정렬 모니터링·작업 확인 같은 배포 가드도 이 문턱과 같이 읽으면 이해가 쉬워요.",
+      firstSeen: "2026-09-04"
+    },
+    {
+      id: "intelligence-index",
+      term: "Intelligence Index",
+      en: "Intelligence Index",
+      tag: "model",
+      tagLabel: "모델",
+      text: "Artificial Analysis가 여러 벤치를 묶어 모델 실력을 한 점수로 보여주는 종합 지수예요.",
+      detail: "Intelligence Index(지능 지수)는 Artificial Analysis가 추론·지식·코딩 등 여러 측정을 합쳐 만든 종합 점수예요. 모델 세대나 추론 모드(max·xhigh)를 나란히 비교할 때 자주 인용돼요. 코딩 에이전트만 따로 보는 Coding Agent Index는 같은 집의 형제 지수라, 일반 지능 점수와 과제당 비용·토큰 효율을 같이 보시면 헤드라인만 보는 실수를 줄일 수 있어요.",
+      firstSeen: "2026-09-04"
+    },
+    {
+      id: "misalignment",
+      term: "오정렬",
+      en: "Misalignment",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "모델이 사람·정책이 원한 목표와 다른 목표를 쫓아, 우회·협조·은폐처럼 원치 않은 행동을 하는 상태예요.",
+      detail: "오정렬(misalignment)은 모델이나 에이전트가 설계자가 의도한 목표와 어긋난 행동을 보이는 상태를 말해요. 틀린 답을 자신 있게 말하는 할루시네이션과 달리, 과제 점수를 위해 규칙을 우회하거나 다른 에이전트와 몰래 협조하는 식이 여기에 가까워요. OpenAI는 독일 위키 사고를 보안 침해가 아니라 오정렬 사례로 분류했다가, 현실 세계 영향이 커지자 공개 틀을 새로 만들겠다고 했어요. 모니터링·샌드박스·사람 확인 단계는 이 위험을 줄이려는 장치로 읽으면 돼요.",
+      firstSeen: "2026-09-07"
+    }    ,
+    {
+      id: "lean",
+      term: "Lean",
+      en: "Lean",
+      tag: "model",
+      tagLabel: "모델",
+      text: "수학 증명을 코드처럼 적으면 컴퓨터가 빈틈없이 맞는지 확인해 주는 증명 보조기예요.",
+      detail: "Lean은 수학 문장을 프로그래밍 언어처럼 적고, 커널이 각 추론 단계가 규칙에 맞는지 검사하는 증명 보조기예요. 사람이 쓴 논문 초고와 달리, Lean에 올라간 증명은 ‘이 문장이 형식 체계 안에서 참이다’를 기계가 재현할 수 있어요. OpenAI·연구팀이 Navier–Stokes·Euler 결과를 Lean으로 형식화했다고 할 때, 그 말은 논문 PDF만이 아니라 기계 검증 가능한 증명 파일이 있다는 뜻에 가깝아요. 남는 숙제는 Lean에 적힌 목표가 우리가 말한 수학 문제와 같은지 사람이 확인하는 일이에요.",
+      firstSeen: "2026-09-09"
+    },
+    {
+      id: "c2pa",
+      term: "C2PA",
+      en: "C2PA",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "이미지나 영상이 어디서 어떻게 만들어졌는지 파일 안에 서명된 출처 기록을 남기는 표준이에요.",
+      detail: "C2PA(Coalition for Content Provenance and Authenticity)는 생성·편집 이력을 콘텐츠 파일 메타데이터로 묶어 서명하는 개방 표준이에요. ChatGPT Images가 C2PA 메타데이터와 보이지 않는 워터마크를 같이 쓴다고 할 때, 전자는 도구·모델·시간이 적힌 출처 티켓에 가깝고 후자는 픽셀에 심는 탐지 신호예요. 콘텐츠 팀에서는 ‘이 컷이 AI로 만들어졌는지’를 나중에 추적하거나 플랫폼 라벨과 맞출 때 이 두 장치를 같이 보시면 돼요. C2PA만으로 진실이 보장되진 않고, 서명을 지원하는 도구·뷰어가 있어야 읽혀요.",
+      firstSeen: "2026-09-09"
+    },
+    {
+      id: "ctf",
+      term: "CTF",
+      en: "Capture the Flag",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "해킹·보안 실력을 겨루려고 숨긴 깃발(비밀값)을 찾아내는 연습 경기예요.",
+      detail: "CTF(Capture the Flag)는 보안·사이버 평가에서 쓰는 문제 풀이 형식이에요. 모델에게 가상 회사 서버에서 비밀 문자열(깃발)을 찾으라고 시키면, 침투·권한 상승·패킷 분석 같은 단계를 밟아요. Anthropic 정렬 리포트처럼 평가 환경이 실제 인터넷과 섞이면, CTF 과제가 범위 밖 시스템을 건드리는 사고로 이어질 수 있어요. 콘텐츠 팀보다는 에이전트 안전·레드팀 맥락에서 자주 보여요.",
+      firstSeen: "2026-09-10"
+    },
+    {
+      id: "vla",
+      term: "VLA",
+      en: "Vision-Language-Action",
+      tag: "model",
+      tagLabel: "모델",
+      text: "보고(Vision), 이해하고(Language), 팔·바퀴로 움직이는(Action) 로봇용 모델 구조예요.",
+      detail: "VLA(Vision-Language-Action)는 카메라 입력과 언어 지시를 받아 모터·그리퍼 같은 행동을 내는 체화 AI 모델 계열이에요. 화면 위 에이전트가 클릭만 하는 것과 달리, 실제 공간에서 물건을 집거나 이동하는 쪽이에요. PHYMI 같은 스타트업이 Physical Agent·VLA를 말할 때, 인지와 행동을 한 파이프로 묶겠다는 뜻에 가깝아요.",
+      firstSeen: "2026-09-10"
+    },
+    {
+      id: "ppa",
+      term: "PPA",
+      en: "Power Purchase Agreement",
+      tag: "work",
+      tagLabel: "활용",
+      text: "발전소에서 나오는 전기를 몇 년 단위로 미리 사 두는 장기 구매 계약이에요.",
+      detail: "PPA(Power Purchase Agreement, 전력 구매 계약)는 데이터센터·클라우드 사업자가 원전·풍력·태양광 사업자와 맺는 장기 전력 거래예요. Google이 핀란드 Loviisa 원전 출력 절반을 22년 산다고 할 때, 그 뼈대가 PPA예요. AI 캡엑스 뉴스에서 ‘자체 전력 확보’와 같이 나오면, 요금·가동 기간·그리드 부담을 가르는 계약 조건으로 보시면 돼요.",
+      firstSeen: "2026-09-10"
+    }    ,
+    {
+      id: "ivo",
+      term: "IVO",
+      en: "Independent Verification Organization",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "주가 지정한, 개발사와 따로 떨어져 AI 시스템 위험을 평가하는 독립 검증 기관이에요.",
+      detail: "IVO(Independent Verification Organization)는 캘리포니아 SB 813이 도입하는 독립 검증 기관이에요. AI를 만든 회사가 아니라 지정된 제3자가 위험·준수 여부를 평가하고, 그 근거가 되는 지표·방법론을 밝히도록 해요. AB 1405의 감사인 등록부와 짝을 이뤄, 개발사가 숙제를 스스로 채점하지 않게 하려는 틀로 읽으면 돼요. 당장 모든 모델에 의무 감사가 붙는 뜻은 아니고, 지정·등록 인프라를 먼저 까는 단계예요.",
+      firstSeen: "2026-09-10"
+    },
+    {
+      id: "distillation",
+      term: "증류",
+      en: "Distillation",
+      tag: "risk",
+      tagLabel: "주의",
+      text: "큰 모델의 답·추론을 모아 작은 모델에 능력을 옮겨 심는 학습 방식이에요.",
+      detail: "증류(Distillation)는 선생 모델의 출력이나 CoT를 학습 데이터로 삼아 학생 모델에 비슷한 능력을 이식하는 기법이에요. 정상적으로는 라이선스·계약 안에서 쓰지만, Anthropic 위협 보고서처럼 가짜 계정·프록시로 몰래 CoT를 수확하는 불법 증류도 문제로 올라와요. 콘텐츠 팀보다는 API 보안·모델 경쟁 맥락에서 자주 보여요.",
+      firstSeen: "2026-09-11"
+    },
+    {
+      id: "full-duplex",
+      term: "풀듀플렉스",
+      en: "Full Duplex",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "한쪽이 말할 때 다른 쪽도 동시에 듣고 말할 수 있는, 전화처럼 겹치는 대화 방식이에요.",
+      detail: "풀듀플렉스(Full Duplex)는 송신과 수신이 동시에 열리는 통신이에요. 음성 AI에서는 STT→LLM→TTS를 번갈아 돌리는 턴제와 달리, 가로채기·맞장구·생각 중 침묵을 한 모델이 처리하는 쪽에 가깝습니다. GPT-Live-1이 API에서 강조하는 강점이에요. 예약·튜터·고객지원처럼 사람 말 중간에 끼어들거나 기다려야 하는 보이스 에이전트에 특히 중요해요.",
+      firstSeen: "2026-09-11"
     }
+
+
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-08-18",
-    termIds: ["short-drama", "upscale", "open-weight", "harness", "agent", "early-access"]
+    date: "2026-09-16",
+    termIds: ["upscale", "wer", "mcp", "watermark", "agent", "ga"]
   };
 
   const TAGS = [

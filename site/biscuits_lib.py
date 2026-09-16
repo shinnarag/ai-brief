@@ -23,18 +23,20 @@ CREATIVE_TAGS = frozenset({"creative", "work"})
 
 # id → rough tag for ranking (keep in sync with biscuits.js)
 _BISCUIT_TAGS: dict[str, str] = {
-    "open-weight": "model",
-    "context": "model",
-    "hallucination": "risk",
-    "prompt": "basics",
-    "agent": "work",
-    "token": "basics",
-    "moe": "model",
-    "fp8": "model",
     "cli": "basics",
     "api": "basics",
+    "prompt": "basics",
+    "token": "basics",
+    "context": "model",
+    "moe": "model",
+    "open-weight": "model",
+    "agent": "work",
+    "harness": "model",
+    "hallucination": "risk",
+    "fp8": "model",
     "t2v": "creative",
     "i2v": "creative",
+    "r2v": "creative",
     "native-audio": "creative",
     "keyframe": "creative",
     "lip-sync": "creative",
@@ -50,8 +52,36 @@ _BISCUIT_TAGS: dict[str, str] = {
     "multimodal": "model",
     "early-access": "basics",
     "deepfake": "risk",
+    "zdr": "work",
+    "guardrail": "risk",
     "credits": "work",
-    "harness": "model",
+    "rag": "work",
+    "sandbox": "work",
+    "watermark": "risk",
+    "ga": "basics",
+    "mcp": "work",
+    "hdr": "creative",
+    "asr": "creative",
+    "wer": "creative",
+    "cot": "model",
+    "mhs": "work",
+    "inpaint": "creative",
+    "outpaint": "creative",
+    "maas": "work",
+    "world-model": "model",
+    "diarization": "creative",
+    "recurrent-depth": "model",
+    "preparedness-framework": "risk",
+    "intelligence-index": "model",
+    "misalignment": "risk",
+    "lean": "model",
+    "c2pa": "risk",
+    "ctf": "risk",
+    "vla": "model",
+    "ppa": "work",
+    "ivo": "risk",
+    "distillation": "risk",
+    "full-duplex": "creative"
 }
 
 # (id, list of regex patterns). Longer / more specific first within each term.
@@ -287,6 +317,49 @@ _BISCUIT_PATTERNS: list[tuple[str, list[re.Pattern[str]]]] = [
 
 # drop empty placeholder if any
 _BISCUIT_PATTERNS = [(bid, pats) for bid, pats in _BISCUIT_PATTERNS if pats]
+
+# Additional catalog entries recovered from the published 59-card catalog.
+# The original server-side source was not published; use explicit names and
+# established aliases, not generic words such as "speech", "전사", or "정식".
+# ASCII boundaries let acronyms take Korean particles without matching inside
+# longer English words or identifiers (e.g. MCP는, but not MCProvider).
+def _term_pattern(english: str, korean: str = "", *, flags: int = 0) -> re.Pattern[str]:
+    bounded = rf"(?<![A-Za-z0-9_])(?:{english})(?![A-Za-z0-9_])"
+    return re.compile(rf"(?:{bounded}|{korean})" if korean else bounded, flags)
+
+
+_BISCUIT_PATTERNS.extend([
+    ("r2v", [_term_pattern(r"R2V|Reference[-\s]+to[-\s]+Video", r"참조[-\s]*투[-\s]*비디오", flags=re.I)]),
+    ("zdr", [_term_pattern(r"ZDR|Zero[-\s]+Data[-\s]+Retention", r"제로\s*데이터\s*리텐션", flags=re.I)]),
+    ("guardrail", [_term_pattern(r"guardrails?", r"가드\s*레일", flags=re.I)]),
+    ("rag", [_term_pattern(r"RAG|Retrieval[-\s]+Augmented[-\s]+Generation", r"검색\s*증강(?:\s*생성)?")]),
+    ("sandbox", [_term_pattern(r"sandboxes|sandbox", r"샌드\s*박스", flags=re.I)]),
+    ("watermark", [_term_pattern(r"watermarks?|watermarking", r"워터\s*마크", flags=re.I)]),
+    ("ga", [_term_pattern(r"GA|Generally\s+Available|General\s+Availability", r"정식\s*공개")]),
+    ("mcp", [_term_pattern(r"MCP|Model\s+Context\s+Protocol", r"모델\s*컨텍스트\s*프로토콜")]),
+    ("hdr", [_term_pattern(r"HDR|High\s+Dynamic\s+Range", r"하이\s*다이내믹\s*레인지")]),
+    ("asr", [_term_pattern(r"ASR|Automatic\s+Speech\s+Recognition", r"자동\s*음성\s*인식")]),
+    ("wer", [_term_pattern(r"WER|Word\s+Error\s+Rate", r"단어\s*오류율")]),
+    ("cot", [_term_pattern(r"CoT|Chain[-\s]+of[-\s]+Thought", r"연쇄\s*사고")]),
+    ("mhs", [_term_pattern(r"MHS|Model\s+Hardware\s+Standard", r"모델\s*하드웨어\s*(?:스탠더드|표준)")]),
+    ("inpaint", [_term_pattern(r"inpaint(?:ing)?", r"인\s*페인팅", flags=re.I)]),
+    ("outpaint", [_term_pattern(r"outpaint(?:ing)?", r"아웃\s*페인팅", flags=re.I)]),
+    ("maas", [_term_pattern(r"MaaS|Model[-\s]+as[-\s]+a[-\s]+Service")]),
+    ("world-model", [_term_pattern(r"world[-\s]+models?", r"월드\s*모델", flags=re.I)]),
+    ("diarization", [_term_pattern(r"(?:speaker\s+)?diari[sz]ation", r"화자\s*분리", flags=re.I)]),
+    ("recurrent-depth", [_term_pattern(r"recurrent[-\s]+depth", flags=re.I)]),
+    ("preparedness-framework", [_term_pattern(r"Preparedness\s+Framework", r"준비도\s*프레임워크")]),
+    ("intelligence-index", [_term_pattern(r"Intelligence\s+Index", r"지능\s*지수")]),
+    ("misalignment", [_term_pattern(r"misalignment", r"오정렬", flags=re.I)]),
+    ("lean", [_term_pattern(r"Lean(?:\s+4)?")]),
+    ("c2pa", [_term_pattern(r"C2PA|Coalition\s+for\s+Content\s+Provenance\s+and\s+Authenticity")]),
+    ("ctf", [_term_pattern(r"CTF|Capture[-\s]+the[-\s]+Flag")]),
+    ("vla", [_term_pattern(r"VLA|Vision[-\s]+Language[-\s]+Action")]),
+    ("ppa", [_term_pattern(r"PPA|Power\s+Purchase\s+Agreement", r"전력\s*구매\s*계약")]),
+    ("ivo", [_term_pattern(r"IVO|Independent\s+Verification\s+Organi[sz]ation", r"독립\s*검증\s*기관")]),
+    ("distillation", [_term_pattern(r"distillation", r"증류", flags=re.I)]),
+    ("full-duplex", [_term_pattern(r"full[-\s]+duplex", r"풀\s*듀플렉스", flags=re.I)]),
+])
 
 # Known creative / product jargon to flag as biscuit candidates when not in catalog
 _CANDIDATE_WATCH: list[tuple[re.Pattern[str], str, str]] = [
@@ -537,13 +610,14 @@ _BISCUIT_LABELS: dict[str, str] = {
     "fp8": "FP8",
     "t2v": "T2V",
     "i2v": "I2V",
+    "r2v": "R2V",
     "native-audio": "네이티브 오디오",
     "keyframe": "키프레임",
     "lip-sync": "립싱크",
     "draft-mode": "Draft 모드",
     "upscale": "업스케일",
-    "multi-shot": "멀티샷",
-    "video-continuation": "영상 이어쓰기",
+    "multi-shot": "멀티 샷",
+    "video-continuation": "비디오 컨티뉴에이션",
     "character-ip": "캐릭터 IP",
     "ai-influencer": "AI 인플루언서",
     "short-drama": "숏드라마",
@@ -552,7 +626,36 @@ _BISCUIT_LABELS: dict[str, str] = {
     "multimodal": "멀티모달",
     "early-access": "얼리 액세스",
     "deepfake": "딥페이크",
+    "zdr": "ZDR",
+    "guardrail": "가드레일",
     "credits": "크레딧",
+    "rag": "RAG",
+    "sandbox": "샌드박스",
+    "watermark": "워터마크",
+    "ga": "정식 공개",
+    "mcp": "MCP",
+    "hdr": "HDR",
+    "asr": "ASR",
+    "wer": "WER",
+    "cot": "CoT",
+    "mhs": "MHS",
+    "inpaint": "인페인팅",
+    "outpaint": "아웃페인팅",
+    "maas": "MaaS",
+    "world-model": "월드 모델",
+    "diarization": "화자 분리",
+    "recurrent-depth": "recurrent depth",
+    "preparedness-framework": "Preparedness Framework",
+    "intelligence-index": "Intelligence Index",
+    "misalignment": "오정렬",
+    "lean": "Lean",
+    "c2pa": "C2PA",
+    "ctf": "CTF",
+    "vla": "VLA",
+    "ppa": "PPA",
+    "ivo": "IVO",
+    "distillation": "증류",
+    "full-duplex": "풀듀플렉스"
 }
 
 

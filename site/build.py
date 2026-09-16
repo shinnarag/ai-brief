@@ -11,6 +11,7 @@ import html
 import json
 import re
 import shutil
+from calendar import monthrange
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
@@ -1715,7 +1716,7 @@ def shell(
   <meta name="theme-color" content="#f5f5f7" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
-  <link rel="stylesheet" href="{rp}assets/styles.css?v=20260806a" />
+  <link rel="stylesheet" href="{rp}assets/styles.css?v=20260916source" />
 </head>
 <body class="{"page-brief" if active == "brief" else f"page-{active}"}">
   <div class="read-progress" aria-hidden="true"><i></i></div>
@@ -1742,7 +1743,7 @@ def shell(
   </footer>
   <button type="button" class="back-to-top" aria-label="맨 위로" title="맨 위로">↑</button>
   <script src="{rp}assets/app.js?v=20260805b"></script>
-  <script src="{rp}assets/biscuits.js?v=20260806a"></script>
+  <script src="{rp}assets/biscuits.js?v=20260916source"></script>
 </body>
 </html>
 """
@@ -1904,6 +1905,57 @@ def landscape_domain_hrefs(brief: Brief, blurbs: dict[str, str]) -> dict[str, st
     return links
 
 
+def home_calendar_html(briefs: list[Brief]) -> str:
+    """Render every archive month, oldest first; the client opens the newest."""
+    if not briefs:
+        return ""
+    by_date = {date.fromisoformat(b.date): b for b in briefs}
+    first, latest = min(by_date), max(by_date)
+    year, month = first.year, first.month
+    months = []
+    while (year, month) <= (latest.year, latest.month):
+        first_weekday, days = monthrange(year, month)
+        # Python starts the week on Monday; the published calendar starts Sunday.
+        cells = [
+            '<div class="cal-cell is-empty is-pad" aria-hidden="true"></div>'
+            for _ in range((first_weekday + 1) % 7)
+        ]
+        for day in range(1, days + 1):
+            current = date(year, month, day)
+            brief = by_date.get(current)
+            day_html = f'<span class="cal-day">{day}</span>'
+            if brief:
+                title = brief.edition_title
+                preview = brief.edition_blurb or (brief.top5[0] if brief.top5 else brief.title)
+                marker = " is-latest" if current == latest else ""
+                label = f"{month}월 {day}일 · {title}"
+                cells.append(
+                    f'<a class="cal-cell{marker}" href="{html.escape(brief.url, quote=True)}" '
+                    f'data-tip="{html.escape(preview, quote=True)}" '
+                    f'aria-label="{html.escape(label, quote=True)}">{day_html}'
+                    f'<span class="cal-theme">{html.escape(title)}</span></a>'
+                )
+            else:
+                state = "is-weekend" if current.weekday() >= 5 else "is-empty"
+                cells.append(f'<div class="cal-cell {state}">{day_html}</div>')
+        months.append(f"""
+      <div class="cal-month">
+        <h3 class="cal-month-title">{year}년 {month}월</h3>
+        <div class="cal-grid" role="grid" aria-label="{year}년 {month}월">
+          {''.join(cells)}
+        </div>
+      </div>""")
+        year, month = (year + 1, 1) if month == 12 else (year, month + 1)
+    weekdays = ''.join(f'<div class="cal-wd">{day}</div>' for day in "일월화수목금토")
+    return f"""
+      <div class="cal-box" data-cal-scroll>
+        <div class="cal-wd-row">{weekdays}</div>
+        <div class="cal-wrap">
+          {''.join(months)}
+        </div>
+      </div>"""
+
+
 def write_home(briefs: list[Brief], agg: dict) -> None:
     full = [b for b in briefs if not b.is_stub]
     latest = full[0] if full else (briefs[0] if briefs else None)
@@ -1986,21 +2038,7 @@ def write_home(briefs: list[Brief], agg: dict) -> None:
         top_list = f'<ol class="top-stack">{lis}</ol>'
 
     rumor_pill = '<span class="pill rose">루머 포함</span>' if latest.has_rumor else ""
-    timeline = []
-    for b in briefs[:8]:
-        preview = html.escape(
-            b.edition_blurb or (b.top5[0] if b.top5 else b.title)
-        )
-        timeline.append(
-            f"""
-      <a class="tl-item" href="{b.url}">
-        <div class="tl-date">{html.escape(b.date)}</div>
-        <div>
-          <h4>{html.escape(b.edition_title)}{" · 요약" if b.is_stub else ""}</h4>
-          <p>{preview}</p>
-        </div>
-      </a>"""
-        )
+    calendar = home_calendar_html(briefs)
 
     # Today's biscuits: ranked from latest brief (creative terms first)
     latest_md = (
@@ -2096,14 +2134,12 @@ def write_home(briefs: list[Brief], agg: dict) -> None:
     <section class="section">
       <div class="section-head">
         <div>
-          <h2>타임라인</h2>
-          <p>최근 브리프 흐름</p>
+          <h2>달력</h2>
+          <p>주제를 보고, 올리면 요약이 뜨어요 · 박스 안에서 스크롤</p>
         </div>
         <a href="archive.html">전체 아카이브 →</a>
       </div>
-      <div class="timeline">
-        {''.join(timeline)}
-      </div>
+      {calendar}
     </section>
 """
     (PUBLIC / "index.html").write_text(
