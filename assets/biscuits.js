@@ -1313,8 +1313,8 @@
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-15",
-    termIds: ["keyframe", "video-continuation", "reference-image", "upscale", "sandbox", "zdr"]
+    date: "2026-09-16",
+    termIds: ["upscale", "wer", "mcp", "watermark", "agent", "ga"]
   };
 
   const TAGS = [

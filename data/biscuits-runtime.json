@@ -1,185 +1,164 @@
 {
-  "date": "2026-09-15",
-  "label": "9월 15일 브리프",
+  "date": "2026-09-16",
+  "label": "9월 16일 브리프",
   "termIds": [
-    "keyframe",
-    "video-continuation",
-    "reference-image",
     "upscale",
-    "sandbox",
-    "zdr"
+    "wer",
+    "mcp",
+    "watermark",
+    "agent",
+    "ga"
   ],
   "allMatchedIds": [
-    "video-continuation",
-    "keyframe",
     "upscale",
-    "reference-image",
-    "early-access",
-    "credits",
-    "harness",
-    "prompt",
     "agent",
     "token",
     "api",
-    "zdr",
-    "sandbox",
+    "watermark",
     "ga",
-    "mcp"
+    "mcp",
+    "wer"
   ],
   "candidates": [
     {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 15,
-      "sample": "dvisors 커넥터 목록 메모 · fal H3 Max 카메라·프로모 마감 · Claude Code `/usage",
-      "brief_date": "2026-09-15"
-    },
-    {
-      "term": "ElevenLabs",
-      "hint": "음성 합성",
-      "hits": 11,
-      "sample": "스는 API로 풀렸어요 주제 설명: ElevenLabs Music v2.5가 ElevenMusic 기본 모델이 됐고, 같은 주",
-      "brief_date": "2026-09-15"
-    },
-    {
-      "term": "FLUX",
+      "term": "MTIA",
       "hint": "설명 없는 대문자 약어",
-      "hits": 11,
-      "sample": "진 OpenAI Agents API·FLUX Video Edit을 오늘 보완해요. Anthropic은 어드바이저용",
-      "brief_date": "2026-09-15"
-    },
-    {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
-      "hits": 5,
-      "sample": "짜요** - (사실) fal이 MiniMax H3 Max 위에 **Camera Controls**(Multi Ang",
-      "brief_date": "2026-09-15"
+      "hits": 7,
+      "sample": "논의 공식 확인**, **Meta MTIA 450(Arke)**가 축이에요. > 전일 제외: ElevenLabs",
+      "brief_date": "2026-09-16"
     },
     {
       "term": "Suno",
       "hint": "음악 생성",
-      "hits": 5,
-      "sample": "PO 2026 부인. 창 밖·재탕: Suno v6 · GPT-Live-1 · ElevenLabs×UMG · Prem",
-      "brief_date": "2026-09-15"
-    },
-    {
-      "term": "GPT",
-      "hint": "설명 없는 대문자 약어",
       "hits": 4,
-      "sample": ". 창 밖·재탕: Suno v6 · GPT-Live-1 · ElevenLabs×UMG · Premiere Gene",
-      "brief_date": "2026-09-15"
-    },
-    {
-      "term": "UMG",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 4,
-      "sample": "Live-1 · ElevenLabs×UMG · Premiere Generative Media · Images 2.",
-      "brief_date": "2026-09-15"
-    },
-    {
-      "term": "BFL",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 3,
-      "sample": "출시 할인 9/14 마감**) · BFL(**히트: FLUX Video Edit · 블로그 최신 Upscale",
-      "brief_date": "2026-09-15"
-    },
-    {
-      "term": "BGM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "무 액션: Music v2.5 숏폼 BGM 비교 · FLUX Video Edit $0.03/초 PoC · Agen",
-      "brief_date": "2026-09-15"
-    },
-    {
-      "term": "CRM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "- 미팅 준비·포트폴리오 리뷰·후속·CRM 스킬과 커넥터가 Enterprise에 열리고, 9월 말까지 신규 라이선",
-      "brief_date": "2026-09-15"
-    },
-    {
-      "term": "GIGAZINE",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "을 열었어요. 공식 문서와 X 공지·GIGAZINE(9/11)로 확인돼요. 직전 브리프 스윕에 BFL이 비어 있어 오늘 본",
-      "brief_date": "2026-09-15"
+      "sample": "AI 확인 후속만). 창 밖·재탕: Suno v6 · Midjourney Collecting ideas · Higg",
+      "brief_date": "2026-09-16"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
-      "hits": 2,
-      "sample": "감**이 축이에요. > 전일 제외: Higgsfield AI Motion Designer · Amodei Pace 에세이·호응",
-      "brief_date": "2026-09-15"
+      "hits": 3,
+      "sample": "Collecting ideas · Higgsfield Motion Designer·3D Jutsu · Runway Adobe",
+      "brief_date": "2026-09-16"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
-      "hits": 2,
-      "sample": "8 — 창 안 신규 없음**) · Midjourney(창 안 신규 없음 · Collecting ideas/Alpha 9/2–",
-      "brief_date": "2026-09-15"
-    },
-    {
-      "term": "RIA",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "dvisor Services는 독립 RIA **16,000+**에 Schwab Advisor Center 인증 연",
-      "brief_date": "2026-09-15"
+      "hits": 3,
+      "sample": ". 창 밖·재탕: Suno v6 · Midjourney Collecting ideas · Higgsfield Motion De",
+      "brief_date": "2026-09-16"
     },
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
-      "hits": 2,
-      "sample": "modei Pace 에세이·호응 · Runway Premiere/AE 플러그인 · Gemini Windows · Ope",
-      "brief_date": "2026-09-15"
+      "hits": 3,
+      "sample": "Designer·3D Jutsu · Runway Adobe 플러그인 · Adobe Generative Media(9/8",
+      "brief_date": "2026-09-16"
     },
     {
-      "term": "fps",
-      "hint": "초당 프레임",
-      "hits": 2,
-      "sample": "를 넘는 입력은 720p로 줄이고, 프레임레이트는 **24 fps**로 맞춰요. 마스크·스타일 레퍼런스 영상·클립 연장",
-      "brief_date": "2026-09-15"
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 3,
+      "sample": "inancial Advisors · fal H3 Max Camera Controls·75% 할인 종료 · Clau",
+      "brief_date": "2026-09-16"
     },
     {
-      "term": "해상도(720p/1080p/4K)",
-      "hint": "출력 화질 단위",
+      "term": "BFL",
+      "hint": "설명 없는 대문자 약어",
       "hits": 2,
-      "sample": "줘요. 해상도는 소스를 따르되 **720p**를 넘는 입력은 720p로 줄이고, 프레임레이트는 **24 fps**",
-      "brief_date": "2026-09-15"
+      "sample": "인 종료는 9/15 재탕 금지) · BFL(창 안 신규 없음 · Upscale 8/20) · Adobe(창 안 메",
+      "brief_date": "2026-09-16"
     },
     {
-      "term": "CSO",
+      "term": "CNBC",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "어요 (후속)** - (사실) CNBC·Bloomberg·Straits Times가 **2026-09-15**",
+      "brief_date": "2026-09-16"
+    },
+    {
+      "term": "SMB",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 2,
+      "sample": "CP 온보딩 한 번 · Claude SMB `/smb-onboard` · Live 단가 $0.005/$0.018",
+      "brief_date": "2026-09-16"
+    },
+    {
+      "term": "Seedream",
+      "hint": "ByteDance 이미지 생성 모델",
+      "hits": 2,
+      "sample": "rative Media(9/8) · Seedream 5.0(7/8) · DeepSeek V4.1-Flash(9/10). >",
+      "brief_date": "2026-09-16"
+    },
+    {
+      "term": "CRM",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "erplexity 사례를 올렸어요. CSO Johnny Ho는 Astra가 통신문을 쓰고 실제 시스템을 고치며 프",
-      "brief_date": "2026-09-15"
+      "sample": "브리프를 받아 보시면 돼요. 금융·CRM 데이터는 승인 모드를 켠 채로 두는 편이 좋아요. - 출처: [A",
+      "brief_date": "2026-09-16"
+    },
+    {
+      "term": "ElevenLabs",
+      "hint": "음성 합성",
+      "hits": 1,
+      "sample": ")**가 축이에요. > 전일 제외: ElevenLabs Music v2.5 · FLUX Video Edit · OpenAI A",
+      "brief_date": "2026-09-16"
+    },
+    {
+      "term": "FINRA",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "7월에 낸, 미국 증권 자율규제기구(FINRA)처럼 업계가 기준을 잡는 미국 주도 Standards Body 제안 이",
+      "brief_date": "2026-09-16"
+    },
+    {
+      "term": "FLUX",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "enLabs Music v2.5 · FLUX Video Edit · OpenAI Agents API · Claude",
+      "brief_date": "2026-09-16"
+    },
+    {
+      "term": "HBM",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "글은 450이 GenAI 추론용으로 HBM 대역폭을 400 대비 두 배로 올리고, 대량 배포는 **2027 초**",
+      "brief_date": "2026-09-16"
+    },
+    {
+      "term": "IBC",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "무 액션 리마인드만. - Adobe IBC 9/15 보도·Seedream ABNewswire는 창 밖/SEO 재탕",
+      "brief_date": "2026-09-16"
     },
     {
       "term": "LTX",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
       "sample": "nus / mona-lisa-1 / LTX-2.5 / Anthropic–Decart: 상태 변경 없음. - Sun",
-      "brief_date": "2026-09-15"
+      "brief_date": "2026-09-16"
     },
     {
-      "term": "POST",
+      "term": "SEO",
       "hint": "설명 없는 대문자 약어",
       "hits": 1,
-      "sample": "ols/video-edit-v1`에 POST한 뒤 `polling_url`을 기다리면 돼요. - (영향) 숏폼",
-      "brief_date": "2026-09-15"
-    },
-    {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 1,
-      "sample": "클립 한 번만 돌려 보시면 돼요. Seedance·H3 전체 재생성과 단가·보존 품질을 같이 재면 돼요. - 출처:",
-      "brief_date": "2026-09-15"
+      "sample": "eam ABNewswire는 창 밖/SEO 재탕으로 drop. ## 📎 참고 링크 모음 | # | 제목 | 카",
+      "brief_date": "2026-09-16"
     },
     {
       "term": "Sora",
       "hint": "OpenAI 영상 모델",
       "hits": 1,
-      "sample": "-1·Suno v6 재탕 금지. - Sora Videos API 9/24 종료는 실무 액션 리마인드만. - Clau",
-      "brief_date": "2026-09-15"
+      "sample": "와 동일 이벤트 → 재탕 금지. - Sora Videos API 9/24 종료는 실무 액션 리마인드만. - Adob",
+      "brief_date": "2026-09-16"
+    },
+    {
+      "term": "TSMC",
+      "hint": "설명 없는 대문자 약어",
+      "hits": 1,
+      "sample": "요. Broadcom이 설계를 돕고 TSMC가 제조한다고 보도가 전해요. Meta 공식 MTIA 글은 450이 Ge",
+      "brief_date": "2026-09-16"
     }
   ],
   "catalogSize": 61

@@ -1,7 +1,280 @@
 {
-  "generated_at": "2026-09-15T10:42:39",
-  "count": 727,
+  "generated_at": "2026-09-16T10:31:44",
+  "count": 740,
   "items": [
+    {
+      "date": "2026-09-16",
+      "displayDate": "2026년 9월 16일(수)",
+      "briefTitle": "음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요",
+      "briefUrl": "brief/2026-09-16.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-01",
+      "title": "Gemini 3.8 Live — 말하면서 도구를 돌리고, Extended Thinking은 복잡한 일을 목소리로 이어 가요",
+      "snippet": "Live API에 올랐고 오디오 입력 분당 $0.005·출력 $0.018이에요. Search Live·Gemini Live·Workspace에도 같이 풀려요.",
+      "text": "Gemini 3.8 Live — 말하면서 도구를 돌리고, Extended Thinking은 복잡한 일을 목소리로 이어 가요 Live API에 올랐고 오디오 입력 분당 $0.005·출력 $0.018이에요. Search Live·Gemini Live·Workspace에도 같이 풀려요. 모델 · 플랫폼",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-16.html#c-top-5-01"
+    },
+    {
+      "date": "2026-09-16",
+      "displayDate": "2026년 9월 16일(수)",
+      "briefTitle": "음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요",
+      "briefUrl": "brief/2026-09-16.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-02",
+      "title": "Meta One — Instagram·WhatsApp·Facebook에 AI 사용량과 크리에이터 도구를 묶은 구독이에요",
+      "snippet": "단계 도입으로 이미 1,500만 구독·체험이 있고, 단일 앱은 월 $2.99부터, Core는 $7.99, Premium은 $19.99예요.",
+      "text": "Meta One — Instagram·WhatsApp·Facebook에 AI 사용량과 크리에이터 도구를 묶은 구독이에요 단계 도입으로 이미 1,500만 구독·체험이 있고, 단일 앱은 월 $2.99부터, Core는 $7.99, Premium은 $19.99예요. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-16.html#c-top-5-02"
+    },
+    {
+      "date": "2026-09-16",
+      "displayDate": "2026년 9월 16일(수)",
+      "briefTitle": "음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요",
+      "briefUrl": "brief/2026-09-16.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-03",
+      "title": "WhatsApp Business Tools MCP — Claude·Cursor·Codex로 비즈니스 계정 세팅을 맡길 수 있어요",
+      "snippet": "번호 등록·Cloud API·템플릿·웹훅·테스트 메시지까지 에이전트가 이어 가고, 지금은 점진 롤아웃 베타예요.",
+      "text": "WhatsApp Business Tools MCP — Claude·Cursor·Codex로 비즈니스 계정 세팅을 맡길 수 있어요 번호 등록·Cloud API·템플릿·웹훅·테스트 메시지까지 에이전트가 이어 가고, 지금은 점진 롤아웃 베타예요. 모델 · 플랫폼",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-16.html#c-top-5-03"
+    },
+    {
+      "date": "2026-09-16",
+      "displayDate": "2026년 9월 16일(수)",
+      "briefTitle": "음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요",
+      "briefUrl": "brief/2026-09-16.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-04",
+      "title": "Claude for Small Business — 워크플로 43개·연동 27개가 붙고, 영업·마케팅까지 넓혀요",
+      "snippet": "Shopify·Salesforce·TikTok·Stripe 등이 새로 붙었고, 기본은 사람 승인 뒤에만 보내·결제해요.",
+      "text": "Claude for Small Business — 워크플로 43개·연동 27개가 붙고, 영업·마케팅까지 넓혀요 Shopify·Salesforce·TikTok·Stripe 등이 새로 붙었고, 기본은 사람 승인 뒤에만 보내·결제해요. 마케팅 · 비즈니스",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-16.html#c-top-5-04"
+    },
+    {
+      "date": "2026-09-16",
+      "displayDate": "2026년 9월 16일(수)",
+      "briefTitle": "음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요",
+      "briefUrl": "brief/2026-09-16.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-05",
+      "title": "OpenAI — Anthropic·Google과 AI 표준기구를 논의 중이라고 공식 확인했어요",
+      "snippet": "Hassabis가 제안한, 미국 증권 자율규제기구처럼 업계가 기준을 잡는 논의의 연장이고, 정부 규제 대체가 아니라 보완이라고 선이 그어져 있어요.",
+      "text": "OpenAI — Anthropic·Google과 AI 표준기구를 논의 중이라고 공식 확인했어요 Hassabis가 제안한, 미국 증권 자율규제기구처럼 업계가 기준을 잡는 논의의 연장이고, 정부 규제 대체가 아니라 보완이라고 선이 그어져 있어요. 규제 · 리스크",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-16.html#c-top-5-05"
+    },
+    {
+      "date": "2026-09-16",
+      "displayDate": "2026년 9월 16일(수)",
+      "briefTitle": "음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요",
+      "briefUrl": "brief/2026-09-16.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-01",
+      "title": "Gemini 3.8 Live · Extended Thinking — 실시간 음성 에이전트가 Live API와 제품 면에 같이 열려요",
+      "snippet": "(사실) Google이 2026-09-15에 Gemini 3.8 Live와 Gemini 3.8 Live Extended Thinking을 소개했어요. 거의 실시간으로 추론하면서 음성 대화를 이어 가는 네이티브 speech-to-speech 모델이고, 개발자용 Live API·Goo…",
+      "text": "Gemini 3.8 Live · Extended Thinking — 실시간 음성 에이전트가 Live API와 제품 면에 같이 열려요 (사실) Google이 2026-09-15에 Gemini 3.8 Live와 Gemini 3.8 Live Extended Thinking을 소개했어요. 거의 실시간으로 추론하면서 음성 대화를 이어 가는 네이티브 speech-to-speech 모델이고, 개발자용 Live API·Google AI Studio와 Search Live·Gemini Live·Workspace에 롤아웃이 시작됐어요. (범위) Live는 규모·단가에 맞춰 대화 유창함과 시각 그라운딩을 묶었고, Extended Thinking은 복잡한 다단계 일에 깊이를 더해요. Artificial Analysis Speech-to-Speech Quality Index에서 Extended Thinking이 전체 1위(82.6)이고, τ-Voice 68.6%·Sierra τ-Voice-banking 35.1%·Big Bench Audio 97.7%를 적어요. Live는 Speech Agent Arena에서 사용자 선호 2위로 소개돼요. 대화 중 97개 지원 언어를 자동으로 넘기고, 도구·API 호출은 백그라운드에서 돌리며 말은 끊지 않는다고 해요. Extended Thinking은 “잠깐 확인할게요” 같은 짧은 말로 받고, 진행을 목소리로 풀어 준다고 해요. (가격·가용) Live API 오디오는 입력 분당 $0.005, 출력 분당 $0.018(토큰 환산 추정)이에요. Live는 개발자 API·AI Studio, 엔터프라이즈는 Gemini Enterprise 프라이빗 프리뷰, 일반은 Search Live부터예요. Extended Thinking은 API·AI Studio와 함께 Gemini Live, Google AI Pro·Ultra의 Docs Live, 구독자의 Gmail·Keep Live에도 열려요. Agora·Fishjam·LiveKit·LangChain·Pipecat·Vercel·Vision Agents 같은 Live API 파트너도 같이 적혀 있어요. (표시) 생성 오디오에는 워터마크(SynthID)가 심긴다고 해요. 같은 날 개발자 글은 지난달 나온 Gemini 3.5 Transcribe의 스트리밍 WER 4.0%·비스트리밍 2.6%(85+ 언어)도 오디오 스위트 맥락으로 다시 짚어요. (영향) 숏폼 보이스오버·고객 응대·현장 안내처럼 말하면서 도구를 돌려야 하는 팀은 오늘 AI Studio Live에서 한 세션만 돌려 보시면 돼요. 단가는 분 단위로 먼저 재 두고, Workspace Live는 구독 티어를 확인하시면 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-16.html#c-모델-플랫폼-01"
+    },
+    {
+      "date": "2026-09-16",
+      "displayDate": "2026년 9월 16일(수)",
+      "briefTitle": "음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요",
+      "briefUrl": "brief/2026-09-16.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-02",
+      "title": "WhatsApp Business Tools MCP — 코딩 에이전트가 비즈니스 메시징 세팅을 대신해요",
+      "snippet": "(사실) Meta가 2026-09-15에 WhatsApp Business Tools MCP를 열었어요. TechCrunch·The New Stack이 같은 날을 전하고, Meta 개발자 문서의 MCP 서버 표에도 WhatsApp Business Tools가 올라 있어요.",
+      "text": "WhatsApp Business Tools MCP — 코딩 에이전트가 비즈니스 메시징 세팅을 대신해요 (사실) Meta가 2026-09-15에 WhatsApp Business Tools MCP를 열었어요. TechCrunch·The New Stack이 같은 날을 전하고, Meta 개발자 문서의 MCP 서버 표에도 WhatsApp Business Tools가 올라 있어요. (범위) Claude Desktop·Claude Code·ChatGPT·Codex·Cursor 같은 클라이언트가 원격 MCP로 붙어요. 에이전트가 WhatsApp Business 계정을 만들고, 전화번호를 넣고 인증하며, Cloud API 등록·약관 확인·메시지 템플릿 작성·웹훅 설정·테스트 발송까지 이어 갈 수 있다고 해요. 엔드포인트 검색·문서 조회·오류 추적은 기존 Meta Social Technologies MCP와 같이 쓰면 된다고 해요. OAuth로 Read/Manage 범위를 앱마다 고르고, 언제든 철회할 수 있어요. (한계) 점진 롤아웃이라 당장 모두가 못 쓸 수 있고, 인터페이스·도구는 베타로 바뀔 수 있다고 전해요. Meta는 에이전트가 부여받은 범위로 직접 호출할 수 있으니, 쓰기 권한은 꼭 필요한 앱에만 주라고 적어요. (영향) WhatsApp으로 고객 응대·주문 알림을 붙이려던 팀은 오늘 Cursor나 Claude에 MCP URL만 넣고, 테스트 비즈니스 한 곳으로 온보딩 한 바퀴만 돌려 보시면 돼요. Manage 범위는 스테이징 앱부터 나누는 편이 좋아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-16.html#c-모델-플랫폼-02"
+    },
+    {
+      "date": "2026-09-16",
+      "displayDate": "2026년 9월 16일(수)",
+      "briefTitle": "음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요",
+      "briefUrl": "brief/2026-09-16.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-01",
+      "title": "Meta One — Muse 이미지·영상과 Instagram Restyle 사용량을 구독으로 늘려요",
+      "snippet": "(사실) Meta가 2026-09-15에 Meta One을 공식 소개했어요. Instagram·Facebook·WhatsApp·Meta AI에 걸쳐 50개가 넘는 기능을 묶고, 단계 도입 동안 이미 1,500만 구독·체험이 쌓였다고 해요. 핵심 앱 경험과 기본 Meta AI는 계속…",
+      "text": "Meta One — Muse 이미지·영상과 Instagram Restyle 사용량을 구독으로 늘려요 (사실) Meta가 2026-09-15에 Meta One을 공식 소개했어요. Instagram·Facebook·WhatsApp·Meta AI에 걸쳐 50개가 넘는 기능을 묶고, 단계 도입 동안 이미 1,500만 구독·체험이 쌓였다고 해요. 핵심 앱 경험과 기본 Meta AI는 계속 무료라고 선을 그어요. (크리에이티브) Core·Premium 번들은 단일 앱 Plus 기능에 더해, 연산이 많이 드는 AI 사용량을 올려 줘요. Meta AI로 Muse 모델 기반 이미지 생성·편집·영상 생성, Instagram Restyle, 보이스 이펙트처럼 인앱 도구를 더 자주 쓸 수 있다고 해요. 초기 테스트에서 번들 구독자 절반 이상이 AI와 표현 기능을 같이 썼고, Restyle·보이스 이펙트가 구독 이유로 많이 꼽혔다고 적어요. (가격·로드맵) 단일 제품은 WhatsApp Plus $2.99/월, Instagram·Facebook Plus $3.99/월이에요. 개인 번들은 Core $7.99, Premium $19.99이에요. 크리에이터·비즈니스는 Essential $14.99부터, Advanced $49.99, Expert $149, Max $499(월, 시작가)이고, 인증 배지·스케줄·분석·Meta Business Agent 응답량이 티어에 따라 커져요. 곧 Edits·AI 글래스에도 확장한다고 해요. 지역·계정·테스트 상태에 따라 보이는 플랜이 달라요. (영향) IG·Reels·스토리에서 Meta AI를 이미 쓰던 팀은 오늘 계정에 Meta One이 보이는지 확인하고, Restyle·Muse 한도를 무료와 나란히만 재 보시면 돼요. 브랜드 운영 계정은 Essential 이상에서 Business Agent·인증 옵션을 같이 보시면 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-16.html#c-콘텐츠-제작-크리에이티브-01"
+    },
+    {
+      "date": "2026-09-16",
+      "displayDate": "2026년 9월 16일(수)",
+      "briefTitle": "음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요",
+      "briefUrl": "brief/2026-09-16.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-01",
+      "title": "Claude for Small Business — 백오피스에서 영업·마케팅 워크플로로 넓혀요",
+      "snippet": "(사실) Anthropic이 2026-09-15에 Claude for Small Business 플러그인을 크게 확장했어요. 공식 글은 워크플로 43개와 신규 연동 27개를 적고, Forbes·Unite.AI가 같은 날을 전해요. 5월 출시 이후 설치 90만 건이 넘었다고 해요.",
+      "text": "Claude for Small Business — 백오피스에서 영업·마케팅 워크플로로 넓혀요 (사실) Anthropic이 2026-09-15에 Claude for Small Business 플러그인을 크게 확장했어요. 공식 글은 워크플로 43개와 신규 연동 27개를 적고, Forbes·Unite.AI가 같은 날을 전해요. 5월 출시 이후 설치 90만 건이 넘었다고 해요. (범위) 새 연동 예시는 Shopify, Salesforce, TikTok, Atlassian, Zoom, Xero, Gusto, Square, Stripe, Zapier이고, 기존 QuickBooks·PayPal·HubSpot·Canva·DocuSign·Google Workspace·Microsoft 365도 이어져요. 주간 브리프(/monday-brief), 인바운드 리드(/speed-to-lead), 제안서(/proposal-builder), 소셜 콘텐츠 엔진, 장부 마감처럼 성장·운영 루틴을 Claude Cowork 안에서 돌린다고 해요. 기본은 초안만 만들고 보내기·결제·게시는 사람 승인을 기다려요. (교육) 가을 Claude SMB 투어가 미국 10개 도시 무료 워크숍으로 돌아오고, 승인 트레이너 150곳 이상이 커뮤니티 워크숍 750회 이상을 연다고 해요. 파트너 웨비나는 Notion(9/25)부터 Atlassian(11/17)까지 이어져요. Team 이상에서 쓰기 좋다고 안내해요. (영향) 소규모 브랜드·에이전시는 오늘 /smb-onboard로 Shopify나 Stripe 하나만 연결해 주간 브리프를 받아 보시면 돼요. 금융·CRM 데이터는 승인 모드를 켠 채로 두는 편이 좋아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-16.html#c-마케팅-비즈니스-01"
+    },
+    {
+      "date": "2026-09-16",
+      "displayDate": "2026년 9월 16일(수)",
+      "briefTitle": "음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요",
+      "briefUrl": "brief/2026-09-16.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-01",
+      "title": "OpenAI — Anthropic·Google과 AI 표준기구를 논의 중이라고 확인했어요 (후속)",
+      "snippet": "(사실) CNBC·Bloomberg·Straits Times가 2026-09-15에, OpenAI 대변인이 Anthropic·Google과 안전 이슈 협력·표준기구 논의를 확인했다고 전해요. 전일 Washington Post 보도에 이은 공식 확인 후속이에요.",
+      "text": "OpenAI — Anthropic·Google과 AI 표준기구를 논의 중이라고 확인했어요 (후속) (사실) CNBC·Bloomberg·Straits Times가 2026-09-15에, OpenAI 대변인이 Anthropic·Google과 안전 이슈 협력·표준기구 논의를 확인했다고 전해요. 전일 Washington Post 보도에 이은 공식 확인 후속이에요. (범위) 논의는 Google DeepMind Demis Hassabis가 7월에 낸, 미국 증권 자율규제기구(FINRA)처럼 업계가 기준을 잡는 미국 주도 Standards Body 제안 이후 이어졌다고 해요. Chris Lehane의 9/9 글은 업계 주도 자발 기준을 정부 지원 여부와 관계없이 추진하겠다고 적었고, 의무 연방 안전장치·민주 감독을 대체하지 않고 보완한다고 선을 그어요. 구체 설립 일정·강제력은 아직 없어요. (영향) 정책·컴플라이언스 메모용이에요. 제품 GA는 아니라서 Top에는 규제 칸으로만 두고, 제작 스택 실험은 Gemini Live·Meta One 쪽을 보시면 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-16.html#c-테크-인프라-규제-01"
+    },
+    {
+      "date": "2026-09-16",
+      "displayDate": "2026년 9월 16일(수)",
+      "briefTitle": "음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요",
+      "briefUrl": "brief/2026-09-16.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-02",
+      "title": "Meta MTIA 450(Arke) — 2027 상반기 데이터센터 투입, Astrid는 연말을 봐요",
+      "snippet": "(사실) Bloomberg가 2026-09-15에, Meta가 자체 AI 칩 MTIA 450(Arke)를 테스트 중이며 2027년 상반기 데이터센터 배포를 계획한다고 전해요. 다음 세대 MTIA 500(Astrid)는 설계가 한 달쯤 뒤 끝나고 2027년 말 투입·더 넓은 사용을…",
+      "text": "Meta MTIA 450(Arke) — 2027 상반기 데이터센터 투입, Astrid는 연말을 봐요 (사실) Bloomberg가 2026-09-15에, Meta가 자체 AI 칩 MTIA 450(Arke)를 테스트 중이며 2027년 상반기 데이터센터 배포를 계획한다고 전해요. 다음 세대 MTIA 500(Astrid)는 설계가 한 달쯤 뒤 끝나고 2027년 말 투입·더 넓은 사용을 본다고 해요. (범위) 엔지니어링 VP Yee Jiun Song은 Nvidia가 지금 파는 것보다 와트당·달러당 성능이 낫게 만드는 게 목표라고 했어요. Broadcom이 설계를 돕고 TSMC가 제조한다고 보도가 전해요. Meta 공식 MTIA 글은 450이 GenAI 추론용으로 HBM 대역폭을 400 대비 두 배로 올리고, 대량 배포는 2027 초라고 적어요. (영향) 콘텐츠 팀 직접 단가는 아니지만, Meta AI·Muse 인프라 원가 이야기의 배경으로만 보시면 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-16.html#c-테크-인프라-규제-02"
+    },
+    {
+      "date": "2026-09-16",
+      "displayDate": "2026년 9월 16일(수)",
+      "briefTitle": "음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요",
+      "briefUrl": "brief/2026-09-16.html",
+      "section": "SNS · 커뮤니티 반응",
+      "sectionId": "sns-커뮤니티-반응",
+      "cardId": "c-sns-커뮤니티-반응-01",
+      "title": "Zuckerberg — Pace 논쟁에 독립 평가자와 ‘사람 서비스용 연산’ 비중을 꺼냈어요",
+      "snippet": "(사실) Amodei 에세이 이후 이어진 속도 맞추기 논의에 Mark Zuckerberg가 X에서 합류했다고 보도가 전해요. 랩에 안전하게 학습할 유인이 이미 있고, 독립 평가자를 업계 모범으로 지지한다고 했어요. 재귀적 자기개선 경쟁보다 사람 서비스에 연산 대부분을 쓰는 것이 안…",
+      "text": "Zuckerberg — Pace 논쟁에 독립 평가자와 ‘사람 서비스용 연산’ 비중을 꺼냈어요 (사실) Amodei 에세이 이후 이어진 속도 맞추기 논의에 Mark Zuckerberg가 X에서 합류했다고 보도가 전해요. 랩에 안전하게 학습할 유인이 이미 있고, 독립 평가자를 업계 모범으로 지지한다고 했어요. 재귀적 자기개선 경쟁보다 사람 서비스에 연산 대부분을 쓰는 것이 안전한 길이며 Meta도 그렇게 하겠다고 적었어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-16.html#c-sns-커뮤니티-반응-01"
+    },
+    {
+      "date": "2026-09-16",
+      "displayDate": "2026년 9월 16일(수)",
+      "briefTitle": "음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요",
+      "briefUrl": "brief/2026-09-16.html",
+      "section": "SNS · 커뮤니티 반응",
+      "sectionId": "sns-커뮤니티-반응",
+      "cardId": "c-sns-커뮤니티-반응-02",
+      "title": "Grok Bot Galaxy — xAI가 9/15–17 SF에서 에이전트로 제품 만드는 라이브를 열었어요",
+      "snippet": "(사실) xAI Grok Bot Galaxy가 2026-09-15부터 사흘간 샌프란시스코 The Howard와 라이브스트림으로 열렸어요. 엔지니어링·PM·세일즈·마케팅 세션과 함께, 세 명이 Grok Bot으로 처음부터 제품을 만드는 라이브 빌드가 축이에요.",
+      "text": "Grok Bot Galaxy — xAI가 9/15–17 SF에서 에이전트로 제품 만드는 라이브를 열었어요 (사실) xAI Grok Bot Galaxy가 2026-09-15부터 사흘간 샌프란시스코 The Howard와 라이브스트림으로 열렸어요. 엔지니어링·PM·세일즈·마케팅 세션과 함께, 세 명이 Grok Bot으로 처음부터 제품을 만드는 라이브 빌드가 축이에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-09-16.html#c-sns-커뮤니티-반응-02"
+    },
     {
       "date": "2026-09-15",
       "displayDate": "2026년 9월 15일(화)",
