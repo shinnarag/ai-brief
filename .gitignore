@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+site/public/
+logs/
+state/
+# Local handoff/provenance records; review before any remote publication.
+references/
+source-manifest.json

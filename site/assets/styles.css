@@ -573,207 +573,39 @@ img { max-width: 100%; }
   color: var(--blue); font-size: 14px; font-weight: 500;
 }
 
-/* Month calendar (home) — framed scroll box, Sun-Sat 7-col, oldest first */
-.cal-box {
+/* Timeline */
+.timeline {
+  display: grid; gap: 10px;
+}
+.tl-item {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 14px;
   background: var(--bg-elevated);
-  border: 1px solid var(--line);
-  border-radius: 12px;
+  border-radius: var(--radius-m);
+  padding: 16px 18px;
   box-shadow: var(--shadow);
-  /* One 6-week month unclipped. Measured from current CSS:
-     sticky 일–토 ≈ 36px + month title ≈ 31px + 6×80px cells +
-     5×8px gaps + wrap bottom pad 18 + fade 12 ≈ 617. Extra
-     top/bottom air so the last week is not in the fade.
-     720 sits under two full months (~1100), so July+August
-     do not both sit in view when pinned to the current month. */
-  height: 720px;
-  max-height: min(720px, 90vh);
-  overflow-x: hidden;
-  overflow-y: auto;
-  overscroll-behavior: contain;
-  -webkit-overflow-scrolling: touch;
-  scroll-snap-type: y proximity;
-  scroll-padding-top: 36px;
-  scrollbar-width: thin;
-  scrollbar-color: var(--text-3) transparent;
-  padding: 0;
-  -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 calc(100% - 12px), transparent 100%);
-  mask-image: linear-gradient(to bottom, #000 0, #000 calc(100% - 12px), transparent 100%);
+  text-decoration: none; color: inherit;
+  transition: 0.15s ease;
 }
-.cal-box::-webkit-scrollbar { width: 6px; }
-.cal-box::-webkit-scrollbar-track { background: transparent; }
-.cal-box::-webkit-scrollbar-thumb {
-  background: var(--text-3);
-  border-radius: 980px;
-}
-.cal-wd-row {
-  position: sticky;
-  top: 0;
-  z-index: 5;
-  display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: 8px;
-  padding: 10px 14px 8px;
-  background: rgba(255, 255, 255, 0.72);
-  backdrop-filter: saturate(180%) blur(12px);
-  -webkit-backdrop-filter: saturate(180%) blur(12px);
-  border-bottom: 1px solid var(--line);
-}
-.cal-wrap {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 12px 14px 18px;
-}
-.cal-month {
-  overflow: visible;
-  scroll-snap-align: start;
-}
-.cal-month-title {
-  margin: 0 0 8px;
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--text-2);
-  letter-spacing: 0.04em;
-  padding: 2px 0;
-}
-.cal-grid {
-  display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: 8px;
-  overflow: visible;
-}
-.cal-wd {
-  font-size: 10px;
-  font-weight: 500;
-  color: var(--text-3);
-  text-align: center;
-  letter-spacing: 0.08em;
-  padding: 0 0 2px;
-}
-.cal-wd-row .cal-wd:first-child,
-.cal-wd-row .cal-wd:last-child {
-  color: var(--text-3);
-  opacity: 0.7;
-}
-.cal-cell {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  min-height: 80px;
-  background: var(--bg-elevated);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-s);
-  padding: 8px 10px;
-  box-shadow: none;
-  text-decoration: none;
-  color: inherit;
-  transition: background 180ms ease, border-color 180ms ease;
-  overflow: visible;
-}
-a.cal-cell:hover,
-a.cal-cell:focus-visible {
-  background: var(--blue-soft);
-  border-color: rgba(0, 102, 204, 0.4);
-  text-decoration: none;
-  color: inherit;
-}
-.cal-cell.is-empty {
-  background: transparent;
-  border: 1px dashed var(--line);
-  box-shadow: none;
-  min-height: 40px;
-}
-.cal-cell.is-weekend {
-  background: var(--fill-2);
-  border: 1px solid var(--line);
-  box-shadow: none;
-  min-height: 80px;
-  opacity: 1;
-  pointer-events: none;
-  cursor: default;
-}
-.cal-cell.is-weekend .cal-day { color: var(--text-3); }
-.cal-cell.is-pad {
-  visibility: hidden;
-  pointer-events: none;
-  min-height: 0;
-  padding: 0;
-  border: none;
-  background: transparent;
-  box-shadow: none;
-}
-.cal-day {
-  font-family: var(--mono);
-  font-size: 11px;
-  font-weight: 500;
-  color: var(--text-2);
-  line-height: 1.2;
-}
-.cal-cell.is-empty .cal-day { color: var(--text-3); }
-.cal-cell.is-latest .cal-day {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  align-self: flex-start;
-  min-width: 20px;
-  height: 20px;
-  padding: 0 5px;
-  border-radius: 980px;
-  background: var(--blue);
-  color: #fff;
-  font-weight: 600;
-}
-.cal-theme {
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.35;
-  letter-spacing: -0.015em;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-/* CSS ::after tooltip disabled — clipped by .cal-box overflow.
-   JS portals #cal-tip (.cal-float-tip) onto document.body. */
-a.cal-cell[data-tip]::after {
-  content: none;
-  display: none;
-}
-.cal-float-tip {
-  position: fixed;
-  z-index: 9999;
-  max-width: 260px;
-  width: max-content;
-  padding: 10px 12px;
-  background: #1d1d1f;
-  color: #fff;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 1.4;
-  letter-spacing: -0.01em;
-  white-space: normal;
-  border-radius: 12px;
+.tl-item:hover {
   box-shadow: var(--shadow-lg);
-  pointer-events: none;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 80ms ease, visibility 80ms ease;
+  text-decoration: none; color: inherit;
 }
-.cal-float-tip.is-visible {
-  opacity: 1;
-  visibility: visible;
+.tl-date {
+  font-family: var(--mono);
+  font-size: 12px; font-weight: 500; color: var(--blue);
+  padding-top: 2px;
+}
+.tl-item h4 {
+  margin: 0 0 4px; font-size: 15px; font-weight: 600;
+}
+.tl-item p {
+  margin: 0; font-size: 13px; color: var(--text-2);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 }
 @media (max-width: 560px) {
-  /* 6×68 + 5×6 gaps + sticky ≈ 32 + title ≈ 31 + pad/fade ≈ 523; extra air */
-  .cal-box { height: 640px; max-height: min(640px, 90vh); }
-  .cal-wd-row { gap: 6px; padding: 8px 10px 6px; }
-  .cal-wrap { gap: 16px; padding: 10px; }
-  .cal-grid { gap: 6px; }
-  .cal-cell { min-height: 68px; padding: 7px 8px; }
-  .cal-cell.is-empty { min-height: 32px; }
-  .cal-cell.is-weekend { min-height: 68px; }
-  .cal-theme { font-size: 11px; }
+  .tl-item { grid-template-columns: 1fr; gap: 6px; }
 }
 
 /* Archive grid */

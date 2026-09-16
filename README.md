@@ -1,21 +1,58 @@
-# AI Pulse
+# AI Pulse · 원본
 
-사내 AI 인텔리전스 데스크. 매일 자동 수집된 시그널로 **모델 · 에이전트 · 크리에이티브 · 마케팅 · 인프라 · 규제** 흐름을 읽습니다.
+브리프 원문과 웹사이트 생성 코드를 보관하는 원본입니다. 로컬 미리보기와 GitHub Actions에서 같은 빌드 명령을 사용합니다.
 
-## Live
+GitHub의 [`source` 브랜치](https://github.com/shinnarag/ai-brief/tree/source)는 이 원본을, `main`은 기존 공개 사이트를 관리합니다. 원본 보관과 배포 전환 계획은 [GitHub 원본 관리 계획](docs/github-source-plan.md)에 정리했습니다. 원본을 올리면 `.github/workflows/build.yml`이 GitHub 서버에서 빌드·검증합니다. [Actions 실행 기록](https://github.com/shinnarag/ai-brief/actions?query=branch%3Asource)에서 결과를 확인할 수 있습니다. 이 검사는 공개 사이트를 교체하지 않습니다.
 
-- **Site:** https://shinnarag.github.io/ai-brief/
-- **Latest:** https://shinnarag.github.io/ai-brief/latest.html
-- **Archive:** https://shinnarag.github.io/ai-brief/archive.html
+## 현재 상태
 
-## Structure
+- 이 Mac에서 찾은 기존 사이트 코드에 사용자가 추가한 최신 브리프를 반영한 **로컬 빌드·미리보기 환경**입니다.
+- 브리프는 **44개**, 최신 날짜는 **2026-09-16**입니다. 기존 23개에 2026-08-19~2026-09-16 브리프 21개를 추가했습니다.
+- 사이트 코드·용어사전·운영 규칙은 이전 Mac 버전입니다. 최신 브리프 반영과 별개로 box의 최신 코드 및 규칙 동기화가 필요합니다.
+- 현재 지원: 환경 점검, 정적 사이트 빌드, 산출물 기본 검증, 로컬 미리보기, 원본 변경 시 GitHub Actions 빌드 검사.
+- 아직 미구현: 최신 뉴스 수집·AI 작성, 실행 상태/재시도, 예약 실행, GitHub 배포, Slack 알림.
+- 기존 Mac 운영 폴더는 수정하지 않았고 `.env`, 인증 정보, 배포·알림 스크립트, 예약 설정은 복사하지 않았습니다.
 
+## 실행
+
+이 폴더에서 실행합니다. 명령은 폴더 경로에 의존하지 않아 나중에 다른 위치나 CI에서도 사용할 수 있습니다.
+
+```bash
+python3 scripts/local.py check
+python3 scripts/local.py build
+python3 scripts/local.py serve
 ```
-index.html      홈 (랜드스케이프 · 시그널 보드 · 최신 브리프)
-archive.html    아카이브
-brief/          날짜별 풀 리포트
-assets/         디자인 시스템
-data/           index.json
+
+미리보기: <http://127.0.0.1:8765/>. 종료는 `Ctrl+C`입니다. 포트가 사용 중이면 `python3 scripts/local.py serve --port 8766`을 사용합니다.
+
+별도 Python 환경이 필요한 경우:
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python scripts/local.py build
+.venv/bin/python scripts/local.py serve
 ```
 
-자동 배포: 수집기 → site/build.py → 이 저장소 push → GitHub Pages.
+Node.js도 필요합니다. 준비 시 확인한 환경은 Python 3.14.3, Node.js 24.14.0, Markdown 3.10.2입니다. 새 환경에서 의존성을 설치하는 절차는 별도 확인 대상입니다.
+
+`build`는 이 폴더의 `site/public/`을 다시 생성하고 `logs/`에 비스킷 후보를 씁니다. 원본 JS를 빌드할 때 수정하던 기존 동작은 제거했습니다. 검증은 주요 페이지·모든 브리프 페이지 존재, JSON 파싱, 최신 페이지 연결, JS 문법, 컴퓨터 고유 경로 노출을 확인합니다. 콘텐츠 사실성이나 전체 링크 품질까지 검증하는 단계는 아닙니다.
+
+2026-09-16 브리프 반영 시 8/19~9/16의 평일 21개, 파일명·본문·수집 날짜의 일치와 기본 형식을 확인했습니다. 9/14의 Amodei Top 5가 본문과 표현이 달라 짧은 중복 카드를 만들던 연결 처리도 보완했습니다. 짧은 인물·제품명이 정확히 같고, 본문 후보가 하나이며, 추가 문맥 단어까지 공유할 때만 기존 본문을 연결합니다. 원본 브리프 44개의 내용은 수정하지 않았습니다.
+
+## 다음 순서
+
+1. **최신 원본 동기화:** 브리프는 2026-09-16까지 반영했습니다. 이어서 box의 `prompt.md`, `WATCHLIST.md`, `scripts/`, `site/`와 필요한 리서치 기록을 확보해 비교합니다. 비밀값은 원본 저장소와 분리합니다.
+2. **로컬 수동 실행:** 수집 → 후보 판정 → 작성 → 검증을 하나씩 연결합니다. 최신 규칙과 마지막 정상 수집 시각을 확인한 뒤 날짜 하나로 시험합니다.
+3. **실패 복구:** 작성·검증·게시·알림 상태를 구분하고, 같은 날짜 재실행·월요일 수집 범위·수집 실패·중복 판정을 확인합니다.
+4. **로컬 반복 확인:** 정상 실행뿐 아니라 오류 후 재시도에서도 중복 게시나 누락이 없는지 확인합니다. 자동 예약을 사용하려면 Mac과 앱 또는 실행 프로세스가 켜져 있어야 합니다.
+5. **GitHub 이전:** 운영 원본을 저장소에 관리하고, 같은 실행 명령을 GitHub 제공 실행 서버에서 수동으로 먼저 검증합니다. 인증, 영속 실행 상태, 시간대 `Asia/Seoul`, 미발행 감시를 연결한 후 예약 실행으로 전환합니다.
+6. **운영 주체 전환:** 기존 box 예약과 새 예약이 동시에 발행하지 않도록 담당 실행 환경을 하나로 정합니다. Pages 게시 확인을 성공 기준으로 삼습니다.
+
+## 원본과 규칙의 구분
+
+- `references/HANDOFF-FOR-SUCCESSOR.md`: 사용자가 제공한 2026-09-16 인계서. 검토 자료이며 이 파일을 복사했다고 자동 실행하지 않습니다.
+- `references/legacy-prompt.md`, `legacy-WATCHLIST.md`, `legacy-README.md`: 이전 Mac 버전의 비교 자료입니다. 현재 수집 프롬프트로 사용하지 않습니다. 과거 절대 경로와 오래된 규칙이 남아 있습니다.
+- `source-manifest.json`: 최초 가져온 파일의 출처와 원본 SHA-256, 이후 추가한 브리프 목록과 확인 시점의 SHA-256. `site/build.py`는 가져온 후 위에 기록한 변경을 적용했습니다.
+
+이 준비본은 전달받은 브리프를 로컬에서 보여 줍니다. 새 브리프를 자동 생성하거나 실제 서비스에 배포하는 단계는 아직 연결하지 않았습니다.
