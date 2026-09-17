@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#f5f5f7" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
-  <link rel="stylesheet" href="../assets/styles.css?v=20260821tip" />
+  <link rel="stylesheet" href="../assets/styles.css?v=20260916source" />
 </head>
 <body class="page-brief">
   <div class="read-progress" aria-hidden="true"><i></i></div>
@@ -31,6 +31,7 @@
           </button>
           <div class="brief-date-picker" id="brief-date-picker-2026-08-20" role="listbox"
             aria-label="브리프 날짜 목록" hidden>
+      <a class="brief-date-option" role="option" href="2026-09-17.html" data-date="2026-09-17" aria-selected="false"><span class="brief-date-option-date">2026년 9월 17일(목)</span><span class="brief-date-option-title">AI가 문서·영상 제작부터 광고 운영과 고객 응대까지 이어 맡아요</span></a>
       <a class="brief-date-option" role="option" href="2026-09-16.html" data-date="2026-09-16" aria-selected="false"><span class="brief-date-option-date">2026년 9월 16일(수)</span><span class="brief-date-option-title">음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요</span></a>
       <a class="brief-date-option" role="option" href="2026-09-15.html" data-date="2026-09-15" aria-selected="false"><span class="brief-date-option-date">2026년 9월 15일(화)</span><span class="brief-date-option-title">음악 모델이 한 단계 오르고, Codex 하네스는 API로 풀렸어요</span></a>
       <a class="brief-date-option" role="option" href="2026-09-14.html" data-date="2026-09-14" aria-selected="false"><span class="brief-date-option-date">2026년 9월 14일(월)</span><span class="brief-date-option-title">프론티어는 속도를 맞추자고 하고, 편집 타임라인에는 에이전트가 붙었어요</span></a>
@@ -163,7 +164,7 @@
             
           </div>
           <h3 class="news-title">Claude — Files <button type="button" class="inline-biscuit" data-biscuit="api">API</button>·<button type="button" class="inline-biscuit" data-biscuit="agent">Agent</button> Skills <button type="button" class="inline-biscuit" data-biscuit="ga">정식 공개</button>, Admin 사용자 관리도 헤더 해제 (8/19)</h3>
-          <ul class="news-bullets"><li>(사실) Anthropic이 8/19 플랫폼 릴리즈 노트에서 Files API와 Agent Skills(/v1/skills)를 정식으로 열었어요. /v1/files와 올린 파일을 가리키는 Messages 요청, container로 스킬을 불러오는 요청 모두 <button type="button" class="inline-biscuit" data-biscuit="early-access">베타</button> 헤더가 더 이상 필요 없어요. 예전 헤더를 보내도 그대로 받아 줘요.</li><li>(Files 범위) 파일 하나 최대 500 MB, 조직 저장 1 TB, 분당 약 500 요청이에요. 올릴 때 expires_in_seconds를 1시간~90일로 넣으면 expires_at이 생기고, 안 넣으면 null이에요. 워크스페이스 안의 모든 키가 같은 파일을 볼 수 있어서, 테넌트별로 워크스페이스를 나누셔야 해요. <button type="button" class="inline-biscuit" data-biscuit="zdr">ZDR</button>(<button type="button" class="inline-biscuit" data-biscuit="zdr">데이터 미보관</button>) 대상은 아니에요.</li><li>(Skills) 미리 만든 스킬은 PowerPoint(pptx)·Excel(xlsx)·Word(docx)·PDF(pdf) 이고, 코드 실행 툴이 있어야 돌아가요. API 쪽 스킬 컨테이너는 네트워크가 없고 런타임에 패키지를 못 깔아요. claude.ai 커스텀 스킬은 개인 단위고, API는 워크스페이스 공유예요.</li><li>(같은 날) Enterprise Admin API 사용자 관리(멤버·초대·그룹·커스텀 롤)도 정식이에요. Managed Agents는 web_search/web_fetch에 허용·차단 도메인을 걸 수 있고, 셀프호스티드 <button type="button" class="inline-biscuit" data-biscuit="sandbox">샌드박스</button>에 메모리 스토어를 붙일 수 있어요. 콘솔 세션 뷰어는 타임라인·요청별 트랜스크립트·비용 인스펙터로 바뀌었어요.</li><li>(영향) 브랜드 가이드 PDF와 레퍼런스 컷을 한 번 올려 두고 캠페인 초안에 재사용하시면 돼요. 슬라이드·시트 스킬은 스테이징에서 헤더를 뺀 요청으로 한 번만 확인해 보시면 좋아요.</li></ul>
+          <ul class="news-bullets"><li>(사실) Anthropic이 8/19 플랫폼 릴리즈 노트에서 Files API와 Agent Skills(/v1/skills)를 정식으로 열었어요. /v1/files와 올린 파일을 가리키는 Messages 요청, container로 스킬을 불러오는 요청 모두 <button type="button" class="inline-biscuit" data-biscuit="early-access">베타</button> 헤더가 더 이상 필요 없어요. 예전 헤더를 보내도 그대로 받아 줘요.</li><li>(Files 범위) 파일 하나 최대 500 MB, 조직 저장 1 TB, 분당 약 500 요청이에요. 올릴 때 expires_in_seconds를 1시간~90일로 넣으면 expires_at이 생기고, 안 넣으면 null이에요. 워크스페이스 안의 모든 키가 같은 파일을 볼 수 있어서, 테넌트별로 워크스페이스를 나누셔야 해요. <button type="button" class="inline-biscuit" data-biscuit="zdr">ZDR</button>(데이터 미보관) 대상은 아니에요.</li><li>(Skills) 미리 만든 스킬은 PowerPoint(pptx)·Excel(xlsx)·Word(docx)·PDF(pdf) 이고, 코드 실행 툴이 있어야 돌아가요. API 쪽 스킬 컨테이너는 네트워크가 없고 런타임에 패키지를 못 깔아요. claude.ai 커스텀 스킬은 개인 단위고, API는 워크스페이스 공유예요.</li><li>(같은 날) Enterprise Admin API 사용자 관리(멤버·초대·그룹·커스텀 롤)도 정식이에요. Managed Agents는 web_search/web_fetch에 허용·차단 도메인을 걸 수 있고, 셀프호스티드 <button type="button" class="inline-biscuit" data-biscuit="sandbox">샌드박스</button>에 메모리 스토어를 붙일 수 있어요. 콘솔 세션 뷰어는 타임라인·요청별 트랜스크립트·비용 인스펙터로 바뀌었어요.</li><li>(영향) 브랜드 가이드 PDF와 레퍼런스 컷을 한 번 올려 두고 캠페인 초안에 재사용하시면 돼요. 슬라이드·시트 스킬은 스테이징에서 헤더를 뺀 요청으로 한 번만 확인해 보시면 좋아요.</li></ul>
           <div class="news-footer"><a class="news-chip" href="https://platform.claude.com/docs/en/release-notes/overview" target="_blank" rel="noreferrer">플랫폼 릴리즈 노트</a><a class="news-chip" href="https://platform.claude.com/docs/en/build-with-claude/files" target="_blank" rel="noreferrer">Files API</a><a class="news-chip" href="https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview" target="_blank" rel="noreferrer">Agent Skills</a><span class="news-chip news-chip-muted">공식</span></div>
         </article>
         <article class="news-card rel-official" id="c-모델-플랫폼-02" data-card-id="c-모델-플랫폼-02">
@@ -454,7 +455,7 @@
     AI Pulse · 매일 자동 수집 · 모델·에이전트·크리에이티브·마케팅·인프라·규제의 흐름을 한곳에서
   </footer>
   <button type="button" class="back-to-top" aria-label="맨 위로" title="맨 위로">↑</button>
-  <script src="../assets/app.js?v=20260821tip"></script>
-  <script src="../assets/biscuits.js?v=20260806a"></script>
+  <script src="../assets/app.js?v=20260805b"></script>
+  <script src="../assets/biscuits.js?v=20260916source"></script>
 </body>
 </html>

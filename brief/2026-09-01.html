@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#f5f5f7" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
-  <link rel="stylesheet" href="../assets/styles.css?v=20260821tip" />
+  <link rel="stylesheet" href="../assets/styles.css?v=20260916source" />
 </head>
 <body class="page-brief">
   <div class="read-progress" aria-hidden="true"><i></i></div>
@@ -31,6 +31,7 @@
           </button>
           <div class="brief-date-picker" id="brief-date-picker-2026-09-01" role="listbox"
             aria-label="브리프 날짜 목록" hidden>
+      <a class="brief-date-option" role="option" href="2026-09-17.html" data-date="2026-09-17" aria-selected="false"><span class="brief-date-option-date">2026년 9월 17일(목)</span><span class="brief-date-option-title">AI가 문서·영상 제작부터 광고 운영과 고객 응대까지 이어 맡아요</span></a>
       <a class="brief-date-option" role="option" href="2026-09-16.html" data-date="2026-09-16" aria-selected="false"><span class="brief-date-option-date">2026년 9월 16일(수)</span><span class="brief-date-option-title">음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요</span></a>
       <a class="brief-date-option" role="option" href="2026-09-15.html" data-date="2026-09-15" aria-selected="false"><span class="brief-date-option-date">2026년 9월 15일(화)</span><span class="brief-date-option-title">음악 모델이 한 단계 오르고, Codex 하네스는 API로 풀렸어요</span></a>
       <a class="brief-date-option" role="option" href="2026-09-14.html" data-date="2026-09-14" aria-selected="false"><span class="brief-date-option-date">2026년 9월 14일(월)</span><span class="brief-date-option-title">프론티어는 속도를 맞추자고 하고, 편집 타임라인에는 에이전트가 붙었어요</span></a>
@@ -182,7 +183,7 @@
             <span class="news-chip news-chip-top5">Top 1</span>
             
           </div>
-          <h3 class="news-title">Runway Solaris — 코드를 거치지 않고, 화면 자체가 앱이 되는 <button type="button" class="inline-biscuit" data-biscuit="world-model">Interface World Model</button>을 열었어요 (8/31)</h3>
+          <h3 class="news-title">Runway Solaris — 코드를 거치지 않고, 화면 자체가 앱이 되는 Interface <button type="button" class="inline-biscuit" data-biscuit="world-model">World Model</button>을 열었어요 (8/31)</h3>
           <ul class="news-bullets"><li>(사실) Runway가 Solaris를 2026-08-31에 공개했어요. schema datePublished는 2026-08-31T21:16:00.000Z(한국 시간 9/1 새벽)예요. 공식 글은 “인터페이스 <button type="button" class="inline-biscuit" data-biscuit="world-model">월드 모델</button>이라고 부르는 새 계열의 첫 모델”이라고 적어요. 질문은 “운영체제가 쓰는 동안 앱과 웹사이트를 만들어 내면 어떻게 되나?”예요.</li><li>(범위) Solaris는 Gen-4.5 영상 모델을 고쳐, 클릭·드래그·타이핑을 다음 프레임의 조건으로 넣고 실시간으로 화면을 그려요. 목표 화질은 720p이고, 상호작용이 바로 반응하는 느낌으로 느껴지려면 지연이 0.5초 근처를 넘기면 안 된다고 적혀 있어요. LLM이 장면을 바꿀지·유지할지 정하고, <button type="button" class="inline-biscuit" data-biscuit="world-model">월드 모델</button>이 프레임을 그리는 이단 구조예요. GWM-1 일반 월드 모델 라인의 이어짐이라고 해요.</li><li>(장면) 공식 예시는 옷가게에서 내 사진 한 장으로 옷을 집어 입어 보기, “테이블을 옮겨 줘 / 소파 색을 바꿔 줘” 같은 말로 매장 배치 바꾸기, 재료를 그릇에 끌어다 샐러드 만들기, 같은 손 X-ray 장면에서 드래그 방향만 바꿔 전혀 다른 반응 내기예요. 검은 “고양이를 클릭하면, 그다음 클릭은 그 털 색과 질감을 만지는 곳에 입힌다”이고, 마우스 의미가 장면에 따라 바뀐다고 적혀 있어요.</li><li>(평가) 스크린샷을 코드로 다시 그리는 재구성 테스트에는 Claude Fable 5 등 <button type="button" class="inline-biscuit" data-biscuit="multimodal">멀티모달</button> 모델을 썼고, 시각이 복잡해질수록 SSIM·DINOv3 기준 정보 손실이 커진다고 적어요. 같은 시작 이미지·같은 지시로 Claude Opus 5가 만든 코드 UI와 비교한 사용자 연구(참가자 250명 · 예시 30개 · 약 7,500쌍)에서는, 지시 따름에서 Solaris 61% vs 코드 24%(동등 13%), 자연스러움에서 Solaris 71% vs 코드 21%(동등 6%)가 나왔어요.</li><li>(한계) 안정적인 글자 렌더링, 틀린 답을 그럴듯하게 보여주는 신뢰 문제, 긴 세션 일관성, 스크린 리더·접근성 API 연동이 아직 열려 있다고 스스로 적어요. 공개 <button type="button" class="inline-biscuit" data-biscuit="ga">GA</button>·API·단가표는 없고, 공식 글은 “주요 파트너와 Solaris를 공개 출시하려고 준비 중”이라며 <button type="button" class="inline-biscuit" data-biscuit="early-access">early access</button> 폼만 열려 있어요.</li><li>(영향) 인터랙티브 룩북·매장·체험형 브랜드 페이지를 보던 팀은 오늘 데모 장면과 신청 폼만 먼저 보시면 돼요. 아직 연구 미리보기라 캠페인 제작 파이프에 바로 꽂는 단계는 아니고, Gen-4.5 계열이 UI 런타임으로 확장되는 레퍼런스로 보시면 좋아요.</li></ul>
           <div class="news-footer"><a class="news-chip" href="https://runwayml.com/news/research/introducing-solaris" target="_blank" rel="noreferrer">Runway</a><a class="news-chip" href="https://runtimewire.com/article/runway-solaris-interface-world-model-real-time" target="_blank" rel="noreferrer">Runtime Wire</a><span class="news-chip news-chip-muted">공식</span></div>
         </article></div></section><section class="content-card content-card--marketing news-section" id="마케팅-비즈니스" data-icon="marketing"><h2 class="news-section-title"><span class="sec-icon sec-icon--marketing" aria-hidden="true"><svg class="icon-svg icon-svg--marketing" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><path d="M5.2 9.2h3.1L14 5.4v13.2l-5.7-3.8H5.2z"/><path d="M16.2 9.4c1.1.7 1.8 1.9 1.8 3.2s-.7 2.5-1.8 3.2"/><path d="M18.4 7.6c1.8 1.2 2.9 3.2 2.9 5.4s-1.1 4.2-2.9 5.4" opacity=".55"/></svg></span><span class="sec-title-text">마케팅 · 비즈니스</span></h2><p class="news-empty">항목 없음</p></section><section class="content-card content-card--tech news-section" id="테크-인프라-규제" data-icon="tech"><h2 class="news-section-title"><span class="sec-icon sec-icon--tech" aria-hidden="true"><svg class="icon-svg icon-svg--tech" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><circle cx="12" cy="12" r="3.1"/><path d="M12 4.2v2.2M12 17.6v2.2M4.2 12h2.2M17.6 12h2.2M6.5 6.5l1.6 1.6M15.9 15.9l1.6 1.6M17.5 6.5l-1.6 1.6M8.1 15.9l-1.6 1.6"/></svg></span><span class="sec-title-text">테크 · 인프라 · 규제</span></h2><div class="news-grid">
@@ -287,7 +288,7 @@
     AI Pulse · 매일 자동 수집 · 모델·에이전트·크리에이티브·마케팅·인프라·규제의 흐름을 한곳에서
   </footer>
   <button type="button" class="back-to-top" aria-label="맨 위로" title="맨 위로">↑</button>
-  <script src="../assets/app.js?v=20260821tip"></script>
-  <script src="../assets/biscuits.js?v=20260806a"></script>
+  <script src="../assets/app.js?v=20260805b"></script>
+  <script src="../assets/biscuits.js?v=20260916source"></script>
 </body>
 </html>

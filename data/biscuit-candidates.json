@@ -1,145 +1,110 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "candidates": [
-    {
-      "term": "MTIA",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 7,
-      "sample": "논의 공식 확인**, **Meta MTIA 450(Arke)**가 축이에요. > 전일 제외: ElevenLabs",
-      "brief_date": "2026-09-16"
-    },
-    {
-      "term": "Suno",
-      "hint": "음악 생성",
-      "hits": 4,
-      "sample": "AI 확인 후속만). 창 밖·재탕: Suno v6 · Midjourney Collecting ideas · Higg",
-      "brief_date": "2026-09-16"
-    },
-    {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 3,
-      "sample": "Collecting ideas · Higgsfield Motion Designer·3D Jutsu · Runway Adobe",
-      "brief_date": "2026-09-16"
-    },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
-      "hits": 3,
-      "sample": ". 창 밖·재탕: Suno v6 · Midjourney Collecting ideas · Higgsfield Motion De",
-      "brief_date": "2026-09-16"
+      "hits": 8,
+      "sample": "eception 9/16 채택) · Midjourney(Alpha 9/16 채택) · Higgsfield(변경 기록 최신 9/",
+      "brief_date": "2026-09-17"
     },
     {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
-      "hits": 3,
-      "sample": "Designer·3D Jutsu · Runway Adobe 플러그인 · Adobe Generative Media(9/8",
-      "brief_date": "2026-09-16"
-    },
-    {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 3,
-      "sample": "inancial Advisors · fal H3 Max Camera Controls·75% 할인 종료 · Clau",
-      "brief_date": "2026-09-16"
-    },
-    {
-      "term": "BFL",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "인 종료는 9/15 재탕 금지) · BFL(창 안 신규 없음 · Upscale 8/20) · Adobe(창 안 메",
-      "brief_date": "2026-09-16"
-    },
-    {
-      "term": "CNBC",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "어요 (후속)** - (사실) CNBC·Bloomberg·Straits Times가 **2026-09-15**",
-      "brief_date": "2026-09-16"
-    },
-    {
-      "term": "SMB",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 2,
-      "sample": "CP 온보딩 한 번 · Claude SMB `/smb-onboard` · Live 단가 $0.005/$0.018",
-      "brief_date": "2026-09-16"
-    },
-    {
-      "term": "Seedream",
-      "hint": "ByteDance 이미지 생성 모델",
-      "hits": 2,
-      "sample": "rative Media(9/8) · Seedream 5.0(7/8) · DeepSeek V4.1-Flash(9/10). >",
-      "brief_date": "2026-09-16"
-    },
-    {
-      "term": "CRM",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "브리프를 받아 보시면 돼요. 금융·CRM 데이터는 승인 모드를 켠 채로 두는 편이 좋아요. - 출처: [A",
-      "brief_date": "2026-09-16"
+      "term": "Luma",
+      "hint": "영상 생성",
+      "hits": 5,
+      "sample": "uan·Wan(본문 추출 불가) · Luma(뉴스 본문 추출 실패, 상태 페이지에서 Ray2 지연 별도 확인). >",
+      "brief_date": "2026-09-17"
     },
     {
       "term": "ElevenLabs",
       "hint": "음성 합성",
-      "hits": 1,
-      "sample": ")**가 축이에요. > 전일 제외: ElevenLabs Music v2.5 · FLUX Video Edit · OpenAI A",
-      "brief_date": "2026-09-16"
+      "hits": 4,
+      "sample": "19, 이번 기간 신규 미확인) · ElevenLabs(Reception 9/16 채택) · Midjourney(Alpha 9",
+      "brief_date": "2026-09-17"
     },
     {
-      "term": "FINRA",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "7월에 낸, 미국 증권 자율규제기구(FINRA)처럼 업계가 기준을 잡는 미국 주도 Standards Body 제안 이",
-      "brief_date": "2026-09-16"
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
+      "hits": 2,
+      "sample": "인, 9/15 발표 누락 보완) · MiniMax/Hailuo(제품 목록 날짜 미표기) · Kling(공식 본문 접근 실",
+      "brief_date": "2026-09-17"
     },
     {
-      "term": "FLUX",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "enLabs Music v2.5 · FLUX Video Edit · OpenAI Agents API · Claude",
-      "brief_date": "2026-09-16"
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 2,
+      "sample": "deo Edit·Agents API·Runway 편집기 플러그인도 기존 브리프와 중복이에요. EU는 이번 공식 초청·평",
+      "brief_date": "2026-09-17"
     },
     {
-      "term": "HBM",
-      "hint": "설명 없는 대문자 약어",
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
-      "sample": "글은 450이 GenAI 추론용으로 HBM 대역폭을 400 대비 두 배로 올리고, 대량 배포는 **2027 초**",
-      "brief_date": "2026-09-16"
+      "sample": "ey(Alpha 9/16 채택) · Higgsfield(변경 기록 최신 9/4, 9/16 API 안내·개발 회고는 신규 기능",
+      "brief_date": "2026-09-17"
     },
     {
-      "term": "IBC",
-      "hint": "설명 없는 대문자 약어",
+      "term": "Kling",
+      "hint": "영상 생성 모델",
       "hits": 1,
-      "sample": "무 액션 리마인드만. - Adobe IBC 9/15 보도·Seedream ABNewswire는 창 밖/SEO 재탕",
-      "brief_date": "2026-09-16"
+      "sample": "luo(제품 목록 날짜 미표기) · Kling(공식 본문 접근 실패) · Hunyuan·Wan(본문 추출 불가) ·",
+      "brief_date": "2026-09-17"
     },
     {
-      "term": "LTX",
-      "hint": "설명 없는 대문자 약어",
+      "term": "Pika",
+      "hint": "영상 생성",
       "hits": 1,
-      "sample": "nus / mona-lisa-1 / LTX-2.5 / Anthropic–Decart: 상태 변경 없음. - Sun",
-      "brief_date": "2026-09-16"
-    },
-    {
-      "term": "SEO",
-      "hint": "설명 없는 대문자 약어",
-      "hits": 1,
-      "sample": "eam ABNewswire는 창 밖/SEO 재탕으로 drop. ## 📎 참고 링크 모음 | # | 제목 | 카",
-      "brief_date": "2026-09-16"
+      "sample": "간 이전) · Krea(8/6) · Pika(8/18) · Decart(Lucy 2.5 7/16) · LTX(제품",
+      "brief_date": "2026-09-17"
     },
     {
       "term": "Sora",
       "hint": "OpenAI 영상 모델",
       "hits": 1,
-      "sample": "와 동일 이벤트 → 재탕 금지. - Sora Videos API 9/24 종료는 실무 액션 리마인드만. - Adob",
-      "brief_date": "2026-09-16"
+      "sample": "5 Harness는 기간 이전) · Sora(기존 API 종료 안내 중복) · GitHub(AI Scan 9/16",
+      "brief_date": "2026-09-17"
     },
     {
-      "term": "TSMC",
-      "hint": "설명 없는 대문자 약어",
+      "term": "Suno",
+      "hint": "음악 생성",
       "hits": 1,
-      "sample": "요. Broadcom이 설계를 돕고 TSMC가 제조한다고 보도가 전해요. Meta 공식 MTIA 글은 450이 Ge",
-      "brief_date": "2026-09-16"
+      "sample": "획만 새 변화로 다뤄요. > 스윕: Suno(블로그·릴리스 직접 확인, v6 9/9·파트너 발표 9/8 이후 신규",
+      "brief_date": "2026-09-17"
+    },
+    {
+      "term": "Udio",
+      "hint": "음악 생성",
+      "hits": 1,
+      "sample": "발표 9/8 이후 신규 미확인) · Udio(읽힌 블로그 최신 2025/11/19, 이번 기간 신규 미확인) · E",
+      "brief_date": "2026-09-17"
+    },
+    {
+      "term": "Veo",
+      "hint": "Google 영상 모델",
+      "hits": 1,
+      "sample": "pMind(9/15 Live 중복, Veo 신규 미확인) · Meta(9/16 Threads 도구는 AI 기능 미",
+      "brief_date": "2026-09-17"
+    },
+    {
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 1,
+      "sample": "y(Plugins 9/8 중복) · fal(최근 모델 목록은 게시 시각 불명, 블로그 H3 Max 8/27은 기간",
+      "brief_date": "2026-09-17"
+    },
+    {
+      "term": "星图(광고 단가 플랫폼)",
+      "hint": "중국 인플루언서 단가 표시",
+      "hits": 1,
+      "sample": "Home은 고객·팀·사업 정보의 완성도와 빈 부분을 보여줘요. 작업 결과가 참고할 데이터를 정비하는 데 초점을",
+      "brief_date": "2026-09-17"
+    },
+    {
+      "term": "해상도(720p/1080p/4K)",
+      "hint": "출력 화질 단위",
+      "hits": 1,
+      "sample": ": 콘텐츠 · 크리에이티브 - 720p 아바타 상호작용과 의상·인물·배경의 실시간 편집을 안내하며, 기업용 A",
+      "brief_date": "2026-09-17"
     }
   ]
 }
