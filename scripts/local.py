@@ -78,7 +78,7 @@ def main() -> int:
     else:
         print("Source checkout: local import metadata is not required for building.", flush=True)
     if args.command == "check":
-        print("READY for local build. Research, publishing, and schedules are not configured.")
+        print("READY for local build. This command does not research, publish, or schedule.")
         return 0
     if args.command == "build":
         subprocess.run([sys.executable, str(ROOT / "site" / "build.py")], check=True, cwd=ROOT)

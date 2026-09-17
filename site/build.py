@@ -1852,6 +1852,13 @@ def landscape_domain_hrefs(brief: Brief, blurbs: dict[str, str]) -> dict[str, st
     Map domain key → deep link into the brief page.
     Prefers the news card that matches the landscape headline; falls back to section.
     """
+    rendered_ids = set(re.findall(r'\bid="([^"]+)"', brief.body_html))
+    section_ids = {
+        section_icon_key(heading): section_anchor(heading)
+        for heading in brief.sections
+        if section_anchor(heading) in rendered_ids
+    }
+
     # title → #cardId (or sectionId)
     title_frag: dict[str, str] = {}
     for it in brief.search_items or []:
@@ -1859,7 +1866,7 @@ def landscape_domain_hrefs(brief: Brief, blurbs: dict[str, str]) -> dict[str, st
         if not title:
             continue
         frag = (it.get("cardId") or it.get("sectionId") or "").strip()
-        if frag:
+        if frag in rendered_ids:
             title_frag[title] = frag
 
     def match_frag(title: str) -> str:
@@ -1894,13 +1901,15 @@ def landscape_domain_hrefs(brief: Brief, blurbs: dict[str, str]) -> dict[str, st
         # Section from signal heading if known
         if s.section:
             sid = section_anchor(s.section)
-            if sid:
+            if sid in rendered_ids:
                 links[domain] = f"{brief.url}#{sid}"
 
-    # 3) Static section fallback for remaining home domains
+    # 3) Resolve fallback headings against sections actually rendered in this edition.
     for domain, sec_id in DOMAIN_SECTION_FALLBACK.items():
         if domain not in links:
-            links[domain] = f"{brief.url}#{sec_id}"
+            if sec_id not in rendered_ids:
+                sec_id = section_ids.get(section_icon_key(sec_id), "")
+            links[domain] = f"{brief.url}#{sec_id}" if sec_id else brief.url
 
     return links
 
