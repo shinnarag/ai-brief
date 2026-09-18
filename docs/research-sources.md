@@ -23,7 +23,7 @@
 | Adobe | [공식 블로그](https://blog.adobe.com/) | Firefly·Premiere·After Effects·Generative Media별 제품 발표와 릴리스 문서를 따라갑니다. 교육·파트너십 발표를 기능 출시로 바꾸지 않습니다. |
 | ByteDance Seed | [공식 블로그](https://seed.bytedance.com/en/blog) | 최신 글 목록을 전체적으로 보고 Seedance·Seedream·음성·실시간 모델을 따로 확인합니다. 카드 첫 화면만 보고 종료하지 않습니다. |
 | Dreamina/Jimeng·CapCut | [Dreamina 제품](https://dreamina.capcut.com/) | Seed의 모델 발표와 실제 제작 도구에서의 제공 조건을 대조합니다. 제품 화면에 등장한 모델의 발표일은 별도로 확인합니다. |
-| Vidu | [블로그](https://www.vidu.com/blog) · [Vidu Stream 제품](https://www.vidu.com/ko/vidu-stream) · [Stream API 문서](https://platform.vidu.com/vidu-stream/doc) | **블로그만으로 확인을 끝내지 않습니다.** 현재 모델·버전(예: S2-Avatar, S2-Editing), 체험 경로, API 모델 목록·변경 기록·단가를 확인합니다. 독립 변경 기록이 없으면 그 사실을 적고, 제품·API 문서와 공식 발표를 교차 확인합니다. |
+| Vidu | [블로그](https://www.vidu.com/blog) · [Vidu Stream 제품](https://www.vidu.com/ko/vidu-stream) · [Stream API 문서](https://platform.vidu.com/vidu-stream/doc) · [공식 변경 기록](https://platform.vidu.com/docs/update) | **블로그만으로 확인을 끝내지 않습니다.** 2026-09-18 직접 확인한 변경 기록과 [S2 문서](https://platform.vidu.com/docs/vidu-s2)를 함께 봅니다. 한국어 제품·기존 API 경로의 본문이 읽히지 않으면 [영문 Stream 제품](https://www.vidu.com/vidu-stream)과 이 문서로 보완합니다. 현재 모델·버전, 체험 경로, API 모델 목록·단가·실제 새 변경을 대조합니다. |
 | Krea | [블로그](https://www.krea.ai/blog) | 새 기능·모델과 기존 작업법 소개를 구분하고 해당 제품에서 확인합니다. |
 | Pika | [공식 실험·제품 블로그](https://experiment.pika.art/blog) | 영상·음악·효과음·음성 기능의 실제 공개 범위를 확인합니다. |
 | Decart | [공식 사이트](https://decart.ai/) | 홈페이지에서 Publications와 현재 모델 페이지를 따라갑니다. Lucy·Oasis 등 모델·제품을 구분합니다. |
@@ -51,6 +51,7 @@
 | xAI/Grok | [공식 뉴스](https://x.ai/news) | 모델·Build·Imagine 이미지/영상·API를 각각 확인합니다. 같은 이벤트의 SNS 게시물은 별도 카드로 복제하지 않습니다. |
 | GitHub | [공식 변경 기록](https://github.blog/changelog/) | Copilot·코딩 에이전트·AI 보안의 적용 범위와 Preview·GA·관리자 조건을 확인합니다. |
 | Andon Labs/Pion | [공식 블로그](https://andonlabs.com/blog) · [Pion 제품](https://andonlabs.com/pion) | 2026-09-17 신규 탐색으로 고정 경로에 추가했습니다. 연구용·대기 명단·도구 제공·가격 공개 여부를 확인하며 실험 결과와 검증된 상용 성능을 구분합니다. |
+| Perplexity Computer | [공식 News 목록](https://www.perplexity.ai/en-GB/hub/blog/category/news) | 2026-09-18 직접 확인한 경로입니다. Computer의 웹·모바일 기능과 Portable Computer의 운영체제·GPU·로컬/클라우드 조건을 나누어 확인합니다. 목록의 날짜와 개별 발표문을 대조하고, 본문 접근 실패 시 검증된 공식 파트너 발표 범위만 사용합니다. |
 
 ### 마케팅·사업·SNS·인프라·규제
 
