@@ -1313,8 +1313,8 @@
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-17",
-    termIds: ["reference-image", "ai-influencer", "character-ip", "upscale", "mcp", "harness"]
+    date: "2026-09-18",
+    termIds: ["short-drama", "mcp", "sandbox", "harness", "misalignment", "agent"]
   };
 
   const TAGS = [
