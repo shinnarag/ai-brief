@@ -1,96 +1,110 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-21",
   "candidates": [
     {
-      "term": "ElevenLabs",
-      "hint": "음성 합성",
-      "hits": 14,
-      "sample": "곡을 비교해요 · Aunio 베타와 ElevenLabs MCP로 내레이션·음악 제작 흐름을 시험해요 · 제품 소개 질문을 Do",
-      "brief_date": "2026-09-18"
-    },
-    {
-      "term": "Suno",
-      "hint": "음악 생성",
-      "hits": 12,
-      "sample": "상태를 함께 확인해요. 실무 액션: Suno Studio에서 같은 MIDI의 편곡을 비교해요 · Aunio 베타와",
-      "brief_date": "2026-09-18"
-    },
-    {
-      "term": "Luma",
-      "hint": "영상 생성",
-      "hits": 6,
-      "sample": "8/18) · LTX(8/11) · Luma(뉴스 접근 실패, 상태·사고 기록은 직접 확인). > 스윕: Seed(",
-      "brief_date": "2026-09-18"
-    },
-    {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
-      "hits": 2,
-      "sample": "rt(7/16 Lucy 2.5) · MiniMax/Hailuo(H3 7/31·Music 3.0 8/13 등 기존 발표)",
-      "brief_date": "2026-09-18"
-    },
-    {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
-      "hits": 2,
-      "sample": "ini Notebook 학습 도구, Midjourney Alpha, Grok Build Memory, Pion, OpenAI",
-      "brief_date": "2026-09-18"
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 17,
+      "sample": "nway(9/8 플러그인 중복) · fal(공식 SNS·API에서 Lip Sync와 Seedance 미국 호스팅",
+      "brief_date": "2026-09-21"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
-      "hits": 1,
-      "sample": "제품 업데이트 본문 추출 실패) · Higgsfield(제품·API 확인, 변경 기록 9/4 이후 날짜 있는 신규 미확인) ·",
-      "brief_date": "2026-09-18"
+      "hits": 11,
+      "sample": "업데이트 경로 본문 추출 실패) · Higgsfield(공식 SNS와 Paid Ads Bundle 제품 확인, 변경 기록 최신",
+      "brief_date": "2026-09-21"
+    },
+    {
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
+      "hits": 8,
+      "sample": "SNS·API에서 Lip Sync와 Seedance 미국 호스팅 확인, 오래된 NEW 배지는 제외) · BFL(제품·API",
+      "brief_date": "2026-09-21"
+    },
+    {
+      "term": "Suno",
+      "hint": "음악 생성",
+      "hits": 7,
+      "sample": "한계를 적었어요. > 전일 제외: Suno MIDI·Aunio·ElevenLabs 제작 MCP·Claude Pro",
+      "brief_date": "2026-09-21"
+    },
+    {
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
+      "hits": 4,
+      "sample": "패) · Decart(7/16) · MiniMax/Hailuo(H3 7/31·Music 3.0 8/13 기존 발표, 일부",
+      "brief_date": "2026-09-21"
+    },
+    {
+      "term": "ElevenLabs",
+      "hint": "음성 합성",
+      "hits": 2,
+      "sample": "제외: Suno MIDI·Aunio·ElevenLabs 제작 MCP·Claude Projects·Perplexity 작업 강도",
+      "brief_date": "2026-09-21"
+    },
+    {
+      "term": "Luma",
+      "hint": "영상 생성",
+      "hits": 2,
+      "sample": "통계·DeepSeek Harness·Luma 복구·멜론 캠페인은 같은 사건을 반복하지 않았어요. Vidu S2·Ge",
+      "brief_date": "2026-09-21"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
       "hits": 1,
-      "sample": "3.0 8/13 등 기존 발표) · Kling(제품·회사 발표 경로 접근 실패) · Hunyuan(홈페이지 실패, 공",
-      "brief_date": "2026-09-18"
+      "sample": ", 일부 음성 문서 접근 실패) · Kling/Kuaishou(제품·IR 접근 실패) · Hunyuan(웹 추출 실패",
+      "brief_date": "2026-09-21"
+    },
+    {
+      "term": "Midjourney",
+      "hint": "이미지 생성 서비스",
+      "hits": 1,
+      "sample": "tion·9/14 MCP 중복) · Midjourney(9/16 Alpha 중복, 별도 업데이트 경로 본문 추출 실패) · H",
+      "brief_date": "2026-09-21"
     },
     {
       "term": "Pika",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "가이드, 신제품 발표 미확인) · Pika(8/18) · LTX(8/11) · Luma(뉴스 접근 실패, 상태·사",
-      "brief_date": "2026-09-18"
+      "sample": "이드에서 9/17 편집기 확인) · Pika(8/18) · LTX(8/11) · Luma(뉴스 접근 실패, 상태 정",
+      "brief_date": "2026-09-21"
     },
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
       "hits": 1,
-      "sample": "이후 날짜 있는 신규 미확인) · Runway(9/8 Plugins 중복, 9/10 연구는 7일 이전) · fal(최",
-      "brief_date": "2026-09-18"
+      "sample": "변경 기록 최신 노출 9/4) · Runway(9/8 플러그인 중복) · fal(공식 SNS·API에서 Lip Syn",
+      "brief_date": "2026-09-21"
     },
     {
       "term": "Udio",
       "hint": "음악 생성",
       "hits": 1,
-      "sample": "릴리스 9/17 MIDI 채택) · Udio(읽힌 목록 최신 2025/11/19, 전체 최신 현황은 단정하지 않음)",
-      "brief_date": "2026-09-18"
+      "sample": "소식 없음으로 단정하지 않음) · Udio(읽힌 목록 최신 2025/11/19, 전체 최신 현황 단정 불가) ·",
+      "brief_date": "2026-09-21"
     },
     {
       "term": "Veo",
       "hint": "Google 영상 모델",
       "hits": 1,
-      "sample": "pMind(9/15 Live 중복, Veo 신규 미확인) · Meta(9/16 뉴스 목록 확인, Muse Mac의",
-      "brief_date": "2026-09-18"
+      "sample": "7 변경 중복) · DeepMind/Veo(제품·블로그 확인, 상시 제품 설명은 새 출시로 다루지 않음) · Me",
+      "brief_date": "2026-09-21"
     },
     {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
+      "term": "체크포인트",
+      "hint": "학습 가중치 스냅샷",
       "hits": 1,
-      "sample": ", 9/10 연구는 7일 이전) · fal(최근 추가 모델의 발표일 미확인) · BFL(제품·블로그·API 확인,",
-      "brief_date": "2026-09-18"
+      "sample": "변경 과정·사람과 에이전트의 대화·체크포인트를 기록해요. 기존 GitHub 변경 검토 흐름과 함께 사용할 수도 있어",
+      "brief_date": "2026-09-21"
     },
     {
       "term": "해상도(720p/1080p/4K)",
       "hint": "출력 화질 단위",
       "hits": 1,
-      "sample": "지·영상을 입력받아 소리가 동기화된 1080p 영상을 5~20초 길이로 생성해요. - (제작) 이야기와 인물 상",
-      "brief_date": "2026-09-18"
+      "sample": "당 0.02568달러예요. 페이지의 720p 초당 약 0.5676달러는 환산 예시이므로 고정 초당 요금으로 계산하면",
+      "brief_date": "2026-09-21"
     }
   ]
 }
