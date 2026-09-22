@@ -1313,8 +1313,8 @@
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-21",
-    termIds: ["lip-sync", "character-ip", "i2v", "r2v", "t2v", "wer"]
+    date: "2026-09-22",
+    termIds: ["short-drama", "reference-image", "mcp", "harness", "agent", "credits"]
   };
 
   const TAGS = [
