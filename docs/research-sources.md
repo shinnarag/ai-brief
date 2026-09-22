@@ -17,15 +17,15 @@
 | ElevenLabs | [블로그](https://elevenlabs.io/blog) · [Product 목록](https://elevenlabs.io/blog/category/product) | 음성·Music·Agents·Reception 등 제품군을 따로 확인합니다. Featured에 안 보이는 새 Product 글도 읽습니다. |
 | Midjourney | [공식 업데이트](https://updates.midjourney.com/) · [제품 업데이트](https://www.midjourney.com/updates) | 모델 버전과 Alpha·정식 사이트의 변경을 구분합니다. 한 경로의 본문이 추출되지 않으면 다른 공식 경로로 보완합니다. |
 | Higgsfield | [제품](https://higgsfield.ai/) · [변경 기록](https://higgsfield.ai/creator-hub/changelog) · [API](https://higgsfield.ai/higgsfield-api) | 모델·편집·API의 실제 새 기능과 기존 기능 사용법·회고를 구분합니다. |
-| Runway | [변경 기록](https://runway.com/changelog) · [연구 발표](https://runway.com/research) | 모델·편집기·플러그인·API를 나누어 확인합니다. 제품에서 연결된 문서도 읽습니다. |
+| Runway | [변경 기록](https://runway.com/changelog) · [연구 발표](https://runway.com/research) · [News](https://runway.com/news) | 모델·편집기·플러그인·API를 나누어 확인합니다. 2026-09-22 확인한 News에는 변경 기록 첫 화면에 없던 편집 기능·안전 발표가 있어 세 경로를 함께 봅니다. 제품에서 연결된 문서도 읽습니다. |
 | fal | [Explore](https://fal.ai/explore) · [블로그](https://blog.fal.ai/) | 새 모델·엔드포인트·공식 제공자·요금 단위를 확인합니다. 목록의 `new` 배지는 발표 날짜가 아닙니다. |
 | BFL/FLUX | [제품·모델](https://bfl.ai/) · [블로그](https://bfl.ai/blog) · [API 문서](https://docs.bfl.ai/quick_start/introduction) | 현재 모델 이름·버전과 이미지·영상 편집 API를 확인합니다. 과거 브리프에 적힌 최신 버전을 그대로 사용하지 않습니다. |
-| Adobe | [공식 블로그](https://blog.adobe.com/) | Firefly·Premiere·After Effects·Generative Media별 제품 발표와 릴리스 문서를 따라갑니다. 교육·파트너십 발표를 기능 출시로 바꾸지 않습니다. |
+| Adobe | [공식 블로그](https://blog.adobe.com/) · [Firefly 새 기능 도움말](https://helpx.adobe.com/firefly/web/whats-new/new-features/whats-new.html) · [공식 커뮤니티 제품 업데이트](https://community.adobe.com/product-updates) | Firefly·Premiere·After Effects·Generative Media별 제품 발표와 릴리스 문서를 따라갑니다. 커뮤니티에서는 Adobe 담당자의 게시물인지 확인하고 현재 도움말과 대조합니다. 교육·파트너십 발표나 문서 수정일을 기능 출시로 바꾸지 않습니다. |
 | ByteDance Seed | [공식 블로그](https://seed.bytedance.com/en/blog) | 최신 글 목록을 전체적으로 보고 Seedance·Seedream·음성·실시간 모델을 따로 확인합니다. 카드 첫 화면만 보고 종료하지 않습니다. |
 | Dreamina/Jimeng·CapCut | [Dreamina 제품](https://dreamina.capcut.com/) | Seed의 모델 발표와 실제 제작 도구에서의 제공 조건을 대조합니다. 제품 화면에 등장한 모델의 발표일은 별도로 확인합니다. |
 | Vidu | [블로그](https://www.vidu.com/blog) · [Vidu Stream 제품](https://www.vidu.com/ko/vidu-stream) · [Stream API 문서](https://platform.vidu.com/vidu-stream/doc) · [공식 변경 기록](https://platform.vidu.com/docs/update) | **블로그만으로 확인을 끝내지 않습니다.** 2026-09-18 직접 확인한 변경 기록과 [S2 문서](https://platform.vidu.com/docs/vidu-s2)를 함께 봅니다. 한국어 제품·기존 API 경로의 본문이 읽히지 않으면 [영문 Stream 제품](https://www.vidu.com/vidu-stream)과 이 문서로 보완합니다. 현재 모델·버전, 체험 경로, API 모델 목록·단가·실제 새 변경을 대조합니다. |
 | Krea | [블로그](https://www.krea.ai/blog) | 새 기능·모델과 기존 작업법 소개를 구분하고 해당 제품에서 확인합니다. |
-| Pika | [공식 실험·제품 블로그](https://experiment.pika.art/blog) | 영상·음악·효과음·음성 기능의 실제 공개 범위를 확인합니다. |
+| Pika | [공식 실험 블로그](https://experiment.pika.art/blog) · [현재 제작 플랫폼](https://pika.art/) · [가격표](https://pika.art/pricing) | 실험 제품과 현재 제작 앱을 구분해 영상·음악·효과음·음성 기능을 확인합니다. 2026-09-22 확인한 새 플랫폼은 실험 블로그 최신 목록만으로 찾기 어려웠어요. 공식 발표나 직접 읽은 출시 보도로 날짜를 검증하고, 모델 접근·포함 크레딧·상업용 라이선스를 따로 대조합니다. |
 | Decart | [공식 사이트](https://decart.ai/) | 홈페이지에서 Publications와 현재 모델 페이지를 따라갑니다. Lucy·Oasis 등 모델·제품을 구분합니다. |
 | LTX | [Product Updates](https://ltx.io/blog-category/product-updates) | 제품 업데이트에서 연결된 모델·릴리스 안내를 함께 확인합니다. |
 | MiniMax·Hailuo | [MiniMax 뉴스](https://www.minimax.io/news) | 음성·음악·영상 모델과 Hailuo 제품의 실제 이용 경로를 따로 확인합니다. 메뉴의 `NEW`만으로 새 발표를 확정하지 않습니다. |
