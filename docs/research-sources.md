@@ -21,18 +21,20 @@
 | fal | [Explore](https://fal.ai/explore) · [블로그](https://blog.fal.ai/) | 새 모델·엔드포인트·공식 제공자·요금 단위를 확인합니다. 목록의 `new` 배지는 발표 날짜가 아닙니다. |
 | BFL/FLUX | [제품·모델](https://bfl.ai/) · [블로그](https://bfl.ai/blog) · [API 문서](https://docs.bfl.ai/quick_start/introduction) | 현재 모델 이름·버전과 이미지·영상 편집 API를 확인합니다. 과거 브리프에 적힌 최신 버전을 그대로 사용하지 않습니다. |
 | Adobe | [공식 블로그](https://blog.adobe.com/) · [Firefly 새 기능 도움말](https://helpx.adobe.com/firefly/web/whats-new/new-features/whats-new.html) · [공식 커뮤니티 제품 업데이트](https://community.adobe.com/product-updates) | Firefly·Premiere·After Effects·Generative Media별 제품 발표와 릴리스 문서를 따라갑니다. 커뮤니티에서는 Adobe 담당자의 게시물인지 확인하고 현재 도움말과 대조합니다. 교육·파트너십 발표나 문서 수정일을 기능 출시로 바꾸지 않습니다. |
-| ByteDance Seed | [공식 블로그](https://seed.bytedance.com/en/blog) | 최신 글 목록을 전체적으로 보고 Seedance·Seedream·음성·실시간 모델을 따로 확인합니다. 카드 첫 화면만 보고 종료하지 않습니다. |
+| ByteDance Seed | [공식 블로그](https://seed.bytedance.com/en/blog) · [BytePlus Seedance 문서](https://docs.byteplus.com/en/docs/ModelArk/2607688) | 최신 글 목록과 API 기능을 함께 보고 Seedance·Seedream·음성·실시간 모델을 따로 확인합니다. 2026-09-23 Draft 설명은 일반 본문 추출이 실패했지만 공개 HTML의 본문 데이터로 확인했어요. 문서 수정일은 출시일 증거와 구분하고, 미리보기·최종 생성의 해상도와 과금을 각각 확인합니다. |
 | Dreamina/Jimeng·CapCut | [Dreamina 제품](https://dreamina.capcut.com/) | Seed의 모델 발표와 실제 제작 도구에서의 제공 조건을 대조합니다. 제품 화면에 등장한 모델의 발표일은 별도로 확인합니다. |
 | Vidu | [블로그](https://www.vidu.com/blog) · [Vidu Stream 제품](https://www.vidu.com/ko/vidu-stream) · [Stream API 문서](https://platform.vidu.com/vidu-stream/doc) · [공식 변경 기록](https://platform.vidu.com/docs/update) | **블로그만으로 확인을 끝내지 않습니다.** 2026-09-18 직접 확인한 변경 기록과 [S2 문서](https://platform.vidu.com/docs/vidu-s2)를 함께 봅니다. 한국어 제품·기존 API 경로의 본문이 읽히지 않으면 [영문 Stream 제품](https://www.vidu.com/vidu-stream)과 이 문서로 보완합니다. 현재 모델·버전, 체험 경로, API 모델 목록·단가·실제 새 변경을 대조합니다. |
 | Krea | [블로그](https://www.krea.ai/blog) | 새 기능·모델과 기존 작업법 소개를 구분하고 해당 제품에서 확인합니다. |
 | Pika | [공식 실험 블로그](https://experiment.pika.art/blog) · [현재 제작 플랫폼](https://pika.art/) · [가격표](https://pika.art/pricing) | 실험 제품과 현재 제작 앱을 구분해 영상·음악·효과음·음성 기능을 확인합니다. 2026-09-22 확인한 새 플랫폼은 실험 블로그 최신 목록만으로 찾기 어려웠어요. 공식 발표나 직접 읽은 출시 보도로 날짜를 검증하고, 모델 접근·포함 크레딧·상업용 라이선스를 따로 대조합니다. |
+| Mirage Tesseract | [공식 제품](https://mirage.app/tesseract) · [공식 저장소](https://github.com/mirage-hq/Tesseract) | 2026-09-23 신규 탐색에서 확인했습니다. 영상 생성과 기존 소스 편집을 구분하고, 실행 운영체제·로컬/클라우드 지원·에이전트 이용료·설치 경로를 현재 문서로 대조합니다. |
+| PixVerse | [공식 블로그](https://pixverse.ai/en/blog) · [공개 월드](https://world.pixverse.video/home/) | 영상 모델과 R2·Game Engine의 실시간 월드를 나누어 확인합니다. 제품 발표일·기술 보고서 날짜·월드 체험·제작 권한·API 제공을 각각 검증합니다. |
 | Decart | [공식 사이트](https://decart.ai/) | 홈페이지에서 Publications와 현재 모델 페이지를 따라갑니다. Lucy·Oasis 등 모델·제품을 구분합니다. |
 | LTX | [Product Updates](https://ltx.io/blog-category/product-updates) | 제품 업데이트에서 연결된 모델·릴리스 안내를 함께 확인합니다. |
 | MiniMax·Hailuo | [MiniMax 뉴스](https://www.minimax.io/news) | 음성·음악·영상 모델과 Hailuo 제품의 실제 이용 경로를 따로 확인합니다. 메뉴의 `NEW`만으로 새 발표를 확정하지 않습니다. |
 | Kling | [공식 제품](https://www.klingai.com) | 최신 모델·영상·편집·API 안내와 회사 공식 발표를 확인합니다. 본문 접근 실패는 신규 없음과 다릅니다. |
 | Hunyuan·Wan | [Hunyuan](https://hunyuan.tencent.com) · [Wan](https://wan.video/) | 공식 페이지가 연결하는 모델 카드·저장소·발표문을 확인합니다. 다른 배포자의 설명을 원개발사 발표로 취급하지 않습니다. |
 | Luma | [제품 뉴스](https://lumalabs.ai/news) · [공식 상태](https://status.lumalabs.ai/) | Dream Machine·Ray·API의 출시와 운영 장애를 구분합니다. 장애는 사건별 원문과 영향 모델·마지막 갱신 시각을 확인합니다. |
-| HappyShrimp/Happy* | [공식 제품](https://www.happyshrimp.ai/) | 제품명·회사명·현재 공개 단계와 별도 기업 발표를 확인합니다. 가입 화면이나 크레딧 안내만으로 GA·API 공개를 추정하지 않습니다. |
+| HappyShrimp/Happy* | [공식 제품](https://www.happyshrimp.ai/) · [Alibaba Cloud 신규 모델](https://www.alibabacloud.com/help/en/model-studio/newly-released-models) · [모델 가격](https://www.alibabacloud.com/help/en/model-studio/model-pricing) | 제품명·회사명·현재 공개 단계와 별도 기업 발표를 확인합니다. 2026-09-23 HappyOyster 1.0의 별도 제공 경로를 확인했어요. 모델 종류·지역·초대 조건·생성과 체험의 과금 단위를 나눠 봅니다. 가입 화면이나 목록 등재만으로 전체 계정 GA를 추정하지 않습니다. |
 
 ### 모델·플랫폼·코딩·에이전트
 
@@ -57,7 +59,7 @@
 
 이 영역도 매번 확인합니다. 익숙한 도구의 업데이트와 새로운 상업 사례를 함께 찾습니다.
 
-- 광고·커머스·CRM: OpenAI·Google·Meta의 광고 발표, HubSpot의 제품 발표, Shopify 앱의 개발사·출시일·요금 조건을 대조합니다. [HubSpot 공식 뉴스](https://hubspot.gcs-web.com/news-releases)의 회사 배포 발표와 제품 문서를 함께 봅니다.
+- 광고·커머스·CRM: OpenAI·Google·Meta의 광고 발표, HubSpot의 제품 발표, Shopify 앱의 개발사·출시일·요금 조건을 대조합니다. [HubSpot 공식 뉴스](https://hubspot.gcs-web.com/news-releases)의 회사 배포 발표와 제품 문서를 함께 봅니다. IR 경로가 실패하면 2026-09-23 본문 조회를 확인한 [회사 뉴스룸](https://www.hubspot.com/company-news)의 개별 발표문으로 보완합니다.
 - 마케팅·시장 조사: 광고 제작·측정·고객 응대·검색 노출·브랜드 조사·콘텐츠 운영의 새 도구를 탐색합니다. [Adthena 제품](https://www.adthena.com/decision-intelligence/)과 [Market Logic 뉴스](https://marketlogicsoftware.com/news/)처럼 새로 확인한 서비스는 관련 발표와 실제 제공 조건을 함께 봅니다.
 - 브랜드·캐릭터 IP·가상 인플루언서·숏폼/숏드라마: 브랜드·플랫폼·권리자·공모 주최자 공식 발표를 우선합니다. 국내와 중국 SNS도 검색하고, 게시물 원문이나 직접 읽은 보도를 확보합니다. 실제 확인한 반응·수치가 없으면 흥행으로 표현하지 않습니다.
 - 인프라·규제·보안: [Cloudflare 블로그](https://blog.cloudflare.com/), 서비스별 공식 상태·보안 공지, 정부·의회·감독기관 원문을 확인합니다. 법안 제안·표결·시행, 정책 예고·합의, 투자 발표·실제 가동을 각각 구분합니다.
