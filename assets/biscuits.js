@@ -1313,8 +1313,8 @@
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-23",
-    termIds: ["short-drama", "draft-mode", "keyframe", "reference-image", "mcp", "sandbox"]
+    date: "2026-09-28",
+    termIds: ["short-drama", "lora", "reference-image", "inpaint", "keyframe", "outpaint"]
   };
 
   const TAGS = [

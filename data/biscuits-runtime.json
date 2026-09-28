@@ -1,19 +1,19 @@
 {
-  "date": "2026-09-23",
-  "label": "9월 23일 브리프",
+  "date": "2026-09-28",
+  "label": "9월 28일 브리프",
   "termIds": [
     "short-drama",
-    "draft-mode",
-    "keyframe",
+    "lora",
     "reference-image",
-    "mcp",
-    "sandbox"
+    "inpaint",
+    "keyframe",
+    "outpaint"
   ],
   "allMatchedIds": [
-    "draft-mode",
     "keyframe",
     "short-drama",
     "reference-image",
+    "lora",
     "early-access",
     "credits",
     "harness",
@@ -25,120 +25,122 @@
     "sandbox",
     "ga",
     "mcp",
-    "world-model"
+    "inpaint",
+    "outpaint",
+    "misalignment"
   ],
   "candidates": [
     {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 18,
-      "sample": "기존 소식, 추가 확인 없음) · Higgsfield(9/22~23 모델 추가·9/16 API 보완) · Runway(9/2",
-      "brief_date": "2026-09-23"
-    },
-    {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 16,
-      "sample": "확인, 뉴스 페이지 추출 제한) · fal(Explore 조회 오류를 공식 게시물·모델 문서로 보완) · BFL(",
-      "brief_date": "2026-09-23"
-    },
-    {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
-      "hits": 13,
-      "sample": "어요. Studio 4.0·Pika·Runway FPS·Firefly·Grok 4.7·Googlebook·Numerat",
-      "brief_date": "2026-09-23"
+      "hits": 23,
+      "sample": "al, Seedance Draft, Runway Brand Kits·Kling·Grok 연결, HappyOyster 9",
+      "brief_date": "2026-09-28"
+    },
+    {
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 14,
+      "sample": ", Midjourney(9/24), Higgsfield 변경 기록·API(9/22~23), Runway(9/23·Resolve",
+      "brief_date": "2026-09-28"
+    },
+    {
+      "term": "Midjourney",
+      "hint": "이미지 생성 서비스",
+      "hits": 10,
+      "sample": "s Product(9/25 학생), Midjourney(9/24), Higgsfield 변경 기록·API(9/22~23), R",
+      "brief_date": "2026-09-28"
     },
     {
       "term": "ElevenLabs",
       "hint": "음성 합성",
       "hits": 9,
-      "sample": "1/19, 홈 본문 추출 0건) · ElevenLabs(9/22 Medical GA) · Midjourney(9/16 기존 소",
-      "brief_date": "2026-09-23"
-    },
-    {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 6,
-      "sample": "이전트 비용을 구분해요. 4. **Seedance 2.5 Draft — 480p로 시험하고 선택한 장면을 1080p로 생",
-      "brief_date": "2026-09-23"
-    },
-    {
-      "term": "Kling",
-      "hint": "영상 생성 모델",
-      "hits": 5,
-      "sample": "8/13·Speech 1/23 · Kling robots 차단·Kuaishou 원문 조회 실패, 대체 공식 자료는",
-      "brief_date": "2026-09-23"
-    },
-    {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
-      "hits": 3,
-      "sample": "7/16·연구 9/6은 범위 밖 · MiniMax H3 7/31·Music 8/13·Speech 1/23 · Kling",
-      "brief_date": "2026-09-23"
-    },
-    {
-      "term": "Suno",
-      "hint": "음악 생성",
-      "hits": 3,
-      "sample": "ooglebook·Numerator·Suno MIDI·Vidu S2·Notebook 학습 도구·Pion 등 이미 다",
-      "brief_date": "2026-09-23"
+      "sample": "17 MIDI·9/22 글 기존), ElevenLabs Product(9/25 학생), Midjourney(9/24), Hig",
+      "brief_date": "2026-09-28"
     },
     {
       "term": "Pika",
       "hint": "영상 생성",
+      "hits": 9,
+      "sample": "공식 계정(상대 시각 2일 전), Pika(9/24 제작 사례), BFL(9/23 Action), Tesserac",
+      "brief_date": "2026-09-28"
+    },
+    {
+      "term": "해상도(720p/1080p/4K)",
+      "hint": "출력 화질 단위",
+      "hits": 6,
+      "sample": ".0 — Linux·클라우드 편집과 4K·60fps 출력을 지원해요 (9/23 · 후속)** · 카테고리: 콘텐",
+      "brief_date": "2026-09-28"
+    },
+    {
+      "term": "FLUX 3",
+      "hint": "BFL 멀티모달·영상 모델",
+      "hits": 5,
+      "sample": "s) · 신뢰도: 공식 12. **FLUX 3 Action — 영상 이해 기반의 로봇 행동 모델 가중치를 공개했어요*",
+      "brief_date": "2026-09-28"
+    },
+    {
+      "term": "Seedream",
+      "hint": "ByteDance 이미지 생성 모델",
+      "hits": 4,
+      "sample": "7. **Higgsfield — Seedream 5.0 Flash로 빠른 이미지 생성·수정을 제공해요 (9/23 제공",
+      "brief_date": "2026-09-28"
+    },
+    {
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
       "hits": 2,
-      "sample": "를 대조했어요. Studio 4.0·Pika·Runway FPS·Firefly·Grok 4.7·Googlebook·",
-      "brief_date": "2026-09-23"
+      "sample": "인 9/15 기존), Decart, MiniMax·Hailuo, Hunyuan·Wan 공식 저장소, Happy*·Alib",
+      "brief_date": "2026-09-28"
+    },
+    {
+      "term": "Kling",
+      "hint": "영상 생성 모델",
+      "hits": 2,
+      "sample": ", Runway Brand Kits·Kling·Grok 연결, HappyOyster 9/17, Python Worke",
+      "brief_date": "2026-09-28"
+    },
+    {
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
+      "hits": 2,
+      "sample": "R2, Scribe Medical, Seedance Draft, Runway Brand Kits·Kling·Grok 연결,",
+      "brief_date": "2026-09-28"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "미확인) · LTX(8/11) · Luma(뉴스·홈 실패, 9/23 상태 페이지 정상). > 스윕 — 아시아: S",
-      "brief_date": "2026-09-23"
+      "sample": "요. > 보류·접근 한계: Udio·Luma 일부 제품 본문, Kling 공식 사이트, Hunyuan 홈페이지, S",
+      "brief_date": "2026-09-28"
     },
     {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
+      "term": "Sora",
+      "hint": "OpenAI 영상 모델",
       "hits": 1,
-      "sample": "(9/22 Medical GA) · Midjourney(9/16 기존 소식, 추가 확인 없음) · Higgsfield(9/22",
-      "brief_date": "2026-09-23"
+      "sample": "사이트, Hunyuan 홈페이지, Sora 국가 안내, PixVerse 월드·Vidu Stream 전용 문서는 조",
+      "brief_date": "2026-09-28"
+    },
+    {
+      "term": "Suno",
+      "hint": "음악 생성",
+      "hits": 1,
+      "sample": "표 9/2예요. > 스윕 — 창작: Suno 블로그·릴리스(9/17 MIDI·9/22 글 기존), ElevenLab",
+      "brief_date": "2026-09-28"
     },
     {
       "term": "Udio",
       "hint": "음악 생성",
       "hits": 1,
-      "sample": "9/17 MIDI는 기존 보도) · Udio(블로그 최신 2025/11/19, 홈 본문 추출 0건) · Eleven",
-      "brief_date": "2026-09-23"
+      "sample": "작업이에요. > 보류·접근 한계: Udio·Luma 일부 제품 본문, Kling 공식 사이트, Hunyuan 홈페",
+      "brief_date": "2026-09-28"
     },
     {
-      "term": "Veo",
-      "hint": "Google 영상 모델",
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
       "hits": 1,
-      "sample": "· DeepMind 9/2·9/8, Veo 3.1 현재 문서 · Meta 9/22 사기 방지 자료는 새 모델 발표",
-      "brief_date": "2026-09-23"
-    },
-    {
-      "term": "fps",
-      "hint": "초당 프레임",
-      "hits": 1,
-      "sample": "dio 4.0·Pika·Runway FPS·Firefly·Grok 4.7·Googlebook·Numerator·S",
-      "brief_date": "2026-09-23"
-    },
-    {
-      "term": "星图(광고 단가 플랫폼)",
-      "hint": "중국 인플루언서 단가 표시",
-      "hits": 1,
-      "sample": "액션: 같은 작업으로 새 모델의 완성도·총비용을 비교해요 · 480p 초안으로 구도를 확인한 뒤 최종 영상을",
-      "brief_date": "2026-09-23"
-    },
-    {
-      "term": "해상도(720p/1080p/4K)",
-      "hint": "출력 화질 단위",
-      "hits": 1,
-      "sample": "료 플랜의 MCP에 Kling O3 4K·Kling 3.0 Standard·Kling O3 Standard·Kl",
-      "brief_date": "2026-09-23"
+      "sample": "있었어요. > 보류·후속 재확인: fal Extend·3D 영상 API는 제공 문서를 읽었으나 정확한 발표일과",
+      "brief_date": "2026-09-28"
     }
   ],
   "catalogSize": 59
