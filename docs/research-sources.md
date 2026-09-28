@@ -62,7 +62,7 @@
 - 광고·커머스·CRM: OpenAI·Google·Meta의 광고 발표, HubSpot의 제품 발표, Shopify 앱의 개발사·출시일·요금 조건을 대조합니다. [HubSpot 공식 뉴스](https://hubspot.gcs-web.com/news-releases)의 회사 배포 발표와 제품 문서를 함께 봅니다. IR 경로가 실패하면 2026-09-23 본문 조회를 확인한 [회사 뉴스룸](https://www.hubspot.com/company-news)의 개별 발표문으로 보완합니다.
 - 마케팅·시장 조사: 광고 제작·측정·고객 응대·검색 노출·브랜드 조사·콘텐츠 운영의 새 도구를 탐색합니다. [Adthena 제품](https://www.adthena.com/decision-intelligence/)과 [Market Logic 뉴스](https://marketlogicsoftware.com/news/)처럼 새로 확인한 서비스는 관련 발표와 실제 제공 조건을 함께 봅니다.
 - 브랜드·캐릭터 IP·가상 인플루언서·숏폼/숏드라마: 브랜드·플랫폼·권리자·공모 주최자 공식 발표를 우선합니다. 국내와 중국 SNS도 검색하고, 게시물 원문이나 직접 읽은 보도를 확보합니다. 실제 확인한 반응·수치가 없으면 흥행으로 표현하지 않습니다.
-- 인프라·규제·보안: [Cloudflare 블로그](https://blog.cloudflare.com/), 서비스별 공식 상태·보안 공지, 정부·의회·감독기관 원문을 확인합니다. 법안 제안·표결·시행, 정책 예고·합의, 투자 발표·실제 가동을 각각 구분합니다.
+- 인프라·규제·보안: [Cloudflare 블로그](https://blog.cloudflare.com/), 서비스별 공식 상태·보안 공지, 정부·의회·감독기관 원문을 확인합니다. Cloudflare 목록이 탐색 메뉴만 반환하면 2026-09-28 직접 조회를 확인한 [공식 RSS](https://blog.cloudflare.com/rss/)에서 발표 시각과 개별 원문을 찾습니다. 블로그 게시일과 본문에 적힌 실제 출시·사고·수정일은 따로 확인합니다. 법안 제안·표결·시행, 정책 예고·합의, 투자 발표·실제 가동을 각각 구분합니다.
 
 ## 2단계 — 목록 밖의 새 제품과 제작 방식을 찾기
 
