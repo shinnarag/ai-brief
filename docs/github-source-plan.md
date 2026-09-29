@@ -68,7 +68,7 @@ docs/                    운영·이전 설명
 1. 최신 source 원문을 확인하고 `python3 scripts/local.py build`와 해당 source 커밋의 Actions 검사를 통과시킵니다.
 2. 최신 `origin/main`에서 별도 작업 폴더를 만듭니다. source 트리 전체를 main에 합치지 않습니다.
 3. `site/public/`의 `index.html`, `archive.html`, `latest.html`, `biscuits.html`, `assets/`, `brief/`, `data/`만 공개 작업 폴더에 복사합니다. main의 `.github/workflows/pages.yml`, Git 이력과 README를 보존합니다. 원본·로그·인증 자료를 포함하지 않습니다.
-4. 이전 브리프와 비스킷 59개, 월별 달력, 최신 날짜와 Top 5 링크를 검수합니다. 소스 빌드 결과 외의 변경이 없고 기존 공개 파일을 예기치 않게 삭제하지 않았는지 확인합니다.
+4. 이전 브리프와 현재 source의 모든 비스킷 항목, 월별 달력, 최신 날짜와 Top 5 링크를 검수합니다. 소스 빌드 결과 외의 변경이 없고 기존 공개 파일을 예기치 않게 삭제하지 않았는지 확인합니다.
 5. 정상 커밋·푸시로 main을 갱신합니다. 다른 작성자가 먼저 main을 바꿨으면 최신 상태를 다시 검토하며 강제 푸시하지 않습니다.
 6. 해당 main 커밋의 Pages 배포와 실제 공개 URL을 모두 확인합니다. GitHub 원문 저장, 빌드 성공, 공개 발행을 구분해 보고합니다.
 
