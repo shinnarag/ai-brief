@@ -6,6 +6,28 @@
   "use strict";
 
   const ART = {
+      tts: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#eef5ff"/>
+  <rect x="24" y="26" width="112" height="68" rx="12" fill="#fff" stroke="#0066cc" stroke-width="2"/>
+  <text x="80" y="55" text-anchor="middle" fill="#0066cc" font-size="13" font-weight="700" font-family="system-ui">대본</text>
+  <text x="80" y="77" text-anchor="middle" fill="#5a80a6" font-size="11" font-family="system-ui">안녕하세요</text>
+  <path d="M148 60 H196" stroke="#0066cc" stroke-width="3"/>
+  <polygon points="196,54 208,60 196,66" fill="#0066cc"/>
+  <rect x="220" y="26" width="116" height="68" rx="12" fill="#0066cc"/>
+  <path d="M241 66 V54 M253 77 V43 M265 83 V37 M277 71 V49 M289 79 V41 M301 69 V51 M313 64 V56" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <text x="180" y="112" text-anchor="middle" fill="#0066cc" font-size="11" font-family="system-ui">글을 읽는 목소리로</text>
+</svg>`,
+      resolution: `
+<svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f3eeff"/>
+  <rect x="24" y="24" width="128" height="72" rx="6" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+  <path d="M56 24 V96 M88 24 V96 M120 24 V96 M24 48 H152 M24 72 H152" stroke="#c4b5fd" stroke-width="2"/>
+  <rect x="208" y="24" width="128" height="72" rx="6" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+  <path d="M224 24 V96 M240 24 V96 M256 24 V96 M272 24 V96 M288 24 V96 M304 24 V96 M320 24 V96 M208 36 H336 M208 48 H336 M208 60 H336 M208 72 H336 M208 84 H336" stroke="#c4b5fd"/>
+  <text x="180" y="64" text-anchor="middle" fill="#7c3aed" font-size="22" font-family="system-ui">→</text>
+  <text x="180" y="112" text-anchor="middle" fill="#6b21a8" font-size="11" font-family="system-ui">같은 화면을 더 많은 픽셀로</text>
+</svg>`,
       zdr: `
 <svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
   <rect width="360" height="120" fill="#eef6f3"/>
@@ -719,6 +741,26 @@
 
   const BISCUITS = [
     {
+      id: "tts",
+      term: "TTS",
+      en: "Text-to-Speech",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "글로 쓴 대사를 사람이 말하는 듯한 음성으로 바꾸는 기술이에요.",
+      detail: "TTS는 대본을 입력해 내레이션·캐릭터 대사·안내 음성을 만드는 기술이에요. 모델에 따라 언어, 목소리, 감정과 말하는 속도를 조절할 수 있어요. 녹음을 글로 바꾸는 ASR과는 입력·출력의 방향이 반대예요. 특정인의 음성을 복제하는 기능은 별도이며, TTS를 쓴다고 그 사람의 목소리 이용 권한까지 생기지는 않아요. 제작할 때는 발음과 호흡을 듣고 수정하고, 지원 언어·상업 이용·글자 또는 오디오 단위 요금을 확인해요.",
+      firstSeen: "2026-08-05"
+    },
+    {
+      id: "resolution",
+      term: "해상도",
+      en: "Resolution",
+      tag: "creative",
+      tagLabel: "크리에이티브",
+      text: "이미지나 영상 한 프레임을 가로·세로 몇 개의 픽셀로 표현하는지 나타내요.",
+      detail: "16:9 영상에서 720p는 보통 1280×720, 1080p는 1920×1080, 4K UHD는 3840×2160픽셀이에요. 영화용 4K처럼 다른 규격도 있어 실제 가로·세로 크기를 함께 봐요. 숫자가 커지면 더 많은 픽셀을 담지만 원본의 디테일이나 압축 품질까지 보장하지는 않아요. AI가 처음 생성하는 해상도와 업스케일 후 내보내는 해상도를 구분하고, 생성 비용과 납품 규격을 확인해요. 초당 장면 수인 fps와도 다른 값이에요.",
+      firstSeen: "2026-07-20"
+    },
+    {
       id: "cli",
       term: "CLI",
       en: "Command Line Interface",
@@ -1313,8 +1355,8 @@
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-28",
-    termIds: ["short-drama", "lora", "reference-image", "inpaint", "keyframe", "outpaint"]
+    date: "2026-09-29",
+    termIds: ["resolution", "tts", "hdr", "keyframe", "r2v", "t2v"]
   };
 
   const TAGS = [

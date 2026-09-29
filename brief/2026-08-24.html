@@ -31,6 +31,7 @@
           </button>
           <div class="brief-date-picker" id="brief-date-picker-2026-08-24" role="listbox"
             aria-label="브리프 날짜 목록" hidden>
+      <a class="brief-date-option" role="option" href="2026-09-29.html" data-date="2026-09-29" aria-selected="false"><span class="brief-date-option-date">2026년 9월 29일(화)</span><span class="brief-date-option-title">Kling 4.0이 공개되고, 코드로 만드는 모션그래픽이 제작 흐름을 넓혀요</span></a>
       <a class="brief-date-option" role="option" href="2026-09-28.html" data-date="2026-09-28" aria-selected="false"><span class="brief-date-option-date">2026년 9월 28일(월)</span><span class="brief-date-option-title">AI로 만들고 고치는 일을 하나의 작업 흐름으로 이어가요</span></a>
       <a class="brief-date-option" role="option" href="2026-09-23.html" data-date="2026-09-23" aria-selected="false"><span class="brief-date-option-date">2026년 9월 23일(수)</span><span class="brief-date-option-title">긴 작업을 맡기고 영상 초안을 더 세밀하게 다듬어요</span></a>
       <a class="brief-date-option" role="option" href="2026-09-22.html" data-date="2026-09-22" aria-selected="false"><span class="brief-date-option-date">2026년 9월 22일(화)</span><span class="brief-date-option-title">영상·음성 생성과 편집을 한 프로젝트에서 이어 가요</span></a>
@@ -209,7 +210,7 @@
             
           </div>
           <h3 class="news-title">Runway Ruby — SDR 영상을 다시 그리지 않고 진짜 HDR로 바꿔 주는 모델 (8/21)</h3>
-          <ul class="news-bullets"><li>(사실) Runway가 Ruby를 열었어요. 공식 X는 2026-08-21 14:24 UTC(한국 시간 23:24)라 금요일 11:50 수집 이후예요. SDR(표준 다이내믹 레인지) 영상을 HDR(하이 다이내믹 레인지)로 바꾸되 소스 픽셀과 오디오는 그대로 두고 재생성하지 않는다고 적었어요. 엔드포인트는 POST /v1/video_to_hdr, 모델 이름은 ruby예요.</li><li>(출력) 기본은 HDR10, 옵션은 HLG, BT.2020+PQ ProRes(hdr_prores, 프로파일 422 / 422 HQ / 4444, 기본 422 HQ), 하프플로트 OpenEXR zip(hdr_exr_sequence, 컬러메트리·출처 사이드카와 audio.wav)예요. HDR 태그가 붙은 입력은 거절해요.</li><li>(한도·<button type="button" class="inline-biscuit" data-biscuit="credits">크레딧</button>) API 문서는 입력 최대 40초, 한 변 4096px 미만, 출력은 16의 배수로 잘릴 수 있다고 해요. 과금은 초당 20<button type="button" class="inline-biscuit" data-biscuit="credits">크레딧</button>, 소스가 4메가픽셀(대략 4K)을 넘으면 초당 40크레딧이에요. 링크드인은 앱 쪽을 최대 30초·16비트 HDR ProRes와 EXR로 적었으니, 파이프 설계는 API 40초를 기준으로 두시면 돼요. 관련 메모는 앱이 Max/Enterprise라고 해요.</li><li>(영향) 캠페인 히어로를 SDR로 받아 HDR 납품하는 팀은 10초 컷 하나만 Precise가 아니라 Ruby로 올려 보시면 돼요. <button type="button" class="inline-biscuit" data-biscuit="upscale">업스케일</button>과 달리 해상도를 키우는 단계가 아니라 색 마스터 단계라, FLUX <button type="button" class="inline-biscuit" data-biscuit="upscale">Upscale</button> 뒤에 붙이는 순서를 한 번만 정해 두시면 좋아요.</li></ul>
+          <ul class="news-bullets"><li>(사실) Runway가 Ruby를 열었어요. 공식 X는 2026-08-21 14:24 UTC(한국 시간 23:24)라 금요일 11:50 수집 이후예요. SDR(표준 다이내믹 레인지) 영상을 HDR(하이 다이내믹 레인지)로 바꾸되 소스 픽셀과 오디오는 그대로 두고 재생성하지 않는다고 적었어요. 엔드포인트는 POST /v1/video_to_hdr, 모델 이름은 ruby예요.</li><li>(출력) 기본은 HDR10, 옵션은 HLG, BT.2020+PQ ProRes(hdr_prores, 프로파일 422 / 422 HQ / 4444, 기본 422 HQ), 하프플로트 OpenEXR zip(hdr_exr_sequence, 컬러메트리·출처 사이드카와 audio.wav)예요. HDR 태그가 붙은 입력은 거절해요.</li><li>(한도·<button type="button" class="inline-biscuit" data-biscuit="credits">크레딧</button>) API 문서는 입력 최대 40초, 한 변 4096px 미만, 출력은 16의 배수로 잘릴 수 있다고 해요. 과금은 초당 20<button type="button" class="inline-biscuit" data-biscuit="credits">크레딧</button>, 소스가 4메가픽셀(대략 <button type="button" class="inline-biscuit" data-biscuit="resolution">4K</button>)을 넘으면 초당 40크레딧이에요. 링크드인은 앱 쪽을 최대 30초·16비트 HDR ProRes와 EXR로 적었으니, 파이프 설계는 API 40초를 기준으로 두시면 돼요. 관련 메모는 앱이 Max/Enterprise라고 해요.</li><li>(영향) 캠페인 히어로를 SDR로 받아 HDR 납품하는 팀은 10초 컷 하나만 Precise가 아니라 Ruby로 올려 보시면 돼요. <button type="button" class="inline-biscuit" data-biscuit="upscale">업스케일</button>과 달리 <button type="button" class="inline-biscuit" data-biscuit="resolution">해상도</button>를 키우는 단계가 아니라 색 마스터 단계라, FLUX <button type="button" class="inline-biscuit" data-biscuit="upscale">Upscale</button> 뒤에 붙이는 순서를 한 번만 정해 두시면 좋아요.</li></ul>
           <div class="news-footer"><a class="news-chip" href="https://docs.dev.runwayml.com/guides/models.md" target="_blank" rel="noreferrer">Runway 모델 가이드</a><a class="news-chip" href="https://releasebot.io/updates/runwayai" target="_blank" rel="noreferrer">Releasebot</a><span class="news-chip news-chip-muted">공식</span></div>
         </article>
         <article class="news-card rel-official" id="c-콘텐츠-제작-크리에이티브-02" data-card-id="c-콘텐츠-제작-크리에이티브-02">
@@ -378,7 +379,7 @@
 </tr>
 </tbody>
 </table></div></section>
-          <section class="related-biscuits-min news-section" id="related-biscuits" data-terms="short-drama,hdr,credits,api,agent,token,multimodal,harness,prompt,rag,upscale,keyframe,character-ip,ai-influencer,deepfake" aria-label="관련 비스킷">
+          <section class="related-biscuits-min news-section" id="related-biscuits" data-terms="short-drama,hdr,credits,api,agent,token,multimodal,harness,prompt,rag,resolution,upscale,keyframe,character-ip,ai-influencer,deepfake" aria-label="관련 비스킷">
             <h2 class="news-section-title"><span class="sec-title-text">관련 비스킷</span></h2>
             <ul class="related-biscuits-min-list">
             <li><button type="button" data-biscuit="short-drama">숏드라마</button></li>
@@ -391,6 +392,7 @@
             <li><button type="button" data-biscuit="harness">하네스</button></li>
             <li><button type="button" data-biscuit="prompt">프롬프트</button></li>
             <li><button type="button" data-biscuit="rag">RAG</button></li>
+            <li><button type="button" data-biscuit="resolution">해상도</button></li>
             <li><button type="button" data-biscuit="upscale">업스케일</button></li>
             <li><button type="button" data-biscuit="keyframe">키프레임</button></li>
             <li><button type="button" data-biscuit="character-ip">캐릭터 IP</button></li>
