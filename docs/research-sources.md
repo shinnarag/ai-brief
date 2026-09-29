@@ -29,7 +29,7 @@
 | Mirage Tesseract | [공식 제품](https://mirage.app/tesseract) · [공식 저장소](https://github.com/mirage-hq/Tesseract) | 2026-09-23 신규 탐색에서 확인했습니다. 영상 생성과 기존 소스 편집을 구분하고, 실행 운영체제·로컬/클라우드 지원·에이전트 이용료·설치 경로를 현재 문서로 대조합니다. |
 | PixVerse | [공식 블로그](https://pixverse.ai/en/blog) · [공개 월드](https://world.pixverse.video/home/) | 영상 모델과 R2·Game Engine의 실시간 월드를 나누어 확인합니다. 제품 발표일·기술 보고서 날짜·월드 체험·제작 권한·API 제공을 각각 검증합니다. |
 | Decart | [공식 사이트](https://decart.ai/) | 홈페이지에서 Publications와 현재 모델 페이지를 따라갑니다. Lucy·Oasis 등 모델·제품을 구분합니다. |
-| LTX | [Product Updates](https://ltx.io/blog-category/product-updates) | 제품 업데이트에서 연결된 모델·릴리스 안내를 함께 확인합니다. |
+| LTX | [Product Updates](https://ltx.io/blog-category/product-updates) · [API 변경 기록](https://docs.ltx.io/api-changelog) · [V1→V2 이전 안내](https://docs.ltx.io/migrate-v1-to-v2) | 제품 발표와 API 변경 기록을 따로 확인합니다. 2026-09-29 직접 확인한 API 경로에서 모델 선택 방식과 구형 API 종료 일정을 찾았어요. 제품 목록에 새 글이 없거나 본문 추출이 안 돼도 API 변경이 없다고 판단하지 않습니다. 종료 시각·시간대와 이전 뒤 유지되는 조건을 대조합니다. |
 | MiniMax·Hailuo | [MiniMax 뉴스](https://www.minimax.io/news) | 음성·음악·영상 모델과 Hailuo 제품의 실제 이용 경로를 따로 확인합니다. 메뉴의 `NEW`만으로 새 발표를 확정하지 않습니다. |
 | Kling | [공식 제품](https://www.klingai.com) | 최신 모델·영상·편집·API 안내와 회사 공식 발표를 확인합니다. 본문 접근 실패는 신규 없음과 다릅니다. |
 | Hunyuan·Wan | [Hunyuan](https://hunyuan.tencent.com) · [Wan](https://wan.video/) | 공식 페이지가 연결하는 모델 카드·저장소·발표문을 확인합니다. 다른 배포자의 설명을 원개발사 발표로 취급하지 않습니다. |
@@ -61,6 +61,7 @@
 
 - 광고·커머스·CRM: OpenAI·Google·Meta의 광고 발표, HubSpot의 제품 발표, Shopify 앱의 개발사·출시일·요금 조건을 대조합니다. [HubSpot 공식 뉴스](https://hubspot.gcs-web.com/news-releases)의 회사 배포 발표와 제품 문서를 함께 봅니다. IR 경로가 실패하면 2026-09-23 본문 조회를 확인한 [회사 뉴스룸](https://www.hubspot.com/company-news)의 개별 발표문으로 보완합니다.
 - 마케팅·시장 조사: 광고 제작·측정·고객 응대·검색 노출·브랜드 조사·콘텐츠 운영의 새 도구를 탐색합니다. [Adthena 제품](https://www.adthena.com/decision-intelligence/)과 [Market Logic 뉴스](https://marketlogicsoftware.com/news/)처럼 새로 확인한 서비스는 관련 발표와 실제 제공 조건을 함께 봅니다.
+- 마케팅 제작 에이전트: 2026-09-29 직접 확인한 [Pencil 공식 뉴스](https://trypencil.com/blog/articles/pencil-launches-scribble-to-orchestrate-ai-for-marketers)·[Scribble 제품](https://trypencil.com/scribble)·[가격표](https://trypencil.com/pricing)를 함께 봅니다. 현재 제작 기능과 연말 예정인 매체 구매 연동을 나누고, 제품 공개를 모든 플랜의 기본 포함이나 무료 제공으로 해석하지 않습니다.
 - 브랜드·캐릭터 IP·가상 인플루언서·숏폼/숏드라마: 브랜드·플랫폼·권리자·공모 주최자 공식 발표를 우선합니다. 국내와 중국 SNS도 검색하고, 게시물 원문이나 직접 읽은 보도를 확보합니다. 실제 확인한 반응·수치가 없으면 흥행으로 표현하지 않습니다.
 - 인프라·규제·보안: [Cloudflare 블로그](https://blog.cloudflare.com/), 서비스별 공식 상태·보안 공지, 정부·의회·감독기관 원문을 확인합니다. Cloudflare 목록이 탐색 메뉴만 반환하면 2026-09-28 직접 조회를 확인한 [공식 RSS](https://blog.cloudflare.com/rss/)에서 발표 시각과 개별 원문을 찾습니다. 블로그 게시일과 본문에 적힌 실제 출시·사고·수정일은 따로 확인합니다. 법안 제안·표결·시행, 정책 예고·합의, 투자 발표·실제 가동을 각각 구분합니다.
 

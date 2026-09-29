@@ -81,7 +81,9 @@ _BISCUIT_TAGS: dict[str, str] = {
     "ppa": "work",
     "ivo": "risk",
     "distillation": "risk",
-    "full-duplex": "creative"
+    "full-duplex": "creative",
+    "tts": "creative",
+    "resolution": "creative"
 }
 
 # (id, list of regex patterns). Longer / more specific first within each term.
@@ -359,6 +361,8 @@ _BISCUIT_PATTERNS.extend([
     ("ivo", [_term_pattern(r"IVO|Independent\s+Verification\s+Organi[sz]ation", r"독립\s*검증\s*기관")]),
     ("distillation", [_term_pattern(r"distillation", r"증류", flags=re.I)]),
     ("full-duplex", [_term_pattern(r"full[-\s]+duplex", r"풀\s*듀플렉스", flags=re.I)]),
+    ("tts", [_term_pattern(r"TTS|Text[-\s]+to[-\s]+Speech", r"텍스트\s*음성\s*변환", flags=re.I)]),
+    ("resolution", [_term_pattern(r"(?:480|720|1080|2160)p|4K", r"해상도", flags=re.I)]),
 ])
 
 # Known creative / product jargon to flag as biscuit candidates when not in catalog
@@ -655,7 +659,9 @@ _BISCUIT_LABELS: dict[str, str] = {
     "ppa": "PPA",
     "ivo": "IVO",
     "distillation": "증류",
-    "full-duplex": "풀듀플렉스"
+    "full-duplex": "풀듀플렉스",
+    "tts": "TTS",
+    "resolution": "해상도"
 }
 
 
