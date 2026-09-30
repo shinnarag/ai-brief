@@ -1,96 +1,103 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "candidates": [
     {
-      "term": "Kling",
-      "hint": "영상 생성 모델",
-      "hits": 23,
-      "sample": "시간 45분 · 추가 취재) 주제: Kling 4.0이 공개되고, 코드로 만드는 모션그래픽이 제작 흐름을 넓혀요 주제",
-      "brief_date": "2026-09-29"
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 10,
+      "sample": "9/29·Firefly 9/18, Higgsfield 9/23 스킬, Runway 9/28 고객 사례, Tesseract 0",
+      "brief_date": "2026-09-30"
+    },
+    {
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 7,
+      "sample": "Higgsfield 9/23 스킬, Runway 9/28 고객 사례, Tesseract 0.3·HyperFrames 0",
+      "brief_date": "2026-09-30"
     },
     {
       "term": "Seedance",
       "hint": "ByteDance 영상 생성 모델",
-      "hits": 15,
-      "sample": "시일로 쓰지 않았어요. fal 미국 Seedance 2.0 해상도 발표와 API 문서의 차이는 본문에 남겼어요. > 스윕",
-      "brief_date": "2026-09-29"
-    },
-    {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 13,
-      "sample": "5, Midjourney 9/24, Higgsfield 9/23·22, Runway 9/23, BFL 9/23·API 9/10",
-      "brief_date": "2026-09-29"
-    },
-    {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 11,
-      "sample": "갱신일을 출시일로 쓰지 않았어요. fal 미국 Seedance 2.0 해상도 발표와 API 문서의 차이는 본문에",
-      "brief_date": "2026-09-29"
+      "hits": 7,
+      "sample": "EdgeCloud — 한국·일본에서 Seedance 2.5를 쓰는 경로가 늘었어요 (9/24 · 누락 보완)** -",
+      "brief_date": "2026-09-30"
     },
     {
       "term": "ElevenLabs",
       "hint": "음성 합성",
-      "hits": 9,
-      "sample": "블로그 9/22·릴리스 9/17, ElevenLabs Feature/Research 9/28 v4·Product 9/25,",
-      "brief_date": "2026-09-29"
+      "hits": 5,
+      "sample": "23·API 9/10은 기존이에요. ElevenLabs 제품·연구·Music·Agents에서 9/29 Marketplace,",
+      "brief_date": "2026-09-30"
+    },
+    {
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 4,
+      "sample": "ames 0.8.93을 대조했어요. fal·Krea·Pika·LTX는 제품·변경 기록·공식 게시물을 함께 확인했어",
+      "brief_date": "2026-09-30"
+    },
+    {
+      "term": "Kling",
+      "hint": "영상 생성 모델",
+      "hits": 3,
+      "sample": "분야의 시작점으로 바꾸지 않았어요. Kling 4.0·Flash 최초 소식, Opus 5.5 기존 모션 사례, Son",
+      "brief_date": "2026-09-30"
     },
     {
       "term": "Hailuo/MiniMax",
       "hint": "영상·모델 벤더",
       "hits": 2,
-      "sample": "변경 기록(9/15 S2 기존), MiniMax·Hailuo, Hunyuan·Wan 저장소, HappyShrimp·Al",
-      "brief_date": "2026-09-29"
-    },
-    {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
-      "hits": 2,
-      "sample": "ar, Runway Resolve, Midjourney 편집·한국어, Tesseract 0.2.0, Claude Marketp",
-      "brief_date": "2026-09-29"
-    },
-    {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
-      "hits": 2,
-      "sample": ".8 TTS·Live Avatar, Runway Resolve, Midjourney 편집·한국어, Tesseract 0",
-      "brief_date": "2026-09-29"
-    },
-    {
-      "term": "Veo",
-      "hint": "Google 영상 모델",
-      "hits": 2,
-      "sample": "2 TTS 기존), DeepMind·Veo 문서를 확인했어요. Flash·Cyber 원발표는 9/2이고 Noteb",
-      "brief_date": "2026-09-29"
+      "sample": "영문 제품·API 9/15 S2, MiniMax IR·Hailuo, PixVerse 9/22, Decart 7/16,",
+      "brief_date": "2026-09-30"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "요. > 보류·접근 한계: Udio·Luma 일부 본문, Kuaishou IR, Hunyuan 홈페이지, PixVe",
-      "brief_date": "2026-09-29"
+      "sample": "n/Wan 홈·fal Explore·Luma 뉴스는 본문 추출에 한계가 있어 공식 대체 경로로 보완했어요. Anth",
+      "brief_date": "2026-09-30"
+    },
+    {
+      "term": "Midjourney",
+      "hint": "이미지 생성 서비스",
+      "hits": 1,
+      "sample": "Udio 읽힌 최신 2025/11, Midjourney 9/24, BFL 9/23·API 9/10은 기존이에요. ElevenL",
+      "brief_date": "2026-09-30"
+    },
+    {
+      "term": "Pika",
+      "hint": "영상 생성",
+      "hits": 1,
+      "sample": "93을 대조했어요. fal·Krea·Pika·LTX는 제품·변경 기록·공식 게시물을 함께 확인했어요. > 스윕 —",
+      "brief_date": "2026-09-30"
+    },
+    {
+      "term": "Seedream",
+      "hint": "ByteDance 이미지 생성 모델",
+      "hits": 1,
+      "sample": "eedance 2.5와 이미지 모델 Seedream 5.0 Pro가 포함돼요. - 지원하는 아시아태평양 시장으로 한국",
+      "brief_date": "2026-09-30"
+    },
+    {
+      "term": "Sora",
+      "hint": "OpenAI 영상 모델",
+      "hits": 1,
+      "sample": "만, 공식 X는 접근 제한이었어요. Sora 제품·BytePlus 일부·Notebook 제품·Vidu 한국어/Str",
+      "brief_date": "2026-09-30"
     },
     {
       "term": "Suno",
       "hint": "음악 생성",
       "hits": 1,
-      "sample": "들지 않았어요. > 스윕 — 창작: Suno 블로그 9/22·릴리스 9/17, ElevenLabs Feature/R",
-      "brief_date": "2026-09-29"
+      "sample": "싣지 않았어요. > 스윕 — 창작: Suno 블로그 9/29 EQ 가이드·릴리스 9/17, Udio 읽힌 최신 20",
+      "brief_date": "2026-09-30"
     },
     {
       "term": "Udio",
       "hint": "음악 생성",
       "hits": 1,
-      "sample": "지 않았어요. > 보류·접근 한계: Udio·Luma 일부 본문, Kuaishou IR, Hunyuan 홈페이지,",
-      "brief_date": "2026-09-29"
-    },
-    {
-      "term": "星图(광고 단가 플랫폼)",
-      "hint": "중국 인플루언서 단가 표시",
-      "hits": 1,
-      "sample": "드 수정 과제로 Sonnet 5와 완성도·대기 시간·실제 토큰 사용량을 비교해 볼 만해요. Haiku 5.5는",
-      "brief_date": "2026-09-29"
+      "sample": "29 EQ 가이드·릴리스 9/17, Udio 읽힌 최신 2025/11, Midjourney 9/24, BFL 9/2",
+      "brief_date": "2026-09-30"
     }
   ]
 }
