@@ -1355,8 +1355,8 @@
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-09-30",
-    termIds: ["resolution", "short-drama", "reference-image", "mcp", "harness", "multimodal"]
+    date: "2026-10-01",
+    termIds: ["resolution", "hdr", "sandbox", "mcp", "harness", "multimodal"]
   };
 
   const TAGS = [
