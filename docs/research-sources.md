@@ -42,7 +42,7 @@
 
 | 대상 | 고정 출발 경로 | 함께 확인할 내용 |
 |---|---|---|
-| OpenAI·Sora | [공식 사이트](https://openai.com/) · [API 변경 기록](https://developers.openai.com/api/docs/changelog) | 제품 뉴스와 모델·API의 출시·종료·요금·플랜 조건을 확인합니다. ChatGPT 제품 기능과 API 제공을 혼동하지 않습니다. |
+| OpenAI·Sora | [공식 사이트](https://openai.com/) · [ChatGPT 제품 변경 기록](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) · [API 변경 기록](https://developers.openai.com/api/docs/changelog) | 제품 뉴스와 모델·API의 출시·종료·요금·플랜 조건을 확인합니다. ChatGPT 제품 기능과 API 제공을 혼동하지 않습니다. |
 | Codex | [변경 기록](https://learn.chatgpt.com/docs/changelog) | 앱·코딩 도구·모델 적용을 구분하며 현재 공식 문서로 연결되는지 확인합니다. |
 | Anthropic·Claude | [모델·연구 뉴스](https://www.anthropic.com/news) · [Claude 제품 블로그](https://claude.com/blog) | 모델과 Claude·Cowork·문서·디자인·업무 제품을 따로 확인하고 각 발표의 공식 도움말까지 읽습니다. |
 | Claude Code | [공식 릴리스](https://github.com/anthropics/claude-code/releases) | 버전·공개 시각·실질적인 변경을 확인합니다. 단순 버전 숫자 변경만으로 주요 카드를 만들지 않습니다. |
@@ -50,9 +50,9 @@
 | Google Gemini 앱 | [Gemini App 공식 발표](https://blog.google/innovation-and-ai/products/gemini-app/) | 앱·웹·모바일·지역·플랜별 순차 적용을 확인합니다. 목록이 일부만 추출되면 제품명과 날짜로 공식 도메인 안에서 다시 찾습니다. |
 | **Google Gemini Notebook** | [전용 발표 목록](https://blog.google/innovation-and-ai/products/gemini-notebook/) · [제품](https://notebook.google/) | **Gemini API나 DeepMind 조사와 별도로 확인합니다.** 음성·영상·리포트·퀴즈·녹음·노트 등 기능별 날짜·언어·연령·플랜·각주 조건을 읽습니다. NotebookLM 등 이전 이름도 검색해 같은 사건을 대조합니다. |
 | Gemini API·DeepMind·Veo | [API 변경 기록](https://ai.google.dev/gemini-api/docs/changelog) · [DeepMind 블로그](https://deepmind.google/blog/) | 모델명·버전·API 식별자와 제품의 실사용 가능 여부를 구분합니다. Veo 제품·모델 문서도 공식 발표에서 따라갑니다. |
-| Meta | [공식 뉴스](https://about.fb.com/news/) | 모델·Meta AI·Instagram·WhatsApp·광고·크리에이터 기능을 나누어 보고 AI 관련 변화가 실제 있는지 확인합니다. |
+| Meta | [공식 뉴스](https://about.fb.com/news/) · [Meta AI 연구](https://research.meta.ai/) | 2026-10-05 확인한 연구 목록에는 기업 뉴스룸에 없는 10/2 연구·안전 기준 발표가 있었어요. 모델·Meta AI·Instagram·WhatsApp·광고·크리에이터 기능을 나누어 보고 AI 관련 변화가 실제 있는지 확인합니다. |
 | DeepSeek | [API 변경 기록](https://api-docs.deepseek.com/updates/) · [Harness 릴리스](https://github.com/deepseek-ai/deepseek-harness/releases) | API 라우팅·모델 가중치·라이선스·에이전트 도구의 별도 변경을 확인합니다. |
-| xAI/Grok | [공식 뉴스](https://x.ai/news) | 모델·Build·Imagine 이미지/영상·API를 각각 확인합니다. 같은 이벤트의 SNS 게시물은 별도 카드로 복제하지 않습니다. |
+| xAI/Grok | [공식 뉴스](https://x.ai/news) · [API 변경 기록](https://docs.x.ai/developers/release-notes) | 모델·Build·Imagine 이미지/영상·API를 각각 확인합니다. 같은 이벤트의 SNS 게시물은 별도 카드로 복제하지 않습니다. |
 | GitHub | [공식 변경 기록](https://github.blog/changelog/) | Copilot·코딩 에이전트·AI 보안의 적용 범위와 Preview·GA·관리자 조건을 확인합니다. |
 | Andon Labs/Pion | [공식 블로그](https://andonlabs.com/blog) · [Pion 제품](https://andonlabs.com/pion) | 2026-09-17 신규 탐색으로 고정 경로에 추가했습니다. 연구용·대기 명단·도구 제공·가격 공개 여부를 확인하며 실험 결과와 검증된 상용 성능을 구분합니다. |
 | Perplexity Computer | [공식 News 목록](https://www.perplexity.ai/en-GB/hub/blog/category/news) | 2026-09-18 직접 확인한 경로입니다. Computer의 웹·모바일 기능과 Portable Computer의 운영체제·GPU·로컬/클라우드 조건을 나누어 확인합니다. 목록의 날짜와 개별 발표문을 대조하고, 본문 접근 실패 시 검증된 공식 파트너 발표 범위만 사용합니다. |
