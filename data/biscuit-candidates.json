@@ -1,124 +1,117 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-05",
   "candidates": [
-    {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 33,
-      "sample": "X 3 Image, Ideogram·Higgsfield 9/30 제공, PixelDojo 10/1 캐릭터 후속과 Comfy A",
-      "brief_date": "2026-10-02"
-    },
     {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
-      "hits": 15,
-      "sample": "변경·연구·News·공식 게시물, fal, Adobe 제품·도움말·담당자 업데이트, Krea·Pika·LTX·L",
-      "brief_date": "2026-10-02"
+      "hits": 21,
+      "sample": "ook 제품/목록, Luma 뉴스, fal Explore, Midjourney 일반 업데이트, ElevenLabs",
+      "brief_date": "2026-10-05"
     },
     {
       "term": "ElevenLabs",
       "hint": "음성 합성",
-      "hits": 13,
-      "sample": "Cloud 베타 공개를 대조했어요. ElevenLabs Product·Music·Agents·API, Runway 변경·연구·",
-      "brief_date": "2026-10-02"
-    },
-    {
-      "term": "Suno",
-      "hint": "음악 생성",
-      "hits": 13,
-      "sample": "리지 않았어요. > 스윕 — 제작: Suno 블로그·릴리스의 10/1 Speech, Midjourney의 10/1",
-      "brief_date": "2026-10-02"
-    },
-    {
-      "term": "ComfyUI",
-      "hint": "노드 기반 생성 워크플로 UI",
-      "hits": 11,
-      "sample": "erse·Decart를 확인했어요. ComfyUI 릴리스에 포함된 지원을 원모델의 새 출시로 바꾸지 않았어요. > 스윕",
-      "brief_date": "2026-10-02"
-    },
-    {
-      "term": "FLUX 3",
-      "hint": "BFL 멀티모달·영상 모델",
-      "hits": 11,
-      "sample": "반복 업무에 연결해요 주제 설명: FLUX 3 Image와 Ideogram 4.5의 이미지 편집, Suno의 음성·음",
-      "brief_date": "2026-10-02"
-    },
-    {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
-      "hits": 9,
-      "sample": "thropic 공공기관·영업 도구, Runway Ads·Praxis, Instagram Edits는 실제 새 변경이 확",
-      "brief_date": "2026-10-02"
-    },
-    {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
-      "hits": 6,
-      "sample": "n) · 신뢰도: 공식 10. **Midjourney Alpha — 참조 스타일과 편집 화면의 설정 보존을 손봤어요**",
-      "brief_date": "2026-10-02"
-    },
-    {
-      "term": "Kling",
-      "hint": "영상 생성 모델",
-      "hits": 4,
-      "sample": "별도 사건 없이 반복하지 않았어요. Kling 4.0은 9/28 조기 제공·9/30 상세 안내와 전체 모델의 10월",
-      "brief_date": "2026-10-02"
+      "hits": 18,
+      "sample": "ch, Udio 블로그·변경 기록, ElevenLabs Product·Music·Agents·Reader, Midjourney",
+      "brief_date": "2026-10-05"
     },
     {
       "term": "Hailuo/MiniMax",
       "hint": "영상·모델 벤더",
-      "hits": 3,
-      "sample": "am·API 변경·S2 별도 경로, MiniMax/Hailuo·Hunyuan·Wan·Alibaba·Happy 제품군·Pi",
-      "brief_date": "2026-10-02"
+      "hits": 16,
+      "sample": "·블로그·API·가격·공식 SNS와 MiniMax/Hailuo·Hunyuan·Wan·Alibaba·Happy 제품군·Pi",
+      "brief_date": "2026-10-05"
     },
     {
-      "term": "ControlNet",
-      "hint": "이미지 조건 제어 네트워크",
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 16,
+      "sample": "10/2 추가한 글로벌 리셋 예고, Runway Ads·Praxis·Continuum은 같은 사건을 반복하지 않았어요.",
+      "brief_date": "2026-10-05"
+    },
+    {
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
+      "hits": 13,
+      "sample": "4. **Runway Agent — Seedance 2.5의 저해상도 시안을 먼저 만들어요 (10/2 · 후속)**",
+      "brief_date": "2026-10-05"
+    },
+    {
+      "term": "Kling",
+      "hint": "영상 생성 모델",
+      "hits": 9,
+      "sample": "tream API·변경 기록·S2, Kling 제품·블로그·API·가격·공식 SNS와 MiniMax/Hailuo·Hu",
+      "brief_date": "2026-10-05"
+    },
+    {
+      "term": "Suno",
+      "hint": "음악 생성",
+      "hits": 3,
+      "sample": "전일 제외: FLUX 3 Image·Suno Speech·Ideogram 4.5 최초 출시, Comfy Agent",
+      "brief_date": "2026-10-05"
+    },
+    {
+      "term": "Midjourney",
+      "hint": "이미지 생성 서비스",
+      "hits": 2,
+      "sample": "usic·Agents·Reader, Midjourney 10/2 게시·10/1 변경, Higgsfield·BFL 10/1, R",
+      "brief_date": "2026-10-05"
+    },
+    {
+      "term": "FLUX 3",
+      "hint": "BFL 멀티모달·영상 모델",
       "hits": 1,
-      "sample": "H3와 Qwen Image 2.1의 ControlNet 지원, Wan 2.1/VACE 기반 ID-V2V 지원도 포함해요. 색",
-      "brief_date": "2026-10-02"
+      "sample": "함께 확인했어요 > 전일 제외: FLUX 3 Image·Suno Speech·Ideogram 4.5 최초 출시, C",
+      "brief_date": "2026-10-05"
+    },
+    {
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 1,
+      "sample": "ey 10/2 게시·10/1 변경, Higgsfield·BFL 10/1, Runway 10/2 Agent·MCP를 대조했어요.",
+      "brief_date": "2026-10-05"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "AI 블로그와 HubSpot IR, Luma 뉴스·홈페이지와 iArt 일부 경로 등은 본문 추출 또는 접근에 한계가",
-      "brief_date": "2026-10-02"
+      "sample": "경로, Notebook 제품/목록, Luma 뉴스, fal Explore, Midjourney 일반 업데이트, El",
+      "brief_date": "2026-10-05"
     },
     {
       "term": "Pika",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "·도움말·담당자 업데이트, Krea·Pika·LTX·Luma와 모션 도구도 확인했어요. 새 게시물과 기존 기능 사용",
-      "brief_date": "2026-10-02"
-    },
-    {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 1,
-      "sample": "Seedream 5.0 Flash와 Seedance 2.5 Draft 등을 부르는 파트너 노드 변경이 들어 있어요. 기존",
-      "brief_date": "2026-10-02"
-    },
-    {
-      "term": "Seedream",
-      "hint": "ByteDance 이미지 생성 모델",
-      "hits": 1,
-      "sample": "Recraft V4.1 Flash, Seedream 5.0 Flash와 Seedance 2.5 Draft 등을 부르는 파트",
-      "brief_date": "2026-10-02"
+      "sample": "움말·10/2 베타 공지, Krea·Pika·Tesseract·LTX·Luma의 제품·릴리스·운영 상태도 확인했어요",
+      "brief_date": "2026-10-05"
     },
     {
       "term": "Sora",
       "hint": "OpenAI 영상 모델",
       "hits": 1,
-      "sample": "API·제품·Codex 변경 기록과 Sora 안내, Anthropic·Claude Code, Cursor, Gemi",
-      "brief_date": "2026-10-02"
+      "sample": "GPT 변경 기록·API·Codex·Sora, Anthropic·Claude Code, Cursor, Gemini",
+      "brief_date": "2026-10-05"
     },
     {
-      "term": "체크포인트",
-      "hint": "학습 가중치 스냅샷",
+      "term": "Udio",
+      "hint": "음악 생성",
       "hits": 1,
-      "sample": "모두 소진돼 실행이 멈춰도 보관한 체크포인트의 저장 요금은 이어질 수 있어요. - 출처: [10/1 Agent",
-      "brief_date": "2026-10-02"
+      "sample": "그·릴리스의 10/1 Speech, Udio 블로그·변경 기록, ElevenLabs Product·Music·Age",
+      "brief_date": "2026-10-05"
+    },
+    {
+      "term": "Veo",
+      "hint": "Google 영상 모델",
+      "hits": 1,
+      "sample": "mini 앱·API·DeepMind·Veo, Meta 뉴스·연구, DeepSeek 모델·Harness, xAI 뉴",
+      "brief_date": "2026-10-05"
+    },
+    {
+      "term": "星图(광고 단가 플랫폼)",
+      "hint": "중국 인플루언서 단가 표시",
+      "hits": 1,
+      "sample": "해요. 긴 글의 음량·발음·화자 일관성도 개선했다고 설명하며 사용자가 발음을 직접 지정하는 기능은 계속 제공해요",
+      "brief_date": "2026-10-05"
     }
   ]
 }
