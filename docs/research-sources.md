@@ -39,6 +39,7 @@
 | HappyShrimp/Happy* | [공식 제품](https://www.happyshrimp.ai/) · [Alibaba Cloud 신규 모델](https://www.alibabacloud.com/help/en/model-studio/newly-released-models) · [모델 가격](https://www.alibabacloud.com/help/en/model-studio/model-pricing) | 제품명·회사명·현재 공개 단계와 별도 기업 발표를 확인합니다. 2026-09-23 HappyOyster 1.0의 별도 제공 경로를 확인했어요. 모델 종류·지역·초대 조건·생성과 체험의 과금 단위를 나눠 봅니다. 가입 화면이나 목록 등재만으로 전체 계정 GA를 추정하지 않습니다. |
 | Sonilo | [제품 변경](https://sonilo.com/news) · [가격](https://sonilo.com/pricing) · [출력 권리](https://sonilo.com/help/licensing/do-i-own-the-music-and-sound-effects-i-generate) | 2026-10-09 신규 탐색에서 확인했어요. 음악·효과음·더빙 도구 변경과 모델 출시는 나누고, Agent Studio 승인·영상 묶음/합치기·최소 과금·일반 상업/방송 라이선스를 대조합니다. |
 | ClipTalk | [MCP 제품](https://www.cliptalk.pro/mcp) · [공식 연결 저장소](https://github.com/payamsaremi/cliptalk-mcp) | 2026-10-09 신규 탐색에서 최근 공개된 연결 경로를 확인했어요. 대본·비용 조회와 실제 생성·편집 도구, 무료 연결과 유료 생성 크레딧을 구분하고 저장소 원공개 시각을 대조합니다. |
+| Synthesia | [Syren 공식 공개 안내](https://www.synthesia.io/post/syren-studio) | 2026-10-12 신규 탐색에서 10/9 Syren 베타를 확인했어요. 발표가 연결하는 블로그·제품 업데이트·도움말에서 코드형 모션·아바타·음성 제작과 기존 편집기·Sessions를 나누어 확인하고, 베타 대상·크레딧·최대 길이·현재 브랜드 입력과 예정된 자동 학습을 구분합니다. |
 | Figma | [공식 블로그](https://www.figma.com/blog/) · [Agent·Weave 과금 FAQ](https://help.figma.com/hc/en-us/articles/42614902212887-AI-credit-updates-FAQ) · [AI 크레딧](https://help.figma.com/hc/en-us/articles/33459875669015-How-Figma-AI-credits-work) | 2026-10-09에 10/6 Agent·Weave GA와 과금 시작을 보완했어요. 디자인 제작·공동 작업·플랜/좌석 권한과 도구별 크레딧을 함께 확인하며, 베타 종료를 무료 계정 첫 제공으로 추정하지 않습니다. |
 
 ### 모델·플랫폼·코딩·에이전트
@@ -59,6 +60,7 @@
 | GitHub | [공식 변경 기록](https://github.blog/changelog/) | Copilot·코딩 에이전트·AI 보안의 적용 범위와 Preview·GA·관리자 조건을 확인합니다. |
 | Andon Labs/Pion | [공식 블로그](https://andonlabs.com/blog) · [Pion 제품](https://andonlabs.com/pion) | 2026-09-17 신규 탐색으로 고정 경로에 추가했습니다. 연구용·대기 명단·도구 제공·가격 공개 여부를 확인하며 실험 결과와 검증된 상용 성능을 구분합니다. |
 | Perplexity Computer | [공식 News 목록](https://www.perplexity.ai/en-GB/hub/blog/category/news) | 2026-09-18 직접 확인한 경로입니다. Computer의 웹·모바일 기능과 Portable Computer의 운영체제·GPU·로컬/클라우드 조건을 나누어 확인합니다. 목록의 날짜와 개별 발표문을 대조하고, 본문 접근 실패 시 검증된 공식 파트너 발표 범위만 사용합니다. |
+| Perplexity API·오픈웨이트 | [API 변경 기록](https://docs.perplexity.ai/docs/resources/changelog) · [Decider 공식 개발자 공지](https://community.perplexity.ai/t/pplx-decider-v1-1-27b-our-updated-open-weights-multimodal-decision-model-is-now-available/6286) · [다중 벡터 임베딩 공지](https://community.perplexity.ai/t/were-releasing-pplx-embed-v2-late-two-late-interaction-embedding-models-that-retrieve-text-images-and-pages-with-a-shared-embedding-space-for-cross-model-querying/6296) | 2026-10-12 누락 점검에서 News 목록 밖의 10/6·10/7 공개를 확인했어요. Computer와 별도로 API 변경 기록·공식 개발자 커뮤니티·공식 모델 카드를 대조하고, 월 단위 목록을 임의 발표일로 쓰거나 가중치 공개를 호스팅 API 제공으로 확대하지 않습니다. |
 
 ### 마케팅·사업·SNS·인프라·규제
 
