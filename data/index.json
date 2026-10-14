@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T11:23:10",
+  "generated_at": "2026-10-14T18:23:38",
   "platform": "AI Pulse",
-  "count": 55,
+  "count": 62,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,84 +11,88 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "models": 390,
-    "creative": 264,
-    "marketing": 259,
-    "agents": 213,
-    "policy": 95,
-    "infra": 95
+    "models": 507,
+    "infra": 105,
+    "creative": 365,
+    "agents": 287,
+    "marketing": 358,
+    "policy": 110
   },
   "companies": [
     [
-      "Cloudflare",
-      230
-    ],
-    [
       "Claude",
-      225
-    ],
-    [
-      "OpenAI",
-      215
+      250
     ],
     [
       "GitHub",
-      211
-    ],
-    [
-      "ChatGPT",
-      142
-    ],
-    [
-      "Adobe",
-      95
-    ],
-    [
-      "Runway",
-      84
-    ],
-    [
-      "Anthropic",
-      80
-    ],
-    [
-      "Gemini",
-      72
+      228
     ],
     [
       "Google",
-      72
+      149
     ],
     [
-      "Kling",
-      72
+      "Anthropic",
+      112
     ],
     [
-      "ElevenLabs",
-      71
+      "OpenAI",
+      104
     ],
     [
-      "Meta",
-      66
+      "Gemini",
+      98
+    ],
+    [
+      "ChatGPT",
+      90
     ],
     [
       "Copilot",
-      64
+      81
     ],
     [
-      "DeepSeek",
-      35
+      "Meta",
+      59
     ],
     [
-      "Grok",
-      28
+      "Microsoft",
+      55
     ],
     [
-      "NVIDIA",
-      28
+      "ElevenLabs",
+      50
     ],
     [
       "Perplexity",
+      48
+    ],
+    [
+      "Figma",
+      43
+    ],
+    [
+      "Cloudflare",
+      42
+    ],
+    [
+      "Adobe",
+      39
+    ],
+    [
+      "Kling",
+      39
+    ],
+    [
+      "Grok",
+      36
+    ],
+    [
+      "Midjourney",
+      31
+    ],
+    [
+      "Notion",
       26
     ],
     [
@@ -96,47 +100,55 @@
       22
     ],
     [
-      "xAI",
+      "AWS",
+      21
+    ],
+    [
+      "DeepSeek",
+      19
+    ],
+    [
+      "Runway",
       18
     ],
     [
-      "Midjourney",
+      "Firefly",
       15
     ],
     [
-      "DeepMind",
-      13
+      "Azure",
+      12
     ],
     [
-      "AWS",
-      13
-    ],
-    [
-      "Salesforce",
-      13
+      "NVIDIA",
+      12
     ],
     [
       "Luma",
+      10
+    ],
+    [
+      "Hugging Face",
       8
     ],
     [
-      "Apple",
+      "DeepMind",
       8
     ],
     [
-      "Firefly",
+      "Salesforce",
       7
     ],
     [
-      "ByteDance",
+      "Canva",
+      7
+    ],
+    [
+      "Sora",
       6
     ],
     [
-      "Microsoft",
-      6
-    ],
-    [
-      "Notion",
+      "Apple",
       6
     ],
     [
@@ -144,33 +156,351 @@
       5
     ],
     [
-      "Sora",
+      "xAI",
       4
     ],
     [
-      "Hugging Face",
+      "ByteDance",
       4
     ],
     [
-      "Figma",
-      3
-    ],
-    [
-      "Canva",
+      "Mistral",
       2
     ],
     [
-      "Azure",
-      2
+      "Oracle",
+      1
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-09-29",
-    "end": "2026-10-05",
+    "start": "2026-10-08",
+    "end": "2026-10-14",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-10-14",
+      "title": "AI Daily Brief — 2026-10-14 (24시간 6분 · 최근 7일 보완)",
+      "theme": "제작 모델의 새 선택지와 편집·학습·배포의 실제 조건을 함께 확인해요",
+      "theme_blurb": "Gemini 4 Argon의 GA와 LTX 웹 학습, 영상·음성 도구의 새 연결을 정리했어요. 공개된 제작 과정에서는 참조 소재·사람의 연기·반복 검수의 역할을 보고, 마케팅 에이전트와 음원 유통의 현재 제공·베타·예정을 나눠요.",
+      "edition_title": "제작 모델의 새 선택지와 편집·학습·배포의 실제 조건을 함께 확인해요",
+      "edition_blurb": "Gemini 4 Argon의 GA와 LTX 웹 학습, 영상·음성 도구의 새 연결을 정리했어요. 공개된 제작 과정에서는 참조 소재·사람의 연기·반복 검수의 역할을 보고, 마케팅 에이전트와 음원 유통의 현재 제공·베타·예정을 나눠요.",
+      "url": "brief/2026-10-14.html",
+      "excerpt": "전일 제외: Muse Wonder·X 구독·Magnific One·Bria 배경 제거·fal Mureka·Atlas 일부 미국 제공·PixVerse Meta 연결·WorldPlay2·기존 Vidu Q4 Preview와 Kling 4.0은 같은 사건을 반복하지 않았어요. 새 제공 경로·후속 버전·독립 제작 사례를 따로 확인했어요.",
+      "top5": [
+        "Gemini 4 Argon, 제한 공개를 마치고 앱·API·개발 도구로 확대해요 (10/13 · 후속)",
+        "LTX Trainer — 웹에서 인물·화풍을 학습하고 결과 가중치를 내려받아요 (10/13)",
+        "Tesseract 0.4.0, 에이전트 영상 편집에 색보정과 HDR 작업을 확장해요",
+        "HeyGen Voice 공식 발표, 복제 음성의 접근과 과금은 나눠 봐야 해요 (10/9 · 누락 보완)",
+        "VSDC 11.3, 편집기 안에서 fal.ai 생성 결과를 바로 이어 편집해요"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "GitHub",
+        "Google",
+        "Gemini",
+        "Notion",
+        "Anthropic",
+        "Claude",
+        "Kling",
+        "ElevenLabs",
+        "Copilot",
+        "ChatGPT",
+        "Microsoft",
+        "Perplexity",
+        "OpenAI",
+        "Adobe",
+        "Meta",
+        "Grok"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": "AI Daily Brief — 2026-10-13 (23시간 52분 · 최근 7일 보완)",
+      "theme": "제작 도구의 새 연결과 에이전트의 사용 범위·비용을 함께 확인해요",
+      "theme_blurb": "Muse Wonder와 X 통합 구독의 실제 제공 범위를 나누고, 이미지 시안·배경 분리·음악 API·영상 렌더의 새 작업 경로를 정리했어요. 최근 7일에 빠진 제품·베타·제작 사례를 보완하되 재홍보·예고·문서 수정일은 새 출시로 세지 않았어요.",
+      "edition_title": "제작 도구의 새 연결과 에이전트의 사용 범위·비용을 함께 확인해요",
+      "edition_blurb": "Muse Wonder와 X 통합 구독의 실제 제공 범위를 나누고, 이미지 시안·배경 분리·음악 API·영상 렌더의 새 작업 경로를 정리했어요. 최근 7일에 빠진 제품·베타·제작 사례를 보완하되 재홍보·예고·문서 수정일은 새 출시로 세지 않았어요.",
+      "url": "brief/2026-10-13.html",
+      "excerpt": "전일 제외: Syren 베타·Katana·Claude 동적 워크플로·Gemini 무료 Auto 정정·Perplexity Decider/임베딩·Vidu Q4 원모델·Suno Studio·Figma GA는 같은 사건을 반복하지 않았어요. 실제 새 버전·제공사 연결·명세 공개와 독립 제작 사례만 구분했어요.",
+      "top5": [
+        "Meta Muse Wonder — 긴 작업을 기억하며 수행하는 모델을 API·Muse Code에 공개했어요 (10/12)",
+        "Magnific One — 여러 시안을 먼저 고르고 브랜드 기준으로 최종 이미지를 만들어요 (10/8 · 누락 보완)",
+        "Bria·fal, 남길 대상을 문장으로 지정하는 배경 제거 API를 공개했어요",
+        "fal, Mureka 노래·기악곡·팟캐스트 제작 경로를 열었어요 (10/7 · 누락 보완)",
+        "The X Subscription — Grok·Cursor·X를 묶고 외부 모델 비용은 따로 계산해요 (10/12)"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "Meta",
+        "GitHub",
+        "Claude",
+        "Google",
+        "Grok",
+        "ChatGPT",
+        "Kling",
+        "Adobe",
+        "OpenAI",
+        "Anthropic",
+        "Copilot",
+        "Gemini",
+        "NVIDIA",
+        "Cloudflare",
+        "Perplexity",
+        "ByteDance"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
+    {
+      "date": "2026-10-12",
+      "title": "AI Daily Brief — 2026-10-12 (주말 포함 · 최근 7일 보완)",
+      "theme": "영상·캠페인을 만드는 에이전트에 수정·승인·비용 확인이 함께 붙어요",
+      "theme_blurb": "Syren의 코드형 영상 베타와 Katana·Mage의 제작 연결, HyperFrames의 자막·내보내기 후속을 확인했어요. 소셜·광고 에이전트는 읽기 전용·초안 승인·일부 고객 제공을 구분하고, 새 모델의 API 조건과 이전 발표의 실제 배포도 다시 점검했어요.",
+      "edition_title": "영상·캠페인을 만드는 에이전트에 수정·승인·비용 확인이 함께 붙어요",
+      "edition_blurb": "Syren의 코드형 영상 베타와 Katana·Mage의 제작 연결, HyperFrames의 자막·내보내기 후속을 확인했어요. 소셜·광고 에이전트는 읽기 전용·초안 승인·일부 고객 제공을 구분하고, 새 모델의 API 조건과 이전 발표의 실제 배포도 다시 점검했어요.",
+      "url": "brief/2026-10-12.html",
+      "excerpt": "전일 제외: Claude Motion·Midjourney Alpha·Suno Studio·ElevenCreative Brand Kit·Vidu Q4 원모델·Sol Ultrafast·Figma GA 과금은 같은 발표를 반복하지 않았어요. 실제 새 배포·버전·비용·투표 개시와 정정은 별도 후속으로 남겼어요.",
+      "top5": [
+        "Synthesia Syren — 자료에서 3분 영상을 만들고 대화로 고치는 베타를 열었어요",
+        "Higgsfield Katana — 참조 사진과 영상 프리셋을 Claude에서 재구성해요 (10/8 · 누락 보완)",
+        "Mage — Nano Banana 2.1 무제한 플랜과 광고·캐릭터 제작용 MCP 작업을 늘렸어요 (10/9 · 배포 후속)",
+        "Claude Managed Agents — 여러 에이전트를 묶는 동적 워크플로를 베타로 제공해요",
+        "Nectar Social MCP — 소셜 데이터를 AI에 읽히지만, 게시·크리에이터 탐색은 아직 예정이에요 (10/8 · 누락 보완)"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "Claude",
+        "GitHub",
+        "Google",
+        "Microsoft",
+        "Gemini",
+        "Copilot",
+        "Perplexity",
+        "Cloudflare",
+        "OpenAI",
+        "ChatGPT",
+        "Amazon",
+        "Figma",
+        "Meta",
+        "AWS",
+        "DeepSeek",
+        "Adobe"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
+    {
+      "date": "2026-10-09",
+      "title": "AI Daily Brief — 2026-10-09 (22시간 57분 · 최근 7일 보완)",
+      "theme": "생성한 결과를 직접 고치고 브랜드·데이터·비용 기준을 이어 쓰는 도구가 늘어요",
+      "theme_blurb": "Claude Motion과 Midjourney Thinking 시험, Suno Studio 편집, ElevenCreative Brand Kit가 제작·수정의 선택지를 넓혀요. Figma의 GA 과금과 새로운 음악·영상 연결 도구, 실제 코드형 영상의 재시도·검수 기록도 확인했어요. 베타·현재 제공·향후 계획을 나누고 팀 권한·소재 권리·크레딧을 함께 살펴봐요.",
+      "edition_title": "생성한 결과를 직접 고치고 브랜드·데이터·비용 기준을 이어 쓰는 도구가 늘어요",
+      "edition_blurb": "Claude Motion과 Midjourney Thinking 시험, Suno Studio 편집, ElevenCreative Brand Kit가 제작·수정의 선택지를 넓혀요. Figma의 GA 과금과 새로운 음악·영상 연결 도구, 실제 코드형 영상의 재시도·검수 기록도 확인했어요. 베타·현재 제공·향후 계획을 나누고 팀 권한·소재 권리·크레딧을 함께 살펴봐요.",
+      "url": "brief/2026-10-09.html",
+      "excerpt": "전일 제외: Vidu Q4 원모델·ChatGPT Intelligent UI·Haiku 5.5·Claude API 크레딧·Reverie Kubrick·H3 Relight·SynthID Detector·Copilot 샌드박스의 같은 발표를 반복하지 않았어요. YouCam의 Q4 앱 제공과 새로운 버전·운영 조건만 후속으로 구분했어요.",
+      "top5": [
+        "Claude Motion — 보고서·차트를 고칠 수 있는 짧은 애니메이션으로 만들어요",
+        "Midjourney Thinking Mode — 이미지의 빠진 지시를 살펴보고 다시 생성하는 시험을 열었어요",
+        "Suno Studio — 박자 맞춤·클립 길이·페이드 곡선을 더 직접 조절해요",
+        "ElevenCreative Brand Kit — 브랜드 색·폰트·로고·금지 규칙을 제작마다 다시 불러와요",
+        "Figma Agent·Weave — 디자인 지침과 공동 작업을 보강하고 GA 과금을 시작했어요 (10/6 · 누락 보완)"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "Claude",
+        "Anthropic",
+        "OpenAI",
+        "GitHub",
+        "Figma",
+        "Midjourney",
+        "ChatGPT",
+        "ElevenLabs",
+        "Grok",
+        "Google",
+        "DeepSeek",
+        "Perplexity",
+        "Gemini",
+        "Canva",
+        "Amazon",
+        "Apple"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
+    {
+      "date": "2026-10-08",
+      "title": "AI Daily Brief — 2026-10-08 (24시간 46분 · 최근 7일 보완)",
+      "theme": "영상의 연기·빛과 AI 답변의 화면을 다듬고 실행 비용·권한을 구체화해요",
+      "theme_blurb": "Vidu Q4 Preview와 H3 Max Relight, 대화형 영화·뮤직비디오 제작 도구가 새로운 편집 경로를 열어요. ChatGPT의 조작 가능한 답변과 Haiku 5.5의 반복 업무 비용을 살피고, 광고·시장조사 에이전트의 현재 제공 범위를 구분해요. 기존 영상의 재현·출처 검사와 계정별 권한, 미리보기·정식 제공·향후 계획을 함께 확인해요.",
+      "edition_title": "영상의 연기·빛과 AI 답변의 화면을 다듬고 실행 비용·권한을 구체화해요",
+      "edition_blurb": "Vidu Q4 Preview와 H3 Max Relight, 대화형 영화·뮤직비디오 제작 도구가 새로운 편집 경로를 열어요. ChatGPT의 조작 가능한 답변과 Haiku 5.5의 반복 업무 비용을 살피고, 광고·시장조사 에이전트의 현재 제공 범위를 구분해요. 기존 영상의 재현·출처 검사와 계정별 권한, 미리보기·정식 제공·향후 계획을 함께 확인해요.",
+      "url": "brief/2026-10-08.html",
+      "excerpt": "전일 제외: Nano Banana 2.1·Gamma 5·Kandinsky 6·Claude for Google Workspace·Cursor 원격 제어·Suno Albums·Higgsfield Ad Multiplier의 같은 발표를 반복하지 않았어요. Nano Banana 2의 종료일은 현재 공식 자료와 달라 정정 카드로 남겼어요.",
+      "top5": [
+        "Vidu Q4 Preview — 이미지·목소리 참조로 4K 영상과 연기를 함께 만들어요",
+        "ChatGPT GPT-6·Intelligent UI — 답변 중에 비교 화면·계산 도구를 만들어 보여줘요",
+        "Claude Haiku 5.5 — 짧은 반복 업무와 하위 에이전트의 비용을 낮췄어요",
+        "Reverie Kubrick — 대화로 장면을 고치고 렌더 비용을 확인한 뒤 영화를 만들어요",
+        "H3 Max Relight — 기존 영상의 조명 위치·색·부드러움을 다시 정해요"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "Claude",
+        "GitHub",
+        "Anthropic",
+        "Copilot",
+        "ChatGPT",
+        "Google",
+        "OpenAI",
+        "Gemini",
+        "Cloudflare",
+        "ElevenLabs",
+        "Adobe",
+        "Meta",
+        "NVIDIA",
+        "DeepMind",
+        "Kling",
+        "Hugging Face"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
+    {
+      "date": "2026-10-07",
+      "title": "AI Daily Brief — 2026-10-07 (24시간 17분 · 최근 7일 보완)",
+      "theme": "이미지·영상·문서를 만들고 고치는 도구가 넓어지고 실행·권리 조건도 세분화돼요",
+      "theme_blurb": "Gamma 5와 Nano Banana 2.1, Kandinsky 6의 제작 경로를 확인했어요. 참조 광고 변형과 문서 안의 직접 편집, 실제 브랜드 영상·캐릭터 제작 사례도 이어져요. 공개 모델·유료 API·Alpha·베타·예정 기능을 구분하고, 음악·영상 소재의 권리와 실제 비용을 함께 살펴봐요.",
+      "edition_title": "이미지·영상·문서를 만들고 고치는 도구가 넓어지고 실행·권리 조건도 세분화돼요",
+      "edition_blurb": "Gamma 5와 Nano Banana 2.1, Kandinsky 6의 제작 경로를 확인했어요. 참조 광고 변형과 문서 안의 직접 편집, 실제 브랜드 영상·캐릭터 제작 사례도 이어져요. 공개 모델·유료 API·Alpha·베타·예정 기능을 구분하고, 음악·영상 소재의 권리와 실제 비용을 함께 살펴봐요.",
+      "url": "brief/2026-10-07.html",
+      "excerpt": "전일 제외: Suno Albums·Speech, Luma Variants, Cohere North 2·Embed 5, Reflection Beam 제한 공개, FLUX 3 Image, HeyGen Video 1.0, Kling 4.0 제한 체험·전체 모델 예고는 같은 사건을 반복하지 않았어요. 예고일이 가까워졌다는 이유만으로 GA나 가중치 공개 완료로 바꾸지 않았어요.",
+      "top5": [
+        "Gamma 5 — 대화로 구성하고 자유 배치로 다듬는 제작 공간을 전면 개편했어요",
+        "Gemini Nano Banana 2.1 — 인물·문자를 다듬고 긴 화면 비율을 지원하는 이미지 API가 나왔어요",
+        "Kandinsky 6.0 Video — 영상과 소리를 함께 만드는 공개 모델·API를 제공해요",
+        "Higgsfield Ad Multiplier — 참조 광고의 구성으로 새 상품·인물 버전을 웹에서 만들어요 (10/6 · 후속)",
+        "Claude for Google Workspace — 문서·시트·슬라이드 안에서 바로 고치는 공개 베타예요"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "Claude",
+        "OpenAI",
+        "GitHub",
+        "Google",
+        "ChatGPT",
+        "Gemini",
+        "Mistral",
+        "Anthropic",
+        "Copilot",
+        "NVIDIA",
+        "ElevenLabs",
+        "Adobe",
+        "Microsoft",
+        "Kling",
+        "Meta",
+        "Salesforce"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
+    {
+      "date": "2026-10-06",
+      "title": "AI Daily Brief — 2026-10-06 (24시간 0분 · 최근 7일 보완)",
+      "theme": "창작물을 앨범·광고·업무로 연결하고 공개·검수 조건을 더 세밀하게 나눠요",
+      "theme_blurb": "Suno Albums의 음악 공개, Luma Variants의 다국어 광고, Higgsfield 캐릭터 재사용과 HeyGen 영상 API를 확인했어요. 기업 에이전트의 기억·비용 관리, AI 광고·고객 조사·결제 경로도 넓어져요. 출시와 조기 접근, 연구용 파일과 실제 제작 사례를 구분하고 지난주 놓친 소식은 원날짜로 보완해요.",
+      "edition_title": "창작물을 앨범·광고·업무로 연결하고 공개·검수 조건을 더 세밀하게 나눠요",
+      "edition_blurb": "Suno Albums의 음악 공개, Luma Variants의 다국어 광고, Higgsfield 캐릭터 재사용과 HeyGen 영상 API를 확인했어요. 기업 에이전트의 기억·비용 관리, AI 광고·고객 조사·결제 경로도 넓어져요. 출시와 조기 접근, 연구용 파일과 실제 제작 사례를 구분하고 지난주 놓친 소식은 원날짜로 보완해요.",
+      "url": "brief/2026-10-06.html",
+      "excerpt": "전일 제외: FLUX 3 Image·Suno Speech·Ideogram 4.5·fal Recast/프레임 제어·Runway Agent Draft/MCP, Qwen 국제 API·Claude Code 2.1.289·DeepSeek Harness·Copilot 10/2 변경은 동일 사건을 반복하지 않았어요. Cloudflare 10/5 회고도 기존 10/1~2 제품 출시로 되돌려 세지 않았어요.",
+      "top5": [
+        "Suno Albums — 곡을 앨범으로 묶고 팔로워에게 공개해요",
+        "Luma Variants — 승인한 정적 광고를 크기·언어별로 펼쳐요 (10/1 · 누락 보완)",
+        "Higgsfield AI Influencer — 만든 캐릭터를 영상과 영화 장면에 이어 써요 (10/2~3 · 누락 보완)",
+        "HeyGen Video 1.0 — 장면과 소리를 함께 만드는 범용 영상 API를 제공해요 (9/30 · 누락 보완)",
+        "Cohere North 2 — 기업용 에이전트의 기억·제작·실행 비용을 함께 관리해요"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "OpenAI",
+        "GitHub",
+        "Cohere",
+        "Adobe",
+        "ChatGPT",
+        "Luma",
+        "NVIDIA",
+        "Google",
+        "Claude",
+        "Gemini",
+        "Meta",
+        "Oracle",
+        "Kling",
+        "Anthropic",
+        "Firefly",
+        "Hugging Face"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-10-05",
       "title": "AI Daily Brief — 2026-10-05 (71시간 53분 · 주말 전체·최근 7일 보완)",
@@ -428,8 +758,8 @@
       "companies": [
         "GitHub",
         "Claude",
-        "OpenAI",
         "Google",
+        "OpenAI",
         "ChatGPT",
         "Gemini",
         "Copilot",
@@ -440,8 +770,8 @@
         "Midjourney",
         "Amazon",
         "Pika",
-        "Perplexity",
-        "ElevenLabs"
+        "Cloudflare",
+        "Perplexity"
       ],
       "has_rumor": false,
       "source": "md",
@@ -576,8 +906,8 @@
         "Perplexity",
         "ElevenLabs",
         "DeepSeek",
-        "OpenAI",
-        "Notion"
+        "Notion",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -616,8 +946,8 @@
         "OpenAI",
         "Copilot",
         "Gemini",
-        "Salesforce",
         "Cloudflare",
+        "Salesforce",
         "NVIDIA",
         "Anthropic",
         "DeepSeek",
@@ -711,8 +1041,8 @@
         "xAI",
         "Midjourney",
         "DeepSeek",
-        "NVIDIA",
         "Runway",
+        "NVIDIA",
         "Microsoft",
         "DeepMind"
       ],
@@ -751,14 +1081,14 @@
         "Perplexity",
         "Gemini",
         "ChatGPT",
-        "Salesforce",
-        "Midjourney",
         "Cloudflare",
+        "Midjourney",
+        "Salesforce",
         "Microsoft",
-        "DeepMind",
         "DeepSeek",
-        "Runway",
-        "Oracle"
+        "DeepMind",
+        "Oracle",
+        "Runway"
       ],
       "has_rumor": false,
       "source": "md",
@@ -891,9 +1221,9 @@
         "Midjourney",
         "Microsoft",
         "Runway",
+        "Amazon",
         "GitHub",
         "Claude",
-        "Amazon",
         "Kling",
         "Azure"
       ],
@@ -1032,7 +1362,7 @@
         "Gemini",
         "Runway",
         "Kling",
-        "Luma"
+        "Sora"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1119,10 +1449,10 @@
         "Canva",
         "DeepMind",
         "Runway",
-        "Kling",
         "Apple",
-        "Luma",
+        "Kling",
         "Sora",
+        "Luma",
         "xAI"
       ],
       "has_rumor": false,
@@ -1214,7 +1544,7 @@
         "DeepMind",
         "Gemini",
         "Kling",
-        "Luma"
+        "Meta"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1253,8 +1583,8 @@
         "GitHub",
         "Gemini",
         "DeepMind",
-        "NVIDIA",
         "Runway",
+        "NVIDIA",
         "xAI",
         "DeepSeek",
         "Cohere",
@@ -1347,8 +1677,8 @@
         "Anthropic",
         "DeepSeek",
         "Runway",
-        "Perplexity",
         "Midjourney",
+        "Perplexity",
         "Kling"
       ],
       "has_rumor": true,
@@ -1393,8 +1723,8 @@
         "Midjourney",
         "Gemini",
         "GitHub",
-        "Luma",
-        "Meta"
+        "Meta",
+        "Luma"
       ],
       "has_rumor": true,
       "source": "md",
@@ -1432,8 +1762,8 @@
         "DeepSeek",
         "Mistral",
         "ChatGPT",
-        "NVIDIA",
         "Gemini",
+        "NVIDIA",
         "Kling",
         "Midjourney",
         "Runway"
@@ -1519,13 +1849,13 @@
         "Anthropic",
         "DeepSeek",
         "NVIDIA",
-        "Salesforce",
         "Midjourney",
+        "Salesforce",
         "Copilot",
         "Gemini",
         "Runway",
-        "GitHub",
         "Amazon",
+        "GitHub",
         "Google"
       ],
       "has_rumor": false,
@@ -1607,8 +1937,8 @@
         "ElevenLabs",
         "Runway",
         "Grok",
-        "Firefly",
         "Copilot",
+        "Firefly",
         "Kling"
       ],
       "has_rumor": false,
@@ -1690,8 +2020,8 @@
         "ChatGPT",
         "OpenAI",
         "DeepMind",
-        "NVIDIA",
         "Runway",
+        "NVIDIA",
         "AWS",
         "xAI",
         "Kling",
@@ -1734,8 +2064,8 @@
         "ChatGPT",
         "Anthropic",
         "Meta",
-        "OpenAI",
         "Google",
+        "OpenAI",
         "NVIDIA",
         "Kling",
         "AWS",
@@ -1881,8 +2211,8 @@
         "ByteDance",
         "Midjourney",
         "ElevenLabs",
-        "DeepMind",
-        "DeepSeek"
+        "DeepSeek",
+        "DeepMind"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1914,8 +2244,8 @@
       ],
       "companies": [
         "OpenAI",
-        "Claude",
         "Google",
+        "Claude",
         "Meta",
         "Anthropic",
         "GitHub",
@@ -2197,8 +2527,8 @@
         "ElevenLabs",
         "Azure",
         "ChatGPT",
-        "NVIDIA",
-        "Gemini"
+        "Gemini",
+        "NVIDIA"
       ],
       "has_rumor": false,
       "source": "md",
@@ -2243,8 +2573,8 @@
         "Runway",
         "Microsoft",
         "Copilot",
-        "Luma",
-        "Meta"
+        "Meta",
+        "Luma"
       ],
       "has_rumor": false,
       "source": "md",
@@ -2454,8 +2784,8 @@
       ],
       "companies": [
         "Anthropic",
-        "OpenAI",
         "NVIDIA",
+        "OpenAI",
         "Google",
         "Adobe",
         "GitHub",
@@ -2466,8 +2796,8 @@
         "Claude",
         "Firefly",
         "Midjourney",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Samsung"
       ],
       "has_rumor": false,
@@ -2545,8 +2875,8 @@
         "Gemini",
         "OpenAI",
         "Claude",
-        "DeepMind",
         "DeepSeek",
+        "DeepMind",
         "Sora"
       ],
       "has_rumor": false,

@@ -1,147 +1,154 @@
 {
-  "date": "2026-10-05",
-  "label": "10월 5일 브리프",
+  "date": "2026-10-14",
+  "label": "10월 14일 브리프",
   "termIds": [
+    "hdr",
     "resolution",
-    "r2v",
-    "reference-image",
-    "draft-mode",
     "tts",
-    "mcp"
+    "keyframe",
+    "lip-sync",
+    "reference-image"
   ],
   "allMatchedIds": [
-    "draft-mode",
+    "lip-sync",
+    "keyframe",
+    "upscale",
+    "short-drama",
     "reference-image",
     "early-access",
     "credits",
-    "harness",
-    "open-weight",
     "prompt",
     "agent",
     "token",
     "cli",
     "api",
-    "r2v",
-    "zdr",
     "sandbox",
-    "watermark",
     "ga",
     "mcp",
+    "hdr",
+    "distillation",
     "tts",
     "resolution"
   ],
   "candidates": [
     {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 21,
-      "sample": "ook 제품/목록, Luma 뉴스, fal Explore, Midjourney 일반 업데이트, ElevenLabs",
-      "brief_date": "2026-10-05"
+      "term": "Kling",
+      "hint": "영상 생성 모델",
+      "hits": 13,
+      "sample": "기존 Vidu Q4 Preview와 Kling 4.0은 같은 사건을 반복하지 않았어요. 새 제공 경로·후속 버전·독립",
+      "brief_date": "2026-10-14"
     },
     {
       "term": "ElevenLabs",
       "hint": "음성 합성",
-      "hits": 18,
-      "sample": "ch, Udio 블로그·변경 기록, ElevenLabs Product·Music·Agents·Reader, Midjourney",
-      "brief_date": "2026-10-05"
-    },
-    {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
-      "hits": 16,
-      "sample": "·블로그·API·가격·공식 SNS와 MiniMax/Hailuo·Hunyuan·Wan·Alibaba·Happy 제품군·Pi",
-      "brief_date": "2026-10-05"
-    },
-    {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
-      "hits": 16,
-      "sample": "10/2 추가한 글로벌 리셋 예고, Runway Ads·Praxis·Continuum은 같은 사건을 반복하지 않았어요.",
-      "brief_date": "2026-10-05"
-    },
-    {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 13,
-      "sample": "4. **Runway Agent — Seedance 2.5의 저해상도 시안을 먼저 만들어요 (10/2 · 후속)**",
-      "brief_date": "2026-10-05"
-    },
-    {
-      "term": "Kling",
-      "hint": "영상 생성 모델",
       "hits": 9,
-      "sample": "tream API·변경 기록·S2, Kling 제품·블로그·API·가격·공식 SNS와 MiniMax/Hailuo·Hu",
-      "brief_date": "2026-10-05"
+      "sample": "릴리스와 Udio 블로그·도움말, ElevenLabs Product/Music/Agents/Reception/API, Mid",
+      "brief_date": "2026-10-14"
+    },
+    {
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 9,
+      "sample": "ific One·Bria 배경 제거·fal Mureka·Atlas 일부 미국 제공·PixVerse Meta 연결·",
+      "brief_date": "2026-10-14"
     },
     {
       "term": "Suno",
       "hint": "음악 생성",
-      "hits": 3,
-      "sample": "전일 제외: FLUX 3 Image·Suno Speech·Ideogram 4.5 최초 출시, Comfy Agent",
-      "brief_date": "2026-10-05"
-    },
-    {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
-      "hits": 2,
-      "sample": "usic·Agents·Reader, Midjourney 10/2 게시·10/1 변경, Higgsfield·BFL 10/1, R",
-      "brief_date": "2026-10-05"
-    },
-    {
-      "term": "FLUX 3",
-      "hint": "BFL 멀티모달·영상 모델",
-      "hits": 1,
-      "sample": "함께 확인했어요 > 전일 제외: FLUX 3 Image·Suno Speech·Ideogram 4.5 최초 출시, C",
-      "brief_date": "2026-10-05"
+      "hits": 7,
+      "sample": ". > 스윕: 음악·음성·디자인 — Suno 블로그·10/8 릴리스와 Udio 블로그·도움말, ElevenLabs",
+      "brief_date": "2026-10-14"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
-      "hits": 1,
-      "sample": "ey 10/2 게시·10/1 변경, Higgsfield·BFL 10/1, Runway 10/2 Agent·MCP를 대조했어요.",
-      "brief_date": "2026-10-05"
+      "hits": 6,
+      "sample": "I, Midjourney 두 경로, Higgsfield 제품·변경·API, Runway 세 경로, fal 모델/API·BFL,",
+      "brief_date": "2026-10-14"
+    },
+    {
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
+      "hits": 5,
+      "sample": "PixVerse·Decart·LTX·MiniMax/Hailuo·Kling·Hunyuan/Wan·Luma·Happy/Ali",
+      "brief_date": "2026-10-14"
+    },
+    {
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
+      "hits": 5,
+      "sample": "영상 — Seed의 다섯 분야 목록·Seedance/Seedream/Audio/Realtime·BytePlus API, D",
+      "brief_date": "2026-10-14"
+    },
+    {
+      "term": "FLUX 3",
+      "hint": "BFL 멀티모달·영상 모델",
+      "hits": 3,
+      "sample": "식 8. **ImageBreak가 FLUX 3 Image를 추가했어요** - 10/13 업데이트에서 이미지 생성",
+      "brief_date": "2026-10-14"
+    },
+    {
+      "term": "fps",
+      "hint": "초당 프레임",
+      "hits": 3,
+      "sample": "요. - 내보내기는 양의 정수 프레임레이트와 구간 시작·길이 지정을 지원해요. 소수 프레임레이트나 원본 프레임레이",
+      "brief_date": "2026-10-14"
+    },
+    {
+      "term": "Seedream",
+      "hint": "ByteDance 이미지 생성 모델",
+      "hits": 2,
+      "sample": "의 다섯 분야 목록·Seedance/Seedream/Audio/Realtime·BytePlus API, Dreamina/J",
+      "brief_date": "2026-10-14"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "경로, Notebook 제품/목록, Luma 뉴스, fal Explore, Midjourney 일반 업데이트, El",
-      "brief_date": "2026-10-05"
+      "sample": "o·Kling·Hunyuan/Wan·Luma·Happy/Alibaba를 대조했어요. LTX 10/13 학습과 Des",
+      "brief_date": "2026-10-14"
+    },
+    {
+      "term": "Midjourney",
+      "hint": "이미지 생성 서비스",
+      "hits": 1,
+      "sample": "ents/Reception/API, Midjourney 두 경로, Higgsfield 제품·변경·API, Runway 세 경로",
+      "brief_date": "2026-10-14"
     },
     {
       "term": "Pika",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "움말·10/2 베타 공지, Krea·Pika·Tesseract·LTX·Luma의 제품·릴리스·운영 상태도 확인했어요",
-      "brief_date": "2026-10-05"
+      "sample": "13 제작 사례를 채택하고 Krea·Pika·Figma·Synthesia·Magnific의 기존 공개를 반복하지 않",
+      "brief_date": "2026-10-14"
+    },
+    {
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 1,
+      "sample": "ggsfield 제품·변경·API, Runway 세 경로, fal 모델/API·BFL, Adobe 제품·직원 공지를 확",
+      "brief_date": "2026-10-14"
     },
     {
       "term": "Sora",
       "hint": "OpenAI 영상 모델",
       "hits": 1,
-      "sample": "GPT 변경 기록·API·Codex·Sora, Anthropic·Claude Code, Cursor, Gemini",
-      "brief_date": "2026-10-05"
+      "sample": "s·ChatGPT·API·Codex·Sora, Anthropic News·Claude·API·Code, Cursor",
+      "brief_date": "2026-10-14"
     },
     {
       "term": "Udio",
       "hint": "음악 생성",
       "hits": 1,
-      "sample": "그·릴리스의 10/1 Speech, Udio 블로그·변경 기록, ElevenLabs Product·Music·Age",
-      "brief_date": "2026-10-05"
+      "sample": "Suno 블로그·10/8 릴리스와 Udio 블로그·도움말, ElevenLabs Product/Music/Agent",
+      "brief_date": "2026-10-14"
     },
     {
       "term": "Veo",
       "hint": "Google 영상 모델",
       "hits": 1,
-      "sample": "mini 앱·API·DeepMind·Veo, Meta 뉴스·연구, DeepSeek 모델·Harness, xAI 뉴",
-      "brief_date": "2026-10-05"
-    },
-    {
-      "term": "星图(광고 단가 플랫폼)",
-      "hint": "중국 인플루언서 단가 표시",
-      "hits": 1,
-      "sample": "해요. 긴 글의 음량·발음·화자 일관성도 개선했다고 설명하며 사용자가 발음을 직접 지정하는 기능은 계속 제공해요",
-      "brief_date": "2026-10-05"
+      "sample": "tebook·API·DeepMind·Veo, Meta·DeepSeek·xAI API/Bot/Build·GitHub",
+      "brief_date": "2026-10-14"
     }
   ],
   "catalogSize": 61
