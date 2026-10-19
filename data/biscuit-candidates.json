@@ -1,124 +1,124 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-19",
   "candidates": [
-    {
-      "term": "Kling",
-      "hint": "영상 생성 모델",
-      "hits": 13,
-      "sample": "기존 Vidu Q4 Preview와 Kling 4.0은 같은 사건을 반복하지 않았어요. 새 제공 경로·후속 버전·독립",
-      "brief_date": "2026-10-14"
-    },
     {
       "term": "ElevenLabs",
       "hint": "음성 합성",
-      "hits": 9,
-      "sample": "릴리스와 Udio 블로그·도움말, ElevenLabs Product/Music/Agents/Reception/API, Mid",
-      "brief_date": "2026-10-14"
-    },
-    {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 9,
-      "sample": "ific One·Bria 배경 제거·fal Mureka·Atlas 일부 미국 제공·PixVerse Meta 연결·",
-      "brief_date": "2026-10-14"
-    },
-    {
-      "term": "Suno",
-      "hint": "음악 생성",
-      "hits": 7,
-      "sample": ". > 스윕: 음악·음성·디자인 — Suno 블로그·10/8 릴리스와 Udio 블로그·도움말, ElevenLabs",
-      "brief_date": "2026-10-14"
+      "hits": 12,
+      "sample": "Suno 블로그·릴리스, Udio, ElevenLabs Product/Music/Agents/API, Fish Audio, M",
+      "brief_date": "2026-10-19"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
-      "hits": 6,
-      "sample": "I, Midjourney 두 경로, Higgsfield 제품·변경·API, Runway 세 경로, fal 모델/API·BFL,",
-      "brief_date": "2026-10-14"
+      "hits": 10,
+      "sample": "Midjourney 두 업데이트, Higgsfield 제품/변경/API, Runway 변경/연구/News, fal·BFL·A",
+      "brief_date": "2026-10-19"
     },
     {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
-      "hits": 5,
-      "sample": "PixVerse·Decart·LTX·MiniMax/Hailuo·Kling·Hunyuan/Wan·Luma·Happy/Ali",
-      "brief_date": "2026-10-14"
-    },
-    {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 5,
-      "sample": "영상 — Seed의 다섯 분야 목록·Seedance/Seedream/Audio/Realtime·BytePlus API, D",
-      "brief_date": "2026-10-14"
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 10,
+      "sample": "Runway 변경/연구/News, fal·BFL·Adobe 제품/도움말/공식 커뮤니티를 대조했어요. Eleven",
+      "brief_date": "2026-10-19"
     },
     {
       "term": "FLUX 3",
       "hint": "BFL 멀티모달·영상 모델",
-      "hits": 3,
-      "sample": "식 8. **ImageBreak가 FLUX 3 Image를 추가했어요** - 10/13 업데이트에서 이미지 생성",
-      "brief_date": "2026-10-14"
+      "hits": 6,
+      "sample": "요 > 전일 제외: Suno 협업·FLUX 3 Klein 원모델·Krea 3 공개·Figma Specs·Kling 4",
+      "brief_date": "2026-10-19"
     },
     {
-      "term": "fps",
-      "hint": "초당 프레임",
-      "hits": 3,
-      "sample": "요. - 내보내기는 양의 정수 프레임레이트와 구간 시작·길이 지정을 지원해요. 소수 프레임레이트나 원본 프레임레이",
-      "brief_date": "2026-10-14"
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
+      "hits": 6,
+      "sample": ": 영상·아시아 — BytePlus Seedance 문서는 제목·수정일만 읽혀 세부 변경을 확인하지 못했어요. Vidu S",
+      "brief_date": "2026-10-19"
     },
     {
-      "term": "Seedream",
-      "hint": "ByteDance 이미지 생성 모델",
-      "hits": 2,
-      "sample": "의 다섯 분야 목록·Seedance/Seedream/Audio/Realtime·BytePlus API, Dreamina/J",
-      "brief_date": "2026-10-14"
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
+      "hits": 4,
+      "sample": "ing·PixVerse·Decart·MiniMax/Hailuo·Hunyuan/Wan·Luma·HappyShrimp/Ali",
+      "brief_date": "2026-10-19"
+    },
+    {
+      "term": "Kling",
+      "hint": "영상 생성 모델",
+      "hits": 4,
+      "sample": "ea 3 공개·Figma Specs·Kling 4.0 모델 공개·Fish Audio Drama 3는 반복하지 않았어요",
+      "brief_date": "2026-10-19"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
-      "hits": 1,
-      "sample": "o·Kling·Hunyuan/Wan·Luma·Happy/Alibaba를 대조했어요. LTX 10/13 학습과 Des",
-      "brief_date": "2026-10-14"
+      "hits": 2,
+      "sample": "/Hailuo·Hunyuan/Wan·Luma·HappyShrimp/Alibaba를 대조했어요. Seed 목록의 최신",
+      "brief_date": "2026-10-19"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
-      "hits": 1,
-      "sample": "ents/Reception/API, Midjourney 두 경로, Higgsfield 제품·변경·API, Runway 세 경로",
-      "brief_date": "2026-10-14"
+      "hits": 2,
+      "sample": "ts/API, Fish Audio, Midjourney 두 업데이트, Higgsfield 제품/변경/API, Runway 변경",
+      "brief_date": "2026-10-19"
+    },
+    {
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 2,
+      "sample": "ggsfield 제품/변경/API, Runway 변경/연구/News, fal·BFL·Adobe 제품/도움말/공식 커뮤니",
+      "brief_date": "2026-10-19"
+    },
+    {
+      "term": "Sora",
+      "hint": "OpenAI 영상 모델",
+      "hits": 2,
+      "sample": "s·ChatGPT·API·Codex·Sora, Anthropic News·Claude·API·Code, Cursor",
+      "brief_date": "2026-10-19"
+    },
+    {
+      "term": "Suno",
+      "hint": "음악 생성",
+      "hits": 2,
+      "sample": "함께 확인했어요 > 전일 제외: Suno 협업·FLUX 3 Klein 원모델·Krea 3 공개·Figma Spe",
+      "brief_date": "2026-10-19"
+    },
+    {
+      "term": "Udio",
+      "hint": "음악 생성",
+      "hits": 2,
+      "sample": "·음성 — Suno 블로그·릴리스, Udio, ElevenLabs Product/Music/Agents/API, F",
+      "brief_date": "2026-10-19"
+    },
+    {
+      "term": "화면비",
+      "hint": "9:16·16:9 등",
+      "hits": 2,
+      "sample": "10/15 가사·LTX 10/12 화면비를 채택했어요. > 스윕: 제작 도구 후속 — Krea 블로그 외 정규",
+      "brief_date": "2026-10-19"
     },
     {
       "term": "Pika",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "13 제작 사례를 채택하고 Krea·Pika·Figma·Synthesia·Magnific의 기존 공개를 반복하지 않",
-      "brief_date": "2026-10-14"
-    },
-    {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
-      "hits": 1,
-      "sample": "ggsfield 제품·변경·API, Runway 세 경로, fal 모델/API·BFL, Adobe 제품·직원 공지를 확",
-      "brief_date": "2026-10-14"
-    },
-    {
-      "term": "Sora",
-      "hint": "OpenAI 영상 모델",
-      "hits": 1,
-      "sample": "s·ChatGPT·API·Codex·Sora, Anthropic News·Claude·API·Code, Cursor",
-      "brief_date": "2026-10-14"
-    },
-    {
-      "term": "Udio",
-      "hint": "음악 생성",
-      "hits": 1,
-      "sample": "Suno 블로그·10/8 릴리스와 Udio 블로그·도움말, ElevenLabs Product/Music/Agent",
-      "brief_date": "2026-10-14"
+      "sample": "참조 변경을 확인했어요. Kittl·Pika·Mirage/Tesseract·LTX·Sonilo·ClipTalk·Sy",
+      "brief_date": "2026-10-19"
     },
     {
       "term": "Veo",
       "hint": "Google 영상 모델",
       "hits": 1,
-      "sample": "tebook·API·DeepMind·Veo, Meta·DeepSeek·xAI API/Bot/Build·GitHub",
-      "brief_date": "2026-10-14"
+      "sample": "tebook·API·DeepMind·Veo, Meta 뉴스·연구, DeepSeek API·Harness, xAI",
+      "brief_date": "2026-10-19"
+    },
+    {
+      "term": "시드(seed)",
+      "hint": "재현용 난수 시드",
+      "hits": 1,
+      "sample": "veld 등이 약 100만 달러 프리시드 투자를 받은 AI 음악 스타트업 GasLab을 발표했어요. 현재는 비공",
+      "brief_date": "2026-10-19"
     }
   ]
 }
