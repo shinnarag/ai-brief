@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>생성 전에 구성을 고치고, API 접근과 팀별 비용을 더 세밀하게 나눠요 · AI Pulse</title>
+  <meta name="description" content="전일 제외: 10/19의 Slides·Prompt-to-Voice·Cursor Canvas·DeepSeek Flash/Search·Reflection Beam·Soundtracks·OmniHuman 등은 반복하지 않았어요. Krea의 베타에서 전체 워크스페이스 접근으로 바뀐 점, 실제 모델 종료·지역 확대는 후속으로 분리했어요. 날짜만 공개된 발표는 임의로 시각·시간대를 붙이지 않았어요." />
+  <meta name="theme-color" content="#f5f5f7" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <link rel="stylesheet" href="../assets/styles.css?v=20260916source" />
+</head>
+<body class="page-brief">
+  <div class="read-progress" aria-hidden="true"><i></i></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html">
+        <div class="brand-mark" aria-hidden="true"><svg class="icon-svg icon-svg--action" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><path d="M13.2 3.8 6.4 13.2h4.1L9.8 20.2l7.6-10.4h-4.1z"/></svg></div>
+        <div class="brand-text">
+          <strong>AI Pulse</strong>
+          <span>Intelligence Desk</span>
+        </div>
+      </a>
+      <nav class="brief-nav" aria-label="브리프 날짜 이동" data-current-date="2026-10-20">
+        <a class="brief-nav-arrow" href="2026-10-19.html" title="2026-10-19 · 영상·음악 제작을 연결하고, 새 모델의 실제 사용 경로를 확인해요" aria-label="이전 브리프: 2026-10-19 · 영상·음악 제작을 연결하고, 새 모델의 실제 사용 경로를 확인해요">‹</a>
+        <div class="brief-nav-date-wrap">
+          <button type="button" class="brief-nav-date" aria-haspopup="listbox"
+            aria-expanded="false" aria-controls="brief-date-picker-2026-10-20"
+            title="다른 날짜 선택" aria-label="현재 2026년 10월 20일(화). 클릭하여 날짜 선택">
+            <span class="brief-nav-date-text">2026년 10월 20일(화)</span>
+          </button>
+          <div class="brief-date-picker" id="brief-date-picker-2026-10-20" role="listbox"
+            aria-label="브리프 날짜 목록" hidden>
+      <a class="brief-date-option is-current" role="option" href="2026-10-20.html" data-date="2026-10-20" aria-selected="true"><span class="brief-date-option-date">2026년 10월 20일(화)</span><span class="brief-date-option-title">생성 전에 구성을 고치고, API 접근과 팀별 비용을 더 세밀하게 나눠요</span></a>
+      <a class="brief-date-option" role="option" href="2026-10-19.html" data-date="2026-10-19" aria-selected="false"><span class="brief-date-option-date">2026년 10월 19일(월)</span><span class="brief-date-option-title">영상·음악 제작을 연결하고, 새 모델의 실제 사용 경로를 확인해요</span></a>
+      <a class="brief-date-option" role="option" href="2026-10-16.html" data-date="2026-10-16" aria-selected="false"><span class="brief-date-option-date">2026년 10월 16일(금)</span><span class="brief-date-option-title">제작 도구의 새 공개와 협업·편집·사용권의 경계를 함께 확인해요</span></a>
+      <a class="brief-date-option" role="option" href="2026-10-15.html" data-date="2026-10-15" aria-selected="false"><span class="brief-date-option-date">2026년 10월 15일(목)</span><span class="brief-date-option-title">음성·영상 제작을 잇는 도구와 실제 이용 조건을 함께 확인해요</span></a>
+      <a class="brief-date-option" role="option" href="2026-10-14.html" data-date="2026-10-14" aria-selected="false"><span class="brief-date-option-date">2026년 10월 14일(수)</span><span class="brief-date-option-title">제작 모델의 새 선택지와 편집·학습·배포의 실제 조건을 함께 확인해요</span></a>
+      <a class="brief-date-option" role="option" href="2026-10-13.html" data-date="2026-10-13" aria-selected="false"><span class="brief-date-option-date">2026년 10월 13일(화)</span><span class="brief-date-option-title">제작 도구의 새 연결과 에이전트의 사용 범위·비용을 함께 확인해요</span></a>
+      <a class="brief-date-option" role="option" href="2026-10-12.html" data-date="2026-10-12" aria-selected="false"><span class="brief-date-option-date">2026년 10월 12일(월)</span><span class="brief-date-option-title">영상·캠페인을 만드는 에이전트에 수정·승인·비용 확인이 함께 붙어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-10-09.html" data-date="2026-10-09" aria-selected="false"><span class="brief-date-option-date">2026년 10월 9일(금)</span><span class="brief-date-option-title">생성한 결과를 직접 고치고 브랜드·데이터·비용 기준을 이어 쓰는 도구가 늘어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-10-08.html" data-date="2026-10-08" aria-selected="false"><span class="brief-date-option-date">2026년 10월 8일(목)</span><span class="brief-date-option-title">영상의 연기·빛과 AI 답변의 화면을 다듬고 실행 비용·권한을 구체화해요</span></a>
+      <a class="brief-date-option" role="option" href="2026-10-07.html" data-date="2026-10-07" aria-selected="false"><span class="brief-date-option-date">2026년 10월 7일(수)</span><span class="brief-date-option-title">이미지·영상·문서를 만들고 고치는 도구가 넓어지고 실행·권리 조건도 세분화돼요</span></a>
+      <a class="brief-date-option" role="option" href="2026-10-06.html" data-date="2026-10-06" aria-selected="false"><span class="brief-date-option-date">2026년 10월 6일(화)</span><span class="brief-date-option-title">창작물을 앨범·광고·업무로 연결하고 공개·검수 조건을 더 세밀하게 나눠요</span></a>
+      <a class="brief-date-option" role="option" href="2026-10-05.html" data-date="2026-10-05" aria-selected="false"><span class="brief-date-option-date">2026년 10월 5일(월)</span><span class="brief-date-option-title">기존 영상을 다시 고치고 제작·마케팅의 검수와 실행을 연결해요</span></a>
+      <a class="brief-date-option" role="option" href="2026-10-02.html" data-date="2026-10-02" aria-selected="false"><span class="brief-date-option-date">2026년 10월 2일(금)</span><span class="brief-date-option-title">AI 제작 결과를 더 정밀하게 고치고 반복 업무에 연결해요</span></a>
+      <a class="brief-date-option" role="option" href="2026-10-01.html" data-date="2026-10-01" aria-selected="false"><span class="brief-date-option-date">2026년 10월 1일(목)</span><span class="brief-date-option-title">AI 제작 도구가 작업 계획·직접 편집·광고 운영까지 연결돼요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-30.html" data-date="2026-09-30" aria-selected="false"><span class="brief-date-option-date">2026년 9월 30일(수)</span><span class="brief-date-option-title">AI가 문서·제작 도구·팀 업무를 이어서 처리하는 흐름이 넓어져요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-29.html" data-date="2026-09-29" aria-selected="false"><span class="brief-date-option-date">2026년 9월 29일(화)</span><span class="brief-date-option-title">Kling 4.0이 공개되고, 코드로 만드는 모션그래픽이 제작 흐름을 넓혀요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-28.html" data-date="2026-09-28" aria-selected="false"><span class="brief-date-option-date">2026년 9월 28일(월)</span><span class="brief-date-option-title">AI로 만들고 고치는 일을 하나의 작업 흐름으로 이어가요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-23.html" data-date="2026-09-23" aria-selected="false"><span class="brief-date-option-date">2026년 9월 23일(수)</span><span class="brief-date-option-title">긴 작업을 맡기고 영상 초안을 더 세밀하게 다듬어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-22.html" data-date="2026-09-22" aria-selected="false"><span class="brief-date-option-date">2026년 9월 22일(화)</span><span class="brief-date-option-title">영상·음성 생성과 편집을 한 프로젝트에서 이어 가요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-21.html" data-date="2026-09-21" aria-selected="false"><span class="brief-date-option-date">2026년 9월 21일(월)</span><span class="brief-date-option-title">생성한 영상·음성을 편집하고 실제 업무에 연결하는 도구가 늘어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-18.html" data-date="2026-09-18" aria-selected="false"><span class="brief-date-option-date">2026년 9월 18일(금)</span><span class="brief-date-option-title">AI가 음악·음향 제작과 여러 단계의 업무를 한 흐름으로 묶어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-17.html" data-date="2026-09-17" aria-selected="false"><span class="brief-date-option-date">2026년 9월 17일(목)</span><span class="brief-date-option-title">AI가 문서·영상 제작부터 광고 운영과 고객 응대까지 이어 맡아요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-16.html" data-date="2026-09-16" aria-selected="false"><span class="brief-date-option-date">2026년 9월 16일(수)</span><span class="brief-date-option-title">음성 에이전트가 한 단계 오르고, 앱 구독과 MCP가 같이 열렸어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-15.html" data-date="2026-09-15" aria-selected="false"><span class="brief-date-option-date">2026년 9월 15일(화)</span><span class="brief-date-option-title">음악 모델이 한 단계 오르고, Codex 하네스는 API로 풀렸어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-14.html" data-date="2026-09-14" aria-selected="false"><span class="brief-date-option-date">2026년 9월 14일(월)</span><span class="brief-date-option-title">프론티어는 속도를 맞추자고 하고, 편집 타임라인에는 에이전트가 붙었어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-11.html" data-date="2026-09-11" aria-selected="false"><span class="brief-date-option-date">2026년 9월 11일(금)</span><span class="brief-date-option-title">음성은 API로 풀듀플렉스가 되고, 음악은 메이저 레이블 라이선스 창이 열렸어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-10.html" data-date="2026-09-10" aria-selected="false"><span class="brief-date-option-date">2026년 9월 10일(목)</span><span class="brief-date-option-title">DeepSeek가 Pro 요청을 Flash로 넘기고, 캘리포니아에는 AI 감사 틀이 생겼어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-09.html" data-date="2026-09-09" aria-selected="false"><span class="brief-date-option-date">2026년 9월 9일(수)</span><span class="brief-date-option-title">Premiere 타임라인 생성기와 Suno v6가 같은 창에 겹쳤고, Images 2.5·Muse도 열렸어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-08.html" data-date="2026-09-08" aria-selected="false"><span class="brief-date-option-date">2026년 9월 8일(화)</span><span class="brief-date-option-title">참조 영상 API가 열렸고, Plus의 Astra는 채팅이 아닌 Work·Codex에 있어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-07.html" data-date="2026-09-07" aria-selected="false"><span class="brief-date-option-date">2026년 9월 7일(월)</span><span class="brief-date-option-title">Astra는 주말에 게임·3D를 뽑았고, Hugging Face 집주인은 NVIDIA로 바뀌었어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-04.html" data-date="2026-09-04" aria-selected="false"><span class="brief-date-option-date">2026년 9월 4일(금)</span><span class="brief-date-option-title">Astra가 열렸고, Higgsfield 크리에이티브 백필을 같이 봤어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-03.html" data-date="2026-09-03" aria-selected="false"><span class="brief-date-option-date">2026년 9월 3일(목)</span><span class="brief-date-option-title">Flash는 더 돌리고, Pics는 Docs 안에 앉았어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-02.html" data-date="2026-09-02" aria-selected="false"><span class="brief-date-option-date">2026년 9월 2일(수)</span><span class="brief-date-option-title">이미지 1센트, 영상은 스스로 훑고, Fable 캐시는 싸졌어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-09-01.html" data-date="2026-09-01" aria-selected="false"><span class="brief-date-option-date">2026년 9월 1일(화)</span><span class="brief-date-option-title">화면이 OS가 됐고, 비전 가중치는 MIT로 풀렸어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-31.html" data-date="2026-08-31" aria-selected="false"><span class="brief-date-option-date">2026년 8월 31일(월)</span><span class="brief-date-option-title">가중치는 풀렸고, Cursor 창구는 갈라졌어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-28.html" data-date="2026-08-28" aria-selected="false"><span class="brief-date-option-date">2026년 8월 28일(금)</span><span class="brief-date-option-title">영상은 이어 찍고, 그림은 고치기 시작했어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-27.html" data-date="2026-08-27" aria-selected="false"><span class="brief-date-option-date">2026년 8월 27일(목)</span><span class="brief-date-option-title">받아쓰기가 정식으로 열렸고, 이름 없던 Ox가 누구인지 밝혀졌어요</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-26.html" data-date="2026-08-26" aria-selected="false"><span class="brief-date-option-date">2026년 8월 26일(수)</span><span class="brief-date-option-title">민감 문서는 책상에서, 전사는 초당 3.5시간</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-25.html" data-date="2026-08-25" aria-selected="false"><span class="brief-date-option-date">2026년 8월 25일(화)</span><span class="brief-date-option-title">문서를 넣으면 30초가 나오고, 허브에도 붙었다</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-24.html" data-date="2026-08-24" aria-selected="false"><span class="brief-date-option-date">2026년 8월 24일(월)</span><span class="brief-date-option-title">HDR로 넘기고, 숏드라마는 배우 없이 돌아간다</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-21.html" data-date="2026-08-21" aria-selected="false"><span class="brief-date-option-date">2026년 8월 21일(금)</span><span class="brief-date-option-title">4K로 올리고, 얼굴 없는 회차도 상품이다</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-20.html" data-date="2026-08-20" aria-selected="false"><span class="brief-date-option-date">2026년 8월 20일(목)</span><span class="brief-date-option-title">초상권 장편이 열렸고, 파일은 정식이다</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-19.html" data-date="2026-08-19" aria-selected="false"><span class="brief-date-option-date">2026년 8월 19일(수)</span><span class="brief-date-option-title">폰에서 그리고, 코워크는 전 유료로 열렸다</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-18.html" data-date="2026-08-18" aria-selected="false"><span class="brief-date-option-date">2026년 8월 18일(화)</span><span class="brief-date-option-title">5분 곡은 풀렸고, 1080p는 얼리로 붙었다</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-13.html" data-date="2026-08-13" aria-selected="false"><span class="brief-date-option-date">2026년 8월 13일(목)</span><span class="brief-date-option-title">초안은 4.6이 잡고, 촬영은 Pixel이 대신 누른다</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-12.html" data-date="2026-08-12" aria-selected="false"><span class="brief-date-option-date">2026년 8월 12일(수)</span><span class="brief-date-option-title">봇이 앱에 로그인하고, 카피에 워터마크가 남는다 — LTX-2.5 오픈웨이트·Manus 무료 창</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-11.html" data-date="2026-08-11" aria-selected="false"><span class="brief-date-option-date">2026년 8월 11일(화)</span><span class="brief-date-option-title">로컬 에이전트는 풀렸고, Sonnet 단가는 고정됐다 — Image 2.0은 백필</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-10.html" data-date="2026-08-10" aria-selected="false"><span class="brief-date-option-date">2026년 8월 10일(월)</span><span class="brief-date-option-title">아스트라는 잠갔고, Seedance API엔 초당 단가가 붙었다</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-07.html" data-date="2026-08-07" aria-selected="false"><span class="brief-date-option-date">2026년 8월 7일(금)</span><span class="brief-date-option-title">무료 채팅은 풀렸고, CapCut 영상 슬롯도 넓어졌다</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-06.html" data-date="2026-08-06" aria-selected="false"><span class="brief-date-option-date">2026년 8월 6일(목)</span><span class="brief-date-option-title">Meta 코딩 에이전트·오픈 하네스에, ByteDance SeedRealtime 풀듀플렉스 옴니 인터랙션이 겹친 날</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-05.html" data-date="2026-08-05" aria-selected="false"><span class="brief-date-option-date">2026년 8월 5일(수)</span><span class="brief-date-option-title">영상은 20초 GA, 30초 예고가 겹친 날</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-04.html" data-date="2026-08-04" aria-selected="false"><span class="brief-date-option-date">2026년 8월 4일(화)</span><span class="brief-date-option-title">백악관은 검토하고, 가중치는 지역을 가르고, 그리드는 감사를 건다</span></a>
+      <a class="brief-date-option" role="option" href="2026-08-03.html" data-date="2026-08-03" aria-selected="false"><span class="brief-date-option-date">2026년 8월 3일(월)</span><span class="brief-date-option-title">증명은 2천 달러, 영상은 30초 원테이크, 규제는 8월 2일</span></a>
+      <a class="brief-date-option" role="option" href="2026-07-31.html" data-date="2026-07-31" aria-selected="false"><span class="brief-date-option-date">2026년 7월 31일(금)</span><span class="brief-date-option-title">토큰은 싸지고, 로봇은 걷고, 평가는 벽을 뚫다</span></a>
+      <a class="brief-date-option" role="option" href="2026-07-30.html" data-date="2026-07-30" aria-selected="false"><span class="brief-date-option-date">2026년 7월 30일(목)</span><span class="brief-date-option-title">연구실엔 무료 좌석, 벤치엔 하네스, 인재는 떠나고 있다</span></a>
+      <a class="brief-date-option" role="option" href="2026-07-29.html" data-date="2026-07-29" aria-selected="false"><span class="brief-date-option-date">2026년 7월 29일(수)</span><span class="brief-date-option-title">방어 모델이 벤치 1등이고, 암호학은 에이전트가 깨고 있다</span></a>
+      <a class="brief-date-option" role="option" href="2026-07-28.html" data-date="2026-07-28" aria-selected="false"><span class="brief-date-option-date">2026년 7월 28일(화)</span><span class="brief-date-option-title">가중치는 풀렸고, 칩은 성소로, 오픈 논쟁은 성명으로</span></a>
+      <a class="brief-date-option" role="option" href="2026-07-27.html" data-date="2026-07-27" aria-selected="false"><span class="brief-date-option-date">2026년 7월 27일(월)</span><span class="brief-date-option-title">반값 프론티어가 선두를 치고, 킬 스위치가 의회에 들어온다</span></a>
+      <a class="brief-date-option" role="option" href="2026-07-24.html" data-date="2026-07-24" aria-selected="false"><span class="brief-date-option-date">2026년 7월 24일(금)</span><span class="brief-date-option-title">요금 서약이 찍히고, 추론 랙이 출항한다</span></a>
+      <a class="brief-date-option" role="option" href="2026-07-23.html" data-date="2026-07-23" aria-selected="false"><span class="brief-date-option-date">2026년 7월 23일(목)</span><span class="brief-date-option-title">증류를 고발한 날, 3.2GW를 심었다</span></a>
+      <a class="brief-date-option" role="option" href="2026-07-22.html" data-date="2026-07-22" aria-selected="false"><span class="brief-date-option-date">2026년 7월 22일(수)</span><span class="brief-date-option-title">답안을 훔친 모델, 주권을 산 클라우드</span></a>
+      <a class="brief-date-option" role="option" href="2026-07-21.html" data-date="2026-07-21" aria-selected="false"><span class="brief-date-option-date">2026년 7월 21일(화)</span><span class="brief-date-option-title">수표는 15억, 에이전트는 샌드박스를 뚫었다</span></a>
+      <a class="brief-date-option" role="option" href="2026-07-20.html" data-date="2026-07-20" aria-selected="false"><span class="brief-date-option-date">2026년 7월 20일(월)</span><span class="brief-date-option-title">중국은 웨이트를 풀고, 일본은 공장을 세웠다</span></a>
+      <a class="brief-date-option" role="option" href="2026-07-16.html" data-date="2026-07-16" aria-selected="false"><span class="brief-date-option-date">2026년 7월 16일(목)</span><span class="brief-date-option-title">끄지 못하는 검색, 먼저 열리는 상장 창구</span></a>
+      <a class="brief-date-option" role="option" href="2026-07-15.html" data-date="2026-07-15" aria-selected="false"><span class="brief-date-option-date">2026년 7월 15일(수)</span><span class="brief-date-option-title">전력이 문을 닫자, 스피커가 말을 걸기 시작했다</span></a>
+      <a class="brief-date-option" role="option" href="2026-07-14.html" data-date="2026-07-14" aria-selected="false"><span class="brief-date-option-date">2026년 7월 14일(화)</span><span class="brief-date-option-title">가격은 루피, 인재는 소송, 비전은 오픈소스</span></a>
+          </div>
+        </div>
+        <span class="brief-nav-arrow is-disabled" aria-hidden="true">›</span>
+      </nav>
+      <nav class="nav">
+        <a href="../index.html" class="">홈</a>
+        <a href="../archive.html" class="">아카이브</a>
+        <a href="../biscuits.html" class="nav-biscuit">비스킷</a>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+
+    <div class="brief-layout">
+      <aside class="toc-panel">
+        <h2>목차</h2>
+        <nav><ul><li><a href="#top-5" data-icon="top"><span class="sec-icon sec-icon--top" aria-hidden="true"><svg class="icon-svg icon-svg--top" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><circle cx="12" cy="12" r="9.25" fill="none" opacity=".22"/><path fill="currentColor" stroke="none" d="M12 5.82 13.7 10.32 18.51 10.55 14.76 13.57 16.03 18.21 12 15.57 7.97 18.21 9.24 13.57 5.49 10.55 10.3 10.32Z"/></svg></span><span class="toc-label">Top 5</span></a></li><li><a href="#모델-플랫폼" data-icon="models"><span class="sec-icon sec-icon--models" aria-hidden="true"><svg class="icon-svg icon-svg--models" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><path d="M12 3.8 4.8 8v8L12 20.2 19.2 16V8L12 3.8z"/><path d="M4.8 8 12 12.2 19.2 8M12 12.2V20.2" opacity=".55"/></svg></span><span class="toc-label">모델 · 플랫폼</span></a></li><li><a href="#콘텐츠-제작-크리에이티브" data-icon="creative"><span class="sec-icon sec-icon--creative" aria-hidden="true"><svg class="icon-svg icon-svg--creative" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><rect x="4.6" y="6.6" width="14.8" height="11.6" rx="2.2"/><path d="M5.4 16.4 8.8 12.2l2.3 2.5 2.9-3.8 4.6 5.5"/><circle cx="9.1" cy="10" r="1.15"/><path d="M17.6 4.4v2.8M16.2 5.8h2.8" opacity=".85"/></svg></span><span class="toc-label">콘텐츠 제작 · 크리에이티브</span></a></li><li><a href="#마케팅-비즈니스" data-icon="marketing"><span class="sec-icon sec-icon--marketing" aria-hidden="true"><svg class="icon-svg icon-svg--marketing" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><path d="M5.2 9.2h3.1L14 5.4v13.2l-5.7-3.8H5.2z"/><path d="M16.2 9.4c1.1.7 1.8 1.9 1.8 3.2s-.7 2.5-1.8 3.2"/><path d="M18.4 7.6c1.8 1.2 2.9 3.2 2.9 5.4s-1.1 4.2-2.9 5.4" opacity=".55"/></svg></span><span class="toc-label">마케팅 · 비즈니스</span></a></li><li><a href="#테크-인프라-규제" data-icon="tech"><span class="sec-icon sec-icon--tech" aria-hidden="true"><svg class="icon-svg icon-svg--tech" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><circle cx="12" cy="12" r="3.1"/><path d="M12 4.2v2.2M12 17.6v2.2M4.2 12h2.2M17.6 12h2.2M6.5 6.5l1.6 1.6M15.9 15.9l1.6 1.6M17.5 6.5l-1.6 1.6M8.1 15.9l-1.6 1.6"/></svg></span><span class="toc-label">테크 · 인프라 · 규제</span></a></li><li><a href="#sns-커뮤니티-반응" data-icon="sns"><span class="sec-icon sec-icon--sns" aria-hidden="true"><svg class="icon-svg icon-svg--sns" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><rect x="5" y="4.5" width="10.5" height="15" rx="2.2"/><path d="M8 8.2h4.5M8 11.2h4.5M8 14.2h2.8" opacity=".7"/><path d="M15.5 9.5h2.2a1.8 1.8 0 0 1 1.8 1.8v6.2a1.8 1.8 0 0 1-1.8 1.8H11" opacity=".55"/></svg></span><span class="toc-label">SNS · 커뮤니티 반응</span></a></li><li><a href="#참고-링크-모음" data-icon="links"><span class="sec-icon sec-icon--links" aria-hidden="true"><svg class="icon-svg icon-svg--links" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><path d="M9.6 13.6a3.6 3.6 0 0 1 0-5.1l2.2-2.2a3.6 3.6 0 1 1 5.1 5.1l-1.1 1.1"/><path d="M14.4 10.4a3.6 3.6 0 0 1 0 5.1l-2.2 2.2a3.6 3.6 0 1 1-5.1-5.1l1.1-1.1"/></svg></span><span class="toc-label">참고 링크 모음</span></a></li><li><a href="#related-biscuits" data-icon="biscuit"><span class="toc-label">관련 비스킷</span></a></li></ul></nav>
+      </aside>
+      <article class="brief-article">
+        <div class="brief-meta"><span class="pill">2026년 10월 20일(화)</span><span class="pill muted">수집 2026-10-20 10:26 KST</span><span class="pill muted">2026-10-19 10:32 ~ 2026-10-20 10:26 KST · 직전 정상 브리프 마감 이후, 최근 7일 누락·출시 후속 보완</span><span class="pill teal">에이전트</span><span class="pill teal">크리에이티브</span><span class="pill teal">인프라</span><span class="pill teal">마케팅</span></div>
+        <div class="prose-stack"><section class="content-card content-card--intro brief-intro"><p class="brief-edition">AI Daily · 2026-10-20</p><h1 id="brief-title">생성 전에 구성을 고치고, <button type="button" class="inline-biscuit" data-biscuit="api">API</button> 접근과 팀별 비용을 더 세밀하게 나눠요</h1><p class="brief-theme-blurb">Gemini Notebook은 영상·슬라이드의 구성을 먼저 검토하게 하고, Krea는 자체 이미지 <button type="button" class="inline-biscuit" data-biscuit="api">API</button>의 <button type="button" class="inline-biscuit" data-biscuit="early-access">베타</button> 문턱을 없앴어요. 새 모델과 제작 도구의 실제 가격·공개 단계, Notion의 전환 일정까지 함께 살펴봐요.</p><p class="brief-action"><span class="brief-action-label">실무 액션</span> 자료 기반 영상의 개요 검토 시험 · 이미지 생성 전 비용 견적 분리 · 팀별 AI <button type="button" class="inline-biscuit" data-biscuit="credits">크레딧</button> 전환일 점검</p><p class="brief-kicker">수집 시각: 2026-10-20 10:26 KST</p><p class="brief-kicker">범위: 2026-10-19 10:32 ~ 2026-10-20 10:26 KST · 직전 정상 브리프 마감 이후, 최근 7일 누락·출시 후속 보완</p></section><section class="content-card content-card--top news-section" id="top-5" data-icon="top"><h2 class="news-section-title"><span class="sec-icon sec-icon--top" aria-hidden="true"><svg class="icon-svg icon-svg--top" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><circle cx="12" cy="12" r="9.25" fill="none" opacity=".22"/><path fill="currentColor" stroke="none" d="M12 5.82 13.7 10.32 18.51 10.55 14.76 13.57 16.03 18.21 12 15.57 7.97 18.21 9.24 13.57 5.49 10.55 10.3 10.32Z"/></svg></span><span class="sec-title-text">Top 5</span></h2><p class="top-index-lead">오늘 가장 중요한 시그널 5건입니다. 상세·출처는 아래 카테고리 본문에서 읽고, 카테고리 칩 또는 「본문 보기」로 바로 이동합니다.</p><div class="top-index" role="list">
+        <div class="top-index-item" role="listitem">
+          <span class="top-index-num" aria-hidden="true">1</span>
+          <div class="top-index-body">
+            <div class="top-index-row">
+              
+              <a class="top-index-title" href="#c-모델-플랫폼-01">Gemini Notebook, 슬라이드·영상의 개요를 확인한 뒤 생성해요 (10/19)</a>
+              <a class="top-index-cat top-index-cat--models" href="#모델-플랫폼" title="섹션으로 이동">모델 · 플랫폼</a>
+            </div>
+            <p class="top-index-blurb">슬라이드·영상 생성 전에 개요를 검토하고 고칠 수 있으며 전 세계 사용자에게 순차 제공해요.</p>
+            <a class="top-index-go" href="#c-모델-플랫폼-01">본문 보기 →</a>
+          </div>
+        </div>
+        <div class="top-index-item" role="listitem">
+          <span class="top-index-num" aria-hidden="true">2</span>
+          <div class="top-index-body">
+            <div class="top-index-row">
+              
+              <a class="top-index-title" href="#c-콘텐츠-제작-크리에이티브-04">Krea 3 자체 API가 모든 워크스페이스에 열려요 (10/19 · 후속)</a>
+              <a class="top-index-cat top-index-cat--creative" href="#콘텐츠-제작-크리에이티브" title="섹션으로 이동">콘텐츠 · 크리에이티브</a>
+            </div>
+            <p class="top-index-blurb">기존 <button type="button" class="inline-biscuit" data-biscuit="early-access">베타</button> 권한 없이 모든 workspace에서 호출하고 생성 전 비용도 확인해요.</p>
+            <a class="top-index-go" href="#c-콘텐츠-제작-크리에이티브-04">본문 보기 →</a>
+          </div>
+        </div>
+        <div class="top-index-item" role="listitem">
+          <span class="top-index-num" aria-hidden="true">3</span>
+          <div class="top-index-body">
+            <div class="top-index-row">
+              
+              <a class="top-index-title" href="#c-모델-플랫폼-06">Notion AI, Auto와 직접 모델 선택의 월 사용량을 나눠요 (10/19 · 후속)</a>
+              <a class="top-index-cat top-index-cat--models" href="#모델-플랫폼" title="섹션으로 이동">모델 · 플랫폼</a>
+            </div>
+            <p class="top-index-blurb">새 AI 사용량과 기존 고객의 전환일을 나눠 확인해 업무 예산을 점검해요.</p>
+            <a class="top-index-go" href="#c-모델-플랫폼-06">본문 보기 →</a>
+          </div>
+        </div>
+        <div class="top-index-item" role="listitem">
+          <span class="top-index-num" aria-hidden="true">4</span>
+          <div class="top-index-body">
+            <div class="top-index-row">
+              
+              <a class="top-index-title" href="#c-콘텐츠-제작-크리에이티브-01">FLUX 3 Max, fal의 추가 학습·최적화 버전으로 영상 API를 제공해요 (10/20 KST)</a>
+              <a class="top-index-cat top-index-cat--creative" href="#콘텐츠-제작-크리에이티브" title="섹션으로 이동">콘텐츠 · 크리에이티브</a>
+            </div>
+            <p class="top-index-blurb">영상 <button type="button" class="inline-biscuit" data-biscuit="api">API</button>의 실제 제공 사양과 단가를 확인해 고품질 제작에 적용해요.</p>
+            <a class="top-index-go" href="#c-콘텐츠-제작-크리에이티브-01">본문 보기 →</a>
+          </div>
+        </div>
+        <div class="top-index-item" role="listitem">
+          <span class="top-index-num" aria-hidden="true">5</span>
+          <div class="top-index-body">
+            <div class="top-index-row">
+              
+              <a class="top-index-title" href="#c-모델-플랫폼-03">Mercury 3, 100만 토큰 문맥의 확산형 언어 모델을 API로 공개했어요 (10/19)</a>
+              <a class="top-index-cat top-index-cat--models" href="#모델-플랫폼" title="섹션으로 이동">모델 · 플랫폼</a>
+            </div>
+            <p class="top-index-blurb">확산형 언어 모델의 API와 출시 요금을 공개해 반복 <button type="button" class="inline-biscuit" data-biscuit="agent">에이전트</button>의 응답 비용을 비교해요.</p>
+            <a class="top-index-go" href="#c-모델-플랫폼-03">본문 보기 →</a>
+          </div>
+        </div></div></section><section class="content-card content-card--model news-section" id="모델-플랫폼" data-icon="models"><h2 class="news-section-title"><span class="sec-icon sec-icon--models" aria-hidden="true"><svg class="icon-svg icon-svg--models" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><path d="M12 3.8 4.8 8v8L12 20.2 19.2 16V8L12 3.8z"/><path d="M4.8 8 12 12.2 19.2 8M12 12.2V20.2" opacity=".55"/></svg></span><span class="sec-title-text">모델 · 플랫폼</span></h2><div class="news-grid">
+        <article class="news-card rel-official" id="c-모델-플랫폼-01" data-card-id="c-모델-플랫폼-01">
+          <div class="news-card-top">
+            <span class="news-num">01</span>
+            <span class="news-chip news-chip-top5">Top 1</span>
+            
+          </div>
+          <h3 class="news-title">Gemini Notebook, 슬라이드·영상의 개요를 확인한 뒤 생성해요 (10/19)</h3>
+          <ul class="news-bullets"><li>Google이 Gemini Notebook의 Slide Decks·Video Overviews 제작에 사전 검토 과정을 더했어요. 원자료를 바탕으로 주제를 제안받고 내용·시각 스타일·형식을 정한 뒤 결과물을 만들어요.</li><li>새 Review 토글을 켜면 슬라이드의 개요 노트와 영상의 프로듀서 노트를 Studio에서 먼저 살펴볼 수 있어요. 첫머리에 요약을 넣거나 장면 순서를 바꾸도록 요청한 뒤 Proceed를 선택해 렌더링해요.</li><li>원하는 구성이 이미 있다면 첫 요청에 적어 검토 단계로 바로 갈 수 있어요. 빠른 초안이 필요하면 기존처럼 검토 토글 없이 생성할 수도 있어요.</li><li>전 세계 모든 Gemini Notebook 사용자에게 앞으로 일주일 동안 순차 제공해요. 발표 당일 모든 계정에서 보이는 기능은 아니며, 발표에는 별도 새 요금이 없어요.</li><li>교육·제품 설명 자료를 만들 때 완성본을 다시 생성하기 전에 원자료 누락과 장면 구성을 확인할 수 있는 변화예요. 기존 영상·슬라이드 생성 기능의 재소개와 구분해요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/" target="_blank" rel="noreferrer">원문</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-모델-플랫폼-02" data-card-id="c-모델-플랫폼-02">
+          <div class="news-card-top">
+            <span class="news-num">02</span>
+            
+            
+          </div>
+          <h3 class="news-title">MiniMax M3.1 Flash, 긴 <button type="button" class="inline-biscuit" data-biscuit="agent">에이전트</button> 작업과 추론 강도 조절을 저가 API로 제공해요 (10/19)</h3>
+          <ul class="news-bullets"><li>MiniMax가 M3.1 Flash를 API·M Plan·MiniMax Code에 공개했어요. Space Bunny는 이 모델의 초기 버전이었다고 밝혔으며, 가중치 배포와 Pro 모델은 추후 예정이에요.</li><li>API 모델 이름은 MiniMax-M3.1-Flash이고 문맥은 100만 <button type="button" class="inline-biscuit" data-biscuit="token">토큰</button>이에요. 코딩·도구 호출·여러 앱을 오가는 작업에 맞춰 추론 강도를 low부터 max까지 조절해요.</li><li>추론은 항상 켜져 있고 기본 강도는 max예요. 추론을 끄려 하면 오류가 나므로 지연과 출력 비용을 줄이려면 강도를 낮춰야 해요.</li><li>공식 단가는 100만 <button type="button" class="inline-biscuit" data-biscuit="token">토큰</button>당 입력 $0.15·출력 $0.60·캐시 입력 $0.015예요. 전작 대비 비용 70% 감소와 속도 향상은 회사의 평가이므로 실제 작업별 <button type="button" class="inline-biscuit" data-biscuit="token">토큰</button> 사용량과 완료율을 함께 비교해야 해요.</li><li>Vercel AI Gateway도 10/22까지 MiniMax 제공 경로의 무료 사용을 안내하며 현재 모델 화면에도 Free가 표시돼요. 다른 제공사로 자동 전환되면 같은 혜택을 전제할 수 없고 종료 시각·시간대는 명시되지 않았어요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://www.minimax.io/blog/minimax-m31f" target="_blank" rel="noreferrer">원문</a><a class="news-chip" href="https://platform.minimax.io/docs/guides/text-generation" target="_blank" rel="noreferrer">API 이름·문맥·추론 제약</a><a class="news-chip" href="https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free" target="_blank" rel="noreferrer">Vercel 무료 조건</a><a class="news-chip" href="https://vercel.com/ai-gateway/models/minimax-m3.1-flash" target="_blank" rel="noreferrer">현재 모델 가격</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-모델-플랫폼-03" data-card-id="c-모델-플랫폼-03">
+          <div class="news-card-top">
+            <span class="news-num">03</span>
+            <span class="news-chip news-chip-top5">Top 5</span>
+            
+          </div>
+          <h3 class="news-title">Mercury 3, 100만 토큰 문맥의 확산형 언어 모델을 API로 공개했어요 (10/19)</h3>
+          <ul class="news-bullets"><li>Inception이 빠른 응답이 필요한 상담·검색·브라우저 <button type="button" class="inline-biscuit" data-biscuit="agent">에이전트</button>용 Mercury 3를 공개했어요. 텍스트 확산 방식 모델이며 이전 Mercury 2.5의 26만 토큰에서 100만 토큰 문맥으로 늘렸어요.</li><li>Inception API의 mercury-3로 호출할 수 있고 OpenRouter·Baseten·Vercel 제공도 안내해요. 공식 시작 문서는 OpenAI 호환 호출 예제와 신규 계정의 무료 1억 토큰을 명시해요.</li><li>현재 출시 할인 단가는 100만 토큰당 입력 $0.10·캐시 입력 $0.01·출력 $0.35예요. 정상 단가는 각각 $0.20·$0.02·$0.70이며 할인 종료일은 이번 원문에서 확인되지 않았어요.</li><li>NVIDIA GPU에서 초당 1,068토큰이라는 수치와 경쟁 모델보다 4~8배 빠르다는 주장은 회사 평가예요. 모든 요청의 실제 속도나 전체 작업 완료 시간을 보장하는 값은 아니에요.</li><li>반복 검색·상담처럼 한 작업에서 모델을 여러 번 부르는 흐름이라면 응답 품질과 총 지연을 같이 시험할 만해요. 가중치 공개 발표로 해석하지 않아요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://www.inceptionlabs.ai/blog/introducing-mercury-3" target="_blank" rel="noreferrer">10/19 모델 발표</a><a class="news-chip" href="https://www.inceptionlabs.ai/models" target="_blank" rel="noreferrer">현재 할인 가격</a><a class="news-chip" href="https://docs.inceptionlabs.ai/get-started" target="_blank" rel="noreferrer">API 식별자·신규 계정 혜택</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-모델-플랫폼-04" data-card-id="c-모델-플랫폼-04">
+          <div class="news-card-top">
+            <span class="news-num">04</span>
+            
+            
+          </div>
+          <h3 class="news-title">Jais 3, 아랍어 방언·문서·음성 작업용 공개 모델을 내놨어요 (10/15 · 누락 보완)</h3>
+          <ul class="news-bullets"><li>IFM과 Inception42가 K2 Horizon 기반 Jais 3 언어 모델 6종과 Jais Speech를 공개했어요. 모델 크기는 9억~3,750억 매개변수이며 아랍어 표현·문화와 도구 사용에 맞춰 학습했어요.</li><li>Jais Speech는 표준 아랍어와 19개 아랍 국가의 방언을 전사하고, 영어·프랑스어가 섞인 발화도 해당 문자로 남기도록 설계했어요. 방언 식별과 아랍어 모음 기호 추가도 지원해요.</li><li>언어 모델은 51만 2,000토큰 문맥을 안내하고, 도구를 연결하면 아랍어 문서·표·발표 자료·웹 작업을 처리할 수 있다고 설명해요. 발표문의 별도 에이전트 플랫폼은 아직 출시 예정이에요.</li><li>공식 Hugging Face 모음에서 모델·음성 자산과 여러 양자화 형태를 확인했어요. 직접 확인한 7B 모델 카드는 Apache 2.0 라이선스를 표시하지만 모든 음성·변환 자산의 조건을 같다고 단정하지 않아요. 내려받아 운영하는 경로와 출시 예정인 별도 에이전트 플랫폼을 구분하고, 실제 서버·API 운영 비용은 별도로 계산해야 해요.</li><li>중동·북아프리카 콘텐츠와 고객 응대 실험에 참고할 만해요. 회사의 아랍어 평가 우위는 자체 평가이며 방언·업무별 검수가 필요해요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://ifm.ai/jais3/press-release/" target="_blank" rel="noreferrer">원문</a><a class="news-chip" href="https://huggingface.co/collections/IFM/jais-3" target="_blank" rel="noreferrer">공식 모델 모음</a><a class="news-chip" href="https://huggingface.co/inception42/Jais-3-7B" target="_blank" rel="noreferrer">7B 모델 카드</a><a class="news-chip" href="https://huggingface.co/collections/IFM/jais-speech" target="_blank" rel="noreferrer">Jais Speech</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-모델-플랫폼-05" data-card-id="c-모델-플랫폼-05">
+          <div class="news-card-top">
+            <span class="news-num">05</span>
+            
+            
+          </div>
+          <h3 class="news-title">Gemini 앱의 노트북, 유럽경제지역 Workspace 계정으로 확대됐어요 (10/19 · 후속)</h3>
+          <ul class="news-bullets"><li>Google이 9/17 발표문을 10/19 갱신해 그동안 제외했던 유럽경제지역 Workspace 사용자에게도 Gemini 앱의 노트북을 제공한다고 밝혔어요. 자료와 대화를 주제별로 묶고 Gemini Notebook과 이어 쓰는 기능이에요.</li><li>조직에서 Gemini 앱과 Gemini Notebook이 모두 켜져 있어야 해요. 기존 9월 배포 일정과 이번 지역 확대를 구분해야 하며, 별도의 새 모델 출시나 전 사용자 한도 확대는 아니에요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://workspaceupdates.googleblog.com/2026/09/notebooks-in-gemini-dedicated-workspace-for-focused-organized-work-now-for-schools-and-organizations.html" target="_blank" rel="noreferrer">10/19 지역 확대·관리자 조건</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-모델-플랫폼-06" data-card-id="c-모델-플랫폼-06">
+          <div class="news-card-top">
+            <span class="news-num">06</span>
+            <span class="news-chip news-chip-top5">Top 3</span>
+            
+          </div>
+          <h3 class="news-title">Notion AI, Auto와 직접 모델 선택의 월 사용량을 나눠요 (10/19 · 후속)</h3>
+          <ul class="news-bullets"><li>Notion이 10/19 에이전트 실행 구조와 Auto 모델 선택을 개선하고 새 <button type="button" class="inline-biscuit" data-biscuit="credits">크레딧</button> 체계를 발표했어요. 10/13의 외부 도구·개인 ChatGPT 연결 소개와 달리 이번에는 사용량과 조직 관리 방식이 달라져요.</li><li>Business·Enterprise 멤버별 기본 제공량은 월 Standard 1,500개와 Select 500개예요. 계약에 따라 실제 제공량이 다를 수 있고 두 잔액을 합치거나 다른 멤버에게 옮기거나 이월할 수 없어요.</li><li>Auto·문서 편집 등은 Standard, 직접 모델 선택과 개인 Custom Agent는 Select를 사용해요. 공유한 Custom Agent도 기본적으로 소유자의 Select를 쓰므로 팀용 에이전트는 관리자 예산을 따로 배정하는 편이 좋아요.</li><li>새 워크스페이스는 10/19, 기존 워크스페이스는 11/2부터 바뀌어요. AI Meeting Notes의 Standard 차감은 12/1부터 예정이며 이를 지금부터 과금하는 것으로 읽으면 안 돼요.</li><li>초과 사용은 관리자 허용과 별도 Notion credits가 필요해요. Auto 비용 절감 수치는 Notion의 내부 평가이며 개별 업무의 결과·요금 절감을 보장하지 않아요.</li><li>현재 ChatGPT 연결 도움말에는 Plus·Pro 외 Go도 명시돼요. Business·Enterprise 멤버의 개인 Notion Agent에서 특정 GPT 모델을 골랐을 때만 해당 구독을 사용하고 Auto·Custom Agents는 제외돼요. Enterprise의 자체 API 키 연결은 비공개 알파예요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://www.notion.com/blog/notion-ai-more-for-less" target="_blank" rel="noreferrer">10/19 발표</a><a class="news-chip" href="https://www.notion.com/en-gb/help/manage-your-ai-credits" target="_blank" rel="noreferrer">사용량·시행일</a><a class="news-chip" href="https://www.notion.com/help/how-ai-credits-work-for-custom-agents" target="_blank" rel="noreferrer">공유 Agent 비용</a><a class="news-chip" href="https://www.notion.com/en-gb/help/use-your-chatgpt-plan-with-notion-agent" target="_blank" rel="noreferrer">ChatGPT 플랜 조건</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-모델-플랫폼-07" data-card-id="c-모델-플랫폼-07">
+          <div class="news-card-top">
+            <span class="news-num">07</span>
+            
+            
+          </div>
+          <h3 class="news-title">MeetCap 1.0 — Mac 회의 전사와 에이전트 호출을 무료로 공개했어요 (10/18 · 누락 보완)</h3>
+          <ul class="news-bullets"><li>제작자가 10월 18일 11:44 UTC에 첫 공개 버전 1.0을 배포했어요. 회의를 녹음하고 영어·중국어 또는 두 언어가 섞인 발언을 컴퓨터에서 전사해요.</li><li>회의 중 요약과 용어 설명을 보여 주고, 종료 후에는 원문 발언으로 돌아갈 수 있는 회의록을 만들어요. 녹취·회의록은 사용자의 폴더에 Markdown 파일로 남아요.</li><li>현재 macOS 14.2 이상에서 Apple Silicon·Intel Mac을 지원해요. Windows와 iPhone 버전은 출시 예정이며, 한국어 전사 지원은 이번 공식 안내에서 확인되지 않았어요.</li><li>앱의 로컬 기능은 무료·무제한이고 가입이 필요 없어요. 외부 AI를 선택하면 전사 텍스트가 그 제공자에게 전송되고 해당 이용료가 적용돼요. 로컬 모델을 고르면 텍스트도 컴퓨터에 남아요.</li><li>Claude Code·Codex 등 에이전트가 녹음과 과거 회의 검색을 호출할 수 있어요. 민감한 회의라면 녹음 동의와 회사 정책을 먼저 확인하고, 음성의 로컬 처리와 요약용 텍스트의 외부 전송을 구분해 시험할 만해요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://github.com/seacen/meetcap/releases/tag/v1.0.0" target="_blank" rel="noreferrer">첫 공개 릴리스·날짜</a><a class="news-chip" href="https://github.com/seacen/meetcap" target="_blank" rel="noreferrer">지원 환경·데이터 처리</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article></div></section><section class="content-card content-card--creative news-section" id="콘텐츠-제작-크리에이티브" data-icon="creative"><h2 class="news-section-title"><span class="sec-icon sec-icon--creative" aria-hidden="true"><svg class="icon-svg icon-svg--creative" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><rect x="4.6" y="6.6" width="14.8" height="11.6" rx="2.2"/><path d="M5.4 16.4 8.8 12.2l2.3 2.5 2.9-3.8 4.6 5.5"/><circle cx="9.1" cy="10" r="1.15"/><path d="M17.6 4.4v2.8M16.2 5.8h2.8" opacity=".85"/></svg></span><span class="sec-title-text">콘텐츠 제작 · 크리에이티브</span></h2><div class="news-grid">
+        <article class="news-card rel-official" id="c-콘텐츠-제작-크리에이티브-01" data-card-id="c-콘텐츠-제작-크리에이티브-01">
+          <div class="news-card-top">
+            <span class="news-num">01</span>
+            <span class="news-chip news-chip-top5">Top 4</span>
+            
+          </div>
+          <h3 class="news-title">FLUX 3 Max, fal의 추가 학습·최적화 버전으로 영상 API를 제공해요 (10/20 KST)</h3>
+          <ul class="news-bullets"><li>fal Research가 BFL의 FLUX 3 Video를 바탕으로 추가 학습과 추론 최적화를 적용한 버전이에요. 공식 모델 페이지의 공개 시각은 10/19 18:30~31 UTC, 한국 시각 10/20 03:30~31이에요. 원래 FLUX 3 Video 모델의 첫 공개와 구분해야 해요.</li><li>텍스트·이미지 입력으로 5~20초 영상을 만들며 <button type="button" class="inline-biscuit" data-biscuit="resolution">720p</button>·<button type="button" class="inline-biscuit" data-biscuit="resolution">1080p</button>와 생성 오디오를 지원해요. API의 추론 수준은 low·high이고 high가 기본값이에요.</li><li>현재 출력 영상 1초당 <button type="button" class="inline-biscuit" data-biscuit="resolution">720p</button> $0.0425, 1080p $0.0725예요. 10/15~11/7 할인 조건이며 이후 안내 단가는 각각 $0.17·$0.29예요. 할인 시작일을 이 엔드포인트 공개일로 바꾸면 안 돼요.</li><li>fal은 10초 영상 평균 12.45초 생성과 비교 모델 대비 속도를 제시해요. 업체의 특정 해상도·설정 시험이며 모든 요청의 완료 시간이나 독립 검증된 우위는 아니에요.</li><li>공개 페이지에 서부극 장면의 <button type="button" class="inline-biscuit" data-biscuit="prompt">프롬프트</button>와 결과를 함께 보여줘요. 실무에서는 같은 대사·카메라 이동으로 비교하고 음성 일치와 실제 대기 시간을 따로 확인하는 게 좋아요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://fal.ai/flux-3-max" target="_blank" rel="noreferrer">fal 발표·시연</a><a class="news-chip" href="https://fal.ai/models/blackforestlabs/flux-3-max/text-to-video" target="_blank" rel="noreferrer">현재 모델·가격</a><a class="news-chip" href="https://fal.ai/models/blackforestlabs/flux-3-max/text-to-video/api" target="_blank" rel="noreferrer">API 규격</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-콘텐츠-제작-크리에이티브-02" data-card-id="c-콘텐츠-제작-크리에이티브-02">
+          <div class="news-card-top">
+            <span class="news-num">02</span>
+            
+            
+          </div>
+          <h3 class="news-title">MOSS-Image, 공개 가중치와 ComfyUI 플러그인으로 이미지 제작 경로를 열어요 (10/16 · 누락 보완)</h3>
+          <ul class="news-bullets"><li>OpenMOSS가 10/16 MOSS-Image의 Base·SFT 가중치와 코드를 공개했어요. 10/19에는 기술 보고서 공개를 안내했어요. 5B 규모의 이미지 모델로 긴 지시와 글자·레이아웃 표현을 강조해요.</li><li>공식 저장소는 SGLang·vLLM-Omni 및 자체 ComfyUI 플러그인 경로를 제공해요. ComfyUI 본체에 기본 탑재됐다는 뜻은 아니며, 별도의 설치·실행 환경이 필요해요.</li><li>SFT 모델 카드는 Apache 2.0을 표시해요. 로컬 실행에는 CUDA 환경 등이 필요하고 이번 확인에서 최소 VRAM을 확정하지 못했어요. 한글 타이포 품질도 별도 시험이 필요해요.</li><li>fal의 SFT API는 1메가픽셀당 $0.05이고 상업 이용을 표시해요. 해당 엔드포인트의 공개 시각은 10/19 03:38 KST로, 오늘 기본 범위 이전의 누락 보완이에요.</li><li>구조화된 배치 지시와 긴 설명을 쓰는 포스터·카드 제작에서 시험할 만해요. 공식 <button type="button" class="inline-biscuit" data-biscuit="prompt">프롬프트</button> 보강 도구는 설명을 확장하는 보조 수단이며 이미지 생성 모델 자체와 구분해요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://github.com/OpenMOSS/MOSS-Image" target="_blank" rel="noreferrer">원문</a><a class="news-chip" href="https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT" target="_blank" rel="noreferrer">SFT 모델 카드·라이선스</a><a class="news-chip" href="https://fal.ai/models/fal-ai/moss-image" target="_blank" rel="noreferrer">fal API·가격</a><a class="news-chip" href="https://arxiv.org/abs/2610.23374" target="_blank" rel="noreferrer">기술 보고서</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-콘텐츠-제작-크리에이티브-03" data-card-id="c-콘텐츠-제작-크리에이티브-03">
+          <div class="news-card-top">
+            <span class="news-num">03</span>
+            
+            
+          </div>
+          <h3 class="news-title">fal Worlds에 ABot World 0·LingBot World 2 제공 경로가 생겼어요 (10/16 KST · 누락 보완)</h3>
+          <ul class="news-bullets"><li>공개 HTML의 publishedAt으로 ABot World 0은 10/16 07:31 KST, LingBot World 2는 같은 날 09:48 KST의 fal 엔드포인트 공개를 확인했어요. 움직임·카메라 제어로 상호작용하는 월드 체험/API 경로이며, 원개발사의 모델 첫 출시일을 뜻하지 않아요.</li><li>이용 범위는 달라요. ABot에는 상업 이용, LingBot에는 연구 전용 표시가 있어요. 후자를 광고·상업 프로젝트에 바로 적용하면 안 돼요. ABot 페이지는 생성 영상의 compute second당 $0.00125를 안내하므로 일반 영상 모델의 출력 초 단가와 단순 비교하지 않는 게 좋아요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://fal.ai/models/alibaba/abot-world-0" target="_blank" rel="noreferrer">ABot World 0</a><a class="news-chip" href="https://fal.ai/models/robbyant/lingbot-world-2" target="_blank" rel="noreferrer">LingBot World 2</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-콘텐츠-제작-크리에이티브-04" data-card-id="c-콘텐츠-제작-크리에이티브-04">
+          <div class="news-card-top">
+            <span class="news-num">04</span>
+            <span class="news-chip news-chip-top5">Top 2</span>
+            
+          </div>
+          <h3 class="news-title">Krea 3 자체 API가 모든 워크스페이스에 열려요 (10/19 · 후속)</h3>
+          <ul class="news-bullets"><li>Krea가 10/19 변경 기록에서 자체 Krea 3 API를 모든 워크스페이스에 공개했다고 밝혔어요. fast·high 모드 모두 <button type="button" class="inline-biscuit" data-biscuit="early-access">베타</button> 접근 권한이 필요 없어요. 전날 브리프의 ‘베타 워크스페이스 조기 이용’에서 실제 접근 범위가 바뀌었어요.</li><li>같은 기록에서 <button type="button" class="inline-biscuit" data-biscuit="mcp">MCP</button> 생성 도구에 preflight=true를 넣으면 작업을 제출하지 않고 견적과 잔액을 받을 수 있다고 명시했어요. 비용 조회 자체는 10/16~17부터 안내됐고, 이번에는 호출 인자와 반환값이 구체화됐어요.</li><li>응답의 예상 비용 여부·잔액·감당 가능 여부를 확인할 수 있어요. preflight 기본값은 false이므로 자동화가 견적만 받으려면 명시적으로 설정해야 해요.</li><li>현재 API 가격은 기본 생성 1K $0.03·2K $0.06이고 <button type="button" class="inline-biscuit" data-biscuit="reference-image">참조 이미지</button>와 high 모드는 추가 과금돼요. public 공개를 무료 API 전환으로 이해하면 안 돼요.</li><li>대량 제작은 견적 확인 단계를 먼저 넣고 최종 생성 승인을 분리하는 게 좋아요. Enterprise <button type="button" class="inline-biscuit" data-biscuit="zdr">ZDR</button>·참조 한도는 기존 별도 조건을 유지해 확인해야 해요. 발표는 날짜만 있고 시각·시간대는 공개하지 않았어요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://www.krea.ai/docs/changelog" target="_blank" rel="noreferrer">10/19 변경 기록</a><a class="news-chip" href="https://www.krea.ai/docs/developers/krea-3/overview" target="_blank" rel="noreferrer">현재 API 접근·요금</a><a class="news-chip" href="https://www.krea.ai/docs/developers/mcp" target="_blank" rel="noreferrer">MCP preflight</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-콘텐츠-제작-크리에이티브-05" data-card-id="c-콘텐츠-제작-크리에이티브-05">
+          <div class="news-card-top">
+            <span class="news-num">05</span>
+            
+            
+          </div>
+          <h3 class="news-title">Lightroom 모바일, 감긴 눈을 보정하고 사진 바깥을 확장해요 (10/19)</h3>
+          <ul class="news-bullets"><li>Adobe가 Lightroom 모바일의 Open Eyes와 Generative Expand를 소개했어요. Open Eyes는 감긴 눈을 감지해 Quick Action으로 보정하는 기능이에요.</li><li>Lightroom 라이브러리에 같은 사람의 다른 사진이 있으면 눈 색·모양·크기를 맞추는 데 활용할 수 있어요. 결과가 실제 인상과 맞는지는 직접 확인해야 해요.</li><li>Generative Expand는 사진 가장자리를 생성해 구도를 넓히고 다른 화면비에 맞추는 용도예요. 단체 사진 보정과 SNS용 재구성 작업을 모바일에서 이어갈 수 있어요.</li><li>발표에서 무료라고 명시한 것은 Open Eyes예요. 두 기능 모두 무료라거나 데스크톱에도 같은 날 적용됐다고 확대하면 안 돼요. 구체적인 앱 버전·지역 및 Expand 요금은 이 발표에서 확인되지 않았어요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://blog.adobe.com/en/publish/2026/10/19/give-your-photos-a-second-chance-with-open-eyes-in-lightroom-on-mobile" target="_blank" rel="noreferrer">Adobe의 10/19 공식 발표</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-콘텐츠-제작-크리에이티브-06" data-card-id="c-콘텐츠-제작-크리에이티브-06">
+          <div class="news-card-top">
+            <span class="news-num">06</span>
+            
+            
+          </div>
+          <h3 class="news-title">HyperFrames, 긴 타임라인·모바일 소스·다국어 전사를 다듬어요 (10/19~20 KST · 후속)</h3>
+          <ul class="news-bullets"><li>HeyGen의 HyperFrames가 전날 다룬 0.8.173 이후 174~178을 공개했어요. 첫 릴리스는 10/19 11:28 KST, 178은 10/20 06:01 KST로 기본 수집 범위에 들어가요.</li><li>선택 구간 삭제가 클립 전체를 지우던 문제를 고치고 긴 타임라인에서 보이는 구간만 미리 보도록 개선했어요. 숨긴 탭의 재생 타이밍과 중단된 클라우드 다운로드 재개도 손봤어요.</li><li>iPhone 영상 스냅샷의 프록시 대기와 클라우드 색보정 시간 초과를 줄이는 수정을 했어요. <button type="button" class="inline-biscuit" data-biscuit="hdr">HDR</button> HLG를 SDR로 볼 때의 밝기 처리도 조정했어요.</li><li>프랑스어·스페인어 등 비영어 전사의 오류를 고치고 실패 원인을 더 잘 보여줘요. 178은 검사·스냅샷·렌더에 고정한 Chrome을 사용하도록 바꿔 오래된 다른 캐시의 영향을 줄여요.</li><li>새 생성 모델이 아니라 코드형 영상 편집·렌더 안정성의 후속이에요. 실제 프로젝트에서는 구간 삭제, 휴대폰 원본, 비영어 자막, <button type="button" class="inline-biscuit" data-biscuit="hdr">HDR</button> 출력의 회귀 시험을 먼저 해보는 게 좋아요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://github.com/heygen-com/hyperframes/releases/tag/v0.8.174" target="_blank" rel="noreferrer">174</a><a class="news-chip" href="https://github.com/heygen-com/hyperframes/releases/tag/v0.8.175" target="_blank" rel="noreferrer">175</a><a class="news-chip" href="https://github.com/heygen-com/hyperframes/releases/tag/v0.8.176" target="_blank" rel="noreferrer">176</a><a class="news-chip" href="https://github.com/heygen-com/hyperframes/releases/tag/v0.8.177" target="_blank" rel="noreferrer">177</a><a class="news-chip" href="https://github.com/heygen-com/hyperframes/releases/tag/v0.8.178" target="_blank" rel="noreferrer">178</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-콘텐츠-제작-크리에이티브-07" data-card-id="c-콘텐츠-제작-크리에이티브-07">
+          <div class="news-card-top">
+            <span class="news-num">07</span>
+            
+            
+          </div>
+          <h3 class="news-title">CSuite, 제목·도표·내레이션을 한 편의 모션 영상으로 구성해요 (10/14~16 · 누락 보완)</h3>
+          <ul class="news-bullets"><li>CSuite가 10/14 v1.3.3에서 합성 어시스턴트를 개편했어요. 개별 이미지 생성에 그치지 않고 제목 애니메이션·단어 강조·이미지 카드·도표를 전체 구성 안에 배치해요.</li><li>내레이션을 기준으로 장면 시간을 맞추고 목소리 아래에서 음악을 낮추는 제어가 추가됐어요. 생성 소재를 설명 영상·제품 소개 영상으로 조립하는 흐름에 해당해요.</li><li>10/15~16에는 외부·로컬 모델 연결을 늘리고 RunPod GPU 임대를 추가했어요. 임대 전 GPU·시간당 가격을 표시하고 작업 뒤 유지 시간을 정하거나 바로 해제할 수 있어요. 앱 구매비와 별도인 RunPod 비용이 생기므로 종료·유휴 시간을 확인해야 해요.</li><li>현재 앱은 macOS·Windows·Linux를 지원하며 $98 일회성 라이선스와 향후 업데이트를 안내해요. 한 번에 한 기기에서 활성화하고 최초 및 주기적 라이선스 확인이 필요해요. 외부 모델 사용료는 별도예요.</li><li>프로젝트를 로컬에 두는 제품이지만 클라우드 제공사 모델을 선택하면 요청이 해당 제공사로 전송돼요. ‘로컬 우선’을 모든 생성이 오프라인이라는 의미로 읽지 않는 게 좋아요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://csuite.so/updates" target="_blank" rel="noreferrer">공식 변경 기록</a><a class="news-chip" href="https://csuite.so/" target="_blank" rel="noreferrer">제품·지원 환경</a><a class="news-chip" href="https://csuite.so/pricing" target="_blank" rel="noreferrer">현재 가격</a><a class="news-chip" href="https://csuite.so/guide" target="_blank" rel="noreferrer">사용 가이드</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-콘텐츠-제작-크리에이티브-08" data-card-id="c-콘텐츠-제작-크리에이티브-08">
+          <div class="news-card-top">
+            <span class="news-num">08</span>
+            
+            
+          </div>
+          <h3 class="news-title">Magic Hour, 저장한 캐릭터·목소리와 여러 <button type="button" class="inline-biscuit" data-biscuit="keyframe">키프레임</button>을 제작에 재사용해요 (10/13~15 · 누락 보완)</h3>
+          <ul class="news-bullets"><li>10/13~14 업데이트로 저장한 캐릭터와 목소리를 Storyboard·UGC 배우·의상 변경 등의 제작 흐름에서 다시 쓸 수 있게 했어요. 일관된 인물 소재를 여러 형식으로 이어 쓰는 변화예요.</li><li>10/15 H3 <button type="button" class="inline-biscuit" data-biscuit="keyframe">Keyframes</button>는 순서대로 넣은 여러 이미지와 구간 길이로 전환을 구성해요. 각 <button type="button" class="inline-biscuit" data-biscuit="keyframe">키프레임</button>의 <button type="button" class="inline-biscuit" data-biscuit="prompt">프롬프트</button>를 직접 편집하는 방식은 아니며 H3가 전환 설명을 작성해요.</li><li>Talking Photo는 Expressive의 45초를 넘고 Realistic의 5분 안에 드는 음성을 다른 모드로 옮길 수 있어요. 사진·음성·트림은 유지하고 지원 해상도와 <button type="button" class="inline-biscuit" data-biscuit="credits">크레딧</button> 견적을 다시 확인해요.</li><li>10/13 Seedance 2.0 Fast의 유료 웹·API 제공도 기록돼 있어요. 제품 간 크레딧과 지원 길이가 다르므로 생성 직전 견적을 기준으로 판단해야 해요. 이 변화들을 모두 무료 제공으로 묶으면 안 돼요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://magichour.ai/changelog/2026" target="_blank" rel="noreferrer">원문</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-콘텐츠-제작-크리에이티브-09" data-card-id="c-콘텐츠-제작-크리에이티브-09">
+          <div class="news-card-top">
+            <span class="news-num">09</span>
+            
+            
+          </div>
+          <h3 class="news-title">Runway <button type="button" class="inline-biscuit" data-biscuit="mcp">MCP</button>에 효과음 생성·자동 배경 제거가 추가돼요 (10/15 · 누락 보완)</h3>
+          <ul class="news-bullets"><li>유료 플랜에서 Mirelo SFX 2.0으로 영상에 맞는 효과음·환경음을 별도 오디오 트랙으로 만들고, BiRefNet v2로 전경을 자동 감지해 배경을 제거할 수 있어요. 원모델 첫 발표와 별개로 Runway <button type="button" class="inline-biscuit" data-biscuit="mcp">MCP</button>에서 이용하는 경로가 추가된 소식이에요.</li><li>10/14에는 Drama 3의 일곱 목소리와 감정·연기 지시도 연결했어요. 기존 Runway 계정의 에이전트 제작 과정에서 음성·효과음·누끼 소재를 이어 준비하는 데 쓸 수 있어요. 변경 기록에는 개별 도구의 새 단가가 없어 무료나 정액 무제한으로 추정하지 않아요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://runway.com/changelog" target="_blank" rel="noreferrer">Runway 공식 변경 기록</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-콘텐츠-제작-크리에이티브-10" data-card-id="c-콘텐츠-제작-크리에이티브-10">
+          <div class="news-card-top">
+            <span class="news-num">10</span>
+            
+            
+          </div>
+          <h3 class="news-title">Higgsfield Community, 제작 프로젝트를 공개하고 지원 심사에 연결해요 (10/15 · 누락 보완)</h3>
+          <ul class="news-bullets"><li>계정 없이 볼 수 있는 공개 Community가 생겼어요. 제작자의 샷·프로젝트·콘테스트 등을 찾아볼 수 있고, 게시물이 30개 좋아요를 받으면 팀의 검토 대상으로 올라가요. 자동 추천 확정을 뜻하지는 않아요.</li><li>Open Project는 Grants로 제출할 수 있으며 1분 이상 영상 프로젝트에 최대 20만 크레딧 지원을 안내해요. 모든 제출작이 받는 보상이 아니에요. 이미 다룬 Academy·<button type="button" class="inline-biscuit" data-biscuit="upscale">Upscale</button>r와는 별도의 공개 제작·지원 경로예요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://higgsfield.ai/creator-hub/changelog" target="_blank" rel="noreferrer">10/15 공식 변경 기록</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article></div></section><section class="content-card content-card--marketing news-section" id="마케팅-비즈니스" data-icon="marketing"><h2 class="news-section-title"><span class="sec-icon sec-icon--marketing" aria-hidden="true"><svg class="icon-svg icon-svg--marketing" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><path d="M5.2 9.2h3.1L14 5.4v13.2l-5.7-3.8H5.2z"/><path d="M16.2 9.4c1.1.7 1.8 1.9 1.8 3.2s-.7 2.5-1.8 3.2"/><path d="M18.4 7.6c1.8 1.2 2.9 3.2 2.9 5.4s-1.1 4.2-2.9 5.4" opacity=".55"/></svg></span><span class="sec-title-text">마케팅 · 비즈니스</span></h2><div class="news-grid">
+        <article class="news-card rel-official" id="c-마케팅-비즈니스-01" data-card-id="c-마케팅-비즈니스-01">
+          <div class="news-card-top">
+            <span class="news-num">01</span>
+            
+            
+          </div>
+          <h3 class="news-title">Optimove Content Studio, 캠페인 제작·개인화·발송 전 검수를 한곳에 모아요 (10/19)</h3>
+          <ul class="news-bullets"><li>Optimove가 이메일·SMS·모바일·웹·WhatsApp·광고 네트워크용 콘텐츠를 함께 관리하는 Content Studio를 발표했어요. 미국 동부 10/19 15:58 발표로 한국 시간 10/20 04:58에 해당해요.</li><li>승인된 소재와 브랜드 지침을 자체 AI 또는 MCP로 연결한 AI에 제공해 문구·이미지·템플릿을 만들어요. 고객 속성·제품·언어·제안에 따라 내용을 바꾸는 개인화도 같은 흐름에 들어가요.</li><li>공통 머리말·할인 안내·면책 문구·CTA를 재사용 블록으로 관리해 한 번 수정한 내용을 여러 채널과 템플릿에 반영해요.</li><li>QA Center는 브랜드 지침을 벗어난 문구·비주얼과 깨진 링크·빠진 이미지·잘못된 프로모션 정보를 발송 전에 찾도록 설계됐어요. 발송 뒤에는 콘텐츠별 성과를 비교해 다음 발송의 변형을 조정해요.</li><li>공개 발표·제품 글에는 플랜별 기본 포함 여부와 별도 가격이 명확히 나오지 않아요. 기존 고객은 계약 범위와 채널별 연동 조건을 확인한 뒤 실제 캠페인으로 검수 정확도를 시험할 만해요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://www.globenewswire.com/news-release/2026/10/19/3383849/0/en/optimove-launches-content-studio-to-help-marketers-keep-ai-era-content-on-brand-and-personalized-at-scale.html" target="_blank" rel="noreferrer">10/19 회사 배포 발표</a><a class="news-chip" href="https://www.optimove.com/resources/blog/optimove-content-studio-one-home-for-every-channel-and-creative-asset" target="_blank" rel="noreferrer">공식 제품 설명·QA</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-마케팅-비즈니스-02" data-card-id="c-마케팅-비즈니스-02">
+          <div class="news-card-top">
+            <span class="news-num">02</span>
+            
+            
+          </div>
+          <h3 class="news-title">JustAI, 고객별 메시지부터 대조군 성과 측정까지 연결해요 (10/19)</h3>
+          <ul class="news-bullets"><li>JustAI가 CRM·캠페인 설계·소재·전달 인프라·측정을 묶은 마케팅 플랫폼을 공개했어요. 발표는 10/19 11:45 ET, 한국 시간 10/20 00:45예요.</li><li>마케터가 목표와 허용 범위를 정하면 에이전트가 고객의 행동·언어·시장에 따라 메시지와 전달 순서를 조정해요. 단순 클릭률뿐 아니라 캠페인을 받지 않은 대조군과 비교해 추가 전환·매출을 측정하는 방향이에요.</li><li>생성 에이전트와 별도로 QA 모델을 두며 마케터 승인 없이 캠페인을 내보내지 않는다고 밝혔어요. 운영을 맡기기 전에 승인 대상과 고객 데이터의 연결 범위를 구체화해야 해요.</li><li>회사는 Better Mortgage의 신청 시작 비율이 9.25%에서 12.08%로 높아진 시험을 제시했어요. 약 30% 상대 증가이며 30%포인트 증가는 아니에요. 이는 회사·고객 사례로 독립 검증된 일반 성능은 아니에요.</li><li>현재 공식 출시 페이지는 데모 상담으로 안내하며 공개 요금은 확인되지 않았어요. 대량 메시지 제작 도구보다 고객 여정과 실제 매출의 연결을 시험하려는 팀에 가까운 제품이에요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://www.prnewswire.com/news-releases/justai-reinvents-marketing-around-revenue-with-a-full-stack-ai-platform-302912261.html" target="_blank" rel="noreferrer">회사 원발표·승인·사례</a><a class="news-chip" href="https://www.getjust.ai/launch" target="_blank" rel="noreferrer">공식 출시 제품 페이지</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-마케팅-비즈니스-03" data-card-id="c-마케팅-비즈니스-03">
+          <div class="news-card-top">
+            <span class="news-num">03</span>
+            
+            
+          </div>
+          <h3 class="news-title">Harmony, 영업 전화와 CRM 기록을 묶어 4개국 기업에 제공해요 (10/19)</h3>
+          <ul class="news-bullets"><li>monday.com이 기업 영업용 음성 AI 플랫폼 Harmony를 출시했어요. 문의 분류·영업 후보 확인·후속 전화·예약·사람 상담원 연결을 한 흐름으로 처리해요.</li><li>OneAI에서 인수한 음성 기술과 역할별 자체 모델을 사용하며, Twilio 기반 전화·통화 라우팅·브랜드 발신자 표시·CRM 기록을 결합해요. 주요 CRM과 연결하고 기존 전화 환경을 유지하는 방식을 안내해요.</li><li>현재 미국·영국·호주·싱가포르의 중견·대기업 고객을 대상으로 제공해요. 추가 국가와 언어는 예정이므로 한국 서비스나 한국어 지원을 확정할 수 없어요.</li><li>약 200ms 응답과 고객사의 계약 증가 등은 업체의 측정·사례예요. 실제 통화 품질과 연결률은 자체 고객·대본·지역에서 확인해야 해요.</li><li>제품은 AI 표시·동의 수집·지역별 녹음 규칙·감사 기록을 설정하도록 안내해요. 전화 자동화 도입에서는 생성 품질과 별도로 통화 동의·사람 연결 기준을 검토해야 해요. 현재 Pro는 음성 AI 분당 $0.39와 월 플랫폼 비용 $250, 별도 협의 구축비를 안내해요. 모델에 따라 분당 요금이 달라지며 최대 3개 에이전트·동시 10통화·일 100통화 한도가 있어요. Enterprise는 별도 견적이에요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://ir.monday.com/news-and-events/news-releases/news-details/2026/Voice-AI-Platform-Harmony-Launches-to-Convert-Customer-Conversations-into-Revenue/default.aspx" target="_blank" rel="noreferrer">10/19 공식 발표·4개국 제공</a><a class="news-chip" href="https://harmony.ai/" target="_blank" rel="noreferrer">공식 제품·운영 조건</a><a class="news-chip" href="https://harmony.ai/pricing" target="_blank" rel="noreferrer">현재 가격·한도</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-마케팅-비즈니스-04" data-card-id="c-마케팅-비즈니스-04">
+          <div class="news-card-top">
+            <span class="news-num">04</span>
+            
+            
+          </div>
+          <h3 class="news-title">BILL, 청구서 이상 탐지와 AI 실행 기록을 추가해요 (10/19)</h3>
+          <ul class="news-bullets"><li>BILL이 청구서 승인 단계의 위험 탐지, AI 기능별 제어, 실행 기록, 문서 자동 분류를 발표하고 고객에게 순차 적용한다고 밝혔어요.</li><li>공급업체의 과거 청구와 다른 금액·패턴을 결제 예약 전에 표시해 사람이 검토하도록 해요. 회사가 제시한 발견 금액은 오류·이상 지급 후보의 규모이며 모두 확정된 사기 피해 방지액은 아니에요.</li><li>관리 화면에서 AI 기능을 켜고 끄고 수행 내역을 볼 수 있어요. 새로 도착한 청구서와 W-9 문서의 유형도 분류해 반복 확인을 줄이는 방향이에요.</li><li>Chat with BILL의 확장 기능은 베타 대기 명단이에요. 현재 모든 고객에게 대화형 재무 조회가 전면 제공되는 것은 아니에요.</li><li>회사는 외부 MCP를 통한 AI 도구의 재무 조회 연결도 발표했어요. 제품 업데이트는 설정 절차 문서를 추후 공개한다고 적어, 즉시 연결 가능한 경로는 재확인이 필요해요. 이번 발표만으로 자금 이동을 무제한 위임하는 기능으로 해석하면 안 돼요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://www.bill.com/press-release/bill-launches-new-suite-of-ai-capabilities" target="_blank" rel="noreferrer">원문</a><a class="news-chip" href="https://www.bill.com/product-updates" target="_blank" rel="noreferrer">제품 업데이트</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-마케팅-비즈니스-05" data-card-id="c-마케팅-비즈니스-05">
+          <div class="news-card-top">
+            <span class="news-num">05</span>
+            
+            
+          </div>
+          <h3 class="news-title">WisdomAI Owls, 사업 목표를 계속 추적하는 분석가를 11월 베타로 예고해요 (10/19)</h3>
+          <ul class="news-bullets"><li>WisdomAI가 매출 개선·이탈 감소·운영비 관리 같은 목표를 맡아 계속 분석하는 Owls를 발표했어요. 10/19 11:30 ET 발표이며 실제 고객 베타는 11월 초 예정이에요.</li><li>Slack·Teams에서 목표와 피드백을 전달하고, 조직이 승인한 데이터 정의와 접근 권한 위에서 원인을 조사해요. 과거 분석·피드백·결과를 기억하며 사람이 그 기억을 검토·수정할 수 있다고 설명해요.</li><li>실행 계획을 승인받은 뒤 연결된 시스템을 갱신하고 결과를 다시 추적하는 구조예요. 관리자는 가능한 행동·승인 필요 행동·금지 행동을 나누고 이력을 남겨요.</li><li>발표 속 전환율·매출 개선 시나리오는 사용 예시이며 실제 고객 성과로 쓰면 안 돼요. 별도 요금과 베타 세부 대상은 미공개예요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://www.prnewswire.com/news-releases/wisdomai-introduces-owls-first-of-its-kind-always-on-ai-analysts-that-work-toward-business-outcomes-302912782.html" target="_blank" rel="noreferrer">회사 배포 발표·11월 베타 일정</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-마케팅-비즈니스-06" data-card-id="c-마케팅-비즈니스-06">
+          <div class="news-card-top">
+            <span class="news-num">06</span>
+            
+            
+          </div>
+          <h3 class="news-title">Google Universal Cart, 여러 상점의 상품을 Search·Gemini에서 함께 관리해요 (10/15 · 누락 보완)</h3>
+          <ul class="news-bullets"><li>Google이 예고했던 Universal Cart를 10/15 미국의 Google Search와 Gemini 앱에 순차 제공하기 시작했어요. 여러 판매자의 상품을 하나의 장바구니에 저장하고 서비스 사이에서 이어 보는 기능이에요.</li><li>가격 하락·재입고 알림과 프로모션 코드 확인을 지원해요. Google Wallet의 카드 혜택을 바탕으로 결제 수단을 선택하는 데 도움을 주는 기능도 소개했어요.</li><li>지원 판매자는 Google Pay로 장바구니 안에서 결제하거나 판매자 사이트의 장바구니로 넘겨 구매를 마쳐요. 판매·주문 확인·고객 지원 책임은 해당 판매자에게 남아요.</li><li>미국 순차 제공이므로 한국의 Search·Gemini 전면 제공으로 확대해 읽으면 안 돼요. 브랜드 운영자는 상품·가격·재고 정보와 판매자 사이트로 넘어가는 경로가 맞는지 살펴볼 만해요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/" target="_blank" rel="noreferrer">원문</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article></div></section><section class="content-card content-card--tech news-section" id="테크-인프라-규제" data-icon="tech"><h2 class="news-section-title"><span class="sec-icon sec-icon--tech" aria-hidden="true"><svg class="icon-svg icon-svg--tech" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><circle cx="12" cy="12" r="3.1"/><path d="M12 4.2v2.2M12 17.6v2.2M4.2 12h2.2M17.6 12h2.2M6.5 6.5l1.6 1.6M15.9 15.9l1.6 1.6M17.5 6.5l-1.6 1.6M8.1 15.9l-1.6 1.6"/></svg></span><span class="sec-title-text">테크 · 인프라 · 규제</span></h2><div class="news-grid">
+        <article class="news-card rel-official" id="c-테크-인프라-규제-01" data-card-id="c-테크-인프라-규제-01">
+          <div class="news-card-top">
+            <span class="news-num">01</span>
+            
+            
+          </div>
+          <h3 class="news-title">Together Post-Training, 전용 GPU에서 업무용 모델의 학습 과정을 직접 설계해요 (10/19)</h3>
+          <ul class="news-bullets"><li>Together가 보상 기반 RL과 예시 데이터 기반 SFT로 맞춤 모델을 만드는 Post-Training 서비스를 공개했어요. 일부 기업의 사전 이용을 넘어 누구나 시작할 수 있다고 안내해요.</li><li>기존 미세조정 요청을 보내는 방식보다 학습 반복 과정 자체를 사용자가 정하는 데 초점을 맞췄어요. 여러 <button type="button" class="inline-biscuit" data-biscuit="lora">LoRA</button> 실험을 같은 GPU 자원에 올리거나 일부 모델의 전체 가중치를 학습할 수 있어요.</li><li>초기 지원 모델에는 Muse Spark Open·GLM 5.3·Kimi K3·Qwen 3.8-27B가 포함돼요. 실행 자원은 다른 고객과 요청 우선순위를 다투지 않는 전용 할당이에요.</li><li>활성 모델 자원별 GPU 사용 시간을 분 단위로 청구해요. 현재 가격표는 B200 한 장·한 시간 기준 정상 $11 대신 12/14까지 $9를 안내하며, 실제 실험비는 필요한 GPU 수와 실행 시간에 따라 달라져요.</li><li>문서 분류나 반복 업무에서 범용 모델의 비용·지연을 줄이고 싶은 개발팀용 선택지예요. 회사·고객의 비용 절감 사례를 모든 작업에 그대로 적용하기보다 자체 평가 데이터부터 준비해야 해요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://www.together.ai/blog/together-post-training" target="_blank" rel="noreferrer">10/19 공식 발표</a><a class="news-chip" href="https://docs.together.ai/docs/post-training/quickstart-rl" target="_blank" rel="noreferrer">시작 문서</a><a class="news-chip" href="https://www.together.ai/pricing" target="_blank" rel="noreferrer">현재 과금·할인 종료일</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-테크-인프라-규제-02" data-card-id="c-테크-인프라-규제-02">
+          <div class="news-card-top">
+            <span class="news-num">02</span>
+            
+            
+          </div>
+          <h3 class="news-title">Claude Code 2.1.304, 자동 작업의 승인·종료와 조직 검토 설정을 다듬어요 (10/20 KST · 후속)</h3>
+          <ul class="news-bullets"><li>10/19 21:34 UTC, 한국 시간 10/20 06:34에 2.1.304가 공개됐어요. /auto-mode-setup으로 프로젝트와 최근 세션을 읽고 자동 모드의 실행 환경을 설정하는 안내를 추가했어요.</li><li>확장 기능은 특정 도구 호출을 반드시 사람이 승인하도록 요청할 수 있어요. 물어볼 사람이 없는 환경에서는 해당 요청을 거절하고, 읽기 전용 호출도 별도 표시해요.</li><li>플러그인이 하위 작업을 다시 실행해 종료·최대 실행 횟수를 넘기던 문제와 일부 작업 폴더·브랜치를 종료 시 묻지 않고 삭제하던 문제를 고쳤어요. 예약 Cowork 작업의 반복 승인 대기도 줄였어요.</li><li>앞으로 추가될 저장소까지 포함하는 Code Review 조직 단위 설정도 안내해요. Quick·Standard·Deep 검토 수준은 10/16 브리프에서 이미 다뤘으므로 이번 새 기능으로 세지 않아요. Team·Enterprise의 GitHub 저장소가 대상이에요.</li><li>Code Review는 구독 기본 사용량과 별도로 토큰 기반 크레딧을 청구하며 건당 고정 가격이 없어요. 10/15 <button type="button" class="inline-biscuit" data-biscuit="ga">GA</button>를 반복한 것이 아니라 조직 단위 설정·승인·종료 처리의 후속이에요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://github.com/anthropics/claude-code/releases/tag/v2.1.304" target="_blank" rel="noreferrer">2.1.304 변경·공개 시각</a><a class="news-chip" href="https://code.claude.com/docs/en/code-review" target="_blank" rel="noreferrer">검토 단계·지원 범위</a><a class="news-chip" href="https://code.claude.com/docs/en/code-review-costs" target="_blank" rel="noreferrer">과금 조건</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-테크-인프라-규제-03" data-card-id="c-테크-인프라-규제-03">
+          <div class="news-card-top">
+            <span class="news-num">03</span>
+            
+            
+          </div>
+          <h3 class="news-title">GitHub Copilot, 기업·조직·팀의 모델 정책을 API로 관리해요 (10/19)</h3>
+          <ul class="news-bullets"><li>GitHub가 Copilot 모델 정책을 읽고 바꾸는 REST API를 정식 제공해요. 기업·기업 팀·기업 앱·조직의 네 단계에 GET과 PATCH 경로를 제공해요.</li><li>상위 기업 정책에서 조직 또는 팀·앱에 모델 선택 권한을 위임하는 구조를 지원해요. 조직별로 허용 모델을 일일이 화면에서 바꾸는 작업을 자동화할 수 있어요.</li><li>새 모델 자체를 제공하거나 모든 직원에게 자동으로 사용 권한을 여는 발표는 아니에요. 기존 기업 정책과 관리 권한을 따라 적용해야 해요.</li><li>모델 전환 때 어떤 조직에 대체 모델이 켜져 있는지 먼저 조회하고 필요한 범위만 변경하는 운영에 유용해요. 이번 발표에는 별도 API 단가 변경이 없어요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams/" target="_blank" rel="noreferrer">10/19 GA 발표</a><a class="news-chip" href="https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin/ai-controls" target="_blank" rel="noreferrer">공식 REST API</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-테크-인프라-규제-04" data-card-id="c-테크-인프라-규제-04">
+          <div class="news-card-top">
+            <span class="news-num">04</span>
+            
+            
+          </div>
+          <h3 class="news-title">GitHub Copilot, 예고했던 GPT-5.5 등 여섯 모델을 실제 종료했어요 (10/19 · 후속)</h3>
+          <ul class="news-bullets"><li>GitHub가 9/18 예고했던 모델 종료를 10/19 실제 적용했다고 알렸어요. Chat·인라인 편집·ask·agent·코드 완성을 포함한 대부분의 Copilot 경험이 대상이에요.</li><li>Gemini 3.7 Flash는 3.8 Flash, GPT-5.5·5.4는 GPT-6.1 Sol, GPT-5.4 mini·5 mini는 GPT-6 Luna, Grok 4.5는 Grok 4.7을 대안으로 안내해요.</li><li>종료 모델을 직접 삭제할 필요는 없지만 저장한 작업 흐름·연동의 모델 선택은 바꿔야 해요. Enterprise에서는 관리자가 대체 모델 정책을 켜야 할 수 있어요.</li><li>이는 GitHub Copilot의 종료예요. 다른 회사 API나 ChatGPT의 동일 이름 모델 상태를 함께 종료된 것으로 해석하지 않아요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026/" target="_blank" rel="noreferrer">10/19 실제 종료·권장 대안</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-테크-인프라-규제-05" data-card-id="c-테크-인프라-규제-05">
+          <div class="news-card-top">
+            <span class="news-num">05</span>
+            
+            
+          </div>
+          <h3 class="news-title">GitHub, 코딩 에이전트가 패키지 라이선스 정책을 미리 확인하도록 API를 열었어요 (10/16 · 누락 보완)</h3>
+          <ul class="news-bullets"><li>GitHub의 오픈소스 라이선스 준수 기능이 Enterprise Cloud에서 정식 제공돼요. 데이터 레지던시 환경도 포함하지만 대상 저장소에 GitHub Code Security가 켜져 있어야 해요.</li><li>의존성을 추가·변경하는 PR에서 조직 정책에 맞지 않는 라이선스를 표시하고 병합 전 해결을 요구할 수 있어요. 패키지 교체·정책 변경·예외 승인으로 처리해요.</li><li>새 API는 정책 조회·수정뿐 아니라 특정 패키지의 정책 적합성을 확인해요. 코딩 에이전트가 금지된 패키지를 코드에 넣기 전에 검사하는 데 연결할 수 있어요.</li><li>기업용 승인 역할과 정책 변경 감사 기록도 제공해요. AI가 만든 코드의 라이선스 문제를 모두 판정하는 기능이 아니라 의존성 라이선스 정책을 적용하는 장치예요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available/" target="_blank" rel="noreferrer">원문</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-테크-인프라-규제-06" data-card-id="c-테크-인프라-규제-06">
+          <div class="news-card-top">
+            <span class="news-num">06</span>
+            
+            
+          </div>
+          <h3 class="news-title">Cloudflare Clairic, 문장 대신 숫자·날짜·추정값을 반환해요 (10/19)</h3>
+          <ul class="news-bullets"><li>Cloudflare가 추출 모델 Clairic을 Workers AI의 preview로 제공하기 시작했어요. API 모델 이름은 @cf/cloudflare/clairic이에요.</li><li>입력 상태와 필드별 형식을 주면 텍스트 위치·숫자·날짜·시간·기간·목록·추정 분포를 반환해요. 청구서 금액을 읽거나 배송 지연 기간을 계산하는 등 후보를 미리 나열하기 어려운 작업을 겨냥해요.</li><li>현재 입력 100만 토큰당 $0.10이며 출력 토큰을 생성하지 않아 출력 토큰 요금은 없어요. 요청 처리의 다른 서비스 비용은 별도로 확인해야 해요.</li><li>가중치는 앞으로 공개할 계획이며 지금 <button type="button" class="inline-biscuit" data-biscuit="open-weight">오픈웨이트</button>를 내려받을 수 있다는 발표가 아니에요. 형식이 맞더라도 추출·계산·예측값의 사실성은 원본과 검수해야 해요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://developers.cloudflare.com/changelog/post/2026-10-19-clairic-workers-ai/" target="_blank" rel="noreferrer">원문</a><a class="news-chip" href="https://developers.cloudflare.com/workers-ai/models/clairic/" target="_blank" rel="noreferrer">모델 API</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-테크-인프라-규제-07" data-card-id="c-테크-인프라-규제-07">
+          <div class="news-card-top">
+            <span class="news-num">07</span>
+            
+            
+          </div>
+          <h3 class="news-title">Cloudflare MCP, 필요한 권한을 작업 중에 추가 승인받아요 (10/19)</h3>
+          <ul class="news-bullets"><li>Cloudflare API MCP 서버가 처음에는 최소 권한으로 연결하고 도구 호출에 필요한 권한을 나중에 추가하는 방식을 지원해요. 부족한 권한을 서버가 명시하면 지원 클라이언트가 승인을 요청하고 기존 권한은 유지해요.</li><li>연결 시 Minimal을 고를 수 있으며 step-up authorization을 지원하는 MCP 클라이언트에서 현재 이용할 수 있어요. 모든 클라이언트에서 같은 승인 화면이 뜨는 것은 아니에요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://developers.cloudflare.com/changelog/post/2026-10-19-cloudflare-mcp-step-up/" target="_blank" rel="noreferrer">10/19 공식 변경·지원 조건</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-테크-인프라-규제-08" data-card-id="c-테크-인프라-규제-08">
+          <div class="news-card-top">
+            <span class="news-num">08</span>
+            
+            
+          </div>
+          <h3 class="news-title">Cloudflare CWS, 클라우드 API 요청을 보내기 전에 정책으로 검사해요 (10/19)</h3>
+          <ul class="news-bullets"><li>Cloud Workload Security가 베타로 공개됐어요. 요청 필터와 Rego 검사를 만들어 저장소 공개 설정 같은 위험한 클라우드 API 요청을 차단할 수 있어요.</li><li>사용 환경에 CWS 프록시를 실행하고 요청이 이를 통과하도록 구성해야 해요. Zero Trust 구독이 필요하지만 Free 플랜으로도 시작할 수 있어요. 자동으로 모든 에이전트 요청을 보호하는 것은 아니에요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://developers.cloudflare.com/changelog/post/2026-10-19-cloud-workload-security-beta/" target="_blank" rel="noreferrer">원문</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-테크-인프라-규제-09" data-card-id="c-테크-인프라-규제-09">
+          <div class="news-card-top">
+            <span class="news-num">09</span>
+            
+            
+          </div>
+          <h3 class="news-title">Microsoft Guardian Agents, 업무 에이전트의 권한과 실행을 별도로 감시해요 (10/19)</h3>
+          <ul class="news-bullets"><li>Microsoft가 Project Perception에 새 Playbooks와 Guardian Agents를 소개했어요. Agent 365의 등록 정보와 보안 신호를 함께 사용해 업무 에이전트의 위험 변화를 추적하는 방향이에요.</li><li>사람은 정책·승인 경계·위임 규칙을 정하고 보안 에이전트는 근거 조사·제한 권고·정해진 보호 조치를 맡아요. 위험이 커지면 접근을 줄이거나 실행 환경을 격리·정지하는 구성을 설명해요.</li><li>이번 발표는 보호 기능의 확대 소개이며 전 고객 <button type="button" class="inline-biscuit" data-biscuit="ga">GA</button>나 가격을 확정하지 않아요. 현재 공식 Project Perception 운영 문서는 초대받은 소수 고객의 Limited Public Preview라고 명시해요.</li><li>제작·마케팅 에이전트에 회사 자료와 외부 발송 도구를 연결하는 조직이라면 모델의 자체 판단 외에 권한·실행 기록·중지 장치를 따로 두는 설계를 참고할 만해요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/" target="_blank" rel="noreferrer">10/19 공식 발표</a><a class="news-chip" href="https://learn.microsoft.com/en-us/security/agentic-security/agentic-security-dashboard" target="_blank" rel="noreferrer">원문</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-테크-인프라-규제-10" data-card-id="c-테크-인프라-규제-10">
+          <div class="news-card-top">
+            <span class="news-num">10</span>
+            
+            
+          </div>
+          <h3 class="news-title">Cloudflare의 코드 검토 사례, 비용 절감과 놓친 문제를 함께 측정해요 (10/19)</h3>
+          <ul class="news-bullets"><li>Cloudflare가 내부 AI 코드 검토의 평균 비용을 $2.43에서 $0.77로 약 68% 낮춘 과정을 공개했어요. 처리 시간 중앙값은 4분 9초에서 1분 32초로 줄었다는 회사 측 측정이에요.</li><li>첫 요청부터 캐시를 재사용하도록 메시지 순서를 고치고 모델·추론 강도별 결과를 비교했어요. 모델 단가만 바꾼 결과가 아니라 반복 호출과 문맥 사용량을 줄인 운영 사례예요.</li><li>비용이 줄어도 모든 검토 품질이 유지된 것은 아니에요. 회사는 성능 검토에서 실제 문제 발견이 줄었고 보안 검토에서도 그럴 가능성을 인정하며 높은 추론 강도를 추가 시험한다고 밝혔어요.</li><li>반복 분석·제작 에이전트를 운영하는 팀도 비용·시간과 함께 사람이 실제로 수정한 문제, 놓친 문제를 같은 기준으로 기록할 만해요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://blog.cloudflare.com/obsessive-inference-optimization/" target="_blank" rel="noreferrer">원문</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-official" id="c-테크-인프라-규제-11" data-card-id="c-테크-인프라-규제-11">
+          <div class="news-card-top">
+            <span class="news-num">11</span>
+            
+            
+          </div>
+          <h3 class="news-title">Swamp — 반복 작업을 재사용 가능한 코드로 실행하는 플랫폼을 정식 제공해요 (10/14 · 누락 보완)</h3>
+          <ul class="news-bullets"><li>Swamp Club이 10월 14일 Swamp의 정식 제공을 발표했어요. 매 단계마다 모델이 다음 행동을 판단하는 대신, 사용자의 의도를 재사용 가능한 동작으로 만든 뒤 정해진 워크플로로 실행하는 구조예요.</li><li>동작마다 입력·출력 형식과 버전 데이터를 두고, 비밀값은 별도 보관함에서 주입해요. Claude Code·Codex·Cursor 같은 도구에서 만든 작업을 명령줄·API와 서버 환경으로 연결할 수 있어요.</li><li>현재 개인 프로젝트는 무료예요. Team은 1~10명 기준 연 결제 시 1인당 월 $9, Business는 11~30명 기준 연 결제 시 1인당 월 $15이며 기업용은 별도 견적이에요. 30일 체험이 있고 업무용 사용자에는 앱을 통해 간접 이용하는 사람도 포함돼요.</li><li>회사는 Xero의 마케팅 작업과 Bitbison의 SaaS 구축 사례를 소개했어요. 비용·속도 개선 수치는 회사의 특정 실험과 고객 설명이므로 모든 업무에 같은 효과가 난다는 뜻은 아니에요.</li><li>반복 리포트·승인된 데이터 조회처럼 순서가 안정적인 작업에 적용하고, 새 추론이 필요한 단계만 모델에 맡기는 방식으로 비교할 만해요. 공개 코드가 있어도 업무 사용에는 현재 라이선스와 과금 조건을 함께 확인해야 해요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://swamp-club.com/press/swamp-ushers-in-the-second-ai-frontier" target="_blank" rel="noreferrer">10/14 정식 제공·사례</a><a class="news-chip" href="https://swamp-club.com/" target="_blank" rel="noreferrer">현재 제품</a><a class="news-chip" href="https://swamp-club.com/pricing" target="_blank" rel="noreferrer">요금·사용자 정의</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article></div></section><section class="content-card content-card--sns news-section" id="sns-커뮤니티-반응" data-icon="sns"><h2 class="news-section-title"><span class="sec-icon sec-icon--sns" aria-hidden="true"><svg class="icon-svg icon-svg--sns" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><rect x="5" y="4.5" width="10.5" height="15" rx="2.2"/><path d="M8 8.2h4.5M8 11.2h4.5M8 14.2h2.8" opacity=".7"/><path d="M15.5 9.5h2.2a1.8 1.8 0 0 1 1.8 1.8v6.2a1.8 1.8 0 0 1-1.8 1.8H11" opacity=".55"/></svg></span><span class="sec-title-text">SNS · 커뮤니티 반응</span></h2><div class="news-grid">
+        <article class="news-card rel-official" id="c-sns-커뮤니티-반응-01" data-card-id="c-sns-커뮤니티-반응-01">
+          <div class="news-card-top">
+            <span class="news-num">01</span>
+            
+            
+          </div>
+          <h3 class="news-title">Gemini 스타일링 사례, 옷을 보내기 전에 착장 이미지를 고객과 검토해요 (10/19)</h3>
+          <ul class="news-bullets"><li>Google이 선수 스타일리스트 Sydney Bordonaro의 실제 작업을 소개했어요. 의류 사진을 고객의 모습에 조합해 전체 착장을 보여주고, 신발·재킷 같은 한 부분만 대화로 바꿔요.</li><li>완성 이미지를 원격 고객에게 보내 의견을 받은 뒤 의류를 준비하는 흐름이에요. 새 모델 출시나 실제 핏·소재의 정확도를 입증한 실험은 아니며, 원문은 사용 모델 버전·생성 비용·수정 횟수를 공개하지 않았어요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://blog.google/products-and-platforms/products/gemini/stylist-outfit-tips-gemini/" target="_blank" rel="noreferrer">10/19 공식 실무자 사례</a><span class="news-chip news-chip-muted">공식</span></div>
+        </article>
+        <article class="news-card rel-press" id="c-sns-커뮤니티-반응-02" data-card-id="c-sns-커뮤니티-반응-02">
+          <div class="news-card-top">
+            <span class="news-num">02</span>
+            
+            
+          </div>
+          <h3 class="news-title">OpenAI 영국 광고, 세 할아버지의 일상으로 음성 작업을 보여줘요 (10/19)</h3>
+          <ul class="news-bullets"><li>OpenAI의 영국 캠페인 ‘Get Stuff Done with ChatGPT Voice’가 10/19 시작됐다고 DesignRush가 보도했어요. 사내 제작팀과 MindsEye가 만들고 Mat LaRoche가 런던에서 연출했어요.</li><li>여행 계획·스페인어 대화·낱말 퍼즐을 세 인물의 일상으로 보여주며 촬영팀과 감독에게 말을 거는 장면도 구성에 넣었어요. AI를 광고 영상 생성에 썼다는 사례가 아니라 음성 AI 제품을 설명하는 실사 광고예요.</li><li>ITV·Channel 4·Sky·Amazon Prime·Netflix·Disney+의 주문형 영상과 YouTube·Instagram·TikTok·Facebook에 연결하는 편성이에요. 집행 성과·시청 반응은 아직 확인하지 못했어요.</li></ul>
+          <div class="news-footer"><a class="news-chip" href="https://news.designrush.com/openai-chatgpt-voice-get-stuff-done-uk-grandpas-mindseye" target="_blank" rel="noreferrer">원문</a><span class="news-chip news-chip-muted">보도</span></div>
+        </article></div></section><section class="content-card content-card--links news-section" id="참고-링크-모음" data-icon="links"><h2 class="news-section-title"><span class="sec-icon sec-icon--links" aria-hidden="true"><svg class="icon-svg icon-svg--links" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true"><path d="M9.6 13.6a3.6 3.6 0 0 1 0-5.1l2.2-2.2a3.6 3.6 0 1 1 5.1 5.1l-1.1 1.1"/><path d="M14.4 10.4a3.6 3.6 0 0 1 0 5.1l-2.2 2.2a3.6 3.6 0 1 1-5.1-5.1l1.1-1.1"/></svg></span><span class="sec-title-text">참고 링크 모음</span></h2><div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>제목</th>
+<th>카테고리</th>
+<th>신뢰도</th>
+<th>링크</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Gemini Notebook, 슬라이드·영상의 개요를 확인한 뒤 생성해요 (10/19)</td>
+<td>모델 · 플랫폼</td>
+<td>공식</td>
+<td><a href="https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/">10/19 공동 제작·순차 제공 발표</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>MiniMax M3.1 Flash, 긴 에이전트 작업과 추론 강도 조절을 저가 API로 제공해요 (10/19)</td>
+<td>모델 · 플랫폼</td>
+<td>공식</td>
+<td><a href="https://www.minimax.io/blog/minimax-m31f">10/19 원발표·가중치 공개 예정</a> · <a href="https://platform.minimax.io/docs/guides/text-generation">API 이름·문맥·추론 제약</a> · <a href="https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free">Vercel 무료 조건</a> · <a href="https://vercel.com/ai-gateway/models/minimax-m3.1-flash">현재 모델 가격</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Mercury 3, 100만 토큰 문맥의 확산형 언어 모델을 API로 공개했어요 (10/19)</td>
+<td>모델 · 플랫폼</td>
+<td>공식</td>
+<td><a href="https://www.inceptionlabs.ai/blog/introducing-mercury-3">10/19 모델 발표</a> · <a href="https://www.inceptionlabs.ai/models">현재 할인 가격</a> · <a href="https://docs.inceptionlabs.ai/get-started">API 식별자·신규 계정 혜택</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Jais 3, 아랍어 방언·문서·음성 작업용 공개 모델을 내놨어요 (10/15 · 누락 보완)</td>
+<td>모델 · 플랫폼</td>
+<td>공식</td>
+<td><a href="https://ifm.ai/jais3/press-release/">10/15 원발표·현재와 예정 구분</a> · <a href="https://huggingface.co/collections/IFM/jais-3">공식 모델 모음</a> · <a href="https://huggingface.co/inception42/Jais-3-7B">7B 모델 카드</a> · <a href="https://huggingface.co/collections/IFM/jais-speech">Jais Speech</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Gemini 앱의 노트북, 유럽경제지역 Workspace 계정으로 확대됐어요 (10/19 · 후속)</td>
+<td>모델 · 플랫폼</td>
+<td>공식</td>
+<td><a href="https://workspaceupdates.googleblog.com/2026/09/notebooks-in-gemini-dedicated-workspace-for-focused-organized-work-now-for-schools-and-organizations.html">10/19 지역 확대·관리자 조건</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Notion AI, Auto와 직접 모델 선택의 월 사용량을 나눠요 (10/19 · 후속)</td>
+<td>모델 · 플랫폼</td>
+<td>공식</td>
+<td><a href="https://www.notion.com/blog/notion-ai-more-for-less">10/19 발표</a> · <a href="https://www.notion.com/en-gb/help/manage-your-ai-credits">사용량·시행일</a> · <a href="https://www.notion.com/help/how-ai-credits-work-for-custom-agents">공유 Agent 비용</a> · <a href="https://www.notion.com/en-gb/help/use-your-chatgpt-plan-with-notion-agent">ChatGPT 플랜 조건</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>MeetCap 1.0 — Mac 회의 전사와 에이전트 호출을 무료로 공개했어요 (10/18 · 누락 보완)</td>
+<td>모델 · 플랫폼</td>
+<td>공식</td>
+<td><a href="https://github.com/seacen/meetcap/releases/tag/v1.0.0">첫 공개 릴리스·날짜</a> · <a href="https://github.com/seacen/meetcap">지원 환경·데이터 처리</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>FLUX 3 Max, fal의 추가 학습·최적화 버전으로 영상 API를 제공해요 (10/20 KST)</td>
+<td>콘텐츠 제작 · 크리에이티브</td>
+<td>공식</td>
+<td><a href="https://fal.ai/flux-3-max">fal 발표·시연</a> · <a href="https://fal.ai/models/blackforestlabs/flux-3-max/text-to-video">현재 모델·가격</a> · <a href="https://fal.ai/models/blackforestlabs/flux-3-max/text-to-video/api">API 규격</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>MOSS-Image, 공개 가중치와 ComfyUI 플러그인으로 이미지 제작 경로를 열어요 (10/16 · 누락 보완)</td>
+<td>콘텐츠 제작 · 크리에이티브</td>
+<td>공식</td>
+<td><a href="https://github.com/OpenMOSS/MOSS-Image">공식 코드·10/16 및 10/19 기록</a> · <a href="https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT">SFT 모델 카드·라이선스</a> · <a href="https://fal.ai/models/fal-ai/moss-image">fal API·가격</a> · <a href="https://arxiv.org/abs/2610.23374">기술 보고서</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>fal Worlds에 ABot World 0·LingBot World 2 제공 경로가 생겼어요 (10/16 KST · 누락 보완)</td>
+<td>콘텐츠 제작 · 크리에이티브</td>
+<td>공식</td>
+<td><a href="https://fal.ai/models/alibaba/abot-world-0">ABot World 0</a> · <a href="https://fal.ai/models/robbyant/lingbot-world-2">LingBot World 2</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Krea 3 자체 API가 모든 워크스페이스에 열려요 (10/19 · 후속)</td>
+<td>콘텐츠 제작 · 크리에이티브</td>
+<td>공식</td>
+<td><a href="https://www.krea.ai/docs/changelog">10/19 변경 기록</a> · <a href="https://www.krea.ai/docs/developers/krea-3/overview">현재 API 접근·요금</a> · <a href="https://www.krea.ai/docs/developers/mcp">MCP preflight</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Lightroom 모바일, 감긴 눈을 보정하고 사진 바깥을 확장해요 (10/19)</td>
+<td>콘텐츠 제작 · 크리에이티브</td>
+<td>공식</td>
+<td><a href="https://blog.adobe.com/en/publish/2026/10/19/give-your-photos-a-second-chance-with-open-eyes-in-lightroom-on-mobile">Adobe의 10/19 공식 발표</a></td>
+</tr>
+<tr>
+<td>13</td>
+<td>HyperFrames, 긴 타임라인·모바일 소스·다국어 전사를 다듬어요 (10/19~20 KST · 후속)</td>
+<td>콘텐츠 제작 · 크리에이티브</td>
+<td>공식</td>
+<td><a href="https://github.com/heygen-com/hyperframes/releases/tag/v0.8.174">174</a> · <a href="https://github.com/heygen-com/hyperframes/releases/tag/v0.8.175">175</a> · <a href="https://github.com/heygen-com/hyperframes/releases/tag/v0.8.176">176</a> · <a href="https://github.com/heygen-com/hyperframes/releases/tag/v0.8.177">177</a> · <a href="https://github.com/heygen-com/hyperframes/releases/tag/v0.8.178">178</a></td>
+</tr>
+<tr>
+<td>14</td>
+<td>CSuite, 제목·도표·내레이션을 한 편의 모션 영상으로 구성해요 (10/14~16 · 누락 보완)</td>
+<td>콘텐츠 제작 · 크리에이티브</td>
+<td>공식</td>
+<td><a href="https://csuite.so/updates">공식 변경 기록</a> · <a href="https://csuite.so/">제품·지원 환경</a> · <a href="https://csuite.so/pricing">현재 가격</a> · <a href="https://csuite.so/guide">사용 가이드</a></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Magic Hour, 저장한 캐릭터·목소리와 여러 키프레임을 제작에 재사용해요 (10/13~15 · 누락 보완)</td>
+<td>콘텐츠 제작 · 크리에이티브</td>
+<td>공식</td>
+<td><a href="https://magichour.ai/changelog/2026">Magic Hour 공식 2026 변경 기록</a></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Runway MCP에 효과음 생성·자동 배경 제거가 추가돼요 (10/15 · 누락 보완)</td>
+<td>콘텐츠 제작 · 크리에이티브</td>
+<td>공식</td>
+<td><a href="https://runway.com/changelog">Runway 공식 변경 기록</a></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Higgsfield Community, 제작 프로젝트를 공개하고 지원 심사에 연결해요 (10/15 · 누락 보완)</td>
+<td>콘텐츠 제작 · 크리에이티브</td>
+<td>공식</td>
+<td><a href="https://higgsfield.ai/creator-hub/changelog">10/15 공식 변경 기록</a></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Optimove Content Studio, 캠페인 제작·개인화·발송 전 검수를 한곳에 모아요 (10/19)</td>
+<td>마케팅 · 비즈니스</td>
+<td>공식</td>
+<td><a href="https://www.globenewswire.com/news-release/2026/10/19/3383849/0/en/optimove-launches-content-studio-to-help-marketers-keep-ai-era-content-on-brand-and-personalized-at-scale.html">10/19 회사 배포 발표</a> · <a href="https://www.optimove.com/resources/blog/optimove-content-studio-one-home-for-every-channel-and-creative-asset">공식 제품 설명·QA</a></td>
+</tr>
+<tr>
+<td>19</td>
+<td>JustAI, 고객별 메시지부터 대조군 성과 측정까지 연결해요 (10/19)</td>
+<td>마케팅 · 비즈니스</td>
+<td>공식</td>
+<td><a href="https://www.prnewswire.com/news-releases/justai-reinvents-marketing-around-revenue-with-a-full-stack-ai-platform-302912261.html">회사 원발표·승인·사례</a> · <a href="https://www.getjust.ai/launch">공식 출시 제품 페이지</a></td>
+</tr>
+<tr>
+<td>20</td>
+<td>Harmony, 영업 전화와 CRM 기록을 묶어 4개국 기업에 제공해요 (10/19)</td>
+<td>마케팅 · 비즈니스</td>
+<td>공식</td>
+<td><a href="https://ir.monday.com/news-and-events/news-releases/news-details/2026/Voice-AI-Platform-Harmony-Launches-to-Convert-Customer-Conversations-into-Revenue/default.aspx">10/19 공식 발표·4개국 제공</a> · <a href="https://harmony.ai/">공식 제품·운영 조건</a> · <a href="https://harmony.ai/pricing">현재 가격·한도</a></td>
+</tr>
+<tr>
+<td>21</td>
+<td>BILL, 청구서 이상 탐지와 AI 실행 기록을 추가해요 (10/19)</td>
+<td>마케팅 · 비즈니스</td>
+<td>공식</td>
+<td><a href="https://www.bill.com/press-release/bill-launches-new-suite-of-ai-capabilities">10/19 공식 발표·베타·순차 제공</a> · <a href="https://www.bill.com/product-updates">제품 업데이트</a></td>
+</tr>
+<tr>
+<td>22</td>
+<td>WisdomAI Owls, 사업 목표를 계속 추적하는 분석가를 11월 베타로 예고해요 (10/19)</td>
+<td>마케팅 · 비즈니스</td>
+<td>공식</td>
+<td><a href="https://www.prnewswire.com/news-releases/wisdomai-introduces-owls-first-of-its-kind-always-on-ai-analysts-that-work-toward-business-outcomes-302912782.html">회사 배포 발표·11월 베타 일정</a></td>
+</tr>
+<tr>
+<td>23</td>
+<td>Google Universal Cart, 여러 상점의 상품을 Search·Gemini에서 함께 관리해요 (10/15 · 누락 보완)</td>
+<td>마케팅 · 비즈니스</td>
+<td>공식</td>
+<td><a href="https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/">10/15 공식 실제 제공·국가·판매자 역할</a></td>
+</tr>
+<tr>
+<td>24</td>
+<td>Together Post-Training, 전용 GPU에서 업무용 모델의 학습 과정을 직접 설계해요 (10/19)</td>
+<td>테크 · 인프라 · 규제</td>
+<td>공식</td>
+<td><a href="https://www.together.ai/blog/together-post-training">10/19 공식 발표</a> · <a href="https://docs.together.ai/docs/post-training/quickstart-rl">시작 문서</a> · <a href="https://www.together.ai/pricing">현재 과금·할인 종료일</a></td>
+</tr>
+<tr>
+<td>25</td>
+<td>Claude Code 2.1.304, 자동 작업의 승인·종료와 조직 검토 설정을 다듬어요 (10/20 KST · 후속)</td>
+<td>테크 · 인프라 · 규제</td>
+<td>공식</td>
+<td><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.304">2.1.304 변경·공개 시각</a> · <a href="https://code.claude.com/docs/en/code-review">검토 단계·지원 범위</a> · <a href="https://code.claude.com/docs/en/code-review-costs">과금 조건</a></td>
+</tr>
+<tr>
+<td>26</td>
+<td>GitHub Copilot, 기업·조직·팀의 모델 정책을 API로 관리해요 (10/19)</td>
+<td>테크 · 인프라 · 규제</td>
+<td>공식</td>
+<td><a href="https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams/">10/19 GA 발표</a> · <a href="https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin/ai-controls">공식 REST API</a></td>
+</tr>
+<tr>
+<td>27</td>
+<td>GitHub Copilot, 예고했던 GPT-5.5 등 여섯 모델을 실제 종료했어요 (10/19 · 후속)</td>
+<td>테크 · 인프라 · 규제</td>
+<td>공식</td>
+<td><a href="https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026/">10/19 실제 종료·권장 대안</a></td>
+</tr>
+<tr>
+<td>28</td>
+<td>GitHub, 코딩 에이전트가 패키지 라이선스 정책을 미리 확인하도록 API를 열었어요 (10/16 · 누락 보완)</td>
+<td>테크 · 인프라 · 규제</td>
+<td>공식</td>
+<td><a href="https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available/">10/16 GA·코딩 에이전트 API</a></td>
+</tr>
+<tr>
+<td>29</td>
+<td>Cloudflare Clairic, 문장 대신 숫자·날짜·추정값을 반환해요 (10/19)</td>
+<td>테크 · 인프라 · 규제</td>
+<td>공식</td>
+<td><a href="https://developers.cloudflare.com/changelog/post/2026-10-19-clairic-workers-ai/">10/19 공개·가격·preview</a> · <a href="https://developers.cloudflare.com/workers-ai/models/clairic/">모델 API</a></td>
+</tr>
+<tr>
+<td>30</td>
+<td>Cloudflare MCP, 필요한 권한을 작업 중에 추가 승인받아요 (10/19)</td>
+<td>테크 · 인프라 · 규제</td>
+<td>공식</td>
+<td><a href="https://developers.cloudflare.com/changelog/post/2026-10-19-cloudflare-mcp-step-up/">10/19 공식 변경·지원 조건</a></td>
+</tr>
+<tr>
+<td>31</td>
+<td>Cloudflare CWS, 클라우드 API 요청을 보내기 전에 정책으로 검사해요 (10/19)</td>
+<td>테크 · 인프라 · 규제</td>
+<td>공식</td>
+<td><a href="https://developers.cloudflare.com/changelog/post/2026-10-19-cloud-workload-security-beta/">10/19 공식 베타·설정·Free 조건</a></td>
+</tr>
+<tr>
+<td>32</td>
+<td>Microsoft Guardian Agents, 업무 에이전트의 권한과 실행을 별도로 감시해요 (10/19)</td>
+<td>테크 · 인프라 · 규제</td>
+<td>공식</td>
+<td><a href="https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/">10/19 공식 발표</a> · <a href="https://learn.microsoft.com/en-us/security/agentic-security/agentic-security-dashboard">현재 Perception 초대 미리 보기 안내</a></td>
+</tr>
+<tr>
+<td>33</td>
+<td>Cloudflare의 코드 검토 사례, 비용 절감과 놓친 문제를 함께 측정해요 (10/19)</td>
+<td>테크 · 인프라 · 규제</td>
+<td>공식</td>
+<td><a href="https://blog.cloudflare.com/obsessive-inference-optimization/">10/19 공식 내부 사례·평가 한계</a></td>
+</tr>
+<tr>
+<td>34</td>
+<td>Swamp — 반복 작업을 재사용 가능한 코드로 실행하는 플랫폼을 정식 제공해요 (10/14 · 누락 보완)</td>
+<td>테크 · 인프라 · 규제</td>
+<td>공식</td>
+<td><a href="https://swamp-club.com/press/swamp-ushers-in-the-second-ai-frontier">10/14 정식 제공·사례</a> · <a href="https://swamp-club.com/">현재 제품</a> · <a href="https://swamp-club.com/pricing">요금·사용자 정의</a></td>
+</tr>
+<tr>
+<td>35</td>
+<td>Gemini 스타일링 사례, 옷을 보내기 전에 착장 이미지를 고객과 검토해요 (10/19)</td>
+<td>SNS · 커뮤니티 반응</td>
+<td>공식</td>
+<td><a href="https://blog.google/products-and-platforms/products/gemini/stylist-outfit-tips-gemini/">10/19 공식 실무자 사례</a></td>
+</tr>
+<tr>
+<td>36</td>
+<td>OpenAI 영국 광고, 세 할아버지의 일상으로 음성 작업을 보여줘요 (10/19)</td>
+<td>SNS · 커뮤니티 반응</td>
+<td>보도</td>
+<td><a href="https://news.designrush.com/openai-chatgpt-voice-get-stuff-done-uk-grandpas-mindseye">10/19 캠페인 제작·매체 집행 보도</a></td>
+</tr>
+</tbody>
+</table></div></section>
+          <section class="related-biscuits-min news-section" id="related-biscuits" data-terms="api,early-access,credits,agent,token,resolution,prompt,mcp,reference-image,zdr,hdr,keyframe,upscale,lora,ga,open-weight" aria-label="관련 비스킷">
+            <h2 class="news-section-title"><span class="sec-title-text">관련 비스킷</span></h2>
+            <ul class="related-biscuits-min-list">
+            <li><button type="button" data-biscuit="api">API</button></li>
+            <li><button type="button" data-biscuit="early-access">얼리 액세스</button></li>
+            <li><button type="button" data-biscuit="credits">크레딧</button></li>
+            <li><button type="button" data-biscuit="agent">에이전트</button></li>
+            <li><button type="button" data-biscuit="token">토큰</button></li>
+            <li><button type="button" data-biscuit="resolution">해상도</button></li>
+            <li><button type="button" data-biscuit="prompt">프롬프트</button></li>
+            <li><button type="button" data-biscuit="mcp">MCP</button></li>
+            <li><button type="button" data-biscuit="reference-image">레퍼런스 이미지</button></li>
+            <li><button type="button" data-biscuit="zdr">ZDR</button></li>
+            <li><button type="button" data-biscuit="hdr">HDR</button></li>
+            <li><button type="button" data-biscuit="keyframe">키프레임</button></li>
+            <li><button type="button" data-biscuit="upscale">업스케일</button></li>
+            <li><button type="button" data-biscuit="lora">LoRA</button></li>
+            <li><button type="button" data-biscuit="ga">정식 공개</button></li>
+            <li><button type="button" data-biscuit="open-weight">오픈웨이트</button></li>
+            </ul>
+          </section></div>
+      </article>
+    </div>
+
+  </main>
+  <footer class="footer">
+    AI Pulse · 매일 자동 수집 · 모델·에이전트·크리에이티브·마케팅·인프라·규제의 흐름을 한곳에서
+  </footer>
+  <button type="button" class="back-to-top" aria-label="맨 위로" title="맨 위로">↑</button>
+  <script src="../assets/app.js?v=20260805b"></script>
+  <script src="../assets/biscuits.js?v=20260916source"></script>
+</body>
+</html>
