@@ -1355,8 +1355,8 @@
   ];
 
   const LATEST_BRIEF = {
-    date: "2026-10-20",
-    termIds: ["resolution", "keyframe", "t2v", "hdr", "upscale", "character-ip"]
+    date: "2026-10-21",
+    termIds: ["tts", "short-drama", "asr", "lora", "lip-sync", "resolution"]
   };
 
   const TAGS = [
