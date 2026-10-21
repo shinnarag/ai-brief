@@ -17,6 +17,9 @@
 | Suno | [블로그](https://blog.suno.com/) · [릴리스 안내](https://blog.suno.com/release-notes) | 두 경로를 모두 직접 확인합니다. 모델 버전·편집 도구·상업 이용·요금 변화는 해당 원문에서 구분합니다. |
 | Udio | [블로그](https://www.udio.com/blog) | 최신 발표에서 연결된 제품·이용 조건을 확인합니다. 읽힌 목록이 오래됐다는 사실과 현재 발표 유무를 구분합니다. |
 | ElevenLabs | [블로그](https://elevenlabs.io/blog) · [Product 목록](https://elevenlabs.io/blog/category/product) | 음성·Music·Agents·Reception 등 제품군을 따로 확인합니다. Featured에 안 보이는 새 Product 글도 읽습니다. |
+| Mistral 음성 | [공식 뉴스](https://mistral.ai/news/) · [오디오 문서](https://docs.mistral.ai/studio/audio/overview) | 2026-10-21 확인한 Voxtral 3는 전사·TTS·에이전트 SDK의 제공 단계가 달라요. 발표·개별 모델 카드·언어판 사이의 지원 언어와 가격 차이를 기록하고 API 제공을 가중치 공개로 확대하지 않습니다. |
+| Bria 이미지 | [Fibo 2 문서](https://docs.bria.ai/whats-new/fibo-2) · [공식 모델 카드](https://huggingface.co/briaai) · [자체 호스팅](https://docs.bria.ai/self-hosted/overview) | 라이선스 데이터 학습 주장과 다운로드 가중치의 상업 이용 권한을 구분하고 생성·편집·예정 LoRA의 제공 상태를 따로 확인합니다. |
+| PixelDojo | [변경 기록](https://pixeldojo.ai/changelog) · [제작 레시피](https://pixeldojo.ai/recipes) · [가격](https://pixeldojo.ai/pricing) | 2026-10-21 조회에는 미래 날짜 항목이 섞여 있었어요. 수집 마감 이후 항목을 출시 완료로 쓰지 않고 레시피의 실제 산출물·크레딧·무료 범위를 대조합니다. |
 | Fish Audio | [공식 블로그](https://beta.fish.audio/blog/) · [모델·가중치](https://huggingface.co/fishaudio) · [API 요금](https://docs.fish.audio/developer-guide/models-pricing/pricing-and-rate-limits) | 2026-10-16 누락 점검에서 10/13 Drama 3를 확인했어요. 음성 생성과 초대제 편집·예정 API를 나누고, 출시 할인 기간·가중치 라이선스 원문·음성 권리를 확인합니다. 일반 요금표나 모델 메타데이터가 최신 개별 공지·라이선스와 다르면 차이를 기록합니다. |
 | Midjourney | [공식 업데이트](https://updates.midjourney.com/) · [제품 업데이트](https://www.midjourney.com/updates) | 모델 버전과 Alpha·정식 사이트의 변경을 구분합니다. 한 경로의 본문이 추출되지 않으면 다른 공식 경로로 보완합니다. |
 | Higgsfield | [제품](https://higgsfield.ai/) · [변경 기록](https://higgsfield.ai/creator-hub/changelog) · [API](https://higgsfield.ai/higgsfield-api) | 모델·편집·API의 실제 새 기능과 기존 기능 사용법·회고를 구분합니다. |
@@ -91,7 +94,7 @@
 
 창작 사례는 사용 모델을 제작자가 실제로 명시했는지, 코드 작성·렌더링 도구와 이미지·영상 생성 모델이 무엇인지 구분합니다. “한 번의 프롬프트”라는 문구만 옮기지 말고 사전 소재·스킬·참조·수정 횟수·렌더 시간·비용의 조건을 확인합니다. 모음 사이트의 건수·조회수는 독립 검증된 성능 지표가 아니며, 원작자의 게시물과 연결해 사례로 소개합니다. 실무자 반응은 확인한 해당 대화의 범위로 한정합니다.
 
-코드로 만드는 모션그래픽은 [Remotion 코딩 에이전트 문서](https://www.remotion.dev/docs/ai/coding-agents), [HeyGen HyperFrames 공식 저장소](https://github.com/heygen-com/hyperframes), [Higgsfield 변경 기록](https://higgsfield.ai/creator-hub/changelog), [iArt 제작 사례](https://www.iart.ai/blog/opus-5-5-product-launch-videos)를 출발점으로 삼습니다. 기존 렌더 도구의 사용법·연동과 새 모델 출시를 구분하고, 제작자 사례에서 실제 수정 과정과 결과물 형태를 확인합니다. 이 경로만으로 탐색을 한정하지 않습니다.
+코드로 만드는 모션그래픽은 [Remotion 코딩 에이전트 문서](https://www.remotion.dev/docs/ai/coding-agents), [HeyGen HyperFrames 공식 저장소](https://github.com/heygen-com/hyperframes), [Higgsfield 변경 기록](https://higgsfield.ai/creator-hub/changelog), [iArt 제작 사례](https://www.iart.ai/blog/opus-5-5-product-launch-videos)를 출발점으로 삼습니다. 기존 렌더 도구의 사용법·연동과 새 모델 출시를 구분하고, 제작자 사례에서 실제 수정 과정과 결과물 형태를 확인합니다. 이 경로만으로 탐색을 한정하지 않습니다. 2026-10-21 누락 점검에서 [huashu-motion 릴리스](https://github.com/alchaincyf/huashu-motion/releases)와 [DSH Blender 플러그인 릴리스](https://github.com/sixtysevenlf/dsh-blender-plugin/releases)를 확인했어요. 독립 제작 도구의 공개 시각·지원 환경·사람의 수정 및 중지 기능을 보고, 코드 라이선스와 예제 캐릭터·폰트·음원 권리를 따로 확인합니다. 모델·Blender 자체의 공식 기능 출시로 바꾸어 쓰지 않습니다.
 
 채택할 만한 제품을 발견하면 다음 날에도 찾을 수 있도록 실제 공식 경로를 이 문서의 해당 영역에 추가할 수 있습니다. 후보 수를 채우기 위해 검증되지 않은 경로나 새로운 브랜드 이름을 넣지 않습니다. Pion처럼 새로 발견한 사건을 오늘 출시로 바꾸지 않고 원발표일을 확인합니다.
 
