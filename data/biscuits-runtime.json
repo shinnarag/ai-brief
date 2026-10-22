@@ -1,20 +1,18 @@
 {
-  "date": "2026-10-21",
-  "label": "10월 21일 브리프",
+  "date": "2026-10-22",
+  "label": "10월 22일 브리프",
   "termIds": [
-    "tts",
+    "resolution",
     "short-drama",
-    "asr",
-    "lora",
-    "lip-sync",
-    "resolution"
+    "tts",
+    "keyframe",
+    "reference-image",
+    "hdr"
   ],
   "allMatchedIds": [
-    "t2v",
-    "i2v",
-    "lip-sync",
+    "keyframe",
     "short-drama",
-    "lora",
+    "reference-image",
     "early-access",
     "credits",
     "harness",
@@ -22,138 +20,121 @@
     "prompt",
     "agent",
     "token",
-    "moe",
-    "fp8",
+    "cli",
     "api",
     "zdr",
     "sandbox",
-    "watermark",
     "ga",
     "mcp",
-    "asr",
-    "distillation",
+    "hdr",
     "tts",
     "resolution"
   ],
   "candidates": [
     {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 19,
-      "sample": "Bot은 9/17 출시의 재홍보), fal·BFL(10/20 Fibo 2·EAGLE4, 10/15 Klein 기수",
-      "brief_date": "2026-10-21"
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 21,
+      "sample": "— Midjourney 10/8, Higgsfield 10/21·10/19, Runway 변경 기록 10/15·연구 9/3,",
+      "brief_date": "2026-10-22"
     },
     {
       "term": "ElevenLabs",
       "hint": "음성 합성",
-      "hits": 14,
-      "sample": "작업 범위가 넓어져요 주제 설명: ElevenLabs·Mistral은 음성 에이전트 구성을, Bria는 구조화된 이미지 편집",
-      "brief_date": "2026-10-21"
-    },
-    {
-      "term": "Pika",
-      "hint": "영상 생성",
-      "hits": 13,
-      "sample": ", Kittl(10/15 기수록), Pika(10/16 플러그인 누락), Tesseract(10/14 KST 0.4",
-      "brief_date": "2026-10-21"
-    },
-    {
-      "term": "Veo",
-      "hint": "Google 영상 모델",
-      "hits": 9,
-      "sample": "Gemini API·DeepMind·Veo(10/13 모델 기수록, 현재 문서의 10/22·23 종료 일정 후속)",
-      "brief_date": "2026-10-21"
-    },
-    {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
-      "hits": 3,
-      "sample": "워크스페이스 개방·Mercury 3·MiniMax M3.1 Flash·Jais 3·MOSS Image·Notion 크레딧",
-      "brief_date": "2026-10-21"
+      "hits": 11,
+      "sample": "1/28·파트너십 FAQ 2/17, ElevenLabs Product 10/21, Fish Audio Drama 3 10/13",
+      "brief_date": "2026-10-22"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
-      "hits": 3,
-      "sample": "·LTX·MiniMax/Hailuo·Kling·Hunyuan/Wan·Luma·HappyShrimp/Alibaba를 대",
-      "brief_date": "2026-10-21"
+      "hits": 9,
+      "sample": "와 Hailuo H3를 대조했어요. Kling API·가격·변경 기록의 제목만 추출되고 공식 X가 403이어서 블로그",
+      "brief_date": "2026-10-22"
     },
     {
-      "term": "Luma",
-      "hint": "영상 생성",
+      "term": "Seedream",
+      "hint": "ByteDance 이미지 생성 모델",
+      "hits": 7,
+      "sample": "분하고 Dreamina의 10/21 Seedream 5.5 소개는 출시 예고로만 다뤘어요. Vidu 블로그 최신 6/12,",
+      "brief_date": "2026-10-22"
+    },
+    {
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
+      "hits": 5,
+      "sample": "새 법 시행으로 바꾸지 않았어요. Seedance 지원은 공식 명의 공고 이미지와 10/19 보도를 대조했지만 위챗 원문",
+      "brief_date": "2026-10-22"
+    },
+    {
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
       "hits": 2,
-      "sample": "o·Kling·Hunyuan/Wan·Luma·HappyShrimp/Alibaba를 대조했어요. 오늘 신규 기반 영상",
-      "brief_date": "2026-10-21"
-    },
-    {
-      "term": "ComfyUI",
-      "hint": "노드 기반 생성 워크플로 UI",
-      "hits": 1,
-      "sample": "a API·브라우저 샌드박스·fal·ComfyUI 경로가 안내돼요. fal 생성·편집은 각각 이미지당 $0.04예요. B",
-      "brief_date": "2026-10-21"
-    },
-    {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 1,
-      "sample": "문 추출 실패는 날짜 검색 보완), Higgsfield(10/15~16 기수록), Runway 변경 기록·연구·News·MCP",
-      "brief_date": "2026-10-21"
+      "sample": "제품 10/13·API 10/12, MiniMax 모델 10/19·API 목록 2025/10/28와 Hailuo H3를",
+      "brief_date": "2026-10-22"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
-      "hits": 1,
-      "sample": ". > 스윕: 이미지·영상·제작 — Midjourney(공식 업데이트 10/8·제품 본문 추출 실패는 날짜 검색 보완), Hi",
-      "brief_date": "2026-10-21"
+      "hits": 2,
+      "sample": ". > 스윕: 이미지·영상·제작 — Midjourney 10/8, Higgsfield 10/21·10/19, Runway 변경",
+      "brief_date": "2026-10-22"
+    },
+    {
+      "term": "Pika",
+      "hint": "영상 생성",
+      "hits": 2,
+      "sample": "10/20, Kittl 10/15, Pika 10/16, Tesseract 0.4.0의 10/14 KST, Synt",
+      "brief_date": "2026-10-22"
     },
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
-      "hits": 1,
-      "sample": "ield(10/15~16 기수록), Runway 변경 기록·연구·News·MCP(News 추출 한계는 개별 원문 보완,",
-      "brief_date": "2026-10-21"
+      "hits": 2,
+      "sample": "sfield 10/21·10/19, Runway 변경 기록 10/15·연구 9/3, fal 10/20, BFL 10/1",
+      "brief_date": "2026-10-22"
     },
     {
-      "term": "Sora",
-      "hint": "OpenAI 영상 모델",
+      "term": "Luma",
+      "hint": "영상 생성",
       "hits": 1,
-      "sample": "odex(10/14~15 기수록), Sora(공식 4/26 서비스 종료 안내 유지), Anthropic·Claude",
-      "brief_date": "2026-10-21"
+      "sample": "공개를 최근 수정일과 구분했어요. Luma 뉴스 추출 실패는 공개 HTML로 보완해 목록 10/14·Claude",
+      "brief_date": "2026-10-22"
     },
     {
       "term": "Suno",
       "hint": "음악 생성",
       "hits": 1,
-      "sample": "았어요. > 스윕: 음악·음성 — Suno 블로그·릴리스(10/13·10/15 기수록), Udio 블로그·제품·날",
-      "brief_date": "2026-10-21"
+      "sample": "않았어요. > 스윕: 음악·음성 — Suno 블로그 10/13·릴리스 10/15, Udio 블로그 2025/11/1",
+      "brief_date": "2026-10-22"
     },
     {
       "term": "Udio",
       "hint": "음악 생성",
       "hits": 1,
-      "sample": "스(10/13·10/15 기수록), Udio 블로그·제품·날짜 검색(오래된 2025 글과 빈 제품 본문으로 최신 상",
-      "brief_date": "2026-10-21"
+      "sample": "로그 10/13·릴리스 10/15, Udio 블로그 2025/11/19·도움말 2026/1/28·파트너십 FAQ 2",
+      "brief_date": "2026-10-22"
     },
     {
-      "term": "체크포인트",
-      "hint": "학습 가중치 스냅샷",
+      "term": "Veo",
+      "hint": "Google 영상 모델",
       "hits": 1,
-      "sample": "문서를 다루며 완성된 단일 BF16 체크포인트는 아니에요. - 업체 평가에서 WDI 125문항 정확도는 원본 5",
-      "brief_date": "2026-10-21"
+      "sample": "Mind 개별 글 10/14~15, Veo·Omni 10/22와 Deep Research 10/23 종료 예정표를",
+      "brief_date": "2026-10-22"
     },
     {
-      "term": "파인튜닝",
-      "hint": "추가 학습으로 맞춤",
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
       "hits": 1,
-      "sample": "Base의 1024 해상도 full fine-tune과 8-step DMD LoRA를 올렸고, 10/20 14:08:51 U",
-      "brief_date": "2026-10-21"
+      "sample": "변경 기록 10/15·연구 9/3, fal 10/20, BFL 10/15, Adobe Firefly 9월·Prem",
+      "brief_date": "2026-10-22"
     },
     {
-      "term": "화면비",
-      "hint": "9:16·16:9 등",
+      "term": "星图(광고 단가 플랫폼)",
+      "hint": "중국 인플루언서 단가 표시",
       "hits": 1,
-      "sample": "서 재사용하고, 마스터 규칙으로 새 화면비·크기를 파생할 수 있어요. 포맷별 수정 유지와 공통 전파 방식을 구분해",
-      "brief_date": "2026-10-21"
+      "sample": "ess 설정으로 응답 속도와 문맥 완성도를 조절해요. - Deutsche Telekom은 Magenta A",
+      "brief_date": "2026-10-22"
     }
   ],
   "catalogSize": 61
