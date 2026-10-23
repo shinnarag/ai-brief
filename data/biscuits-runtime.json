@@ -1,140 +1,123 @@
 {
-  "date": "2026-10-22",
-  "label": "10월 22일 브리프",
+  "date": "2026-10-23",
+  "label": "10월 23일 브리프",
   "termIds": [
-    "resolution",
-    "short-drama",
-    "tts",
-    "keyframe",
     "reference-image",
-    "hdr"
+    "resolution",
+    "r2v",
+    "short-drama",
+    "mcp",
+    "sandbox"
   ],
   "allMatchedIds": [
-    "keyframe",
     "short-drama",
     "reference-image",
     "early-access",
     "credits",
     "harness",
-    "open-weight",
     "prompt",
     "agent",
     "token",
     "cli",
     "api",
+    "r2v",
     "zdr",
     "sandbox",
     "ga",
     "mcp",
-    "hdr",
-    "tts",
     "resolution"
   ],
   "candidates": [
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
-      "hits": 21,
-      "sample": "— Midjourney 10/8, Higgsfield 10/21·10/19, Runway 변경 기록 10/15·연구 9/3,",
-      "brief_date": "2026-10-22"
+      "hits": 17,
+      "sample": "실행 도구에 연결해요 주제 설명: Higgsfield Content Factory와 Sequence는 영상 기획·첫 편집을",
+      "brief_date": "2026-10-23"
+    },
+    {
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 10,
+      "sample": "ggsfield 10/22·API, Runway 변경 10/15·연구 9/3·News, fal 10/20·Explore",
+      "brief_date": "2026-10-23"
     },
     {
       "term": "ElevenLabs",
       "hint": "음성 합성",
-      "hits": 11,
-      "sample": "1/28·파트너십 FAQ 2/17, ElevenLabs Product 10/21, Fish Audio Drama 3 10/13",
-      "brief_date": "2026-10-22"
+      "hits": 2,
+      "sample": "대조했어요. Claude Duet·ElevenLabs 통역·Krea Agent API·Fibo 2·Seedream 5.5 예",
+      "brief_date": "2026-10-23"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
-      "hits": 9,
-      "sample": "와 Hailuo H3를 대조했어요. Kling API·가격·변경 기록의 제목만 추출되고 공식 X가 403이어서 블로그",
-      "brief_date": "2026-10-22"
-    },
-    {
-      "term": "Seedream",
-      "hint": "ByteDance 이미지 생성 모델",
-      "hits": 7,
-      "sample": "분하고 Dreamina의 10/21 Seedream 5.5 소개는 출시 예고로만 다뤘어요. Vidu 블로그 최신 6/12,",
-      "brief_date": "2026-10-22"
-    },
-    {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 5,
-      "sample": "새 법 시행으로 바꾸지 않았어요. Seedance 지원은 공식 명의 공고 이미지와 10/19 보도를 대조했지만 위챗 원문",
-      "brief_date": "2026-10-22"
-    },
-    {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
       "hits": 2,
-      "sample": "제품 10/13·API 10/12, MiniMax 모델 10/19·API 목록 2025/10/28와 Hailuo H3를",
-      "brief_date": "2026-10-22"
+      "sample": "niMax 모델 10/19와 API·Kling 현재 제품과 공식 IR 10/16·Hunyuan/Wan 공식 저장소·L",
+      "brief_date": "2026-10-23"
+    },
+    {
+      "term": "Luma",
+      "hint": "영상 생성",
+      "hits": 2,
+      "sample": "·Hunyuan/Wan 공식 저장소·Luma 뉴스/상태·HappyShrimp/Alibaba를 확인해 Alibaba의",
+      "brief_date": "2026-10-23"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 2,
-      "sample": ". > 스윕: 이미지·영상·제작 — Midjourney 10/8, Higgsfield 10/21·10/19, Runway 변경",
-      "brief_date": "2026-10-22"
+      "sample": ". > 스윕: 이미지·영상·제작 — Midjourney 10/8, Higgsfield 10/22·API, Runway 변경 1",
+      "brief_date": "2026-10-23"
+    },
+    {
+      "term": "Seedream",
+      "hint": "ByteDance 이미지 생성 모델",
+      "hits": 2,
+      "sample": "ea Agent API·Fibo 2·Seedream 5.5 예고·광고 지역 확대·Genjutsu Lite·PixelDojo",
+      "brief_date": "2026-10-23"
+    },
+    {
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
+      "hits": 1,
+      "sample": "제품 10/13와 API 10/12·MiniMax 모델 10/19와 API·Kling 현재 제품과 공식 IR 10/16·",
+      "brief_date": "2026-10-23"
     },
     {
       "term": "Pika",
       "hint": "영상 생성",
-      "hits": 2,
-      "sample": "10/20, Kittl 10/15, Pika 10/16, Tesseract 0.4.0의 10/14 KST, Synt",
-      "brief_date": "2026-10-22"
-    },
-    {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
-      "hits": 2,
-      "sample": "sfield 10/21·10/19, Runway 변경 기록 10/15·연구 9/3, fal 10/20, BFL 10/1",
-      "brief_date": "2026-10-22"
-    },
-    {
-      "term": "Luma",
-      "hint": "영상 생성",
       "hits": 1,
-      "sample": "공개를 최근 수정일과 구분했어요. Luma 뉴스 추출 실패는 공개 HTML로 보완해 목록 10/14·Claude",
-      "brief_date": "2026-10-22"
+      "sample": "10/20, Kittl 10/15, Pika 10/16, Tesseract 릴리스, ClipTalk MCP, Syn",
+      "brief_date": "2026-10-23"
     },
     {
       "term": "Suno",
       "hint": "음악 생성",
       "hits": 1,
       "sample": "않았어요. > 스윕: 음악·음성 — Suno 블로그 10/13·릴리스 10/15, Udio 블로그 2025/11/1",
-      "brief_date": "2026-10-22"
+      "brief_date": "2026-10-23"
     },
     {
       "term": "Udio",
       "hint": "음악 생성",
       "hits": 1,
-      "sample": "로그 10/13·릴리스 10/15, Udio 블로그 2025/11/19·도움말 2026/1/28·파트너십 FAQ 2",
-      "brief_date": "2026-10-22"
+      "sample": "로그 10/13·릴리스 10/15, Udio 블로그 2025/11/19와 현행 도움말·날짜 검색, ElevenLab",
+      "brief_date": "2026-10-23"
     },
     {
       "term": "Veo",
       "hint": "Google 영상 모델",
       "hits": 1,
-      "sample": "Mind 개별 글 10/14~15, Veo·Omni 10/22와 Deep Research 10/23 종료 예정표를",
-      "brief_date": "2026-10-22"
+      "sample": "10/22 수정 종료표를 확인했지만 Veo·Omni·Deep Research 실제 호출 중단은 검증하지 않았어요.",
+      "brief_date": "2026-10-23"
     },
     {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
       "hits": 1,
-      "sample": "변경 기록 10/15·연구 9/3, fal 10/20, BFL 10/15, Adobe Firefly 9월·Prem",
-      "brief_date": "2026-10-22"
-    },
-    {
-      "term": "星图(광고 단가 플랫폼)",
-      "hint": "중국 인플루언서 단가 표시",
-      "hits": 1,
-      "sample": "ess 설정으로 응답 속도와 문맥 완성도를 조절해요. - Deutsche Telekom은 Magenta A",
-      "brief_date": "2026-10-22"
+      "sample": "10/15·연구 9/3·News, fal 10/20·Explore, BFL 10/15·API, Adobe 블로그",
+      "brief_date": "2026-10-23"
     }
   ],
   "catalogSize": 61
