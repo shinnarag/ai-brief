@@ -1,103 +1,96 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "candidates": [
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
-      "hits": 24,
-      "sample": "을 더 세밀하게 나눠요 주제 설명: Runway App Studio와 Krea 연결 기능은 제작 절차를 앱·플러그인으로",
-      "brief_date": "2026-10-27"
-    },
-    {
-      "term": "Kling",
-      "hint": "영상 생성 모델",
-      "hits": 15,
-      "sample": "ax 모델 10/19·API 목록, Kling 자체 API/가격·공식 X·제공사 문서, Hunyuan/Wan·공식 저",
-      "brief_date": "2026-10-27"
-    },
-    {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
-      "hits": 3,
-      "sample": "eedance 4K·Hy-Nomas·MiniMax 가중치·Krea Audio/Ultra·Higgsfield Content",
-      "brief_date": "2026-10-27"
-    },
-    {
-      "term": "ElevenLabs",
-      "hint": "음성 합성",
-      "hits": 2,
-      "sample": "2025/11/19와 날짜 검색, ElevenLabs Product 10/21, Mistral Voxtral 3 10/20와",
-      "brief_date": "2026-10-27"
+      "hits": 17,
+      "sample": "결하는 쪽으로 넓어져요 주제 설명: Runway Ads가 유료 플랜으로 확대되고 Krea는 맞춤 제작 노드와 4K AP",
+      "brief_date": "2026-10-28"
     },
     {
       "term": "Higgsfield",
       "hint": "영상·모션 생성 플랫폼",
-      "hits": 2,
-      "sample": "중치·Krea Audio/Ultra·Higgsfield Content Factory는 반복하지 않아요. 날짜만 공개된 발표에",
-      "brief_date": "2026-10-27"
+      "hits": 16,
+      "sample": "기록·연구·뉴스와 Ads 도움말, Higgsfield 제품·변경 기록·Playable을 확인했어요. Higgsfield AP",
+      "brief_date": "2026-10-28"
+    },
+    {
+      "term": "Kling",
+      "hint": "영상 생성 모델",
+      "hits": 9,
+      "sample": "niMax 뉴스·모델·API 기록, Kling 제품·공식 창작 사례·API 경로, Hunyuan·Wan 공식 모델 목",
+      "brief_date": "2026-10-28"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
-      "hits": 2,
-      "sample": "Hunyuan/Wan·공식 저장소, Luma News/상태, HappyShrimp/Alibaba를 확인했어요. Pi",
-      "brief_date": "2026-10-27"
+      "hits": 6,
+      "sample": "irefly 도움말·제품 커뮤니티, Luma 뉴스·상태를 대조했어요. Luma 웹 도구의 400 오류는 공식 공개",
+      "brief_date": "2026-10-28"
+    },
+    {
+      "term": "ElevenLabs",
+      "hint": "음성 합성",
+      "hits": 5,
+      "sample": "재 발표 유무를 확정하지 못했어요. ElevenLabs 블로그·Product 10/27, Midjourney 공식 업데이트 1",
+      "brief_date": "2026-10-28"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 2,
-      "sample": "ibo 2·자체 호스팅·모델 카드, Midjourney 10/8, Higgsfield 10/23, Runway 변경 기록 10",
-      "brief_date": "2026-10-27"
+      "sample": "블로그·Product 10/27, Midjourney 공식 업데이트 10/8을 확인했고 Midjourney 다른 제품 경로의",
+      "brief_date": "2026-10-28"
     },
     {
       "term": "Seedance",
       "hint": "ByteDance 영상 생성 모델",
       "hits": 2,
-      "sample": "aft·Ideogram Vector·Seedance 4K·Hy-Nomas·MiniMax 가중치·Krea Audio/Ultr",
-      "brief_date": "2026-10-27"
+      "sample": "록으로 보완했어요. BytePlus Seedance 문서는 제목·수정일만 읽혀 기능 본문은 미보완이에요. Dreamina·",
+      "brief_date": "2026-10-28"
+    },
+    {
+      "term": "fal",
+      "hint": "생성 모델 추론 허브",
+      "hits": 2,
+      "sample": "어요. BFL 제품·블로그·API, fal Explore·블로그·개별 모델, Adobe 블로그·Firefly 도움",
+      "brief_date": "2026-10-28"
+    },
+    {
+      "term": "FLUX 3",
+      "hint": "BFL 멀티모달·영상 모델",
+      "hits": 1,
+      "sample": "HTML로 본문까지 보완했고 fal FLUX3 Max는 공개 메타데이터의 10/19 날짜로 기간 밖임을 확인했어요.",
+      "brief_date": "2026-10-28"
+    },
+    {
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
+      "hits": 1,
+      "sample": "근거로 쓰지 않았어요. > 스윕: MiniMax 뉴스·모델·API 기록, Kling 제품·공식 창작 사례·API 경로,",
+      "brief_date": "2026-10-28"
     },
     {
       "term": "Pika",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "ttl 10/15 제품과 활용 글, Pika 10/16·가격, Tesseract 0.4, PixelDojo 10/2",
-      "brief_date": "2026-10-27"
-    },
-    {
-      "term": "Seedream",
-      "hint": "ByteDance 이미지 생성 모델",
-      "hits": 1,
-      "sample": "제 호출 중단으로 단정하지 않아요. Seedream 5.5·Seedance 4K·HappyActing의 추가 일반 개방 증",
-      "brief_date": "2026-10-27"
+      "sample": "ojo 변경 기록·가격, Kittl·Pika·Mirage·PixVerse·Decart·LTX를 확인했어요. Pixe",
+      "brief_date": "2026-10-28"
     },
     {
       "term": "Suno",
       "hint": "음악 생성",
       "hits": 1,
-      "sample": "조했어요. > 스윕: 음악·음성 — Suno 블로그 10/13·릴리스 10/23, Udio 목록 2025/11/19",
-      "brief_date": "2026-10-27"
+      "sample": "23 제공을 제외했어요. > 스윕: Suno 블로그·릴리스 10/23 AirPlay, Mistral Voxtral",
+      "brief_date": "2026-10-28"
     },
     {
       "term": "Udio",
       "hint": "음악 생성",
       "hits": 1,
-      "sample": "로그 10/13·릴리스 10/23, Udio 목록 2025/11/19와 날짜 검색, ElevenLabs Produc",
-      "brief_date": "2026-10-27"
-    },
-    {
-      "term": "Veo",
-      "hint": "Google 영상 모델",
-      "hits": 1,
-      "sample": "0 이상에서 지원해요. Imagen·Veo·임베딩 등에는 적용되지 않는 지원 제한도 있어요. - 출처: [원",
-      "brief_date": "2026-10-27"
-    },
-    {
-      "term": "fal",
-      "hint": "생성 모델 추론 허브",
-      "hits": 1,
-      "sample": "/News 10/26/연구 9/3, fal 10/20·Explore, BFL 10/15·API, Adobe 블로그",
-      "brief_date": "2026-10-27"
+      "sample": "도 신규 변경은 검증하지 못했어요. Udio 목록은 오래돼 공식 날짜 검색으로도 현재 발표 유무를 확정하지 못했어요",
+      "brief_date": "2026-10-28"
     }
   ]
 }
