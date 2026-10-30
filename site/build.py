@@ -691,11 +691,17 @@ def redistribute_top5(sections: list) -> list:
         domain = infer_card_domain(card)
         dest_i = None
         dest_card = None
-        # Prefer best title match among existing category cards
+        # Exact titles must win over an earlier, loosely related story.
+        norm_title = _norm_card_title(card["title"])
         for si, ec in existing:
-            if titles_match(card["title"], ec.get("title") or ""):
+            if _norm_card_title(ec.get("title") or "") == norm_title:
                 dest_i, dest_card = si, ec
                 break
+        if dest_card is None:
+            for si, ec in existing:
+                if titles_match(card["title"], ec.get("title") or ""):
+                    dest_i, dest_card = si, ec
+                    break
         if dest_card is None:
             # Short names can fall below titles_match's eight-character guard.
             # Reuse only a unique exact head with additional shared context;
@@ -761,7 +767,7 @@ def redistribute_top5(sections: list) -> list:
                 if c.get("_raw") or not c.get("title"):
                     continue
                 n += 1
-                if c is dest_card or titles_match(c.get("title") or "", card["title"]):
+                if c is dest_card:
                     dest_n = n
                     break
 

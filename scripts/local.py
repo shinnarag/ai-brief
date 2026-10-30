@@ -81,6 +81,7 @@ def main() -> int:
         print("READY for local build. This command does not research, publish, or schedule.")
         return 0
     if args.command == "build":
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "test_top5.py")], check=True, cwd=ROOT)
         subprocess.run([sys.executable, str(ROOT / "site" / "build.py")], check=True, cwd=ROOT)
     latest = validate_output(node)
     if args.command == "serve":
