@@ -1,110 +1,82 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "candidates": [
     {
-      "term": "Suno",
-      "hint": "음악 생성",
-      "hits": 21,
-      "sample": "ve는 모션그래픽의 요소별 수정을, Suno MCP는 대화형 음악 작업을 보완해요. 음성·영상·광고와 에이전트도 실",
-      "brief_date": "2026-10-29"
+      "term": "Pika",
+      "hint": "영상 생성",
+      "hits": 34,
+      "sample": "FX v3 계정·지역 접근 확인 · Pika 호스팅과 한국 가중치 라이선스 구분 · Suno Studio 편집 기능",
+      "brief_date": "2026-10-30"
     },
     {
       "term": "ElevenLabs",
       "hint": "음성 합성",
-      "hits": 18,
-      "sample": "ng) · 신뢰도: 공식 5. **ElevenLabs Cue, 자막·가사를 소리에 맞추는 기술을 공개했어요 (10/28)**",
-      "brief_date": "2026-10-29"
+      "hits": 27,
+      "sample": "리스 10/29·Studio·가격, ElevenLabs Product·Research·API 기록 10/26을 나눠 확인했어요",
+      "brief_date": "2026-10-30"
     },
     {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 7,
-      "sample": "4K API·Genie 4·LFM3·Higgsfield Playable·Codex 0.165.0·Kimi Work 3.2.21",
-      "brief_date": "2026-10-29"
-    },
-    {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 7,
-      "sample": "신뢰도: 공식 2. **Krea, Seedance API의 영상 참조·별도 잔액 조건을 정리했어요 (10/28 · 사용",
-      "brief_date": "2026-10-29"
-    },
-    {
-      "term": "FLUX 3",
-      "hint": "BFL 멀티모달·영상 모델",
-      "hits": 2,
-      "sample": "ng) · 신뢰도: 공식 7. **FLUX 3 Image, 출력 크기를 직접 정하고 원본 크기로 편집해요 (10/22",
-      "brief_date": "2026-10-29"
-    },
-    {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
-      "hits": 2,
-      "sample": "을 함께 확인해요 > 전일 제외: Runway Ads 유료 확대·Krea 4K API·Genie 4·LFM3·Higg",
-      "brief_date": "2026-10-29"
+      "term": "Suno",
+      "hint": "음악 생성",
+      "hits": 13,
+      "sample": "팅과 한국 가중치 라이선스 구분 · Suno Studio 편집 기능 시험 · Carbon 제한 제공 일정 확인 수집",
+      "brief_date": "2026-10-30"
     },
     {
       "term": "Hailuo/MiniMax",
       "hint": "영상·모델 벤더",
-      "hits": 1,
-      "sample": "부 기능·한국 제공은 미확인이에요. MiniMax·Dreamina도 별도 확인했어요. > 스윕: 목록 밖 탐색은 영어·한",
-      "brief_date": "2026-10-29"
+      "hits": 4,
+      "sample": "mina·Jimeng·CapCut, MiniMax 모델 10/19·API·IR, Hunyuan·Wan 공식 저장소, Ha",
+      "brief_date": "2026-10-30"
+    },
+    {
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 4,
+      "sample": "·한국 제외 라이선스를 구분했어요. Runway News는 메뉴만 읽혔고 API 실패는 현재 문서의 실제 변경 기록으로",
+      "brief_date": "2026-10-30"
+    },
+    {
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
+      "hits": 4,
+      "sample": "11. **Runway API, Seedance 2 영상 비트레이트를 추가 비용 없이 높여요 (10/27 · 누락 보완",
+      "brief_date": "2026-10-30"
     },
     {
       "term": "Kling",
       "hint": "영상 생성 모델",
+      "hits": 2,
+      "sample": "색으로 보완했어요. BytePlus·Kling API는 제목·수정일만 읽혀 새 가격·GA는 미확인이에요. Kling",
+      "brief_date": "2026-10-30"
+    },
+    {
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
       "hits": 1,
-      "sample": "장소로 보완했어요. BytePlus·Kling 일부 API 경로는 제목만 읽혀 가격·제공 범위를 확정하지 못했어요.",
-      "brief_date": "2026-10-29"
+      "sample": "구해 최신 10/27을 확인했어요. Higgsfield 10/27·fal·BFL 10/22·Adobe·Krea 10/28·Ki",
+      "brief_date": "2026-10-30"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
       "hits": 1,
-      "sample": "PixVerse·Decart·LTX·Luma, Synthesia·Figma·Magnific의 제품·변경·가격 경로를",
-      "brief_date": "2026-10-29"
+      "sample": "jo 10/29 변경을 확인했어요. Luma 뉴스 추출 오류는 공개 HTML로 복구했고 최신 10/27·현재 상태를",
+      "brief_date": "2026-10-30"
     },
     {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
+      "term": "Veo",
+      "hint": "Google 영상 모델",
       "hits": 1,
-      "sample": "ma 3는 기존 발표와 구별했어요. Midjourney 빈 제품 경로는 공식 업데이트의 10/8 항목으로 부분 보완했어요. >",
-      "brief_date": "2026-10-29"
-    },
-    {
-      "term": "Pika",
-      "hint": "영상 생성",
-      "hits": 1,
-      "sample": "요. > 스윕: Krea·Kittl·Pika·Mirage·PixVerse·Decart·LTX·Luma, Synthe",
-      "brief_date": "2026-10-29"
-    },
-    {
-      "term": "Sora",
-      "hint": "OpenAI 영상 모델",
-      "hits": 1,
-      "sample": "·GitHub 릴리스로 보완했어요. Sora 옛 경로 실패는 현재 공식 제품의 종료 FAQ로 보완했으며 문서 수정일",
-      "brief_date": "2026-10-29"
-    },
-    {
-      "term": "Udio",
-      "hint": "음악 생성",
-      "hits": 1,
-      "sample": "MCP와 제품·도움말로 보완했어요. Udio 블로그는 오래된 목록만 읽혀 공식 날짜 검색으로도 현재 소식 유무를 확",
-      "brief_date": "2026-10-29"
+      "sample": "ideo Generation 작업이 Veo 3.1 Quality·Fast를 이용해 720p 또는 1080p 영상을",
+      "brief_date": "2026-10-30"
     },
     {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
       "hits": 1,
-      "sample": "로 API 10/22 변경을 찾았고 fal 모델의 NEW 배지는 발표일로 쓰지 않았어요. Adobe 공식 커뮤니티",
-      "brief_date": "2026-10-29"
-    },
-    {
-      "term": "화면비",
-      "hint": "9:16·16:9 등",
-      "hits": 1,
-      "sample": "영상으로 편집할 때는 원본 길이와 화면비를 따르므로 요청의 duration·aspect_ratio 값이 무시돼요",
-      "brief_date": "2026-10-29"
+      "sample": "요. Higgsfield 10/27·fal·BFL 10/22·Adobe·Krea 10/28·Kittl·Mirage",
+      "brief_date": "2026-10-30"
     }
   ]
 }
