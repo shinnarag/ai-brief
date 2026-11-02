@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-30T11:00:22",
+  "generated_at": "2026-11-02T10:28:22",
   "platform": "AI Pulse",
-  "count": 74,
+  "count": 75,
   "domains": {
     "models": "모델 · 플랫폼",
     "agents": "에이전트 · 자동화",
@@ -11,37 +11,37 @@
     "policy": "규제 · 리스크"
   },
   "domain_counts": {
-    "creative": 539,
-    "models": 678,
-    "agents": 382,
-    "marketing": 473,
-    "policy": 131,
-    "infra": 120
+    "creative": 557,
+    "models": 691,
+    "agents": 386,
+    "policy": 132,
+    "marketing": 475,
+    "infra": 122
   },
   "companies": [
     [
       "GitHub",
-      238
-    ],
-    [
-      "Claude",
-      140
-    ],
-    [
-      "Gemini",
-      124
+      228
     ],
     [
       "Copilot",
-      107
+      146
+    ],
+    [
+      "Claude",
+      144
+    ],
+    [
+      "Gemini",
+      123
     ],
     [
       "Google",
-      107
+      112
     ],
     [
       "OpenAI",
-      93
+      95
     ],
     [
       "ChatGPT",
@@ -53,103 +53,91 @@
     ],
     [
       "Runway",
-      60
-    ],
-    [
-      "Kling",
-      56
-    ],
-    [
-      "Cloudflare",
-      47
-    ],
-    [
-      "Pika",
-      42
+      65
     ],
     [
       "Figma",
-      40
+      56
+    ],
+    [
+      "Pika",
+      44
+    ],
+    [
+      "Cloudflare",
+      38
+    ],
+    [
+      "Kling",
+      38
     ],
     [
       "Meta",
-      32
-    ],
-    [
-      "Grok",
-      32
+      29
     ],
     [
       "Mistral",
       26
     ],
     [
-      "Canva",
-      26
-    ],
-    [
-      "Perplexity",
+      "Microsoft",
       25
     ],
     [
-      "DeepSeek",
-      25
-    ],
-    [
-      "Luma",
-      25
+      "Grok",
+      24
     ],
     [
       "Anthropic",
-      24
+      23
+    ],
+    [
+      "DeepSeek",
+      17
     ],
     [
       "DeepMind",
       15
     ],
     [
+      "Perplexity",
+      14
+    ],
+    [
       "Adobe",
-      15
+      14
     ],
     [
-      "Microsoft",
-      10
-    ],
-    [
-      "Apple",
-      10
-    ],
-    [
-      "Hugging Face",
-      9
-    ],
-    [
-      "NVIDIA",
-      9
-    ],
-    [
-      "Midjourney",
-      8
+      "Luma",
+      14
     ],
     [
       "Firefly",
       8
     ],
     [
+      "Hugging Face",
+      7
+    ],
+    [
+      "Midjourney",
+      7
+    ],
+    [
       "Oracle",
       7
     ],
     [
+      "NVIDIA",
+      6
+    ],
+    [
       "xAI",
-      5
+      6
     ],
     [
       "ByteDance",
       3
-    ],
-    [
-      "Salesforce",
-      2
     ],
     [
       "Notion",
@@ -157,16 +145,74 @@
     ],
     [
       "Sora",
+      2
+    ],
+    [
+      "Apple",
+      2
+    ],
+    [
+      "Salesforce",
+      2
+    ],
+    [
+      "Canva",
       1
     ]
   ],
   "company_heat": {
     "days": 7,
-    "start": "2026-10-24",
-    "end": "2026-10-30",
+    "start": "2026-10-27",
+    "end": "2026-11-02",
     "brief_count": 5
   },
   "briefs": [
+    {
+      "date": "2026-11-02",
+      "title": "AI Daily Brief — 2026-11-02 (71시간 58분 · 주말 포함·최근 7일 보완)",
+      "theme": "광고·숏폼 제작은 승인과 수정으로 이어지고, 에이전트 API의 실제 제공 범위도 넓어져요",
+      "theme_blurb": "브랜드 자료에서 광고 시안을 만들고 촬영본 없이 숏폼을 구성하는 도구가 늘어요. LongCat·Gemini의 API와 국내 기업용 모델 플랫폼도 확인했지만, 새 공개·베타·종료 예고와 실제 이용 조건은 따로 봐야 해요.",
+      "edition_title": "광고·숏폼 제작은 승인과 수정으로 이어지고, 에이전트 API의 실제 제공 범위도 넓어져요",
+      "edition_blurb": "브랜드 자료에서 광고 시안을 만들고 촬영본 없이 숏폼을 구성하는 도구가 늘어요. LongCat·Gemini의 API와 국내 기업용 모델 플랫폼도 확인했지만, 새 공개·베타·종료 예고와 실제 이용 조건은 따로 봐야 해요.",
+      "url": "brief/2026-11-02.html",
+      "excerpt": "전일 제외: Gemini Carbon·앱 문서 편집·Notebook 교과서, Pika H3 Flex, Suno Studio·MCP, SFX v3·Lettuce, Copilot Fusion·Memory는 기수록이에요. 같은 제품도 별도 기능·제공 경로·실제 종료만 남겼어요. 날짜만 있는 원문은 시각·시간대 미확인이며 임의로 KST를 만들지 않았어요.",
+      "top5": [
+        "Krea Ad Studio, 브랜드 URL을 정적 광고 시안 묶음으로 바꿔요 (10/29 · 누락 보완)",
+        "LongCat-2.5, 시각 이해와 장기 코딩용 API를 공개했어요 (11/2)",
+        "피카에이전트, 촬영본 없이 기획을 승인하고 숏폼 장면을 고쳐요 (10/26 · 누락 보완)",
+        "Gemini API Computer Use, 두 API에서 정식 제공해요 (10/30 · GA)",
+        "HyperFrames, 구간 출력·유료 클라우드 렌더와 영상·음성 검수를 보강했어요 (10/30~11/2 KST · 후속)"
+      ],
+      "domains": [
+        "agents",
+        "creative",
+        "infra",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "companies": [
+        "GitHub",
+        "Copilot",
+        "Figma",
+        "Claude",
+        "Gemini",
+        "Google",
+        "Microsoft",
+        "Cloudflare",
+        "OpenAI",
+        "Runway",
+        "ChatGPT",
+        "Meta",
+        "ElevenLabs",
+        "NVIDIA",
+        "Pika",
+        "Hugging Face"
+      ],
+      "has_rumor": false,
+      "source": "md",
+      "stub": false
+    },
     {
       "date": "2026-10-30",
       "title": "AI Daily Brief — 2026-10-30 (23시간 55분 · 최근 7일 보완)",
@@ -248,11 +294,11 @@
         "Adobe",
         "DeepSeek",
         "Figma",
-        "Grok",
         "Meta",
+        "Grok",
         "Firefly",
         "Perplexity",
-        "ByteDance"
+        "Microsoft"
       ],
       "has_rumor": false,
       "source": "md",
@@ -342,8 +388,8 @@
         "Anthropic",
         "Copilot",
         "Meta",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "DeepMind"
       ],
       "has_rumor": false,
@@ -420,8 +466,8 @@
         "policy"
       ],
       "companies": [
-        "Claude",
         "GitHub",
+        "Claude",
         "OpenAI",
         "Google",
         "Anthropic",
@@ -435,7 +481,7 @@
         "Cloudflare",
         "xAI",
         "Adobe",
-        "Midjourney"
+        "ElevenLabs"
       ],
       "has_rumor": false,
       "source": "md",
@@ -663,8 +709,8 @@
         "Anthropic",
         "Cloudflare",
         "DeepSeek",
-        "Copilot",
         "Firefly",
+        "Copilot",
         "Google"
       ],
       "has_rumor": false,
@@ -801,8 +847,8 @@
         "Copilot",
         "Gemini",
         "NVIDIA",
-        "Cloudflare",
         "Perplexity",
+        "Cloudflare",
         "ByteDance"
       ],
       "has_rumor": false,
@@ -849,7 +895,7 @@
         "Meta",
         "AWS",
         "DeepSeek",
-        "Azure"
+        "Adobe"
       ],
       "has_rumor": false,
       "source": "md",
@@ -934,8 +980,8 @@
         "Google",
         "OpenAI",
         "Gemini",
-        "Cloudflare",
         "ElevenLabs",
+        "Cloudflare",
         "Adobe",
         "Meta",
         "NVIDIA",
@@ -1025,8 +1071,8 @@
         "ChatGPT",
         "Luma",
         "NVIDIA",
-        "Claude",
         "Google",
+        "Claude",
         "Gemini",
         "Meta",
         "Oracle",
@@ -1308,8 +1354,8 @@
         "Midjourney",
         "Amazon",
         "Pika",
-        "Cloudflare",
-        "ElevenLabs"
+        "ElevenLabs",
+        "Perplexity"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1339,8 +1385,8 @@
         "policy"
       ],
       "companies": [
-        "Claude",
         "GitHub",
+        "Claude",
         "Cloudflare",
         "OpenAI",
         "Runway",
@@ -1445,7 +1491,7 @@
         "Perplexity",
         "DeepSeek",
         "Google",
-        "OpenAI"
+        "Notion"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1536,7 +1582,7 @@
         "Adobe",
         "Microsoft",
         "Anthropic",
-        "Runway"
+        "Amazon"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1620,13 +1666,13 @@
         "Gemini",
         "ChatGPT",
         "Salesforce",
-        "Cloudflare",
         "Midjourney",
+        "Cloudflare",
         "Microsoft",
         "DeepMind",
         "DeepSeek",
-        "Runway",
-        "Oracle"
+        "Oracle",
+        "Runway"
       ],
       "has_rumor": false,
       "source": "md",
@@ -1758,10 +1804,10 @@
         "NVIDIA",
         "Midjourney",
         "Microsoft",
-        "Claude",
-        "Runway",
         "Amazon",
         "GitHub",
+        "Runway",
+        "Claude",
         "Azure",
         "Kling"
       ],
@@ -1800,8 +1846,8 @@
         "DeepSeek",
         "Meta",
         "Mistral",
-        "Runway",
         "Google",
+        "Runway",
         "Firefly",
         "Kling",
         "Anthropic",
@@ -1848,10 +1894,10 @@
         "Runway",
         "Anthropic",
         "Midjourney",
-        "Claude",
         "NVIDIA",
-        "Grok",
+        "Claude",
         "Meta",
+        "Grok",
         "Hugging Face",
         "Gemini",
         "Sora"
@@ -1987,8 +2033,8 @@
         "Canva",
         "DeepMind",
         "Runway",
-        "Apple",
         "Kling",
+        "Apple",
         "Sora",
         "Luma",
         "xAI"
@@ -2071,11 +2117,11 @@
         "DeepSeek",
         "Apple",
         "ChatGPT",
-        "Runway",
         "Google",
+        "Runway",
         "Hugging Face",
-        "Claude",
         "GitHub",
+        "Claude",
         "Anthropic",
         "Midjourney",
         "Grok",
@@ -2207,8 +2253,8 @@
         "Grok",
         "Hugging Face",
         "Claude",
-        "NVIDIA",
         "Google",
+        "NVIDIA",
         "GitHub",
         "xAI",
         "IBM",
@@ -2298,8 +2344,8 @@
         "Grok",
         "Hugging Face",
         "DeepSeek",
-        "Mistral",
         "ChatGPT",
+        "Mistral",
         "Gemini",
         "NVIDIA",
         "Kling",
@@ -2391,10 +2437,10 @@
         "Midjourney",
         "Copilot",
         "Gemini",
-        "Runway",
         "Google",
         "Amazon",
-        "GitHub"
+        "GitHub",
+        "Runway"
       ],
       "has_rumor": false,
       "source": "md",
@@ -2475,8 +2521,8 @@
         "ElevenLabs",
         "Runway",
         "Grok",
-        "Copilot",
         "Firefly",
+        "Copilot",
         "Kling"
       ],
       "has_rumor": false,
@@ -2518,8 +2564,8 @@
         "Copilot",
         "ElevenLabs",
         "Google",
-        "Grok",
         "Luma",
+        "Grok",
         "Amazon",
         "GitHub",
         "Midjourney"
@@ -2701,8 +2747,8 @@
         "DeepMind",
         "ChatGPT",
         "AWS",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "DeepSeek",
         "Runway"
       ],
@@ -2747,8 +2793,8 @@
         "NVIDIA",
         "AWS",
         "ByteDance",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "DeepMind",
         "DeepSeek"
       ],
@@ -2782,8 +2828,8 @@
       ],
       "companies": [
         "OpenAI",
-        "Claude",
         "Google",
+        "Claude",
         "Meta",
         "Anthropic",
         "GitHub",
@@ -2975,8 +3021,8 @@
         "Hugging Face",
         "Notion",
         "AWS",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "Runway"
       ],
       "has_rumor": false,
@@ -3013,17 +3059,17 @@
         "ChatGPT",
         "DeepMind",
         "Anthropic",
-        "Claude",
         "NVIDIA",
+        "Claude",
         "Hugging Face",
         "Google",
         "GitHub",
         "Oracle",
         "Kling",
-        "Runway",
         "Amazon",
+        "Runway",
         "Meta",
-        "Midjourney"
+        "ElevenLabs"
       ],
       "has_rumor": false,
       "source": "md",
@@ -3153,11 +3199,11 @@
         "GitHub",
         "Copilot",
         "Luma",
-        "Midjourney",
         "ElevenLabs",
+        "Midjourney",
         "Microsoft",
-        "Google",
-        "Zapier"
+        "Zapier",
+        "Google"
       ],
       "has_rumor": false,
       "source": "md",
@@ -3194,8 +3240,8 @@
         "DeepSeek",
         "ChatGPT",
         "Microsoft",
-        "Claude",
         "Gemini",
+        "Claude",
         "Kling",
         "Meta",
         "Cloudflare",
