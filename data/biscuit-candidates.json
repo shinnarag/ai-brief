@@ -1,103 +1,96 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "candidates": [
     {
-      "term": "Seedance",
-      "hint": "ByteDance 영상 생성 모델",
-      "hits": 7,
-      "sample": "공식 14. **BytePlus Seedance, 초안 ID를 14일 동안 최종 생성에 쓸 수 있어요 (10/28 ·",
-      "brief_date": "2026-11-02"
-    },
-    {
-      "term": "Runway",
-      "hint": "영상·크리에이티브 툴",
-      "hits": 6,
-      "sample": "정과 10/19 공개를 구분했어요. Runway News는 웹·공개 HTML 모두 메뉴만 읽혀 전체 뉴스 한계가 있지만",
-      "brief_date": "2026-11-02"
-    },
-    {
-      "term": "ElevenLabs",
-      "hint": "음성 합성",
-      "hits": 3,
-      "sample": "신 전체 소식을 확정하지 못했어요. ElevenLabs Product 10/29·Research 10/28·API 10/26과",
-      "brief_date": "2026-11-02"
-    },
-    {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
-      "hits": 3,
-      "sample": "로그인 이동·500으로 남았어요. MiniMax 모델 10/19·Hailuo·API의 2025년 10/28을 구분했어요",
-      "brief_date": "2026-11-02"
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 21,
+      "sample": "journey 최신 노출 10/8, Higgsfield 변경 기록 11/2·10/30, BFL 블로그 10/15·개발 기록 1",
+      "brief_date": "2026-11-03"
     },
     {
       "term": "Pika",
       "hint": "영상 생성",
-      "hits": 3,
-      "sample": "문서 편집·Notebook 교과서, Pika H3 Flex, Suno Studio·MCP, SFX v3·Lettuc",
-      "brief_date": "2026-11-02"
+      "hits": 17,
+      "sample": "Kittl 기존 글의 날짜 차이, Pika 발표 5스템과 현재 3 WAV·웹 예정, Mirage/Tesseract",
+      "brief_date": "2026-11-03"
     },
     {
-      "term": "Luma",
-      "hint": "영상 생성",
+      "term": "Runway",
+      "hint": "영상·크리에이티브 툴",
+      "hits": 10,
+      "sample": "성과를 만들지 않았어요. > 스윕: Runway News 메뉴만 추출되는 한계는 개별 Dev 발표·문서로 보완했고 AP",
+      "brief_date": "2026-11-03"
+    },
+    {
+      "term": "Kling",
+      "hint": "영상 생성 모델",
+      "hits": 7,
+      "sample": "28·제품 10/27은 중복이에요. Kling 장애 페이지 추출 실패는 공식 HTML·Statuspage JSON으로",
+      "brief_date": "2026-11-03"
+    },
+    {
+      "term": "ElevenLabs",
+      "hint": "음성 합성",
+      "hits": 5,
+      "sample": "신 발표 전체를 확정하지 못했어요. ElevenLabs Product 11/2·Research·API 10/26을 따로 보고",
+      "brief_date": "2026-11-03"
+    },
+    {
+      "term": "Seedance",
+      "hint": "ByteDance 영상 생성 모델",
+      "hits": 3,
+      "sample": "검증하지 못했어요. BytePlus Seedance 제목만 읽히던 문서는 공개 HTML로 복구해 10/28 이후 Draft",
+      "brief_date": "2026-11-03"
+    },
+    {
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
       "hits": 2,
-      "sample": "irage, Decart, LTX, Luma, Sonilo, ClipTalk, Synthesia, Figma, Ma",
-      "brief_date": "2026-11-02"
+      "sample": "저장소로 S2를 대체하지 않았어요. MiniMax 모델 10/19·API의 2025년 10/28·Hailuo 현재 제품을",
+      "brief_date": "2026-11-03"
+    },
+    {
+      "term": "Seedream",
+      "hint": "ByteDance 이미지 생성 모델",
+      "hits": 2,
+      "sample": "지는 Fast를 사용해요. - Seedream 5 Pro는 1K 1.5크레딧·2K 2.75크레딧, Seedream 4",
+      "brief_date": "2026-11-03"
     },
     {
       "term": "Suno",
       "hint": "음악 생성",
       "hits": 2,
-      "sample": "교과서, Pika H3 Flex, Suno Studio·MCP, SFX v3·Lettuce, Copilot Fus",
-      "brief_date": "2026-11-02"
+      "sample": "er Use·Notebook 교과서·Suno Studio/MCP·Claude Code 2.1.316·Codex 0.",
+      "brief_date": "2026-11-03"
     },
     {
-      "term": "FLUX 3",
-      "hint": "BFL 멀티모달·영상 모델",
+      "term": "Luma",
+      "hint": "영상 생성",
       "hits": 1,
-      "sample": "ly·커뮤니티를 대조했어요. fal FLUX3 Max는 10/31 수정과 10/19 공개를 구분했어요. Runway",
-      "brief_date": "2026-11-02"
-    },
-    {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 1,
-      "sample": "지 못해 확정 출시에서 제외했어요. Higgsfield 10/27·API, BFL 블로그 10/15·API 10/22, Ado",
-      "brief_date": "2026-11-02"
-    },
-    {
-      "term": "Kling",
-      "hint": "영상 생성 모델",
-      "hits": 1,
-      "sample": "2025년 10/28을 구분했어요. Kling 제품·공식 검색을 대조했고 X 403·API/가격 본문 부족은 Kuai",
-      "brief_date": "2026-11-02"
+      "sample": ", LTX 10/29를 대조했어요. Luma 뉴스 형식 오류는 공개 HTML로 복구해 10/27 기존 기능과 현재",
+      "brief_date": "2026-11-03"
     },
     {
       "term": "Midjourney",
       "hint": "이미지 생성 서비스",
       "hits": 1,
-      "sample": "28은 기존 사건이에요. > 스윕: Midjourney 공식 업데이트는 10/8, 제품 업데이트는 빈 본문이에요. 10/28",
-      "brief_date": "2026-11-02"
-    },
-    {
-      "term": "Sora",
-      "hint": "OpenAI 영상 모델",
-      "hits": 1,
-      "sample": "0.166.0을 따로 확인했어요. Sora 종료 이후 재개를 요구하는 커뮤니티 글은 새 출시가 아니에요. Anth",
-      "brief_date": "2026-11-02"
+      "sample": "PI 제공을 구분했어요. > 스윕: Midjourney 최신 노출 10/8, Higgsfield 변경 기록 11/2·10/30",
+      "brief_date": "2026-11-03"
     },
     {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
       "hits": 1,
-      "sample": "irefly·커뮤니티를 대조했어요. fal FLUX3 Max는 10/31 수정과 10/19 공개를 구분했어요. R",
-      "brief_date": "2026-11-02"
+      "sample": "10/15·개발 기록 10/22, fal 블로그 10/20·Explore를 확인했어요. NEW 배지는 출시일로",
+      "brief_date": "2026-11-03"
     },
     {
       "term": "화면비",
       "hint": "9:16·16:9 등",
       "hits": 1,
-      "sample": "목적에 따라 확대·커서·카메라·자막·화면비·출력을 설정해요. 원본 녹화는 유지하고 편집기에서 다른 프리셋으로 바꿀",
-      "brief_date": "2026-11-02"
+      "sample": "30초, 720p/1080p·5개 화면비를 안내해요. 로그인 후 플랜별 제공량은 미확인이라 전 플랜 무료로 쓰지",
+      "brief_date": "2026-11-03"
     }
   ]
 }
