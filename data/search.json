@@ -1,7 +1,1047 @@
 {
-  "generated_at": "2026-11-04T09:42:38",
-  "count": 2392,
+  "generated_at": "2026-11-05T09:58:48",
+  "count": 2444,
   "items": [
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-01",
+      "title": "Images 2.6, GIF·SVG와 표시한 부분 편집을 더했어요 (11/4)",
+      "snippet": "표시한 부분을 편집하고 SVG·GIF를 만들어요. API의 SVG·GIF 출력은 생성 전용이며 편집 출력과 달라요.",
+      "text": "Images 2.6, GIF·SVG와 표시한 부분 편집을 더했어요 (11/4) 표시한 부분을 편집하고 SVG·GIF를 만들어요. API의 SVG·GIF 출력은 생성 전용이며 편집 출력과 달라요. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-top-5-01"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-02",
+      "title": "Gemini 3.8 TTS, 기존 목소리를 말로 고쳐 저장해요 (11/4 · 출시 후속)",
+      "snippet": "기존·설계 음성을 말로 바꿔 새 음성으로 저장해요. 유료 Tier 1 이상과 저장 한도가 적용돼요.",
+      "text": "Gemini 3.8 TTS, 기존 목소리를 말로 고쳐 저장해요 (11/4 · 출시 후속) 기존·설계 음성을 말로 바꿔 새 음성으로 저장해요. 유료 Tier 1 이상과 저장 한도가 적용돼요. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-top-5-02"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-03",
+      "title": "Kling 4.0 Flash, 전체 사용자에게 열리고 20초 생성 API를 제공해요 (11/5 00:00 KST · 후속)",
+      "snippet": "웹·API 이용 대상을 넓혔어요. API는 720p·3~20초이며 영상 입력이 있으면 과금 초 계산이 달라요.",
+      "text": "Kling 4.0 Flash, 전체 사용자에게 열리고 20초 생성 API를 제공해요 (11/5 00:00 KST · 후속) 웹·API 이용 대상을 넓혔어요. API는 720p·3~20초이며 영상 입력이 있으면 과금 초 계산이 달라요. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-top-5-03"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-04",
+      "title": "Premiere, 촬영물 속 물체를 지우는 Generative Remove를 베타로 넣었어요 (11/5 KST · 베타)",
+      "snippet": "촬영 영상의 물체를 지우는 베타예요. 최대 10초·1080p SDR·30fps 이하 조건을 먼저 확인해야 해요.",
+      "text": "Premiere, 촬영물 속 물체를 지우는 Generative Remove를 베타로 넣었어요 (11/5 KST · 베타) 촬영 영상의 물체를 지우는 베타예요. 최대 10초·1080p SDR·30fps 이하 조건을 먼저 확인해야 해요. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-top-5-04"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "Top 5",
+      "sectionId": "top-5",
+      "cardId": "c-top-5-05",
+      "title": "Luma MCP, 채팅에서 제품 사진을 캠페인 소재로 바꿔요 (11/4 KST · 누락 보완)",
+      "snippet": "ChatGPT·Claude에서 이미지·짧은 영상 제작을 연결해요. 생성에는 기존 Luma 구독의 크레딧을 사용해요.",
+      "text": "Luma MCP, 채팅에서 제품 사진을 캠페인 소재로 바꿔요 (11/4 KST · 누락 보완) ChatGPT·Claude에서 이미지·짧은 영상 제작을 연결해요. 생성에는 기존 Luma 구독의 크레딧을 사용해요. 콘텐츠 · 크리에이티브",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-top-5-05"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-01",
+      "title": "Tencent Hy4 정식판, 이미지 이해와 컴퓨터 작업을 더했어요 (11/4)",
+      "snippet": "Tencent가 Hy4 Preview 후속 정식판을 발표했어요. 처음으로 시각 이해를 더하고 이미지·복잡한 차트 분석, 긴 문서 이해와 여러 단계의 에이전트 작업을 강화했다고 설명해요.",
+      "text": "Tencent Hy4 정식판, 이미지 이해와 컴퓨터 작업을 더했어요 (11/4) Tencent가 Hy4 Preview 후속 정식판을 발표했어요. 처음으로 시각 이해를 더하고 이미지·복잡한 차트 분석, 긴 문서 이해와 여러 단계의 에이전트 작업을 강화했다고 설명해요. 명령줄과 화면 조작을 함께 쓰는 Computer Use를 지원해요. Blender·CAD와 게임 엔진 업무를 대상으로 훈련했다고 밝혔지만, 제작 결과의 정확도나 완전 자동화를 보장하는 뜻은 아니에요. 공식 발표는 TokenHub·WorkBuddy·CodeBuddy·Yuanbao·WeCom의 Dayuan·ima에서 제공한다고 안내해요. ADP 팀도 같은 날 실제 연결을 확인했고, 제공 한도는 약 105만 토큰 문맥·최대 65,536 출력 토큰으로 안내하되 이용 경로별 차이를 명시했어요. 현재 ADP 공식 안내는 Hy4 호출을 12/31까지 50% 할인해요. 다른 서비스의 혜택이나 무제한 무료 제공으로 확대하지 말고 실제 계정·경로의 적용 조건을 확인해야 해요. 정식판 가중치와 시스템 카드는 앞으로 공개할 예정이에요. 기존 Preview의 공개 가중치와 구별해야 하며, 더 저렴한 Hy4 Flash와 WorkBuddy Projects의 팀 협업도 예정 단계예요. 이번 소식은 서비스 출시이지 정식판 가중치 공개 완료가 아니에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-모델-플랫폼-01"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-02",
+      "title": "Perplexity Decisions API, 웹 근거와 페이지 최신성을 확인해요 (11월 변경 기록 · 11/5 확인)",
+      "snippet": "Decisions API에 web_grounding 모드가 문서화됐어요. 질문마다 Fast Search를 실행해 근거를 넣고 답하며, 한 요청에서 최대 100개 질문을 처리해요. 기존에 이 모드를 쓰지 않는 요청은 유지돼요.",
+      "text": "Perplexity Decisions API, 웹 근거와 페이지 최신성을 확인해요 (11월 변경 기록 · 11/5 확인) Decisions API에 web_grounding 모드가 문서화됐어요. 질문마다 Fast Search를 실행해 근거를 넣고 답하며, 한 요청에서 최대 100개 질문을 처리해요. 기존에 이 모드를 쓰지 않는 요청은 유지돼요. state에 페이지 URL을 넣으면 먼저 본문을 가져와 검색에 사용해요. 결과에는 가져온 페이지와 검색 근거가 구분되어 반환돼요. max_staleness는 마지막 수집 후 허용할 경과 초를 정해 오래된 저장본을 다시 읽게 해요. 성공한 URL 수집과 각 검색에 각각 $0.001이 들고, 추가된 본문의 입력 토큰 비용도 별도예요. Python·TypeScript SDK에는 아직 mode 인자가 없어 요청 본문으로 전달해야 해요. 가격·상품 조건 등을 점검하는 자동화에 쓸 수 있지만, 공식 변경 기록은 정확한 일자 없이 11월만 표시해요. 11/4 출시로 단정하지 않았어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-모델-플랫폼-02"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-03",
+      "title": "GitHub Copilot, Xcode 내장 코딩 도우미에 들어왔어요 (11/4 · 공개 미리보기)",
+      "snippet": "Xcode 27.3 베타의 Settings → Intelligence에서 GitHub Copilot을 연결할 수 있어요. macOS Tahoe 26.6 이상과 Copilot 계정이 필요하며 모든 Copilot 플랜을 지원해요.",
+      "text": "GitHub Copilot, Xcode 내장 코딩 도우미에 들어왔어요 (11/4 · 공개 미리보기) Xcode 27.3 베타의 Settings → Intelligence에서 GitHub Copilot을 연결할 수 있어요. macOS Tahoe 26.6 이상과 Copilot 계정이 필요하며 모든 Copilot 플랜을 지원해요. 공개 미리보기이고 기존 Copilot for Xcode 확장도 별도로 계속 제공돼요. 안정판 Xcode 전체에 적용되거나 이용량이 무제한으로 늘어난 것은 아니에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-모델-플랫폼-03"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "모델 · 플랫폼",
+      "sectionId": "모델-플랫폼",
+      "cardId": "c-모델-플랫폼-04",
+      "title": "Trajectory, 실사용 데이터의 학습·평가·배포를 묶었어요 (11/2 · 누락 보완)",
+      "snippet": "Trajectory가 업무 데이터로 모델을 사후 학습하고 평가·배포하는 플랫폼을 발표했어요. 팀은 실제 과제와 점수를 매기는 기준을 제공하고, 플랫폼이 학습 실행과 모델 배포를 연결하는 방식이에요.",
+      "text": "Trajectory, 실사용 데이터의 학습·평가·배포를 묶었어요 (11/2 · 누락 보완) Trajectory가 업무 데이터로 모델을 사후 학습하고 평가·배포하는 플랫폼을 발표했어요. 팀은 실제 과제와 점수를 매기는 기준을 제공하고, 플랫폼이 학습 실행과 모델 배포를 연결하는 방식이에요. 전문가의 채점 기준을 배우는 Continual Grading과 실제 상호작용에서 학습하는 Group Size 1을 함께 소개했어요. 이 두 연구는 research preview이며 성능 향상이 모든 업무에서 검증됐다는 뜻은 아니에요. 제작·운영 팀의 고유 평가 기준을 모델에 반영하는 데 초점이 있어요. 업데이트를 배포하기 전에 평가와 승인 단계를 두는 흐름이어서, 결과물의 합격 기준부터 정의해야 해요. 발표문은 self-serve를 설명하지만 현재 홈페이지는 Join waitlist를 안내해요. 제한 없는 GA나 바로 가입 가능한 무료 서비스로 쓰지 않았고, 공개 가격도 확인되지 않았어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-모델-플랫폼-04"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-01",
+      "title": "Images 2.6, GIF·SVG와 표시한 부분 편집을 더했어요 (11/4)",
+      "snippet": "OpenAI가 Images 2.6을 ChatGPT·Codex의 모든 구독 등급과 웹·모바일·데스크톱에 세계적으로 제공한다고 밝혔어요. API에는 gpt-image-2.6-flare와 gpt-image-2.6-sunburst가 나왔어요.",
+      "text": "Images 2.6, GIF·SVG와 표시한 부분 편집을 더했어요 (11/4) OpenAI가 Images 2.6을 ChatGPT·Codex의 모든 구독 등급과 웹·모바일·데스크톱에 세계적으로 제공한다고 밝혔어요. API에는 gpt-image-2.6-flare와 gpt-image-2.6-sunburst가 나왔어요. 브랜드 캐릭터·상품 사진을 GIF로 만들고, SVG로 내보내거나 이미지에 표시한 부분을 지정해 고칠 수 있어요. Flare는 빠른 시안, Sunburst는 중·고품질에서 세부 묘사와 편집 간 일관성에 초점을 둬요. 50% 빠른 생성과 최단 6초는 회사가 제시한 조건부 수치예요. 새 complexity 설정은 화질과 별도로 작업 복잡도를 조절해요. 단순 수정에는 low를 권장하며, complexity 자체의 추가 요금은 없어요. 표시를 이용한 API 편집은 2.5에도 지원해요. API의 SVG·GIF 출력은 이미지 생성 엔드포인트에서만 지원하며 편집 엔드포인트의 출력 형식은 아니에요. SVG는 정적 벡터이고, GIF는 2~64프레임을 지정해요. 일반 영상 생성 기능으로 확대 해석하면 안 돼요. 두 모델의 표준 API 요금은 백만 토큰당 텍스트 입력 $5, 이미지 입력 $8, 이미지 출력 $30이에요. 실제 비용은 크기·품질·입력에 따라 달라지고, 조직 확인이 필요할 수 있어요. 같은 상품의 시안·수정·GIF를 묶어 품질과 총비용을 비교해 보세요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-01"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-02",
+      "title": "Gemini 3.8 TTS, 기존 목소리를 말로 고쳐 저장해요 (11/4 · 출시 후속)",
+      "snippet": "9월에 예정으로 소개했던 Voice remixing이 Gemini API의 11/4 변경 기록에 실제 기능으로 올라왔어요. 기존 목소리의 나이·음높이·음색·에너지·억양을 자연어로 바꿔 새 목소리로 저장해요.",
+      "text": "Gemini 3.8 TTS, 기존 목소리를 말로 고쳐 저장해요 (11/4 · 출시 후속) 9월에 예정으로 소개했던 Voice remixing이 Gemini API의 11/4 변경 기록에 실제 기능으로 올라왔어요. 기존 목소리의 나이·음높이·음색·에너지·억양을 자연어로 바꿔 새 목소리로 저장해요. 기본 음성, 확장 음성 목록, 자신이 만든 음성을 바탕으로 수정할 수 있어요. 생성은 Gemini 3.8 Flash TTS로 하고 저장된 목소리는 Flash TTS와 Flash-Lite TTS에서 사용할 수 있어요. 원본을 덮어쓰지 않는 독립된 음성 리소스예요. 원본을 지워도 수정본은 남고, 명시하지 않은 언어·억양은 유지하도록 설계됐어요. 한 번의 대사 연출은 speech_metadata, 지속할 음색 변경은 remixing으로 나눠 쓸 수 있어요. 유료 Tier 1 이상이 필요해요. 설계·수정·복제 음성을 합쳐 프로젝트당 200개까지 저장하며, 마지막 사용 후 1년 보관 기간은 재사용 때 갱신돼요. Gemini 앱 전체나 무료 API 이용자에게 열린 기능으로 쓰면 안 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-02"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-03",
+      "title": "Premiere, 촬영물 속 물체를 지우는 Generative Remove를 베타로 넣었어요 (11/5 KST · 베타)",
+      "snippet": "Premiere 베타의 타임라인에서 마이크·조명대·배경 인물 등에 마스크를 만들고 추적하면 해당 부분을 생성형으로 채워요. 마스크 바깥은 유지하며 원본으로 되돌리거나 다시 생성할 수 있어요.",
+      "text": "Premiere, 촬영물 속 물체를 지우는 Generative Remove를 베타로 넣었어요 (11/5 KST · 베타) Premiere 베타의 타임라인에서 마이크·조명대·배경 인물 등에 마스크를 만들고 추적하면 해당 부분을 생성형으로 채워요. 마스크 바깥은 유지하며 원본으로 되돌리거나 다시 생성할 수 있어요. 여러 물체에 별도 마스크를 만든 뒤 한 번에 지울 수 있어요. 그림자·반사까지 포함하고 재생하며 추적이 맞는지 확인해야 해요. 현재 최대 10초, 480p~1080p, 30fps 이하의 MP4·MOV(H.264/HEVC)를 지원해요. HDR·10비트 영상과 Team Projects는 지원하지 않고 Productions는 지원해요. 처리에는 인터넷이 필요하고 영상은 클라우드로 보내져요. 백그라운드에서 생성하는 동안 다른 편집을 이어갈 수 있어요. 초당 40생성 크레딧을 사용해요. 같은 물체를 지우는 구간을 여러 번 나눠 생성하면 채운 배경이 달라질 수 있어, 짧은 구간부터 비용과 연결감을 함께 확인하는 편이 좋아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-03"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-04",
+      "title": "ElevenLabs, SFX v3·Realtime·v4 음성 복제 제공 범위를 넓혔어요 (11/2 · 누락 보완·후속)",
+      "snippet": "11/2 변경 기록은 SFX v3를 모든 워크스페이스에서 쓸 수 있다고 명시해요. Sound Effects·Studio·Flows의 기본 모델과 Video to music의 효과음 생성에도 적용돼요.",
+      "text": "ElevenLabs, SFX v3·Realtime·v4 음성 복제 제공 범위를 넓혔어요 (11/2 · 누락 보완·후속) 11/2 변경 기록은 SFX v3를 모든 워크스페이스에서 쓸 수 있다고 명시해요. Sound Effects·Studio·Flows의 기본 모델과 Video to music의 효과음 생성에도 적용돼요. API에서는 eleven_text_to_sound_v3를 지정하고 반복용 효과음은 loop=true로 요청해요. 이전 v2는 사용 중단 대상으로 바뀌며 2027년 3월 1일 제거 예정이에요. Eleven Realtime v1 Mini·Max도 10/19 시작한 순차 도입을 마쳐 모든 워크스페이스로 확대됐어요. 에이전트 음성 모드나 Realtime WebSocket으로 연결하고 대화 기록을 확인해요. Eleven v4·v4 Turbo용 Professional Voice Clone 파인튜닝도 모든 워크스페이스 제공으로 바뀌었어요. 해당 복제 음성의 강도 설정을 요청마다 넘기지 않아도 저장값을 사용해요. 계정별 제공 확대를 알리는 후속이며 무제한·무료 생성 공지는 아니에요. 효과음·에이전트·음성 복제의 실제 사용량과 플랜 조건은 각각 확인해야 해요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-04"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-05",
+      "title": "Higgsfield Shorts, 캐릭터와 동작 참고 영상으로 세로 릴스를 만들어요 (11/3 · 누락 보완)",
+      "snippet": "Shorts는 AI 아바타가 진행하는 9:16 영상 도구예요. 캐릭터·주제·동작 참고 영상을 넣으면 주제나 도입 문구, 핵심 내용에서 대본을 만들어요.",
+      "text": "Higgsfield Shorts, 캐릭터와 동작 참고 영상으로 세로 릴스를 만들어요 (11/3 · 누락 보완) Shorts는 AI 아바타가 진행하는 9:16 영상 도구예요. 캐릭터·주제·동작 참고 영상을 넣으면 주제나 도입 문구, 핵심 내용에서 대본을 만들어요. 캐릭터는 업로드한 이미지·영상이나 AI Influencer·기존 생성물에서 가져와요. 동작은 10~120초 참고 영상 또는 Explore의 형식으로 정해요. 결과 길이는 10초~2분이며 Basic·High 품질을 고를 수 있어요. 길이를 바꾸면 필요한 크레딧도 달라져요. Explore에서 본 형식을 자기 캐릭터로 다시 만들 수 있고, Higgsfield 웹 또는 Higgsfield MCP를 연결한 Claude에서 시작해요. 구체적인 플랜별 단가·한국 계정 제공량은 로그인 없는 제품 화면에서 확인되지 않았어요. 브랜드 진행자 시리즈를 시험할 때 캐릭터 일관성과 긴 대사의 자연스러움을 먼저 확인할 만해요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-05"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-06",
+      "title": "Luma MCP, 채팅에서 제품 사진을 캠페인 소재로 바꿔요 (11/4 KST · 누락 보완)",
+      "snippet": "Luma가 ChatGPT·Claude에서 이미지와 영상을 만들 수 있는 MCP 연결을 공개했어요. 기획 대화에서 Luma Agent와 준비된 제작 워크플로를 호출하고 결과를 같은 채팅에서 받아요.",
+      "text": "Luma MCP, 채팅에서 제품 사진을 캠페인 소재로 바꿔요 (11/4 KST · 누락 보완) Luma가 ChatGPT·Claude에서 이미지와 영상을 만들 수 있는 MCP 연결을 공개했어요. 기획 대화에서 Luma Agent와 준비된 제작 워크플로를 호출하고 결과를 같은 채팅에서 받아요. 제품 사진 한 장으로 제품 컷·다른 카메라 각도·배경 교체·조명 변경·짧은 홍보 영상을 이어 만들 수 있어요. 설정 페이지에는 스타일 맞추기와 광고 크기·언어 변형도 소개돼요. 모든 Luma 플랜에 연결이 포함되며 생성할 때는 기존 Luma 플랜의 크레딧을 사용해요. 무료·무제한 생성으로 바뀐 것은 아니에요. 팀용 Claude·ChatGPT에서는 소유자나 관리자가 워크스페이스에 추가한 뒤 각 사용자가 자기 Luma 계정으로 연결해요. 결과는 Luma 계정에 저장되고 채팅에 열기·다운로드 링크가 보여요. 성과가 좋았던 소재를 골라 새 장면으로 바꾸는 흐름을 제안하지만 광고 계정 분석 권한이 자동으로 생긴다는 의미는 아니에요. 사용한 원본과 브랜드 요소가 변형에서 유지되는지 검수해야 해요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-06"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-07",
+      "title": "Hera Creative Canvas, 이미지·디자인·모션을 편집 가능한 레이어로 이어가요 (11/2 · 누락 보완)",
+      "snippet": "Hera의 새 Creative Canvas는 여러 AI 에이전트가 만든 이미지·디자인을 한 화면에서 비교하고, 고른 디자인을 모션 광고로 이어가는 작업판이에요.",
+      "text": "Hera Creative Canvas, 이미지·디자인·모션을 편집 가능한 레이어로 이어가요 (11/2 · 누락 보완) Hera의 새 Creative Canvas는 여러 AI 에이전트가 만든 이미지·디자인을 한 화면에서 비교하고, 고른 디자인을 모션 광고로 이어가는 작업판이에요. 웹사이트에서 브랜드 키트를 가져오거나 참고 이미지를 넣고 색·서체·로고를 맞춰요. 생성 결과는 레이어로 남아 글자·크기·색·위치를 직접 바꿀 수 있어요. 공동창업자는 캔버스에서 직접 수정하는 작업은 크레딧을 소모하지 않는다고 설명했어요. 다만 애니메이션 자체의 수동 세부 조정은 아직 제한적이라고 밝혔어요. 고객별로 보드를 나누고 여러 광고안을 나란히 비교할 수 있어요. 완성 이미지 전체를 재생성하지 않고 문구나 로고만 고치는 제작 흐름이 핵심이에요. 공식 사이트에 무료 시작 경로는 있지만 상세 가격 페이지는 접근하지 못했어요. 생성량·내보내기·상업 사용의 플랜별 조건이나 Product Hunt 할인 활성 여부는 확인하지 못해 확정 요금으로 적지 않아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-07"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-08",
+      "title": "PixelDojo, Krea 3 참고 이미지 편집과 캐릭터 제작 경로를 추가했어요 (11/4)",
+      "snippet": "PixelDojo에 Krea 3가 들어왔어요. 최대 8장 참고 이미지에서 제품·인물·스타일을 가져와 장면·조명·배경을 바꾸고 최대 4K·10개 화면비로 만들어요.",
+      "text": "PixelDojo, Krea 3 참고 이미지 편집과 캐릭터 제작 경로를 추가했어요 (11/4) PixelDojo에 Krea 3가 들어왔어요. 최대 8장 참고 이미지에서 제품·인물·스타일을 가져와 장면·조명·배경을 바꾸고 최대 4K·10개 화면비로 만들어요. 모든 유료 플랜에 포함되며 플랜은 월 $10부터예요. 텍스트만 입력할 때 1K 0.5크레딧, 2K 1.5크레딧, 4K 5.5크레딧이고 참고 이미지마다 비슷한 비용이 추가돼요. API의 krea-3에서도 참고 이미지, Fast·Deep thinking, 표시한 편집 영역을 지원하고 웹과 같은 크레딧 가격을 안내해요. 참고 자료를 많이 넣을수록 최종 생성 비용을 확인해야 해요. 전날 추가된 P-H3-Image는 이번에 Character Studio에서도 선택할 수 있게 됐어요. 최대 8장의 캐릭터 사진을 참고하고 2K 한 장에 1크레딧을 써요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-08"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-09",
+      "title": "AgentReel MCP, 기존 AI 앱에서 영상 제작 도구를 호출해요 (11/3 · 누락 보완)",
+      "snippet": "AgentReel이 Claude·ChatGPT·Claude Code·Codex·Cursor에서 연결하는 원격 MCP 서버를 공개했어요. 브라우저에서 앱별 접근을 승인하며 API 키를 붙여 넣지 않아요.",
+      "text": "AgentReel MCP, 기존 AI 앱에서 영상 제작 도구를 호출해요 (11/3 · 누락 보완) AgentReel이 Claude·ChatGPT·Claude Code·Codex·Cursor에서 연결하는 원격 MCP 서버를 공개했어요. 브라우저에서 앱별 접근을 승인하며 API 키를 붙여 넣지 않아요. 이미지·영상·광고·아바타·더빙·편집과 Code to Video·HTML 렌더 등 창작 도구 12개, 파일·작업·잔액 등을 다루는 보조 도구 6개를 제공해요. 연결은 무료지만 생성에는 기존 계정 크레딧을 사용해요. 첫 구매 전에는 Z-Image·영상 템플릿·Code to Video만 크레딧으로 실행할 수 있고 나머지는 구매가 필요해요. 앱마다 별도 AgentReel 대화에 파일과 결과를 저장해요. 실패한 작업은 크레딧이 반환되며 계정당 동시 작업 5개, 분당 호출 60개, 하루 과금 도구 호출 1,000개 제한이 있어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-09"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-10",
+      "title": "AgentReel, 화자 추적 편집과 음량 검사를 채팅에 넣었어요 (11/4)",
+      "snippet": "두 사람 인터뷰에서 말하는 사람을 따라 9:16으로 자르거나 두 얼굴을 위아래로 배치할 수 있어요. 긴 영상에서 도입 구간을 평가해 자막을 붙인 여러 숏폼으로 나누는 기능도 추가했어요.",
+      "text": "AgentReel, 화자 추적 편집과 음량 검사를 채팅에 넣었어요 (11/4) 두 사람 인터뷰에서 말하는 사람을 따라 9:16으로 자르거나 두 얼굴을 위아래로 배치할 수 있어요. 긴 영상에서 도입 구간을 평가해 자막을 붙인 여러 숏폼으로 나누는 기능도 추가했어요. 음량·피크·배경음의 목소리 가림·참고 믹스와의 차이를 검사하고, YouTube·팟캐스트·방송 등 목표에 맞춰 배경 음악을 낮출 수 있어요. 이미지의 화이트보드식 드로잉, 종이 콜라주, 영어·중국어 자막, 강조 단어 확대와 개인정보 영역 흐림도 같은 대화에서 처리해요. 이 편집은 AgentReel의 실행 환경에서 돌아가는 라이브러리 기능이며 구매가 필요해요. 초대 크레딧은 사용할 수 있지만 연결 앱 목록 자체를 넓힌 업데이트는 아니에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-10"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-11",
+      "title": "HyperFrames, 에이전트의 지출 한도와 실패한 렌더 복구를 보강했어요 (11/4~5 KST · 후속)",
+      "snippet": "0.9.11에서 지정한 크레딧 한도가 모든 유료 미디어 호출에 적용돼요. 에이전트에게 제작을 맡길 때 명시한 예산이 호출별로 지켜지도록 보강했어요.",
+      "text": "HyperFrames, 에이전트의 지출 한도와 실패한 렌더 복구를 보강했어요 (11/4~5 KST · 후속) 0.9.11에서 지정한 크레딧 한도가 모든 유료 미디어 호출에 적용돼요. 에이전트에게 제작을 맡길 때 명시한 예산이 호출별로 지켜지도록 보강했어요. 렌더 중 컴퓨터가 잠들거나 캡처가 멈췄을 때 처음부터가 아니라 아직 쓰지 않은 프레임부터 이어가는 처리가 추가됐어요. 모든 페이지가 준비 시간 초과로 실패하면 작업자 수를 줄여 다시 시도해요. Windows 드라이브 루트 저장, 디스크 용량 부족, 실패한 실행의 종료 코드도 고쳤어요. 자동 제작에서 오류를 성공한 파일처럼 처리하지 않는 데 관련된 변경이에요. billing top-up 명령은 billing add-credits로 바뀌고 이전 이름의 별칭은 없어요. 기존 자동화에 명령어를 넣었다면 수정해야 해요. HTML 기반 영상을 만들고 렌더하는 도구의 운영 개선이며 새 영상 생성 모델 출시는 아니에요. 실제 제작 속도가 일정 비율 빨라졌다는 독립 측정은 없어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-11"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-12",
+      "title": "Tripo, DeepSeek Harness와 3D 게임을 만드는 과정을 공개했어요 (11/4 · 제작 해설)",
+      "snippet": "Tripo는 Sunset City라는 브라우저 게임의 15초 플레이 시연과 건물·플레이어·가로등의 생성 결과를 공개했어요. 게임 전체 요청에서 개별 자산 작업과 구현을 나누는 과정을 설명해요.",
+      "text": "Tripo, DeepSeek Harness와 3D 게임을 만드는 과정을 공개했어요 (11/4 · 제작 해설) Tripo는 Sunset City라는 브라우저 게임의 15초 플레이 시연과 건물·플레이어·가로등의 생성 결과를 공개했어요. 게임 전체 요청에서 개별 자산 작업과 구현을 나누는 과정을 설명해요. Tripo가 텍스처가 있는 3D 모델과 캐릭터 리깅·애니메이션을 처리하고, DeepSeek Harness의 에이전트가 이를 조율해 Three.js 게임 코드를 만들어요. DeepSeek 모델이 혼자 3D 자산까지 생성한 사례로 읽으면 안 돼요. 공개 플러그인은 tripo-3d·tripo-game-asset 스킬로 Tripo CLI를 사용해요. 계정 연결·설정 뒤 미리보기를 검토하고 도로 폭·차량 세부 묘사 같은 수정을 같은 대화에서 이어가요. CLI는 Studio와 별도인 API 크레딧을 사용해요. 유료 Studio 사용자의 1,000 API 크레딧 혜택은 현재 자격 확인이 필요하며 총 제작 비용·시간은 공개되지 않았어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-12"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-13",
+      "title": "Timeline Studio, 브라우저에서 선화 소스와 편집용 프록시를 만들어요 (11/4 · 11/3 누락 보완)",
+      "snippet": "공개 AI 영상 편집기 Timeline Studio가 11/4 로컬 선화 변환을 추가했어요. 선의 세부 묘사·굵기·반전을 조절하고 결과를 미리 볼 수 있어요.",
+      "text": "Timeline Studio, 브라우저에서 선화 소스와 편집용 프록시를 만들어요 (11/4 · 11/3 누락 보완) 공개 AI 영상 편집기 Timeline Studio가 11/4 로컬 선화 변환을 추가했어요. 선의 세부 묘사·굵기·반전을 조절하고 결과를 미리 볼 수 있어요. 이미지는 PNG, 영상은 잘라낸 구간·속도 변경·원본 오디오를 반영한 24fps WebM으로 저장해요. 결과는 My Assets에 들어가며 타임라인에 자동 삽입되지는 않아요. 11/3에는 최대 1280px 편집용 프록시를 브라우저에서 백그라운드 생성하고 재사용하는 기능을 넣었어요. 최종 내보내기에는 원본을 사용해요. 기존 에이전트 연결·로컬 AI 기능과 함께 쓸 수 있지만 이번 선화 효과를 새 생성 모델 출시로 보면 안 돼요. 자체 코드는 MIT이며 외부 모델 라이선스는 별도이고, README는 기술 연구·학습 목적 사용을 안내해 상업 사용을 일괄 보장하지 않아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-13"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-14",
+      "title": "DSH Blender 3.0.5, 검사 도구가 실행되지 않던 오류를 고쳤어요 (11/4 KST · 후속)",
+      "snippet": "소스 주입형 Python 모듈에서 파일 경로 변수가 빠져 audit·qc·contract 같은 상위 작업이 실패하던 오류를 수정했어요. 11/2의 설치 방식 변경과 별개인 실사용 수정이며 새 모델링 기능 출시는 아니에요.",
+      "text": "DSH Blender 3.0.5, 검사 도구가 실행되지 않던 오류를 고쳤어요 (11/4 KST · 후속) 소스 주입형 Python 모듈에서 파일 경로 변수가 빠져 audit·qc·contract 같은 상위 작업이 실패하던 오류를 수정했어요. 11/2의 설치 방식 변경과 별개인 실사용 수정이며 새 모델링 기능 출시는 아니에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-14"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-15",
+      "title": "Kling 4.0 Flash, 전체 사용자에게 열리고 20초 생성 API를 제공해요 (11/5 00:00 KST · 후속)",
+      "snippet": "Kling이 4.0 Flash를 웹사이트와 API에서 모든 사용자에게 제공한다고 발표했어요. 앞서 일부 구독자에게 먼저 공개했던 모델의 이용 대상 확대이며, 전체 사용자가 무료로 생성한다는 뜻은 아니에요.",
+      "text": "Kling 4.0 Flash, 전체 사용자에게 열리고 20초 생성 API를 제공해요 (11/5 00:00 KST · 후속) Kling이 4.0 Flash를 웹사이트와 API에서 모든 사용자에게 제공한다고 발표했어요. 앞서 일부 구독자에게 먼저 공개했던 모델의 이용 대상 확대이며, 전체 사용자가 무료로 생성한다는 뜻은 아니에요. API는 720p로 3~20초 영상을 만들어요. 텍스트·첫 프레임 이미지·여러 참조 자료를 이용하는 세 경로를 지원하며, Omni에서는 영상 편집과 오디오 생성도 다뤄요. 참조 이미지는 최대 10개, 영상은 최대 5개이며 이미지·영상·요소를 합쳐 한 작업에 최대 15개까지 넣을 수 있어요. 21:9 화면비와 입력에 맞추는 화면비도 지원해요. 현재 API 표의 720p 단가는 영상 입력이 없으면 출력 1초당 US$0.094예요. 영상 입력이 있으면 US$0.063에 과금 초를 곱하며, 입력이 출력보다 짧거나 같으면 출력 길이의 두 배, 더 길면 입력과 출력 길이의 합을 청구해요. 함께 안내한 MCP·CLI·AI 플러그인은 제작 도구에서 생성 작업을 연결하는 경로예요. 구체적인 웹 플랜·지역별 조건은 확인하지 못했으며, 현재 Flash API 표에는 1080p·4K 단가가 없어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-15"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-16",
+      "title": "鲸锐AI, 공개 등록을 열고 영상 생성·팀 제작 관리를 한곳에 묶었어요 (11/4 · 후속)",
+      "snippet": "虎鲸文娱가 영화·드라마 제작 플랫폼 Jingrui AI(鲸锐AI)를 정식 공개했다고 밝혔어요. 9월에 소개했던 비공개 테스트 계획에서, 누구나 등록할 수 있는 단계로 바뀌었다는 소식이에요.",
+      "text": "鲸锐AI, 공개 등록을 열고 영상 생성·팀 제작 관리를 한곳에 묶었어요 (11/4 · 후속) 虎鲸文娱가 영화·드라마 제작 플랫폼 Jingrui AI(鲸锐AI)를 정식 공개했다고 밝혔어요. 9월에 소개했던 비공개 테스트 계획에서, 누구나 등록할 수 있는 단계로 바뀌었다는 소식이에요. 회사 발표에 따르면 외부 영상 모델 50여 개와 자체 모델 10여 개를 연결하고, 캔버스에서 장면·인물 연기·카메라·가상 세트·조명을 조절해요. 생성 도구를 바꿔 가며 만든 자료를 한 제작 공간에서 관리하는 방식이에요. 천 단위 노드와 최대 100명의 동시 협업을 지원한다고 안내해요. 회차·장면·팀·프로젝트별 소비 내역도 추적해 긴 작품의 자산과 비용을 함께 관리할 수 있어요. 현재 공식 화면에서도 가상 세트, 인물 질감 개선, 영상 편집, 업스케일·HDR 도구를 확인했어요. 발표의 4K·60fps·10bit HDR 출력은 이런 보정 도구를 포함한 제작 흐름 설명이며, 모든 생성 모델의 기본 출력 규격으로 볼 수는 없어요. 가입 뒤 구독 없이 크레딧을 충전해 쓰는 방식이며 팀 좌석 수 제한은 없다고 보도됐어요. 정확한 크레딧 단가와 한국 계정의 가입·결제 조건은 확인하지 못했어요. 회사가 제시한 완성 영상 분당 비용 30% 이상 절감은 자체 비교예요. 독립적인 성능·비용 검증이나 특정 작품의 흥행 결과는 아니에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-16"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-17",
+      "title": "Kling 4.0 제작 실험, 장면 전체 대신 한 동작을 고치는 과정을 보여줘요 (11/4 · 제작 사례)",
+      "snippet": "감독이자 Fountain 0 공동 창업자인 Ash Koosha가 Kling 4.0을 자체 제작 시스템에서 시험한 과정을 공개했어요. 새 모델 출시와는 별도로, 완성된 장면의 좋은 부분을 유지하며 수정하는 사례예요.",
+      "text": "Kling 4.0 제작 실험, 장면 전체 대신 한 동작을 고치는 과정을 보여줘요 (11/4 · 제작 사례) 감독이자 Fountain 0 공동 창업자인 Ash Koosha가 Kling 4.0을 자체 제작 시스템에서 시험한 과정을 공개했어요. 새 모델 출시와는 별도로, 완성된 장면의 좋은 부분을 유지하며 수정하는 사례예요. 시연에서는 남자가 테이프를 던지는 동작을 탁자에 내려놓는 동작으로 바꾸고, 배경과 주변 인물은 대체로 유지했어요. 표정·행동 한 부분을 고치려고 장면 전체를 다시 만드는 부담을 줄이려는 접근이에요. 최대 30초 단일 생성은 인물이 망설이고 반응한 뒤 행동을 끝낼 시간을 준다고 설명해요. 여러 숏의 방향·순서를 제어하는 기능도 시험했지만, 연출 판단은 감독에게 남는다고 강조했어요. 팀은 사용할 수 없어 버리는 영상이 최소 50% 줄어들 수 있다고 예상했어요. 이는 초기 테스트에 따른 추정치이며 실제 장편 제작비나 폐기율을 독립 검증한 결과가 아니에요. 글에 등장하는 기존 장편 두 편은 Kling 3.0으로 제작됐어요. 이번 글을 Kling 4.0으로 장편 두 편을 완성했다는 사례로 읽으면 안 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-17"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "콘텐츠 제작 · 크리에이티브",
+      "sectionId": "콘텐츠-제작-크리에이티브",
+      "cardId": "c-콘텐츠-제작-크리에이티브-18",
+      "title": "Vidu·Reactor, 사진 한 장으로 대화하는 캐릭터를 만드는 경로를 정리했어요 (11/2 · 누락 보완·사용 안내)",
+      "snippet": "Vidu가 S2-Avatar를 Reactor에서 사진·성격 설명·목소리와 함께 쓰는 과정을 소개했어요. 캐릭터를 만든 뒤 마이크나 텍스트로 대화하고, 말을 끊거나 웹캠 입력을 연결하는 흐름이에요.",
+      "text": "Vidu·Reactor, 사진 한 장으로 대화하는 캐릭터를 만드는 경로를 정리했어요 (11/2 · 누락 보완·사용 안내) Vidu가 S2-Avatar를 Reactor에서 사진·성격 설명·목소리와 함께 쓰는 과정을 소개했어요. 캐릭터를 만든 뒤 마이크나 텍스트로 대화하고, 말을 끊거나 웹캠 입력을 연결하는 흐름이에요. 현재 Reactor 체험 화면과 API 경로가 있으며 S2-Avatar 요율은 초당 US$0.007, 분당 US$0.42예요. 생성된 영상 길이만이 아니라 준비된 세션이 유지되는 시간에 과금돼, 대기 시간도 비용에 포함돼요. 캐릭터와 대화 흐름·안전 규칙을 서비스에 붙이는 일은 개발자가 맡아야 해요. 11/2 글은 협업·사용 안내이며, 적어도 10/21 Reactor 모델 목록에 이미 있던 기능을 이날 처음 출시한 것은 아니에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-콘텐츠-제작-크리에이티브-18"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-01",
+      "title": "Claude Marketplace, 제작·업무 도구 구매 경로를 넓혔어요 (11/4)",
+      "snippet": "Anthropic이 Claude Marketplace에 새 에이전트와 파트너 제품을 추가했어요. 발표는 25개 이상, 현재 Agents & products 목록은 29개 제품을 표시해요.",
+      "text": "Claude Marketplace, 제작·업무 도구 구매 경로를 넓혔어요 (11/4) Anthropic이 Claude Marketplace에 새 에이전트와 파트너 제품을 추가했어요. 발표는 25개 이상, 현재 Agents & products 목록은 29개 제품을 표시해요. AirOps의 AI 검색·콘텐츠 업무, Runway의 영상·이미지·오디오 제작, Webflow의 웹사이트 운영이 포함돼요. Asana·Glean·monday.com·Zoom 같은 업무 도구와 Datadog·Netlify도 소개했어요. 대상 기업은 Anthropic과 약정한 지출 일부를 파트너 솔루션 구매에 쓸 수 있어요. 현재 목록은 Request to buy 방식이며, 모든 Claude 구독에 해당 도구가 무료로 포함되는 것은 아니에요. 이번 변화는 구매·도입 경로 확장이에요. 각 파트너 제품의 최초 출시나 자동 통합 완료와 구별하고, 실제 가격·약정 적용·권한은 도입할 제품별로 확인해야 해요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-마케팅-비즈니스-01"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-02",
+      "title": "OpenAI, Pierre 인수로 Codex의 코드 검토·저장을 넓히려 해요 (11/4)",
+      "snippet": "OpenAI가 Code Storage와 Trees·Diffs를 만든 Pierre 인수를 발표했어요. Trees·Diffs는 이미 Codex의 파일 탐색과 변경 검토에 쓰이며, Code Storage 기능을 Codex로 가져오는 작업은 앞으로 진행할 계획이에요.",
+      "text": "OpenAI, Pierre 인수로 Codex의 코드 검토·저장을 넓히려 해요 (11/4) OpenAI가 Code Storage와 Trees·Diffs를 만든 Pierre 인수를 발표했어요. Trees·Diffs는 이미 Codex의 파일 탐색과 변경 검토에 쓰이며, Code Storage 기능을 Codex로 가져오는 작업은 앞으로 진행할 계획이에요. 규제 승인 등 종결 조건이 남아 있고 두 회사는 그때까지 독립 운영해요. 기존 오픈소스 프로젝트는 계속 공개하고 Code Storage 고객의 이용도 유지한다고 밝혔어요. 새 Codex 기능의 출시 완료로 쓰면 안 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-마케팅-비즈니스-02"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-03",
+      "title": "ElevenAgents, 기존 콜센터에 AI 음성 상담을 연결해요 (11/4)",
+      "snippet": "ElevenLabs가 NiCE CXone·Genesys Cloud·Amazon Connect·Five9 연결을 발표했어요. 기존 전화·배분 체계에 음성 에이전트를 붙이고 다른 시스템에는 SIP 연결 경로를 안내해요.",
+      "text": "ElevenAgents, 기존 콜센터에 AI 음성 상담을 연결해요 (11/4) ElevenLabs가 NiCE CXone·Genesys Cloud·Amazon Connect·Five9 연결을 발표했어요. 기존 전화·배분 체계에 음성 에이전트를 붙이고 다른 시스템에는 SIP 연결 경로를 안내해요. 통화 맥락을 AI에게 넘겨 업무를 처리하게 하고, 사람이 필요하면 기존 상담원 배분으로 돌려보내요. 기존 녹음·규정 준수·CRM 흐름을 유지하는 통합을 목표로 해요. Genesys는 네이티브 Audio Connector를 사용해 별도 SIP 트렁크가 필요하지 않아요. Amazon Connect에서는 실시간 고객 대화와 백그라운드 업무 중 하나 또는 둘 다 처리할 수 있어요. Five9 경로는 유료 AI Agent Connect 추가 기능이 필요하고 Five9 담당자를 통해 활성화해요. NiCE도 영업 상담 안내가 있어, 모든 고객이 별도 설정 없이 바로 쓰는 무료 기능으로 보면 안 돼요. 상담팀은 모델 음질뿐 아니라 고객 정보 전달, 상담원 전환, CRM 기록이 실제 기존 운영과 이어지는지 시험해야 해요. 통합별 전체 가격은 공개 글에서 확인되지 않았어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-마케팅-비즈니스-03"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-04",
+      "title": "Adobe Coworker, 기업 마케팅 분석을 ChatGPT·Claude·Gemini로 연결해요 (11/4)",
+      "snippet": "Adobe가 CX Enterprise Coworker를 ChatGPT·Claude·Databricks Genie·Gemini for business·Microsoft Copilot에서 이용하도록 연결했어요. 고객 여정과 캠페인·세그먼트 분석을 평소 쓰는 AI 대화에 가져오는 기능이에요.",
+      "text": "Adobe Coworker, 기업 마케팅 분석을 ChatGPT·Claude·Gemini로 연결해요 (11/4) Adobe가 CX Enterprise Coworker를 ChatGPT·Claude·Databricks Genie·Gemini for business·Microsoft Copilot에서 이용하도록 연결했어요. 고객 여정과 캠페인·세그먼트 분석을 평소 쓰는 AI 대화에 가져오는 기능이에요. 조직에 Coworker가 설정돼 있어야 하며 Adobe Experience Platform과 Real-Time CDP·Journey Optimizer·Customer Journey Analytics 중 하나 이상이 필요해요. 연결할 AI 플랫폼 접근권한과 조직 관리자 허용도 확인해야 해요. 플랫폼 연동 자체에는 추가 요금이 없지만 기존 Coworker 라이선스와 AI 크레딧을 사용해요. 누구나 쓰는 무료 ChatGPT 기능은 아니에요. 공식 통합 문서상 외부 AI 플랫폼에서는 읽기 전용 인사이트를 제공하며 고객 데이터를 수정하지 않아요. 일반 Coworker의 실행 기능을 외부 채팅에서 캠페인을 바로 집행하는 기능으로 확대하면 안 돼요. Amazon Quick·IBM·Snowflake를 호스트로 쓰는 제공은 발표문에서 향후 예정이에요. 문서에는 일부 설정법이 먼저 올라와 있어 전체 GA 여부는 확인하지 못했어요. 별도 MCP 커넥터 추가와도 구분해야 해요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-마케팅-비즈니스-04"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-05",
+      "title": "Agentforce Coworker, 업무 연결·스킬과 월 50달러 요금을 발표했어요 (11/4)",
+      "snippet": "Salesforce가 Coworker의 Google Workspace·Microsoft 365 연결, 대화 이력, 반복 작업용 Skills를 발표했어요. CRM 업무에 필요한 문서·대화 맥락을 함께 쓰는 변화예요.",
+      "text": "Agentforce Coworker, 업무 연결·스킬과 월 50달러 요금을 발표했어요 (11/4) Salesforce가 Coworker의 Google Workspace·Microsoft 365 연결, 대화 이력, 반복 작업용 Skills를 발표했어요. CRM 업무에 필요한 문서·대화 맥락을 함께 쓰는 변화예요. 사용자당 월 50달러 구독을 새로 제시했어요. 기존 CRM 권한과 승인 체계를 적용하며 계정별 계약·포함 범위는 별도로 확인해야 해요. Microsoft Teams·iOS·Mac/Windows·Coworker MCP·Flex Credits 체험의 GA는 11월 중으로 안내돼요. 월 단위 일정만으로 오늘 전부 제공된다고 볼 수 없어요. 일일 요약·예약 작업과 현장 서비스 등 모바일 확대는 12월 예정이에요. 지금 연결할 수 있는 업무와 향후 기능을 분리해 도입 계획을 잡는 편이 좋아요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-마케팅-비즈니스-05"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-06",
+      "title": "Get MCP Ads, 광고 이름 규칙과 실험 예산을 집행 전에 검수해요 (11/4 · 10/31·11/3 누락 보완)",
+      "snippet": "여러 광고 계정을 AI 대화에 연결하는 Get MCP Ads가 11/4 고객별 캠페인·광고 이름 규칙을 추가했어요. 엄격한 설정에서는 규칙에 맞지 않는 이름을 생성 전에 거절해요.",
+      "text": "Get MCP Ads, 광고 이름 규칙과 실험 예산을 집행 전에 검수해요 (11/4 · 10/31·11/3 누락 보완) 여러 광고 계정을 AI 대화에 연결하는 Get MCP Ads가 11/4 고객별 캠페인·광고 이름 규칙을 추가했어요. 엄격한 설정에서는 규칙에 맞지 않는 이름을 생성 전에 거절해요. 11/3에는 미디어 계획의 A/B·Conversion Lift 실험군에 예산 비중을 정확히 배분하는 기능을 더했어요. Meta 광고 교체 추천의 보관 처리도 승인과 상태 저장 뒤 진행하도록 안내해요. 10/31 변경에는 Excel·CSV·PDF·Google Sheets 등에서 계획을 읽고 9개 광고 플랫폼용 초안을 만드는 흐름이 있어요. 확인 뒤 생성되는 광고는 일시중지 상태이며, 계획 수정과 실제 집행은 구분돼요. 무료 플랜은 계정 1개·월 200회 요청의 읽기 전용이에요. 월 결제 Pro는 39달러·4개 계정·월 500개 광고이며 추가 계정은 월 10달러예요. API 연결이 무료라고 광고비나 호스팅 사용량까지 무료인 것은 아니에요. 신규 도구 목록의 11/1 등록일을 첫 출시일로 쓰지 않고 날짜가 명시된 실제 변경을 채택했어요. 계정 권한과 변경 미리보기를 먼저 확인하고 실제 매체 예산을 별도로 관리해야 해요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-마케팅-비즈니스-06"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-07",
+      "title": "Nooks, 영업 에이전트 플랫폼을 넓히고 Node 대기 명단을 열었어요 (11/4)",
+      "snippet": "Nooks가 연락·거래·확장 영업·코칭을 공유 맥락으로 연결하는 Revenue Agent Platform을 발표했어요. 인바운드 에이전트는 2027년 1분기 예정으로 나눠 안내해요.",
+      "text": "Nooks, 영업 에이전트 플랫폼을 넓히고 Node 대기 명단을 열었어요 (11/4) Nooks가 연락·거래·확장 영업·코칭을 공유 맥락으로 연결하는 Revenue Agent Platform을 발표했어요. 인바운드 에이전트는 2027년 1분기 예정으로 나눠 안내해요. 새 개인 비서 Node는 약속한 후속 이메일·미팅·CRM 변경을 준비하고 담당자의 승인을 받아요. 현재 제품은 대기 명단이며 기존 고객이 우선이에요. 플랫폼 발표를 Node 전면 GA로 해석하면 안 돼요. 공개 정액 요금은 확인되지 않았어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-마케팅-비즈니스-07"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-08",
+      "title": "Lorikeet Dreamweaver, 고객별 목표와 연락 조건을 바탕으로 후속 작업을 준비해요 (11/5 시드니 발표)",
+      "snippet": "Lorikeet은 Concierge 에이전트에 Dreamweaver를 내장해 현재 제공한다고 발표했어요. 활성화·유지 같은 목표와 고객 이력을 바탕으로 연락·내부 작업·아무 행동도 하지 않기를 선택하고 음성·SMS·이메일을 연결하는 제품이에요.",
+      "text": "Lorikeet Dreamweaver, 고객별 목표와 연락 조건을 바탕으로 후속 작업을 준비해요 (11/5 시드니 발표) Lorikeet은 Concierge 에이전트에 Dreamweaver를 내장해 현재 제공한다고 발표했어요. 활성화·유지 같은 목표와 고객 이력을 바탕으로 연락·내부 작업·아무 행동도 하지 않기를 선택하고 음성·SMS·이메일을 연결하는 제품이에요. 동의·연락 시간·빈도 제한을 확인하는 흐름을 제시해요. 다만 개별 제품·가입 페이지는 조회되지 않아 실제 신청 가능 계정·지역과 요금은 검증하지 못했어요. 발표상의 현재 제공과 직접 가입 확인은 구분해야 해요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-마케팅-비즈니스-08"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-09",
+      "title": "FUTR Agent Leads, 잠재고객 정보와 영업 준비용 에이전트를 함께 제공해요 (11/4)",
+      "snippet": "FUTR가 고객이 자발적으로 공유한 자료를 바탕으로 영업 담당자가 통화·미팅을 준비하도록 돕는 Agent Leads를 발표했어요. 금융 자문사 대상은 현재 제공이고 자동차 판매사 확대는 4분기 예정이에요.",
+      "text": "FUTR Agent Leads, 잠재고객 정보와 영업 준비용 에이전트를 함께 제공해요 (11/4) FUTR가 고객이 자발적으로 공유한 자료를 바탕으로 영업 담당자가 통화·미팅을 준비하도록 돕는 Agent Leads를 발표했어요. 금융 자문사 대상은 현재 제공이고 자동차 판매사 확대는 4분기 예정이에요. 고객 앱과 사업자 에이전트 사이의 자동 미팅 예약은 개발 중이에요. 검증된 잠재고객별 과금 모델이지만 단가는 공개되지 않았으며, 민감한 고객 자료의 동의·권한을 별도로 확인해야 해요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-마케팅-비즈니스-09"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-10",
+      "title": "Adthena, ChatGPT 광고 노출 사례 20만여 건의 관측 결과를 발표했어요 (11/4)",
+      "snippet": "Adthena가 6~9월 추적한 ChatGPT 광고 게재 사례 204,489건을 발표했어요. 고유 광고주·사용자·구매 건수나 ChatGPT 전체 광고 규모를 뜻하는 수치는 아니에요.",
+      "text": "Adthena, ChatGPT 광고 노출 사례 20만여 건의 관측 결과를 발표했어요 (11/4) Adthena가 6~9월 추적한 ChatGPT 광고 게재 사례 204,489건을 발표했어요. 고유 광고주·사용자·구매 건수나 ChatGPT 전체 광고 규모를 뜻하는 수치는 아니에요. 구매 전 탐색 단계의 광고를 강조하지만 조사 업체의 관측과 분류예요. 보고서 연결 페이지는 조회 실패해 상세 표본·방법을 독립 검증하지 못했으며 매출 효과나 다음 해 전망을 확정 성과로 쓰면 안 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-마케팅-비즈니스-10"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "마케팅 · 비즈니스",
+      "sectionId": "마케팅-비즈니스",
+      "cardId": "c-마케팅-비즈니스-11",
+      "title": "타오바오, 배우 허락을 받은 AI 숏드라마를 상품·라이브 쇼핑과 연결해요 (11/3 · 누락 보완)",
+      "snippet": "양쯔완바오는 타오바오의 AI 숏드라마에 배우 원비샤가 허락한 이미지와 브랜드 상품을 결합한 사례를 소개했어요. 《九尾神临》에는 Midea·Dyson 상품을 이야기 속에 배치했어요.",
+      "text": "타오바오, 배우 허락을 받은 AI 숏드라마를 상품·라이브 쇼핑과 연결해요 (11/3 · 누락 보완) 양쯔완바오는 타오바오의 AI 숏드라마에 배우 원비샤가 허락한 이미지와 브랜드 상품을 결합한 사례를 소개했어요. 《九尾神临》에는 Midea·Dyson 상품을 이야기 속에 배치했어요. 기사에서는 Wan 3.0 제작과 상품 연결·인플루언서 리뷰·라이브 쇼핑을 이어가는 흐름을 설명해요. 다른 가구 브랜드의 옷장 소재 드라마도 함께 다뤄요. 특정 캠페인의 배우 이미지 이용 허락이 다른 창작자에게 같은 권리를 주는 것은 아니에요. 사용 모델을 언급한 사례이며 Wan 3.0의 일반 계정·API 신규 출시 증거도 아니에요. 기사에 제시된 제작·전환 성과는 독립 검증하지 않았어요. 브랜드 실무에서는 이야기의 상품 노출 방식과 권리 범위, 구매 경로를 각각 확인할 사례예요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-마케팅-비즈니스-11"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-01",
+      "title": "Grok 이미지 구형 이름, 2.0 low로 전환 완료를 명시했어요 (11/2 적용 · 후속)",
+      "snippet": "xAI의 새 릴리스 기록은 grok-imagine-image-quality와 grok-imagine-image-pro가 11/2 종료됐으며 기존 이름의 요청을 Grok Imagine 2.0 low로 처리한다고 명시해요. 전일 브리프에서는 예고만 확인했지만 이번에는 완료 표현을 확인…",
+      "text": "Grok 이미지 구형 이름, 2.0 low로 전환 완료를 명시했어요 (11/2 적용 · 후속) xAI의 새 릴리스 기록은 grok-imagine-image-quality와 grok-imagine-image-pro가 11/2 종료됐으며 기존 이름의 요청을 Grok Imagine 2.0 low로 처리한다고 명시해요. 전일 브리프에서는 예고만 확인했지만 이번에는 완료 표현을 확인했어요. 표준 생성은 1K $0.04·2K $0.06이고 편집 입력 이미지당 $0.01이 붙어요. 기존 1.0의 grok-imagine-image는 영향이 없어요. 직접 2.0으로 바꾸면서 quality를 생략하면 편집의 auto 기본값은 medium이므로 비용·결과를 다시 비교해야 해요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-테크-인프라-규제-01"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-02",
+      "title": "Copilot 사용량 API, 개인 연결 모델과 기업 모델을 구분해요 (11/3 · 누락 보완)",
+      "snippet": "GitHub가 로컬·개인 키로 연결한 모델의 사용량과 기업 관리자가 등록한 모델을 구별하는 지표를 추가했어요. 기존 총계는 바뀌지 않고 별도 분류가 생겨, 팀이 GitHub 제공 모델 이외의 사용을 확인하기 쉬워져요.",
+      "text": "Copilot 사용량 API, 개인 연결 모델과 기업 모델을 구분해요 (11/3 · 누락 보완) GitHub가 로컬·개인 키로 연결한 모델의 사용량과 기업 관리자가 등록한 모델을 구별하는 지표를 추가했어요. 기존 총계는 바뀌지 않고 별도 분류가 생겨, 팀이 GitHub 제공 모델 이외의 사용을 확인하기 쉬워져요. 로컬 사용량은 클라이언트가 보낸 기록에 의존하므로 기록을 끄거나 공급자가 토큰 수를 주지 않으면 빠질 수 있어요. 기업 모델 표시는 과거 데이터에 소급되지 않아요. 사용량 지표를 실제 청구서와 같은 값으로 취급하면 안 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-테크-인프라-규제-02"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-03",
+      "title": "Daybreak Red, AWS GovCloud 미국 동부로 제공 범위를 넓혔어요 (11/4)",
+      "snippet": "GPT-5.6 Cyber가 Daybreak Red를 통해 AWS GovCloud US-East의 승인 고객에게 제공돼요. 정부 보안팀의 허가된 취약점 검증·방어 업무를 위한 확장이지 일반 ChatGPT 모델 공개가 아니에요.",
+      "text": "Daybreak Red, AWS GovCloud 미국 동부로 제공 범위를 넓혔어요 (11/4) GPT-5.6 Cyber가 Daybreak Red를 통해 AWS GovCloud US-East의 승인 고객에게 제공돼요. 정부 보안팀의 허가된 취약점 검증·방어 업무를 위한 확장이지 일반 ChatGPT 모델 공개가 아니에요. OpenAI의 Daybreak Red 승인과 AWS의 별도 활성화가 모두 필요해요. 승인을 받아도 AWS 접근이 자동으로 열리지는 않으며, Bedrock 추론 데이터는 모델 학습에 쓰지 않는다고 밝혔어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-테크-인프라-규제-03"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-04",
+      "title": "Krea, 팀의 Agent 사용 권한을 웹·API·MCP에서 함께 제어해요 (11/4)",
+      "snippet": "Business·Enterprise 관리자가 조직·워크스페이스·개인별로 Krea Agent 사용을 허용하거나 차단할 수 있어요. 기존 Model Access는 Access Controls로 이름을 바꾸고 모델 규칙과 기능 규칙을 나눠요.",
+      "text": "Krea, 팀의 Agent 사용 권한을 웹·API·MCP에서 함께 제어해요 (11/4) Business·Enterprise 관리자가 조직·워크스페이스·개인별로 Krea Agent 사용을 허용하거나 차단할 수 있어요. 기존 Model Access는 Access Controls로 이름을 바꾸고 모델 규칙과 기능 규칙을 나눠요. 차단은 웹·iOS·Slack·API·MCP뿐 아니라 Ad Studio 채팅·3D Studio·Nodes의 에이전트에도 적용돼요. API·MCP에서는 HTTP 403을 반환해요. 조직의 차단이 워크스페이스 허용보다 우선해요. 허용된 사람만 쓰도록 설정할 때 관리자가 자기 계정도 허용하지 않으면 본인 역시 Agent를 쓰지 못해요. 차단된 사용자의 정기 실행은 다음 예약 시점에 꺼지고, 권한을 돌려줘도 사용자가 다시 켜야 해요. 과거 대화는 유지돼요. 팀 자동화가 멈췄다면 모델 문제보다 접근 규칙부터 확인할 수 있어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-테크-인프라-규제-04"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-05",
+      "title": "PixelDojo 약관 v6, 중재·책임 범위와 동의 조건을 바꿨어요 (11/4)",
+      "snippet": "새 약관은 개인 중재와 집단 소송 포기 조항을 추가해요. 해당 조항이 있는 약관을 처음 수락한 뒤 30일 안에 Settings의 Legal 또는 이메일로 제외를 신청할 수 있어요. 법이 허용하지 않는 지역에는 예외가 있어요.",
+      "text": "PixelDojo 약관 v6, 중재·책임 범위와 동의 조건을 바꿨어요 (11/4) 새 약관은 개인 중재와 집단 소송 포기 조항을 추가해요. 해당 조항이 있는 약관을 처음 수락한 뒤 30일 안에 Settings의 Legal 또는 이메일로 제외를 신청할 수 있어요. 법이 허용하지 않는 지역에는 예외가 있어요. 책임 한도는 $100과 직전 6개월 요금 중 큰 금액을 기준으로 하며 청구 기한·면책 범위도 바뀌었어요. 강행 소비자 보호 등 예외는 별도 조항을 따라요. 기존 v3 수락자가 v6에 동의하지 않으면 v3이 계속 적용되지만, 12/5부터 웹에서 계속 생성하려면 v6 동의를 요구해요. 거절해 계정을 닫으면 미사용 구독 기간·구매 크레딧의 비례 환불을 안내해요. 무료 생성물은 일부 유럽 지역 등을 제외하면 갤러리 공개가 기본이며 비공개로 바꾸거나 제거할 수 있어요. 11/4에는 무료 생성물의 비공개 설정이 계정 전체·다른 기기에도 적용되도록 바뀌었어요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-테크-인프라-규제-05"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-06",
+      "title": "MiniMax H3 로컬 실험, 15초 영상에 걸린 시간과 메모리를 공개했어요 (10/31 발표·11/3 수정 · 누락 보완)",
+      "snippet": "연구자 두 명이 M5 Pro·64GiB Mac mini에서 H3 Q8 모델을 실행한 측정치를 공개했어요. 576×1024의 15.08초 영상 생성에 약 80.6분, MLX 최대 메모리 27.467GiB가 들었으며, 17개 영상은 26.49시간 동안 렌더 오류 없이 완료됐다고 보고했…",
+      "text": "MiniMax H3 로컬 실험, 15초 영상에 걸린 시간과 메모리를 공개했어요 (10/31 발표·11/3 수정 · 누락 보완) 연구자 두 명이 M5 Pro·64GiB Mac mini에서 H3 Q8 모델을 실행한 측정치를 공개했어요. 576×1024의 15.08초 영상 생성에 약 80.6분, MLX 최대 메모리 27.467GiB가 들었으며, 17개 영상은 26.49시간 동안 렌더 오류 없이 완료됐다고 보고했어요. 특정 장비·설정의 자체 실험이며 실시간 제작 성능이나 보편적 품질 보장은 아니에요. 현재 H3 커뮤니티 라이선스는 한국·미국·EU·영국을 적용 지역에서 제외해요. 가중치를 받을 수 있다는 이유만으로 한국에서 자유롭게 로컬 사용 가능한 모델로 소개하지 않으며 별도 허가 조건을 확인해야 해요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-테크-인프라-규제-06"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-07",
+      "title": "Cloudflare, 개인 AI 에이전트의 방문과 접근 정책을 나눠 관리해요 (11/4)",
+      "snippet": "Cloudflare가 Bot Analysis에 Personal Assistants 분류를 더해 개인을 대신해 방문하는 에이전트의 요청·경로·응답 상태를 살펴보도록 했어요. 검색 수집과 학습용 방문을 같은 흐름으로 취급하지 않아요.",
+      "text": "Cloudflare, 개인 AI 에이전트의 방문과 접근 정책을 나눠 관리해요 (11/4) Cloudflare가 Bot Analysis에 Personal Assistants 분류를 더해 개인을 대신해 방문하는 에이전트의 요청·경로·응답 상태를 살펴보도록 했어요. 검색 수집과 학습용 방문을 같은 흐름으로 취급하지 않아요. AI Crawler and Agent 정책에는 기본 에이전트 정책과 개별 Allow·광고가 있는 페이지 차단·전체 차단을 설정하는 경로가 들어가요. 사이트 운영자가 에이전트별 접근을 구분할 수 있어요. 로그인·가입 사용자와 에이전트를 연결하는 Account Abuse Protection은 초기 접근 단계예요. 분석 기능 발표가 모든 요금제에서 전체 보호 기능을 바로 제공한다는 뜻은 아니에요. 브랜드 사이트에서는 유입 통계와 차단 정책을 먼저 살펴야 해요. 에이전트 식별과 사용자의 실제 로그인·구매 권한은 별도로 확인해야 해요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-테크-인프라-규제-07"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-08",
+      "title": "Cloudflare AI Gateway, 모델 별칭으로 대체 순서와 경로를 관리해요 (11/4)",
+      "snippet": "하나의 모델 별칭 아래 여러 모델을 묶고 지정 순서대로 대체하거나 스마트 라우팅을 적용해요. 앱 코드를 다시 배포하지 않고 Gateway에서 구성을 바꿀 수 있어요.",
+      "text": "Cloudflare AI Gateway, 모델 별칭으로 대체 순서와 경로를 관리해요 (11/4) 하나의 모델 별칭 아래 여러 모델을 묶고 지정 순서대로 대체하거나 스마트 라우팅을 적용해요. 앱 코드를 다시 배포하지 않고 Gateway에서 구성을 바꿀 수 있어요. 별칭은 Gateway 범위로 관리돼요. 모델별 기능·가격·데이터 처리 조건은 그대로 확인해야 하며 무료 추론 발표는 아니에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-테크-인프라-규제-08"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-09",
+      "title": "PagerDuty Paige, 장애 조사·복구를 연결하는 플랫폼과 함께 GA로 나왔어요 (11/3 · 누락 보완)",
+      "snippet": "PagerDuty는 Paige와 PD Reliability Platform을 11/3 GA로 발표했어요. 장애 탐지·조사·복구와 사후 검토를 연결하며 사람이 승인하는 방식과 잘 알려진 상황의 자율 대응을 구분해 설정해요.",
+      "text": "PagerDuty Paige, 장애 조사·복구를 연결하는 플랫폼과 함께 GA로 나왔어요 (11/3 · 누락 보완) PagerDuty는 Paige와 PD Reliability Platform을 11/3 GA로 발표했어요. 장애 탐지·조사·복구와 사후 검토를 연결하며 사람이 승인하는 방식과 잘 알려진 상황의 자율 대응을 구분해 설정해요. 새 콘솔은 해당 플랫폼 고객용이에요. 운영 규모 기반 기본료에 이벤트·AI 작업·좌석을 포함하고 추가 크레딧을 사는 구조로, 기존 모든 고객에게 무료 자동 복구를 일괄 적용하는 출시는 아니에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-테크-인프라-규제-09"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-10",
+      "title": "Apple, 연애·성적 대화형 가상 동반자 앱의 18세 등급을 예고했어요 (11/2 · 누락 보완)",
+      "snippet": "Apple은 11/16부터 App Store Connect에 위치 공유와 Dating and Relationships 항목을 추가해요. 후자는 실제 사람 간 관계뿐 아니라 성적·로맨틱 콘텐츠로 대화하는 가상 동반자를 포함하며 최소 18세 등급을 받아요.",
+      "text": "Apple, 연애·성적 대화형 가상 동반자 앱의 18세 등급을 예고했어요 (11/2 · 누락 보완) Apple은 11/16부터 App Store Connect에 위치 공유와 Dating and Relationships 항목을 추가해요. 후자는 실제 사람 간 관계뿐 아니라 성적·로맨틱 콘텐츠로 대화하는 가상 동반자를 포함하며 최소 18세 등급을 받아요. 앱 업데이트나 등급 설문 수정 시 신고해야 하고 모든 앱의 완료 기한은 2027/1/12예요. 오늘 이미 시행된 정책이나 모든 AI 캐릭터 앱의 일괄 18세 분류로 확대하면 안 돼요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-테크-인프라-규제-10"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "테크 · 인프라 · 규제",
+      "sectionId": "테크-인프라-규제",
+      "cardId": "c-테크-인프라-규제-11",
+      "title": "중국 기업·기관, 에이전트 권한과 사용자 최종 통제를 위한 자율 공약을 발표했어요 (11/4)",
+      "snippet": "중국정보통신연구원과 Tencent·Alibaba·Ant·Douyin 등 참여 주체가 신뢰·상호운용·보안·사용자 권리 등을 다룬 8개 자율 조치를 발표했다고 보도됐어요. 기사에 실린 전문은 권한 초과·개인정보 유출 방지와 중요 사안의 사용자 최종 통제를 명시해요.",
+      "text": "중국 기업·기관, 에이전트 권한과 사용자 최종 통제를 위한 자율 공약을 발표했어요 (11/4) 중국정보통신연구원과 Tencent·Alibaba·Ant·Douyin 등 참여 주체가 신뢰·상호운용·보안·사용자 권리 등을 다룬 8개 자율 조치를 발표했다고 보도됐어요. 기사에 실린 전문은 권한 초과·개인정보 유출 방지와 중요 사안의 사용자 최종 통제를 명시해요. 산업 자율 공약이지 새 법률의 시행이나 모든 제품의 기술적 준수 검증은 아니에요. 원기관 발표 페이지는 확보하지 못해 전문을 게재한 보도 범위로 한정해요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-테크-인프라-규제-11"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "SNS · 커뮤니티 반응",
+      "sectionId": "sns-커뮤니티-반응",
+      "cardId": "c-sns-커뮤니티-반응-01",
+      "title": "Henry Cavill의 게임 제작을 Googlebook 영상 시리즈로 공개해요 (11/5 KST)",
+      "snippet": "Google이 Henry Cavill이 16비트 게임 Mustache Protocol을 만드는 새 영상 시리즈를 공개했어요. Antigravity로 게임 규칙을 만들고 Rambler·Magic Pointer 등을 쓰는 제작 과정을 보여주는 캠페인이에요.",
+      "text": "Henry Cavill의 게임 제작을 Googlebook 영상 시리즈로 공개해요 (11/5 KST) Google이 Henry Cavill이 16비트 게임 Mustache Protocol을 만드는 새 영상 시리즈를 공개했어요. Antigravity로 게임 규칙을 만들고 Rambler·Magic Pointer 등을 쓰는 제작 과정을 보여주는 캠페인이에요. 첫 영상은 공개됐지만 게임은 완성 후 플레이하도록 예고했어요. 앞으로 몇 주간 이어질 시리즈이며, 게임 공개나 새로운 모델 출시로 보지 않았어요. 발표 시각은 공식 RSS의 11/4 18:00 UTC, 한국 시각 11/5 03:00이에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-sns-커뮤니티-반응-01"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "SNS · 커뮤니티 반응",
+      "sectionId": "sns-커뮤니티-반응",
+      "cardId": "c-sns-커뮤니티-반응-02",
+      "title": "Tripo Campus Remix, 손그림 캐릭터를 3D·AR로 옮긴 학생 사례를 공개했어요 (11/4 사례 소개)",
+      "snippet": "회사가 공개한 서울대 사례에서는 학생들의 손그림 캐릭터를 3D로 만들고 AR로 교실 등에 배치했어요. 원화에 없던 뒷모습이 생성된 점과 모델링·리깅 단축 가능성에 대한 학생 반응을 소개해요.",
+      "text": "Tripo Campus Remix, 손그림 캐릭터를 3D·AR로 옮긴 학생 사례를 공개했어요 (11/4 사례 소개) 회사가 공개한 서울대 사례에서는 학생들의 손그림 캐릭터를 3D로 만들고 AR로 교실 등에 배치했어요. 원화에 없던 뒷모습이 생성된 점과 모델링·리깅 단축 가능성에 대한 학생 반응을 소개해요. 얼굴 질감·야외 조명·폴리곤 수·내보내기·모바일 AR 호환성에 대한 개선 의견도 함께 담았어요. 회사가 소개한 사례이며 작업 시간 단축이나 교육 효과를 독립 측정한 결과는 아니에요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-sns-커뮤니티-반응-02"
+    },
+    {
+      "date": "2026-11-05",
+      "displayDate": "2026년 11월 5일(목)",
+      "briefTitle": "이미지·목소리·영상의 수정이 쉬워지고, 제작과 업무 연결의 실제 제공 범위가 넓어져요",
+      "briefUrl": "brief/2026-11-05.html",
+      "section": "SNS · 커뮤니티 반응",
+      "sectionId": "sns-커뮤니티-반응",
+      "cardId": "c-sns-커뮤니티-반응-03",
+      "title": "OiiOii 실사용 후기, 코드로 그린 UI와 생성 영상을 섞어 광고를 변형해요 (11/3 · 누락 보완·제작 사례)",
+      "snippet": "창작자 @aiwarts는 OiiOii의 全能复刻를 이용해 참고 영상과 교체할 이미지로 UI 시연·모션그래픽·상품 광고 등 여섯 유형을 변형한 후기를 올렸어요. 공식 현재 화면에서도 해당 기능의 진입점을 확인했어요.",
+      "text": "OiiOii 실사용 후기, 코드로 그린 UI와 생성 영상을 섞어 광고를 변형해요 (11/3 · 누락 보완·제작 사례) 창작자 @aiwarts는 OiiOii의 全能复刻를 이용해 참고 영상과 교체할 이미지로 UI 시연·모션그래픽·상품 광고 등 여섯 유형을 변형한 후기를 올렸어요. 공식 현재 화면에서도 해당 기능의 진입점을 확인했어요. 후기에서는 인물·상품 장면은 Seedance 2.5로, 글자·UI·그래픽은 Opus 5.5가 만든 코드를 브라우저에서 렌더하는 방식이라고 설명해요. 텍스트나 로고를 바꾸는 광고 변형에 참고할 수 있지만, 사용자는 직접 코드를 쓰지 않았다는 주장과 모델 구성은 후기 작성자의 설명이에요. 기능 최초 출시일과 플랜별 포함 범위는 확인하지 못했어요. 원 X 긴 글은 접근되지 않아 본문 전재를 읽었으며, 작성자의 속도·비용 절감 주장은 독립 검증되지 않았어요. 참고 영상·인물·로고는 사용할 권한이 있는 자료로 준비해야 해요.",
+      "domains": [
+        "agents",
+        "creative",
+        "marketing",
+        "models",
+        "policy"
+      ],
+      "href": "brief/2026-11-05.html#c-sns-커뮤니티-반응-03"
+    },
     {
       "date": "2026-11-04",
       "displayDate": "2026년 11월 4일(수)",

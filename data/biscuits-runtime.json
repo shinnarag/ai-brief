@@ -1,130 +1,123 @@
 {
-  "date": "2026-11-04",
-  "label": "11월 4일 브리프",
+  "date": "2026-11-05",
+  "label": "11월 5일 브리프",
   "termIds": [
     "resolution",
+    "tts",
     "short-drama",
-    "reference-image",
-    "mcp",
-    "sandbox",
-    "harness"
+    "hdr",
+    "ai-influencer",
+    "reference-image"
   ],
   "allMatchedIds": [
+    "upscale",
+    "ai-influencer",
     "short-drama",
     "reference-image",
     "early-access",
     "credits",
     "harness",
-    "open-weight",
-    "prompt",
     "agent",
     "token",
     "cli",
     "api",
-    "sandbox",
-    "watermark",
     "ga",
     "mcp",
+    "hdr",
+    "tts",
     "resolution"
   ],
   "candidates": [
     {
-      "term": "Suno",
-      "hint": "음악 생성",
-      "hits": 7,
-      "sample": "료를 주장하지 않았어요. > 스윕: Suno 구 블로그 404는 현재 suno.com/blog로 복구해 10/29",
-      "brief_date": "2026-11-04"
-    },
-    {
-      "term": "Hailuo/MiniMax",
-      "hint": "영상·모델 벤더",
-      "hits": 3,
-      "sample": "meng/CapCut을 대조했어요. MiniMax 모델 10/19와 API의 2025/10/28을 구분했고 Hailuo",
-      "brief_date": "2026-11-04"
+      "term": "Kling",
+      "hint": "영상 생성 모델",
+      "hits": 19,
+      "sample": "· 음성 리믹스 저장·과금 확인 · Kling 영상 입력 과금 계산 · Premiere 베타로 짧은 촬영본 시험 ·",
+      "brief_date": "2026-11-05"
     },
     {
       "term": "Luma",
       "hint": "영상 생성",
-      "hits": 2,
-      "sample": "제품 10/13·API 10/29, Luma 기존 제품·상태, HappyShrimp 베타·Alibaba 문서, So",
-      "brief_date": "2026-11-04"
+      "hits": 14,
+      "sample": "ere 베타로 짧은 촬영본 시험 · Luma 연결 크레딧 점검 수집 시각: 2026-11-05 09:47 KST 범",
+      "brief_date": "2026-11-05"
     },
     {
-      "term": "Midjourney",
-      "hint": "이미지 생성 서비스",
-      "hits": 2,
-      "sample": "새로 만들지 않았어요. > 스윕: Midjourney 업데이트 10/8·빈 제품 목록, Higgsfield 11/2·API,",
-      "brief_date": "2026-11-04"
+      "term": "Higgsfield",
+      "hint": "영상·모션 생성 플랫폼",
+      "hits": 9,
+      "sample": "이스 확대를 구분했어요. > 스윕: Higgsfield 11/3 Shorts·PixelDojo 11/4 모델/약관·Krea 1",
+      "brief_date": "2026-11-05"
     },
     {
-      "term": "Pika",
-      "hint": "영상 생성",
-      "hits": 2,
-      "sample": "dlight·Gemini 종료 예고·Pika 오디오 출력은 기수록이에요. 같은 제품의 새 기능·제공 경로·독립 제작",
-      "brief_date": "2026-11-04"
+      "term": "ElevenLabs",
+      "hint": "음성 합성",
+      "hits": 8,
+      "sample": "에 최신 전체 발표는 미확인이에요. ElevenLabs Product 11/4와 날짜별 API 11/2를 따로 읽어 콜센터 연",
+      "brief_date": "2026-11-05"
+    },
+    {
+      "term": "Hailuo/MiniMax",
+      "hint": "영상·모델 벤더",
+      "hits": 6,
+      "sample": "Stream·변경 기록·Q4·가격, MiniMax·Hailuo·Kling·Hunyuan·Wan·PixVerse·Happy",
+      "brief_date": "2026-11-05"
+    },
+    {
+      "term": "화면비",
+      "hint": "9:16·16:9 등",
+      "hits": 3,
+      "sample": "명·배경을 바꾸고 최대 4K·10개 화면비로 만들어요. - 모든 유료 플랜에 포함되며 플랜은 월 $10부터예",
+      "brief_date": "2026-11-05"
     },
     {
       "term": "Runway",
       "hint": "영상·크리에이티브 툴",
       "hits": 2,
-      "sample": "iggsfield 11/2·API, Runway 제품 10/27·연구 9/3·API 10/28, fal 블로그 10/2",
-      "brief_date": "2026-11-04"
+      "sample": "11/5 KST 베타를 확인했어요. Runway·fal·BFL·Kittl·OpusClip·Reap·FrameLoop·F",
+      "brief_date": "2026-11-05"
+    },
+    {
+      "term": "Suno",
+      "hint": "음악 생성",
+      "hits": 2,
+      "sample": "이커머스·6sense·Smartly·Suno Studio Chat·기존 Gemini 종료 예고는 기수록이에요. 같은",
+      "brief_date": "2026-11-05"
+    },
+    {
+      "term": "Pika",
+      "hint": "영상 생성",
+      "hits": 1,
+      "sample": "ific은 기존 발표와 대조했어요. Pika 웹 GA와 Hume API 대기 명단은 전면 제공으로 바꾸지 않았어요.",
+      "brief_date": "2026-11-05"
     },
     {
       "term": "Seedance",
       "hint": "ByteDance 영상 생성 모델",
-      "hits": 2,
-      "sample": "Gina는 Krea 3로 디자인하고 Seedance 2.5로 움직였어요. 하나의 이미지 모델로 모든 인물을 만들지 않아도",
-      "brief_date": "2026-11-04"
+      "hits": 1,
+      "sample": "- 후기에서는 인물·상품 장면은 Seedance 2.5로, 글자·UI·그래픽은 Opus 5.5가 만든 코드를 브라우저에",
+      "brief_date": "2026-11-05"
     },
     {
       "term": "fal",
       "hint": "생성 모델 추론 허브",
-      "hits": 2,
-      "sample": "7·연구 9/3·API 10/28, fal 블로그 10/20·Explore, BFL 블로그 10/15·API 10",
-      "brief_date": "2026-11-04"
+      "hits": 1,
+      "sample": "T 베타를 확인했어요. Runway·fal·BFL·Kittl·OpusClip·Reap·FrameLoop·Figma",
+      "brief_date": "2026-11-05"
     },
     {
-      "term": "ComfyUI",
-      "hint": "노드 기반 생성 워크플로 UI",
+      "term": "星图(광고 단가 플랫폼)",
+      "hint": "중국 인플루언서 단가 표시",
       "hits": 1,
-      "sample": "로 LTX-2.5에서 음향을 만드는 ComfyUI 작업을 시연했어요. 추가 학습 없이 영상 표현을 고정하고 생성한 음향을",
-      "brief_date": "2026-11-04"
+      "sample": "Omni에서는 영상 편집과 오디오 생성도 다뤄요. - 참조 이미지는 최대 10개, 영상은 최대 5개이며 이",
+      "brief_date": "2026-11-05"
     },
     {
-      "term": "ElevenLabs",
-      "hint": "음성 합성",
+      "term": "파인튜닝",
+      "hint": "추가 학습으로 맞춤",
       "hits": 1,
-      "sample": "재 발표 전체를 확정하지 못했어요. ElevenLabs Product 11/2·SFX v3·API 10/26, Mistral",
-      "brief_date": "2026-11-04"
-    },
-    {
-      "term": "Higgsfield",
-      "hint": "영상·모션 생성 플랫폼",
-      "hits": 1,
-      "sample": "업데이트 10/8·빈 제품 목록, Higgsfield 11/2·API, Runway 제품 10/27·연구 9/3·API 10",
-      "brief_date": "2026-11-04"
-    },
-    {
-      "term": "Kling",
-      "hint": "영상 생성 모델",
-      "hits": 1,
-      "sample": "초과는 공개 HTML로 복구했어요. Kling API·가격은 제목만 읽혀 공식 Kuaishou 발표로 부분 보완했지만",
-      "brief_date": "2026-11-04"
-    },
-    {
-      "term": "Udio",
-      "hint": "음악 생성",
-      "hits": 1,
-      "sample": "완했고 릴리스·MCP는 기존이에요. Udio 목록 최신 노출은 2025/11/19라 현재 발표 전체를 확정하지 못했",
-      "brief_date": "2026-11-04"
-    },
-    {
-      "term": "화면비",
-      "hint": "9:16·16:9 등",
-      "hits": 1,
-      "sample": "상 제작 방식을 고르고 품질·해상도·화면비를 질문해요. 실행 전에 승인 카드에서 설정을 확인하고 바꿀 수 있어요.",
-      "brief_date": "2026-11-04"
+      "sample": "ssional Voice Clone 파인튜닝도 모든 워크스페이스 제공으로 바뀌었어요. 해당 복제 음성의 강도 설정을",
+      "brief_date": "2026-11-05"
     }
   ],
   "catalogSize": 61
