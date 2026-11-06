@@ -80,6 +80,8 @@
 
 이 영역도 매번 확인합니다. 익숙한 도구의 업데이트와 새로운 상업 사례를 함께 찾습니다.
 
+- CRM 작업·보고서: [Klaviyo 날짜별 변경 기록](https://www.klaviyo.com/whats-new)과 [공식 도움말](https://help.klaviyo.com/)을 함께 봅니다. 2026-11-06 누락 점검에서 11/2~4의 Shopify·Asana 연결과 보고서·공유 변경을 확인했어요. 날짜 없는 상단 소개와 실제 변경일을 구분하고, 연결 앱별 읽기·쓰기 권한·실행 확인 방식·공유 대상·Composer 이용 자격을 대조합니다.
+
 - 광고·커머스·CRM: OpenAI·Google·Meta의 광고 발표, HubSpot의 제품 발표, Shopify 앱의 개발사·출시일·요금 조건을 대조합니다. [HubSpot 공식 뉴스](https://hubspot.gcs-web.com/news-releases)의 회사 배포 발표와 제품 문서를 함께 봅니다. IR 경로가 실패하면 2026-09-23 본문 조회를 확인한 [회사 뉴스룸](https://www.hubspot.com/company-news)의 개별 발표문으로 보완합니다.
 - 웨비나·AI 광고 운영: [Sequel 블로그](https://sequel.io/blog/introducing-sequel-agents)와 [Brandlight AI Ads 제품](https://brandlight.ai/platform/ai-ads)을 확인합니다. 2026-11-03 확인 기준 Sequel은 기존 고객 GA·향후 작업량 과금, Brandlight는 일부 초기 고객·대기 명단이에요. 자동 초안과 외부 발송/변경 승인, AI 노출 표본과 직접 매체 계정 데이터를 구분합니다.
 - 광고 계정 연결·집행 검수: 2026-11-05 목록 밖 탐색에서 확인한 [Get MCP Ads 변경 기록](https://www.getmcpads.com/changelog)·[현재 제품·가격](https://www.getmcpads.com/)을 함께 봅니다. 도구 목록 등록일과 실제 기능 변경일, 무료 읽기와 유료 변경, 승인 뒤 일시중지 상태의 생성과 실제 광고 집행·매체 비용을 구분합니다.
